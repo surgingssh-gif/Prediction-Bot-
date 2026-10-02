@@ -43,8 +43,8 @@ can happen.
 not try to guess them. Give your own independent judgment.
 
 For each question, return its id, your probability as a whole-number percent \
-from 1 to 99, and 2-4 plain-English sentences of reasoning that a high \
-school student could follow, naming the key evidence."""
+from 1 to 99, and 2-4 plain-English sentences of reasoning that a general \
+reader could follow, naming the key evidence."""
 
 # The exact JSON shape we want back. The API guarantees Claude's answer
 # matches it, so we don't have to guess how to read it.

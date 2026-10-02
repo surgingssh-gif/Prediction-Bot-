@@ -174,20 +174,8 @@ https://console.anthropic.com > **Usage**.
 
 | Date | What changed and why |
 |---|---|
-| (start date) | Experiment started with `claude-opus-5-5`, medium effort. |
-
----
-
-## Timeline ideas
-
-- **Now - Feb 2027:** let it run. Check the site weekly; note anything odd in the log.
-- **By ~100 settled questions** (around 3-5 weeks in): first meaningful look at the scoreboard.
-- **Feb-Mar 2027:** regional science fair. You'll need a teacher mentor, so ask
-  one early (a math, statistics or computer science teacher fits well).
-  Good things to show: the calibration chart, AI vs crowd Brier with its 95% range,
-  results by topic, and how blind forecasting and commit timestamps keep it fair.
-- **By summer 2027:** write it up as a short paper (question, method, results,
-  limitations). The Methodology page is a good first draft of the method section.
+| 2026-10-02 | Experiment started with `claude-opus-5-5`, medium effort. |
+| 2026-10-03 | Reasoning style in the prompt changed from "a high school student could follow" to "a general reader could follow" (wording only; same rules and output). |
 
 ---
 

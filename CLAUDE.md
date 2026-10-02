@@ -8,7 +8,7 @@ price), and we score it against the crowd on exactly the same questions.
 PAPER ONLY: no real money, ever. We only read public market prices.
 
 ## About me
-I'm a high school junior and fairly new to coding. Explain what you're doing
+I'm fairly new to coding. Explain what you're doing
 in plain language, tell me exactly what to click or type when I need to do
 something myself, and keep the code simple and well-commented.
 
