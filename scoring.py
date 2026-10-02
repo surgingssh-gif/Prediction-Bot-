@@ -36,6 +36,7 @@ def scored_questions(forecast_files, resolutions):
             if q.get("excluded"):
                 continue
             ai, outcome = forecast["probability"], res["outcome"]
+            blend = (ai + crowd) / 2  # a simple average of the two forecasts
             rows.append({
                 "market_id": q["market_id"],
                 "topic": q.get("topic"),
@@ -45,6 +46,7 @@ def scored_questions(forecast_files, resolutions):
                 "outcome": outcome,
                 "ai_brier": brier(ai, outcome),
                 "crowd_brier": brier(crowd, outcome),
+                "blend_brier": brier(blend, outcome),
             })
     rows.sort(key=lambda r: r["resolved_at"])
     return rows
@@ -74,6 +76,10 @@ def summary(rows):
         "ci_low": None,
         "ci_high": None,
     }
+    if all("blend_brier" in r for r in rows):
+        # A third forecaster: the average of the AI and the crowd. Averaging
+        # two decent forecasts often beats both of them.
+        result["blend_brier"] = round(sum(r["blend_brier"] for r in rows) / n, 4)
     if n >= 2:
         # Standard error of the average difference (a paired comparison).
         variance = sum((d - mean_diff) ** 2 for d in diffs) / (n - 1)
@@ -127,3 +133,70 @@ def running_scores(rows):
         points.append({"n": i, "date": r["resolved_at"][:10],
                        "ai": round(ai_total / i, 4), "crowd": round(crowd_total / i, 4)})
     return points
+
+
+def movement(questions):
+    """
+    Did the crowd move toward the AI after it forecast? For each question,
+    compares the market price at forecast time with the latest price we
+    recorded while it was still open. "Toward" means the price moved in the
+    direction the AI said it should. If markets keep drifting toward the
+    AI's numbers, that's an early sign it's spotting something real, long
+    before the questions settle.
+
+    questions - dicts with "ai", "crowd" (at forecast time) and "latest"
+    """
+    moves = []
+    for q in questions:
+        if q.get("latest") is None or q.get("ai") is None or abs(q["ai"] - q["crowd"]) < 0.02:
+            continue  # no newer price yet, or the AI basically agreed
+        direction = 1 if q["ai"] > q["crowd"] else -1
+        moves.append((q["latest"] - q["crowd"]) * direction * 100)
+    if not moves:
+        return {"n": 0}
+    return {
+        "n": len(moves),
+        "toward": sum(1 for m in moves if m > 0.5),
+        "away": sum(1 for m in moves if m < -0.5),
+        "avg_pts": round(sum(moves) / len(moves), 2),
+    }
+
+
+def _bet_group(label, bets):
+    cost = sum(b["cost"] for b in bets)
+    pnl = sum(b["pnl"] for b in bets)
+    return {
+        "label": label,
+        "n": len(bets),
+        "wins": sum(1 for b in bets if b["pnl"] > 0),
+        "pnl": round(pnl, 2),
+        "roi": round(pnl / cost * 100, 1) if cost else None,
+    }
+
+
+def bet_breakdown(settled_bets):
+    """
+    How the settled paper bets did, split three ways: by how big the
+    disagreement was, by YES vs NO, and by topic.
+
+    settled_bets - dicts with "gap_pts", "side", "topic", "cost" and "pnl"
+    """
+    by_gap = []
+    for label, lo, hi in (("10-20 points", 10, 20), ("20-30 points", 20, 30), ("30+ points", 30, 101)):
+        group = [b for b in settled_bets if lo <= b["gap_pts"] < hi]
+        if group:
+            by_gap.append(_bet_group(label, group))
+    by_side = [_bet_group(f"Bought {side}", [b for b in settled_bets if b["side"] == side])
+               for side in ("YES", "NO") if any(b["side"] == side for b in settled_bets)]
+    topics = sorted({b["topic"] or "Other" for b in settled_bets})
+    by_topic = [_bet_group(t, [b for b in settled_bets if (b["topic"] or "Other") == t]) for t in topics]
+    by_topic.sort(key=lambda g: -g["n"])
+    return {"by_gap": by_gap, "by_side": by_side, "by_topic": by_topic}
+
+
+def best_and_worst(rows, count=5):
+    """The questions where the AI beat the crowd by the most, and lost by the most."""
+    ranked = sorted(rows, key=lambda r: r["crowd_brier"] - r["ai_brier"], reverse=True)
+    best = [r for r in ranked[:count] if r["crowd_brier"] > r["ai_brier"]]
+    worst = [r for r in reversed(ranked[-count:]) if r["ai_brier"] > r["crowd_brier"]]
+    return best, worst

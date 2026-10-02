@@ -10,7 +10,8 @@ main.py - The daily AI Forecaster run. Use it like this:
 
 Each run does these steps:
   1. Collect answers to any earlier batch that was still waiting
-  2. Check which questions have settled, and record the results
+  2. Check which questions have settled, record the results, and note
+     each open question's current price (for the website)
   3. If today has no forecasts yet: pick ~10 new questions, research
      each one in the news, and send them all to Claude in one batch
   4. When Claude answers: save the forecasts and make paper bets
@@ -187,8 +188,10 @@ def main():
     resolutions = storage.read_resolutions()
     newly_settled = []
     try:
-        newly_settled, failures = check_resolutions(storage.read_forecasts(), resolutions)
+        prices = storage.read_prices()
+        newly_settled, failures = check_resolutions(storage.read_forecasts(), resolutions, prices)
         storage.save_resolutions(resolutions)
+        storage.save_prices(prices)
         print(f"{len(newly_settled)} question(s) settled since the last run.")
         if failures:
             problems.append(f"Couldn't check {failures} question(s) on Polymarket; will retry next run.")

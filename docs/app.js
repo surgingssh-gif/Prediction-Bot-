@@ -117,7 +117,7 @@
     });
   }
 
-  var TABS = ["scoreboard", "calibration", "open", "settled", "method"];
+  var TABS = ["scoreboard", "calibration", "analysis", "open", "settled", "method"];
   function showTab() {
     var name = (location.hash || "").slice(1);
     if (TABS.indexOf(name) < 0) name = "scoreboard";
@@ -307,6 +307,63 @@
     append(clear(container), el("div", { class: "chart" }, legend, holder));
   }
 
+  /*
+   * A tiny chart of the crowd's price over time (orange) with the AI's
+   * forecast as a dashed blue line, so you can see if the crowd is moving
+   * toward the AI. The scale zooms in on the prices so small moves show.
+   */
+  function sparkline(row, width, height) {
+    var W = width || 120, H = height || 34, P = 4;
+    var pts = (row.spark || []).filter(function (p) { return p[1] !== null && p[1] !== undefined; });
+    if (!pts.length) return null;
+    var vals = pts.map(function (p) { return p[1]; }).concat([row.ai]);
+    var lo = Math.min.apply(null, vals), hi = Math.max.apply(null, vals);
+    if (hi - lo < 0.1) { var mid = (hi + lo) / 2; lo = mid - 0.05; hi = mid + 0.05; }
+    var x = function (i) { return pts.length === 1 ? W - P : P + i * (W - 2 * P) / (pts.length - 1); };
+    var y = function (v) { return P + (hi - v) * (H - 2 * P) / (hi - lo); };
+    var first = pts[0][1], last = pts[pts.length - 1][1];
+    var root = svg("svg", { width: W, height: H, viewBox: "0 0 " + W + " " + H, class: "spark", role: "img",
+      "aria-label": "Crowd price went from " + pct(first) + " to " + pct(last) + "; the AI said " + pct(row.ai) });
+    root.appendChild(svg("line", { x1: P, x2: W - P, y1: y(row.ai), y2: y(row.ai), stroke: AI_COLOR, "stroke-width": 1.5, "stroke-dasharray": "3 3" }));
+    if (pts.length > 1) {
+      root.appendChild(svg("path", { d: pts.map(function (p, i) { return (i ? "L" : "M") + x(i).toFixed(1) + "," + y(p[1]).toFixed(1); }).join(""),
+        fill: "none", stroke: CROWD_COLOR, "stroke-width": 2, "stroke-linejoin": "round", "stroke-linecap": "round" }));
+    }
+    root.appendChild(svg("circle", { cx: x(pts.length - 1), cy: y(last), r: 3, fill: CROWD_COLOR, stroke: "var(--paper)", "stroke-width": 1.5 }));
+    return root;
+  }
+
+  /* How far the crowd has moved toward (+) or away from (-) the AI, in points. */
+  function moveText(row) {
+    if (row.latest === undefined || row.latest === null) return "no newer price yet";
+    var pts = Math.round((row.latest - row.crowd) * 100);
+    if (pts === 0) return "unchanged";
+    var toward = (row.ai > row.crowd) === (pts > 0);
+    return (pts > 0 ? "+" : "−") + Math.abs(pts) + " pts, " + (toward ? "toward" : "away from") + " the AI";
+  }
+
+  /* A compact table of questions (used for Latest Forecasts and Settling Soon). */
+  function questionTable(rows, firstCol) {
+    var body = rows.map(function (r) {
+      var now = r.outcome !== undefined ? (r.outcome === "void" ? "Cancelled" : r.outcome === 1 ? "YES" : "NO")
+        : r.latest !== undefined ? pct(r.latest) : pct(r.crowd);
+      var bet = r.bet ? r.bet.side + " " + money(r.bet.cost) : "–";
+      return el("tr", null,
+        firstCol ? el("td", { class: "nowrap", text: firstCol(r) }) : null,
+        el("td", null, r.url ? el("a", { href: r.url, target: "_blank", rel: "noopener", text: r.q }) : r.q,
+          el("div", { class: "row-meta", text: r.topic + " · " + (r.outcome !== undefined ? "settled" : moveText(r)) })),
+        el("td", { class: "r", text: pct(r.ai) }),
+        el("td", { class: "r c-then", text: pct(r.crowd) }),
+        el("td", { class: "r" }, el("div", { class: "now-cell" }, sparkline(r, 72, 26), el("span", { text: now }))),
+        el("td", { class: "r nowrap", text: bet }));
+    });
+    return el("div", { class: "table-scroll" }, el("table", { class: "data qtable" },
+      el("thead", null, el("tr", null, firstCol ? el("th", { text: "Closes" }) : null, el("th", { text: "Question" }),
+        el("th", { class: "r", text: "AI" }), el("th", { class: "r c-then", text: "Crowd then" }),
+        el("th", { class: "r", text: "Now" }), el("th", { class: "r", text: "Paper bet" }))),
+      el("tbody", null, body)));
+  }
+
   // ---------------------------------------------------------------------------
   // Scoreboard
   // ---------------------------------------------------------------------------
@@ -355,13 +412,43 @@
       return el("div", { class: "stat" }, el("div", { class: "label", text: label }),
         el("div", { class: "value" + (cls ? " " + cls : ""), text: value }), el("div", { class: "hint", text: hint }));
     }
+    var unreal = portfolio.unrealized || 0;
+    var mv = DATA.movement || { n: 0 };
     append(clear(document.getElementById("stats")), [
-      stat("Paper bankroll", money(portfolio.equity), "started at " + money(portfolio.start), null),
-      stat("Profit / loss", money(pnl, true), portfolio.staked ? (pnl / portfolio.staked * 100).toFixed(1) + "% of money bet" : "fake money", pnl > 0 ? "up" : pnl < 0 ? "down" : null),
+      stat("Paper bankroll", money(portfolio.equity), "started at " + money(portfolio.start) + " · " + money(pnl, true) + " settled", pnl > 0 ? "up" : pnl < 0 ? "down" : null),
+      stat("At today's prices", money(portfolio.marked_equity || portfolio.equity), (unreal ? money(unreal, true) : "no change") + " on open bets", unreal > 0 ? "up" : unreal < 0 ? "down" : null),
       stat("Bets won", portfolio.settled_bets ? portfolio.wins + " of " + portfolio.settled_bets : "–", "settled paper bets", null),
       stat("Open bets", String(portfolio.open_bets || 0), money(portfolio.open_cost || 0) + " in play", null),
-      stat("Fees paid", money(portfolio.fees || 0), "Polymarket's real fees", null),
+      stat("Crowd moved toward AI", mv.n ? mv.toward + " of " + mv.n : "–", mv.n ? "average " + (mv.avg_pts > 0 ? "+" : "") + mv.avg_pts.toFixed(1) + " pts" : "needs a day of prices", null),
     ]);
+
+    var blend = document.getElementById("blend");
+    clear(blend);
+    if (n && stats.blend_brier !== undefined) {
+      append(blend, ["Third forecaster, the ", el("strong", { text: "blend" }), " (average of the AI and the crowd): Brier " +
+        brier(stats.blend_brier) + ". ", el("a", { href: "#analysis", text: "More in Analysis" })]);
+    }
+
+    // The newest run's questions.
+    var latest = (DATA.open || []).filter(function (r) { return r.run === DATA.latest_run; })
+      .concat(DATA.latest_settled || []);
+    var lc = clear(document.getElementById("latest"));
+    document.getElementById("latest-sub").textContent = DATA.latest_run ? "Run " + DATA.latest_run + " · " + latest.length + " questions" : "";
+    if (latest.length) lc.appendChild(questionTable(latest, null));
+    else lc.appendChild(el("p", { class: "empty", text: "No forecasts yet." }));
+
+    // Open questions closing in the next 7 days.
+    var soonCut = new Date(Date.now() + 7 * 86400000).toISOString().slice(0, 10);
+    var soon = (DATA.open || []).filter(function (r) { return r.end && r.end <= soonCut; });
+    var sc = clear(document.getElementById("soon"));
+    var SOON_MAX = 12;
+    if (soon.length) {
+      sc.appendChild(questionTable(soon.slice(0, SOON_MAX), function (r) { return shortDate(r.end).replace(/, \d{4}$/, ""); }));
+      if (soon.length > SOON_MAX) {
+        sc.appendChild(el("p", { class: "chart-note" }, "And " + (soon.length - SOON_MAX) + " more. ",
+          el("a", { href: "#open", text: "See all open forecasts" })));
+      }
+    } else sc.appendChild(el("p", { class: "empty", text: "Nothing closes in the next 7 days." }));
 
     var running = DATA.running || [];
     var rc = document.getElementById("running-chart");
@@ -460,7 +547,10 @@
       el("div", { class: "compare-legend" },
         el("span", null, keyDot(AI_COLOR), " AI says ", el("strong", { text: pct(row.ai) })),
         el("span", null, keyDot(CROWD_COLOR), " Crowd said ", el("strong", { text: pct(row.crowd) })),
-        el("span", { text: gap + "-point gap" })));
+        el("span", { text: gap + "-point gap" })),
+      row.outcome === undefined ? el("div", { class: "live" }, sparkline(row, 140, 34),
+        el("span", null, "Crowd now ", el("strong", { text: row.latest !== undefined ? pct(row.latest) : pct(row.crowd) }),
+          el("span", { class: "muted", text: " · " + moveText(row) }))) : null);
   }
 
   function sources(row) {
@@ -493,7 +583,9 @@
 
     var betLine = row.bet
       ? el("p", { class: "bet-line" }, "Bought ", el("strong", { text: row.bet.side }), " at " + Math.round(row.bet.price * 100) +
-        "¢ a share: " + row.bet.shares + " shares for " + money(row.bet.cost) + " including " + money(row.bet.fee) + " in fees.")
+        "¢ a share: " + row.bet.shares + " shares for " + money(row.bet.cost) + " including " + money(row.bet.fee) + " in fees." +
+        (row.bet.value !== undefined && row.outcome === undefined ? " Worth " + money(row.bet.value) + " at today's price (" +
+          money(row.bet.value - row.bet.cost, true) + ")." : ""))
       : row.note ? el("p", { class: "bet-line", text: "No bet: " + row.note.replace(/\.$/, "") + "." }) : null;
 
     return el("li", { class: "card" },
@@ -543,6 +635,81 @@
   }
 
   // ---------------------------------------------------------------------------
+  // Analysis
+  // ---------------------------------------------------------------------------
+
+  function simpleTable(headers, rows) {
+    return el("div", { class: "table-scroll" }, el("table", { class: "data" },
+      el("thead", null, el("tr", null, headers.map(function (h, i) { return el("th", { class: i ? "r" : null, text: h }); }))),
+      el("tbody", null, rows.map(function (r) {
+        return el("tr", null, r.map(function (c, i) { return el("td", { class: i ? "r" : null, text: c }); }));
+      }))));
+  }
+
+  function renderAnalysis() {
+    // Crowd movement
+    var mv = DATA.movement || { n: 0 };
+    var mc = clear(document.getElementById("movement"));
+    if (!mv.n) {
+      mc.appendChild(el("p", { class: "empty", text: "This needs at least one day of price changes after a forecast." }));
+    } else {
+      var flat = mv.n - mv.toward - mv.away;
+      append(mc, [
+        el("div", { class: "stats three" },
+          el("div", { class: "stat" }, el("div", { class: "label", text: "Moved toward the AI" }), el("div", { class: "value", text: String(mv.toward) }), el("div", { class: "hint", text: Math.round(mv.toward / mv.n * 100) + "% of " + mv.n })),
+          el("div", { class: "stat" }, el("div", { class: "label", text: "Moved away" }), el("div", { class: "value", text: String(mv.away) }), el("div", { class: "hint", text: Math.round(mv.away / mv.n * 100) + "% of " + mv.n })),
+          el("div", { class: "stat" }, el("div", { class: "label", text: "Average move" }), el("div", { class: "value " + (mv.avg_pts > 0 ? "up" : mv.avg_pts < 0 ? "down" : ""), text: (mv.avg_pts > 0 ? "+" : "") + mv.avg_pts.toFixed(1) + " pts" }), el("div", { class: "hint", text: flat + " barely moved" }))),
+        el("p", { class: "chart-note", text: "Compares each market's price when the AI forecast it with the latest price before it settled. Positive means the crowd moved in the direction the AI predicted. Questions where the AI was within 2 points of the crowd are left out." }),
+      ]);
+    }
+
+    // Three forecasters
+    var fc = clear(document.getElementById("forecasters"));
+    if (!stats.n) {
+      fc.appendChild(el("p", { class: "empty", text: "Appears once questions settle." }));
+    } else {
+      var list = [["The AI", stats.ai_brier], ["The crowd", stats.crowd_brier], ["Blend (average of both)", stats.blend_brier], ["Always saying 50%", 0.25]];
+      fc.appendChild(simpleTable(["Forecaster", "Brier score", "vs. the crowd"], list.map(function (f) {
+        var d = f[1] - stats.crowd_brier;
+        return [f[0], brier(f[1]), f[0] === "The crowd" ? "–" : (d < 0 ? "better by " : d > 0 ? "worse by " : "same ") + Math.abs(d).toFixed(3)];
+      })));
+    }
+
+    // Paper bets
+    var bets = DATA.bets || {};
+    var bc = clear(document.getElementById("bet-breakdown"));
+    if (!(bets.by_side || []).length) {
+      bc.appendChild(el("p", { class: "empty", text: "Appears once paper bets settle." }));
+    } else {
+      var toRows = function (groups) {
+        return groups.map(function (g) {
+          return [g.label, String(g.n), g.wins + " (" + Math.round(g.wins / g.n * 100) + "%)", money(g.pnl, true), g.roi === null ? "–" : (g.roi > 0 ? "+" : "") + g.roi + "%"];
+        });
+      };
+      var head = ["", "Bets", "Won", "Profit", "Return"];
+      append(bc, [
+        el("h3", { class: "sub-head", text: "By size of disagreement" }), simpleTable(head, toRows(bets.by_gap || [])),
+        el("p", { class: "chart-note", text: "If bigger disagreements win more often, the AI's confidence carries real information." }),
+        el("h3", { class: "sub-head", text: "By side" }), simpleTable(head, toRows(bets.by_side || [])),
+        el("h3", { class: "sub-head", text: "By topic" }), simpleTable(head, toRows(bets.by_topic || [])),
+      ]);
+    }
+
+    // Best and worst calls
+    [["best", "No settled question where the AI beat the crowd yet."], ["worst", "No settled question where the crowd beat the AI yet."]].forEach(function (cfg) {
+      var box = clear(document.getElementById(cfg[0] + "-calls"));
+      var rows = DATA[cfg[0]] || [];
+      if (!rows.length) { box.appendChild(el("p", { class: "empty", text: cfg[1] })); return; }
+      box.appendChild(el("ol", { class: "calls" }, rows.map(function (r) {
+        var result = r.outcome === 1 ? "YES" : "NO";
+        return el("li", null, r.url ? el("a", { href: r.url, target: "_blank", rel: "noopener", text: r.q }) : r.q,
+          el("div", { class: "row-meta", text: "Resolved " + result + " · AI " + pct(r.ai) + " vs crowd " + pct(r.crowd) +
+            " · Brier " + brier(r.ai_brier) + " vs " + brier(r.crowd_brier) }));
+      })));
+    });
+  }
+
+  // ---------------------------------------------------------------------------
   // Methodology
   // ---------------------------------------------------------------------------
 
@@ -579,6 +746,12 @@
         "Cancelled questions, and any that closed before the AI's answer arrived, are left out."),
       p("The scoreboard also shows a 95% range for the difference between the two scores. If that range includes zero, " +
         "the difference could just be luck."),
+      h("Other measures"),
+      el("ul", null, [
+        li("Blend: a third forecaster that averages the AI and the crowd, scored the same way. Combining independent forecasts often beats each one alone."),
+        li("Crowd movement: the market's price is recorded once a day while a question is open. If prices tend to move toward the AI's forecast after it's made, the AI may be picking up information before the crowd does. This is an early signal only; the Brier score on settled questions is the real test."),
+        li("Open bets are also valued at today's market midpoint (\u201cAt today's prices\u201d). That figure isn't profit until the question settles."),
+      ]),
       h("Paper trading (fake money)"),
       p("The AI starts with $" + (s.start || 1000).toLocaleString() + " of pretend money. It bets only when its probability " +
         "is at least " + Math.round(s.min_edge * 100) + " points away from the price it would actually pay. It buys at the current " +
@@ -628,6 +801,7 @@
   setupMasthead();
   renderScoreboard();
   renderCalibration();
+  renderAnalysis();
   renderOpen();
   renderSettled();
   renderMethod();

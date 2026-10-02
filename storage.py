@@ -11,6 +11,8 @@ data/forecasts/<date>.json  One file per day: the questions, the market
 data/pending/<date>.json    Questions sent to Claude whose answers haven't
                             come back yet (deleted once they do).
 data/resolutions.json       Results of settled questions, by market id.
+data/prices.json            Each open question's market price, once a day
+                            (for live prices and sparklines on the website).
 """
 
 import json
@@ -19,6 +21,7 @@ import os
 FORECASTS_DIR = os.path.join("data", "forecasts")
 PENDING_DIR = os.path.join("data", "pending")
 RESOLUTIONS_FILE = os.path.join("data", "resolutions.json")
+PRICES_FILE = os.path.join("data", "prices.json")
 
 
 def read_json(path, default=None):
@@ -98,6 +101,19 @@ def delete_pending(run_id):
 
 def save_resolutions(resolutions):
     write_json(RESOLUTIONS_FILE, resolutions)
+
+
+def read_prices():
+    return read_json(PRICES_FILE, {})
+
+
+def save_prices(prices):
+    # One line per market keeps this file short and easy to scan.
+    os.makedirs(os.path.dirname(PRICES_FILE), exist_ok=True)
+    with open(PRICES_FILE, "w", encoding="utf-8") as f:
+        f.write("{\n" + ",\n".join(
+            f"{json.dumps(k)}:{json.dumps(v, separators=(',', ':'))}" for k, v in sorted(prices.items())
+        ) + "\n}\n")
 
 
 def already_forecast():

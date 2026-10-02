@@ -26,7 +26,7 @@ import news
 import scoring
 import storage
 import trading
-from resolver import check_resolutions
+from resolver import check_resolutions, record_price
 
 NOW = datetime(2026, 10, 2, 12, 0, tzinfo=timezone.utc)
 
@@ -490,3 +490,70 @@ def test_discord_message_has_disclaimer_and_splits(workspace):
     assert message.endswith(f"_{config.DISCLAIMER}_")
     long = "\n".join(["x" * 150] * 40)
     assert all(len(c) <= discord_notify.DISCORD_LIMIT for c in discord_notify.split_message(long))
+
+
+# ---------------------------------------------------------------------------
+# Live prices and analysis
+# ---------------------------------------------------------------------------
+
+def test_record_price_keeps_one_point_per_day():
+    prices = {}
+    record_price(prices, "a", fake_market(bid=0.40, ask=0.42), "2026-10-03")
+    record_price(prices, "a", fake_market(bid=0.50, ask=0.52), "2026-10-03")   # same day: replaced
+    record_price(prices, "a", fake_market(bid=0.60, ask=0.62), "2026-10-04")
+    assert prices == {"a": [["2026-10-03", 0.51], ["2026-10-04", 0.61]]}
+
+
+def test_results_check_records_prices_only_for_open_markets():
+    q1, q2 = fake_question("a"), fake_question("b")
+    for q in (q1, q2):
+        q["forecast"] = {"probability": 0.6, "reasoning": "R"}
+    live = {"a": fake_market("a", bid=0.45, ask=0.47),
+            "b": {"closed": True, "outcomePrices": '["1", "0"]', "closedTime": "2026-10-04 00:00:00+00"}}
+    prices = {}
+    check_resolutions([fake_day("2026-10-02", [q1, q2])], {}, prices, fetch=live.get, today="2026-10-03")
+    assert prices == {"a": [["2026-10-03", 0.46]]}
+
+
+def test_crowd_movement_toward_the_ai():
+    questions = [
+        {"ai": 0.70, "crowd": 0.50, "latest": 0.60},   # +10 toward
+        {"ai": 0.20, "crowd": 0.50, "latest": 0.55},   # -5 away
+        {"ai": 0.51, "crowd": 0.50, "latest": 0.90},   # AI basically agreed: skipped
+        {"ai": 0.90, "crowd": 0.50, "latest": None},   # no newer price: skipped
+    ]
+    assert scoring.movement(questions) == {"n": 2, "toward": 1, "away": 1, "avg_pts": 2.5}
+    assert scoring.movement([]) == {"n": 0}
+
+
+def test_bet_breakdown_groups():
+    bets = [
+        {"gap_pts": 12, "side": "YES", "topic": "Tech", "cost": 50, "pnl": 30},
+        {"gap_pts": 25, "side": "NO", "topic": "Tech", "cost": 50, "pnl": -50},
+        {"gap_pts": 40, "side": "NO", "topic": "Politics", "cost": 40, "pnl": 10},
+    ]
+    result = scoring.bet_breakdown(bets)
+    assert [g["label"] for g in result["by_gap"]] == ["10-20 points", "20-30 points", "30+ points"]
+    no = next(g for g in result["by_side"] if g["label"] == "Bought NO")
+    assert no == {"label": "Bought NO", "n": 2, "wins": 1, "pnl": -40, "roi": -44.4}
+    assert result["by_topic"][0]["label"] == "Tech"
+
+
+def test_site_shows_live_value_blend_and_sparkline():
+    q1, q2 = fake_question("a", crowd=0.40), fake_question("b", crowd=0.50)
+    q1["forecast"] = {"probability": 0.70, "reasoning": "R"}
+    q2["forecast"] = {"probability": 0.90, "reasoning": "R"}
+    q1["bet"] = {"side": "YES", "price": 0.42, "shares": 100, "stake": 42, "fee": 1, "cost": 43, "gap_pts": 28}
+    days = [fake_day("2026-10-02", [q1, q2])]
+    resolutions = {"b": {"outcome": 1, "resolved_at": "2026-10-05T00:00:00Z"}}
+    prices = {"a": [["2026-10-03", 0.50], ["2026-10-04", 0.55]]}
+    data = build_site.build_data(days, resolutions, prices=prices)
+    open_row = data["open"][0]
+    assert open_row["latest"] == 0.55
+    assert open_row["spark"] == [["2026-10-02", 0.40], ["2026-10-03", 0.50], ["2026-10-04", 0.55]]
+    assert open_row["bet"]["value"] == 55.0              # 100 YES shares at 55 cents
+    assert data["portfolio"]["unrealized"] == 12.0
+    assert data["stats"]["blend_brier"] == pytest.approx(0.09, abs=1e-4)   # (0.7 - 1)^2
+    assert data["movement"]["toward"] == 1
+    assert [r["id"] for r in data["best"]] == ["b"]      # AI 90% beat crowd 50% on a YES
+    assert data["latest_run"] == "2026-10-02"

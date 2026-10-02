@@ -21,9 +21,27 @@ OUTPUT_FILE = os.path.join("docs", "data.js")
 DEFAULT_REPO = "surgingssh-gif/Prediction-Bot-"
 
 
-def _row(day, q, resolutions, pnl_by_id):
+MAX_SPARK_POINTS = 40  # keeps each sparkline (and data.js) small
+
+
+def _spark(day, q, history):
+    """
+    The crowd's price over time for one question: the price when the AI
+    forecast it, then one point per day after that.
+    """
+    start = (day.get("created_at") or "")[:10]
+    points = [[start, q["snapshot"].get("crowd")]]
+    points += [p for p in history if p[0] > start]
+    if len(points) > MAX_SPARK_POINTS:
+        step = len(points) / MAX_SPARK_POINTS
+        points = [points[int(i * step)] for i in range(MAX_SPARK_POINTS - 1)] + [points[-1]]
+    return points
+
+
+def _row(day, q, resolutions, pnl_by_id, prices=None):
     """One question, trimmed to what the website shows (short keys keep the file small)."""
     res = resolutions.get(q["market_id"]) or {}
+    history = (prices or {}).get(q["market_id"]) or []
     forecast = q.get("forecast") or {}
     bet = q.get("bet")
     row = {
@@ -42,9 +60,17 @@ def _row(day, q, resolutions, pnl_by_id):
             for h in q.get("news") or []
         ],
         "note": q.get("bet_note"),
+        "spark": _spark(day, q, history),
     }
+    # The latest price we saw while the market was still open.
+    if history and history[-1][0] > (day.get("created_at") or "")[:10]:
+        row["latest"] = history[-1][1]
     if bet:
         row["bet"] = {k: bet[k] for k in ("side", "price", "shares", "cost", "fee", "gap_pts")}
+        if not res and "latest" in row:
+            # What the bet would be worth at today's price (not yet real profit).
+            price = row["latest"] if bet["side"] == "YES" else 1 - row["latest"]
+            row["bet"]["value"] = round(bet["shares"] * price, 2)
     if q.get("excluded"):
         row["excluded"] = q["excluded"]
     if res:
@@ -53,6 +79,7 @@ def _row(day, q, resolutions, pnl_by_id):
         if row["ai"] is not None and res["outcome"] in (0, 1):
             row["ai_brier"] = round(scoring.brier(row["ai"], res["outcome"]), 4)
             row["crowd_brier"] = round(scoring.brier(row["crowd"], res["outcome"]), 4)
+            row["blend_brier"] = round(scoring.brier((row["ai"] + row["crowd"]) / 2, res["outcome"]), 4)
         if q["market_id"] in pnl_by_id:
             row["pnl"] = pnl_by_id[q["market_id"]]
     return row
@@ -70,14 +97,20 @@ def daily_bankroll(history, days):
     return [{"date": d, "equity": e} for d, e in sorted(points.items())]
 
 
-def build_data(days, resolutions, pending=None):
+def _short(row):
+    """A question in brief, for the best and worst calls lists."""
+    keys = ("id", "run", "q", "topic", "url", "ai", "crowd", "outcome", "settled", "ai_brier", "crowd_brier")
+    return {k: row[k] for k in keys if k in row}
+
+
+def build_data(days, resolutions, pending=None, prices=None):
     """Everything the website needs, as one dict."""
     pending = pending or []
     rows = scoring.scored_questions(days, resolutions)
     portfolio = trading.replay(days, resolutions)
     pnl_by_id = {s["market_id"]: s["pnl"] for s in portfolio["settled"]}
 
-    all_rows = [_row(d, q, resolutions, pnl_by_id) for d in days for q in d.get("questions", [])]
+    all_rows = [_row(d, q, resolutions, pnl_by_id, prices) for d in days for q in d.get("questions", [])]
     open_rows = [r for r in all_rows if "outcome" not in r and r["ai"] is not None and not r.get("excluded")]
     settled_rows = [r for r in all_rows if "outcome" in r]
     settled_rows.sort(key=lambda r: r["settled"], reverse=True)
@@ -87,6 +120,19 @@ def build_data(days, resolutions, pending=None):
     staked = sum(r["bet"]["cost"] for r in settled_rows if r.get("bet"))
     all_bets = [q["bet"] for d in days for q in d.get("questions", []) if q.get("bet")]
     costs = [d.get("cost_usd") for d in days if d.get("cost_usd") is not None]
+
+    # Open bets valued at today's prices (bets without a newer price count at cost).
+    open_bets = [r["bet"] for r in open_rows if r.get("bet")]
+    open_value = sum(b.get("value", b["cost"]) for b in open_bets)
+    unrealized = round(open_value - sum(b["cost"] for b in open_bets), 2)
+
+    scored_rows = [r for r in all_rows if "ai_brier" in r and not r.get("excluded")]
+    best, worst = scoring.best_and_worst(scored_rows)
+    settled_bet_rows = [
+        {**r["bet"], "topic": r.get("topic"), "pnl": r["pnl"]} for r in settled_rows if r.get("bet") and "pnl" in r
+    ]
+    moving = [r for r in all_rows if r["ai"] is not None and not r.get("excluded")]
+    latest_run = days[-1]["run_id"] if days else None
 
     return {
         "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
@@ -125,7 +171,17 @@ def build_data(days, resolutions, pending=None):
             "pnl": round(sum(s["pnl"] for s in settled_bets), 2),
             "staked": round(staked, 2),
             "fees": round(sum(b["fee"] for b in all_bets), 2),
+            "unrealized": unrealized,
+            "marked_equity": round(portfolio["cash"] + open_value, 2),
         },
+        "movement": scoring.movement(moving),
+        "bets": scoring.bet_breakdown(settled_bet_rows),
+        "best": [_short(r) for r in best],
+        "worst": [_short(r) for r in worst],
+        "latest_run": latest_run,
+        # The newest run's questions that have already settled (rare, but
+        # the "Latest forecasts" section should still list them).
+        "latest_settled": [r for r in settled_rows if r["run"] == latest_run and latest_run],
         "bankroll": daily_bankroll(portfolio["history"], days),
         "open": sorted(open_rows, key=lambda r: r["end"]),
         "settled": settled_rows[: config.MAX_SETTLED_ON_PAGE],
@@ -169,7 +225,8 @@ def write_data(data, path=OUTPUT_FILE):
 
 
 def main():
-    data = build_data(storage.read_forecasts(), storage.read_resolutions(), storage.read_pending())
+    data = build_data(storage.read_forecasts(), storage.read_resolutions(), storage.read_pending(),
+                      storage.read_prices())
     if not write_data(data):
         print(f"{OUTPUT_FILE} is already up to date.")
         return

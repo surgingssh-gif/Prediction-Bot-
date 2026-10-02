@@ -213,6 +213,27 @@ details.more li { margin: 3px 0; }
 .pnl { font: 700 15px/1.2 var(--sans); text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
 .pnl small { display: block; font: 400 11px/1.4 var(--sans); color: var(--muted); }
 
+/* ---- Live prices, sparklines and compact question tables -------------------- */
+.blend { margin: 6px 0 0; font: 400 13px/1.5 var(--sans); color: var(--ink-2); }
+.blend:empty { display: none; }
+.blend a { color: var(--good); }
+.spark { display: block; overflow: visible; }
+.live { display: flex; align-items: center; gap: 10px; margin-top: 10px; font: 400 12.5px/1.4 var(--sans); color: var(--ink-2); }
+.live strong { color: var(--ink); font-variant-numeric: tabular-nums; }
+.muted { color: var(--muted); }
+.qtable td { vertical-align: top; }
+.qtable td a { text-decoration: none; font: 600 13.5px/1.35 var(--serif); }
+.qtable td a:hover { text-decoration: underline; }
+.row-meta { font: 400 11.5px/1.4 var(--sans); color: var(--muted); margin-top: 2px; }
+.now-cell { display: inline-flex; align-items: center; gap: 8px; }
+.nowrap { white-space: nowrap; }
+.stats.three { grid-template-columns: repeat(3, minmax(0, 1fr)); margin-top: 0; }
+.sub-head { font: 700 15px/1.3 var(--serif); margin: 18px 0 6px; }
+ol.calls { margin: 0; padding-left: 20px; }
+ol.calls li { padding: 8px 0; border-bottom: 1px solid var(--hair); font: 600 14px/1.4 var(--serif); }
+ol.calls li a { text-decoration: none; }
+ol.calls li a:hover { text-decoration: underline; }
+
 /* ---- Methodology ------------------------------------------------------------ */
 .prose { max-width: 44em; }
 .prose h3 { font: 700 19px/1.3 var(--serif); margin: 26px 0 6px; }
@@ -231,6 +252,9 @@ details.more li { margin: 3px 0; }
   .duel { grid-template-columns: 1fr; }
   .side + .vs { border: none; justify-content: center; padding: 0; }
   .card-top { flex-direction: column; gap: 6px; }
+  .stats.three { grid-template-columns: 1fr; }
+  .stats.three .stat { padding-left: 0; border-left: none; }
+  .qtable .c-then, .qtable .spark { display: none; }
   .pnl { text-align: left; }
 }
 </style>
@@ -252,6 +276,7 @@ details.more li { margin: 3px 0; }
     <nav class="sections" aria-label="Sections">
       <a href="#scoreboard" data-tab="scoreboard">Scoreboard</a>
       <a href="#calibration" data-tab="calibration">Calibration</a>
+      <a href="#analysis" data-tab="analysis">Analysis</a>
       <a href="#open" data-tab="open">Open Bets</a>
       <a href="#settled" data-tab="settled">Settled</a>
       <a href="#method" data-tab="method">Methodology</a>
@@ -269,7 +294,14 @@ details.more li { margin: 3px 0; }
       </div>
       <div class="duel" id="duel"></div>
       <p class="verdict" id="verdict"></p>
+      <p class="blend" id="blend"></p>
       <div class="stats" id="stats"></div>
+
+      <div class="section-head"><h2>Latest Forecasts</h2><p id="latest-sub"></p></div>
+      <div id="latest"></div>
+
+      <div class="section-head"><h2>Settling Soon</h2><p>Open questions that close in the next 7 days</p></div>
+      <div id="soon"></div>
 
       <div class="two-col">
         <div>
@@ -299,6 +331,29 @@ details.more li { margin: 3px 0; }
       </div>
       <div class="section-head"><h2>The Numbers</h2><p>Each bucket, for both sides</p></div>
       <div id="cal-table"></div>
+    </section>
+
+    <!-- ===== Analysis ===== -->
+    <section class="tab-panel" id="tab-analysis" aria-labelledby="an-h" hidden>
+      <div class="section-head"><h2 id="an-h">Did the Crowd Move Toward the AI?</h2><p>An early signal, before questions settle</p></div>
+      <div id="movement"></div>
+
+      <div class="section-head"><h2>Three Forecasters</h2><p>Brier score on the same settled questions · lower is better</p></div>
+      <div id="forecasters"></div>
+
+      <div class="section-head"><h2>Paper Bets, Broken Down</h2><p>Settled bets only</p></div>
+      <div id="bet-breakdown"></div>
+
+      <div class="two-col">
+        <div>
+          <div class="section-head"><h2>Best Calls</h2><p>Where the AI beat the crowd by the most</p></div>
+          <div id="best-calls"></div>
+        </div>
+        <div>
+          <div class="section-head"><h2>Worst Calls</h2><p>Where the crowd beat the AI by the most</p></div>
+          <div id="worst-calls"></div>
+        </div>
+      </div>
     </section>
 
     <!-- ===== Open bets ===== -->

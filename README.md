@@ -48,6 +48,12 @@ the real asking price and Polymarket's real fee. Bet size uses the **Kelly
 formula** (a classic way to size bets by how big your edge is), scaled down to
 a quarter for safety, and never more than 5% of the bankroll on one question.
 
+**Extra measures on the website:**
+- **Live prices:** what each open market trades at now, and what the open paper bets are worth at today's prices.
+- **Did the crowd move toward the AI?** If market prices keep drifting toward the AI's forecasts after it makes them, that's an early sign it's spotting something, weeks before questions settle.
+- **The blend:** a third forecaster, the average of the AI and the crowd. Blends often beat both.
+- **Bet breakdown:** paper-bet results by size of disagreement, by YES/NO, and by topic, plus the AI's best and worst calls.
+
 ---
 
 ## What each file does
@@ -69,6 +75,7 @@ a quarter for safety, and never more than 5% of the bankroll on one question.
 | `data/forecasts/` | One file per day: questions, prices, news, forecasts, bets. Never edited. |
 | `data/pending/` | Questions sent to Claude that it hasn't answered yet. |
 | `data/resolutions.json` | Results of settled questions. |
+| `data/prices.json` | Each open question's market price, once a day (for live prices and the small price charts). |
 | `.github/workflows/daily.yml` | Runs the bot every day on GitHub. |
 | `.github/workflows/tests.yml` | Runs the tests whenever code changes. |
 | `tests/test_forecaster.py` | Automatic checks with fake data (no keys or internet needed). |
