@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Forecaster</title>
+<meta name="description" content="Can an AI predict real-world events better than the crowd? A public, paper-trading experiment. Research only, not financial or betting advice.">
+<meta name="theme-color" content="#fbfaf7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#161615" media="(prefers-color-scheme: dark)">
+<meta property="og:title" content="The Forecaster">
+<meta property="og:description" content="An AI forecasts real-world events blind, then we score it against the prediction-market crowd. Paper trading only.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23121212'/%3E%3Ctext x='16' y='24' font-family='Georgia,serif' font-size='22' font-weight='700' fill='%23fbfaf7' text-anchor='middle'%3EF%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600;700;800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400;1,8..60,600&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+<style>
+/* ---------------------------------------------------------------------------
+   Colors live here as "tokens", with a light and a dark version (same as The
+   Morning Brief). --series-1 is the AI, --series-2 is the crowd: this pair
+   was checked to stay distinct for colorblind readers.
+--------------------------------------------------------------------------- */
+:root {
+  color-scheme: light;
+  --paper:   #fbfaf7;
+  --paper-2: #f3f1ec;
+  --ink:     #121212;
+  --ink-2:   #45443f;
+  --muted:   #6b6a66;
+  --hair:    #dcdad3;
+  --rule:    #121212;
+  --good:    #2a78d6;
+  --bad:     #e34948;
+  --good-wash: rgba(42,120,214,0.10);
+  --bad-wash:  rgba(227,73,72,0.10);
+  --series-1: #2a78d6;
+  --series-2: #eb6834;
+  --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --sans:  "Libre Franklin", "Helvetica Neue", Arial, sans-serif;
+  --blackletter: "UnifrakturMaguntia", "Old English Text MT", Georgia, serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --paper:   #161615;
+    --paper-2: #1f1f1d;
+    --ink:     #f2f1ec;
+    --ink-2:   #c3c2b7;
+    --muted:   #9a9890;
+    --hair:    #2e2e2b;
+    --rule:    #f2f1ec;
+    --good:    #3987e5;
+    --bad:     #e66767;
+    --good-wash: rgba(57,135,229,0.16);
+    --bad-wash:  rgba(230,103,103,0.16);
+    --series-1: #3987e5;
+    --series-2: #d95926;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --paper:   #161615;
+  --paper-2: #1f1f1d;
+  --ink:     #f2f1ec;
+  --ink-2:   #c3c2b7;
+  --muted:   #9a9890;
+  --hair:    #2e2e2b;
+  --rule:    #f2f1ec;
+  --good:    #3987e5;
+  --bad:     #e66767;
+  --good-wash: rgba(57,135,229,0.16);
+  --bad-wash:  rgba(230,103,103,0.16);
+  --series-1: #3987e5;
+  --series-2: #d95926;
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; background: var(--paper); color: var(--ink);
+  font-family: var(--serif); font-size: 15px; line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+a { color: inherit; }
+.page { max-width: 1100px; margin: 0 auto; padding: 0 24px 48px; }
+.visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+/* ---- Masthead ------------------------------------------------------------ */
+.topbar { display: flex; justify-content: space-between; align-items: center; gap: 12px; font: 500 12px/1.3 var(--sans); color: var(--muted); padding: 14px 0 0; }
+.theme-toggle {
+  font: 600 11px/1 var(--sans); letter-spacing: .06em; text-transform: uppercase;
+  color: var(--ink-2); background: none; border: 1px solid var(--hair);
+  border-radius: 999px; padding: 7px 12px; cursor: pointer; white-space: nowrap; flex: none;
+}
+.theme-toggle:hover { border-color: var(--ink-2); }
+.nameplate { font-family: var(--blackletter); font-weight: 400; font-size: clamp(34px, 5vw, 52px); line-height: 1.1; text-align: center; margin: 10px 0 4px; }
+.motto { text-align: center; font: italic 400 14px/1.4 var(--serif); color: var(--ink-2); margin: 0 0 12px; }
+.dateline {
+  display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 12px;
+  border-top: 1px solid var(--rule); border-bottom: 4px double var(--rule);
+  padding: 6px 0; font: 600 11px/1.3 var(--sans); letter-spacing: .02em;
+}
+.dateline > :nth-child(2) { text-align: center; font-weight: 700; }
+.dateline > :last-child { text-align: right; color: var(--ink-2); font: italic 500 12px/1.3 var(--serif); }
+.sections { display: flex; justify-content: center; flex-wrap: wrap; gap: 4px 22px; border-bottom: 1px solid var(--hair); padding: 8px 0; font: 500 11px/1 var(--sans); letter-spacing: .06em; text-transform: uppercase; }
+.sections a { text-decoration: none; color: var(--ink-2); padding: 6px 0; border-bottom: 2px solid transparent; }
+.sections a:hover { color: var(--ink); border-bottom-color: var(--hair); }
+.sections a[aria-current="page"] { color: var(--ink); font-weight: 700; border-bottom-color: var(--ink); }
+.sections a:focus-visible, button:focus-visible, summary:focus-visible { outline: 2px solid var(--good); outline-offset: 2px; }
+.notice { margin: 14px 0 0; padding: 8px 12px; background: var(--paper-2); border-left: 3px solid var(--ink-2); font: 500 12px/1.5 var(--sans); color: var(--ink-2); }
+
+/* ---- Shared type ---------------------------------------------------------- */
+.tab-panel[hidden] { display: none; }
+.section-head { border-top: 2px solid var(--rule); margin: 44px 0 18px; padding-top: 10px; display: flex; justify-content: space-between; align-items: baseline; gap: 16px; flex-wrap: wrap; }
+.tab-panel > .section-head:first-child { margin-top: 28px; }
+.section-head h2 { margin: 0; font: 700 11px/1.2 var(--sans); letter-spacing: .12em; text-transform: uppercase; }
+.section-head p { margin: 0; font: 400 12px/1.4 var(--sans); color: var(--muted); }
+.kicker { font: 600 10px/1.2 var(--sans); letter-spacing: .12em; text-transform: uppercase; color: var(--ink-2); margin: 0 0 10px; }
+.headline { font: 700 clamp(26px, 3.4vw, 38px)/1.12 var(--serif); margin: 0; letter-spacing: -.005em; }
+.deck { font: 400 17px/1.5 var(--serif); color: var(--ink-2); margin: 10px 0 0; max-width: 44em; }
+.num { font-family: var(--sans); font-variant-numeric: tabular-nums; }
+.empty { font: italic 400 15px/1.6 var(--serif); color: var(--muted); padding: 18px 0; border-top: 1px solid var(--hair); }
+
+/* ---- Scoreboard: the two big numbers --------------------------------------- */
+.lead { margin-top: 30px; }
+.duel { display: grid; grid-template-columns: 1fr auto 1fr; gap: 0; margin-top: 26px; border-top: 1px solid var(--hair); border-bottom: 1px solid var(--hair); }
+.side { padding: 18px 0; text-align: center; }
+.side + .vs { border-left: 1px solid var(--hair); border-right: 1px solid var(--hair); padding: 0 22px; display: flex; align-items: center; font: italic 400 18px/1 var(--serif); color: var(--muted); }
+.side h3 { margin: 0; font: 700 11px/1.2 var(--sans); letter-spacing: .12em; text-transform: uppercase; display: inline-flex; align-items: center; gap: 8px; }
+.side .big { font: 700 clamp(40px, 6vw, 60px)/1.05 var(--serif); margin: 8px 0 2px; font-variant-numeric: tabular-nums; }
+.side .sub { font: 400 12px/1.4 var(--sans); color: var(--muted); }
+.key-line { display: inline-block; width: 16px; height: 0; border-top: 2px solid; vertical-align: middle; }
+.key-dot { display: inline-block; width: 9px; height: 9px; border-radius: 50%; vertical-align: middle; }
+.verdict { margin: 16px 0 0; font: 400 15.5px/1.55 var(--serif); max-width: 46em; }
+.verdict strong { font-weight: 700; }
+
+.stats { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); margin-top: 22px; border-top: 1px solid var(--hair); }
+.stat { padding: 14px 14px 14px 0; }
+.stat + .stat { padding-left: 14px; border-left: 1px solid var(--hair); }
+.stat .label { font: 600 10px/1.3 var(--sans); letter-spacing: .1em; text-transform: uppercase; color: var(--ink-2); }
+.stat .value { font: 700 22px/1.2 var(--sans); margin-top: 6px; font-variant-numeric: tabular-nums; }
+.stat .hint { font: 400 11px/1.4 var(--sans); color: var(--muted); margin-top: 2px; }
+.up { color: var(--good); }
+.down { color: var(--bad); }
+
+/* ---- Charts --------------------------------------------------------------- */
+.chart { position: relative; margin-top: 6px; }
+.chart svg { display: block; width: 100%; height: auto; overflow: visible; }
+.chart .grid line { stroke: var(--hair); stroke-width: 1; }
+.chart .axis text { fill: var(--muted); font: 400 11px var(--sans); font-variant-numeric: tabular-nums; }
+.chart .ref { stroke: var(--muted); stroke-width: 1; stroke-dasharray: 4 4; }
+.chart .ref-label { fill: var(--muted); font: italic 400 11px var(--serif); }
+.chart .series-label { font: 600 11px var(--sans); fill: var(--ink-2); }
+.chart .crosshair { stroke: var(--ink-2); stroke-width: 1; }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 18px; font: 500 12px/1.3 var(--sans); color: var(--ink-2); margin: 0 0 6px; }
+.legend span { display: inline-flex; align-items: center; gap: 7px; }
+.tooltip {
+  position: absolute; pointer-events: none; z-index: 5; min-width: 120px;
+  background: var(--paper); border: 1px solid var(--hair); border-radius: 6px;
+  box-shadow: 0 4px 14px rgba(0,0,0,.12); padding: 8px 10px; font: 400 12px/1.45 var(--sans);
+}
+.tooltip[hidden] { display: none; }
+.tooltip .tt-title { color: var(--muted); font-size: 11px; margin-bottom: 4px; }
+.tooltip .tt-row { display: flex; align-items: center; gap: 8px; }
+.tooltip .tt-row strong { font-weight: 700; color: var(--ink); font-variant-numeric: tabular-nums; }
+.tooltip .tt-row span { color: var(--muted); }
+.chart-note { font: 400 12px/1.5 var(--sans); color: var(--muted); margin: 8px 0 0; }
+.two-col { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 36px; }
+.cal-wrap { max-width: 520px; }
+
+/* ---- Tables ---------------------------------------------------------------- */
+table.data { width: 100%; border-collapse: collapse; font: 400 13px/1.4 var(--sans); font-variant-numeric: tabular-nums; }
+table.data th { text-align: left; font: 600 10px/1.3 var(--sans); letter-spacing: .08em; text-transform: uppercase; color: var(--ink-2); border-bottom: 1px solid var(--rule); padding: 6px 8px 6px 0; }
+table.data td { border-bottom: 1px solid var(--hair); padding: 7px 8px 7px 0; }
+table.data td.r, table.data th.r { text-align: right; }
+.table-scroll { overflow-x: auto; }
+
+/* ---- Question cards (open bets, settled) ------------------------------------ */
+.filters { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 14px; }
+.chip { font: 600 12px/1 var(--sans); color: var(--ink-2); background: none; border: 1px solid var(--hair); border-radius: 999px; padding: 8px 12px; cursor: pointer; }
+.chip[aria-pressed="true"] { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+.cards { list-style: none; margin: 0; padding: 0; }
+.card { padding: 18px 0 20px; border-top: 1px solid var(--hair); }
+.card-top { display: flex; justify-content: space-between; gap: 18px; align-items: flex-start; }
+.card h3 { margin: 0; font: 700 18px/1.3 var(--serif); }
+.card h3 a { text-decoration: none; }
+.card h3 a:hover { text-decoration: underline; }
+.meta { margin: 4px 0 0; font: 400 12px/1.4 var(--sans); color: var(--muted); }
+.meta .sep { margin: 0 6px; opacity: .6; }
+.badge { display: inline-block; font: 700 10px/1 var(--sans); letter-spacing: .08em; text-transform: uppercase; padding: 5px 7px; border-radius: 4px; white-space: nowrap; }
+.badge.bet { background: var(--ink); color: var(--paper); }
+.badge.win { background: var(--good-wash); color: var(--good); }
+.badge.loss { background: var(--bad-wash); color: var(--bad); }
+.badge.plain { border: 1px solid var(--hair); color: var(--ink-2); }
+
+/* The 0-100% strip comparing the AI and the crowd. */
+.compare { margin: 14px 0 4px; max-width: 560px; }
+.compare-track { position: relative; height: 28px; }
+.compare-line { position: absolute; left: 0; right: 0; top: 13px; border-top: 1px solid var(--hair); }
+.compare-gap { position: absolute; top: 11px; height: 5px; background: var(--paper-2); border-top: 1px solid var(--hair); border-bottom: 1px solid var(--hair); }
+.compare-dot { position: absolute; top: 6px; width: 15px; height: 15px; margin-left: -7.5px; border-radius: 50%; border: 2px solid var(--paper); }
+.compare-outcome { position: absolute; top: 0; width: 2px; height: 27px; margin-left: -1px; background: var(--ink); }
+.compare-scale { display: flex; justify-content: space-between; font: 400 10px/1 var(--sans); color: var(--muted); }
+.compare-legend { display: flex; flex-wrap: wrap; gap: 4px 18px; font: 400 12.5px/1.4 var(--sans); color: var(--ink-2); margin-top: 6px; }
+.compare-legend strong { color: var(--ink); font-weight: 700; font-variant-numeric: tabular-nums; }
+.bet-line { margin: 8px 0 0; font: 500 13px/1.5 var(--sans); color: var(--ink-2); }
+.bet-line strong { color: var(--ink); }
+.reason { margin: 10px 0 0; font-size: 15px; line-height: 1.55; color: var(--ink-2); max-width: 46em; }
+details.more { margin-top: 10px; }
+details.more summary { cursor: pointer; font: 600 12px/1.4 var(--sans); color: var(--good); }
+details.more ul { margin: 8px 0 0; padding-left: 18px; font: 400 13px/1.5 var(--sans); color: var(--ink-2); }
+details.more li { margin: 3px 0; }
+.record-link { font: 500 12px/1.5 var(--sans); color: var(--muted); margin: 8px 0 0; }
+.pnl { font: 700 15px/1.2 var(--sans); text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.pnl small { display: block; font: 400 11px/1.4 var(--sans); color: var(--muted); }
+
+/* ---- Methodology ------------------------------------------------------------ */
+.prose { max-width: 44em; }
+.prose h3 { font: 700 19px/1.3 var(--serif); margin: 26px 0 6px; }
+.prose p, .prose li { font-size: 15.5px; line-height: 1.6; }
+.prose ul { padding-left: 20px; }
+.disclaimer { margin-top: 48px; padding: 14px 0; border-top: 4px double var(--rule); font: 500 12px/1.6 var(--sans); color: var(--ink-2); text-align: center; }
+
+@media (max-width: 760px) {
+  .page { padding: 0 16px 40px; }
+  .dateline { grid-template-columns: 1fr; text-align: center; gap: 2px; }
+  .dateline > * { text-align: center !important; }
+  .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .stat:nth-child(odd) { padding-left: 0; border-left: none; }
+  .stat { border-bottom: 1px solid var(--hair); }
+  .two-col { grid-template-columns: 1fr; gap: 0; }
+  .duel { grid-template-columns: 1fr; }
+  .side + .vs { border: none; justify-content: center; padding: 0; }
+  .card-top { flex-direction: column; gap: 6px; }
+  .pnl { text-align: left; }
+}
+</style>
+</head>
+<body>
+<div class="page">
+  <header>
+    <div class="topbar">
+      <span id="updated">Loading…</span>
+      <button class="theme-toggle" id="theme-toggle" type="button">Dark mode</button>
+    </div>
+    <h1 class="nameplate">The Forecaster</h1>
+    <p class="motto">Can an AI predict the world better than the crowd? A public experiment, scored honestly.</p>
+    <div class="dateline">
+      <span id="dl-left"></span>
+      <span id="dl-mid">Paper Trading · Research Only</span>
+      <span id="dl-right"></span>
+    </div>
+    <nav class="sections" aria-label="Sections">
+      <a href="#scoreboard" data-tab="scoreboard">Scoreboard</a>
+      <a href="#calibration" data-tab="calibration">Calibration</a>
+      <a href="#open" data-tab="open">Open Bets</a>
+      <a href="#settled" data-tab="settled">Settled</a>
+      <a href="#method" data-tab="method">Methodology</a>
+    </nav>
+    <p class="notice" id="notice" hidden></p>
+  </header>
+
+  <main>
+    <!-- ===== Scoreboard ===== -->
+    <section class="tab-panel" id="tab-scoreboard" aria-labelledby="sb-h">
+      <div class="lead">
+        <p class="kicker">The Scoreboard</p>
+        <h2 class="headline" id="sb-h">AI vs. the Crowd</h2>
+        <p class="deck" id="sb-deck"></p>
+      </div>
+      <div class="duel" id="duel"></div>
+      <p class="verdict" id="verdict"></p>
+      <div class="stats" id="stats"></div>
+
+      <div class="two-col">
+        <div>
+          <div class="section-head"><h2>Accuracy Over Time</h2><p>Average Brier score · lower is better</p></div>
+          <div id="running-chart"></div>
+        </div>
+        <div>
+          <div class="section-head"><h2>Paper Bankroll</h2><p>Fake money · started at $1,000</p></div>
+          <div id="bankroll-chart"></div>
+        </div>
+      </div>
+
+      <div class="section-head"><h2>By Topic</h2><p>Same questions, same moment, both sides</p></div>
+      <div id="topics"></div>
+    </section>
+
+    <!-- ===== Calibration ===== -->
+    <section class="tab-panel" id="tab-calibration" aria-labelledby="cal-h" hidden>
+      <div class="section-head"><h2 id="cal-h">Calibration</h2><p>When a forecaster says 70%, does it happen about 70% of the time?</p></div>
+      <div class="two-col">
+        <div class="cal-wrap" id="cal-chart"></div>
+        <div class="prose">
+          <p>Every settled forecast goes into one of ten buckets by what was predicted (0–10%, 10–20%, and so on). Each dot shows the average prediction in a bucket (across) against how often those events actually happened (up). Bigger dots hold more questions.</p>
+          <p>A perfectly calibrated forecaster sits on the dashed diagonal. Dots <strong>below</strong> it mean overconfidence about “Yes” (things happened less often than predicted); dots <strong>above</strong> it mean underconfidence.</p>
+          <p>Buckets with only a few questions bounce around a lot, so don’t read much into them until there are dozens.</p>
+        </div>
+      </div>
+      <div class="section-head"><h2>The Numbers</h2><p>Each bucket, for both sides</p></div>
+      <div id="cal-table"></div>
+    </section>
+
+    <!-- ===== Open bets ===== -->
+    <section class="tab-panel" id="tab-open" aria-labelledby="open-h" hidden>
+      <div class="section-head"><h2 id="open-h">Open Forecasts</h2><p id="open-sub"></p></div>
+      <div class="filters" role="group" aria-label="Show">
+        <button class="chip" type="button" data-filter="bets" aria-pressed="true">Paper bets only</button>
+        <button class="chip" type="button" data-filter="all" aria-pressed="false">All open forecasts</button>
+      </div>
+      <ul class="cards" id="open-list"></ul>
+    </section>
+
+    <!-- ===== Settled ===== -->
+    <section class="tab-panel" id="tab-settled" aria-labelledby="set-h" hidden>
+      <div class="section-head"><h2 id="set-h">Settled Questions</h2><p id="settled-sub"></p></div>
+      <ul class="cards" id="settled-list"></ul>
+    </section>
+
+    <!-- ===== Methodology ===== -->
+    <section class="tab-panel" id="tab-method" aria-labelledby="m-h" hidden>
+      <div class="section-head"><h2 id="m-h">Methodology</h2><p>How the experiment works, and its limits</p></div>
+      <div class="prose" id="method"></div>
+      <div class="section-head"><h2>Every Run</h2><p>When questions were sent and answered, and what each run cost</p></div>
+      <div id="runs"></div>
+    </section>
+  </main>
+
+  <footer class="disclaimer">
+    Research only. Paper trading with fake money: no real bets are placed, ever.
+    Nothing here is financial or betting advice.
+  </footer>
+</div>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

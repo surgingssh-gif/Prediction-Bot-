@@ -1,0 +1,84 @@
+# Runs the forecaster on GitHub's computers every day, so it works even
+# when your own computer is off.
+name: Daily forecasts
+
+on:
+  schedule:
+    # GitHub often starts scheduled runs late (sometimes by hours) or skips
+    # them, so there are several start times. The first run each day (UTC)
+    # makes the day's forecasts; every run also collects late answers from
+    # Claude and checks which questions have settled (see main.py).
+    # Odd minutes (:07) avoid GitHub's busiest times. Times are UTC:
+    # 13:07 UTC = 9:07 AM New York time in summer (8:07 AM in winter).
+    - cron: "7 13 * * *"
+    - cron: "7 15 * * *"
+    - cron: "7 17 * * *"
+    - cron: "7 20 * * *"
+    - cron: "7 23 * * *"
+  # Adds a "Run workflow" button on the Actions tab. With "force" ticked (the
+  # default) it makes an EXTRA round of new forecasts even if today's exist.
+  # Untick it to only check results and refresh the website. An outside
+  # scheduler (like cron-job.org) can start it too, sending force=false.
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Make new forecasts even if today's already exist"
+        type: boolean
+        default: true
+
+# Lets the workflow save the forecasts back into the repository.
+permissions:
+  contents: write
+
+# If two runs overlap, let the first finish so they don't both save at once.
+# (The test workflow has its own group, so it never blocks this one.)
+concurrency:
+  group: daily-forecasts
+  cancel-in-progress: false
+
+jobs:
+  forecast:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - name: Download the code
+        uses: actions/checkout@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install libraries
+        run: pip install -r requirements.txt
+
+      - name: Run the forecaster
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: python main.py ${{ inputs.force && '--force' || '' }}
+
+      # Rebuild the website's data. "always()" means it runs even if the
+      # step above failed, so the site stays up to date.
+      - name: Build website
+        if: always()
+        run: python build_site.py
+
+      # Commit the new records. This timestamped commit, made before any
+      # question resolves, is the tamper-proof record of each forecast.
+      - name: Save forecasts and website
+        if: always()
+        run: |
+          git config user.name "ai-forecaster-bot"
+          git config user.email "ai-forecaster-bot@users.noreply.github.com"
+          git add data docs 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "Nothing new to save."
+          else
+            git commit -m "Forecasts and results for $(date -u +%Y-%m-%d)"
+            # Another run may have saved in the meantime: add this on top
+            # (keeping this run's version of any file both changed), then push.
+            git pull --rebase -X theirs
+            git push
+          fi
