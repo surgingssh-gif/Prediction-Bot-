@@ -1,0 +1,670 @@
+{
+  "run_id": "2026-10-02",
+  "date": "2026-10-02",
+  "created_at": "2026-10-02T19:26:24Z",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "questions": [
+    {
+      "market_id": "2589812",
+      "event_id": "606422",
+      "event_title": "Fed Decision in October?",
+      "option": "No change",
+      "question": "Will there be no change in Fed interest rates after the October 2026 meeting?",
+      "rules": "The FED interest rates are defined in this market by the upper bound of the target federal funds range. The decisions on the target federal funds range are made by the Federal Open Market Committee (FOMC) meetings.\n\nThis market will resolve to the amount of basis points the upper bound of the target federal funds rate is changed by versus the level it was prior to the Federal Reserve's October 2026 meeting.\n\nIf the target federal funds rate is changed to a level not expressed in the displayed options, the change will be rounded up to the nearest 25 and will resolve to the relevant bracket. (e.g. if there's a cut/increase of 12.5 bps it will be considered to be 25 bps)\n\nThe resolution source for this market is the FOMC’s statement after its meeting scheduled for October 27-28, 2026 according to the official calendar: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm.\n\nThe level and change of the target federal funds rate is also published at the official website of the Federal Reserve at https://www.federalreserve.gov/monetarypolicy/openmarket.htm.\n\nThis market may resolve as soon as the FOMC’s statement for their October meeting with relevant data is issued. If no statement is released by the end date of the next scheduled meeting, this market will resolve to the \"No change\" bracket.",
+      "topic": "Economy",
+      "end_date": "2026-10-29T03:59:00Z",
+      "url": "https://polymarket.com/event/fed-decision-in-october-20260617190323537",
+      "snapshot": {
+        "time": "2026-10-02T19:26:20Z",
+        "crowd": 0.815,
+        "best_bid": 0.81,
+        "best_ask": 0.82,
+        "volume": 6999849,
+        "liquidity": 613346,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "Fed policymakers lean against October rate hike",
+          "source": "Reuters",
+          "published": "2026-10-01",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQcEdmemN4NUZ5RjRobklFbGFkcWZ0NENTRmZfU2hmNnFuZ1ZkRzJKY09hV3VLcjllT2V3VEVHdGg1NTFBbU1BVUJycDV1ODc5cTRxM1hCWlk5aW1RY3c0RzQ2bTNMcmsybi1VdDdoMG9RdUFrakRXSnFfb2trYmpOQzU5RmNmMXpqZlpJNUY1OEtEOGxnNXhlUjkzdmpnaWZVSVcwX1MyTHl1UQ?oc=5"
+        },
+        {
+          "title": "Warsh's regime change at the Fed pushes ahead – and meets resistance",
+          "source": "CNBC",
+          "published": "2026-09-25",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPZk5lSkEzNDdYMEcyZjAtdnRicXhMSGMtU0MzR3JNWEdSR2dIaW9Ndm9sUFNzRGlGLXNhclRmU3FlcXJ5aDByVExyMmZUX3MyNEFaQ0lWX3oxM2U2cU1NT0dfc3FTQ1dnbUp5U19XQWNJOVIyUVlkdlcydzgwQWdIYjNLRXRLMHBr0gGOAUFVX3lxTE1MQ3lndjVhRDktQmJPN0xOcjNsaHprWnRodWRBN09QblZQOTNacDJ6Z3ZYNUJsYkJIOWhJRWJRXzg4NWlXc1Q4ZVRSWnNwTFpLX1VhNTVVYk1MQ2xCekh4ZmhaSU5URlJIMTFfVktVMFYwc1pDbjNyN1dqbEtfRWVnLTlITWdTdDVMS2tmYVE?oc=5"
+        },
+        {
+          "title": "Will the Bank of England Raise Interest Rates in Q4?",
+          "source": "Morningstar",
+          "published": "2026-10-01",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOdjN3NldKRzFTQ3lIeHJvTGJfemFKdENLdFdBMUU4VFhfeTlYRzhGNHQ1S2lja2ZZTnVTMzBpUFNVd0ZWY1hTeFEyZ182clhMUTRidFh5TE5fbkZWQWhzb1hDbXJrc253Y2Z5V1hXNHVqOEYxcHRhYnhrUW9DMFlDZFdkbnhRd0ZxU2x2VmJicw?oc=5"
+        },
+        {
+          "title": "FED’s interest rate decision in October?",
+          "source": "Decrypt News",
+          "published": "2026-09-25",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPM29vOW5vWHhxbmVXSmVqOUFsSEx5NXFYNlR5dGktMkJpSzhUNDREbnNzejVHLVRmcm5YREx0aTZrX3BtVzNLMDhRdDM0UVlMMjJtaVFRSkVoUlRxWkdoSFl3Z2J2dlgwMUFrNDlUaWJvSEUtT0tYSkdHYkFJU19zcDln?oc=5"
+        },
+        {
+          "title": "Fed officials wash away market bets on October rate increase",
+          "source": "Kitco",
+          "published": "2026-10-01",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVklYTTRHV3JUaHRsU2VwMmhtdTRHUHJTcERrOG1PaFkyaktJY0o2X1JHRU5oblFaaGZhVE41MHJRaHg1cEF4Uk12dmtCcmh3ellZcUo0T1ZPVHp0OUZwUEVVRkpCTjlGdWxsV1BSdHp2TVA2WG5qdGRLclVKT2pzZFhVMnBycnpVUDFfbHlNOWJKMW83LWlhdkZpQUE0RmJrU3RwUThvNnVGOU83?oc=5"
+        },
+        {
+          "title": "Current CD Rates For October 2026",
+          "source": "Bankrate",
+          "published": "2026-09-30",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5wRFBXZ2hCRHR5ZjRnRHJtS25Kd1lXNXVPQkJ2YXlhUjUtUGR4aTY0czF3WUd1N1VOd29STWNoenNKVWlEVkZFRHJWbGxSdWQ2ZXBHRXJ0UWpyNzBnbjVqN2NaU3FsUldnUmFULTgxUG0?oc=5"
+        }
+      ],
+      "forecast": {
+        "probability": 0.87,
+        "reasoning": "Reuters and Kitco report that Fed officials are leaning against an October hike and have pushed back on market bets for one. There is no sign of an imminent cut either. Holding rates steady is the most likely outcome."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-02T19:29:27Z",
+        "crowd": 0.815,
+        "best_bid": 0.81,
+        "best_ask": 0.82,
+        "volume": 6999849,
+        "liquidity": 569946,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Gap of 5 points is under the 10-point minimum."
+    },
+    {
+      "market_id": "601819",
+      "event_id": "45915",
+      "event_title": "Brazil Presidential Election",
+      "option": "Luiz Inácio Lula da Silva",
+      "question": "Will Luiz Inácio Lula da Silva win the 2026 Brazilian presidential election?",
+      "rules": "A presidential election is scheduled to take place in Brazil on October 4, 2026.\n\nThis market will resolve according to the listed candidate that wins this election.\n\nThis market includes any potential second round. If the result of this election isn't known by June 30, 2027, 11:59 PM ET, the market will resolve to \"Other\".\n\nThis market will resolve based on the result of the election as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the Brazilian government, specifically the Superior Electoral Court (Tribunal Superior Eleitoral, TSE) (e.g., https://dadosabertos.tse.jus.br/).",
+      "topic": "Politics",
+      "end_date": "2026-10-05T03:59:00Z",
+      "url": "https://polymarket.com/event/brazil-presidential-election",
+      "snapshot": {
+        "time": "2026-10-02T19:26:20Z",
+        "crowd": 0.425,
+        "best_bid": 0.42,
+        "best_ask": 0.43,
+        "volume": 13765914,
+        "liquidity": 743908,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "Poll Tracker: Brazil’s 2026 Presidential Election",
+          "source": "AS/COA",
+          "published": "2026-09-29",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPajRZX25tMVdpMkdUcFRpR1hZRjRQZmZsQWEwaW9hcUttMzFobjExS2VfOE1WRmZSNnhieHkyaVdiZjZQZDYxTTRJeTFFS3VHOTEyTi1HeVNBVWVFLTFYYUk0MEpkWEMwN1o5eFU3Y0VnSnhDN2ZDX09qVTdlbDBoUUhFR3BjQQ?oc=5"
+        },
+        {
+          "title": "What kind of Brazil will emerge from this election?",
+          "source": "Brookings",
+          "published": "2026-09-30",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQN2FHaU13S0FHcXhpM1FsdWZycUNLb0ZkdEJrME5CbzZqQ21YQlpSZm9yVmNWeVFmOU1MdXNmTUIxR2dwNWdTR3MxQWdMRC02S3ZVcDJQbzJRLW1Xbm1ILTJxa3hlNE1Ja0FqaXJUeFFZN2p2X0V3c2JDWXAycldPMzFCdjU3RWZ1WjZXa0lUUQ?oc=5"
+        },
+        {
+          "title": "In final election fight, Brazil's Lula carries hopes of Latin America's receding left",
+          "source": "Reuters",
+          "published": "2026-09-29",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQcllHS1JwbGhWbGs2ZjBmUDkwdXdQcW01eEZFandSN1VxYk9UZXlNRTJUZ1FWSUFmSkg0SEFnXzl5UEF0RXJGT1VmNDl4aXNPTUVxRGdNcTRkVGhidjFYQllvZzFyQld6UWNRdGNTYzlZSE1zd0ZmejJVMmxhMUZMTDd3R0x6aWw5UVFrU2plWFVFbENWdk1SRHN6T19EbndQZ1owMzFnOUZtWHFNUVktYmo4dmh6c1BXdm40bndaR1N3OEpucmc?oc=5"
+        },
+        {
+          "title": "Brazil election: Lula and Flavio Bolsonaro tied in latest polls",
+          "source": "Al Jazeera",
+          "published": "2026-09-22",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNNFZpQVlRSEZwZG96ZjRhUV9MRDliVUgtN1VhNHNnUWpqNWg5OUxNejlwcXVBaHo4SV9uV2IyU3ZHRnZQajNxVVBMcE9RZnBzM2paNG5peGh6MXlOT3RQNnoxcXdkelVsLTRPcFNDdEhLaURYeDdhdk1Ba3daZHhtd21yWHFrMTVBNW5TS1ZsbGhIeHN4NU1tSUtBSk5FQW5TV1liVmZB0gGrAUFVX3lxTE9obFBzRUlyRGhCMU1OQVZuSmlCWmVMaWZHVVpqRUJfaG5DM0wtNFlYUnZVMGRBcUlLV0FBSlZsd3ZkNjRxSmZxMXJlbUdteU9fZnFkLWxfOGxWREdUMzVqU0diWi13OHhTRnZ1YUYzdW9GUkV0MnQ3cnJ2d2EzdFYyazAxdmlLaFlUcklFRmJSM1g5WFNBWGJVcjNtYnhWdXRVeHFUU2RPaWdwdw?oc=5"
+        },
+        {
+          "title": "Picanha, prices and politics: What Brazil's favorite steak says about the election",
+          "source": "NPR",
+          "published": "2026-10-01",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQTkVFbTdvbTRxVllNUW85ZE5kQ2ZPMVdaWHFPMlhUZFo2cnNBeDFZMkJjbGw0aFd0V3lVRU5fNzJQNHh3djhnQ0E2cXllZWRyWG56UTQ1MXhMQk5NcGVmdVRndlRhcDlnbjZreXFjTXgyOXpKUXVjWjZiX1hfakRDeFhB?oc=5"
+        },
+        {
+          "title": "Lula vs. Bolsonaro II: 2026 General Elections in Brazil",
+          "source": "giga-hamburg.de",
+          "published": "2026-10-01",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxObTlkNEp0ZkhIZnR3Vk5vMm15cGtWWnFRMUNqRXdwN1UwMElPVnd3amtBa1ZIdlBiazBCSVA0N1JRRXZHSmRhZXJqRENOS0FXaTNrYnJnWU0tSGthWklPR21IOTlYVDB2cFczMkFXQlJhSDN1aGhzamZFTFNYb2hJenQyb0NfcVE1SldEMGd2NngzdXRz?oc=5"
+        }
+      ],
+      "forecast": {
+        "probability": 0.52,
+        "reasoning": "Polls show Lula and Flávio Bolsonaro essentially tied in a runoff scenario. Lula has incumbency and a strong base in the northeast, which gives him a slight edge in a near coin-flip race."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-02T19:29:27Z",
+        "crowd": 0.425,
+        "best_bid": 0.42,
+        "best_ask": 0.43,
+        "volume": 13765914,
+        "liquidity": 747617,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Gap of 9 points is under the 10-point minimum."
+    },
+    {
+      "market_id": "601826",
+      "event_id": "45915",
+      "event_title": "Brazil Presidential Election",
+      "option": "Flávio Bolsonaro",
+      "question": "Will Flávio Bolsonaro win the 2026 Brazilian presidential election?",
+      "rules": "A presidential election is scheduled to take place in Brazil on October 4, 2026.\n\nThis market will resolve according to the listed candidate that wins this election.\n\nThis market includes any potential second round. If the result of this election isn't known by June 30, 2027, 11:59 PM ET, the market will resolve to \"Other\".\n\nThis market will resolve based on the result of the election as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the Brazilian government, specifically the Superior Electoral Court (Tribunal Superior Eleitoral, TSE) (e.g., https://dadosabertos.tse.jus.br/).",
+      "topic": "Politics",
+      "end_date": "2026-10-05T03:59:00Z",
+      "url": "https://polymarket.com/event/brazil-presidential-election",
+      "snapshot": {
+        "time": "2026-10-02T19:26:20Z",
+        "crowd": 0.576,
+        "best_bid": 0.574,
+        "best_ask": 0.578,
+        "volume": 13497752,
+        "liquidity": 581225,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "What kind of Brazil will emerge from this election?",
+          "source": "Brookings",
+          "published": "2026-09-30",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQN2FHaU13S0FHcXhpM1FsdWZycUNLb0ZkdEJrME5CbzZqQ21YQlpSZm9yVmNWeVFmOU1MdXNmTUIxR2dwNWdTR3MxQWdMRC02S3ZVcDJQbzJRLW1Xbm1ILTJxa3hlNE1Ja0FqaXJUeFFZN2p2X0V3c2JDWXAycldPMzFCdjU3RWZ1WjZXa0lUUQ?oc=5"
+        },
+        {
+          "title": "Poll Tracker: Brazil’s 2026 Presidential Election",
+          "source": "AS/COA",
+          "published": "2026-09-29",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPajRZX25tMVdpMkdUcFRpR1hZRjRQZmZsQWEwaW9hcUttMzFobjExS2VfOE1WRmZSNnhieHkyaVdiZjZQZDYxTTRJeTFFS3VHOTEyTi1HeVNBVWVFLTFYYUk0MEpkWEMwN1o5eFU3Y0VnSnhDN2ZDX09qVTdlbDBoUUhFR3BjQQ?oc=5"
+        },
+        {
+          "title": "Brazil's Lula, Flavio Bolsonaro still tied in presidential runoff scenario, Atlas poll shows",
+          "source": "Reuters",
+          "published": "2026-09-29",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQc0h6ZFh1cVhZYTlHOWZEQXY5OUZ0cUU4Z1hkeG53TEtKUFVBOGtzSjAwZW41Z21ud2l6djVnTFJpdE5sdjFJY3VrZGpDcTQ1VEx2RU41cW84MWREQ1hhRTFTNF9RSk9wSlZOVjAzdGhJdFd5OS03d2o4RXExNndZQ29KNW1GLWtNS2ZNZG1DcURMQnVQRXZGd3BlMjg4U3dvWmpZNDhZTEpxZ0xMN0x3c29KUzYyaW1raV9JTlBBaWxLU2RJeWNvZW1nTQ?oc=5"
+        },
+        {
+          "title": "Brazil’s Lula and Flavio Bolsonaro still essentially tied in new poll",
+          "source": "Al Jazeera",
+          "published": "2026-09-25",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPOS1HUXBXLWp1TEVKTTNqeVNIck1rdE15ODdjQnZxZG1sdTNsaC1VMjJKeHczZnM0dW1uQmkxVmtDYWtCQ1NoMGhQLWpGS2RKYXhHZ3JSM1Rwc1dZWEZ4NFQ3MFNicHBpY0FucXZ4T0M0YmViM0RDUnZwbE16Z2EwR0Y3TFpCRndrM3lvcXdqb0xjU0tpanV1RDk1c1hLQXVwNl8xNk5HTWczdDJ3QnfSAbMBQVVfeXFMT0RTa2R2dHhhS1RKa1NqQnJEcVlHaFUzYXlIVnNuNEY4M3lIcV8zaXFGQmRpcVRfQzJqeHZxTEZoNE9Hal9OaG5taDZwU0lsR1p5ZGctal9MX2FoaWlkTTFYcmN5MHhTZFF1TEg5SDBjYWVaTUJ2VXhqSTZZVkpFaTNfWEJtVDIwUVZYdGNKMmZEQ0NlQTdJY0JQdFhwSzRpSWIwMHE3RkJYcTVHc2ZqazRySjQ?oc=5"
+        },
+        {
+          "title": "Lula vs. Bolsonaro II: 2026 General Elections in Brazil",
+          "source": "giga-hamburg.de",
+          "published": "2026-10-01",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxObTlkNEp0ZkhIZnR3Vk5vMm15cGtWWnFRMUNqRXdwN1UwMElPVnd3amtBa1ZIdlBiazBCSVA0N1JRRXZHSmRhZXJqRENOS0FXaTNrYnJnWU0tSGthWklPR21IOTlYVDB2cFczMkFXQlJhSDN1aGhzamZFTFNYb2hJenQyb0NfcVE1SldEMGd2NngzdXRz?oc=5"
+        },
+        {
+          "title": "Flávio Bolsonaro inherited his father’s right-wing movement. Can he win Brazil’s presidency?",
+          "source": "CNN",
+          "published": "2026-10-02",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPZmdPQVVRcU9Td1BUaHdaT3g3SXFVOExUanAtU2FFM01CWEhZbzNVdXlUM1JHM1BpYlJNTkNrQl9mbjR4RWlTanhYZWlGS0luQzZJdGNjX1YyQmdKQXptVnNhZGUtTnJCcEZXMG5sejRrcWZYRnhuSW1vTmlWOXZCRmR6VWhRM3RQSjQ0?oc=5"
+        }
+      ],
+      "forecast": {
+        "probability": 0.46,
+        "reasoning": "Flávio Bolsonaro is tied with Lula in runoff polls, so his chances are close to even. Incumbency gives Lula a slight edge, and there is a small chance of some other outcome."
+      },
+      "bet": {
+        "side": "NO",
+        "price": 0.426,
+        "shares": 105.97,
+        "stake": 45.14,
+        "fee": 1.04,
+        "cost": 46.18,
+        "gap_pts": 11.4,
+        "kelly_full": 0.1847
+      },
+      "trade_snapshot": {
+        "time": "2026-10-02T19:29:27Z",
+        "crowd": 0.5765,
+        "best_bid": 0.574,
+        "best_ask": 0.579,
+        "volume": 13497752,
+        "liquidity": 570065,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Bought NO (11-point gap)."
+    },
+    {
+      "market_id": "2589813",
+      "event_id": "606422",
+      "event_title": "Fed Decision in October?",
+      "option": "25 bps increase",
+      "question": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
+      "rules": "The FED interest rates are defined in this market by the upper bound of the target federal funds range. The decisions on the target federal funds range are made by the Federal Open Market Committee (FOMC) meetings.\n\nThis market will resolve to the amount of basis points the upper bound of the target federal funds rate is changed by versus the level it was prior to the Federal Reserve's October 2026 meeting.\n\nIf the target federal funds rate is changed to a level not expressed in the displayed options, the change will be rounded up to the nearest 25 and will resolve to the relevant bracket. (e.g. if there's a cut/increase of 12.5 bps it will be considered to be 25 bps)\n\nThe resolution source for this market is the FOMC’s statement after its meeting scheduled for October 27-28, 2026 according to the official calendar: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm.\n\nThe level and change of the target federal funds rate is also published at the official website of the Federal Reserve at https://www.federalreserve.gov/monetarypolicy/openmarket.htm.\n\nThis market may resolve as soon as the FOMC’s statement for their October meeting with relevant data is issued. If no statement is released by the end date of the next scheduled meeting, this market will resolve to the \"No change\" bracket.",
+      "topic": "Economy",
+      "end_date": "2026-10-29T03:59:00Z",
+      "url": "https://polymarket.com/event/fed-decision-in-october-20260617190323537",
+      "snapshot": {
+        "time": "2026-10-02T19:26:20Z",
+        "crowd": 0.175,
+        "best_bid": 0.17,
+        "best_ask": 0.18,
+        "volume": 6102873,
+        "liquidity": 344337,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "Fed policymakers lean against October rate hike",
+          "source": "Reuters",
+          "published": "2026-10-01",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQcEdmemN4NUZ5RjRobklFbGFkcWZ0NENTRmZfU2hmNnFuZ1ZkRzJKY09hV3VLcjllT2V3VEVHdGg1NTFBbU1BVUJycDV1ODc5cTRxM1hCWlk5aW1RY3c0RzQ2bTNMcmsybi1VdDdoMG9RdUFrakRXSnFfb2trYmpOQzU5RmNmMXpqZlpJNUY1OEtEOGxnNXhlUjkzdmpnaWZVSVcwX1MyTHl1UQ?oc=5"
+        },
+        {
+          "title": "Dollar Jumps to 8-Week High on Fed Rate-Hike Bets",
+          "source": "WSJ",
+          "published": "2026-09-23",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxONWd1TXlQMWFteE5laG9vTTFUNkFieFpXVlo2SG5TWS1mNUxZbW5kUkhGUkpBa0tkNW1hc1Q2ZEhXMVQ4TW84Q2ZYdld5OHZzV3dXbi1FYTc4WjZpVko1QVo4NU4zdEdJakpOM1UyeFI2RktZeDA3UklxSUhNaFQyVUs2UjhsSDRuMVNxaExiSmptWDdJcmdfb01MdFowS2tSM2RCWDZJcGszQzR1anJYcDB0MlVrY0tleEFsSnMyTmJaUTktSmJr?oc=5"
+        },
+        {
+          "title": "Kevin Warsh might have to get a lot less popular on Capitol Hill as bond yields soar and rate expectations turn hawkish",
+          "source": "Fortune",
+          "published": "2026-09-24",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOTjNFQUZVdVNuXzBTY2IxU1RSOW9aa0lxd085RGRtSk0ycFpyTk9WMEp2UzYyOElJWElNeG11akNBbTF3VU5zU2U3bW9ub0Q0c2xicG43ZXhycEV5V2UwYmtCdVRBTDFIRzNua0lQakwyTUVmSW5FajhEU3JJYlVrWlh3?oc=5"
+        },
+        {
+          "title": "FED’s interest rate decision in October?",
+          "source": "Decrypt News",
+          "published": "2026-09-25",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPM29vOW5vWHhxbmVXSmVqOUFsSEx5NXFYNlR5dGktMkJpSzhUNDREbnNzejVHLVRmcm5YREx0aTZrX3BtVzNLMDhRdDM0UVlMMjJtaVFRSkVoUlRxWkdoSFl3Z2J2dlgwMUFrNDlUaWJvSEUtT0tYSkdHYkFJU19zcDln?oc=5"
+        },
+        {
+          "title": "Fed Rate Hike in October: What Investors Check Now",
+          "source": "CryptoTicker",
+          "published": "2026-09-24",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5DNVF0ZFF5YkdrVE04bThBZUdrcW5DcWEzd3hHRExMM0QzTXpZZ24yX19ZeG9tVzBIRi1KWkF2VzM2UGRhbnZoQmJ6ZmdEMlI5dFN4U3hSenBaNUxSQ0ppUEZMQUpBbmlRNXhkQXQ1NHg0S0lqSkRN?oc=5"
+        },
+        {
+          "title": "Four jobs reports in five days: what JOLTS, ADP, claims and the September payrolls mean for the October Fed decision",
+          "source": "Mitrade",
+          "published": "2026-09-28",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOREhJVnVhVkU0MTItaFJyNnM3SzV1Z1RjM1drSzFoVEc4RVBOTWtaUFJUR2UyRlQ4dV9NWFhDbUVseHhlZGMtU2NXMmplQzFHd1RoamlhbmVJaUhNZFNLbmpEdzZZd1Z2Zk5jaFQ3QXhPQjluaEFuUzJHNk1qc0NMc25Db2l0WVZ4RkhfZFI2MGhxRllSX0t4T3NRUQ?oc=5"
+        }
+      ],
+      "forecast": {
+        "probability": 0.1,
+        "reasoning": "Hike bets rose in late September as bond yields jumped. But Fed officials have since publicly leaned against an October increase, so a 25 bp hike looks unlikely though still possible."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-02T19:29:27Z",
+        "crowd": 0.175,
+        "best_bid": 0.17,
+        "best_ask": 0.18,
+        "volume": 6102873,
+        "liquidity": 344203,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Gap of 7 points is under the 10-point minimum."
+    },
+    {
+      "market_id": "5164765",
+      "event_id": "1110635",
+      "event_title": "Israel accuses Iran/proxies of plane stabbing incident by Oct 31?",
+      "option": "",
+      "question": "Israel accuses Iran/proxies of plane stabbing incident by Oct 31?",
+      "rules": "On September 30, 2026, FlyDubai flight FZ1073 from Dubai to Tel Aviv diverted to Saudi Arabia following an incident in the cockpit in which the co-pilot allegedly stabbed the captain. (see: https://www.reuters.com/world/middle-east/diverted-flydubai-flight-israel-was-not-hijacking-incident-israeli-prime-2026-09-30/).\n\nThis market will resolve to \"Yes\" if the Israeli national government, or an authorized representative of the Israeli national government, publicly announces that Iran or its affiliated groups deliberately caused this incident, by October 31, 2026, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nA public announcement refers to an on-the-record statement issued by the Israeli national government or by its authorized representatives acting in an official capacity on behalf of the Israeli national government. A statement or press release issued by the Israeli national government or any of its agencies will qualify. A Prime Minister or Cabinet Minister’s public statements will always be considered to be issued on-the-record in a capacity representing the Israeli national government for purposes of this market. A statement from a lawmaker or other government official speaking in their own capacity or on behalf of a party not in government will not alone qualify.\n\nFor purposes of this market, an affiliated group of Iran is: any organization directly controlled by Iran, Hezbollah, Hamas, Palestinian Islamic Jihad, Houthis (\"Ansar Allah\"), Kata'ib Hezbollah, Asa'ib Ahl al-Haq, Badr Organization, and Harakat al-Nujaba. An unlisted group will only qualify if the Israeli claim itself, or accompanying statements or releases, specifies that the group is a proxy of or otherwise is controlled or directed by Iran. A general statement that it was conducted by an Iranian proxy will also qualify, even if no group is named.\n\nSuch a statement will be considered to claim that Iran or its affiliated groups deliberately caused the incident if it explicitly claims that Iran or an affiliated group ordered, carried out, planned, or otherwise directly aided or coordinated the incident. Statements that attribute only inspiration or ideological influence (e.g., \"this would not have happened if Iran didn't radicalize terrorists,\" \"the co-pilot was influenced by Hamas' ideas\") will not qualify.\n\nOnce a qualifying announcement has been made, no subsequent walkback or retraction will be relevant for purposes of this market. \n\nThe primary resolution source for this market will be official information from the Israeli national government; however, a consensus of credible reporting may also be used.",
+      "topic": "Politics",
+      "end_date": "2026-11-01T03:59:00Z",
+      "url": "https://polymarket.com/event/israel-accuses-iranproxies-of-plane-stabbing-incident-by-oct-31",
+      "snapshot": {
+        "time": "2026-10-02T19:26:20Z",
+        "crowd": 0.185,
+        "best_bid": 0.18,
+        "best_ask": 0.19,
+        "volume": 267754,
+        "liquidity": 43275,
+        "fee_rate": 0.0
+      },
+      "news": [],
+      "forecast": {
+        "probability": 0.05,
+        "reasoning": "Israel's prime minister quickly said the incident was not a hijacking, which suggests a personal or individual cause. A formal Israeli government accusation that Iran or its proxies deliberately caused it seems unlikely within a month."
+      },
+      "bet": {
+        "side": "NO",
+        "price": 0.82,
+        "shares": 60.98,
+        "stake": 50.0,
+        "fee": 0.0,
+        "cost": 50.0,
+        "gap_pts": 13.0,
+        "kelly_full": 0.7222
+      },
+      "trade_snapshot": {
+        "time": "2026-10-02T19:29:27Z",
+        "crowd": 0.185,
+        "best_bid": 0.18,
+        "best_ask": 0.19,
+        "volume": 267754,
+        "liquidity": 42197,
+        "fee_rate": 0.0
+      },
+      "bet_note": "Bought NO (13-point gap)."
+    },
+    {
+      "market_id": "3554659",
+      "event_id": "841230",
+      "event_title": "Which company has the best AI model end of October?",
+      "option": "Google",
+      "question": "Will Google have the best AI model at the end of October 2026?",
+      "rules": "This market will resolve according to the company which owns the model which has the highest arena rank based on the arena.ai Text Arena (Overall) when the table under the \"Leaderboard\" tab is checked on October 31, 2026, 12:00 PM ET.\n\nResults from the \"Rank\" column under the \"Text Arena | Overall\" Leaderboard tab at https://arena.ai/leaderboard/text/overall-no-style-control with style control off (Adjustments: None) and filtered for \"Models\" will be used to resolve this market.\n\nNote: Models marked “AutoEval” at the applicable check time will not be considered, regardless of whether they display a rank or score.\n\nModels will be ordered primarily by their leaderboard rank at the market’s check time. If two or more models are tied on rank, they will be ordered by their Arena score, including any underlying, unrounded, granular values reflected in the data below the leaderboard. If a tie still remains, alphabetical order of company names as listed in this market group will be used as a final tiebreaker (e.g., if the two models are tied by exact arena score, “Google” would be ranked ahead of “SpaceXAI”). This market will resolve based on the company that occupies first place under this ranking.\n\nThe resolution source for this market is the arena.ai Text Arena (Overall). If this resolution source is unavailable at check time, this market will remain open until the leaderboard comes back online and will resolve based on the first check after it becomes available. If it becomes permanently unavailable, this market will resolve to \"Other\".",
+      "topic": "Tech",
+      "end_date": "2026-10-31T16:00:00Z",
+      "url": "https://polymarket.com/event/which-company-has-the-best-ai-model-end-of-october",
+      "snapshot": {
+        "time": "2026-10-02T19:26:20Z",
+        "crowd": 0.6015,
+        "best_bid": 0.6,
+        "best_ask": 0.603,
+        "volume": 327928,
+        "liquidity": 57273,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "Behind Project Suncatcher, our moonshot to put AI in space",
+          "source": "blog.google",
+          "published": "2026-09-24",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNM1BYaU0yYTZra0M4eWktSXVydEJjbTVtM0JLZUtpTlZUNWZPb2RqUHR0V1hEdlczMkZyOU90MW83eDhCWVJMSnhXLWxvcWhJMDdiNkUtZEJLR0ExN0xnMS1YdGJOaWJyRXZmZlJGQnJNVWJKbDl5dG1uMGtsRk9VbVRCcWpKVjlnUnVfMXU2VjNJOGdhOGt4UEZpeGpyNndSTUpodXphZV9jUQ?oc=5"
+        },
+        {
+          "title": "Gemini 4 Argon: our next era of frontier intelligence",
+          "source": "blog.google",
+          "published": "2026-09-30",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNRjB3amppaF9yb1FhSmxoUW5GUEtCREcxbW1ScXJRRWN5ZGtIM0N0d21wVEI3ZTd5ZHY4N09KRWNwX3U2Z3JBeDNWakYxYXlBVE95NEpKWW5vcWFKZlA5Qkdka3hGZG9INUZtMVN2VTJhWG1TTldVSE1JVm5VaVlvcnpWRlhzX0V1NGJXZGhfMEY?oc=5"
+        },
+        {
+          "title": "Google Rolls Out New AI Model Gradually Amid Safety Concerns | The Morning Download for Oct. 1",
+          "source": "WSJ",
+          "published": "2026-10-01",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQVU1keF9rZ0tJY1VWOVdQNTJOLV9NbndpOGc0TENacTlSTWI2Vnh5empUTENqRlJDeTZjQk1VMFBNTFpqamhpdTgzYzI0c2JEc0d5WVRTLUR4RFpJX3F0dEtmWXJLdU1PMzdyOGluRFJPRzlaR1o3NWJjZ3JtQlMyeHIyMjcxeUpLa0pPbXBJZ0RndG40NklXS2VzeTJCdUxrWDVn?oc=5"
+        },
+        {
+          "title": "Google Releases New Gemini Model With Guardrails Amid A.I. Safety Debate",
+          "source": "The New York Times",
+          "published": "2026-09-30",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNZ1Z3VVVlemc0Zm9HYy1HSTNuSlZhT1BRQ0I0TVJtMVltbDRGS1pCR1VKNk1OUnhkNjVycjhIbEplY0NaNWR5eDNDVzRGcHN5NFRDNlpsU28xMWs0MkJ6U01lNkJJb0syN2hMSkwtMUpiS0dHS2gwa3FYX2dkanFPTE96aVNQcDd2OHc?oc=5"
+        },
+        {
+          "title": "Google announces Gemini 4 flagship AI model after months of delays",
+          "source": "Reuters",
+          "published": "2026-09-30",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPa0kxM3JDazhISnQtVGJ1Q2phRmxPR2Mtb2R4X1dQX0U3TkVZLWV0YUZNSnRfQ25OQnRuWHpNczNHSzhCZFFkdHFCWEVXYUhuazBDLWJ0eV92WU9nMDR6Nnl5ZDRCOG5UdWtwNnpTNkVtS2NLejVrX1Y3eXFvbDRMc0Y2Q2hvN0Q5YTEzTVA3NDFLaHprbnpuNWVBejNPVUlKemJCSHZUcHZSVE9iNmt3TWxXMXFBWkU?oc=5"
+        },
+        {
+          "title": "Google makes Gemini 4 AI model available to a trusted few",
+          "source": "InfoWorld",
+          "published": "2026-10-01",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRXFDZ2QtYWxZTXNjdldyTHlFejNiaGNfNWVVX3M4OGU0RHZISGRVUWpJdnhzR2YwaURIZHVfY3NHMXp4cjhsdzR6eGprcmE2MVg5dU9oTmlYSHo4clJSZTQyWXZrVHpYRTd4RzhBSDdMMkV1YnpNMFlzbUZvbXFmV0o5SUNxWHpCLXBlbGY4ZEFYZVRNRkJwaHp5RURpTlR2eVUyQXFkYw?oc=5"
+        }
+      ],
+      "forecast": {
+        "probability": 0.5,
+        "reasoning": "Google just announced Gemini 4, but it is rolling out gradually to a trusted few because of safety concerns. That may delay or limit its appearance on the Arena leaderboard. Google is often near the top anyway, so this is roughly a toss-up."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-02T19:29:27Z",
+        "crowd": 0.601,
+        "best_bid": 0.6,
+        "best_ask": 0.602,
+        "volume": 327928,
+        "liquidity": 58416,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Gap of 10 points is under the 10-point minimum."
+    },
+    {
+      "market_id": "4885967",
+      "event_id": "1007040",
+      "event_title": "Saudi Oil Pipeline (East-West) restarts by...?",
+      "option": "October 15",
+      "question": "Saudi Oil Pipeline (East-West) restarts by October 15?",
+      "rules": "On September 11, 2026, Saudi Arabia's Ministry of Energy announced that the East-West oil pipeline has been shut down.\n\nThis market will resolve to “Yes” if the government of Saudi Arabia announces that the East-West oil pipeline is operational or no longer shut down between market creation and the specified date, 11:59 PM ET. Otherwise, this market will resolve to “No”.\n\nA qualifying announcement must express that the pipeline is presently operating; operation at partial or reduced capacity qualifies.\n\nAnnouncements that attribute such a claim to third parties, state that the pipeline will or may operate in the future, describe work underway to restore operation, or frame resumption as expected, planned, or conditional, will not qualify.\n\nOnce a qualifying announcement is made, this market will resolve to “Yes,” regardless of any subsequent contradictory statements, or alternative information from other sources.\n\nThe resolution source for this market will be official information from the government of Saudi Arabia.",
+      "topic": "Economy",
+      "end_date": "2026-10-16T03:59:00Z",
+      "url": "https://polymarket.com/event/saudi-oil-pipeline-east-west-restarts-byptptpt",
+      "snapshot": {
+        "time": "2026-10-02T19:26:20Z",
+        "crowd": 0.335,
+        "best_bid": 0.33,
+        "best_ask": 0.34,
+        "volume": 296979,
+        "liquidity": 46661,
+        "fee_rate": 0.0
+      },
+      "news": [
+        {
+          "title": "Saudi Arabia restarts East-West oil pipeline, sources say",
+          "source": "Reuters",
+          "published": "2026-09-22",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPNmJidHFzNHlscWlnT2hsWFdKc1hNRFMxOWRnTTRQRHVHbV9tRTJySFJoOGFoZXdNdTIwMngxZlczRmY3dWJxWkNiWTRYclVyT0JoWXQyUHJpNThicmpUNDMwWjNqREdrYmw3Ty1peU9oaEtRdC1GWXE1S0o1eGlrWDZONDhqS0FDbWotZXV1LXBvTEhUWHdlT1BzYU5udjNKTTFXdk1hX0wwVk1yczRTdV94R0p4UUQ1bEViTXJ2S2pEaTVLTFlvdw?oc=5"
+        },
+        {
+          "title": "Global Oil Prices Drop as Saudi Arabia Restarts East-West Pipeline After Drone Attack",
+          "source": "UNITED24 Media",
+          "published": "2026-09-22",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNUVozTC1qT2ppdE1QWU5RdWhaZE80dVFGb09iVlVYWlZSdnZKSGhuS2pFckJjVUtRV3RNdXBBWFlnWW1HUGJaVWV2Z3hJb1ZEdGZYOHFrSm92UjZpM2YyMjBuc3d5OC1xc0IwUEhoc3RPQ2w1eXpWSmU0WW1YWkh6OTBvREozSm9hdjhtLVVSVDE5YTZWcHhLbUZ6SElhWWtHT0J4ZGh3SkU0WF9vZVFtcTNpZ2x6UWwzM0E2OU9nRkg?oc=5"
+        },
+        {
+          "title": "Saudi Arabia signals reopening of East-West pipeline",
+          "source": "Financial Times",
+          "published": "2026-09-22",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOWXpnaFo1aGxnUWNfVGE4cDdHQml3Qmx1cGJrVGJuekdYZmJadHFUUGtVSDdEck1jN05jNk80UmxYVzNwRGFETDhPbkVSVkhDX2RNV21nMzUyc1plSlJvUENKUkNYTEFVZ3lwQnkxSWg0bVUyQWZMekFIMG41UF9OUzNMRlk?oc=5"
+        },
+        {
+          "title": "Saudi Arabia resumes Yanbu oil loading after pipeline restart",
+          "source": "Reuters",
+          "published": "2026-09-29",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNE80QTVVd2tvbHZWR1VLTzh5enAxOUZGMUVGNnQxcXhHeVJiYzU2S2NaZWVReFdmaF83cjJ1dGFVRGREalh4aWFtaWxuR1hLUFdtSTRmb0dsM0ZDQkVOX1RxdG1FNDItMlN0Y0lPN1JlSTAxdXRncndISmxYc3hnaWZKekpVVDZ5RlJOLTNQS3RJSXFhY29RV2psazdPOTlpajFJVVVUc09hZw?oc=5"
+        },
+        {
+          "title": "Saudi Arabia restarts Yanbu oil loadings after pipeline resumes operations",
+          "source": "TRT World",
+          "published": "2026-09-29",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5Sd3A2N0ZiVkQ4blB0S2RxNGZCcUhsbUVlUkkzeC16NkJkbW5TQjdkSUtUeF8yb2V6R2x6eWU5RW0xaEU3RWxkUGhIUXpONjV5UlhqMjczZFU?oc=5"
+        },
+        {
+          "title": "Saudi Rushes to Restart East-West Oil Pipeline",
+          "source": "Briefs Finance",
+          "published": "2026-09-22",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPV2t2OVY1NXUxdVFPaXpnZldHQk9uUkFpdVJ2ZEY3UFJ1d1p0dFFVam40dXhTVXg5U0p5SW0xMUZjTWlYQ1R6ZzZHQnNmSXAtMGdnWVJ6TkI0WFZhWnQ0djBQcW00MGhZUi1rREZLNDlsQktONm1aZF9LbzVPY0RNVUZEdmlVMDVaaHJqQ2daN01aZw?oc=5"
+        }
+      ],
+      "forecast": {
+        "probability": 0.4,
+        "reasoning": "Reuters sources say the pipeline restarted and Yanbu loadings resumed, so it is physically operating. However, the market requires an official Saudi government statement that it is currently operating. Saudi officials often stay quiet, and the market's existence suggests no qualifying statement has been made yet."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-02T19:29:27Z",
+        "crowd": 0.335,
+        "best_bid": 0.33,
+        "best_ask": 0.34,
+        "volume": 296979,
+        "liquidity": 45968,
+        "fee_rate": 0.0
+      },
+      "bet_note": "Gap of 6 points is under the 10-point minimum."
+    },
+    {
+      "market_id": "4893302",
+      "event_id": "1071243",
+      "event_title": "\"Resident Evil\" total domestic gross by October 31?",
+      "option": "<150m",
+      "question": "Will the total domestic gross for Resident Evil be less than 150m by October 31?",
+      "rules": "This market will resolve according to how much \"Resident Evil\" box office will gross domestically by October 31, 2026. The \"Daily Box Office Performance\" figures found on the \"Box Office\" tab on this movie's The Numbers (https://www.the-numbers.com/) page will be used to resolve this market once the values for all dates between opening (September 18, 2026) and October 31, 2026 are final (i.e., not studio estimates).\n\nIf the reported value falls exactly between two brackets, then this market will resolve to the higher range bracket.\n\nPlease note, this market will resolve according to the The Numbers figures provided under Box Office Performance until and including October 31, 2026, regardless of whether domestic refers to only the USA, or to USA and Canada, etc.\n\nIf there is ambiguity as to whether the resolution source's figures are final, this market will remain open until both https://www.boxofficemojo.com/ and https://www.the-numbers.com/ have confirmed their finalized figures.\n\nIf there is no final data available by November 30, 2026, 11:59 PM ET, another credible resolution source will be chosen.",
+      "topic": "Entertainment",
+      "end_date": "2026-10-31T23:59:00Z",
+      "url": "https://polymarket.com/event/resident-evil-total-domestic-gross-by-october-31",
+      "snapshot": {
+        "time": "2026-10-02T19:26:20Z",
+        "crowd": 0.6,
+        "best_bid": 0.58,
+        "best_ask": 0.62,
+        "volume": 24650,
+        "liquidity": 4795,
+        "fee_rate": 0.05
+      },
+      "news": [],
+      "forecast": {
+        "probability": 0.8,
+        "reasoning": "Past Resident Evil films earned well under $100M domestically. Even with the director's hype from Weapons, which made about $150M total, reaching $150M within about six weeks of release is a high bar."
+      },
+      "bet": {
+        "side": "YES",
+        "price": 0.62,
+        "shares": 79.14,
+        "stake": 49.07,
+        "fee": 0.93,
+        "cost": 50.0,
+        "gap_pts": 18.0,
+        "kelly_full": 0.4568
+      },
+      "trade_snapshot": {
+        "time": "2026-10-02T19:29:27Z",
+        "crowd": 0.6,
+        "best_bid": 0.58,
+        "best_ask": 0.62,
+        "volume": 24650,
+        "liquidity": 4445,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Bought YES (18-point gap)."
+    },
+    {
+      "market_id": "5105599",
+      "event_id": "1100806",
+      "event_title": "# of views of next MrBeast video on day 1?",
+      "option": "35–40M",
+      "question": "Will MrBeast's next video get between 35 and 40 million views on day 1?",
+      "rules": "This market will resolve according to the number of views the next YouTube video posted by MrBeast gets in the first 24 hours after being posted. This market may not resolve until the 24 hours are complete, regardless of whether a strike is reached earlier.\n\nIf MrBeast does not post a YouTube video by October 31, 2026, 11:59 PM ET, this market will resolve to the lowest range bracket.\n\nIf the reported value falls exactly between two brackets, then this market will resolve to the higher range bracket.\n\nThe resolution source for this market is MrBeast's YouTube channel (https://www.youtube.com/@MrBeast), specifically the 'views' counter for the described video.\n\nIf the resolution source is not available at the end of the specified duration, this market will resolve according to most recent number of views available before the end of the specified duration.\n\nNote: This market refers to MrBeast's next video to be posted. Shorts, previews, or other videos released other than the referenced video will not be considered.",
+      "topic": "Entertainment",
+      "end_date": "2026-10-06T23:59:00Z",
+      "url": "https://polymarket.com/event/of-views-of-next-mrbeast-video-on-day-1-20261003",
+      "snapshot": {
+        "time": "2026-10-02T19:26:20Z",
+        "crowd": 0.295,
+        "best_bid": 0.28,
+        "best_ask": 0.31,
+        "volume": 10333,
+        "liquidity": 18951,
+        "fee_rate": 0.05
+      },
+      "news": [],
+      "forecast": {
+        "probability": 0.18,
+        "reasoning": "MrBeast's recent videos vary widely in first-day views, often somewhere between about 25M and 60M. That makes any single 5M-wide bracket fairly unlikely."
+      },
+      "bet": {
+        "side": "NO",
+        "price": 0.72,
+        "shares": 68.49,
+        "stake": 49.31,
+        "fee": 0.69,
+        "cost": 50.0,
+        "gap_pts": 10.0,
+        "kelly_full": 0.3331
+      },
+      "trade_snapshot": {
+        "time": "2026-10-02T19:29:27Z",
+        "crowd": 0.295,
+        "best_bid": 0.28,
+        "best_ask": 0.31,
+        "volume": 10333,
+        "liquidity": 18951,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Bought NO (10-point gap)."
+    },
+    {
+      "market_id": "5105600",
+      "event_id": "1100806",
+      "event_title": "# of views of next MrBeast video on day 1?",
+      "option": "40–45M",
+      "question": "Will MrBeast's next video get between 40 and 45 million views on day 1?",
+      "rules": "This market will resolve according to the number of views the next YouTube video posted by MrBeast gets in the first 24 hours after being posted. This market may not resolve until the 24 hours are complete, regardless of whether a strike is reached earlier.\n\nIf MrBeast does not post a YouTube video by October 31, 2026, 11:59 PM ET, this market will resolve to the lowest range bracket.\n\nIf the reported value falls exactly between two brackets, then this market will resolve to the higher range bracket.\n\nThe resolution source for this market is MrBeast's YouTube channel (https://www.youtube.com/@MrBeast), specifically the 'views' counter for the described video.\n\nIf the resolution source is not available at the end of the specified duration, this market will resolve according to most recent number of views available before the end of the specified duration.\n\nNote: This market refers to MrBeast's next video to be posted. Shorts, previews, or other videos released other than the referenced video will not be considered.",
+      "topic": "Entertainment",
+      "end_date": "2026-10-06T23:59:00Z",
+      "url": "https://polymarket.com/event/of-views-of-next-mrbeast-video-on-day-1-20261003",
+      "snapshot": {
+        "time": "2026-10-02T19:26:20Z",
+        "crowd": 0.245,
+        "best_bid": 0.24,
+        "best_ask": 0.25,
+        "volume": 11975,
+        "liquidity": 7340,
+        "fee_rate": 0.05
+      },
+      "news": [],
+      "forecast": {
+        "probability": 0.17,
+        "reasoning": "The 40–45M range is plausible given his typical first-day numbers. Still, with that much spread across many possible brackets, it gets only a modest share of the probability."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-02T19:29:27Z",
+        "crowd": 0.245,
+        "best_bid": 0.24,
+        "best_ask": 0.25,
+        "volume": 11975,
+        "liquidity": 7340,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Gap of 7 points is under the 10-point minimum."
+    }
+  ],
+  "batch_id": "msgbatch_01DxEM9gZbU1jTMfQM5HbmTT",
+  "forecast_at": "2026-10-02T19:29:27Z",
+  "usage": {
+    "input_tokens": 6576,
+    "output_tokens": 1677
+  },
+  "cost_usd": 0.0299
+}
