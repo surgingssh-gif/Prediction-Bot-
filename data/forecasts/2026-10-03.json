@@ -1,0 +1,779 @@
+{
+  "run_id": "2026-10-03",
+  "date": "2026-10-03",
+  "created_at": "2026-10-03T01:52:34Z",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "questions": [
+    {
+      "market_id": "1365861",
+      "event_id": "204972",
+      "event_title": "Brazil Presidential Election First Round: 2nd Place",
+      "option": "Flávio Bolsonaro",
+      "question": "Will Flávio Bolsonaro finish in second place in the first round of the 2026 Brazilian presidential election?",
+      "rules": "A presidential election is scheduled to take place in Brazil on October 4, 2026.\n\nThis market will resolve according to the listed candidate who receives the second-most valid votes in the first round of this election.\n\nThe named candidates will be primarily ranked by the number of valid votes received in the specified election. If two or more candidates are tied on valid votes, ties will be broken by alphabetical order of the candidates' last names. This market will resolve to the candidate that occupies the second-highest finishing position after applying this ranking.\n\nIf the result of this election isn't known definitively by June 30, 2027, 11:59 PM ET, the market will resolve to \"Other\".\n\nThis market will resolve based on the result of the election, as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the Brazilian government, specifically the Superior Electoral Court (Tribunal Superior Eleitoral, TSE) (e.g., https://dadosabertos.tse.jus.br/).",
+      "topic": "Politics",
+      "end_date": "2026-10-05T03:59:00Z",
+      "url": "https://polymarket.com/event/brazil-presidential-election-first-round-2nd-place",
+      "snapshot": {
+        "time": "2026-10-03T01:52:31Z",
+        "crowd": 0.745,
+        "best_bid": 0.74,
+        "best_ask": 0.75,
+        "volume": 1604707,
+        "liquidity": 153945,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "What kind of Brazil will emerge from this election?",
+          "source": "Brookings",
+          "published": "2026-09-30",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQN2FHaU13S0FHcXhpM1FsdWZycUNLb0ZkdEJrME5CbzZqQ21YQlpSZm9yVmNWeVFmOU1MdXNmTUIxR2dwNWdTR3MxQWdMRC02S3ZVcDJQbzJRLW1Xbm1ILTJxa3hlNE1Ja0FqaXJUeFFZN2p2X0V3c2JDWXAycldPMzFCdjU3RWZ1WjZXa0lUUQ?oc=5"
+        },
+        {
+          "title": "Brazil’s presidential election is more than just another polarized contest",
+          "source": "Chatham House",
+          "published": "2026-09-28",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNm8tTDA3MzJHeWI1RktPQ0Q4b1A0bFhXcU81QWFBcWJVSHJCQ0Z2QXVhQjJYLXdBMzhPakU4cVpKM01Mamt0elpjc3hfNjJsSFk5RDdSbGVaU21oUzJpREplQ09rUjZzRkdYWERFY3ktdmpTQl94UlZSVVVIa2dtVi1YQmpYNFM2aE9BbXk5Nmt5YUQ5dXNfamcwQUV3UjNfUlBtVQ?oc=5"
+        },
+        {
+          "title": "Brazil's Lula widens first-round lead, remains tied with Bolsonaro in runoff polls",
+          "source": "Reuters",
+          "published": "2026-09-28",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPUnRmazZ6aHJRa1ExSy02RWtGV2lmc1FpV2lnNk1Xa2dYZHZHRVdRVFBSbVl3V0I1NTdxbFdpNV90WHljQzFES04xUVNYOThQMFhzbmZyRlowOFVZUTU0YUZodjcxQjhHY1NiX1pLWXlKcjZsSUZuaDJGY1BYX2d1WmQtMXJzMlBkOWFSZndHeEtiUlNrU2hyM2s0YWM4Ri1qMWZsYTFtUE1DMGxPemJDX0N1NlVLZnd2X2RPSUxKRF91bHZGMU11dUpn?oc=5"
+        },
+        {
+          "title": "Lula vs. Bolsonaro II: 2026 General Elections in Brazil",
+          "source": "GIGA Hamburg",
+          "published": "2026-10-01",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxObTlkNEp0ZkhIZnR3Vk5vMm15cGtWWnFRMUNqRXdwN1UwMElPVnd3amtBa1ZIdlBiazBCSVA0N1JRRXZHSmRhZXJqRENOS0FXaTNrYnJnWU0tSGthWklPR21IOTlYVDB2cFczMkFXQlJhSDN1aGhzamZFTFNYb2hJenQyb0NfcVE1SldEMGd2NngzdXRz?oc=5"
+        },
+        {
+          "title": "Brazil’s Lula and Flavio Bolsonaro still essentially tied in new poll",
+          "source": "Al Jazeera",
+          "published": "2026-09-25",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPOS1HUXBXLWp1TEVKTTNqeVNIck1rdE15ODdjQnZxZG1sdTNsaC1VMjJKeHczZnM0dW1uQmkxVmtDYWtCQ1NoMGhQLWpGS2RKYXhHZ3JSM1Rwc1dZWEZ4NFQ3MFNicHBpY0FucXZ4T0M0YmViM0RDUnZwbE16Z2EwR0Y3TFpCRndrM3lvcXdqb0xjU0tpanV1RDk1c1hLQXVwNl8xNk5HTWczdDJ3QnfSAbMBQVVfeXFMT0RTa2R2dHhhS1RKa1NqQnJEcVlHaFUzYXlIVnNuNEY4M3lIcV8zaXFGQmRpcVRfQzJqeHZxTEZoNE9Hal9OaG5taDZwU0lsR1p5ZGctal9MX2FoaWlkTTFYcmN5MHhTZFF1TEg5SDBjYWVaTUJ2VXhqSTZZVkpFaTNfWEJtVDIwUVZYdGNKMmZEQ0NlQTdJY0JQdFhwSzRpSWIwMHE3RkJYcTVHc2ZqazRySjQ?oc=5"
+        },
+        {
+          "title": "Why the Trump Administration Is Being Accused of Interfering in Brazil's Election",
+          "source": "Time Magazine",
+          "published": "2026-10-02",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZlllMTJ2LWI2akNHVVZCNW1HNll1MWRfTHFOaTdSUlM5elRXdUprYzJmalVKeDR6QmFneDNkODJIdjFOLW82eTJORjVwM2hWbUVZWk1WOW5mUmc1NXZ0eklBb04xNWFYOTIyVzlEV1BteU9TeTUtZzN0bDl4MHJnV3VCSHVoOUo3Q3ZaVkdTcllWWlRjODZJUDEzOW90WkRDYVF2emdnMmk3RTQ?oc=5"
+        }
+      ],
+      "forecast": {
+        "probability": 0.86,
+        "reasoning": "Late-September polls show Lula leading the first round and Flávio Bolsonaro as his main challenger, tied with him in runoff polling. No other right-wing candidate appears close to overtaking Flávio for second. The main risks are a Flávio upset into first place or an unexpected surge by a third candidate."
+      },
+      "bet": {
+        "side": "YES",
+        "price": 0.75,
+        "shares": 66.01,
+        "stake": 49.51,
+        "fee": 0.5,
+        "cost": 50.0,
+        "gap_pts": 11.0,
+        "kelly_full": 0.4227
+      },
+      "trade_snapshot": {
+        "time": "2026-10-03T01:54:36Z",
+        "crowd": 0.745,
+        "best_bid": 0.74,
+        "best_ask": 0.75,
+        "volume": 1604707,
+        "liquidity": 153457,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Bought YES (11-point gap)."
+    },
+    {
+      "market_id": "4037599",
+      "event_id": "943054",
+      "event_title": "Brazil Presidential Election First Round Winner",
+      "option": "Lula",
+      "question": "Will Lula win the most votes in the first round of the 2026 Brazil presidential election?",
+      "rules": "A presidential election is scheduled to take place in Brazil on October 4, 2026.\n\nThis market will resolve according to the listed candidate who receives the most valid votes in the first round of this election.\n\nCandidates will be primarily ranked by order of valid votes won. If two or more candidates are tied for any position, ties will be broken by alphabetical order of the candidates’ listed full names as they appear in this market. This market will resolve to the candidate that occupies the highest finishing position after applying this ranking.\n\nIf the result of this election isn't known definitively by June 30, 2027, 11:59 PM ET, the market will resolve to \"Other\".\n\nThis market will resolve based on the result of the election, as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the Brazilian government, specifically the Superior Electoral Court (Tribunal Superior Eleitoral, TSE) (e.g., https://dadosabertos.tse.jus.br/).",
+      "topic": "Politics",
+      "end_date": "2026-10-05T03:59:00Z",
+      "url": "https://polymarket.com/event/brazil-presidential-election-first-round-winner",
+      "snapshot": {
+        "time": "2026-10-03T01:52:31Z",
+        "crowd": 0.745,
+        "best_bid": 0.74,
+        "best_ask": 0.75,
+        "volume": 457501,
+        "liquidity": 96895,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "What kind of Brazil will emerge from this election?",
+          "source": "Brookings",
+          "published": "2026-09-30",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQN2FHaU13S0FHcXhpM1FsdWZycUNLb0ZkdEJrME5CbzZqQ21YQlpSZm9yVmNWeVFmOU1MdXNmTUIxR2dwNWdTR3MxQWdMRC02S3ZVcDJQbzJRLW1Xbm1ILTJxa3hlNE1Ja0FqaXJUeFFZN2p2X0V3c2JDWXAycldPMzFCdjU3RWZ1WjZXa0lUUQ?oc=5"
+        },
+        {
+          "title": "Brazil's Lula widens first-round lead, remains tied with Bolsonaro in runoff polls",
+          "source": "Reuters",
+          "published": "2026-09-28",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPUnRmazZ6aHJRa1ExSy02RWtGV2lmc1FpV2lnNk1Xa2dYZHZHRVdRVFBSbVl3V0I1NTdxbFdpNV90WHljQzFES04xUVNYOThQMFhzbmZyRlowOFVZUTU0YUZodjcxQjhHY1NiX1pLWXlKcjZsSUZuaDJGY1BYX2d1WmQtMXJzMlBkOWFSZndHeEtiUlNrU2hyM2s0YWM4Ri1qMWZsYTFtUE1DMGxPemJDX0N1NlVLZnd2X2RPSUxKRF91bHZGMU11dUpn?oc=5"
+        },
+        {
+          "title": "Lula vs. Bolsonaro II: 2026 General Elections in Brazil",
+          "source": "GIGA Hamburg",
+          "published": "2026-10-01",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxObTlkNEp0ZkhIZnR3Vk5vMm15cGtWWnFRMUNqRXdwN1UwMElPVnd3amtBa1ZIdlBiazBCSVA0N1JRRXZHSmRhZXJqRENOS0FXaTNrYnJnWU0tSGthWklPR21IOTlYVDB2cFczMkFXQlJhSDN1aGhzamZFTFNYb2hJenQyb0NfcVE1SldEMGd2NngzdXRz?oc=5"
+        },
+        {
+          "title": "Brazil Election Live Results First Round 2026: Lula, Bolsonaro in Presidential Race",
+          "source": "Bloomberg.com",
+          "published": "2026-10-03",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE4tbE1TdFNzSW1YZ0ZMcjZWajBiUFJXcE4yQ0dLaVN1Y19uWHVrUmp4VUZJbHA0S001cVBnX2Jsa181ajZhNXIxN2VqcjloY0ZqcVE0MHVRWlAxV1IxUzFTN1FTbXRGVnc?oc=5"
+        },
+        {
+          "title": "Brazil’s presidential election is more than just another polarized contest",
+          "source": "Chatham House",
+          "published": "2026-09-28",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNm8tTDA3MzJHeWI1RktPQ0Q4b1A0bFhXcU81QWFBcWJVSHJCQ0Z2QXVhQjJYLXdBMzhPakU4cVpKM01Mamt0elpjc3hfNjJsSFk5RDdSbGVaU21oUzJpREplQ09rUjZzRkdYWERFY3ktdmpTQl94UlZSVVVIa2dtVi1YQmpYNFM2aE9BbXk5Nmt5YUQ5dXNfamcwQUV3UjNfUlBtVQ?oc=5"
+        },
+        {
+          "title": "Brazil’s Lula and Flavio Bolsonaro still essentially tied in new poll",
+          "source": "Al Jazeera",
+          "published": "2026-09-25",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPOS1HUXBXLWp1TEVKTTNqeVNIck1rdE15ODdjQnZxZG1sdTNsaC1VMjJKeHczZnM0dW1uQmkxVmtDYWtCQ1NoMGhQLWpGS2RKYXhHZ3JSM1Rwc1dZWEZ4NFQ3MFNicHBpY0FucXZ4T0M0YmViM0RDUnZwbE16Z2EwR0Y3TFpCRndrM3lvcXdqb0xjU0tpanV1RDk1c1hLQXVwNl8xNk5HTWczdDJ3QnfSAbMBQVVfeXFMT0RTa2R2dHhhS1RKa1NqQnJEcVlHaFUzYXlIVnNuNEY4M3lIcV8zaXFGQmRpcVRfQzJqeHZxTEZoNE9Hal9OaG5taDZwU0lsR1p5ZGctal9MX2FoaWlkTTFYcmN5MHhTZFF1TEg5SDBjYWVaTUJ2VXhqSTZZVkpFaTNfWEJtVDIwUVZYdGNKMmZEQ0NlQTdJY0JQdFhwSzRpSWIwMHE3RkJYcTVHc2ZqazRySjQ?oc=5"
+        }
+      ],
+      "forecast": {
+        "probability": 0.86,
+        "reasoning": "Reuters reported on September 28 that Lula had widened his first-round lead. Brazilian first-round polls usually identify the leader correctly, although the right has been underestimated before, as in 2022. A Flávio upset is possible but unlikely."
+      },
+      "bet": {
+        "side": "YES",
+        "price": 0.75,
+        "shares": 66.01,
+        "stake": 49.51,
+        "fee": 0.5,
+        "cost": 50.0,
+        "gap_pts": 11.0,
+        "kelly_full": 0.4227
+      },
+      "trade_snapshot": {
+        "time": "2026-10-03T01:54:36Z",
+        "crowd": 0.745,
+        "best_bid": 0.74,
+        "best_ask": 0.75,
+        "volume": 457501,
+        "liquidity": 96895,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Bought YES (11-point gap)."
+    },
+    {
+      "market_id": "4037600",
+      "event_id": "943054",
+      "event_title": "Brazil Presidential Election First Round Winner",
+      "option": "Flavio Bolsonaro",
+      "question": "Will Flavio Bolsonaro win the most votes in the first round of the 2026 Brazil presidential election?",
+      "rules": "A presidential election is scheduled to take place in Brazil on October 4, 2026.\n\nThis market will resolve according to the listed candidate who receives the most valid votes in the first round of this election.\n\nCandidates will be primarily ranked by order of valid votes won. If two or more candidates are tied for any position, ties will be broken by alphabetical order of the candidates’ listed full names as they appear in this market. This market will resolve to the candidate that occupies the highest finishing position after applying this ranking.\n\nIf the result of this election isn't known definitively by June 30, 2027, 11:59 PM ET, the market will resolve to \"Other\".\n\nThis market will resolve based on the result of the election, as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the Brazilian government, specifically the Superior Electoral Court (Tribunal Superior Eleitoral, TSE) (e.g., https://dadosabertos.tse.jus.br/).",
+      "topic": "Politics",
+      "end_date": "2026-10-05T03:59:00Z",
+      "url": "https://polymarket.com/event/brazil-presidential-election-first-round-winner",
+      "snapshot": {
+        "time": "2026-10-03T01:52:31Z",
+        "crowd": 0.265,
+        "best_bid": 0.26,
+        "best_ask": 0.27,
+        "volume": 475562,
+        "liquidity": 166859,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "What kind of Brazil will emerge from this election?",
+          "source": "Brookings",
+          "published": "2026-09-30",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQN2FHaU13S0FHcXhpM1FsdWZycUNLb0ZkdEJrME5CbzZqQ21YQlpSZm9yVmNWeVFmOU1MdXNmTUIxR2dwNWdTR3MxQWdMRC02S3ZVcDJQbzJRLW1Xbm1ILTJxa3hlNE1Ja0FqaXJUeFFZN2p2X0V3c2JDWXAycldPMzFCdjU3RWZ1WjZXa0lUUQ?oc=5"
+        },
+        {
+          "title": "Brazil's Lula widens first-round lead, remains tied with Bolsonaro in runoff polls",
+          "source": "Reuters",
+          "published": "2026-09-28",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPUnRmazZ6aHJRa1ExSy02RWtGV2lmc1FpV2lnNk1Xa2dYZHZHRVdRVFBSbVl3V0I1NTdxbFdpNV90WHljQzFES04xUVNYOThQMFhzbmZyRlowOFVZUTU0YUZodjcxQjhHY1NiX1pLWXlKcjZsSUZuaDJGY1BYX2d1WmQtMXJzMlBkOWFSZndHeEtiUlNrU2hyM2s0YWM4Ri1qMWZsYTFtUE1DMGxPemJDX0N1NlVLZnd2X2RPSUxKRF91bHZGMU11dUpn?oc=5"
+        },
+        {
+          "title": "Brazil’s presidential election is more than just another polarized contest",
+          "source": "Chatham House",
+          "published": "2026-09-28",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNm8tTDA3MzJHeWI1RktPQ0Q4b1A0bFhXcU81QWFBcWJVSHJCQ0Z2QXVhQjJYLXdBMzhPakU4cVpKM01Mamt0elpjc3hfNjJsSFk5RDdSbGVaU21oUzJpREplQ09rUjZzRkdYWERFY3ktdmpTQl94UlZSVVVIa2dtVi1YQmpYNFM2aE9BbXk5Nmt5YUQ5dXNfamcwQUV3UjNfUlBtVQ?oc=5"
+        },
+        {
+          "title": "Lula vs. Bolsonaro II: 2026 General Elections in Brazil",
+          "source": "GIGA Hamburg",
+          "published": "2026-10-01",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxObTlkNEp0ZkhIZnR3Vk5vMm15cGtWWnFRMUNqRXdwN1UwMElPVnd3amtBa1ZIdlBiazBCSVA0N1JRRXZHSmRhZXJqRENOS0FXaTNrYnJnWU0tSGthWklPR21IOTlYVDB2cFczMkFXQlJhSDN1aGhzamZFTFNYb2hJenQyb0NfcVE1SldEMGd2NngzdXRz?oc=5"
+        },
+        {
+          "title": "Brazil’s Lula and Flavio Bolsonaro still essentially tied in new poll",
+          "source": "Al Jazeera",
+          "published": "2026-09-25",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPOS1HUXBXLWp1TEVKTTNqeVNIck1rdE15ODdjQnZxZG1sdTNsaC1VMjJKeHczZnM0dW1uQmkxVmtDYWtCQ1NoMGhQLWpGS2RKYXhHZ3JSM1Rwc1dZWEZ4NFQ3MFNicHBpY0FucXZ4T0M0YmViM0RDUnZwbE16Z2EwR0Y3TFpCRndrM3lvcXdqb0xjU0tpanV1RDk1c1hLQXVwNl8xNk5HTWczdDJ3QnfSAbMBQVVfeXFMT0RTa2R2dHhhS1RKa1NqQnJEcVlHaFUzYXlIVnNuNEY4M3lIcV8zaXFGQmRpcVRfQzJqeHZxTEZoNE9Hal9OaG5taDZwU0lsR1p5ZGctal9MX2FoaWlkTTFYcmN5MHhTZFF1TEg5SDBjYWVaTUJ2VXhqSTZZVkpFaTNfWEJtVDIwUVZYdGNKMmZEQ0NlQTdJY0JQdFhwSzRpSWIwMHE3RkJYcTVHc2ZqazRySjQ?oc=5"
+        },
+        {
+          "title": "Brazil votes in high-stakes election as U.S.-China rivalry and debt loom large",
+          "source": "CNBC",
+          "published": "2026-10-02",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPX2FnTWlaNko5MlBVdVJyRklOTmxSc3NDaXdtV2x2aEtZQ2tJaFhzVU42ZzlxYk1jX1JyWFg5NlJBRVRBN3hqdXJDdVJDT3hSYzJzVVdsYzdLQUhSc3hldFRTUEFNUk0xOElXYjIwdnJMcng1cjBsMnlRZk8tWUprc19WazloQQ?oc=5"
+        }
+      ],
+      "forecast": {
+        "probability": 0.12,
+        "reasoning": "Flávio trails Lula in first-round polls even though they are tied in runoff scenarios. Polls in 2022 underestimated the Bolsonaro vote, which leaves some chance of an upset, but finishing first would require a sizable polling miss."
+      },
+      "bet": {
+        "side": "NO",
+        "price": 0.74,
+        "shares": 66.87,
+        "stake": 49.48,
+        "fee": 0.51,
+        "cost": 50.0,
+        "gap_pts": 14.0,
+        "kelly_full": 0.5244
+      },
+      "trade_snapshot": {
+        "time": "2026-10-03T01:54:36Z",
+        "crowd": 0.265,
+        "best_bid": 0.26,
+        "best_ask": 0.27,
+        "volume": 475562,
+        "liquidity": 166859,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Bought NO (14-point gap)."
+    },
+    {
+      "market_id": "3081965",
+      "event_id": "743554",
+      "event_title": "ECB Interest Rates: October 2026",
+      "option": "No change",
+      "question": "Will the ECB announce no change at the October 2026 meeting?",
+      "rules": "This market will resolve according to the change in basis points in the deposit facility rate resulting from the October 2026 meeting of the European Central Bank, relative to the level it was prior to this meeting.\n\nThe resolution source will be official information from the European Central Bank, including the statement or release from its October 2026 meeting, scheduled for October 28-29, 2026, as listed on the official European Central Bank calendar (https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html). This market may resolve as soon as the statement or release of the European Central Bank's October 2026 meeting with relevant data is issued.\n\nIf the specified rate is defined by an upper and lower bound, the relevant change will be the change to the upper bound.\n\nIf the specified rate is changed to a level not expressed in the displayed options, the change will be rounded according to the following guidelines. Increases or decreases of less than 25 bps will be rounded to 25 bps (e.g. an increase or decrease of 10 bps would be considered to be an increase or decrease of 25 bps). Increases or decreases of greater than 25 bps will be rounded to the nearest 25 bps and will be rounded away from 0 in cases of equidistance (e.g., an increase or decrease of 37.5 bps would be considered to be an increase or decrease of 50 bps). Displayed options of “Increase” or “Decrease” will include policy rate increases or decreases of any size.\n\nIf the specified meeting is postponed to a date and time before the start of the next scheduled meeting, this market will resolve based on the outcome of that postponed meeting. If the specified meeting is cancelled, or postponed such that no decision is announced by the start of the next scheduled meeting, this market will resolve to the “No Change” bracket. Emergency changes to the specified rate not resulting from the specified meeting will not be considered.",
+      "topic": "Economy",
+      "end_date": "2026-10-30T03:59:00Z",
+      "url": "https://polymarket.com/event/ecb-interest-rates-october-2026-20260723225848778",
+      "snapshot": {
+        "time": "2026-10-03T01:52:31Z",
+        "crowd": 0.945,
+        "best_bid": 0.94,
+        "best_ask": 0.95,
+        "volume": 162185,
+        "liquidity": 20552,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "Why the ECB Is Unlikely to Keep Rates Higher Than 3%",
+          "source": "Goldman Sachs",
+          "published": "2026-09-25",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPWmtOcVQ4bUhwWmtUaWszR0t6eGIzQnR2cmRBVTdWTU0yeGE1bVRLWVFoLTJQMFllUDQ3VUJpNU5Oa1JkYzhkcF9fWk1udm9hTzA2dEZvYzBhSFNFQVVVQUdoakZPYnZSaDM1Mm8wUGJ2dTZzVkJOX0xFOGFoRkFHRXAyQ2U1QUFDT1hzS2RSc3RjMV9rYmh4T0MtOV8taV9wRGdoZ21tNnc0Zw?oc=5"
+        },
+        {
+          "title": "Euro area bank interest rate statistics: August 2026",
+          "source": "European Central Bank",
+          "published": "2026-10-01",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOVktyZjVJeHB3djRQekNMU1JFZ2QwX0JRa1Q1T3NZTnYzWXRaZ0ZEQjF2NFJrX0drcHBILUx4WENLcDlIZ1RvTF9iMHkyLVNYdVFRaUM3MXJkODJVX3dNWFVCQTRvMVZrR0w0OUdLa1Y4eGFGbUpFcy1GajM1bS1CbVNlaw?oc=5"
+        },
+        {
+          "title": "Will the Bank of England Raise Interest Rates in Q4?",
+          "source": "global.morningstar.com",
+          "published": "2026-10-01",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOdjN3NldKRzFTQ3lIeHJvTGJfemFKdENLdFdBMUU4VFhfeTlYRzhGNHQ1S2lja2ZZTnVTMzBpUFNVd0ZWY1hTeFEyZ182clhMUTRidFh5TE5fbkZWQWhzb1hDbXJrc253Y2Z5V1hXNHVqOEYxcHRhYnhrUW9DMFlDZFdkbnhRd0ZxU2x2VmJicw?oc=5"
+        },
+        {
+          "title": "It's Q4 already?",
+          "source": "Reuters",
+          "published": "2026-09-27",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRVNfSS1QcVBtXzBSOEVIaDZ4dGxSNnVJbV9iNGt4UTJoRjZPeTJGSzNqc3VBbkhuY0RQT0pQUHpxTXNFRkZIUFdSUHEwdjdzSGxTOTNWTWZ0MTdiN2pvaW9DYVlQemtaeG5EemEwT3hsMU42ZzZ2Yi1BZ0tjN084bjFtaDlQMVpoNURKdg?oc=5"
+        },
+        {
+          "title": "Inflation bites again in Europe",
+          "source": "The Economist",
+          "published": "2026-10-02",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNU3didGVMNUxPT1B5dXg0YmFzWGs0eGpWZkwxVUVqQlJ2RHl4RXJLTWNINFJqZU5oUEdUNW9mOTBDRWRvcTA4Z2ZWUDZXSmFDelJmMGtjNl92LW9JTHU3N3VQOW5hMlo5T0QtZDl6SGRwdERHdjdyZDV2bGlfVWtpV2pNMTB3eTRZWktHZlNKcjRDQ2hVZmF3?oc=5"
+        },
+        {
+          "title": "ECB’s Sleijpen Says Central Banks Can’t Ignore Climate Change",
+          "source": "Bloomberg.com",
+          "published": "2026-10-01",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNX1JvV2dncm4tV0pUWmNBQUFNVzlCY1hOdFhQVWFZY3g4RWRrQk13dUxZSDMzbTFqSzNFR3VkNXlmMTlXQkRNTk84QXJzb1BMMTBTOTlqY19CZm1IY2ZZMGwxdjRDeWxvZkZuYi1yclV2NktvenI4S2tKXzM4N2Y4UUZrLWZzX2lMazVDSW5XalRIWHhzYUxEQ2RmazluUWxoZjMycEd1bTZMbE1aWWIyWndR?oc=5"
+        }
+      ],
+      "forecast": {
+        "probability": 0.72,
+        "reasoning": "Eurozone inflation has risen to 3.8%, which is building pressure for a hike. However, banks like BofA expect the next hike in December rather than October, and the ECB usually prefers to act at meetings with new staff projections. A hold remains most likely, with a real risk of an earlier move."
+      },
+      "bet": {
+        "side": "NO",
+        "price": 0.06,
+        "shares": 795.92,
+        "stake": 47.76,
+        "fee": 2.24,
+        "cost": 50.0,
+        "gap_pts": 22.0,
+        "kelly_full": 0.2317
+      },
+      "trade_snapshot": {
+        "time": "2026-10-03T01:54:36Z",
+        "crowd": 0.945,
+        "best_bid": 0.94,
+        "best_ask": 0.95,
+        "volume": 162185,
+        "liquidity": 20552,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Bought NO (22-point gap)."
+    },
+    {
+      "market_id": "4619164",
+      "event_id": "1007040",
+      "event_title": "Saudi Oil Pipeline (East-West) restarts by...?",
+      "option": "October 31",
+      "question": "Saudi Oil Pipeline (East-West) restarts by October 31?",
+      "rules": "On September 11, 2026, Saudi Arabia's Ministry of Energy announced that the East-West oil pipeline has been shut down.\n\nThis market will resolve to “Yes” if the government of Saudi Arabia announces that the East-West oil pipeline is operational or no longer shut down between market creation and the specified date, 11:59 PM ET. Otherwise, this market will resolve to “No”.\n\nA qualifying announcement must express that the pipeline is presently operating; operation at partial or reduced capacity qualifies.\n\nAnnouncements that attribute such a claim to third parties, state that the pipeline will or may operate in the future, describe work underway to restore operation, or frame resumption as expected, planned, or conditional, will not qualify.\n\nOnce a qualifying announcement is made, this market will resolve to “Yes,” regardless of any subsequent contradictory statements, or alternative information from other sources.\n\nThe resolution source for this market will be official information from the government of Saudi Arabia.",
+      "topic": "Economy",
+      "end_date": "2026-11-01T03:59:00Z",
+      "url": "https://polymarket.com/event/saudi-oil-pipeline-east-west-restarts-byptptpt",
+      "snapshot": {
+        "time": "2026-10-03T01:52:31Z",
+        "crowd": 0.624,
+        "best_bid": 0.619,
+        "best_ask": 0.629,
+        "volume": 509716,
+        "liquidity": 77649,
+        "fee_rate": 0.0
+      },
+      "news": [
+        {
+          "title": "Saudi Arabia restarts East-West oil pipeline, sources say",
+          "source": "Reuters",
+          "published": "2026-09-22",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPNmJidHFzNHlscWlnT2hsWFdKc1hNRFMxOWRnTTRQRHVHbV9tRTJySFJoOGFoZXdNdTIwMngxZlczRmY3dWJxWkNiWTRYclVyT0JoWXQyUHJpNThicmpUNDMwWjNqREdrYmw3Ty1peU9oaEtRdC1GWXE1S0o1eGlrWDZONDhqS0FDbWotZXV1LXBvTEhUWHdlT1BzYU5udjNKTTFXdk1hX0wwVk1yczRTdV94R0p4UUQ1bEViTXJ2S2pEaTVLTFlvdw?oc=5"
+        },
+        {
+          "title": "Saudi Arabia Restarts East-West Oil Pipeline",
+          "source": "Crude Oil Prices Today | OilPrice.com",
+          "published": "2026-09-22",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOemx3d3RXQnhfTFpiSGJ6d2FPYmRkSzJvNlNVdGJEckx4aVpaendWdTJSZFJDZ3I4WC1TZXZ6NzdtN05Jb3pUUzRxT3ZWX2pmWllNZUtaeWE3RUNiUGpMbkpZRDlCaUZDQ25nNktNT24zZWpMQ2xHamMtdGdUTjR4b3lYWlRucVgzWkhKcjJNemQ5U1lSdkdFM1NDUDNRelA2b2fSAacBQVVfeXFMTkNhUm9vMVdKLXJ4dnpkUXpLSk9ZRE50U1RmUVg1SnV2bmg0eE5lbk1NUnJlT1RreFNsemRuQmNNVHJzVGdVUElVTkY4ODRBY25Vemc4U185WGpRamozOTFLTzNLVUI4OXF1SmV6NzV1XzRnYVdHUlhfVmxnMV94NkxCdGg4NlBhQmwweGxvOFhVM2hnRE9MYUVfSTZLTDdyZVRUOWFDdXM?oc=5"
+        },
+        {
+          "title": "Oil Prices Jump on Houthi Attacks, U.S.-Iran Escalation Fears",
+          "source": "WSJ",
+          "published": "2026-09-24",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNcUtBVUJSRWdjelUySnhBRGJUNDN2TEd4QndjRnBXa0NJS1h3cVBBaFJkdlF3SHBrTTJJYUhScUt5WVFQRHZObXVJLXF3aUhqSVVReFFmcnRtMGEtclVxZXJnZjF3TW93eFJjYXM2VUw3S0txTnNhNU9leFRiSGpXcFNwVElPTEJlZ2VwYnByUXRvOUo3N2p4X3dRaURoMld3VEprbTBiWGMtMXhGXzdPYTlfaWZsSXB0NmN1NlM1dmxBcVE?oc=5"
+        },
+        {
+          "title": "Saudi Arabia resumes Yanbu oil loading after pipeline restart",
+          "source": "Reuters",
+          "published": "2026-09-29",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNE80QTVVd2tvbHZWR1VLTzh5enAxOUZGMUVGNnQxcXhHeVJiYzU2S2NaZWVReFdmaF83cjJ1dGFVRGREalh4aWFtaWxuR1hLUFdtSTRmb0dsM0ZDQkVOX1RxdG1FNDItMlN0Y0lPN1JlSTAxdXRncndISmxYc3hnaWZKekpVVDZ5RlJOLTNQS3RJSXFhY29RV2psazdPOTlpajFJVVVUc09hZw?oc=5"
+        },
+        {
+          "title": "Mideast oil exports rebound in September as Saudi Arabia boosts shipments",
+          "source": "Yahoo Finance",
+          "published": "2026-09-28",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOVExGd1VZczNDN0lzcUdMSWNGU1hyWGc1d0lFZzB4MmI5VmhYQ3JhN3NjUjRVRUxRTHNjVWlFa0diTDludXhqNjROcGZLSWZoS0lvZ2Joc2FwQmdNempuY1I5X1dJRXgwQ3ZNeGdfYTM0YTUwRFJvWnEtcEZleHdXWEVYaFY2TDZMc1o5TEI0XzhCd0p2bEhyNm5R?oc=5"
+        },
+        {
+          "title": "Oil Tumbles to Two-Week Low as Saudi Pipeline Restarts and Iran Signals Possible Hormuz Reopening",
+          "source": "EnergyNow",
+          "published": "2026-09-22",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQZ2FEOElmTTJTWUh0ZzFmcHFWYXJEZGg5bGYwcUFNdm1JbHp0bGlvQVdvdDVUOGMzajdZZ0VRT2JRTmVqZDFCazF4bFRSSllIejJoQ1pxaWk0NkFlc3hJMVB4QnZmYmJNczd0WkRDTHpxbUdqSkxOQ1ZXRk11TW80Y1VQdmFKcjZ6R21ZTF9PNG5kU0xPR1FvS2lmR1NsNU54VlNfT2NhcmQ2Sk5sNnNTZGFHTmEtQU1SUXVNd2tXT3VENThsZEE?oc=5"
+        }
+      ],
+      "forecast": {
+        "probability": 0.55,
+        "reasoning": "Reuters sources reported the pipeline restarted on September 22, and Yanbu oil loadings had resumed by September 29, so it is operating physically. However, resolution requires an official Saudi government announcement that it is operating. Since Saudi officials often stay quiet, this is close to a coin flip, slightly favoring Yes because the Energy Ministry publicly announced the shutdown."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-03T01:54:37Z",
+        "crowd": 0.624,
+        "best_bid": 0.619,
+        "best_ask": 0.629,
+        "volume": 509716,
+        "liquidity": 77635,
+        "fee_rate": 0.0
+      },
+      "bet_note": "Gap of 7 points is under the 10-point minimum."
+    },
+    {
+      "market_id": "3081966",
+      "event_id": "743554",
+      "event_title": "ECB Interest Rates: October 2026",
+      "option": "25 bps increase",
+      "question": "Will the ECB announce a 25 bps increase at the October 2026 meeting?",
+      "rules": "This market will resolve according to the change in basis points in the deposit facility rate resulting from the October 2026 meeting of the European Central Bank, relative to the level it was prior to this meeting.\n\nThe resolution source will be official information from the European Central Bank, including the statement or release from its October 2026 meeting, scheduled for October 28-29, 2026, as listed on the official European Central Bank calendar (https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html). This market may resolve as soon as the statement or release of the European Central Bank's October 2026 meeting with relevant data is issued.\n\nIf the specified rate is defined by an upper and lower bound, the relevant change will be the change to the upper bound.\n\nIf the specified rate is changed to a level not expressed in the displayed options, the change will be rounded according to the following guidelines. Increases or decreases of less than 25 bps will be rounded to 25 bps (e.g. an increase or decrease of 10 bps would be considered to be an increase or decrease of 25 bps). Increases or decreases of greater than 25 bps will be rounded to the nearest 25 bps and will be rounded away from 0 in cases of equidistance (e.g., an increase or decrease of 37.5 bps would be considered to be an increase or decrease of 50 bps). Displayed options of “Increase” or “Decrease” will include policy rate increases or decreases of any size.\n\nIf the specified meeting is postponed to a date and time before the start of the next scheduled meeting, this market will resolve based on the outcome of that postponed meeting. If the specified meeting is cancelled, or postponed such that no decision is announced by the start of the next scheduled meeting, this market will resolve to the “No Change” bracket. Emergency changes to the specified rate not resulting from the specified meeting will not be considered.",
+      "topic": "Economy",
+      "end_date": "2026-10-30T03:59:00Z",
+      "url": "https://polymarket.com/event/ecb-interest-rates-october-2026-20260723225848778",
+      "snapshot": {
+        "time": "2026-10-03T01:52:31Z",
+        "crowd": 0.05,
+        "best_bid": 0.04,
+        "best_ask": 0.06,
+        "volume": 93838,
+        "liquidity": 49823,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "Euro area bank interest rate statistics: August 2026",
+          "source": "European Central Bank",
+          "published": "2026-10-01",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOVktyZjVJeHB3djRQekNMU1JFZ2QwX0JRa1Q1T3NZTnYzWXRaZ0ZEQjF2NFJrX0drcHBILUx4WENLcDlIZ1RvTF9iMHkyLVNYdVFRaUM3MXJkODJVX3dNWFVCQTRvMVZrR0w0OUdLa1Y4eGFGbUpFcy1GajM1bS1CbVNlaw?oc=5"
+        },
+        {
+          "title": "BofA sees ECB rate hike in December as energy prices fan inflation",
+          "source": "Reuters",
+          "published": "2026-09-24",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQdjZBcmhmWFdVYTN0ZkRWRlo1LWI4VjFoXzdZd3p4MWZDaG1pUzZqMVUyMG8zZ2RIUFh1RlQzVjZwU3pTTFJSOXNuWnBwWWk2TFNRckliRVBRSVpNNFpsN3dlUDgtaW43a1Rqc1BDTlBEOGNiR2FpNzYzaEFseHU1b040MTNBMS1GTUdaaGI2cGwxQk9rSDVQYk5RZUhRa2F6TWtzRnY5cVVfRy1VdFZ4cVdQOA?oc=5"
+        },
+        {
+          "title": "Eurozone Inflation Hits 3.8%, Adding Pressure on the ECB to Raise Interest Rates Again",
+          "source": "global.morningstar.com",
+          "published": "2026-10-02",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPb0tPaHlVRThPT2NpTHEwcnF5QWlJZE45cXlKRU1MNDJhZ3RQQkFka24xbVdQZjhvZ01BdVJOQlVrLW00V0JCNzVNYk44SjRzcTVzbG01NmVaNXJDbVV1NHVOcWdPQTRQeUpzb1FpemFwc1dxQkVyOTZJelRXcWt0WC1VZE1vNXdTVEtDbGhGTDE0X1k0aDZUekllbjJwa3gzLUNvZVBkX2JiYmtQUVE?oc=5"
+        },
+        {
+          "title": "Australia raises interest rate to highest level in 15 years",
+          "source": "Financial Times",
+          "published": "2026-09-29",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxObjUzamZVNzI1cFFYbmpJRkphYlkzN0RnQ2c2QkpacG1OT2w5SS0xZHdGalhmT2prOWhpb0RJR3NLSkh0dl9yem5YOWRnMVV0SE9CdWw5b3F4bWhqbXZOc084VXVPMGZESE01MmVPQWgzeVplcEN4NmRMZnB5YmExcERZNHo?oc=5"
+        },
+        {
+          "title": "RBA raises interest rates by 25 bps; sees more hikes as inflationary risks mount",
+          "source": "Yahoo Finance UK",
+          "published": "2026-09-29",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPbF83cFVaLTBJRnFjUEVHaGV1ZzI1UlNHNjljMDBKTzQ3NXFoeVFtTnhqTnFQVl9BNzJ0TFJNNERvZVVYbE52VHJWcndrQS1tSWlXR0gxT2ZpeEN0Nk5TSlVIOC0xQkF1aVZNaWdCbkRkSE9YOXo1dldNR3R0N0ozZTczRQ?oc=5"
+        },
+        {
+          "title": "ZAWYA: HC expects Central Bank of Egypt to raise interest rates by 100 bps",
+          "source": "TradingView",
+          "published": "2026-09-21",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNenFyOUhPUkhwRVdsbl9vTGRPV0FfMWZYZWZ0ZUh3eE1RUUI4RFYyWFk0cmlvU01rYUFBRnN5MVJ0OHAzSE9TUjAyU192QVpnR2N5TDdZVXVwT1RXU19nNHEyOHZqYUFyTGwzdUJnQm5SWmIyMGhPUlU4NUd2RVVEZWx5TWNPZ3NPOURQdm1YNHdxX0s4VS05ZHFGWnZGVzR6ZmNaUkRobWt6T05WYWl5QTFHWUw5ZkJ5VWlMN1llM2l0eTZPTFpkWmEzYmZsaE5INXQ3QW5EZXZuV2dRTkU5TkdrMA?oc=5"
+        }
+      ],
+      "forecast": {
+        "probability": 0.25,
+        "reasoning": "Inflation at 3.8% and rate hikes elsewhere, such as Australia's, make an October hike plausible. Still, analyst consensus points to a December hike instead. This answer is consistent with the roughly 72% chance of no change in Q4."
+      },
+      "bet": {
+        "side": "YES",
+        "price": 0.06,
+        "shares": 794.84,
+        "stake": 47.69,
+        "fee": 2.24,
+        "cost": 49.93,
+        "gap_pts": 19.0,
+        "kelly_full": 0.1997
+      },
+      "trade_snapshot": {
+        "time": "2026-10-03T01:54:37Z",
+        "crowd": 0.05,
+        "best_bid": 0.04,
+        "best_ask": 0.06,
+        "volume": 93838,
+        "liquidity": 49828,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Bought YES (19-point gap)."
+    },
+    {
+      "market_id": "4418916",
+      "event_id": "995637",
+      "event_title": "Which company has the best Image Edit AI end of October?",
+      "option": "OpenAI",
+      "question": "Will OpenAI have the best Image Edit AI at the end of October 2026?",
+      "rules": "This market will resolve according to the company that owns the model that has the highest rank based on the arena.ai Image Edit Leaderboard when the table under \"Image Edit Arena\" filtered for \"Models\" is checked on October 31, 2026, 12:00 PM ET.\n\nResults from the \"Rank\" column under the \"Image Edit Arena\" Leaderboard tab at https://arena.ai/leaderboard/image-edit (Overall) filtered for \"Models\" will be used to resolve this market.\n\nNote: Models marked “AutoEval” at the applicable check time will not be considered, regardless of whether they display a rank or score. Models marked “Preliminary” at the applicable check time will be considered.\n\nModels will be ordered primarily by their leaderboard rank at the market’s check time. If two or more models are tied on rank, they will be ordered by which model is listed higher on the leaderboard. If a tie still remains, alphabetical order of company names as listed in this market group will be used as a final tiebreaker (e.g., “Google” would be ranked ahead of “SpaceXAI”). This market will resolve based on the company that occupies first place under this ranking.\n\nThe resolution source for this market is the arena.ai Image Edit Arena Leaderboard. If this resolution source is unavailable at check time, this market will remain open until the leaderboard comes back online and will resolve based on the first check after it becomes available. If it becomes permanently unavailable, this market will resolve to \"Other\".",
+      "topic": "Tech",
+      "end_date": "2026-11-01T03:59:00Z",
+      "url": "https://polymarket.com/event/which-company-has-the-best-image-edit-ai-end-of-october",
+      "snapshot": {
+        "time": "2026-10-03T01:52:31Z",
+        "crowd": 0.895,
+        "best_bid": 0.89,
+        "best_ask": 0.9,
+        "volume": 16484,
+        "liquidity": 3249,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "Exclusive | OpenAI Scraps Release of New AI Model Over Safety Concerns",
+          "source": "WSJ",
+          "published": "2026-09-28",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNcC0xNDExdTJodUowZi1yeWdFN3M5RlpvY3FvZ1lQeHltWGVkeG01ZTVlaHJ0TldqVVRhekJhWl9ZRTRLNHRqX1NQQVFKMW5NRnhBTmlUNWNpX1FBX3Myc3VlaGIxbFZTZDZYRlYwTGNVLTUtNnJScGJWcm5rX0hMMmNadFFmZw?oc=5"
+        },
+        {
+          "title": "OpenAI rogue agents leaked 53 ChatGPT user images, reportedly created nearly 1M links with encoded info",
+          "source": "Fortune",
+          "published": "2026-09-26",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQcXlHQk1XOUZtdWtxUmNXYTNoSXd5LUlfMHpIQ1BXWl8zVmVvMlkweEdlc3NKeUdZUENHeDVpTDRpUnJueFgyRUdSUEZfWXBZaHhpR2YxOUxWNjZyTWNHdk1udGs2Q2tQUjBsUTUxalFkdHBScDEwTnY3dmI3ZDI2dU5pc1pnYkFpamExNGFGTWdjZVJTWmV4QlhmcEp2RkxXYnoyWjFjZFBVV1AxOXVxVXBWT0c2M1hEOGJNVg?oc=5"
+        },
+        {
+          "title": "OpenAI makes canvas, its editing tool, available to everyone",
+          "source": "Mashable",
+          "published": "2026-09-30",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQMnZNeUhZSnpxTDJsd3dfRFRZMjl1YWF6RUpUaFFFMXhKZDhhaDdMMHpFTzRXbDZWOXlHaDg1S0c1bFVVVnBXUUN4VkdGbXJlak9KYTRBb1pQTjJpZl9Wd1V2QzY2WUt3ei1hRXdwbG5HQUpDNWNuVndfaGRzOXFNOTVWR0JMLUVZM1F3?oc=5"
+        },
+        {
+          "title": "Anthropic, OpenAI will not attend Australian senate AI hearing on October 1",
+          "source": "Tacoma News Tribune",
+          "published": "2026-09-28",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOcEE5VndyV3VjQVk3SkVIc21LUGFZcEM0SzBhVFBLNVpsYjY4dFdadVdOdFlEc2dUUnlONDlhTFhaU0VBOVBBbWlLUm5ITEwwRkNFUWdWdDU0NVJTcFptMkhiM0JESTBsTFBIOVlLZ1FWNm1SUDBEQzc1N3JkcVBlX0p3?oc=5"
+        },
+        {
+          "title": "OpenAI cuts ties with 3 safety researchers, WSJ reports",
+          "source": "TechCrunch",
+          "published": "2026-10-01",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOXzdCYW9BX1hfRWV4Ykh4Y1lPTF9VNTF4ckFXYUI1SzJIOUN6UkdaSEFsb1lRc1VIQ0FEbjZRVGMyekYxVVY5NmJBSnFIQkU3X3k4aHVTQ0hPcVZCNnlBNmdFUzBLZlpIRDl5MThNN3d0TFprbktxYUxNVjVwMFlSOFVQa3BLRm10WllwTlZVN0FsZEF1ckVEYw?oc=5"
+        },
+        {
+          "title": "Who’s suing AI and who’s signing latest: OpenAI signs first India deals",
+          "source": "Press Gazette",
+          "published": "2026-09-23",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbmlBOGF2YlY3cWZ0dXBrNWU2WV8yMGtJVjFCRUx2eUs3b0NNTzBsenpyOEloaVppUlpMOGxOMWtRX3BJYkcxbV9mZ1d5VzZLMmMzM1RNcXUycnRRTGpKV21FT3dJVkpuYTdQeEdJbzgwdUpJcV9kMEVwbkN3VDZKUVV1RlNEVVI5ZGN4eA?oc=5"
+        }
+      ],
+      "forecast": {
+        "probability": 0.28,
+        "reasoning": "The image-edit leaderboard has been contested mainly between Google and OpenAI, with other labs occasionally competing. Recent OpenAI news is dominated by safety turmoil and a scrapped model release, and there is no sign of a new image model. Google is probably favored to hold the top spot."
+      },
+      "bet": {
+        "side": "NO",
+        "price": 0.11,
+        "shares": 438.92,
+        "stake": 48.28,
+        "fee": 1.72,
+        "cost": 50.0,
+        "gap_pts": 61.0,
+        "kelly_full": 0.684
+      },
+      "trade_snapshot": {
+        "time": "2026-10-03T01:54:37Z",
+        "crowd": 0.895,
+        "best_bid": 0.89,
+        "best_ask": 0.9,
+        "volume": 16484,
+        "liquidity": 3250,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Bought NO (61-point gap)."
+    },
+    {
+      "market_id": "3554475",
+      "event_id": "841209",
+      "event_title": "Best Chinese AI Company end of October?",
+      "option": "Xiaomi",
+      "question": "Will Xiaomi have the best Chinese AI model at the end of October 2026?",
+      "rules": "This market will resolve according to the company that owns the model that has the highest arena rank among primarily Chinese companies, based on the arena.ai Text Arena (Overall) when the table under the \"Leaderboard\" tab is checked on October 31, 2026, 12:00 PM ET.\n\nChinese Companies include but are not limited to Alibaba, Moonshot, Baidu, Z.ai, Xiaomi, DeepSeek, ByteDance, MiniMax, Meituan, Tencent, and StepFun. Companies not headquartered in China or not primarily owned or operating within the Chinese technology ecosystem are not considered primarily Chinese.\n\nResults from the \"Rank\" column under the \"Text Arena | Overall\" Leaderboard tab at https://arena.ai/leaderboard/text/overall-no-style-control with style control off (Adjustments: None) and filtered for \"Models\" will be used to resolve this market.\n\nNote: Models marked “AutoEval” at the applicable check time will not be considered, regardless of whether they display a rank or score.\n\nQualifying Chinese Models will be ordered primarily by their leaderboard rank at the market’s check time. If two or more models are tied on rank, they will be ordered by their Arena score, including any underlying, unrounded, granular values reflected in the data below the leaderboard. If a tie still remains, alphabetical order of company names as listed in this market group will be used as a final tiebreaker (e.g., if the two models are tied by exact arena score, “Meituan” would be ranked ahead of “Xiaomi”). This market will resolve based on the company that occupies first place under this ranking.\n\nThe resolution source for this market is the arena.ai Text Arena (Overall). If this resolution source is unavailable at check time, this market will remain open until the leaderboard comes back online and will resolve based on the first check after it becomes available. If it becomes permanently unavailable, this market will resolve to \"Other\".",
+      "topic": "Tech",
+      "end_date": "2026-10-31T16:00:00Z",
+      "url": "https://polymarket.com/event/best-chinese-ai-company-end-of-october",
+      "snapshot": {
+        "time": "2026-10-03T01:52:31Z",
+        "crowd": 0.4735,
+        "best_bid": 0.451,
+        "best_ask": 0.496,
+        "volume": 21070,
+        "liquidity": 2583,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "Best upcoming phones in 2026: find your next phone",
+          "source": "stuff.tv",
+          "published": "2026-09-29",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5BNWRDWjZMcXdpZTB0dEhiMV9qendGb3B0MnJnbW10T0V6UHpCcmJzSGdpZUlGZ0tPTXFxZS1DUjM2SDhnYjJIeGRsSi1oUHMyZnR4SVB2enJFWnhVVjZEUVJ5UXc3UlZQaHliaWd3RVk?oc=5"
+        },
+        {
+          "title": "Best mobile phone and Sim-only deals for October 2026",
+          "source": "which.co.uk",
+          "published": "2026-09-30",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOTlVLT1FKdGhZaDZOSXVPRU9rLVMzNmVjMVU0eVZTcU1Od3BYUjBXcXJCbHB6eFk5ZVFxZnVqX3lONDN0Um5feUFuWTRGOGswdVEzZVlMSVpVT19ReFhiU0FwbkxQblA2U3AybEpnLXA1WTBHMGdGcjkxVGhtbEJLdmRpSUlrNUs0MmMzc2hoLTA1SVlfSHBmajV1RXRxcTNxaG1Rby13?oc=5"
+        },
+        {
+          "title": "Redmi 17C 5G India Launch On October 1: Price, Specs & Features",
+          "source": "ascendants.in",
+          "published": "2026-09-30",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNVHVVc25yUkpEX0wzMUh5dWdLVDgyOVo4ZVBQZi00MVZzMTJIU2dXTEdXRTYwR3lrS3pxVi1nc0RJWlgzVl9tQkdKTHdhdmQ1X1FEdC1LOVBYbjBzM1Q0SE1IMWNxSl9jQ0cwb1RaS0RnMEpEVzNXaFpHTE1yTG8wMjhSRXIxWDNEXzBvMW11N3FYZkJXM0tHRUNR?oc=5"
+        }
+      ],
+      "forecast": {
+        "probability": 0.06,
+        "reasoning": "Xiaomi's MiMo models have generally ranked below Chinese leaders like Alibaba's Qwen, DeepSeek, Moonshot's Kimi and Z.ai's GLM on the Text Arena. Overtaking all of them by October 31 would require a major release, and there is no news suggesting one."
+      },
+      "bet": {
+        "side": "NO",
+        "price": 0.551,
+        "shares": 89.14,
+        "stake": 49.12,
+        "fee": 0.88,
+        "cost": 50.0,
+        "gap_pts": 38.9,
+        "kelly_full": 0.8634
+      },
+      "trade_snapshot": {
+        "time": "2026-10-03T01:54:37Z",
+        "crowd": 0.473,
+        "best_bid": 0.449,
+        "best_ask": 0.497,
+        "volume": 21070,
+        "liquidity": 2057,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Bought NO (39-point gap)."
+    },
+    {
+      "market_id": "3685378",
+      "event_id": "868080",
+      "event_title": "When will the next Google Gemini Pro model be released?",
+      "option": "October 19–October 25",
+      "question": "Will the next Google Gemini Pro model be released between October 19 and October 25, 2026?",
+      "rules": "This market will resolve according to the calendar date (ET) on which Google's next Gemini Pro model is made available to the general public.\n\nAny Gemini model released after market creation and labeled as \"Pro\" may qualify (e.g., gemini-3.2-pro, gemini-3.5-pro, or gemini-4.0-pro-preview). Gemini models labeled only as Flash, Flash-Lite, or another non-Pro variant will not qualify.\n\nProducts labeled as a GA promotion of an already-existing Preview model (e.g., gemini-3.1-pro-ga) may qualify.\n\nA qualifying model must be launched and publicly accessible, including via open beta or open rolling waitlist signups. A closed beta or any form of private access will not suffice. The release must either be clearly defined and publicly announced by Google as accessible to the general public, or otherwise be made publicly accessible and explicitly labeled on the company's official website. Labeling errors, placeholder text, or version names displayed on the website that do not correspond to a model that is actually accessible to the general public will not qualify.\n\nThe primary resolution source for this market will be official information from Google, with additional verification from a consensus of credible reporting.",
+      "topic": "Tech",
+      "end_date": "2026-10-25T23:59:00Z",
+      "url": "https://polymarket.com/event/when-will-the-next-google-gemini-pro-model-be-released-20260817144359068",
+      "snapshot": {
+        "time": "2026-10-03T01:52:31Z",
+        "crowd": 0.1115,
+        "best_bid": 0.108,
+        "best_ask": 0.115,
+        "volume": 12185,
+        "liquidity": 7642,
+        "fee_rate": 0.04
+      },
+      "news": [],
+      "forecast": {
+        "probability": 0.08,
+        "reasoning": "The window is a single specific week, and there is no news of an imminent Gemini Pro launch. The base rate of a release landing in any particular week is low."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-03T01:54:37Z",
+        "crowd": 0.1115,
+        "best_bid": 0.108,
+        "best_ask": 0.115,
+        "volume": 12185,
+        "liquidity": 7642,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Gap of 3 points is under the 10-point minimum."
+    },
+    {
+      "market_id": "4294627",
+      "event_id": "976810",
+      "event_title": "When will the Rhine River return to normal levels?",
+      "option": "October 1 - 31, 2026",
+      "question": "Will the Rhine River return to normal levels between October 1 and October 31, 2026?",
+      "rules": "This market will resolve according to the date (Berlin time) when the water level at the Kaub gauge (station 25700100) on the Rhine River first reaches or exceeds 77 centimeters, as reported by the German Federal Waterways and Shipping Administration (WSV) via PegelOnline.\n\nA reading of 77 centimeters or higher is the equivalent water level (Gleichwertiger Wasserstand, GlW) for Kaub, the low-water reference mark below which shipping becomes structurally disrupted, and defines \"normal levels\" for this market.\n\nThe resolution is triggered by the first reading at or above 77 centimeters recorded on or after the market's start, representing a rise back to the threshold. A single reading at or above 77 centimeters is sufficient to trigger resolution; transient spikes count, and the water level does not need to be sustained at or above 77 centimeters for any period.\n\nIf readings for timestamps on or after November 1, 2026 (Berlin time) are available on the resolution source, and no reading at or above 77 centimeters has been recorded for a timestamp before November 1, 2026 (Berlin time), this market will resolve to \"No return before November 1, 2026.\" If readings for timestamps on or after November 1, 2026 (Berlin time) have not been recorded on the resolution source by November 2, 2026, 11:59 PM Berlin time, and no reading at or above 77 centimeters has been recorded for a timestamp before November 1, 2026 (Berlin time), this market will resolve to \"No return before November 1, 2026.\"\n\nThe resolution source for this market will be PegelOnline (https://www.pegelonline.wsv.de/gast/stammdaten?pegelnr=25700100).",
+      "topic": "Weather",
+      "end_date": "2026-10-31T23:59:00Z",
+      "url": "https://polymarket.com/event/when-will-the-rhine-river-return-to-normal-levels-20260906",
+      "snapshot": {
+        "time": "2026-10-03T01:52:31Z",
+        "crowd": 0.285,
+        "best_bid": 0.28,
+        "best_ask": 0.29,
+        "volume": 30056,
+        "liquidity": 11719,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "Water Watch: How Water Levels Are Affecting River Cruising",
+          "source": "Cruise Passenger",
+          "published": "2026-09-26",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPbkFxSW9YbDBNT1lJeDRNdmRoZDNqQzNIcGlDRFRNLUNkSnpUQ0laY1pPX3VQUS1JSnZLMGpORUNfR0RES25fTUU1VWtQNHNiVDEyakZ4Q3huMEZTTFQ2aUlLUGRCdnJEQjdlaEdGdU53NDJzZ29IeFdMMGFkNU5UYzhTTVpyYXAwS2VTT0pwRG9wMmR4dk9Yd1lJYUhJeUdJSl81V29DUEJZR0lmcjN2ZXB5VVV5dkxqemNiY3J3eTZxZEM3UHNreEFxVEpuYldsVFFXZXlxYU85TDQ?oc=5"
+        }
+      ],
+      "forecast": {
+        "probability": 0.55,
+        "reasoning": "The market implies the Kaub gauge is currently below 77 cm after a dry period, and river cruise reports mention low water. October usually brings more rain that can push levels up, and a single reading at or above 77 cm is enough. However, autumn low water has sometimes lasted into November, as in 2018."
+      },
+      "bet": {
+        "side": "YES",
+        "price": 0.29,
+        "shares": 166.5,
+        "stake": 48.28,
+        "fee": 1.71,
+        "cost": 50.0,
+        "gap_pts": 26.0,
+        "kelly_full": 0.3569
+      },
+      "trade_snapshot": {
+        "time": "2026-10-03T01:54:37Z",
+        "crowd": 0.285,
+        "best_bid": 0.28,
+        "best_ask": 0.29,
+        "volume": 30056,
+        "liquidity": 12242,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Bought YES (26-point gap)."
+    }
+  ],
+  "batch_id": "msgbatch_01D5DhqhMxqYh5zEcL3YbXVW",
+  "forecast_at": "2026-10-03T01:54:36Z",
+  "usage": {
+    "input_tokens": 7658,
+    "output_tokens": 1901
+  },
+  "cost_usd": 0.0343
+}
