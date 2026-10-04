@@ -1,0 +1,622 @@
+{
+  "run_id": "2026-10-04",
+  "date": "2026-10-04",
+  "created_at": "2026-10-04T02:32:02Z",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "questions": [
+    {
+      "market_id": "1365854",
+      "event_id": "204972",
+      "event_title": "Brazil Presidential Election First Round: 2nd Place",
+      "option": "Luiz Inácio Lula da Silva",
+      "question": "Will Luiz Inácio Lula da Silva finish in second place in the first round of the 2026 Brazilian presidential election?",
+      "rules": "A presidential election is scheduled to take place in Brazil on October 4, 2026.\n\nThis market will resolve according to the listed candidate who receives the second-most valid votes in the first round of this election.\n\nThe named candidates will be primarily ranked by the number of valid votes received in the specified election. If two or more candidates are tied on valid votes, ties will be broken by alphabetical order of the candidates' last names. This market will resolve to the candidate that occupies the second-highest finishing position after applying this ranking.\n\nIf the result of this election isn't known definitively by June 30, 2027, 11:59 PM ET, the market will resolve to \"Other\".\n\nThis market will resolve based on the result of the election, as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the Brazilian government, specifically the Superior Electoral Court (Tribunal Superior Eleitoral, TSE) (e.g., https://dadosabertos.tse.jus.br/).",
+      "topic": "Politics",
+      "end_date": "2026-10-05T03:59:00Z",
+      "url": "https://polymarket.com/event/brazil-presidential-election-first-round-2nd-place",
+      "snapshot": {
+        "time": "2026-10-04T02:31:58Z",
+        "crowd": 0.3795,
+        "best_bid": 0.37,
+        "best_ask": 0.389,
+        "volume": 1513342,
+        "liquidity": 142834,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "Brazil vote approaches with Lula and Bolsonaro polling in close race",
+          "source": "Reuters",
+          "published": "2026-10-01",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPLUg1UUxFZmFkd0pLYmlveXl5SWdJMlNiLTRJWFYtSS1NNmgwNWdDZkNLdlNmS2hUV0xzVjhJdkhYb2VVclZ4ai1yUmRxcUpZRDBzVnRRLW95ZjNiR0EtQjJYbVZOUTg0YnZxVGFsUmtRNUhmbUpoVnE0VU5lTVdfVGxnSjVwTGx3bkxwT3ZOa3BIVXRZRmhRRHEzZWZLRXBzRXJyd0h5WXZCb1lHOUhKWlpFeDdUc00?oc=5"
+        },
+        {
+          "title": "What to know about Brazil’s 2026 presidential election",
+          "source": "aljazeera.com",
+          "published": "2026-10-03",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOUXJXYmx6aUFCOEFrNVYwaGs0VFljaHRuaDltSUJ4SUxwTDJYRngyS3pnM0g1c3RjMzI5RnFaOUJYN1ZTd1p6bVF0c2Y3ajNyYzR5MU52SGpWeERmUElIVmlxb2I1YUxXTzgwaGx1LTFsMDFUcUVsUFp1UFZLbVBkLS1YMnJPWHEzRnRxM2s1bTFGN0NmSVBUb1ZB0gGfAUFVX3lxTE5PUEg1YTItTE01YWZMQ1A2SGpOa0MxY0lmT1hOcHBLRXVDaEx2WlhObUlQd0YwcFk4cDZ6ZUtpbmR2bUFyWnJPamU0V3FpTEtURzFmMHJFQ2F5MlNMSEpiOUx4WU8wc2lZcmc4NHJzSl9idXBOb28weWpNMUNKQ2RNVEJoSWFfU0ZRNHJ6MFdWdnF5QXVscjlCUEw3QlU0dw?oc=5"
+        },
+        {
+          "title": "Lula vs. Bolsonaro II: 2026 General Elections in Brazil",
+          "source": "GIGA Hamburg",
+          "published": "2026-10-01",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxObTlkNEp0ZkhIZnR3Vk5vMm15cGtWWnFRMUNqRXdwN1UwMElPVnd3amtBa1ZIdlBiazBCSVA0N1JRRXZHSmRhZXJqRENOS0FXaTNrYnJnWU0tSGthWklPR21IOTlYVDB2cFczMkFXQlJhSDN1aGhzamZFTFNYb2hJenQyb0NfcVE1SldEMGd2NngzdXRz?oc=5"
+        },
+        {
+          "title": "Brazil's big political rematch: What to know about the Brazilian election",
+          "source": "npr.org",
+          "published": "2026-10-03",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQLVpLVS1aSUxZdXVCNHFOS0U5dWs1REd5S1RLRkttb2ZQa1RzaXZLRzFJMkR3TUNNeXp0TnVFLU9acUxqRW9ZZDVfdGZsQjN2R0pxREYyT05GeW4zaG5teThlRVBra2NmVm12eTV2Q2pTbGltVE1hZ0NWVlNaaHphX1ZhYkp4TE1EcWhTMmxHUlZpSmRaNk9F?oc=5"
+        },
+        {
+          "title": "Lula or Bolsonaro: Wall Street braces for two wildly different results in Brazil election",
+          "source": "CNBC",
+          "published": "2026-10-03",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOSjRDcGpXeEtrQWd2bjdtSFRXM3d5YVU1WVVIVXg2U2I4VFlldUt2UGtsRjhHSU1UZnhEUjFIY3JORm9yNXRtQ3pmM1VnVjlVa0RjLXR1MEtadDgtT1ZGUW5xTlhkbXRzNUxSOVBaUmFzOGlXdUIyQldXSTRoN1pvS1hKYnQ1RjR0UFRCMUtpU0pwY1ltMExwajZUNFM1WjduQXRXNS1Ka1dfQWpESWdnOWNIcF9nRlljSWtORFAtTHVNUkHSAcgBQVVfeXFMUFQ3NUZ6SzhXY08xYXlYLVpzbUM5Qmc2NzlGLVZuam5tZWpvR1FIS2FXdldEWmlSRnE3Q3FaLV9mWGpsQ2FLcjdnakJhdElqMGY2YXI4UDlFanVOR3pHX005RklqMWJ6MXphOEEwMjVHdzVYQ3I4bjl6aVdfS05GZ2RBWnNjYWZDdGcyRU9DdnlTUkVsekhDNmd5eVJNaGlzSXY5ZDg4cGNhQ09UM2ExZGdCdjlqZlEwdlBEMHJTczNHUzFiX0FaY1U?oc=5"
+        },
+        {
+          "title": "Why the Trump Administration Is Being Accused of Interfering in Brazil's Election",
+          "source": "Time Magazine",
+          "published": "2026-10-02",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZlllMTJ2LWI2akNHVVZCNW1HNll1MWRfTHFOaTdSUlM5elRXdUprYzJmalVKeDR6QmFneDNkODJIdjFOLW82eTJORjVwM2hWbUVZWk1WOW5mUmc1NXZ0eklBb04xNWFYOTIyVzlEV1BteU9TeTUtZzN0bDl4MHJnV3VCSHVoOUo3Q3ZaVkdTcllWWlRjODZJUDEzOW90WkRDYVF2emdnMmk3RTQ?oc=5"
+        }
+      ],
+      "forecast": {
+        "probability": 0.3,
+        "reasoning": "Polls show Lula and Flávio Bolsonaro running close. Lula has historically led first rounds, as in 2022, and he has a solid base on the left. Polls have sometimes underestimated the Bolsonaro vote, so a second-place Lula finish is plausible but less likely than not."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-04T02:34:05Z",
+        "crowd": 0.3795,
+        "best_bid": 0.37,
+        "best_ask": 0.389,
+        "volume": 1513342,
+        "liquidity": 142834,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Gap of 7 points is under the 10-point minimum."
+    },
+    {
+      "market_id": "682705",
+      "event_id": "81557",
+      "event_title": "Prime Minister of Israel after the next election?",
+      "option": "Benjamin Netanyahu",
+      "question": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
+      "rules": "Legislative elections are schedule to be held in Israel on October 27, 2026. \n\nThis market will resolve to the next individual who is officially appointed and sworn in as Prime Minister of Israel following the 2026 parliamentary election. If an election is called early, this market will immediately resolve to the individual who is officially appointed and sworn in after that election.\n\nTo count for resolution, the individual must be formally sworn in. Any interim or caretaker Prime Minister will not count toward the resolution of this market.\n\nIf no such Prime Minister is sworn in by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Israel; however, a consensus of credible reporting may also be used.",
+      "topic": "Politics",
+      "end_date": "2026-10-28T03:59:00Z",
+      "url": "https://polymarket.com/event/who-will-be-the-next-prime-minister-of-israel-after-the-next-election",
+      "snapshot": {
+        "time": "2026-10-04T02:31:58Z",
+        "crowd": 0.365,
+        "best_bid": 0.36,
+        "best_ask": 0.37,
+        "volume": 5775582,
+        "liquidity": 398569,
+        "fee_rate": 0.0
+      },
+      "news": [
+        {
+          "title": "Will Netanyahu’s speech at the UN be his last as Israeli Prime Minister?",
+          "source": "The Forward",
+          "published": "2026-09-24",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9XN1NDanpnSTA2LTVXTGtKdmQyVHpQYThLVElTWjBQMmI5U0RZMTgtbzBUMExWUlMzeW5mVUVnRlJvaktQSGpuMnprS25BbVJvdjYtNmNVNVBCWk9SQTFwVks0ZzQ5R2ExYWx1Y1VfTkRyTl82UnBN?oc=5"
+        },
+        {
+          "title": "​​​A post-October 7 security doctrine is forming in Israel",
+          "source": "GIS Reports",
+          "published": "2026-10-02",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB0MmQ5MjlGc2xudzJ5SFpsbE1WX2liaEpRbl96MVBaSmI0X2IybGs0bElxbVpFT0ZXQl80MGdiUDluLVYtVVVaRXU2b3RRbnpzaVBvWFFkLTMwSGtIUHVYSmhHT2E3T21w?oc=5"
+        },
+        {
+          "title": "Israelis divided as vote that could oust Netanyahu only weeks away",
+          "source": "The Guardian",
+          "published": "2026-10-01",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNYVY4Nl9TRzlxZXd1aVI0a0Jhak0xNFR6SkcxS0VFZnp2cHUyc2Z4RFFmQ3NsUGFEajRwYTBBTXVUbkd4M1RkS1BLRWd5M3dsUExUZ1d4OEdiN2dwSVI5LVNMVnQyaUdOc1RCZmVPNEUtdG82b3ViZkp3cm0wdV9CdXotenpEalZLX2NzNk12aDRFeFdXSWRBM0pB?oc=5"
+        },
+        {
+          "title": "Netanyahu takes UN stage with one eye on Israel’s election",
+          "source": "aljazeera.com",
+          "published": "2026-09-24",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPVHp4Y3NJeUlhZmFHX0s1VFE1VUlHLXhab2FVZTMxTm9JUzFlOGpfMEp2bG1zSnFUaHQ0V2VLd0lLb2hrc0pYQnYwNEJETTB3ZEpFMUZBVm52aHdyWm4yeEJEblBUNlplYUVSQ1RBY2ZRejNzNEdKbDZtQ0RkaE5WQ2hPSXZaQ0dWZDBEUlBCMmN3ek9BbUpiQ1RCM0FVQWhsVmRiUtIBqgFBVV95cUxPeWx4WkZabkxpbUl2cEhoNkpscXJ0Znk4QVlVSjJ1ZEJSeGNkOXpYZTVlRlZrVVRVeHY3NDhLR0xPcXM1UC0ydmFLa2tOZUFscE1pRTRlbEtsSTVMYV9ONFoyMFdlTjZnR29aYzlESnloRzVDMEJxVmtjcGJ5OUw3UzFxc2RQZkZLMkREUVN3enZmWVRzcTY0UW4tR0pNdUxnQXJvaXNldDJ4UQ?oc=5"
+        },
+        {
+          "title": "Netanyahu’s Electoral Strategy: Deadlock",
+          "source": "Arab Center Washington DC",
+          "published": "2026-10-02",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE8tbjRfSnNJVU9YbmZ6Q1dyLU1aVThqMS1kMEpOMHVQdENzT1daTzhNajQxSU0ybVR2OFpQRDFkRTZxcDhiTENTVS1MamhYWHVqQURPbEpxUzFzSkZKN05iMEV2ZmpQS0FaMnozTG1RNWFjV3dHSy00M2pJa1JVUQ?oc=5"
+        },
+        {
+          "title": "Israel election poll: Gadi Eisenkot leads as Benjamin Netanyahu, opposition blocs tied",
+          "source": "The Jerusalem Post",
+          "published": "2026-09-28",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8xNVVHVG12bUZZaHJkbTgyLWNGNFYteExKaVNkV3ZvcjI1dGZ1amcycDRSa0tIWDFISV96SHJuZFFFVlpoeWhkYURnanZRZGZGLWQ1NzBwOE9tUmRFSkxFY04xbjZFaVR5?oc=5"
+        }
+      ],
+      "forecast": {
+        "probability": 0.4,
+        "reasoning": "Polls show the Netanyahu bloc and the opposition tied, with Eisenkot leading on some measures. A deadlock helps Netanyahu, who stays on as caretaker and is a skilled coalition builder. Still, the opposition's chances of forming a government are real."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-04T02:34:05Z",
+        "crowd": 0.365,
+        "best_bid": 0.36,
+        "best_ask": 0.37,
+        "volume": 5775582,
+        "liquidity": 398569,
+        "fee_rate": 0.0
+      },
+      "bet_note": "Gap of 3 points is under the 10-point minimum."
+    },
+    {
+      "market_id": "1366008",
+      "event_id": "205029",
+      "event_title": "Brazil Presidential Election First Round: Margin of Victory",
+      "option": "Lula da Silva 5-10%",
+      "question": "Will Luiz Inácio Lula da Silva win the first round of the 2026 Brazilian presidential election by 5–10%?",
+      "rules": "A presidential election is scheduled to take place in Brazil on October 4, 2026.\n\nThis market will resolve according to the margin of victory between the top two candidates in the first round of the next Brazil Presidential Election.\n\nFor the purpose of this market, the “margin of victory” is defined as the absolute difference between the percentages of valid votes received by the first- and second-place candidates. Percentages of the valid votes received by each candidate will be determined by dividing the total number of valid votes each of the top two candidates receives by the sum of all valid votes cast in the election.\n\nIf the reported value falls exactly between two brackets, then this market will resolve to the higher range bracket.\n\nThis market will resolve based on the official vote count once the vote count has been made official.\n\nIf a recount is initiated before the vote total has been made official, the market will remain open until the recount is completed and the vote is made official.\n\nIf the result of this election isn't known definitively by June 30, 2027, 11:59 PM ET, the market will resolve to \"Other\".\n\nThis market will resolve based on the result of the election, as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the Brazilian government, specifically the Superior Electoral Court (Tribunal Superior Eleitoral, TSE) (e.g., https://dadosabertos.tse.jus.br/).",
+      "topic": "Politics",
+      "end_date": "2026-10-05T03:59:00Z",
+      "url": "https://polymarket.com/event/brazil-presidential-election-first-round-margin-of-victory",
+      "snapshot": {
+        "time": "2026-10-04T02:31:58Z",
+        "crowd": 0.12,
+        "best_bid": 0.11,
+        "best_ask": 0.13,
+        "volume": 215031,
+        "liquidity": 52203,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "Brazil vote approaches with Lula and Bolsonaro polling in close race",
+          "source": "Reuters",
+          "published": "2026-10-01",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPLUg1UUxFZmFkd0pLYmlveXl5SWdJMlNiLTRJWFYtSS1NNmgwNWdDZkNLdlNmS2hUV0xzVjhJdkhYb2VVclZ4ai1yUmRxcUpZRDBzVnRRLW95ZjNiR0EtQjJYbVZOUTg0YnZxVGFsUmtRNUhmbUpoVnE0VU5lTVdfVGxnSjVwTGx3bkxwT3ZOa3BIVXRZRmhRRHEzZWZLRXBzRXJyd0h5WXZCb1lHOUhKWlpFeDdUc00?oc=5"
+        },
+        {
+          "title": "Brazil's big political rematch: What to know about the Brazilian election",
+          "source": "npr.org",
+          "published": "2026-10-03",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQLVpLVS1aSUxZdXVCNHFOS0U5dWs1REd5S1RLRkttb2ZQa1RzaXZLRzFJMkR3TUNNeXp0TnVFLU9acUxqRW9ZZDVfdGZsQjN2R0pxREYyT05GeW4zaG5teThlRVBra2NmVm12eTV2Q2pTbGltVE1hZ0NWVlNaaHphX1ZhYkp4TE1EcWhTMmxHUlZpSmRaNk9F?oc=5"
+        },
+        {
+          "title": "Lula vs. Bolsonaro II: 2026 General Elections in Brazil",
+          "source": "GIGA Hamburg",
+          "published": "2026-10-01",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxObTlkNEp0ZkhIZnR3Vk5vMm15cGtWWnFRMUNqRXdwN1UwMElPVnd3amtBa1ZIdlBiazBCSVA0N1JRRXZHSmRhZXJqRENOS0FXaTNrYnJnWU0tSGthWklPR21IOTlYVDB2cFczMkFXQlJhSDN1aGhzamZFTFNYb2hJenQyb0NfcVE1SldEMGd2NngzdXRz?oc=5"
+        },
+        {
+          "title": "Brazil Election Live Results First Round 2026: Lula, Bolsonaro in Presidential Race",
+          "source": "Bloomberg.com",
+          "published": "2026-10-04",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE4tbE1TdFNzSW1YZ0ZMcjZWajBiUFJXcE4yQ0dLaVN1Y19uWHVrUmp4VUZJbHA0S001cVBnX2Jsa181ajZhNXIxN2VqcjloY0ZqcVE0MHVRWlAxV1IxUzFTN1FTbXRGVnc?oc=5"
+        },
+        {
+          "title": "Brazil election: Lula and Flavio Bolsonaro tied in latest polls",
+          "source": "aljazeera.com",
+          "published": "2026-09-22",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNNFZpQVlRSEZwZG96ZjRhUV9MRDliVUgtN1VhNHNnUWpqNWg5OUxNejlwcXVBaHo4SV9uV2IyU3ZHRnZQajNxVVBMcE9RZnBzM2paNG5peGh6MXlOT3RQNnoxcXdkelVsLTRPcFNDdEhLaURYeDdhdk1Ba3daZHhtd21yWHFrMTVBNW5TS1ZsbGhIeHN4NU1tSUtBSk5FQW5TV1liVmZB0gGrAUFVX3lxTE9obFBzRUlyRGhCMU1OQVZuSmlCWmVMaWZHVVpqRUJfaG5DM0wtNFlYUnZVMGRBcUlLV0FBSlZsd3ZkNjRxSmZxMXJlbUdteU9fZnFkLWxfOGxWREdUMzVqU0diWi13OHhTRnZ1YUYzdW9GUkV0MnQ3cnJ2d2EzdFYyazAxdmlLaFlUcklFRmJSM1g5WFNBWGJVcjNtYnhWdXRVeHFUU2RPaWdwdw?oc=5"
+        },
+        {
+          "title": "Elections in Brazil: A subdued, digital campaign heightens uncertainty about the results",
+          "source": "The Conversation",
+          "published": "2026-09-23",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQbUlpNW9naWVrNENhMVhWQ09uRFJidzJiRmQ2OEN2SVRfc0dLTThDNDh3LThNMk5QN2VZUmdJQjQydm84OTFMUFE4TXhCaW9wQTk3bFRwTS1GN1J4R045a0dmcnN2WENzY1JCaF9xVG5IV3Z4MXRWZWlDZE1naXl4WXZqeVZzQ1lJeGM3Q2lzQVhHQWY5UG1tNGt3VjNOZGJmNGJKazA5LWc0MjZCQ0N4RGY0a2FwWEU2T0JxWUVB?oc=5"
+        }
+      ],
+      "forecast": {
+        "probability": 0.25,
+        "reasoning": "This needs Lula to finish first and also lead by between 5 and 10 points. Reporting describes a close race, and right-wing candidates have tended to beat their poll numbers. A tighter margin, or a Bolsonaro lead, looks somewhat more likely."
+      },
+      "bet": {
+        "side": "YES",
+        "price": 0.13,
+        "shares": 247.96,
+        "stake": 32.23,
+        "fee": 1.12,
+        "cost": 33.36,
+        "gap_pts": 12.0,
+        "kelly_full": 0.1334
+      },
+      "trade_snapshot": {
+        "time": "2026-10-04T02:34:05Z",
+        "crowd": 0.12,
+        "best_bid": 0.11,
+        "best_ask": 0.13,
+        "volume": 215031,
+        "liquidity": 49849,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Bought YES (12-point gap)."
+    },
+    {
+      "market_id": "5105607",
+      "event_id": "1100807",
+      "event_title": "# of views of next MrBeast video on week 1?",
+      "option": "90-100M",
+      "question": "Will MrBeast's next video get between 90 and 100 million views on week 1?",
+      "rules": "This market will resolve according to the number of views the next YouTube video posted by MrBeast after this market's creation gets in the first 7 days after being posted.\n\nIf MrBeast does not post a YouTube video by October 31, 2026, 11:59 PM ET, this market will resolve to the lowest range bracket.\n\nIf the reported value falls exactly between two brackets, this market will resolve to the higher range bracket.\n\nIf the resolution source is not available at the end of the specified duration, this market will resolve according to most recent number of views available before the end of the specified duration.\n\nThe resolution source for this is MrBeast's YouTube channel (https://www.youtube.com/@MrBeast), specifically the 'views' counter for the described video.\n\nNote: This market refers to MrBeast's next video posted. Shorts, previews, or other videos released other than the referenced video will not be considered.",
+      "topic": "Entertainment",
+      "end_date": "2026-10-11T23:59:00Z",
+      "url": "https://polymarket.com/event/of-views-of-next-mrbeast-video-on-week-1-20261003",
+      "snapshot": {
+        "time": "2026-10-04T02:31:58Z",
+        "crowd": 0.0675,
+        "best_bid": 0.062,
+        "best_ask": 0.073,
+        "volume": 32291,
+        "liquidity": 4033,
+        "fee_rate": 0.05
+      },
+      "news": [],
+      "forecast": {
+        "probability": 0.12,
+        "reasoning": "MrBeast's first-week views vary widely, roughly 40 to 120 million. A single 10-million-view bracket captures only a modest share of that range."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-04T02:34:05Z",
+        "crowd": 0.0675,
+        "best_bid": 0.062,
+        "best_ask": 0.073,
+        "volume": 32291,
+        "liquidity": 4033,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Gap of 5 points is under the 10-point minimum."
+    },
+    {
+      "market_id": "4346270",
+      "event_id": "681382",
+      "event_title": "US reissues Iran oil sales sanction relief by...?",
+      "option": "October 31",
+      "question": "US reissues Iran oil sanction relief by October 31?",
+      "rules": "On July 7, 2026, the United States revoked a sanctions waiver, “General License X,” which allowed for the sale of Iranian oil (see: https://thehill.com/policy/energy-environment/5957647-iran-oil-sanctions-waiver-strait-of-hormuz/).\n\nThis market will resolve to “Yes” if the United States federal government issues a waiver, license, or equivalent sanctions-relief mechanism lifting US sanctions on the sale of Iranian oil, petrochemical products, or petroleum products by the specified date, 11:59 PM ET. Otherwise this market will resolve to “No”.\n\nActions which direct partial or full sanction relief will both qualify. However, qualifying actions must reverse, remove, waive, or suspend US penalties on the sale of Iranian oil, petrochemical products, or petroleum products, in whole or in part.\n\nQualifying actions need not be permanent; temporary suspensions of sanctions will qualify. Relief issued for either primary or secondary sanctions will qualify. A re-issuance of the initial waiver will qualify. The full removal of any sanction on the sale of Iranian oil, petrochemical products, or petroleum products will also qualify.\n\nContinued sales of Iranian oil allowed during the wind-down period under this revocation order will not qualify. Mere extensions of the wind-down period, without issuance of a new qualifying sanctions-relief action, will not qualify.\n\nOnce a qualifying sanctions relief action has been taken, this market will resolve to “Yes,” regardless of any subsequent revocation.\n\nThe primary resolution source for this market will be official information from the United States federal government.",
+      "topic": "Economy",
+      "end_date": "2026-11-01T03:59:00Z",
+      "url": "https://polymarket.com/event/us-reissues-iran-oil-sales-sanction-relief-byptptpt-20260708142359046",
+      "snapshot": {
+        "time": "2026-10-04T02:31:58Z",
+        "crowd": 0.125,
+        "best_bid": 0.11,
+        "best_ask": 0.14,
+        "volume": 23974,
+        "liquidity": 19777,
+        "fee_rate": 0.0
+      },
+      "news": [],
+      "forecast": {
+        "probability": 0.1,
+        "reasoning": "The waiver was revoked in July, and there is no news pointing to it being reinstated. Sanctions relief within a month would need a sharp policy reversal."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-04T02:34:05Z",
+        "crowd": 0.125,
+        "best_bid": 0.11,
+        "best_ask": 0.14,
+        "volume": 23974,
+        "liquidity": 20247,
+        "fee_rate": 0.0
+      },
+      "bet_note": "Gap of 1 points is under the 10-point minimum."
+    },
+    {
+      "market_id": "4853905",
+      "event_id": "1065882",
+      "event_title": "Next Gemini Pro Model released on...?",
+      "option": "No release by October 31",
+      "question": "Will there be no next Google Gemini Pro model release by October 31, 2026?",
+      "rules": "This market will resolve according to the calendar date (ET) on which Google's next Gemini Pro model is made available to the general public.\n\nAny Gemini model released after market creation and labeled as \"Pro\" may qualify (e.g., gemini-3.2-pro, gemini-3.5-pro, or gemini-4.0-pro-preview). Gemini models labeled only as Flash, Flash-Lite, or another non-Pro variant will not qualify.\n\nProducts labeled as a GA promotion of an already-existing Preview model (e.g., gemini-3.1-pro-ga) may qualify.\n\nA qualifying model must be launched and publicly accessible, including via open beta or open rolling waitlist signups. A closed beta or any form of private access will not suffice. The release must either be clearly defined and publicly announced by Google as accessible to the general public, or otherwise be made publicly accessible and explicitly labeled on the company's official website. Labeling errors, placeholder text, or version names displayed on the website that do not correspond to a model that is actually accessible to the general public will not qualify.\n\nThe primary resolution source for this market will be official information from Google, with additional verification from a consensus of credible reporting.",
+      "topic": "Tech",
+      "end_date": "2026-10-31T23:59:00Z",
+      "url": "https://polymarket.com/event/next-gemini-pro-model-released-onptptpt-20260922131618444",
+      "snapshot": {
+        "time": "2026-10-04T02:31:58Z",
+        "crowd": 0.75,
+        "best_bid": 0.73,
+        "best_ask": 0.77,
+        "volume": 40988,
+        "liquidity": 3104,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "Gemini 4 Argon: our next era of frontier intelligence",
+          "source": "blog.google",
+          "published": "2026-09-30",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNRjB3amppaF9yb1FhSmxoUW5GUEtCREcxbW1ScXJRRWN5ZGtIM0N0d21wVEI3ZTd5ZHY4N09KRWNwX3U2Z3JBeDNWakYxYXlBVE95NEpKWW5vcWFKZlA5Qkdka3hGZG9INUZtMVN2VTJhWG1TTldVSE1JVm5VaVlvcnpWRlhzX0V1NGJXZGhfMEY?oc=5"
+        },
+        {
+          "title": "Google announces Gemini 4 flagship AI model after months of delays",
+          "source": "Reuters",
+          "published": "2026-09-30",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPa0kxM3JDazhISnQtVGJ1Q2phRmxPR2Mtb2R4X1dQX0U3TkVZLWV0YUZNSnRfQ25OQnRuWHpNczNHSzhCZFFkdHFCWEVXYUhuazBDLWJ0eV92WU9nMDR6Nnl5ZDRCOG5UdWtwNnpTNkVtS2NLejVrX1Y3eXFvbDRMc0Y2Q2hvN0Q5YTEzTVA3NDFLaHprbnpuNWVBejNPVUlKemJCSHZUcHZSVE9iNmt3TWxXMXFBWkU?oc=5"
+        },
+        {
+          "title": "Gemini Is Back To The Frontier With Gemini 4 Argon",
+          "source": "OfficeChai",
+          "published": "2026-10-01",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQTldtLWU0QmtBekcwWjVxWUhPalN5S2d1emdkdU04aFZmOWZreERmcXVza0otRHZsYXBLV05wdHJNRFhWRUU1YTRuTTUwMkp0TEotR2txWFR2a1A1Smpiem9sSldKMDJtOGNuS2s0SlB1Y25NT1N1dXNYRFhUR2tLU05Law?oc=5"
+        }
+      ],
+      "forecast": {
+        "probability": 0.55,
+        "reasoning": "Google announced Gemini 4 Argon on September 30, but it is not yet usable. It is also unclear whether it will carry a 'Pro' label. A release labeled Pro before October 31 is uncertain, so 'no release' is slightly favored."
+      },
+      "bet": {
+        "side": "NO",
+        "price": 0.27,
+        "shares": 179.93,
+        "stake": 48.58,
+        "fee": 1.42,
+        "cost": 50.0,
+        "gap_pts": 18.0,
+        "kelly_full": 0.2383
+      },
+      "trade_snapshot": {
+        "time": "2026-10-04T02:34:06Z",
+        "crowd": 0.75,
+        "best_bid": 0.73,
+        "best_ask": 0.77,
+        "volume": 40988,
+        "liquidity": 3044,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Bought NO (18-point gap)."
+    },
+    {
+      "market_id": "3667937",
+      "event_id": "549546",
+      "event_title": "Next Google Gemini Pro Model released by...?",
+      "option": "October 31",
+      "question": "Will the next Google Gemini Pro model be released by October 31, 2026?",
+      "rules": "This market will resolve to \"Yes\" if Google's next Gemini Pro model is made available to the general public between market creation and the specified date (ET). Otherwise, this market will resolve to “No”.\n\nAny Gemini model released after market creation and labeled as \"Pro\" may qualify (e.g., gemini-3.2-pro, gemini-3.5-pro, or gemini-4.0-pro-preview). Gemini models labeled only as Flash, Flash-Lite, or another non-Pro variant will not qualify.\n\nProducts labeled as a GA promotion of an already-existing Preview model (e.g., gemini-3.1-pro-ga) may qualify\n\nA qualifying model must be launched and publicly accessible, including via open beta or open rolling waitlist signups. A closed beta or any form of private access will not suffice. The release must be either clearly defined and publicly announced by Google as being accessible to the general public or otherwise made publicly accessible and explicitly labeled within the company's official website. Labeling errors, placeholder text, or version names displayed on the website that do not correspond to a model that is actually accessible to the general public will not qualify.\n\nThe primary resolution source for this market will be official information from Google, with additional verification from a consensus of credible reporting.",
+      "topic": "Tech",
+      "end_date": "2026-11-01T03:59:00Z",
+      "url": "https://polymarket.com/event/next-google-gemini-pro-model-released-byptptpt",
+      "snapshot": {
+        "time": "2026-10-04T02:31:58Z",
+        "crowd": 0.25,
+        "best_bid": 0.24,
+        "best_ask": 0.26,
+        "volume": 116106,
+        "liquidity": 11024,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "Gemini 4 Argon: our next era of frontier intelligence",
+          "source": "blog.google",
+          "published": "2026-09-30",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNRjB3amppaF9yb1FhSmxoUW5GUEtCREcxbW1ScXJRRWN5ZGtIM0N0d21wVEI3ZTd5ZHY4N09KRWNwX3U2Z3JBeDNWakYxYXlBVE95NEpKWW5vcWFKZlA5Qkdka3hGZG9INUZtMVN2VTJhWG1TTldVSE1JVm5VaVlvcnpWRlhzX0V1NGJXZGhfMEY?oc=5"
+        },
+        {
+          "title": "Google announces Gemini 4 flagship AI model after months of delays",
+          "source": "Reuters",
+          "published": "2026-09-30",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPa0kxM3JDazhISnQtVGJ1Q2phRmxPR2Mtb2R4X1dQX0U3TkVZLWV0YUZNSnRfQ25OQnRuWHpNczNHSzhCZFFkdHFCWEVXYUhuazBDLWJ0eV92WU9nMDR6Nnl5ZDRCOG5UdWtwNnpTNkVtS2NLejVrX1Y3eXFvbDRMc0Y2Q2hvN0Q5YTEzTVA3NDFLaHprbnpuNWVBejNPVUlKemJCSHZUcHZSVE9iNmt3TWxXMXFBWkU?oc=5"
+        },
+        {
+          "title": "Google announces Gemini 4 Argon AI model, but you can’t use it yet",
+          "source": "arstechnica.com",
+          "published": "2026-09-30",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPbFNNRlptWHlSNi1vaXpwUmhmQ3B2T3ZJMlpuUmFaTkFrWjNNM3VYZ3ZwRW02TmFNYmNOOTcweUJ6aXlxc3M0RW9mdkkxRVJ2amg1VjE5SDVUYWdwU3VzcW5xQnZ4cFprUWdjUW9EZnduUjhMNjl2cmsyZ0RCcUtJWXJFMENsZFhpNzMyQWhrMU1WRVRocnp5VmlienRfZVBlYll0QnEtbw?oc=5"
+        },
+        {
+          "title": "Google Unveils Argon AI Model as It Prepares the Gemini 4 Generation",
+          "source": "Межа. Новини України.",
+          "published": "2026-10-01",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBSOUJOakZ1cTNJRmtZM1NYaXVBT1BkNVBRU213MW44OUdXWEQ0TVlNemNFTmxfTkV3Qm0yT3ViTDdmSVhzenJYV3IyLWhsa01hSWctblhKR2l1OW1SSVY3X0I5cExNbDB4?oc=5"
+        },
+        {
+          "title": "Google nears release of Gemini 4 AI model, DeepMind head tells The Information",
+          "source": "Investing.com",
+          "published": "2026-09-23",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPMDdDc2FsSkJXcU9QbWkwZ09DVkJXMG9uWU9jWVk1R0dnQ1ZMcy11Um15ajd0LXFGMTRwR2hFV1FSb3FfZ0tYcXFjYkJNNTl1M1BVdm9VOHYwMFpSbzVDVDRiYXlCdlFWN0NfTFNnbFFPclFMcXJ2dGpseGVOVEZOYmgyU0draThsRl9sQ3lnaHpmZ3V5RmZCX1NNZGlmUzIwUUFBVFdwMlFqZHQ3dENKeHd4TmtEWklTY1lEeGJ2Qlgydi1ncXNmY1ZyOWprdTdUUkdxUHJB?oc=5"
+        },
+        {
+          "title": "Google-parent Alphabet unveils Gemini 4 flagship AI model: Check features, release date, Gemini 3.5 Pro sc",
+          "source": "The Economic Times",
+          "published": "2026-09-30",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxOdVJ1eDV5SDJ0VWRDTDRfbFlEZnBWM1NQWGd2ck0xVEhObGlCQVJXRWlPNFAzbktYeS1UQ3NkSm5lUmd4Nl90RFE3Z0J4ZXBpd1h1d29GSXh6NUMzckhuZm5jeU9JN2xWSTFDYXNib2M4TlBLNDhVM3dYaEQ1czhyenlRUFRhWVlybFg1NDRhTjB5TTNzN09nNEJfLTBTcUVYN2hVN0RlYXpFczRtcjRENDBIalRJS1RFOFlqRHdYS2duN0R2ZFhIbWdnbHp6UTF5RkIybGZ4MnQxLUlXdFBIS2w1QjhUN282R1o0Y2F6NExUVmUtNGRnN21UVng2ZGlHZE51UGNHcXhFUXB0c25EeWtPSdIBmAJBVV95cUxOM2tJQllaUkRXekNFZ2tTVWswa3A5TlAyaEI0UFhiSk1IU1Z5M0h1Mkp5MkNyUnhBY094Ym9WZWlFNmtoWllJR0t0MVlBamd5Y0stVmMyTXhnVFlKa1I0ZmE2VFpEVXdfUnpwY192enBxaXVtdVNScjNrWV9ScEo1cWFRblVZazV5Wk15VFIxQ2xURzVld2Iwck5XMGVTUDNvNU5JQnNzNDBUOE1HblZNOXpOSUVQR3Y1THZnVTVlWTk5cmw2aWlVeTV1c05wZFB2dkJoYWUzOTlzSEFRcXRXbEJSSTl1NUtwQVVPWGVKR2ExY19MYVZ4SHI3SnhZT3NvdGd6dEN2bU5nejkyZnhxY0lEYkNjdnJQ?oc=5"
+        }
+      ],
+      "forecast": {
+        "probability": 0.45,
+        "reasoning": "This is the complement of Q6. Gemini 4 has been announced, but public access and a 'Pro' name within four weeks are both uncertain."
+      },
+      "bet": {
+        "side": "YES",
+        "price": 0.26,
+        "shares": 186.78,
+        "stake": 48.56,
+        "fee": 1.44,
+        "cost": 50.0,
+        "gap_pts": 19.0,
+        "kelly_full": 0.2489
+      },
+      "trade_snapshot": {
+        "time": "2026-10-04T02:34:06Z",
+        "crowd": 0.25,
+        "best_bid": 0.24,
+        "best_ask": 0.26,
+        "volume": 116106,
+        "liquidity": 11043,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Bought YES (19-point gap)."
+    },
+    {
+      "market_id": "3491787",
+      "event_id": "828358",
+      "event_title": "When will the Danube River return to normal levels?",
+      "option": "October 1 - 31, 2026",
+      "question": "Will the Danube River return to normal levels between October 1 and October 31, 2026?",
+      "rules": "This market resolves based on when the water level at the Budapest gauge (station HU442027) first reaches or exceeds 93 centimeters, as reported by the International Commission for the Protection of the Danube River (ICPDR) via DanubeHIS. A reading of 93 centimeters or higher is the Danube Commission's official Low Water Level (LDC) threshold for Budapest, the minimum acceptable navigation level, and defines \"normal levels\" for this market.  \n\n\"Does not return by November 1, 2026\" resolves \"Yes\" if no reading at or above 93 centimeters is recorded at the Budapest gauge at any time on or before October 31, 2026 11:59 PM UTC. Readings after this cutoff are not considered, and any return to normal levels occurring on or after November 1, 2026 does not affect resolution.\n\nThe resolution is triggered by the first reading at or above 93 centimeters recorded on or after the market's start, representing a rise back to the threshold. A single reading at or above 93 centimeters is sufficient to trigger resolution; transient spikes count, and the water level does not need to be sustained at or above 93 centimeters for any period.\n\nThe bracket containing the timestamp of the first reading at or above 93 centimeters resolves \"Yes\"; all other brackets resolve \"No\".\n\nThe primary resolution source for this market will be DanubeHIS (https://www.danubehis.org/results/HU442027_HYDRO). If DanubeHIS is unavailable, this market may resolve based on a consensus of credible reporting.",
+      "topic": "Weather",
+      "end_date": "2026-11-02T04:59:00Z",
+      "url": "https://polymarket.com/event/when-will-the-danube-river-return-to-normal-levels-20260807212534133",
+      "snapshot": {
+        "time": "2026-10-04T02:31:58Z",
+        "crowd": 0.335,
+        "best_bid": 0.33,
+        "best_ask": 0.34,
+        "volume": 29268,
+        "liquidity": 3390,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "Water Watch: How Water Levels Are Affecting River Cruising",
+          "source": "cruisepassenger.com.au",
+          "published": "2026-09-26",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPbkFxSW9YbDBNT1lJeDRNdmRoZDNqQzNIcGlDRFRNLUNkSnpUQ0laY1pPX3VQUS1JSnZLMGpORUNfR0RES25fTUU1VWtQNHNiVDEyakZ4Q3huMEZTTFQ2aUlLUGRCdnJEQjdlaEdGdU53NDJzZ29IeFdMMGFkNU5UYzhTTVpyYXAwS2VTT0pwRG9wMmR4dk9Yd1lJYUhJeUdJSl81V29DUEJZR0lmcjN2ZXB5VVV5dkxqemNiY3J3eTZxZEM3UHNreEFxVEpuYldsVFFXZXlxYU85TDQ?oc=5"
+        }
+      ],
+      "forecast": {
+        "probability": 0.45,
+        "reasoning": "The Danube at Budapest is below the 93 cm low-water mark. October is typically a low-flow month and low water tends to persist, but a decent rain event upstream could push one reading above the threshold."
+      },
+      "bet": {
+        "side": "YES",
+        "price": 0.34,
+        "shares": 108.38,
+        "stake": 36.85,
+        "fee": 1.22,
+        "cost": 38.07,
+        "gap_pts": 11.0,
+        "kelly_full": 0.1523
+      },
+      "trade_snapshot": {
+        "time": "2026-10-04T02:34:06Z",
+        "crowd": 0.335,
+        "best_bid": 0.33,
+        "best_ask": 0.34,
+        "volume": 29268,
+        "liquidity": 3318,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Bought YES (11-point gap)."
+    },
+    {
+      "market_id": "3491788",
+      "event_id": "828358",
+      "event_title": "When will the Danube River return to normal levels?",
+      "option": "Does not return by November 1, 2026",
+      "question": "Will the Danube River fail to return to normal levels by November 1, 2026?",
+      "rules": "This market resolves based on when the water level at the Budapest gauge (station HU442027) first reaches or exceeds 93 centimeters, as reported by the International Commission for the Protection of the Danube River (ICPDR) via DanubeHIS. A reading of 93 centimeters or higher is the Danube Commission's official Low Water Level (LDC) threshold for Budapest, the minimum acceptable navigation level, and defines \"normal levels\" for this market.  \n\n\"Does not return by November 1, 2026\" resolves \"Yes\" if no reading at or above 93 centimeters is recorded at the Budapest gauge at any time on or before October 31, 2026 11:59 PM UTC. Readings after this cutoff are not considered, and any return to normal levels occurring on or after November 1, 2026 does not affect resolution.\n\nThe resolution is triggered by the first reading at or above 93 centimeters recorded on or after the market's start, representing a rise back to the threshold. A single reading at or above 93 centimeters is sufficient to trigger resolution; transient spikes count, and the water level does not need to be sustained at or above 93 centimeters for any period.\n\nThe bracket containing the timestamp of the first reading at or above 93 centimeters resolves \"Yes\"; all other brackets resolve \"No\".\n\nThe primary resolution source for this market will be DanubeHIS (https://www.danubehis.org/results/HU442027_HYDRO). If DanubeHIS is unavailable, this market may resolve based on a consensus of credible reporting.",
+      "topic": "Weather",
+      "end_date": "2026-11-02T04:59:00Z",
+      "url": "https://polymarket.com/event/when-will-the-danube-river-return-to-normal-levels-20260807212534133",
+      "snapshot": {
+        "time": "2026-10-04T02:31:58Z",
+        "crowd": 0.65,
+        "best_bid": 0.644,
+        "best_ask": 0.656,
+        "volume": 31216,
+        "liquidity": 2254,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "Water Watch: How Water Levels Are Affecting River Cruising",
+          "source": "cruisepassenger.com.au",
+          "published": "2026-09-26",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPbkFxSW9YbDBNT1lJeDRNdmRoZDNqQzNIcGlDRFRNLUNkSnpUQ0laY1pPX3VQUS1JSnZLMGpORUNfR0RES25fTUU1VWtQNHNiVDEyakZ4Q3huMEZTTFQ2aUlLUGRCdnJEQjdlaEdGdU53NDJzZ29IeFdMMGFkNU5UYzhTTVpyYXAwS2VTT0pwRG9wMmR4dk9Yd1lJYUhJeUdJSl81V29DUEJZR0lmcjN2ZXB5VVV5dkxqemNiY3J3eTZxZEM3UHNreEFxVEpuYldsVFFXZXlxYU85TDQ?oc=5"
+        }
+      ],
+      "forecast": {
+        "probability": 0.55,
+        "reasoning": "This is the complement of Q8. Persistent autumn low water makes staying below 93 cm through October slightly more likely than a rise."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-04T02:34:06Z",
+        "crowd": 0.65,
+        "best_bid": 0.644,
+        "best_ask": 0.656,
+        "volume": 31216,
+        "liquidity": 2309,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Gap of 9 points is under the 10-point minimum."
+    },
+    {
+      "market_id": "4893334",
+      "event_id": "1071261",
+      "event_title": "Taylor Swift monthly listeners hits __ by October 31?",
+      "option": "↑ 110m",
+      "question": "Will Taylor Swift's monthly listeners figure hit 110m by October 31?",
+      "rules": "This market will resolve to \"Yes\" if Taylor Swift has a monthly listeners of greater than or equal to the specified figure according to Spotify at any point between market creation and the specified date, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nThe monthly listener count is listed on each artist's public Spotify profile. Only primary artist profiles will qualify; features or collaborations under another artist profile will not count towards the specified artist's total.\n\nThe resolution source for this market will be Spotify.\n\nThis market and these products have not been endorsed by Spotify. Any references to Spotify, Spotify charts, streaming data, or any associated marks are descriptive only and do not indicate an endorsement of this product or any affiliation between Spotify and Polymarket. Spotify and related marks are the property of Spotify AB and its group companies.",
+      "topic": "Entertainment",
+      "end_date": "2026-10-31T23:59:00Z",
+      "url": "https://polymarket.com/event/taylor-swift-monthly-listeners-hits-by-october-31",
+      "snapshot": {
+        "time": "2026-10-04T02:31:58Z",
+        "crowd": 0.134,
+        "best_bid": 0.128,
+        "best_ask": 0.14,
+        "volume": 11828,
+        "liquidity": 2881,
+        "fee_rate": 0.05
+      },
+      "news": [],
+      "forecast": {
+        "probability": 0.08,
+        "reasoning": "Swift's monthly listener peaks have come around big album releases. Without a new major release, reaching 110 million in October 2026 seems unlikely."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-04T02:34:07Z",
+        "crowd": 0.134,
+        "best_bid": 0.128,
+        "best_ask": 0.14,
+        "volume": 11828,
+        "liquidity": 2839,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Gap of 5 points is under the 10-point minimum."
+    }
+  ],
+  "batch_id": "msgbatch_01N4gZyW6rdd4HSHSHii8tkZ",
+  "forecast_at": "2026-10-04T02:34:05Z",
+  "usage": {
+    "input_tokens": 6668,
+    "output_tokens": 2051
+  },
+  "cost_usd": 0.0338
+}
