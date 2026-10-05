@@ -8,5 +8,30 @@
     "outcome": 0,
     "resolved_at": "2026-10-04T18:01:41Z",
     "question": "Will MrBeast's next video get between 40 and 45 million views on day 1?"
+  },
+  "1365861": {
+    "outcome": 0,
+    "resolved_at": "2026-10-05T07:30:41Z",
+    "question": "Will Flávio Bolsonaro finish in second place in the first round of the 2026 Brazilian presidential election?"
+  },
+  "4037599": {
+    "outcome": 0,
+    "resolved_at": "2026-10-05T03:40:14Z",
+    "question": "Will Lula win the most votes in the first round of the 2026 Brazil presidential election?"
+  },
+  "4037600": {
+    "outcome": 1,
+    "resolved_at": "2026-10-05T03:40:14Z",
+    "question": "Will Flavio Bolsonaro win the most votes in the first round of the 2026 Brazil presidential election?"
+  },
+  "1365854": {
+    "outcome": 1,
+    "resolved_at": "2026-10-05T04:03:10Z",
+    "question": "Will Luiz Inácio Lula da Silva finish in second place in the first round of the 2026 Brazilian presidential election?"
+  },
+  "1366008": {
+    "outcome": 0,
+    "resolved_at": "2026-10-05T04:54:40Z",
+    "question": "Will Luiz Inácio Lula da Silva win the first round of the 2026 Brazilian presidential election by 5–10%?"
   }
 }
