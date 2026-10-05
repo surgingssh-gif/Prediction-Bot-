@@ -47,6 +47,8 @@ The calibration chart groups forecasts into buckets to check.
 the real asking price and Polymarket's real fee. Bet size uses the **Kelly
 formula** (a classic way to size bets by how big your edge is), scaled down to
 a quarter for safety, and never more than 5% of the bankroll on one question.
+At most 10% of the available cash goes into new bets each day, so money stays
+spread across the whole month of questions instead of the first few days.
 
 **Extra measures on the website:**
 - **Live prices:** what each open market trades at now, and what the open paper bets are worth at today's prices.
@@ -183,6 +185,7 @@ https://console.anthropic.com > **Usage**.
 |---|---|
 | 2026-10-02 | Experiment started with `claude-opus-5-5`, medium effort. |
 | 2026-10-03 | Reasoning style in the prompt changed from "a high school student could follow" to "a general reader could follow" (wording only; same rules and output). |
+| 2026-10-05 | Added a daily betting budget: at most 10% of available cash goes into new bets each day, with all of that day's bets scaled down equally if needed. Before this, the full $1,000 was tied up in open bets within 4 days, leaving nothing for later questions. Bets placed before this date are unchanged. |
 
 ---
 

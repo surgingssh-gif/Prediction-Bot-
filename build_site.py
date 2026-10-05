@@ -207,6 +207,7 @@ def build_data(days, resolutions, pending=None, prices=None):
             "min_edge": config.MIN_EDGE,
             "kelly": config.KELLY_FRACTION,
             "max_bet": config.MAX_BET_FRACTION,
+            "daily_budget": config.DAILY_BUDGET_FRACTION,
         },
         "stats": scoring.summary(rows),
         "calibration": {"ai": scoring.calibration(rows, "ai"), "crowd": scoring.calibration(rows, "crowd")},

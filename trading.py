@@ -156,3 +156,42 @@ def replay(forecast_files, resolutions, starting=None):
         "settled": settled,
         "history": history,
     }
+
+
+def daily_budget(cash, spent_today):
+    """
+    How much more can go into new bets today: a share of the cash we had at
+    the start of the day (cash now plus whatever was already bet today),
+    minus what was already bet today.
+    """
+    start_of_day_cash = cash + spent_today
+    return max(start_of_day_cash * config.DAILY_BUDGET_FRACTION - spent_today, 0.0)
+
+
+def fit_to_budget(bets, budget):
+    """
+    If the day's bets cost more than the budget, shrinks them ALL by the same
+    proportion (so no bet is favored just for coming first). Bets that end up
+    under the minimum are dropped. Changes the bet dicts in place and
+    returns the ones that survive.
+    """
+    total = sum(b["cost"] for b in bets)
+    if total <= budget:
+        return bets
+    scale = budget / total
+    kept = []
+    for bet in bets:
+        cost_per_share = bet["cost"] / bet["shares"]
+        fee_per = bet["fee"] / bet["shares"]
+        shares = int(bet["shares"] * scale * 100) / 100  # round down to stay in budget
+        if shares * cost_per_share < config.MIN_BET:
+            bet["dropped"] = True
+            continue
+        bet["shares"] = shares
+        bet["stake"] = round(shares * bet["price"], 2)
+        bet["fee"] = round(shares * fee_per, 2)
+        bet["cost"] = round(shares * cost_per_share, 2)
+        bet["scaled"] = round(scale, 4)
+        kept.append(bet)
+    return kept
+

@@ -781,7 +781,9 @@
         "is at least " + Math.round(s.min_edge * 100) + " points away from the price it would actually pay. It buys at the current " +
         "asking price (not the midpoint) and pays Polymarket's real taker fee, so the results aren't flattered. " +
         "Bet size uses the Kelly formula, scaled down to " + s.kelly * 100 + "% of what Kelly suggests, and never more than " +
-        s.max_bet * 100 + "% of the bankroll on one question."),
+        s.max_bet * 100 + "% of the bankroll on one question. At most " + Math.round((s.daily_budget || 0.1) * 100) +
+        "% of the available cash goes into new bets each day; if a day's bets add up to more, they're all scaled down by the same proportion. " +
+        "(This daily limit was added on Oct 5, 2026, after the whole bankroll was tied up within the first four days.)"),
       h("Limits to keep in mind"),
       el("ul", null, [
         li("Small samples are noisy. Expect wild swings until at least 100 questions have settled."),

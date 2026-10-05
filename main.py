@@ -51,8 +51,13 @@ def place_bets(day, forecasts, fetch=None):
     AI's news was gathered: same information, same moment.)
     """
     fetch = fetch or markets.fetch_market
-    portfolio = trading.replay(storage.read_forecasts(), storage.read_resolutions())
+    past_days = storage.read_forecasts()
+    portfolio = trading.replay(past_days, storage.read_resolutions())
     equity, cash = portfolio["equity"], portfolio["cash"]
+    # Today's spending limit (an extra run on the same day shares it).
+    spent_today = sum(q["bet"]["cost"] for d in past_days if d.get("date") == day["date"]
+                      for q in d.get("questions", []) if q.get("bet"))
+    budget = trading.daily_budget(cash, spent_today)
     for q in day["questions"]:
         q["forecast"] = forecasts.get(q["market_id"])
         q["bet"] = None
@@ -76,8 +81,19 @@ def place_bets(day, forecasts, fetch=None):
             live["fee_rate"], equity, cash,
         )
         q["bet"], q["bet_note"] = bet, note
-        if bet:
-            cash -= bet["cost"]
+
+    # Shrink the day's bets together if they'd go over today's budget.
+    bets = [q["bet"] for q in day["questions"] if q.get("bet")]
+    trading.fit_to_budget(bets, budget)
+    for q in day["questions"]:
+        bet = q.get("bet")
+        if bet and bet.pop("dropped", False):
+            q["bet"] = None
+            q["bet_note"] = ("No cash left for new bets today; it's all in open bets." if budget < config.MIN_BET
+                             else "Too small after fitting the day's bets into the daily budget.")
+        elif bet and "scaled" in bet:
+            q["bet_note"] += f" Scaled to {bet['scaled'] * 100:.0f}% to fit the daily budget of ${budget:,.2f}."
+    day["budget"] = round(budget, 2)
     return day
 
 

@@ -59,6 +59,10 @@ MIN_EDGE = 0.10             # bet only if the AI disagrees with the price by 10+
 KELLY_FRACTION = 0.25       # bet a quarter of what the Kelly formula says (safer)
 MAX_BET_FRACTION = 0.05     # never put more than 5% of the bankroll on one question
 MIN_BET = 1.00              # skip bets smaller than $1
+# At most this share of the available cash goes into new bets each day
+# (added 2026-10-05; see the README's experiment log). Without it, the
+# whole bankroll was tied up within 4 days and no new bets could be made.
+DAILY_BUDGET_FRACTION = 0.10
 
 # ---------------------------------------------------------------------------
 # Running the job

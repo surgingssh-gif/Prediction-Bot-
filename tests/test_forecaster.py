@@ -573,3 +573,38 @@ def test_account_value_uses_each_days_market_price():
         {"date": "2026-10-03", "value": round(cash + 100 * 0.50 + 50 * 0.70, 2)},
         {"date": "2026-10-04", "value": round(cash + 50 + 100 * 0.50, 2)},  # b settled
     ]
+
+
+
+def test_daily_budget():
+    assert trading.daily_budget(cash=1000, spent_today=0) == pytest.approx(100)
+    assert trading.daily_budget(cash=940, spent_today=60) == pytest.approx(40)    # 10% of 1000, minus 60
+    assert trading.daily_budget(cash=0, spent_today=0) == 0
+
+
+def test_fit_to_budget_scales_all_bets_equally():
+    a, _ = trading.decide_bet(0.80, 0.48, 0.50, 0.04, equity=1000, cash=1000)
+    b, _ = trading.decide_bet(0.20, 0.48, 0.50, 0.04, equity=1000, cash=1000)
+    c, _ = trading.decide_bet(0.75, 0.38, 0.40, 0.04, equity=1000, cash=1000)
+    before = [a["cost"], b["cost"], c["cost"]]
+    kept = trading.fit_to_budget([a, b, c], budget=60)
+    assert len(kept) == 3
+    assert sum(x["cost"] for x in kept) <= 60
+    ratios = [x["cost"] / old for x, old in zip(kept, before)]
+    assert max(ratios) - min(ratios) < 0.01             # same proportion for every bet
+    assert a["cost"] == pytest.approx(a["stake"] + a["fee"], abs=0.02)
+
+
+def test_fit_to_budget_leaves_small_days_alone_and_drops_with_no_cash():
+    a, _ = trading.decide_bet(0.80, 0.48, 0.50, 0.04, equity=1000, cash=1000)
+    cost = a["cost"]
+    assert trading.fit_to_budget([a], budget=1000) == [a] and a["cost"] == cost
+    assert trading.fit_to_budget([a], budget=0) == [] and a["dropped"]
+
+
+def test_daily_run_respects_the_budget(workspace, monkeypatch):
+    run_main(monkeypatch, fake_client(answer=ANSWER))
+    day = json.loads(next((workspace / "data" / "forecasts").glob("*.json")).read_text())
+    spent = sum(q["bet"]["cost"] for q in day["questions"] if q["bet"])
+    assert 0 < spent <= config.STARTING_BANKROLL * config.DAILY_BUDGET_FRACTION
+    assert day["budget"] == pytest.approx(100)
