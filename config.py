@@ -63,6 +63,9 @@ MIN_BET = 1.00              # skip bets smaller than $1
 # (added 2026-10-05; see the README's experiment log). Without it, the
 # whole bankroll was tied up within 4 days and no new bets could be made.
 DAILY_BUDGET_FRACTION = 0.10
+# At most this many open bets on the same real-world story (questions that
+# share a name like "Brazil" or "Gemini"; see groups.py). Added 2026-10-05.
+MAX_BETS_PER_STORY = 2
 
 # ---------------------------------------------------------------------------
 # Running the job

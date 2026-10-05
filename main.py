@@ -29,6 +29,7 @@ from dotenv import load_dotenv
 
 import config
 import forecaster
+import groups
 import markets
 import news
 import storage
@@ -81,6 +82,19 @@ def place_bets(day, forecasts, fetch=None):
             live["fee_rate"], equity, cash,
         )
         q["bet"], q["bet_note"] = bet, note
+
+    # Don't pile onto one story: at most MAX_BETS_PER_STORY open bets on
+    # related questions. The biggest disagreements get first pick.
+    holding = list(portfolio["open"])
+    candidates = sorted((q for q in day["questions"] if q.get("bet")), key=lambda q: -q["bet"]["gap_pts"])
+    for q in candidates:
+        same_story = [h for h in holding if groups.related(q, h)]
+        if len(same_story) >= config.MAX_BETS_PER_STORY:
+            q["bet"] = None
+            q["bet_note"] = (f"Skipped: already {len(same_story)} open bets on the same story "
+                             f"(limit {config.MAX_BETS_PER_STORY}).")
+        else:
+            holding.append(q)
 
     # Shrink the day's bets together if they'd go over today's budget.
     bets = [q["bet"] for q in day["questions"] if q.get("bet")]

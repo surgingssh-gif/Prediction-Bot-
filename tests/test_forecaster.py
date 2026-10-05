@@ -20,6 +20,7 @@ import build_site
 import config
 import discord_notify
 import forecaster
+import groups
 import main
 import markets
 import news
@@ -608,3 +609,39 @@ def test_daily_run_respects_the_budget(workspace, monkeypatch):
     spent = sum(q["bet"]["cost"] for q in day["questions"] if q["bet"])
     assert 0 < spent <= config.STARTING_BANKROLL * config.DAILY_BUDGET_FRACTION
     assert day["budget"] == pytest.approx(100)
+
+
+
+def _q(event_title, question, option=""):
+    return {"event_title": event_title, "question": question, "option": option}
+
+
+def test_related_questions_share_a_name():
+    lula = _q("Brazil Presidential Election", "Will Luiz Inácio Lula da Silva win the 2026 Brazilian presidential election?", "Lula")
+    second = _q("Brazil Presidential Election First Round: 2nd Place", "Will Flávio Bolsonaro finish in second place?", "Flávio Bolsonaro")
+    flavio = _q("Brazil Presidential Election First Round Winner", "Will Flavio Bolsonaro win the most votes in the first round?")
+    bulgaria = _q("Bulgaria Presidential Election", "Will Iliana Iotova win the next Bulgarian presidential election?")
+    fed = _q("Fed Decision in October?", "Will the Fed cut rates after the October 2026 meeting?")
+    ecb = _q("ECB Interest Rates: October 2026", "Will the ECB announce no change at the October 2026 meeting?")
+    assert groups.related(lula, second) and groups.related(second, flavio)   # "Flávio" = "Flavio"
+    assert not groups.related(lula, bulgaria)        # "presidential election" alone doesn't count
+    assert not groups.related(fed, ecb)              # "October", "rates" don't count
+    assert "brazil" in groups.key_names(lula) and "election" not in groups.key_names(lula)
+
+
+def test_bets_capped_per_story(workspace, monkeypatch):
+    # Three markets about the same story ("Gemini"); the AI disagrees with all three.
+    events = [fake_event(f"e{i}", ["tech"], [fake_market(str(i))], title="Next Google Gemini model released by...?")
+              for i in range(1, 4)]
+    monkeypatch.setattr(markets, "fetch_events", lambda: events)
+    by_id = {m["id"]: m for e in events for m in e["markets"]}
+    monkeypatch.setattr(markets, "fetch_market", lambda market_id: by_id[market_id])
+    answer = {"forecasts": [{"id": f"Q{i}", "probability_pct": p, "reasoning": "R"}
+                            for i, p in ((1, 70), (2, 90), (3, 80))]}
+    run_main(monkeypatch, fake_client(answer=answer))
+    day = json.loads(next((workspace / "data" / "forecasts").glob("*.json")).read_text())
+    bets = {q["market_id"]: q["bet"] for q in day["questions"]}
+    assert sum(1 for b in bets.values() if b) == config.MAX_BETS_PER_STORY
+    assert bets["1"] is None                          # smallest disagreement is the one skipped
+    skipped = next(q for q in day["questions"] if q["market_id"] == "1")
+    assert "same story" in skipped["bet_note"]

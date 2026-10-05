@@ -783,7 +783,9 @@
         "Bet size uses the Kelly formula, scaled down to " + s.kelly * 100 + "% of what Kelly suggests, and never more than " +
         s.max_bet * 100 + "% of the bankroll on one question. At most " + Math.round((s.daily_budget || 0.1) * 100) +
         "% of the available cash goes into new bets each day; if a day's bets add up to more, they're all scaled down by the same proportion. " +
-        "(This daily limit was added on Oct 5, 2026, after the whole bankroll was tied up within the first four days.)"),
+        "There are also never more than " + (s.per_story || 2) + " open bets on the same real-world story (questions that share a name, " +
+        "like \u201cBrazil\u201d or \u201cGemini\u201d), with the biggest disagreements getting priority. " +
+        "(Both limits were added on Oct 5, 2026: within four days the whole bankroll was tied up, five bets of it on one election.)"),
       h("Limits to keep in mind"),
       el("ul", null, [
         li("Small samples are noisy. Expect wild swings until at least 100 questions have settled."),

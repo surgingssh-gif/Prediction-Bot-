@@ -49,6 +49,8 @@ formula** (a classic way to size bets by how big your edge is), scaled down to
 a quarter for safety, and never more than 5% of the bankroll on one question.
 At most 10% of the available cash goes into new bets each day, so money stays
 spread across the whole month of questions instead of the first few days.
+And there are never more than 2 open bets on the same real-world story (for
+example, the Brazil election), so one surprise can't sink several bets at once.
 
 **Extra measures on the website:**
 - **Live prices:** what each open market trades at now, and what the open paper bets are worth at today's prices.
@@ -67,7 +69,8 @@ spread across the whole month of questions instead of the first few days.
 | `markets.py` | Reads questions, prices and results from Polymarket, and filters them. |
 | `news.py` | Searches Google News for each question and drops headlines that leak market odds. |
 | `forecaster.py` | Builds the prompt and sends it to Claude through the Batches API. |
-| `trading.py` | Paper betting: fees, the Kelly formula, and the bankroll. |
+| `trading.py` | Paper betting: fees, the Kelly formula, the daily budget and the bankroll. |
+| `groups.py` | Spots questions about the same real-world story, so bets don't pile onto one outcome. |
 | `resolver.py` | Checks which questions have settled. |
 | `scoring.py` | Brier scores, calibration, and the AI-vs-crowd comparison. |
 | `storage.py` | Where records are saved (`data/`). |
@@ -186,6 +189,7 @@ https://console.anthropic.com > **Usage**.
 | 2026-10-02 | Experiment started with `claude-opus-5-5`, medium effort. |
 | 2026-10-03 | Reasoning style in the prompt changed from "a high school student could follow" to "a general reader could follow" (wording only; same rules and output). |
 | 2026-10-05 | Added a daily betting budget: at most 10% of available cash goes into new bets each day, with all of that day's bets scaled down equally if needed. Before this, the full $1,000 was tied up in open bets within 4 days, leaving nothing for later questions. Bets placed before this date are unchanged. |
+| 2026-10-05 | Added a limit of 2 open bets per real-world story (questions sharing a name like "Brazil" or "Gemini", see `groups.py`). Polymarket splits one story into many events, and 5 bets had piled onto the Brazil election. When the AI wants more, the biggest disagreements get priority. Every question is still forecast and scored; only betting is limited. |
 
 ---
 
