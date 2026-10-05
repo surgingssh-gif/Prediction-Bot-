@@ -6,12 +6,17 @@ Optional: if DISCORD_WEBHOOK_URL isn't set, the summary is just printed.
 
 import requests
 
+import build_site
 import config
 import scoring
 import storage
-import trading
 
 DISCORD_LIMIT = 2000  # Discord rejects longer messages
+
+
+def _money(x):
+    """+$12.34 or -$5.00"""
+    return f"{'+' if x >= 0 else '-'}${abs(x):,.2f}"
 
 
 def _pct(p):
@@ -34,7 +39,7 @@ def build_message(finished_days, newly_settled, resolutions, problems):
         for q in bets:
             bet = q["bet"]
             lines.append(
-                f"• {q['question']} - AI {_pct(q['forecast']['probability'])} vs crowd "
+                f"• {q['question']} - AI {_pct(q['forecast']['probability'])} vs market "
                 f"{_pct(q['snapshot']['crowd'])} → bought {bet['side']} for ${bet['cost']:.2f}"
             )
         lines.append("")
@@ -49,18 +54,23 @@ def build_message(finished_days, newly_settled, resolutions, problems):
                 continue
             result = "VOID" if res["outcome"] == "void" else ("YES" if res["outcome"] == 1 else "NO")
             ai = _pct(q["forecast"]["probability"]) if q.get("forecast") else "n/a"
-            lines.append(f"• {q['question']} → **{result}** (AI said {ai}, crowd {_pct(q['snapshot']['crowd'])})")
+            lines.append(f"• {q['question']} → **{result}** (AI said {ai}, market {_pct(q['snapshot']['crowd'])})")
         lines.append("")
 
     days = storage.read_forecasts()
     stats = scoring.summary(scoring.scored_questions(days, resolutions))
-    bankroll = trading.replay(days, resolutions)["equity"]
+    # Profit/loss counts open bets at today's market prices, like the website.
+    portfolio = build_site.build_data(days, resolutions, prices=storage.read_prices())["portfolio"]
+    total = portfolio["marked_equity"] - config.STARTING_BANKROLL
+    lines.append(
+        f"**Paper P&L: {_money(total)}** (account ${portfolio['marked_equity']:,.2f}; "
+        f"{_money(portfolio['pnl'])} settled, {_money(portfolio['unrealized'])} on open bets)"
+    )
     if stats["n"]:
         lines.append(
-            f"**Scoreboard** ({stats['n']} settled): AI Brier {stats['ai_brier']:.3f} vs "
-            f"crowd {stats['crowd_brier']:.3f} (lower is better)"
+            f"AI vs market ({stats['n']} settled): Brier {stats['ai_brier']:.3f} vs "
+            f"{stats['crowd_brier']:.3f} (lower is better)"
         )
-    lines.append(f"**Paper bankroll:** ${bankroll:,.2f} (started at ${config.STARTING_BANKROLL:,.0f})")
 
     if problems:
         lines.append("")

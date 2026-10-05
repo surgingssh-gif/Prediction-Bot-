@@ -4,11 +4,11 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>The Forecaster</title>
-<meta name="description" content="Can an AI predict real-world events better than the crowd? A public, paper-trading experiment. Research only, not financial or betting advice.">
+<meta name="description" content="An AI forecasts real-world prediction-market questions and trades them with paper money. Research only, not financial or betting advice.">
 <meta name="theme-color" content="#fbfaf7" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#161615" media="(prefers-color-scheme: dark)">
 <meta property="og:title" content="The Forecaster">
-<meta property="og:description" content="An AI forecasts real-world events blind, then we score it against the prediction-market crowd. Paper trading only.">
+<meta property="og:description" content="An AI forecasts real-world events and trades them with paper money. Paper trading only.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23121212'/%3E%3Ctext x='16' y='24' font-family='Georgia,serif' font-size='22' font-weight='700' fill='%23fbfaf7' text-anchor='middle'%3EF%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -213,6 +213,19 @@ details.more li { margin: 3px 0; }
 .pnl { font: 700 15px/1.2 var(--sans); text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
 .pnl small { display: block; font: 400 11px/1.4 var(--sans); color: var(--muted); }
 
+/* ---- Portfolio hero ------------------------------------------------------- */
+.hero { margin-top: 30px; padding-bottom: 22px; border-bottom: 1px solid var(--hair); }
+.hero-row { display: flex; justify-content: space-between; align-items: flex-end; gap: 24px; flex-wrap: wrap; }
+.hero-label { font: 600 11px/1.2 var(--sans); letter-spacing: .12em; text-transform: uppercase; color: var(--ink-2); }
+.hero-num { font: 700 clamp(48px, 8vw, 84px)/1 var(--serif); margin: 10px 0 8px; font-variant-numeric: tabular-nums; letter-spacing: -.01em; }
+.hero-sub { font: 400 16px/1.5 var(--serif); color: var(--ink-2); max-width: 40em; }
+.hero-side { text-align: right; font: 400 13px/1.6 var(--sans); color: var(--ink-2); }
+.hero-side strong { display: block; font: 700 28px/1.2 var(--sans); color: var(--ink); font-variant-numeric: tabular-nums; }
+.ptable td { vertical-align: top; font-variant-numeric: tabular-nums; }
+.ptable td a { text-decoration: none; font: 600 13.5px/1.35 var(--serif); }
+.ptable td a:hover { text-decoration: underline; }
+.side-tag { display: inline-block; font: 700 10px/1 var(--sans); letter-spacing: .06em; padding: 4px 6px; border-radius: 3px; border: 1px solid var(--ink-2); color: var(--ink); }
+
 /* ---- Live prices, sparklines and compact question tables -------------------- */
 .blend { margin: 6px 0 0; font: 400 13px/1.5 var(--sans); color: var(--ink-2); }
 .blend:empty { display: none; }
@@ -254,7 +267,8 @@ ol.calls li a:hover { text-decoration: underline; }
   .card-top { flex-direction: column; gap: 6px; }
   .stats.three { grid-template-columns: 1fr; }
   .stats.three .stat { padding-left: 0; border-left: none; }
-  .qtable .c-then, .qtable .spark { display: none; }
+  .qtable .c-then, .qtable .spark, .ptable .hide-sm, .ptable .spark { display: none; }
+  .hero-side { text-align: left; }
   .pnl { text-align: left; }
 }
 </style>
@@ -267,41 +281,77 @@ ol.calls li a:hover { text-decoration: underline; }
       <button class="theme-toggle" id="theme-toggle" type="button">Dark mode</button>
     </div>
     <h1 class="nameplate">The Forecaster</h1>
-    <p class="motto">Can an AI predict the world better than the crowd? A public experiment, scored honestly.</p>
+    <p class="motto">An AI forecasts real-world events and trades them with paper money.</p>
     <div class="dateline">
       <span id="dl-left"></span>
       <span id="dl-mid">Paper Trading · Research Only</span>
       <span id="dl-right"></span>
     </div>
     <nav class="sections" aria-label="Sections">
-      <a href="#scoreboard" data-tab="scoreboard">Scoreboard</a>
-      <a href="#calibration" data-tab="calibration">Calibration</a>
-      <a href="#analysis" data-tab="analysis">Analysis</a>
-      <a href="#open" data-tab="open">Open Bets</a>
-      <a href="#settled" data-tab="settled">Settled</a>
-      <a href="#method" data-tab="method">Methodology</a>
+      <a href="#portfolio" data-tab="portfolio">Portfolio</a>
+      <a href="#positions" data-tab="positions">Open Positions</a>
+      <a href="#closed" data-tab="closed">Closed</a>
+      <a href="#accuracy" data-tab="accuracy">Accuracy</a>
+      <a href="#method" data-tab="method">How It Works</a>
     </nav>
     <p class="notice" id="notice" hidden></p>
   </header>
 
   <main>
-    <!-- ===== Scoreboard ===== -->
-    <section class="tab-panel" id="tab-scoreboard" aria-labelledby="sb-h">
+    <!-- ===== Portfolio (front page) ===== -->
+    <section class="tab-panel" id="tab-portfolio" aria-labelledby="pf-h">
+      <div class="hero">
+        <p class="kicker">Paper Portfolio · $1,000 Starting Balance</p>
+        <h2 class="visually-hidden" id="pf-h">Total profit or loss</h2>
+        <div class="hero-row">
+          <div>
+            <div class="hero-label">Total profit / loss</div>
+            <div class="hero-num" id="hero-pnl">–</div>
+            <div class="hero-sub" id="hero-sub"></div>
+          </div>
+          <div class="hero-side" id="hero-side"></div>
+        </div>
+      </div>
+      <div class="stats" id="pstats"></div>
+
+      <div class="section-head"><h2>Account Value</h2><p>Cash plus open bets at each day's market price</p></div>
+      <div id="account-chart"></div>
+
+      <div class="section-head"><h2>Open Positions</h2><p id="positions-sub"></p></div>
+      <div id="positions"></div>
+
+      <div class="section-head"><h2>Recently Closed</h2><p>Latest settled paper bets</p></div>
+      <div id="recent-closed"></div>
+
+      <div class="section-head"><h2>What's Working</h2><p>Settled bets only</p></div>
+      <div id="bet-breakdown"></div>
+    </section>
+
+    <!-- ===== Open positions (detail) ===== -->
+    <section class="tab-panel" id="tab-positions" aria-labelledby="open-h" hidden>
+      <div class="section-head"><h2 id="open-h">Open Positions</h2><p id="open-sub"></p></div>
+      <div class="filters" role="group" aria-label="Show">
+        <button class="chip" type="button" data-filter="bets" aria-pressed="true">Paper bets</button>
+        <button class="chip" type="button" data-filter="all" aria-pressed="false">All open forecasts</button>
+      </div>
+      <ul class="cards" id="open-list"></ul>
+    </section>
+
+    <!-- ===== Closed ===== -->
+    <section class="tab-panel" id="tab-closed" aria-labelledby="set-h" hidden>
+      <div class="section-head"><h2 id="set-h">Closed Questions</h2><p id="settled-sub"></p></div>
+      <ul class="cards" id="settled-list"></ul>
+    </section>
+
+    <!-- ===== Accuracy: AI vs. the market ===== -->
+    <section class="tab-panel" id="tab-accuracy" aria-labelledby="acc-h" hidden>
       <div class="lead">
-        <p class="kicker">The Scoreboard</p>
-        <h2 class="headline" id="sb-h">AI vs. the Crowd</h2>
-        <p class="deck" id="sb-deck"></p>
+        <p class="kicker">Forecast Accuracy</p>
+        <h2 class="headline" id="acc-h">AI vs. the Market</h2>
+        <p class="deck" id="acc-deck"></p>
       </div>
       <div class="duel" id="duel"></div>
       <p class="verdict" id="verdict"></p>
-      <p class="blend" id="blend"></p>
-      <div class="stats" id="stats"></div>
-
-      <div class="section-head"><h2>Latest Forecasts</h2><p id="latest-sub"></p></div>
-      <div id="latest"></div>
-
-      <div class="section-head"><h2>Settling Soon</h2><p>Open questions that close in the next 7 days</p></div>
-      <div id="soon"></div>
 
       <div class="two-col">
         <div>
@@ -309,72 +359,42 @@ ol.calls li a:hover { text-decoration: underline; }
           <div id="running-chart"></div>
         </div>
         <div>
-          <div class="section-head"><h2>Paper Bankroll</h2><p>Fake money · started at $1,000</p></div>
-          <div id="bankroll-chart"></div>
+          <div class="section-head"><h2>Three Forecasters</h2><p>Same settled questions</p></div>
+          <div id="forecasters"></div>
         </div>
       </div>
 
-      <div class="section-head"><h2>By Topic</h2><p>Same questions, same moment, both sides</p></div>
-      <div id="topics"></div>
-    </section>
+      <div class="section-head"><h2>Did the Market Move Toward the AI?</h2><p>An early signal, before questions settle</p></div>
+      <div id="movement"></div>
 
-    <!-- ===== Calibration ===== -->
-    <section class="tab-panel" id="tab-calibration" aria-labelledby="cal-h" hidden>
-      <div class="section-head"><h2 id="cal-h">Calibration</h2><p>When a forecaster says 70%, does it happen about 70% of the time?</p></div>
+      <div class="section-head"><h2>Calibration</h2><p>When a forecaster says 70%, does it happen about 70% of the time?</p></div>
       <div class="two-col">
         <div class="cal-wrap" id="cal-chart"></div>
         <div class="prose">
-          <p>Every settled forecast goes into one of ten buckets by what was predicted (0–10%, 10–20%, and so on). Each dot shows the average prediction in a bucket (across) against how often those events actually happened (up). Bigger dots hold more questions.</p>
-          <p>A perfectly calibrated forecaster sits on the dashed diagonal. Dots <strong>below</strong> it mean overconfidence about “Yes” (things happened less often than predicted); dots <strong>above</strong> it mean underconfidence.</p>
-          <p>Buckets with only a few questions bounce around a lot, so don’t read much into them until there are dozens.</p>
+          <p>Settled forecasts are grouped into ten buckets by what was predicted (0–10%, 10–20%, and so on). Each dot shows a bucket’s average prediction (across) against how often those events happened (up). Bigger dots hold more questions.</p>
+          <p>A perfectly calibrated forecaster sits on the dashed diagonal. Dots <strong>below</strong> it mean overconfidence in “Yes”; dots <strong>above</strong> it mean underconfidence. Small buckets bounce around a lot.</p>
         </div>
       </div>
-      <div class="section-head"><h2>The Numbers</h2><p>Each bucket, for both sides</p></div>
       <div id="cal-table"></div>
-    </section>
 
-    <!-- ===== Analysis ===== -->
-    <section class="tab-panel" id="tab-analysis" aria-labelledby="an-h" hidden>
-      <div class="section-head"><h2 id="an-h">Did the Crowd Move Toward the AI?</h2><p>An early signal, before questions settle</p></div>
-      <div id="movement"></div>
-
-      <div class="section-head"><h2>Three Forecasters</h2><p>Brier score on the same settled questions · lower is better</p></div>
-      <div id="forecasters"></div>
-
-      <div class="section-head"><h2>Paper Bets, Broken Down</h2><p>Settled bets only</p></div>
-      <div id="bet-breakdown"></div>
+      <div class="section-head"><h2>By Topic</h2><p>Brier score · lower is better</p></div>
+      <div id="topics"></div>
 
       <div class="two-col">
         <div>
-          <div class="section-head"><h2>Best Calls</h2><p>Where the AI beat the crowd by the most</p></div>
+          <div class="section-head"><h2>Best Calls</h2><p>Where the AI beat the market by the most</p></div>
           <div id="best-calls"></div>
         </div>
         <div>
-          <div class="section-head"><h2>Worst Calls</h2><p>Where the crowd beat the AI by the most</p></div>
+          <div class="section-head"><h2>Worst Calls</h2><p>Where the market beat the AI by the most</p></div>
           <div id="worst-calls"></div>
         </div>
       </div>
     </section>
 
-    <!-- ===== Open bets ===== -->
-    <section class="tab-panel" id="tab-open" aria-labelledby="open-h" hidden>
-      <div class="section-head"><h2 id="open-h">Open Forecasts</h2><p id="open-sub"></p></div>
-      <div class="filters" role="group" aria-label="Show">
-        <button class="chip" type="button" data-filter="bets" aria-pressed="true">Paper bets only</button>
-        <button class="chip" type="button" data-filter="all" aria-pressed="false">All open forecasts</button>
-      </div>
-      <ul class="cards" id="open-list"></ul>
-    </section>
-
-    <!-- ===== Settled ===== -->
-    <section class="tab-panel" id="tab-settled" aria-labelledby="set-h" hidden>
-      <div class="section-head"><h2 id="set-h">Settled Questions</h2><p id="settled-sub"></p></div>
-      <ul class="cards" id="settled-list"></ul>
-    </section>
-
-    <!-- ===== Methodology ===== -->
+    <!-- ===== How it works ===== -->
     <section class="tab-panel" id="tab-method" aria-labelledby="m-h" hidden>
-      <div class="section-head"><h2 id="m-h">Methodology</h2><p>How the experiment works, and its limits</p></div>
+      <div class="section-head"><h2 id="m-h">How It Works</h2><p>Method, rules and limits</p></div>
       <div class="prose" id="method"></div>
       <div class="section-head"><h2>Every Run</h2><p>When questions were sent and answered, and what each run cost</p></div>
       <div id="runs"></div>

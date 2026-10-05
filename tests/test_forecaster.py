@@ -557,3 +557,19 @@ def test_site_shows_live_value_blend_and_sparkline():
     assert data["movement"]["toward"] == 1
     assert [r["id"] for r in data["best"]] == ["b"]      # AI 90% beat crowd 50% on a YES
     assert data["latest_run"] == "2026-10-02"
+
+
+def test_account_value_uses_each_days_market_price():
+    q1, q2 = fake_question("a"), fake_question("b")
+    q1["bet"] = {"side": "YES", "price": 0.40, "shares": 100, "cost": 41.0, "fee": 1, "gap_pts": 20}
+    q2["bet"] = {"side": "NO", "price": 0.60, "shares": 50, "cost": 30.5, "fee": 0.5, "gap_pts": 15}
+    days = [fake_day("2026-10-02", [q1, q2], forecast_at="2026-10-02T13:00:00Z")]
+    resolutions = {"b": {"outcome": 0, "resolved_at": "2026-10-04T00:00:00Z"}}   # NO won: pays $50
+    prices = {"a": [["2026-10-03", 0.50]], "b": [["2026-10-03", 0.30]]}
+    points = build_site.account_history(days, resolutions, prices, today="2026-10-04")
+    cash = 1000 - 41.0 - 30.5
+    assert points == [
+        {"date": "2026-10-02", "value": round(cash + 41.0 + 30.5, 2)},       # no prices yet: at cost
+        {"date": "2026-10-03", "value": round(cash + 100 * 0.50 + 50 * 0.70, 2)},
+        {"date": "2026-10-04", "value": round(cash + 50 + 100 * 0.50, 2)},  # b settled
+    ]

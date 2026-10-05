@@ -10,7 +10,7 @@ Run it with:  python build_site.py
 
 import json
 import os
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 
 import config
 import scoring
@@ -95,6 +95,59 @@ def daily_bankroll(history, days):
         if point["time"]:
             points[point["time"][:10]] = point["equity"]
     return [{"date": d, "equity": e} for d, e in sorted(points.items())]
+
+
+def _price_on(history, date):
+    """The last recorded price on or before a date (None if there isn't one)."""
+    price = None
+    for day, value in history:
+        if day > date:
+            break
+        price = value
+    return price
+
+
+def account_history(days, resolutions, prices, today=None):
+    """
+    The paper account's value at the end of every day: cash plus every open
+    bet valued at that day's market price (bets with no price yet count at
+    what was paid). This moves every day, unlike the bankroll at cost,
+    which only changes when a bet settles.
+    """
+    bets = []
+    for day in days:
+        for q in day.get("questions", []):
+            if not q.get("bet"):
+                continue
+            res = resolutions.get(q["market_id"])
+            opened = day["forecast_at"][:10]
+            settled = max(res["resolved_at"][:10], opened) if res else None
+            bets.append((q, opened, settled, res))
+    if not bets:
+        return []
+    start = min(b[1] for b in bets)
+    end = today or datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    points = []
+    date = datetime.fromisoformat(start)
+    while date.strftime("%Y-%m-%d") <= end:
+        d = date.strftime("%Y-%m-%d")
+        cash, value = config.STARTING_BANKROLL, 0.0
+        for q, opened, settled, res in bets:
+            if opened > d:
+                continue
+            bet = q["bet"]
+            cash -= bet["cost"]
+            if settled and settled <= d:
+                cash += trading.payout(bet, res["outcome"])
+                continue
+            price = _price_on((prices or {}).get(q["market_id"]) or [], d)
+            if price is None:
+                value += bet["cost"]
+            else:
+                value += bet["shares"] * (price if bet["side"] == "YES" else 1 - price)
+        points.append({"date": d, "value": round(cash + value, 2)})
+        date += timedelta(days=1)
+    return points
 
 
 def _short(row):
@@ -183,6 +236,7 @@ def build_data(days, resolutions, pending=None, prices=None):
         # the "Latest forecasts" section should still list them).
         "latest_settled": [r for r in settled_rows if r["run"] == latest_run and latest_run],
         "bankroll": daily_bankroll(portfolio["history"], days),
+        "account": account_history(days, resolutions, prices),
         "open": sorted(open_rows, key=lambda r: r["end"]),
         "settled": settled_rows[: config.MAX_SETTLED_ON_PAGE],
         "settled_total": len(settled_rows),
