@@ -1,0 +1,775 @@
+{
+  "run_id": "2026-10-05",
+  "date": "2026-10-05",
+  "created_at": "2026-10-05T01:51:44Z",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "questions": [
+    {
+      "market_id": "4641065",
+      "event_id": "1038648",
+      "event_title": "US-Iran ceasefire continues through...?",
+      "option": "October 31",
+      "question": "US x Iran ceasefire continues through October 31?",
+      "rules": "This market will resolve to “No” if the United States takes a qualifying military action against Iran by the specified date, 11:59 PM Iran Standard Time. Otherwise this market will resolve to “Yes.”\n\nA qualifying military action refers to an air strike or a surface-to-surface missile strike, initiated by the United States, that directly impacts Iran. An air strike includes bombs, air-to-surface missiles, and air-launched drones. A surface-to-surface missile strike includes one-way attack drones and surface-to-surface missiles such as cruise or ballistic missiles.\n\nThe following actions do not constitute a qualifying military action:\nMunitions destroyed or intercepted before impact;\nSurface-to-air missile strikes;\nSmall-arms fire;\nGround incursions;\nCyber operations;\nNaval gunfire and artillery fire;\nHowitzers, artillery pieces, mortars, and rocket artillery (e.g. MLRS systems);\nMinor surface-to-surface strikes, including short range loitering munitions, FPV drones, and ATGM strikes;\nAny threat, authorization, or announcement of force that has not been executed.\n\nAny munition that is intercepted or destroyed before impact does not constitute a qualifying military action. Debris, fragments, or any wreckage from intercepted munitions that land on Iran do not constitute a military action regardless of any damage incurred.\n\n“Iran” refers to the terrestrial territory of Iran, including its internal waters. Iran’s maritime territory and airspace are not encompassed. Where territorial borders are disputed, all territory claimed by and under the de facto control of Iran as of market creation will qualify.\n\nThe occurrence, attribution, and timing of a qualifying military action will be primarily determined based on a consensus of information available from the resolution sources. Where multiple sources conflict regarding the occurrence, attribution, or timing of a relevant military action, this market will remain open until the earlier of: i) the confirmation of the occurrence, attribution, and timing of the action based on a consensus of information available from the resolution sources or ii) 3 full calendar days (Iran Standard Time) from the date of the first credibly reported evidence of the action. If this period would extend past the end date, this market will remain open to allow for 3 full calendar days to pass. At the end of the third calendar day, if conflicting reports remain, the incident will be adjudicated based on the totality of information available from the resolution sources at that time. No single statement, denial, or presentation of evidence will govern where it is contradicted by the totality of information.\n\nThe resolution sources for this market will be official information from the governments and militaries of the United States and Iran and a consensus of credible reporting.",
+      "topic": "Politics",
+      "end_date": "2026-10-31T23:59:00Z",
+      "url": "https://polymarket.com/event/us-iran-ceasefire-continues-throughptptpt",
+      "snapshot": {
+        "time": "2026-10-05T01:51:40Z",
+        "crowd": 0.725,
+        "best_bid": 0.72,
+        "best_ask": 0.73,
+        "volume": 1216105,
+        "liquidity": 124594,
+        "fee_rate": 0.0
+      },
+      "news": [
+        {
+          "title": "Tehran says it expects U.S. response to ceasefire proposal already rejected by Trump",
+          "source": "CBS News",
+          "published": "2026-09-29",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPTWE0SmFYMGplRWp0MEtWY3Fia2dlSW1QTEQxa2hyQTBHdE9MU213SFhMRU5EaGZQaUZSV0hlLWhjWWpZMHFuSWQ0MjhlczBvbVFvSkVNRDgxT0pHN0dOd2l0WS1TNGE5OEpiWG5YODg1cDRXZnpjZXBVQ1c3SXFJTEFxYjM?oc=5"
+        },
+        {
+          "title": "Iran, US still far apart in peace talks, Iranian official says; Pezeshkian vows no surrender",
+          "source": "Reuters",
+          "published": "2026-09-23",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPWjBhV01rbEcwcTJwZjdTbjF1ekxtTnZiRzc2b3p3d1NRVjZZWEUyM0gtQlFPeXBWX0hRdlVpMS11d01GVHpiQmdVY1FlN3dIZUQ4eDRTcTZBRFJxYjRMeVp3eWg5M0Q1YWw5a2N3cEhOUHlhOWRxNmZQTjVLenl2MjRrSENSaUYyTkFhc0ZNdnNoNnN0VXZOM2NhRGRLOWcyUEtXUk9wbThsdXBzc1ZYQW5iRQ?oc=5"
+        },
+        {
+          "title": "Iran has suggested a deal to reopen the Strait of Hormuz in 7 days",
+          "source": "PBS",
+          "published": "2026-09-25",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOczZkNFNvZkpweENjLTZ5eHpEbVdZcWpKSWE3bGtBanVfamo4ZTNfazZreldrM3NULU1aOVAwSU0ySlk1eUNsb1BJaU5CdlhWZnpxQ0w2VWszbUw0U3l6b0pGbFJHTVFISmFnUXVUZkdOLUlCTmIxM2dmQzJQVllad3gyQmtwSi1XSWh3NnZKRzRfUEd5MEEydTlseVItcTdxNkxr0gGoAUFVX3lxTE9PR1VBVVRhOTVURUs3alR4STFac2RGV09YQ2x2OFlOTU9salFTT21neWpVSGNXSU43Z3VGdHFwaHdwLTNCOG04ZGo1amtKUFFKaS1INFRqRk9sMjU3SDZydWZPb01WOU91UzJxdEFSSjlvTE51WENtMWZobjJmVnFBbkFHNW5zSmJkM0NSVUMxYUdxR29ZTk9aRTBBVUttZ3pQaXI4VU5pNg?oc=5"
+        },
+        {
+          "title": "US-Iran war news updates: Donald Trump rejects Iran's proposal to reopen the Strait of Hormuz",
+          "source": "ABC7 Chicago",
+          "published": "2026-09-26",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQUWhReEtYYWZqUWoxeDRJOVFqQVJmcVZvTEJRRWIwdndvblh1bVlJdzluZnBJTnp1dTlHWWdObHh4NDhPZnBqeGxFSW5xVDFyZXlCLXk0eFY5RDU4aVhVN29RdkxnZkx6di16a3VuV2hpUGdYZXJwR0hMX0owR0EzeDFLM245VF9hN3B6TFlBcEp6eHE4LWpnWldyZXJ5S0xvVGlXSm9fVXJIaUVDLV9UMHhlU3R5VzA5TmtKT9IBwgFBVV95cUxQTktMYzlzMVJpeUJ2ZFFiRHhaX3NDNFpac3dzUEFCRVhFZzdpWE80LUlZUERlVS1obUk4RlBPQUNaRE9MMzZHeW9TdFBCdFFZRjJxaEFCaFlHXzJXZkJPc2ZkWTJkd1ZFd0g2bVBCbXViM0NaQmV2MDVXYzduWWZqNHY2WlVLUGFiT3ZUaW9uMVhQTml4bGtNWXFwOC1GVXhWOEY2Wk1OZ3Fxa1FFRE92YVRVbWN3RTVVc3J6b2gwdXFRQQ?oc=5"
+        },
+        {
+          "title": "Conflict in Yemen and the Red Sea | Global Conflict Tracker",
+          "source": "Council on Foreign Relations (CFR)",
+          "published": "2026-10-02",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1wLVlLT0hRb1JoS2NYWXdlLWtBdlJHVjBfUFMzLW04cU9ENTE3VVlwUW5IdHRqdDhfTmFqZ1FiRnBRcDU3a3NUajF4Ny1Wb1UxN2lqR091Q1BETVNSZm5maTVEeGhLM3VySUZuRVc5Yw?oc=5"
+        },
+        {
+          "title": "Iran offers to reopen Strait of Hormuz within 7 days and restart nuclear talks",
+          "source": "CNBC",
+          "published": "2026-09-25",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5aZ0hqeDJKZlFWZTE2eWwxei1Cd21MaFNkZFZPRWxzNllJdmUzUXVGMFZ6THlXempxQmo1NzhRV1FuNG1sd3hTSW9NT1hvSVdEMVhfVDI5bFBlYWk0T3pvTGd3ZXpjcDJIbEHSAW9BVV95cUxQbGRDUzktQ3JVU3VVcnpXSk5LN20tZEVPbEZ1d3NjSDJKa0xleWt4V054NFNtYU54WElPeWE5ZXk4VnlDVUg4TUIxaExtbGZBS2xkZEdXeVpPd0Z4VFk1cWo1QnRQSFBOUXNUUE5nbW8?oc=5"
+        }
+      ],
+      "forecast": {
+        "probability": 0.72,
+        "reasoning": "A ceasefire appears to be holding, but talks remain far apart and Trump has rejected Iran's latest Hormuz proposal. A resumption of US strikes within about four weeks is a real risk. Still, the status quo usually holds over short windows."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-05T01:53:47Z",
+        "crowd": 0.725,
+        "best_bid": 0.72,
+        "best_ask": 0.73,
+        "volume": 1216105,
+        "liquidity": 124594,
+        "fee_rate": 0.0
+      },
+      "bet_note": "Gap of 0 points is under the 10-point minimum."
+    },
+    {
+      "market_id": "5130978",
+      "event_id": "1038648",
+      "event_title": "US-Iran ceasefire continues through...?",
+      "option": "October 15",
+      "question": "US x Iran ceasefire continues through October 15?",
+      "rules": "This market will resolve to “No” if the United States takes a qualifying military action against Iran by the specified date, 11:59 PM Iran Standard Time. Otherwise this market will resolve to “Yes.”\n\nA qualifying military action refers to an air strike or a surface-to-surface missile strike, initiated by the United States, that directly impacts Iran. An air strike includes bombs, air-to-surface missiles, and air-launched drones. A surface-to-surface missile strike includes one-way attack drones and surface-to-surface missiles such as cruise or ballistic missiles.\n\nThe following actions do not constitute a qualifying military action:\nMunitions destroyed or intercepted before impact;\nSurface-to-air missile strikes;\nSmall-arms fire;\nGround incursions;\nCyber operations;\nNaval gunfire and artillery fire;\nHowitzers, artillery pieces, mortars, and rocket artillery (e.g. MLRS systems);\nMinor surface-to-surface strikes, including short range loitering munitions, FPV drones, and ATGM strikes;\nAny threat, authorization, or announcement of force that has not been executed.\n\nAny munition that is intercepted or destroyed before impact does not constitute a qualifying military action. Debris, fragments, or any wreckage from intercepted munitions that land on Iran do not constitute a military action regardless of any damage incurred.\n\n“Iran” refers to the terrestrial territory of Iran, including its internal waters. Iran’s maritime territory and airspace are not encompassed. Where territorial borders are disputed, all territory claimed by and under the de facto control of Iran as of market creation will qualify.\n\nThe occurrence, attribution, and timing of a qualifying military action will be primarily determined based on a consensus of information available from the resolution sources. Where multiple sources conflict regarding the occurrence, attribution, or timing of a relevant military action, this market will remain open until the earlier of: i) the confirmation of the occurrence, attribution, and timing of the action based on a consensus of information available from the resolution sources or ii) 3 full calendar days (Iran Standard Time) from the date of the first credibly reported evidence of the action. If this period would extend past the end date, this market will remain open to allow for 3 full calendar days to pass. At the end of the third calendar day, if conflicting reports remain, the incident will be adjudicated based on the totality of information available from the resolution sources at that time. No single statement, denial, or presentation of evidence will govern where it is contradicted by the totality of information.\n\nThe resolution sources for this market will be official information from the governments and militaries of the United States and Iran and a consensus of credible reporting.",
+      "topic": "Politics",
+      "end_date": "2026-10-16T03:59:00Z",
+      "url": "https://polymarket.com/event/us-iran-ceasefire-continues-throughptptpt",
+      "snapshot": {
+        "time": "2026-10-05T01:51:40Z",
+        "crowd": 0.875,
+        "best_bid": 0.87,
+        "best_ask": 0.88,
+        "volume": 176166,
+        "liquidity": 39820,
+        "fee_rate": 0.0
+      },
+      "news": [
+        {
+          "title": "Tehran says it expects U.S. response to ceasefire proposal already rejected by Trump",
+          "source": "CBS News",
+          "published": "2026-09-29",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPTWE0SmFYMGplRWp0MEtWY3Fia2dlSW1QTEQxa2hyQTBHdE9MU213SFhMRU5EaGZQaUZSV0hlLWhjWWpZMHFuSWQ0MjhlczBvbVFvSkVNRDgxT0pHN0dOd2l0WS1TNGE5OEpiWG5YODg1cDRXZnpjZXBVQ1c3SXFJTEFxYjM?oc=5"
+        },
+        {
+          "title": "Iran, US still far apart in peace talks, Iranian official says; Pezeshkian vows no surrender",
+          "source": "Reuters",
+          "published": "2026-09-23",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPWjBhV01rbEcwcTJwZjdTbjF1ekxtTnZiRzc2b3p3d1NRVjZZWEUyM0gtQlFPeXBWX0hRdlVpMS11d01GVHpiQmdVY1FlN3dIZUQ4eDRTcTZBRFJxYjRMeVp3eWg5M0Q1YWw5a2N3cEhOUHlhOWRxNmZQTjVLenl2MjRrSENSaUYyTkFhc0ZNdnNoNnN0VXZOM2NhRGRLOWcyUEtXUk9wbThsdXBzc1ZYQW5iRQ?oc=5"
+        },
+        {
+          "title": "2026 Iran war | Oil, Explained, United States, Israel, Strait of Hormuz, Map, & Conflict",
+          "source": "Britannica",
+          "published": "2026-10-01",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nTzlhOGZTS180cWNtVG91c2VWRVJFYlk0cW5Ba1RHUEFOSEtldU15QktQT0EzRVY1ZVdZZ0VTRHVWTVhyN1IzeU1wbmlDMUhrQ3Roc1YxcmdMUQ?oc=5"
+        },
+        {
+          "title": "Is the Iran War Worth It? Six Months Later, Still No",
+          "source": "Stimson Center",
+          "published": "2026-09-22",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOaU9ReXFpRU8tNXFKNi1uU2xMS1JfUWhpeWVwV05LX1N0aFNsQlhVbTdNT2tHS3BrVXJEdjZwRUxfVlMtejRDQ1ZncDZ0WUFyRnRyY04yU1F3clRaM3MxWTBtMlJkWGV0MW1FOHJFYnREeWZ6blZwbmRvZEdUS1FfSVV2LTRidW8?oc=5"
+        },
+        {
+          "title": "Trump rejected Iran's ceasefire proposal. What it means for U.S. allies in the Gulf",
+          "source": "NPR",
+          "published": "2026-09-28",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQTFqVDhHN3o5ZWg3U2Z0a1FSVFlxXzRfUmJrVnhoOGxIajM0cmZsV3FtTXlzUEFhbm9DbllvMDR1VFZEd1UzQXc3MnFPanhnM2lTazNsU3ZDeERldFh2eGtNenNpd2VrV1FwM014c04zOVZ0dDRxVHdaOUliaF8zYXNTVUZEaHNhdE5sQUo4VllQRkw1Vm9GdkFMQ093bEVtM2xuenZFYUVMcmVfQTc4N3NNQ3VpQUxCaTV4cUVpUDF1Z00?oc=5"
+        },
+        {
+          "title": "Another Hormuz? What to Know About the Houthi Threat to the Red Sea",
+          "source": "Council on Foreign Relations (CFR)",
+          "published": "2026-09-28",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPVGJwUm9MbzR1RUREblM3dEQxcEVsSG11NGVPN1JTczJwY1JhNlIwaDE4MVFrTWo2WWZ6RTI0SlBwNGNEV1pjWlJPZmZLUHZpd3RpWjJZWnJRdlV3akNLR2lrS0N0VlFPRWg5OHc1bVhFdWE1NUhzQW8zRVRVdW1fd1J0bWxtdGFTeVNCV1RR?oc=5"
+        }
+      ],
+      "forecast": {
+        "probability": 0.85,
+        "reasoning": "Only about ten days remain. The ceasefire has held despite tensions, and diplomacy is still ongoing. Resumed US strikes on Iranian territory in that window are possible but not the most likely outcome."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-05T01:53:47Z",
+        "crowd": 0.875,
+        "best_bid": 0.87,
+        "best_ask": 0.88,
+        "volume": 176166,
+        "liquidity": 49569,
+        "fee_rate": 0.0
+      },
+      "bet_note": "Gap of 2 points is under the 10-point minimum."
+    },
+    {
+      "market_id": "1194643",
+      "event_id": "166780",
+      "event_title": "Bulgaria Presidential Election",
+      "option": "Iliana Iotova",
+      "question": "Will Iliana Iotova win the next Bulgarian presidential election?",
+      "rules": "Presidential elections in Bulgaria are expected to be held in the Fall of 2026.\n\nThis market will resolve according to the listed candidate who wins the next presidential election in Bulgaria. \n\nThis market includes any potential second round. If the result of this election isn't known by December 31, 2027, 11:59 PM ET, the market will resolve to \"Other\".\n\nThis market will resolve based on the result of the election, as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the Bulgarian government, specifically the Central Election Commission (Centralna izbiratelna komisia, CEC) (www.cik.bg/).",
+      "topic": "Politics",
+      "end_date": "2026-10-26T03:59:00Z",
+      "url": "https://polymarket.com/event/bulgaria-presidential-election",
+      "snapshot": {
+        "time": "2026-10-05T01:51:40Z",
+        "crowd": 0.855,
+        "best_bid": 0.85,
+        "best_ask": 0.86,
+        "volume": 327012,
+        "liquidity": 82985,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "Pro-Russian Voters May Hold Key in Bulgaria’s Presidential Election",
+          "source": "Balkan Insight",
+          "published": "2026-10-01",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNOHVydFZpdGNZenUxX1NQeUhBUk5KLWJubWwtRG01M2ZQa1NEOUNRY2tBNHBrZ2VYTGpIOWtjdjJDWUZVZk55VEFoLU1iQ0t1Um9nSmVwWnh0NVJtdkp3REtEc3phUmlNWE91ZGpXamt0b0ZMdTlmRlVJVXV6aHJBeEdXZDhBQTM1QjA3dktkVlhqX2xKaXFqRGJxU0RUSHpzVlBkdGNMSGNKRGc?oc=5"
+        },
+        {
+          "title": "Bulgaria’s presidential election campaign officially begins",
+          "source": "Anadolu Ajansı",
+          "published": "2026-09-25",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQUXBudjRBN244WGU2LVAydlhqR2FVY1h3OFZxTWc1cGtvNXB3MXNLNFk0U2Q4VHhXdEJzYXh2Rm94aVMzT3VseGsxQXFWRmVMdTV5RUhGVFNYaEFaT1VsU1RQdWFMZFp1RHNCVVhIZUlNbDFoNmdIM3VaeElFYmNhOUQ2V3VQZlhRTTBEeFlmcTVpemtidHdoemtKZFl4Smp4?oc=5"
+        },
+        {
+          "title": "Bulgaria’s 2026 presidential elections: Yotova 41.4%, Gyurov 21.9% – poll",
+          "source": "The Sofia Globe",
+          "published": "2026-09-30",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPYThNakRWQU9DQTUwcHQxakRKWnplb0xHa01tcVFfQjVNMTJHNnFfeWZQeDNwaEZteTl5b0hWQkxtM1ZCcTdaTEd4eUMtY2hZYUZDenIxNUl1QkVEMnlqZnkzQmZ4SXVHM1UwTlZlZk5iM0toRnVuUmIxWE43Nld6WFU2MmU0cENnc291T0dRNUFHTmJEcXVoa09vVUFvc0tqbU1r?oc=5"
+        },
+        {
+          "title": "Geopolitics, Bulgarians abroad in focus as presidential campaign begins",
+          "source": "БНР Новините",
+          "published": "2026-09-24",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOYlQ0bk1hbHBjV2oxdlVlZE40N2pTYktSdkZEekpqMzFWSTJaUF9XaU9JamZSMGFSZ210OThXcHZhclIxZ1JtY2taM3UxcFQ2OWVIU0w0WHVUOW9wdFoyWjV0akdsTGFtNkhxUGJiM2t0bFpzSjMyS0hIVUkyb2lMSWs1UTJKMXdHT1puRy03YTR5bUgxNHJnM2FZVDZLc1RSa1FxSEVkQQ?oc=5"
+        },
+        {
+          "title": "First Market LINKS Poll Shows Clear Lead Ahead of Bulgaria’s Presidential Election",
+          "source": "Novinite.com",
+          "published": "2026-09-30",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPOFgxcHZXeEJGZ043WU1JVWVCYTdyQjdmeFZzUURvNndneDlPakxDWEhRWUNWVzd4V0p6MmZPU1BWaXFaZk9UWFB2b2hCR2JwWFBtcm1RZS1hYU1fMEVITm9vQUt1alRrc0ZVLWNaSldvTENyU0xRMVVQaGF5MEs4anhQZkkydGY1dmZuamRCX1loazc3ZExvX0I2Zmt2aFdFdUVZeFpZa3pxZVdVYjdWMW85Zi1xRjBHd3hiWUFGLWxQcGo0Zm9xcTNtQQ?oc=5"
+        },
+        {
+          "title": "Iotova-Valchev lead in poll ahead of October 25 presidential election",
+          "source": "БНР Новините",
+          "published": "2026-09-30",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOODFrME1HZ2FKRUkxWTBBU0JjR1Nkb3h3Z3dRLUZtaXhoU2hnVl83ME1Ib2E5ZFhfeWxoOWhxZU9kQ3pQZE9oQjFGaDZ3RnZOWEcxZzAxWHdlMktrR25MdlpvTzBaR0RmamJMVi1HVkh0LXYwSmhYU3NWaER1RlRWb0F4WGFqVWxWSENVZ25pdTFuMTRaZlpOenBwek9henhTY3VlbWt3?oc=5"
+        }
+      ],
+      "forecast": {
+        "probability": 0.82,
+        "reasoning": "Iotova leads polls with about 41% against roughly 22% for her nearest rival. That puts her in a strong position for both the first round and any runoff. Pro-Russian voters and opposition consolidation in a second round add some uncertainty."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-05T01:53:47Z",
+        "crowd": 0.855,
+        "best_bid": 0.85,
+        "best_ask": 0.86,
+        "volume": 327012,
+        "liquidity": 82985,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Gap of 3 points is under the 10-point minimum."
+    },
+    {
+      "market_id": "5291699",
+      "event_id": "1132059",
+      "event_title": "Will SpaceXAI officially rename itself to SpaceXSI by...?",
+      "option": "October 15",
+      "question": "Will SpaceXAI officially rename itself to SpaceXSI by October 15?",
+      "rules": "This market will resolve to \"Yes\" if SpaceXAI officially changes its name to \"SpaceXSI\", \"XSI\", or another qualifying name by the specified date, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nA qualifying name is one that refers to intelligence as \"SI\" in place of \"AI\" (e.g., \"SpaceXSI\", \"SpaceX SI\", \"XSI\"). Stylizations of a qualifying name, or a qualifying name followed by a corporate suffix, will qualify. Renaming either SpaceXAI or its parent company, SpaceX, to a qualifying name will qualify.\n\nSpaceXAI must announce that they have officially changed to a qualifying name by the specified date, 11:59 PM ET. Announcements of future intention will not qualify. An official announcement that the name change has been adopted will qualify even if the company's website, documents, or other materials have not yet been updated. Adopting a qualifying name as the company's name on its official website will also qualify.\n\nStatements, interviews, social media posts, polls, jokes, or expressions of interest in renaming the company will not qualify unless accompanied by an official announcement that the name change has been adopted. Renaming any SpaceXAI or SpaceX product, model, division, subsidiary, or program (e.g., Grok, X), without renaming the company itself, will not qualify. Changes to SpaceXAI's listed name caused by hacks will not count.\n\nThe primary resolution source for this market will be official information from SpaceXAI, SpaceX, or their representatives, however a consensus of credible reporting will also be used.",
+      "topic": "Tech",
+      "end_date": "2026-10-16T03:59:00Z",
+      "url": "https://polymarket.com/event/will-spacexai-officially-rename-itself-to-spacexsi-byptptpt",
+      "snapshot": {
+        "time": "2026-10-05T01:51:40Z",
+        "crowd": 0.135,
+        "best_bid": 0.13,
+        "best_ask": 0.14,
+        "volume": 14840,
+        "liquidity": 2243,
+        "fee_rate": 0.04
+      },
+      "news": [],
+      "forecast": {
+        "probability": 0.03,
+        "reasoning": "There is no news of any planned rename, and the deadline is only ten days away. Joking or social-media mentions would not count under the rules."
+      },
+      "bet": {
+        "side": "NO",
+        "price": 0.87,
+        "shares": 58.23,
+        "stake": 50.66,
+        "fee": 0.26,
+        "cost": 50.92,
+        "gap_pts": 10.0,
+        "kelly_full": 0.7609
+      },
+      "trade_snapshot": {
+        "time": "2026-10-05T01:53:47Z",
+        "crowd": 0.135,
+        "best_bid": 0.13,
+        "best_ask": 0.14,
+        "volume": 14840,
+        "liquidity": 2223,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Bought NO (10-point gap)."
+    },
+    {
+      "market_id": "5180406",
+      "event_id": "1114518",
+      "event_title": "2nd Largest Company end of October 2026?",
+      "option": "Apple",
+      "question": "Will Apple be the second-largest company in the world by market cap on October 31, 2026?",
+      "rules": "This market will resolve to the second-largest company in the world by market cap on October 31, 2026, as of market close.\n\nThe resolution source for this market will be a consensus of credible reporting.",
+      "topic": "Economy",
+      "end_date": "2026-11-01T03:59:00Z",
+      "url": "https://polymarket.com/event/2nd-largest-company-end-of-october-2026",
+      "snapshot": {
+        "time": "2026-10-05T01:51:40Z",
+        "crowd": 0.905,
+        "best_bid": 0.89,
+        "best_ask": 0.92,
+        "volume": 10604,
+        "liquidity": 8082,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "Apple | AAPL Stock Price, Company Overview & News",
+          "source": "forbes.com",
+          "published": "2026-10-01",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5rWDNjOGl0aWxxdkhOMjkwZHdyR0ptVVhFaVJOUDVtZW9XYlk2b3RtTkdoWmY0ajMyUE16Wm5WN0VlUkVsa24zYmhJcHdMNmZF?oc=5"
+        },
+        {
+          "title": "Apple TV unveils trailer for season two of “The Sisters Grimm,” premiering 2 October",
+          "source": "Apple",
+          "published": "2026-09-22",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQSWxWbDQ3TTNLLXE5MWtaNmpoalRNVmoxMDB5Mmtzd1BVR1c1N2hOalFhdW95X2FqUUJNbjFBS0UydmJxQ05SVzdiRHNzU1VORHVnRFdkWElyUDY1U0J2RW44WExzVXlQT1lkNmhIaXJTRE5uRy1vbHNGVWdaRkpEbVEzVkFlNmxyVi1oTGo5SkV5eG1ndG9pUTVUU19IRGZQdVNCUmdoUVVCQTJVd21OZFpZcnE5RDhJa19oN1E3cnktQlQwSTF4dnJZRG1oY3NKX0dLbGxNU21qWWFUZjJVM2FpTXZscU5zWm9pc0xiNHlsd3VyWXpEX19zeUh2QnBZb2hhX3l5NUFwOFp5?oc=5"
+        },
+        {
+          "title": "October Prime Day Apple deals guide: Buy now or wait?",
+          "source": "Mashable",
+          "published": "2026-10-04",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE4yMmJqdmlCME5ieXQ3Tm4wWWgweFlXU2lhYnR0eXZfanlNb2ZwSXBxcEdZUFRxbzdRa1JLOE1rTnFDLVRGdk5hRlRHMURVT2VzbTlHSkx0RWRFY01uM21rSnVTMG83b2p0bEpvNFhKTVQyemdLSGhvbGZiOA?oc=5"
+        },
+        {
+          "title": "Apple Event Plans: New Products Coming in 2026",
+          "source": "MacRumors",
+          "published": "2026-10-01",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB1M0VzS2gzNDN3dndISkNSTTRKTktzOXRsT0FtSWxtRzlvTThUWmhjY0I1eWZPNGFKc0F4bEVVR2RYSGFOS2tKNVo2LVlqTVRkTkhsVUxzOA?oc=5"
+        },
+        {
+          "title": "Trump’s AI lunch included every major tech company. Except Apple",
+          "source": "CNBC",
+          "published": "2026-10-01",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPbWhaVGlFMFhRaGhGX1prSlFKVGNQY0hHTjhYa25PcERoaE5zU3FNOHh6MUN0S1ZXdDJlakozMnFfcnZvbW9YdTR0NmhZNGVTRDZTalNwSmFOaVF1VWppRlJ1Wlh1SWRIbU9jSk1GN3VheS0zUnZOeEw4MDg2ZG5nT3JoWkRkZEXSAYwBQVVfeXFMT1B5NV9RSGxQdGlKYXdDNUVDdlFMODVUMjRHazlVRTRpQ21EQWVJLUVzTUUyOTBINHRKVzVuYnZlYzhPUUI4Y1RDOHQxZkJLbUFEUnBNeTBwSU1Tb0trODRfVnJmZ0ExQ2o0SDRiV0FPWmJzc2htTW84RDBLR0lJZjlmeEJwakpJYlQxRGw?oc=5"
+        },
+        {
+          "title": "Waiting for the next Apple event? Here's when it will take place",
+          "source": "Macworld",
+          "published": "2026-10-01",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBYQmVCTEk2RG15YllmbEQ3RktxLWp1QUxGUEloNE1Gb3pwMldjU2V3eGhGOFBKWnBhUFVma2YtNm95c0h0cDdZaFFkblVrX2J5WmlOanU0b2pUQVJ3VEYzNG81RVJKUktydGM3ajRaVGotWjFxUDNGLW9n?oc=5"
+        }
+      ],
+      "forecast": {
+        "probability": 0.35,
+        "reasoning": "Apple is competing with Microsoft, Alphabet and possibly a public SpaceX for the number two spot behind Nvidia. Alphabet's strong AI momentum makes the ranking uncertain. Apple is plausible, but less likely than not."
+      },
+      "bet": {
+        "side": "NO",
+        "price": 0.11,
+        "shares": 447.04,
+        "stake": 49.17,
+        "fee": 1.75,
+        "cost": 50.93,
+        "gap_pts": 54.0,
+        "kelly_full": 0.605
+      },
+      "trade_snapshot": {
+        "time": "2026-10-05T01:53:48Z",
+        "crowd": 0.905,
+        "best_bid": 0.89,
+        "best_ask": 0.92,
+        "volume": 10604,
+        "liquidity": 8002,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Bought NO (54-point gap)."
+    },
+    {
+      "market_id": "4893275",
+      "event_id": "1071233",
+      "event_title": "\"Spider-Man: Brand New Day\" total domestic gross by October 31?",
+      "option": "<970m",
+      "question": "Will the total domestic gross for Spider-Man: Brand New Day be less than 970m by October 31?",
+      "rules": "This market will resolve according to how much \"Spider-Man: Brand New Day\" box office will gross domestically by October 31, 2026. The \"Daily Box Office Performance\" figures found on the \"Box Office\" tab on this movie's The Numbers (https://www.the-numbers.com/) page will be used to resolve this market once the values for all dates between opening (July 31, 2026) and October 31, 2026 are final (i.e., not studio estimates).\n\nIf the reported value falls exactly between two brackets, then this market will resolve to the higher range bracket.\n\nPlease note, this market will resolve according to the The Numbers figures provided under Box Office Performance until and including October 31, 2026, regardless of whether domestic refers to only the USA, or to USA and Canada, etc.\n\nIf there is ambiguity as to whether the resolution source's figures are final, this market will remain open until both https://www.boxofficemojo.com/ and https://www.the-numbers.com/ have confirmed their finalized figures.\n\nIf there is no final data available by November 30, 2026, 11:59 PM ET, another credible resolution source will be chosen.",
+      "topic": "Entertainment",
+      "end_date": "2026-10-31T23:59:00Z",
+      "url": "https://polymarket.com/event/spider-man-brand-new-day-total-domestic-gross-by-october-31",
+      "snapshot": {
+        "time": "2026-10-05T01:51:40Z",
+        "crowd": 0.939,
+        "best_bid": 0.93,
+        "best_ask": 0.948,
+        "volume": 14879,
+        "liquidity": 4130,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "Spider-Man: Brand New Day: Box Office Collections Day 65 (India)",
+          "source": "TrackTollywood",
+          "published": "2026-10-02",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPTkZWcjcyeURGUDZwejdtSkYwOE1nMV9icGtnbVdHcThwYWd4ZWVLUHJ0NXVSNXRqekxfVER1bzVzMWVScDVHYW1oWkpMRDdHajdXbVliWERrSG96ZzFMM080cE1HVUZFVlc3SDIyOWlSTnBQR2NNZS0xSVRJWG9CM0ZiMDI5N0VZQmVtdWhTZWE1NnBQLTZpMUxTNUpSRHBwUmQ1NVBpSEbSAbABQVVfeXFMUG5WaHNLMGVBWS12bmxHM1dmNE5vN3VIVDRCb3ZrYzNZUnNhajRxTzAyc0ZPSDcwNFo3S09NZDdHTHNSTlRlQXBsU2tHTkZQWWRuaGJxMDNxX04yTnBiUHgxS3J0a0dZU2I4VkF5THFBRHdOY2FSVGRPTEk1VURTTUoxeWU5NEZnZGJLOHQ1TktLVkM2YVdFdUVyS0poTmNFbk5UM2V6dXFXQU9UZlNnci0?oc=5"
+        },
+        {
+          "title": "Spider-Man: Brand New Day: Box Office Collections Day 64 (India)",
+          "source": "TrackTollywood",
+          "published": "2026-10-01",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQNXZoQ2E2OW04aEFnUm5rRlZuLXZsbWh2TXZMeVhDRnVLbGR5Q2c3VlIwM3lVMDFlZ09UYUpfUkxDUjJaMkhuSnBTMzhlMlZBSXlEYU5adG9vcmFSdnJ4eGx1eDZOempLZ3N4SXJOeHRYcXJ5VUdxcHlaamRuZ0I5RUptM1pTdjBRMWFfQXRDM0x6OW4xbjhJVFh0NjQzbEJKWWNXQ1BnWUbSAbABQVVfeXFMTVJkYkNxdmVZUDRja3lXclMyankxWTBYbXhSdTRJZlhQcEZCbEx1Y0QxWkdmOE9UUnVZTGhDWTN5Vkx5NmxaV1BoUDctWnhRbzZFTGF1T003T2tuR0tEbjBLZV8tbDZ5aGljbTFfT1VBSFpCalBzcmpGSmRRTkhNUUE5aDdoX19Ea2FJeEZ5SWE4bmdNV0RrR3dYblFMODdFMzdSbXFVbUtNQUlPZXlVZ3Q?oc=5"
+        },
+        {
+          "title": "Spider-Man: Brand New Day: Box Office Collections Day 62 (India)",
+          "source": "TrackTollywood",
+          "published": "2026-09-29",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPdy16UHg2YmFjV3ZVekh0UVRFTDFtNjBTeVNyU1dRNDA1VGtIcFdDZWN1R2lCLVo0dzRWZ0tQUDRHSDJKTldXYVNPS2VWUEF0VXVOX2EyWTVrU0pKc3VkM2VHdHB2bUZ5NTNJVHNjbXpxUXBLdjgxZWcxZnV2Mll5UUc4aVdrOTVqaHEzQ3BaVExnb0lXVTJIZDBrLWswSURXeHE2REZZLVDSAbABQVVfeXFMT0RldlkyR2ZHMnhDMllndmdDSmRSZ2ZsU2dYZzV2WUUtS1pOcnRoaWo2emZ3RXhmUFl6dFAxLU1LdGJxaWc1RjlWajhhY3RCZkZ3TkdLQmxVRFFYbFFqTWF2WWpvU1ZjNkJwOTdZaHVlLTNSYmwzVWc4NDZjVFZXWnRUX2twUmJBQjJFTXFSVHNsT05ZbzhwUWVGTW80UVJmZlpUU2dRckFWQnVxWDhvMjM?oc=5"
+        },
+        {
+          "title": "Spider-Man: Brand New Day: Box Office Collections Day 63 (India)",
+          "source": "TrackTollywood",
+          "published": "2026-09-30",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZ1JmdXg2dW02b1JXNzZFYllDSnpFSHJkY3c1V0sxcVAxYzE1bk96Z3V1WE53N1ktdlNJWnlxN29rbWtkV294d2J6M3IxemFJSjBLOE10SFFnQVZKbGZFS1RRLTJLX0hmcERDV2xXSlk1TVp3azB1bTZ5TFc5NHMyenRGdkhoTVgyR1lKTVN1RTQzUG96ZV9Uc3FSemttOVl4WDVpdkdWQlLSAbABQVVfeXFMTjg3MU9lU1F4dDdBcXp1R0lWYzdrTjRYZ1kxd0pyNXAxUGdsUl9tSGVEX3BXRVZmLTktSWNzb1pJdEhvLXlGNGtZaEVIaWkzalhBRUk2eVVVQ1h5cDBWVzRjOHh5SHFEWHVPWmlrOFVtU3p3OG1Ed1B4RTg5dkEtbmxpUk9oeGJGUmdwOERvS2RiWVh6VjRkT1lNMFo4MHM2T3E0UDFVVmFGLUt1STZNd2o?oc=5"
+        },
+        {
+          "title": "Spider-Man: Brand New Day: Box Office Collections Day 61 (India)",
+          "source": "TrackTollywood",
+          "published": "2026-09-28",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNM0k1OTRvSkpDcXRSRTQ0Umpuc1VQR205bHZkdng2ZlgwZ3ZKRTQ4TjRYYWNEN3RRTGtzNFFqY01vTTF4OTB0eTFrSS1tbXpVQ0FRZnZEYkpBNkd3ZlRoUUpEVTN3Xzd5eGJQLVVVYkpCcUR5U1BlQmE4WjlQNlRUVHZfUEFadXFKcVljaElVSW04bFhDMm5MbW4zRFZ2MFByU0EtbGtwLWHSAbABQVVfeXFMTndkQmRTd19BVkp3QVg0cTk0Si14NHJCRzVVTGpIR2ZRTEVTSFhLbnRNUDFjZnJFYnN5V3BkUGtFZDU2ZjBmUFJuTXNXSW85NkRHcmRqT2o3cTlIY2hRNThxNkNoU2IyUnlRZTNxZlcyV2dNV2JFcXNhSXZIX0ZHWkZkdHJiXzJvVm5qWDJwcDdSdWdRczJsQ01VRzRLcXVuYkNJeURjZmlpbFBEX3JBQkU?oc=5"
+        },
+        {
+          "title": "Spider-Man: Brand New Day: Box Office Collections Day 59 (India)",
+          "source": "TrackTollywood",
+          "published": "2026-09-26",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPRWRGV0pESFhsUGs4d041RG0zRE93bTNLTTJBUG90SUxvVFRkcE1GY3lLSEhWdlN4dUxTUU12NW5OT0hnV1UzQ1hLTEcxS0FWb1QtOEpBTnYwSFFiYXpQcUtnYVRJeU9HTnBEWUROSDRDS3JRYlJjY0JwWW5HWURIT2UyaGNJVnc4MlBPZ2pwdDRiYVQ1cG9PUmtJQ2VVSGJVNmM0aGxDbTPSAbABQVVfeXFMT0RFdXA5dUh6MmdQMzBPVDN3OERrTFZLZVBKMFJUOGxEbGlkZU15SjNzUWpuMEVxSDJzeFEtQmR6bF9MOGVhTWc5aWJFdUVzcVNiblR0dHI0MjBaNUduN25GdGVCWlhmLS1rY2s0Vmp1RjBLZm9IMGlUZk5ENElKNmdWZDF6RWJkQ2FpekZpSjdETDNaU0lGTWtFcHZWMTRUcWxvNmE3U2ExRnpWMlFzeDQ?oc=5"
+        }
+      ],
+      "forecast": {
+        "probability": 0.75,
+        "reasoning": "A $970M domestic total would beat the all-time record of about $936M. Even No Way Home made about $814M, so that level is historically extreme. However, a bracket set at this level hints the film may be running unusually high, so I leave some room for an overshoot."
+      },
+      "bet": {
+        "side": "NO",
+        "price": 0.07,
+        "shares": 662.9,
+        "stake": 46.4,
+        "fee": 2.16,
+        "cost": 48.56,
+        "gap_pts": 18.0,
+        "kelly_full": 0.1907
+      },
+      "trade_snapshot": {
+        "time": "2026-10-05T01:53:48Z",
+        "crowd": 0.939,
+        "best_bid": 0.93,
+        "best_ask": 0.948,
+        "volume": 14879,
+        "liquidity": 3847,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Bought NO (18-point gap)."
+    },
+    {
+      "market_id": "5008726",
+      "event_id": "1089207",
+      "event_title": "OpenAI resumes training on...?",
+      "option": "Not resumed by October 20",
+      "question": "Will OpenAI not announce that it has resumed training by October 20, 2026?",
+      "rules": "On September 25, 2026, amid reports that its AI agents had probed U.S. government websites, including those of the Census Bureau and Education Department, OpenAI disclosed a pause in training, evaluation, and inference involving tool use for its most capable models.\n\nThis market will resolve according to the calendar date (ET) on which OpenAI announces that it has resumed training covered by the pause announced on September 25, 2026. If no qualifying announcement is made by 11:59 PM ET on October 20, 2026, this market will resolve to \"Not resumed by October 20\".\n\nResuming training means resuming, in part or in full, training suspended under the pause announced on September 25, 2026, including beginning a fresh training run in place of a suspended run.\n\nA qualifying announcement must be made through OpenAI's official channels or by an authorized representative acting in an official capacity. The totality of the announcement and its surrounding context must clearly establish that training covered by the pause announced on September 25 has resumed, even if the announcement does not name the incident or specify the date the pause was announced.\n\nStatements that training is permitted, planned, or expected to restart do not by themselves qualify. Training that was not subject to the pause announced on September 25, 2026, does not qualify.\n\nThis market will resolve to the date of the first qualifying announcement, regardless of whether the announcement is later modified or withdrawn, or training is subsequently paused again.\n\nThe primary resolution source for this market will be official information from OpenAI; however, a consensus of credible reporting may also be used.",
+      "topic": "Tech",
+      "end_date": "2026-10-21T03:59:00Z",
+      "url": "https://polymarket.com/event/openai-resumes-training-on",
+      "snapshot": {
+        "time": "2026-10-05T01:51:40Z",
+        "crowd": 0.39,
+        "best_bid": 0.38,
+        "best_ask": 0.4,
+        "volume": 10589,
+        "liquidity": 2828,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "OpenAI has suspended training of its most powerful AI models",
+          "source": "UA.NEWS",
+          "published": "2026-09-27",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQM0t5bjd1NUxJd3FfUjZJa0ZtbmVUN0w0bmZMenlsMXdyUkp5RFVRM1VxdWIyU3NjMjBBUTNCZU5jQ3hxSHF2QzFUNG52d2RtSWZpeXlqOUpKdDB2Xy12cGZzUzNxNlMwXzhwSE5kZjE5TTE3UVcyLU1fOFpyT2haZDdpcEdJN1hsdGtKaWp6NlY1M0sz?oc=5"
+        },
+        {
+          "title": "OpenAI Scraps GPT-6.1 Astra Launch After Safety Tests Uncover Risks",
+          "source": "bloomingbit",
+          "published": "2026-09-28",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBwbjBfNi1KVTE5VV9rNURkZDduTklNa3J6enBubUNOczFfbk1JeXI5cUotdkJYbW4zOHpnUTZ3STRETFVtUWpaZklFSVJyOHRKb0Jvbw?oc=5"
+        },
+        {
+          "title": "OpenAI Suspends Latest AI Model Training Amid Reports of Rogue Agents",
+          "source": "Tekedia",
+          "published": "2026-09-29",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPQlJNenVVOWtOYjNCOVlXWU9Hakc3MUR3QUxEeFNrRVRYeE5UQVZXZkpxY3JYN0ZZOGdpUVFTR1NSRXUwcjN1YlNpczFYek02N3Jtek1VZmd1VzMzdFJBUjlTUE5Ec01CZ3pTOExMS2RRR2E1ajR1STlsOTNVM25fX005R3NXTm9VdlZ5Z3loZ3FzMWtfT09rSjhR?oc=5"
+        },
+        {
+          "title": "OpenAI sandbox failure allows AI agent to gain internet access",
+          "source": "The Straits Times",
+          "published": "2026-09-27",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQVWtYcGZtVEprdWdkZHg3RDBrTnZEWjctSmFrZTRWV0EySnJWWmpEbENYMU5IV08tOF9Ra2doM05zR1JSQUZxcDVJY1FyTTNzLTlVd3VUVWMxbnZfRHNhZkpIZ3pJbHJBRWttcjdxYmpwZWpDOHF0ZWc5UXpPcGQwOGgtejVlUFhLaDhEZHdpMktPRGlaeVhtQWdCb2lHUQ?oc=5"
+        }
+      ],
+      "forecast": {
+        "probability": 0.55,
+        "reasoning": "OpenAI has strong commercial pressure to resume quickly after its September 25 pause. However, the safety incident drew heavy scrutiny, and the rules require an explicit official announcement that paused training has resumed. Within about 25 days this is close to a coin flip, leaning toward no announcement."
+      },
+      "bet": {
+        "side": "YES",
+        "price": 0.4,
+        "shares": 124.33,
+        "stake": 49.73,
+        "fee": 1.19,
+        "cost": 50.93,
+        "gap_pts": 15.0,
+        "kelly_full": 0.2378
+      },
+      "trade_snapshot": {
+        "time": "2026-10-05T01:53:48Z",
+        "crowd": 0.39,
+        "best_bid": 0.38,
+        "best_ask": 0.4,
+        "volume": 10589,
+        "liquidity": 2782,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Bought YES (15-point gap)."
+    },
+    {
+      "market_id": "4082027",
+      "event_id": "950431",
+      "event_title": "Bank of Israel Decision in October?",
+      "option": "No Change",
+      "question": "Will the Bank of Israel make no change to the Bank of Israel Interest Rate after the October decision?",
+      "rules": "This market will resolve according to the change in the Bank of Israel Interest Rate resulting from the Bank of Israel’s October monetary policy decision, relative to the level it was prior to this decision.\n\nThe resolution source for this market is information released by the Bank of Israel after its October 21, 2026 monetary policy decision, as listed on the official Bank of Israel interest rate decision schedule: https://www.boi.org.il/en/economic-roles/monetary-policy/interest-rate-announcement-dates-2026/\n\nThis market may resolve as soon as the Bank of Israel's announcement of their October 21, 2026 decision with relevant data is issued. If no decision on the Bank of Israel Interest Rate is issued by the end date of the next scheduled meeting, this market will resolve to the \"No change\" bracket.",
+      "topic": "Economy",
+      "end_date": "2026-10-21T00:00:00Z",
+      "url": "https://polymarket.com/event/bank-of-israel-decision-in-october",
+      "snapshot": {
+        "time": "2026-10-05T01:51:40Z",
+        "crowd": 0.925,
+        "best_bid": 0.92,
+        "best_ask": 0.93,
+        "volume": 22065,
+        "liquidity": 6423,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "Netanyahu May Have Ignored a Dire Warning. Israel Ignores the Deeper Threat.",
+          "source": "RAND.org",
+          "published": "2026-09-22",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVmQ5R0FsVnVfUnRrd3ZjV0dCSFlaMHhGUlVESUdIdGxhM3MySDY3VExnaW9rem5uOThWXzVvUHRFelF1bm5UZF80OEFNNlRiNWZpM2pDOEFWU0xTc2xLNXNRTWpKSjNJZDZIcDJFckJWak5nYjl0bGpkZGRpVWpGNVNHRUZQMVJBLWt5bm8yeXhlTG42MzVYZkZhZXl2VnZEQWtNLVB0RFg5WUZRRWhOYQ?oc=5"
+        },
+        {
+          "title": "​​​A post-October 7 security doctrine is forming in Israel",
+          "source": "GIS Reports",
+          "published": "2026-10-02",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB0MmQ5MjlGc2xudzJ5SFpsbE1WX2liaEpRbl96MVBaSmI0X2IybGs0bElxbVpFT0ZXQl80MGdiUDluLVYtVVVaRXU2b3RRbnpzaVBvWFFkLTMwSGtIUHVYSmhHT2E3T21w?oc=5"
+        },
+        {
+          "title": "Israel bans Arab parties from election: Who they are, why it matters",
+          "source": "aljazeera.com",
+          "published": "2026-09-26",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNdXJ5RDBNZ2xoNzJFWVlYSk9XaTYtOFJXSEY2M1dTNE1BdFBoeV9GNmJWekVhdFZuRUFreGktUkQ5bUdiSHphVDVnMHRPSkJBN21aTFRMU1I1SkVpbDNqQmt3bHB1ajg4VklKc3paQXJzYmtDTnJOemdaN05Ray1DUDhEby0tZ0xyQ2NjWDB2ejRiMjlia2ZZbFBQNmtEWVVUcG50aTBRaDlmeUXSAbABQVVfeXFMT3lFZmZXZFBHSzhVajRwSnJDX1gzcTBXMVcwUnAwS1JQcDhzZDlkTUVrVlJlek5WRldRY25OakNXV3VBUkt1TDZLX25HaWM1cVhIUFhIZXUyMTRzU1JwQTk3aEZxZmNuemVOdEJjTEtjZmFyNFlBUjR4SHg1WTBqdDM5a0p5Ul9nbHJyV3EtaVk4WWYxQWFrWVdFcUEyaU84M0tjNTlnWWI2TWwzQU9famQ?oc=5"
+        },
+        {
+          "title": "Israelis divided as vote that could oust Netanyahu only weeks away",
+          "source": "The Guardian",
+          "published": "2026-10-01",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNYVY4Nl9TRzlxZXd1aVI0a0Jhak0xNFR6SkcxS0VFZnp2cHUyc2Z4RFFmQ3NsUGFEajRwYTBBTXVUbkd4M1RkS1BLRWd5M3dsUExUZ1d4OEdiN2dwSVI5LVNMVnQyaUdOc1RCZmVPNEUtdG82b3ViZkp3cm0wdV9CdXotenpEalZLX2NzNk12aDRFeFdXSWRBM0pB?oc=5"
+        },
+        {
+          "title": "Netherlands regrets Israel retaliation in settlements row",
+          "source": "France 24",
+          "published": "2026-09-28",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQQjNzTWw0MGR2SWpqTnNPYnBzX3RfQXozaThtUjRlcjI4S1FzdGVvQjlrNnpmOHhxLWN6dGo2dGtPSjUwcjBQRUltX3dMT3BKanVGTk41c0hzRDVjNzVLbjNzeFBVSDFWd29lXy1tT1VnUmg3SzdXLTR5ZTN0S0Rqd3pWVW9nUC1HUEVSWVRUZWJvdTNLaU03ZDZSckl2aHktRXloV3VUUQ?oc=5"
+        },
+        {
+          "title": "Israel is facing a financial warfare battle it is not prepared for",
+          "source": "The Jerusalem Post",
+          "published": "2026-09-25",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1LR21vZXRlVWwyY2J2OGRBdndJT1JIR2h5YnpZRHNzLVdwWXJHYWRYQVFIU0JuU2tCU3lFdVh2Sk9tMWZkTm83MnhfS0lfb0VBeDV3ak52dw?oc=5"
+        }
+      ],
+      "forecast": {
+        "probability": 0.65,
+        "reasoning": "The Bank of Israel often holds rates during periods of geopolitical and fiscal uncertainty. Upcoming elections and regional war risks make a pause more likely than a move. A cut remains possible if inflation has eased."
+      },
+      "bet": {
+        "side": "NO",
+        "price": 0.08,
+        "shares": 608.56,
+        "stake": 48.68,
+        "fee": 2.24,
+        "cost": 50.92,
+        "gap_pts": 27.0,
+        "kelly_full": 0.2906
+      },
+      "trade_snapshot": {
+        "time": "2026-10-05T01:53:48Z",
+        "crowd": 0.925,
+        "best_bid": 0.92,
+        "best_ask": 0.93,
+        "volume": 22065,
+        "liquidity": 7062,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Bought NO (27-point gap)."
+    },
+    {
+      "market_id": "3685385",
+      "event_id": "868080",
+      "event_title": "When will the next Google Gemini Pro model be released?",
+      "option": "No release by November 1",
+      "question": "Will there be no next Google Gemini Pro model release by November 1, 2026?",
+      "rules": "This market will resolve according to the calendar date (ET) on which Google's next Gemini Pro model is made available to the general public.\n\nAny Gemini model released after market creation and labeled as \"Pro\" may qualify (e.g., gemini-3.2-pro, gemini-3.5-pro, or gemini-4.0-pro-preview). Gemini models labeled only as Flash, Flash-Lite, or another non-Pro variant will not qualify.\n\nProducts labeled as a GA promotion of an already-existing Preview model (e.g., gemini-3.1-pro-ga) may qualify.\n\nA qualifying model must be launched and publicly accessible, including via open beta or open rolling waitlist signups. A closed beta or any form of private access will not suffice. The release must either be clearly defined and publicly announced by Google as accessible to the general public, or otherwise be made publicly accessible and explicitly labeled on the company's official website. Labeling errors, placeholder text, or version names displayed on the website that do not correspond to a model that is actually accessible to the general public will not qualify.\n\nThe primary resolution source for this market will be official information from Google, with additional verification from a consensus of credible reporting.",
+      "topic": "Tech",
+      "end_date": "2026-11-01T23:59:00Z",
+      "url": "https://polymarket.com/event/when-will-the-next-google-gemini-pro-model-be-released-20260817144359068",
+      "snapshot": {
+        "time": "2026-10-05T01:51:40Z",
+        "crowd": 0.8,
+        "best_bid": 0.79,
+        "best_ask": 0.81,
+        "volume": 105219,
+        "liquidity": 7436,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "Gemini 4 Argon: our next era of frontier intelligence",
+          "source": "blog.google",
+          "published": "2026-09-30",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNRjB3amppaF9yb1FhSmxoUW5GUEtCREcxbW1ScXJRRWN5ZGtIM0N0d21wVEI3ZTd5ZHY4N09KRWNwX3U2Z3JBeDNWakYxYXlBVE95NEpKWW5vcWFKZlA5Qkdka3hGZG9INUZtMVN2VTJhWG1TTldVSE1JVm5VaVlvcnpWRlhzX0V1NGJXZGhfMEY?oc=5"
+        },
+        {
+          "title": "Google says Gemini 4 release is coming ‘as soon as possible’",
+          "source": "9to5Google",
+          "published": "2026-09-24",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPN21yak1oLTF0cEVnZVY3RDZZZGVwdHFnS3RPMV9vOExBQ1ozeG02VFhETFo0N0xIN1F2RVRPTjJ2MnVsZkpDdFg0c3MtdnF0Y3l3Sm5tbTNob0Y2NkNTakszdHBKdldoblE5Vm1iX3YzTlFpUnRaZW1KWVB2U09CVTdlU1ItSTFLSW5VRktaX2RiUy1jcU9Naw?oc=5"
+        },
+        {
+          "title": "Google grapples with employee skepticism about new Gemini 4",
+          "source": "The Japan Times",
+          "published": "2026-10-01",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNX0QxREVHdU42aEhqRWZwQVM2MUdEYy1sY2RSQkVHcEI3WUY1SzdGSGpSSVg1dHkyUlczb0ZfMHlfUnp1VXNkLXZHVVBWN1FJNENTTHpxejlOZ3JVZE9iVm1vV1VoencxNGJJbC1BMFVOZE5uSFRqX1NQY1N1TjMtNEU5VWZ1cU5ETk1jNG5rcERzODlo?oc=5"
+        },
+        {
+          "title": "Google Releases New Gemini Model With Guardrails Amid AI Safety Debate",
+          "source": "Johnson City Press",
+          "published": "2026-10-01",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPbk53Tkkwd2dlUXJCRHJUc3dfU1RvOU04OFY3VzIxSjBMRk92TGxHX3RRMmN5TEtaaDU1Tl90WjREaU5KZUs3Y1owM1ZZdWxkNGdVbnc1S0RVZ3hIdlJBWnJIS0g4VDZpQXZYM2NWQXdGalFjZ3VGVlM2OEhxRmRtSW5uTng3VE1fdEZrMWZ6S2VOb3dwWXEwM1M1MTFQRV90TXlDWGktLWVfZXZaUlR1TlJB?oc=5"
+        },
+        {
+          "title": "Claude Opus 5.5 arrives on Antigravity, but only for Pro and Ultra",
+          "source": "pasqualepillitteri.it",
+          "published": "2026-10-03",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNdUxjNlV3bDZ5MVNqb0VhdDNtVzhBdVZRNTBHUFVURHNsVG1HRW10NmV3RkN1TDZVTy1EbllqcXFFZUR1LUJWMGVRSENYTzdFcW9sTXVlaDY2d1d5OTdDSWVGbGljN1ZqaEdkanRrX2VibEFNUGlseGF5eTYxdmFMSVRFdTFjN1pYRW9fR2lrZzBubVN3NGxFb1gxd3pNQQ?oc=5"
+        },
+        {
+          "title": "Google Skips 3.5, Unveils Gemini 4 With Security Gains but Coding Doubts",
+          "source": "Seoul Economic Daily",
+          "published": "2026-10-01",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVkpUOGc4bGZXNnFrQjJDRk8za0otSlhZaDEzbHVhY296aHNMeUZrV1NkT0p0Z2FQN2ZPMTBEdm9TU29mNUFzNWpVVHFTd2pTN1NkTG1IMENFZlUwdUxNeFdoR0ZVUzFyR1JmbXhaN0FWOURqODZLeWM0VGdRZ1MtLUxoS0FwUklHWHVZUEVFcnMxaTVnUlFFRGNmQUVqVlY1VEhtQWp2Zw?oc=5"
+        }
+      ],
+      "forecast": {
+        "probability": 0.5,
+        "reasoning": "Google unveiled Gemini 4 Argon on September 30, but this market appears to still be open. That suggests no qualifying public 'Pro'-labeled release has happened yet. A Gemini 4 Pro could plausibly follow within the month, but it is uncertain."
+      },
+      "bet": {
+        "side": "NO",
+        "price": 0.21,
+        "shares": 224.75,
+        "stake": 47.2,
+        "fee": 1.49,
+        "cost": 48.69,
+        "gap_pts": 29.0,
+        "kelly_full": 0.3617
+      },
+      "trade_snapshot": {
+        "time": "2026-10-05T01:53:48Z",
+        "crowd": 0.8,
+        "best_bid": 0.79,
+        "best_ask": 0.81,
+        "volume": 105219,
+        "liquidity": 7770,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Bought NO (29-point gap)."
+    },
+    {
+      "market_id": "4618741",
+      "event_id": "1000953",
+      "event_title": "Houthis seize an oil tanker by...?",
+      "option": "October 31",
+      "question": "Houthis seize an oil tanker by October 31, 2026?",
+      "rules": "This market will resolve to \"Yes\" if Houthi forces seize control of an oil tanker or a commercial vessel transporting oil as cargo between market creation and the specified date, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\n\"Houthi forces\" refers to the military forces of the Houthi movement (Ansar Allah), including any armed force operating under its direction or on its behalf.\n\nSeize control refers to Houthi forces taking custody of or asserting operational control over a commercial ship, including boarding and taking control of the ship, holding or detaining it for an indefinite period, or forcefully rerouting it to a location selected or controlled by the perpetrators. Attacks on military vessels will not be considered. Once a qualifying seizure has occured, any subsequent abandonment, release, rescue, recapture, or other loss of control will not affect the resolution of this market.\n\nMissile/drone strikes or any other form of kinetic attack not resulting in the seizure of the targeted ship will not be considered, regardless of any damage that occurs.\n\nA qualifying seizure must be attributed to Houthi forces.\n\nThe primary resolution source for this market will be a consensus of credible reporting.\n\nThe occurrence, attribution, and timing of a qualifying seizure will be primarily determined based on a consensus of information available from the resolution sources. Where multiple sources conflict regarding the occurrence of the incident, whether the incident qualifies as a seizure, whether the ship was an oil tanker or commercial vessel transporting oil as cargo, or the attribution of the seizure to Houthi forces, this market will remain open until the earlier of: i) the confirmation of the occurrence, attribution, and timing of the seizure, and of the ship's status as an oil tanker or commercial vessel transporting oil as cargo, based on a consensus of information available from the resolution sources or ii) 3 full calendar days (ET) from the date of the first credibly reported evidence of the seizure. If this period would extend past the end date, this market will remain open to allow for 3 full calendar days to pass. If, at the end of the third calendar day, conflicting reports remain as to the occurrence, attribution, or timing of the seizure, or as to the ship's status, the incident will be judged based on the totality of information available from the resolution sources at that time. No single statement, denial, or presentation of evidence will govern where it is contradicted by the totality of information.",
+      "topic": "Economy",
+      "end_date": "2026-11-01T03:59:00Z",
+      "url": "https://polymarket.com/event/houthis-seize-an-oil-tanker-by",
+      "snapshot": {
+        "time": "2026-10-05T01:51:40Z",
+        "crowd": 0.1,
+        "best_bid": 0.08,
+        "best_ask": 0.12,
+        "volume": 35081,
+        "liquidity": 11332,
+        "fee_rate": 0.0
+      },
+      "news": [
+        {
+          "title": "Exclusive: Iran Denies Involvement in Attack on Saudi Oil Pipeline",
+          "source": "الحرة",
+          "published": "2026-09-30",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9PWHdOY01aU2ZxTUJ1ckdiMThGSDVieDF2eEtBMFBkWkZnVzdMbU9sa0ZrYndfOU1zeUpDMW5IMkgwQQ?oc=5"
+        },
+        {
+          "title": "US-Iran war - Yemeni forces strike Houthi positions, take control of Samah Fort in Taiz",
+          "source": "Dunya News",
+          "published": "2026-09-22",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA4M1JFMl9VMy13WHlpVHNOcF9CZ1RuUzFwckRLUWRtQS1QVFNrd1dGV3FBQk5mZHVkaHJLYnFzOW5zMS1DdDJRT2dUVllRZk1JMXBwQmZR?oc=5"
+        }
+      ],
+      "forecast": {
+        "probability": 0.08,
+        "reasoning": "Houthi ship seizures are rare; their main tactic is missile and drone strikes rather than boardings. Regional tensions are elevated, but a confirmed seizure of an oil tanker in under four weeks is unlikely."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-05T01:53:48Z",
+        "crowd": 0.1,
+        "best_bid": 0.08,
+        "best_ask": 0.12,
+        "volume": 35081,
+        "liquidity": 11332,
+        "fee_rate": 0.0
+      },
+      "bet_note": "Gap of 0 points is under the 10-point minimum."
+    }
+  ],
+  "batch_id": "msgbatch_01XNb116HaFSyaSYcgPWVy1e",
+  "forecast_at": "2026-10-05T01:53:47Z",
+  "usage": {
+    "input_tokens": 7412,
+    "output_tokens": 2355
+  },
+  "cost_usd": 0.0384
+}
