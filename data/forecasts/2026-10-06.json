@@ -1,0 +1,646 @@
+{
+  "run_id": "2026-10-06",
+  "date": "2026-10-06",
+  "created_at": "2026-10-06T01:16:33Z",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "questions": [
+    {
+      "market_id": "562831",
+      "event_id": "32228",
+      "event_title": "Balance of Power: 2026 Midterms",
+      "option": "Republicans Sweep",
+      "question": "2026 Balance of Power: R Senate, R House",
+      "rules": "This market will resolve according to the party that wins control of the United States Senate and the party that wins control of the United States House of Representatives in the 2026 United States midterm election.\n\nA party wins control of the United States Senate if it wins a majority of the chamber’s voting seats. If no party wins a majority of voting seats, the party that wins control of the chamber is the party that wins half of the voting seats and holds the Vice Presidency. If the outcome remains ambiguous after applying the above criteria, the chamber will be deemed controlled by the party with which the first selected President Pro Tempore of the Congress that convenes after the specified election is affiliated.\n\nA party wins control of the United States House of Representatives if it wins a majority of the chamber’s voting seats. If no party wins a majority of voting seats, the chamber will be deemed controlled by the party with which the first elected Speaker of the House of the Congress that convenes after the 2026 midterm election is affiliated.\n\nThe following rules govern the counting of seats for determining which party wins control of the chambers.\n\nFor determining Senate control, all regular and special Senate elections that determine representation in the upcoming 120th Congress and are scheduled to take place in November 2026 as of October 31, 2026 are included. Vacant Senate seats for which no election or special election to fill the seat is scheduled to take place in November 2026 as of October 31, 2026 will be treated as held by the party affiliation of the most recent member to hold that seat. For determining House control, all House elections in the 2026 United States midterm election that elect voting members and determine representation in the upcoming 120th Congress are included. Where a Senate or House seat is decided by a runoff, the runoff result will determine attribution of that seat, even if it takes place after November 2026.\n\nFor seats contested in the specified election, seats are attributed to the party under which the member was elected. If a member-elect changes party affiliation, or vacates their seat, between election day and the formal organization of Congress, the seat is attributed to the party under which the member was elected. \n\nFor seats not contested in the specified election, seats are attributed to the party that holds the seat as of the date of the election. If a current sitting member of the U.S. Senate who is not up for election changes party affiliation or vacates their seat after the date of the election, the seat is attributed to the party under which the member was affiliated at the time of the election.\n\nSenate and House members elected as independents who formally caucus with, or, for newly elected members, who announce their intent to caucus with, a party are included in that party’s count. If the caucus decisions of members of the Senate or House elected as independents cannot be determined on the date of the election, this market may remain open until the earlier of (i) an announcement from the relevant members of their intents to caucus, or (ii) January 4th, 11:59 PM ET of the following calendar year. If no such announcement is made by January 4th, 11:59 PM ET of the following calendar year, the member will not count towards the seat count of any party.\n\nThe resolution sources for this market will be official information from relevant state electoral authorities, the United States Congress, and a consensus of credible reporting.",
+      "topic": "Politics",
+      "end_date": "2026-11-04T04:59:00Z",
+      "url": "https://polymarket.com/event/balance-of-power-2026-midterms",
+      "snapshot": {
+        "time": "2026-10-06T01:16:27Z",
+        "crowd": 0.075,
+        "best_bid": 0.07,
+        "best_ask": 0.08,
+        "volume": 6012520,
+        "liquidity": 1669742,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "Who will win the 2026 midterm elections? Polls and predictions",
+          "source": "The Times",
+          "published": "2026-10-04",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUnpCV1NDNnk4SXdjQkEzNjhGZUIwTWJhVDlQZS1NZGRnNzdDamRHR0Q3M0w4djlsT1BvZWIxaWpVakVYbk5rUHJfZkJlQ18wNlBjZmM3cEp2ekhPNG1jd09CWFJUQWVORVhxRjh2UjBuQVkydGxLd05UR3JCVEYzVXltcEpSRWVXQlVoZEdsNmJaVFM1ZTZFcERta19lVWtZZGs0dlhEMlUybGItRGwtN0xXVQ?oc=5"
+        },
+        {
+          "title": "What happens if the Democrats sweep the midterms?",
+          "source": "Comment is Freed",
+          "published": "2026-09-27",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBUeGRMSk01ZC1rdTM2Yi10cl9fTFJnYWdYQ2p6VTJTbVZPUGwxNFBjMXFZNnh1RXBtdzAzTzFXY1ZNYmQ4ZGZrb1BvNjlnWUtLcm9wVDJrVGRWdHdJakk0Y3d1MlowZ1A2M1EtMUNBY0c?oc=5"
+        },
+        {
+          "title": "The Midterm Election Signals Investors Should Watch",
+          "source": "Morgan Stanley",
+          "published": "2026-09-23",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPOTZfZ2VPVjV5WFFFSlkxejhyQ2ttNm9iUUFGU0lvUllzTFMxSXFaNklnSHZPbU91VHhTaUhmMm1OTmdiVEVKeE9yYkN5VGkyVW5hQ3d1T2dmRmFDSzBDLUljQTMtdTd1QjFvZS1rMlY5TUpJTllNVk9BODlfVnk2RmhrV0sxQzhRbVpF?oc=5"
+        },
+        {
+          "title": "What to Expect When You’re Expecting… A Mid-Term Election",
+          "source": "Tema ETFs",
+          "published": "2026-09-24",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQcXlYckI3ck9CYzZSUTNjb203ejl1RlFrOE9nNkcwU2dTUzZLVGJOUU9vSS1fVWdVN1QzaE1GR1A3NWJkRi1vZjZMdTFQdDZjalVPN1pwekQ1Z0VySHNsRlNPc1M4V2ZtZTJLZ2dnOF9WZUZmRlhLSlh3UUhjWEF4V092QnpYTzZJdjlfdW5tUdIBnwFBVV95cUxPRjJZajA1Y0xXc0RMclByalRoQTVTME9mTjd6ckpmdkI4ZkNaNkIyV1FGdVFwcXJnTURfcGNMazdNaG9EWHM1MVFVOVlESTYxdlNlZ3JpTWQxRTlLSjFSdzloUlliMFJMdTZmVUF0clNTYVBTR00ySzhqNFc2LVMwZFJva0R6bnN3NDdYMHFBSEo3M1FvbE1ERzI0d2dPZEE?oc=5"
+        },
+        {
+          "title": "Tracking Competitive Races in the House and Senate",
+          "source": "nytimes.com",
+          "published": "2026-09-25",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZ0ZhWGZlU2pYdmYwbk9SNk9JMWd6aTN1SjNudktsVkFoWEt3T3FJR1RjTC1ZU3Q3YU9ReTV0WUJJQkdDOWpzTWJ1X0liWk91MlpFdmxvX2F2THY3VnBVRDlRQlZFY19fYjRrZDQ1UlN6TGRueERkdmNIQkVveEZHMjd3eFVlM0VFWVN6WDEzcFBDSzdt?oc=5"
+        },
+        {
+          "title": "Who Will Win Midterms? Top Election Forecaster Says Democrats Flipping The House Is A ‘Done Deal’",
+          "source": "Forbes",
+          "published": "2026-09-28",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZUx0WWxLTW0tRFVOQnNTYUhTSlBoZ0t2T1Fmb3FoeEM0N2g0bXc1ZGlBVTJiazBTMlFNNVBCRkplUldJUTVWYm91dkIxYjdIV2dkWE5jWENWcVhjbmVjbjJ1Zzc5THVTaEc3c0ptTzJjZUhoUVVabnFOVHBsYmxLTEI3blliTjFnY3ZmZkVISkRKZV9kMVluM0NCc3BBRmtjRDNuc3ZfRGRjQzk5bzZ3Z2I3SDJfWEhu?oc=5"
+        }
+      ],
+      "forecast": {
+        "probability": 0.09,
+        "reasoning": "Major forecasters treat a Democratic House flip as near-certain in this midterm environment. Republicans keeping both chambers would require them to hold the House against that consensus. Even if Republicans keep the Senate, the House is the binding constraint, so the joint outcome is unlikely."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-06T01:21:39Z",
+        "crowd": 0.075,
+        "best_bid": 0.07,
+        "best_ask": 0.08,
+        "volume": 6012520,
+        "liquidity": 1669250,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Gap of 1 points is under the 10-point minimum."
+    },
+    {
+      "market_id": "630964",
+      "event_id": "57672",
+      "event_title": "Texas Senate Election Winner",
+      "option": "Ken Paxton (R)",
+      "question": "Will the Republicans win the Texas Senate race in 2026?",
+      "rules": "This market will resolve according to the winner of the 2026 midterm Texas U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
+      "topic": "Politics",
+      "end_date": "2026-11-04T04:59:00Z",
+      "url": "https://polymarket.com/event/texas-senate-election-winner",
+      "snapshot": {
+        "time": "2026-10-06T01:16:27Z",
+        "crowd": 0.355,
+        "best_bid": 0.35,
+        "best_ask": 0.36,
+        "volume": 1145480,
+        "liquidity": 386395,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "Why top Texas election denier Ken Paxton could cause chaos if he loses his Senate race",
+          "source": "Democracy Docket",
+          "published": "2026-10-01",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPOXo1Zk56cHFRVHM2U0J6OF9STl9hLVVOZEJMSmM4QklEcm5XeXNpV3FmVXdGUHJFWjdyaVNmQ25wUUx2eWtKODhYajhMQUc5MmpVYjlzNmR3WmtNOXYyY3JlaWsxd3BoRmdLVFN2S2VnTDZ5ZUROcG5VakVTakZ3dTdYRHJIMHpwM0pyc1dDcEpWaWNqbkYwTXZidDVaM3dCSFNyOGJYYktmUTR5ZmhHR0hPZldwVGJrcnRaWEI2bS1nMW9tNkdNZzRUaw?oc=5"
+        },
+        {
+          "title": "Talarico leads Paxton by 2 points in tightening Texas Senate race: Survey",
+          "source": "The Hill",
+          "published": "2026-10-02",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9XbHZhUkdEQUU0ZzllampRSW1vczV3bWtQSXM0eDBPMmRQUTU0UVhfVTcyYXhVbG5RbWdOd0ZWb0EtOEc0UGZyZzlZNV9uWG15R0pOSU45eGtyQm5RWXBRTlhOamhwQ0xGOXc1QWw1UnRlTktNTWpaOGNGTUxfQdIBgwFBVV95cUxQNTJNN1BVXzZpVDVjTXF2aHlCNFhYdV9kc0VqcEprOENSdmRVMV9vWjQwYkFuTUZIYmpSajM2MHZFYzY0RGxxTXJCLXd6V3RkWUZqYnE4Z2ZPX3IzQXZMXzU4Y3NaUlN3RkFwQ09qOGF5QXBtU0s5Q1lyQnNXX2VQVEJNMA?oc=5"
+        },
+        {
+          "title": "Internal polling finds Paxton topping Talarico in Texas US Senate race",
+          "source": "El Paso Times",
+          "published": "2026-10-01",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPd05pOHJsSVU4ZE9yTmoxV3hWUGdwQjdhejRON0U0ajBfUnVaM3Z5bXl0X0xIWUUzYWtoQTBKSkNVMEY0UTNlRkNxT1ZVSkVJOWJDLXpuNHI2WjRrbGtHU0FmM2hFUGRJVm1tak5YeGl1eElZRmJrN2dkOVk0RmlhcFVRNTROeDFSaDdFNEVYZnBWM2x3c0psX3ByZzEzUUpKbHloeWZhYlN1d2RDcWE3d0plbXVwVHpkcXdJM3NUQ24wTzM0MEY2TzNLd0FTU0VBRFVQYzFPb3F3ZEJhQmxv?oc=5"
+        },
+        {
+          "title": "Talarico leads Paxton by 5 points in Texas Senate race poll",
+          "source": "newsnationnow.com",
+          "published": "2026-09-27",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOT1FkMlZ4QnloTVBxZms2alhOejdIUEdsbTlHT212bUgyN0NpeUpDUnVYZlNucjRGS2FIMjJrcm5zdE5YcWxqa0VYcy0ycTc3SDBCem5zb2o4YU51VWRXay1PS2tIS0lnTzhFazN4dlc5LVRVbWVsUXN3UjY4dWxzZnp3SVRReDdvZnVRT9IBkgFBVV95cUxQR2VBTUpSNS10SE1oVEdMSUZKaU9Qam9Vem5qbzdtWmJFU1pjTEJKZGtmd3JzeW0zczZyZ3hJWnVmaGtUQVJxUnd2SDE2ZXNreUN2MDRfWk5yczVWb0hSQlBBQ1FZVkZNNW5JRGlqZk9mWXlmczFVY3drR1VndTU4emtmWDZfcHQ4djRHSFBndWltdw?oc=5"
+        },
+        {
+          "title": "Texas Midterm Elections 2026: Key Races, Candidates and Past Results",
+          "source": "nbcnews.com",
+          "published": "2026-10-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5uWFNONTdBQ1dFOUxtbU1pbGVJOXF4LVI1TUFYaTg5SFo2U0YzY1ZRemY4bmxaZ191MHVwbzkyTHhlaXlKWEhtdXdqSFZ5ZFhFMGRSZXRxdVpZRTVFZE1Od2NnTUtMYlFNY1YzNGlB?oc=5"
+        },
+        {
+          "title": "Dallas-Fort Worth suburbs may be key to Paxton vs. Talarico",
+          "source": "The Texas Tribune",
+          "published": "2026-09-24",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQMHF6NTJXNGQzZ3YxSXMxcEFKU3UzSUVhWUhWVi1ZYWRqVkNPTkZCZGh5OWhWclJpcUljaEJsT0pHZEJvTTRlQmFqYm9OQlRYb1pQd2JoM1NJWjFEYjhBcWNPWTBOQ2VyR0ZKeExjUHJyWEFyMGlua1h3WUdQeW15bmQ4Y0hNemJLQVh6NXBORTVCR1k?oc=5"
+        }
+      ],
+      "forecast": {
+        "probability": 0.5,
+        "reasoning": "Texas leans Republican, but Paxton is a weak nominee. Recent public polls show Talarico ahead by 2-5 points, while a Republican internal poll shows Paxton ahead. In a Democratic-leaning midterm, I treat this as roughly a toss-up."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-06T01:21:39Z",
+        "crowd": 0.355,
+        "best_bid": 0.35,
+        "best_ask": 0.36,
+        "volume": 1145480,
+        "liquidity": 382208,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Bet would be under $1 after fees and limits."
+    },
+    {
+      "market_id": "629505",
+      "event_id": "57181",
+      "event_title": "Nevada Governor Election Winner",
+      "option": "Aaron Ford (D)",
+      "question": "Will the Democrats win the Nevada governor race in 2026?",
+      "rules": "This market will resolve according to the winner of the 2026 Nevada gubernatorial election.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
+      "topic": "Politics",
+      "end_date": "2026-11-04T04:59:00Z",
+      "url": "https://polymarket.com/event/nevada-governor-winner-2026",
+      "snapshot": {
+        "time": "2026-10-06T01:16:27Z",
+        "crowd": 0.555,
+        "best_bid": 0.55,
+        "best_ask": 0.56,
+        "volume": 183900,
+        "liquidity": 129904,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "Aaron Ford gets seven-figure boost from outside group in Nevada governor's race",
+          "source": "The Nevada Independent",
+          "published": "2026-10-02",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOYXhxVlZobkdYSTRHMGVfLVRCZFd2QkcxWnpqM2U3cmhDd1BPUHBlbGdEN0tzYkJGeUVZeldaMldHVURnRkQ3dkNOcGJQbXNNM000Qms2SE1WQUtfM09IOWhWNUlDMllXR3M4RGVveE5ha2VaMG54cnZGRUJGNzFhTTRMa2hSeGZYOTFWbTBjemY1azBpWWVFbWRQaUZ4N1V1d0pXVEVOWXhnNmFOaExXbWVRbzRERXVuTU0w?oc=5"
+        },
+        {
+          "title": "Nevada Election 2026: Key Races and Historical Presidential Election Results",
+          "source": "nbcnews.com",
+          "published": "2026-10-02",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBrVkMwd09JSGJfcUJrMC1GamFrYXJENnRlS0dXQndoSjM0VjhCaHVaQ1dFd2NFMEs5MzFLTDNBTXVwQzY2dHRta21HZUt1VXBlQkE0cG56N0RzMVI2bUpGcnhRazEyWm1jU3p6T0JSMA?oc=5"
+        },
+        {
+          "title": "Nevada governor's election too close to call, forecasts and polls show",
+          "source": "Elko Daily Free Press",
+          "published": "2026-10-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQb0p2aFBkRVpvOFRkbGRWZHlyZHVmR29DSm1jek5ISDRkVmp1YnFJbmFFVFlzRF9lakozRVk5Zm5IQmlDckwyUDAyOXB6UGJMcDlWZVdGOHA5VTlVZ2tBN3ZlakJrQVRlWmRUY1dCVzdMbUk2cjZiVDBlY1dxTndlSXpzbXItdzVCYlYtQ2c2S2Fad2I0d1VNNFFGQ0hlSXc?oc=5"
+        },
+        {
+          "title": "Why Democrats are finally spending big in Nevada's governor race",
+          "source": "The Nevada Independent",
+          "published": "2026-09-22",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPWVIxeDRrc2ZTUVlNZXZDN0xXTURteU1GNl80TElrVDJtZ1BPTEpXSHhZT0tFZFJGRFdZT1FoMjU4bWhNWWJNVGE2MGR5OWx5aGtGcmdvYXBMTnRpanMzaGpjcm9ra2pvWndxc1NDeHF0OTNHVFVSbUVGVzVfblZPa3lXZk9veUlHQWY3WEgyR3B6TnFmODNIVmE5RDNwWFN4X3BFWUhkRQ?oc=5"
+        },
+        {
+          "title": "6 overlooked midterm races Black voters should be watching",
+          "source": "TheGrio",
+          "published": "2026-10-02",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOQTl6X19Bb1g3VVlObXN0WVRaMjRDZmN4WnJrNktDS05EcTdEWGFBRFdqaVMxOFgwdjktVnRKWGhyQkdERnNGOVlTZE9ZVG9TT0dja0lhOFJqU05JTkdpcm1zS25tNFdSM1psMEdnVzhwODVGS1hyck9VM2dEQkhCck4xUlNGRGNOdkxfMHh3LWhtYlZU?oc=5"
+        },
+        {
+          "title": "Climate change is getting worse in Nevada. Why did Democrats stop talking about it?",
+          "source": "The Nevada Independent",
+          "published": "2026-09-23",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPb3dJajBpNUNkcjhJMjhPV3lHc1RTOElxWDEwZ1Mtd0NHM054TGpnVWNWN1BNSzMtUjVvME9CZEt5M2ZZN1dtcExVYnlpZmZqaURLSFFvcDdRYXcwVncweTQzS280UWxkVVNlWHpPYlZYRWFHR2ZLNElwYUJJMUNlbl81ZmplSmFFTmdDdDFsNUxsMDQ4MHI5WUoteDh6c1JfWFpRdjUxeVI1OURNODluX2gyOWpuWFhtX1BGcVUxSQ?oc=5"
+        }
+      ],
+      "forecast": {
+        "probability": 0.5,
+        "reasoning": "Forecasts and polls call the Ford vs. Lombardo race too close to call. Republican incumbent Lombardo has incumbency on his side. Ford benefits from a favorable midterm environment and new outside spending, so I put it at a coin flip."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-06T01:21:40Z",
+        "crowd": 0.555,
+        "best_bid": 0.55,
+        "best_ask": 0.56,
+        "volume": 183900,
+        "liquidity": 135281,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Gap of 5 points is under the 10-point minimum."
+    },
+    {
+      "market_id": "5309158",
+      "event_id": "1134137",
+      "event_title": "Jynxzi, Ron, and Los beat Minecraft by...?",
+      "option": "October 7",
+      "question": "Will Jynxzi, Ron and Los beat the Minecraft challenge by October 7?",
+      "rules": "Jynxzi, StableRonaldo, and Los Pollos are scheduled to begin a hardcore Minecraft marathon on October 5, 2026. Their goal, as of market creation, is to defeat the Ender Dragon in a hardcore Minecraft world without any of the three dying.\n\nThis market will resolve to \"Yes\" if Jynxzi, StableRonaldo, and Los Pollos defeat the Ender Dragon live on stream, as accepted by them as a successful completion of their challenge, between market creation and the specified date, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nOnly events occurring while at least one of the three players is broadcasting the challenge live will count. Footage of off-stream or previously recorded attempts will not qualify.\n\nIf the challenge is cancelled, abandoned before completion, or delayed to a point after the specified date, this market will resolve to \"No\".\n\nThe resolution source for this market will be footage from the official broadcasts of the challenge on Jynxzi's, StableRonaldo's, and Los Pollos's official broadcasts on YouTube and Twitch.",
+      "topic": "Entertainment",
+      "end_date": "2026-10-08T03:59:00Z",
+      "url": "https://polymarket.com/event/jynxzi-ron-and-los-beat-minecraft-byptptpt",
+      "snapshot": {
+        "time": "2026-10-06T01:16:27Z",
+        "crowd": 0.055,
+        "best_bid": 0.05,
+        "best_ask": 0.06,
+        "volume": 15507,
+        "liquidity": 4367,
+        "fee_rate": 0.05
+      },
+      "news": [],
+      "forecast": {
+        "probability": 0.3,
+        "reasoning": "Beating the Ender Dragon in hardcore mode with three casual players and no deaths, in roughly three days of streaming, is difficult. A single death likely forces a restart. Marathon streams give them lots of hours, but the odds still favor No."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-06T01:21:40Z",
+        "crowd": 0.055,
+        "best_bid": 0.05,
+        "best_ask": 0.06,
+        "volume": 15507,
+        "liquidity": 4367,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Bet would be under $1 after fees and limits."
+    },
+    {
+      "market_id": "5240812",
+      "event_id": "1125232",
+      "event_title": "Confirmed pneumonic plague case in Russia by...?",
+      "option": "October 31, 2026",
+      "question": "Will a new pneumonic plague case be confirmed in Russia by October 31?",
+      "rules": "This market will resolve to \"Yes\" if a confirmed case of pneumonic plague in a human is reported in the Russian Federation at any point between market creation and the specified date, 11:59 PM Moscow time, . Otherwise, this market will resolve to \"No\".\n\nA \"confirmed case\" is a case explicitly identified by a qualifying source as laboratory-confirmed Yersinia pestis infection with pneumonic (pulmonary) involvement, or explicitly announced as a confirmed pneumonic plague case. Publication of the underlying laboratory results is not required. A bubonic or septicemic case that progresses to pneumonic plague qualifies. A case reported only as \"plague\" with no form specified, and a case described only as suspected or probable, do not qualify.\n\nThe case must be distinct from the Irkutsk Anti-Plague Research Institute employee who reportedly passed away on October 1, 2026; subsequent confirmation, reclassification, or post-mortem testing of that patient will not qualify. Resolution turns on the date a qualifying source publishes the confirmation, not the date of exposure, symptom onset, or laboratory result. A report published after the deadline does not count even if the infection occurred earlier.\n\nThe primary resolution sources for this market will be official information from Russian federal or regional public health authorities and the WHO; however a consensus of credible sources will also suffice.",
+      "topic": "Science",
+      "end_date": "2026-11-01T03:59:00Z",
+      "url": "https://polymarket.com/event/confirmed-pneumonic-plague-case-in-russia-byptptpt",
+      "snapshot": {
+        "time": "2026-10-06T01:16:27Z",
+        "crowd": 0.245,
+        "best_bid": 0.23,
+        "best_ask": 0.26,
+        "volume": 10056,
+        "liquidity": 2099,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "Scoop: White House monitors suspected plague outbreak in Russia",
+          "source": "Axios",
+          "published": "2026-10-04",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5XOWV5amNoaTYwcjNNS1liVl8ySTBaX2tmNzNac2JZNGpDN0ZkQ1dRZ2txa2JuVXRyZkNkaWZhYzJIQk8yVmZ6YXc3aGFQcnMyX0IwN3QwanlTVm9qY1RCWVhLQi1UQ3VLNE45Zi1DREVKMmY1RDNKNURB?oc=5"
+        },
+        {
+          "title": "Dozens quarantined after researcher at Russian plague laboratory dies of ‘unknown’ infection",
+          "source": "CNN",
+          "published": "2026-10-04",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPZV9DaDFJbWhKbXBBOUZFQkJyWjYtUFpmcnVlS1E4TWFoMGN5ZEp1UmVoazlQVHFVSTFDMnJJejRheDJuNTJ2d2lPdElZUlI2STBGXzBZc09vWWdrSTNtMFFFaW9PdU9MdWpIWXNVUGZ6UHNLWVVIanFmelRsU04yNFdR?oc=5"
+        },
+        {
+          "title": "What is the plague? What to know after the suspected Russia case",
+          "source": "heraldonline.com",
+          "published": "2026-10-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPamlYa19BbENlSkRLU21ib01SdTBOUWFtZzlyaFZySGJiZXA0eEo5T1RQR2RBWTBBeHhMd0IzcV9uc3VlblRXSnJwR3pXQkpTank5LUFNZEtHdngxNXB6V1ZMNkVaWnliY09HZWEyNS1BaEVYOEpld25TRFpwRmk1ZkFPVQ?oc=5"
+        },
+        {
+          "title": "Nearly 200 People Under Observation After Irkutsk Lab Worker Dies From Plague",
+          "source": "The Moscow Times",
+          "published": "2026-10-02",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPYlJyQWsxSFotWEg0UEw5ZE9DOE1ld0M3cWxLMUhYa3l0bmpLZmY3UTBlVU44bUF6RWpMeXZEX05XSWZiNE9KeFNHR0ZhSnYzRERyTFNsVjRzRmx6TUVld1E3bmRMOGFOVEVJdDkzNmthaUV3WFp4Mk5XTFVjQWtTLTgyY3B2d0dfNGdhZ0Z6RVJLWld6dTkzSEh3SDgydFJGN2Q0bm45dGs2WS1rUW1xeXlhRk53am4wTW5xWk45ZjVLdEgw?oc=5"
+        },
+        {
+          "title": "Pneumonic Plague Symptoms Explained After Russian Scientist’s Death",
+          "source": "newsweek.com",
+          "published": "2026-10-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQOGF0SkJ4T3JyZkhuZ2owd3hKRlpBa3RHaFZxLXRqYWh0UjlSMk4zNVhhM1RwMTZTRXYwTTBaY042NXAwZ0puMjhvVlN6dk1Od2JGZlRXcDlWV3pyT1o1azA2clBVVnpfaFZ5WHFiV3o2NmExRk10NEZ0a3hsbHlCM2ZUb3hOQjRQbHNvVUdRcEJHLXNjTTFNTHlpNWp1dlhETXc?oc=5"
+        },
+        {
+          "title": "Trump administration monitoring suspected Russian plague outbreak",
+          "source": "The Hill",
+          "published": "2026-10-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPR2xkQ1pNX25DVDl3UGdLZ0EwUVZaTE5FVjRucVIxSndaU1h5ZzFLbTlqQWJkUXhKR1NpYl85eXRpOXRIajBqOE50bXRsSm5zY2c2T2YtRkdFVUlnc2NNTnVkcmYtZ0tLZXc5NkRXTnlzNXNUZS12NERWOXc3LTRTWFltRVU4MWdP0gGOAUFVX3lxTE1kN1gzUEE3bVNldU9Yb25DTUhWU002NjZLbjF3LWdWTFdHOHBIWDZmOGxmY3lMUGM5ZVUtNFBSWjI1eVlST3pxQ0FtTlFTUE12bHExbE42SnZfbDFwV2tmYl9DajQ0THFKZmpyTWhYTTIzcG8zLVpFeExpekZrWWdiMDNVSnJXM3lQM2loOVE?oc=5"
+        }
+      ],
+      "forecast": {
+        "probability": 0.18,
+        "reasoning": "Pneumonic plague can spread between people, and about 200 contacts are under observation, so a secondary case is possible. Most lab-exposure incidents don't produce further cases, and the observation period would largely pass early in October. Russian authorities may also be reluctant to publicly confirm a case with the pneumonic form specified, which the rules require."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-06T01:21:40Z",
+        "crowd": 0.245,
+        "best_bid": 0.23,
+        "best_ask": 0.26,
+        "volume": 10056,
+        "liquidity": 2134,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Gap of 5 points is under the 10-point minimum."
+    },
+    {
+      "market_id": "5291700",
+      "event_id": "1132059",
+      "event_title": "Will SpaceXAI officially rename itself to SpaceXSI by...?",
+      "option": "October 31",
+      "question": "Will SpaceXAI officially rename itself to SpaceXSI by October 31?",
+      "rules": "This market will resolve to \"Yes\" if SpaceXAI officially changes its name to \"SpaceXSI\", \"XSI\", or another qualifying name by the specified date, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nA qualifying name is one that refers to intelligence as \"SI\" in place of \"AI\" (e.g., \"SpaceXSI\", \"SpaceX SI\", \"XSI\"). Stylizations of a qualifying name, or a qualifying name followed by a corporate suffix, will qualify. Renaming either SpaceXAI or its parent company, SpaceX, to a qualifying name will qualify.\n\nSpaceXAI must announce that they have officially changed to a qualifying name by the specified date, 11:59 PM ET. Announcements of future intention will not qualify. An official announcement that the name change has been adopted will qualify even if the company's website, documents, or other materials have not yet been updated. Adopting a qualifying name as the company's name on its official website will also qualify.\n\nStatements, interviews, social media posts, polls, jokes, or expressions of interest in renaming the company will not qualify unless accompanied by an official announcement that the name change has been adopted. Renaming any SpaceXAI or SpaceX product, model, division, subsidiary, or program (e.g., Grok, X), without renaming the company itself, will not qualify. Changes to SpaceXAI's listed name caused by hacks will not count.\n\nThe primary resolution source for this market will be official information from SpaceXAI, SpaceX, or their representatives, however a consensus of credible reporting will also be used.",
+      "topic": "Tech",
+      "end_date": "2026-11-01T03:59:00Z",
+      "url": "https://polymarket.com/event/will-spacexai-officially-rename-itself-to-spacexsi-byptptpt",
+      "snapshot": {
+        "time": "2026-10-06T01:16:27Z",
+        "crowd": 0.365,
+        "best_bid": 0.36,
+        "best_ask": 0.37,
+        "volume": 13213,
+        "liquidity": 2884,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "SpaceXAI wants to rename itself again for Donald Trump",
+          "source": "trendingtopics.eu",
+          "published": "2026-10-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOSUs3eC1NZDRYOGhaOXhmQ2ptR0VQaWNWX3dnN3FjdFJmdFBoY2t0WE5QZHRYWHVEWTg4WTNzdG9NT010NGN2V3RQSDVFdi1NTmZqN1FnUmRKMVRJWFFUcDhLWVZ5bGZBMmI2VjN5WDh4TVNLaEwxSE92NWRRRWt5dEFiS21mLTJGZVlVVVNB?oc=5"
+        },
+        {
+          "title": "Elon Musk announced that SpaceXAI will be renamed 'SpaceXSI'.",
+          "source": "GIGAZINE",
+          "published": "2026-10-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1vQktoZGhUbnhSQWZGZWZmc1NLbk9VRFlqUkhVbXJiUXI5YlZDZlNETzJUbHprNnRlZlJ0RVZPOUp4SzhTLWh4SV9qT0pRNWg0Z2xCbGNITDlORlIzYmFmQUhkRlZtT1c2YWV4Y0tLbWVQdnBP?oc=5"
+        }
+      ],
+      "forecast": {
+        "probability": 0.4,
+        "reasoning": "Musk has reportedly said the company will be renamed SpaceXSI, and he has moved quickly on renamings before, such as Twitter to X. However, the rules exclude announcements of intent; it must be officially adopted by October 31. Musk's timelines also often slip."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-06T01:21:40Z",
+        "crowd": 0.365,
+        "best_bid": 0.36,
+        "best_ask": 0.37,
+        "volume": 13213,
+        "liquidity": 2884,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Gap of 3 points is under the 10-point minimum."
+    },
+    {
+      "market_id": "3499789",
+      "event_id": "829777",
+      "event_title": "Reserve Bank of Australia Decision in November",
+      "option": "No change",
+      "question": "No change in Reserve Bank of Australia's interest rates at the November 2026 meeting?",
+      "rules": "This market will resolve according to the change in basis points in the cash rate target resulting from the November 2026 meeting of the Reserve Bank of Australia (RBA) Monetary Policy Board, relative to the level it was prior to this meeting. \n\nThe resolution source will be official information from the Reserve Bank of Australia, including the statement or release from its November 2026 meeting, scheduled for November 2-3, 2026, as listed on the official RBA calendar (https://www.rba.gov.au/schedules-events/calendar/?topics=monetary-policy-board). This market may resolve as soon as the statement or release of the Reserve Bank of Australia Monetary Policy Board resulting from its November 2026 meeting with relevant data is issued.\n\nIf the specified rate is defined by an upper and lower bound, the relevant change will be the change to the upper bound.\n\nIf the specified rate is changed to a level not expressed in the displayed options, the change will be rounded according to the following guidelines. Increases or decreases of less than 25 bps will be rounded to 25 bps (e.g. an increase or decrease of 10 bps would be considered to be an increase or decrease of 25 bps). Increases or decreases of greater than 25 bps will be rounded to the nearest 25 bps and will be rounded away from 0 in cases of equidistance (e.g., an increase or decrease of 37.5 bps would be considered to be an increase or decrease of 50 bps). Displayed options of \"Increase\" or \"Decrease\" will include policy rate increases or decreases of any size.\n\nIf the specified meeting is postponed to a date and time before the start of the next scheduled meeting, this market will resolve based on the outcome of that postponed meeting.\n\nIf the specified meeting is cancelled, or postponed such that no decision is announced by the start of the next scheduled meeting, this market will resolve to the \"No Change\" bracket. Emergency changes to the specified rate not resulting from the specified meeting will not be considered.",
+      "topic": "Economy",
+      "end_date": "2026-11-04T04:59:00Z",
+      "url": "https://polymarket.com/event/reserve-bank-of-australia-decision-in-november",
+      "snapshot": {
+        "time": "2026-10-06T01:16:27Z",
+        "crowd": 0.85,
+        "best_bid": 0.84,
+        "best_ask": 0.86,
+        "volume": 40557,
+        "liquidity": 3605,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "Statement by the Monetary Policy Board: Monetary Policy Decision | Media Releases",
+          "source": "rba.gov.au",
+          "published": "2026-09-29",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1KYk1PMTdJQWFPY0Jvc3ZHODRIMVNhSHBQMkpHWnFZcEpzRXA3NXhpQlFTVVp0cVdmUVkyOS1zaTc2NDBaTDQ5YkZVbFlRa2R0enU5YXJZZ05VSFFSVW5vaXYwclRPQVE?oc=5"
+        },
+        {
+          "title": "RBA tipped to hike rates on Tuesday",
+          "source": "ABC News & Headlines – Australian Broadcasting Corporation",
+          "published": "2026-09-27",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOVF9UdlYyMEo1QzF5V2hiZ2Q4UmQ0emx2bzRqMHFINE0xN0g5dmZRMDkxMDhsTlBlNHM2bFNmM2NQeC1jZjBJbUx6UnhFN2F3UEVDdFFqWTRSa1J4QkxqZ3RHWWU4a3BOQWtibXdmNWxrNUVocmdsWDVJOEh3Q3E3S25WcGYyNFNiSnRDZjMxMjRRcXdj?oc=5"
+        },
+        {
+          "title": "RBA Rate Decision Tracker (September, 2026)",
+          "source": "Forbes Australia",
+          "published": "2026-09-29",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQTDBhLWJLUVhVYnZsUXBfVG5USTJNVUxWa0QyRlhXcmlEUE1UYUxMbTh2ZnFxSU1TUEFtNzNpNUlpMkF3NFFYRFltb2Z5SjcxWFRHZFdBSHJCa3BnYUt1RFNDNnpkWjhESk1WZFk1X3JqRDU0Z0ptakZYb2FnTjMyNXRmb3pCVVVZ?oc=5"
+        },
+        {
+          "title": "RBA rate relief more than a year away, leaving family budgets squeezed",
+          "source": "AFR",
+          "published": "2026-10-04",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOZ1V2emtHdERRWHN1eTVxVFZ6bWx2OElqSzBnVGxuZE9hZ1J6QkVWWXU4VDliUGRFdXVKQWstWmstWVVKUkRJSHJOYkU1TmN1TF9lS0NDeFI5cEdST1o5aHJGNlhJQTlTSm1vbFBnUXktZ2N1VDNsOXBuNHlHS1A2SXdXVXRVVldYWnprX0lvSlY1dnI4TTBzYm1WMThmMG05UGpad1h6XzZUTmdTcEdIMFFSdWVQQUR6Q0xveXZVOW1KZjlJ?oc=5"
+        },
+        {
+          "title": "RBA lifts rates to highest level in 15 years – risking a sharper slowdown of the economy",
+          "source": "theconversation.com",
+          "published": "2026-09-29",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPaHc3QnlLZnhKZ2E2WTJUX1ZKV1o4ZUxockQyb280VnlTZ2hGSUhEQ1l4em1SSXIwcTNja0xIREJvVkZvRXJLc253Ul9mbGl1TnppZDRwMlZCYUNFQ3lCQ0ZGQmxpekk0V3NOM0dfWng0RTNmVWRMMFFkRV9YWmlqWWpkQkVhSlBDcXVaaFFjVnVWZmNsa0NSaXloTmpZeGZxcmdRUmxka3pRVWFscWpma0hrVHJuVVJmVFN6Sldn?oc=5"
+        },
+        {
+          "title": "Mortgage Rates Forecast For 2026: Experts Predict Whether Interest Rates Will Drop",
+          "source": "Forbes",
+          "published": "2026-10-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9kMlJHRWhRY2owbnpsZWhWOHVVZFR1ZmM3NzhqTUVEVnpHR2xlMHp0QnR2eXFwV2wzQ2FMbXZTN3lTLUJ5OHgxdnk0S3Z2Q3hEQ2pEYW9xcWhrRktVS3B0RXB0NkdnM0hPMzBReG5neWZ1TTdvVWs4bWgxdWFNUkk?oc=5"
+        }
+      ],
+      "forecast": {
+        "probability": 0.55,
+        "reasoning": "The RBA just hiked to 4.60% in late September and warned it may go further. The November meeting follows the quarterly CPI release and a new forecast statement, much like the November 2023 hike. A pause to assess the hikes already made is slightly more likely, but a follow-up hike is a real possibility."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-06T01:21:40Z",
+        "crowd": 0.85,
+        "best_bid": 0.84,
+        "best_ask": 0.86,
+        "volume": 40557,
+        "liquidity": 3292,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Bet would be under $1 after fees and limits."
+    },
+    {
+      "market_id": "4893303",
+      "event_id": "1071243",
+      "event_title": "\"Resident Evil\" total domestic gross by October 31?",
+      "option": "150 - 160m",
+      "question": "Will the total domestic gross for Resident Evil be between 150m and 160m by October 31?",
+      "rules": "This market will resolve according to how much \"Resident Evil\" box office will gross domestically by October 31, 2026. The \"Daily Box Office Performance\" figures found on the \"Box Office\" tab on this movie's The Numbers (https://www.the-numbers.com/) page will be used to resolve this market once the values for all dates between opening (September 18, 2026) and October 31, 2026 are final (i.e., not studio estimates).\n\nIf the reported value falls exactly between two brackets, then this market will resolve to the higher range bracket.\n\nPlease note, this market will resolve according to the The Numbers figures provided under Box Office Performance until and including October 31, 2026, regardless of whether domestic refers to only the USA, or to USA and Canada, etc.\n\nIf there is ambiguity as to whether the resolution source's figures are final, this market will remain open until both https://www.boxofficemojo.com/ and https://www.the-numbers.com/ have confirmed their finalized figures.\n\nIf there is no final data available by November 30, 2026, 11:59 PM ET, another credible resolution source will be chosen.",
+      "topic": "Entertainment",
+      "end_date": "2026-10-31T23:59:00Z",
+      "url": "https://polymarket.com/event/resident-evil-total-domestic-gross-by-october-31",
+      "snapshot": {
+        "time": "2026-10-06T01:16:27Z",
+        "crowd": 0.545,
+        "best_bid": 0.53,
+        "best_ask": 0.56,
+        "volume": 16895,
+        "liquidity": 6174,
+        "fee_rate": 0.05
+      },
+      "news": [],
+      "forecast": {
+        "probability": 0.12,
+        "reasoning": "With no current box office data available, a single $10M bracket is a narrow target for a film whose run could plausibly land anywhere from well under $100M to over $200M. Comparable Zach Cregger and horror releases put this range plausible but not central."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-06T01:21:41Z",
+        "crowd": 0.545,
+        "best_bid": 0.53,
+        "best_ask": 0.56,
+        "volume": 16895,
+        "liquidity": 5819,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Bet would be under $1 after fees and limits."
+    },
+    {
+      "market_id": "3499790",
+      "event_id": "829777",
+      "event_title": "Reserve Bank of Australia Decision in November",
+      "option": "25 bps increase",
+      "question": "Reserve Bank of Australia increases interest rates by 25 bps at the November 2026 meeting?",
+      "rules": "This market will resolve according to the change in basis points in the cash rate target resulting from the November 2026 meeting of the Reserve Bank of Australia (RBA) Monetary Policy Board, relative to the level it was prior to this meeting. \n\nThe resolution source will be official information from the Reserve Bank of Australia, including the statement or release from its November 2026 meeting, scheduled for November 2-3, 2026, as listed on the official RBA calendar (https://www.rba.gov.au/schedules-events/calendar/?topics=monetary-policy-board). This market may resolve as soon as the statement or release of the Reserve Bank of Australia Monetary Policy Board resulting from its November 2026 meeting with relevant data is issued.\n\nIf the specified rate is defined by an upper and lower bound, the relevant change will be the change to the upper bound.\n\nIf the specified rate is changed to a level not expressed in the displayed options, the change will be rounded according to the following guidelines. Increases or decreases of less than 25 bps will be rounded to 25 bps (e.g. an increase or decrease of 10 bps would be considered to be an increase or decrease of 25 bps). Increases or decreases of greater than 25 bps will be rounded to the nearest 25 bps and will be rounded away from 0 in cases of equidistance (e.g., an increase or decrease of 37.5 bps would be considered to be an increase or decrease of 50 bps). Displayed options of \"Increase\" or \"Decrease\" will include policy rate increases or decreases of any size.\n\nIf the specified meeting is postponed to a date and time before the start of the next scheduled meeting, this market will resolve based on the outcome of that postponed meeting.\n\nIf the specified meeting is cancelled, or postponed such that no decision is announced by the start of the next scheduled meeting, this market will resolve to the \"No Change\" bracket. Emergency changes to the specified rate not resulting from the specified meeting will not be considered.",
+      "topic": "Economy",
+      "end_date": "2026-11-04T04:59:00Z",
+      "url": "https://polymarket.com/event/reserve-bank-of-australia-decision-in-november",
+      "snapshot": {
+        "time": "2026-10-06T01:16:27Z",
+        "crowd": 0.1435,
+        "best_bid": 0.123,
+        "best_ask": 0.164,
+        "volume": 24061,
+        "liquidity": 5584,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "Australia Pushes Rates to 15-Year High and Warns It May Go Further",
+          "source": "Yahoo Finance",
+          "published": "2026-09-29",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNcEdMQkhTaEVKUTdhSUdCQkNIY2hSTFdHRWl3U0VTVGM5VFp3WlhYRHJVSHVoRnhnWEJDTTVjbkVMLTl1WUVyazdoa0w4RlNsMHhrX2hWTkR3d0VHSERnRi0xTS02YlZTZHdnckl1UFJrS2ZPR21RczlKN2w2YVVBbFJ0aHJhUjU4ajMzbUJkTVBkeFM3enRlOTNFMA?oc=5"
+        },
+        {
+          "title": "RBA preview: 25bp hike to 4.60% widely expected as sticky inflation lingers",
+          "source": "investingLive",
+          "published": "2026-09-28",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOcWcwb3ZyRlJnM3pTQ0ZmSmtYVmp1V3NvYnl3YXFkQ2s3SFpTNjB4RXlWTUhkRHdnb3hUa1dNSVZaM195dXpjbDNPREFheVpBeWczUExSVDd6WGRzcU9pWmdvZmlyMHdXUUhNNktKalRiYzNRQmlkdGh4TE01UjE3NUlycnhkWUdtTkFqcDAxNEdKTzRWZ2s3eC12MjdYalhoVlI2aS1tOElkN1djRDRueWVlSWM?oc=5"
+        },
+        {
+          "title": "Bullock Speech: RBA Governor speaks on policy outlook after the expected interest rate hike",
+          "source": "FXStreet",
+          "published": "2026-09-29",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQUEpMUGVtUXlxZGtWNWtrdDNFai0tdHBpenJDS05VV25sc3UwV1AyckgwdENlMzNFV0RxUzdGenRVbm5KR0dvVENPUEVQZ1QzVFJjd1pac3d1Y2JJWHI2RWZtbXpwbHpWTHY1ajM0VkZ2dHEtV2FjeGNwUDBsLWNjV0RTSlVvTWlmTk5pcmNHNWcyY1o3YVNaZUw4Qng0N3Ixam9vNnhuTnpMVlRlZkkwTGtYOTdUWHE5OWlPcjUzdw?oc=5"
+        },
+        {
+          "title": "RBA lifts rates to highest level in 15 years",
+          "source": "ABC News & Headlines – Australian Broadcasting Corporation",
+          "published": "2026-09-29",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZzRpQjRiS3BWXzZGbVpGWW1ndktoWjM4Y3hrbUJUejh1VmNxWEdwUjlUOXFXYl9XNzBwaHE5OXk1Q2Nfazk4cU9GbW9CWmpWNUFvQVF0MU12YUVkVzROOUQ4Ml9KdWEyeG0tNy00a1ROY0t3d0NJY1lSajl3a1pBNDRMN2Q5Slo1WGdFS3hqVFB1VGNjMHpDaUdvc2pfblhJdE1wN2Zyd0k?oc=5"
+        },
+        {
+          "title": "RBA set to hike interest rate to 4.60% in September as inflation remains elevated",
+          "source": "Mitrade",
+          "published": "2026-09-29",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNXBGX1I2LXpVNU5ncUpFSHFlYjc0cVJ1YTZpMlNBZlZjUWZubmlXM1BCOUV3WFFFSUV3OUxKVHRMREFLaVJqalBKNGdOdGdIbl9Dckd4RUJyMXpIVE9HZnIwXzlveWdhRklhcmdPNUIxUmJwanZHYzAzbHVVanMxOXd4T3F5Z01o?oc=5"
+        },
+        {
+          "title": "AUD/USD slips towards 0.7010 as Treasury yields lift dollar, with focus on RBA decision",
+          "source": "VT Markets",
+          "published": "2026-09-28",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQUUROUTJwMHlhcHFsNUJqWVRjRGREMWVET0VQQ251U3lSbW4zSmkxOGdOSzZiUTd1TkJxVEdoNW5YTkQ1cjV0UEttek52T2c2blRfbHV1aUNsODZQdWVsYlVVSmJzRDJjYmloVnhTeXpLa0JGMVJsS1VFa2xiTkhUdlE5UFZRWHBjc2tLb0xhYVRod1p2YXNLelAydHpUUVBfbTQwdnp6dnZUN1drdi1DSV90SjBhU0hNakxKNDdKdFV5N3JkUjloTWwyOG4?oc=5"
+        }
+      ],
+      "forecast": null,
+      "bet": null,
+      "bet_note": "Claude gave no forecast for this question."
+    },
+    {
+      "market_id": "4294628",
+      "event_id": "976810",
+      "event_title": "When will the Rhine River return to normal levels?",
+      "option": "No return before November 1, 2026",
+      "question": "Will the Rhine River fail to return to normal levels before November 1, 2026?",
+      "rules": "This market will resolve according to the date (Berlin time) when the water level at the Kaub gauge (station 25700100) on the Rhine River first reaches or exceeds 77 centimeters, as reported by the German Federal Waterways and Shipping Administration (WSV) via PegelOnline.\n\nA reading of 77 centimeters or higher is the equivalent water level (Gleichwertiger Wasserstand, GlW) for Kaub, the low-water reference mark below which shipping becomes structurally disrupted, and defines \"normal levels\" for this market.\n\nThe resolution is triggered by the first reading at or above 77 centimeters recorded on or after the market's start, representing a rise back to the threshold. A single reading at or above 77 centimeters is sufficient to trigger resolution; transient spikes count, and the water level does not need to be sustained at or above 77 centimeters for any period.\n\nIf readings for timestamps on or after November 1, 2026 (Berlin time) are available on the resolution source, and no reading at or above 77 centimeters has been recorded for a timestamp before November 1, 2026 (Berlin time), this market will resolve to \"No return before November 1, 2026.\" If readings for timestamps on or after November 1, 2026 (Berlin time) have not been recorded on the resolution source by November 2, 2026, 11:59 PM Berlin time, and no reading at or above 77 centimeters has been recorded for a timestamp before November 1, 2026 (Berlin time), this market will resolve to \"No return before November 1, 2026.\"\n\nThe resolution source for this market will be PegelOnline (https://www.pegelonline.wsv.de/gast/stammdaten?pegelnr=25700100).",
+      "topic": "Weather",
+      "end_date": "2026-11-01T23:59:00Z",
+      "url": "https://polymarket.com/event/when-will-the-rhine-river-return-to-normal-levels-20260906",
+      "snapshot": {
+        "time": "2026-10-06T01:16:27Z",
+        "crowd": 0.705,
+        "best_bid": 0.7,
+        "best_ask": 0.71,
+        "volume": 31983,
+        "liquidity": 3418,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "Water Watch: How Water Levels Are Affecting River Cruising",
+          "source": "Cruise Passenger",
+          "published": "2026-09-26",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPbkFxSW9YbDBNT1lJeDRNdmRoZDNqQzNIcGlDRFRNLUNkSnpUQ0laY1pPX3VQUS1JSnZLMGpORUNfR0RES25fTUU1VWtQNHNiVDEyakZ4Q3huMEZTTFQ2aUlLUGRCdnJEQjdlaEdGdU53NDJzZ29IeFdMMGFkNU5UYzhTTVpyYXAwS2VTT0pwRG9wMmR4dk9Yd1lJYUhJeUdJSl81V29DUEJZR0lmcjN2ZXB5VVV5dkxqemNiY3J3eTZxZEM3UHNreEFxVEpuYldsVFFXZXlxYU85TDQ?oc=5"
+        }
+      ],
+      "forecast": {
+        "probability": 0.45,
+        "reasoning": "Kaub being below 77 cm implies a serious low-water period. October autumn rains often bring recovery, though in years like 2018 levels stayed low into late November. A single reading of 77 cm or higher is enough for a 'return', which makes recovery somewhat easier, so I lean slightly against the level staying low."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-06T01:21:41Z",
+        "crowd": 0.705,
+        "best_bid": 0.7,
+        "best_ask": 0.71,
+        "volume": 31983,
+        "liquidity": 3190,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Bet would be under $1 after fees and limits."
+    }
+  ],
+  "batch_id": "msgbatch_013Z2eC8de1Q9MpqJKyz7uhF",
+  "forecast_at": "2026-10-06T01:21:39Z",
+  "usage": {
+    "input_tokens": 7478,
+    "output_tokens": 2271
+  },
+  "cost_usd": 0.0377,
+  "budget": 0.0
+}
