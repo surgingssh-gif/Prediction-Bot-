@@ -645,3 +645,22 @@ def test_bets_capped_per_story(workspace, monkeypatch):
     assert bets["1"] is None                          # smallest disagreement is the one skipped
     skipped = next(q for q in day["questions"] if q["market_id"] == "1")
     assert "same story" in skipped["bet_note"]
+
+
+
+def test_weekly_report_cards():
+    rows = [
+        {"q": "A", "asked": "2026-10-05T13:00:00Z", "bet": {"cost": 50}, "pnl": 30.0},     # Mon, settled win
+        {"q": "B", "asked": "2026-10-07T13:00:00Z", "bet": {"cost": 50}, "pnl": -50.0},    # Wed, settled loss
+        {"q": "C", "asked": "2026-10-08T13:00:00Z", "bet": {"cost": 40, "value": 52}},     # open, +12 today
+        {"q": "D", "asked": "2026-10-02T13:00:00Z", "bet": {"cost": 50, "value": 45}},     # previous week
+        {"q": "E", "asked": "2026-10-06T13:00:00Z"},                                        # no bet
+    ]
+    weeks = build_site.weekly_report(rows)
+    assert [w["week"] for w in weeks] == ["2026-10-05", "2026-09-28"]
+    this = weeks[0]
+    assert (this["bets"], this["settled"], this["wins"]) == (3, 2, 1)
+    assert this["settled_pnl"] == -20.0 and this["open_pnl"] == 12.0
+    assert this["return_pct"] == -20.0 and this["grade"] == "D"
+    assert this["best"]["q"] == "A" and this["worst"]["q"] == "B"
+    assert weeks[1]["grade"] is None                     # nothing settled yet

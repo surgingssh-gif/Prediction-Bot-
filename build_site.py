@@ -150,6 +150,57 @@ def account_history(days, resolutions, prices, today=None):
     return points
 
 
+def _grade(ret_pct):
+    """A letter grade for a week's settled bets, by their return."""
+    if ret_pct is None:
+        return None
+    for grade, floor in (("A", 20), ("B", 5), ("C", -5), ("D", -20)):
+        if ret_pct >= floor:
+            return grade
+    return "F"
+
+
+def weekly_report(rows):
+    """
+    One report card per week (Monday to Sunday) of bets placed: how many,
+    how much went in, how the settled ones did, and the best and worst bet
+    so far (open bets counted at today's price).
+    """
+    weeks = {}
+    for r in rows:
+        bet = r.get("bet")
+        if not bet or not r.get("asked"):
+            continue
+        day = datetime.fromisoformat(r["asked"][:10])
+        monday = (day - timedelta(days=day.weekday())).strftime("%Y-%m-%d")
+        if "pnl" in r:
+            pnl, settled = r["pnl"], True
+        else:
+            pnl, settled = bet.get("value", bet["cost"]) - bet["cost"], False
+        weeks.setdefault(monday, []).append({"q": r["q"], "pnl": round(pnl, 2), "cost": bet["cost"], "settled": settled})
+    report = []
+    for monday, bets in sorted(weeks.items(), reverse=True):
+        done = [b for b in bets if b["settled"]]
+        done_cost = sum(b["cost"] for b in done)
+        ret = round(sum(b["pnl"] for b in done) / done_cost * 100, 1) if done_cost else None
+        best = max(bets, key=lambda b: b["pnl"])
+        worst = min(bets, key=lambda b: b["pnl"])
+        report.append({
+            "week": monday,
+            "bets": len(bets),
+            "invested": round(sum(b["cost"] for b in bets), 2),
+            "settled": len(done),
+            "wins": sum(1 for b in done if b["pnl"] > 0),
+            "settled_pnl": round(sum(b["pnl"] for b in done), 2),
+            "open_pnl": round(sum(b["pnl"] for b in bets if not b["settled"]), 2),
+            "return_pct": ret,
+            "grade": _grade(ret),
+            "best": {"q": best["q"], "pnl": best["pnl"]},
+            "worst": {"q": worst["q"], "pnl": worst["pnl"]},
+        })
+    return report
+
+
 def _short(row):
     """A question in brief, for the best and worst calls lists."""
     keys = ("id", "run", "q", "topic", "url", "ai", "crowd", "outcome", "settled", "ai_brier", "crowd_brier")
@@ -239,6 +290,7 @@ def build_data(days, resolutions, pending=None, prices=None):
         "latest_settled": [r for r in settled_rows if r["run"] == latest_run and latest_run],
         "bankroll": daily_bankroll(portfolio["history"], days),
         "account": account_history(days, resolutions, prices),
+        "weeks": weekly_report(all_rows),
         "open": sorted(open_rows, key=lambda r: r["end"]),
         "settled": settled_rows[: config.MAX_SETTLED_ON_PAGE],
         "settled_total": len(settled_rows),

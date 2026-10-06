@@ -105,7 +105,7 @@
   /* Fades sections in as they scroll into view (and starts their animations). */
   function setupReveal() {
     var targets = document.querySelectorAll(
-      ".section-head, .chart, .table-scroll, .cards > li, .stats.three, ol.calls, .duel, .verdict, .prose, .empty, .sub-head");
+      ".chart, .table-scroll, .cards > li, .stats.three, ol.calls, .duel, .verdict, .prose, .empty, .sub-head, .wk, .breakdown, .pf-side");
     if (REDUCED || !("IntersectionObserver" in window)) {
       targets.forEach(function (t) { t.classList.add("in"); });
       return;
@@ -116,7 +116,7 @@
       });
     }, { rootMargin: "0px 0px -8% 0px", threshold: 0.08 });
     targets.forEach(function (t) {
-      if (!t.classList.contains("section-head")) t.classList.add("reveal");
+      t.classList.add("reveal");
       io.observe(t);
     });
   }
@@ -127,10 +127,11 @@
 
   function setupMasthead() {
     document.getElementById("updated").textContent = DATA.generated_at
-      ? "Updated " + new Date(DATA.generated_at).toLocaleString("en-US", { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" })
+      ? "Running daily · Updated " + new Date(DATA.generated_at).toLocaleString("en-US", { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" })
       : "No data yet";
-    document.getElementById("dl-left").textContent = longDate(DATA.generated_at);
-    document.getElementById("dl-right").textContent = "Forecaster: " + (DATA.model || "Claude");
+    var runs = (DATA.runs || []).length;
+    document.getElementById("dl-left").textContent = "Vol. I · No. " + runs + " · Forecaster: " + (DATA.model || "Claude");
+    document.getElementById("dl-mid").textContent = longDate(DATA.generated_at);
     if (DATA.pending && DATA.pending.length) {
       var n = DATA.pending.reduce(function (sum, p) { return sum + p.n; }, 0);
       var notice = document.getElementById("notice");
@@ -412,49 +413,248 @@
   function sidePrice(bet, yesPrice) { return bet.side === "YES" ? yesPrice : 1 - yesPrice; }
   function cents(p) { return Math.round(p * 100) + "¢"; }
 
+  /* "−$12.34" / "+$5.00" as a small colored pill. */
+  function pill(x, text) { return el("span", { class: "pill " + (upDown(x) || ""), text: text || money(x, true) }); }
+  function trunc(text, n) { return text.length > n ? text.slice(0, n - 1) + "…" : text; }
+
+  /*
+   * Horizontal bars around a zero line, one row per item (like The Morning
+   * Brief's "How each call is doing"). items: [{label, value, title, rows}]
+   * where value is a percent and rows feed the hover tooltip.
+   */
+  function barChart(container, items, opts) {
+    var W = 640, rowH = 22, M = { l: 262, r: 56, t: 6, b: 26 };
+    var H = M.t + items.length * rowH + M.b;
+    var vals = items.map(function (i) { return i.value; });
+    var lo = Math.min(0, Math.min.apply(null, vals)), hi = Math.max(0, Math.max.apply(null, vals));
+    if (hi - lo < 10) { hi = Math.max(hi, 5); lo = Math.min(lo, -5); }
+    var x = function (v) { return M.l + (v - lo) * (W - M.l - M.r) / (hi - lo); };
+    var root = svg("svg", { viewBox: "0 0 " + W + " " + H, role: "img", "aria-label": opts.label });
+    ticks(lo, hi, 4).forEach(function (t) {
+      root.appendChild(svg("line", { class: "grid", x1: x(t), x2: x(t), y1: M.t, y2: H - M.b }));
+      root.appendChild(svg("text", { class: "axis-text", x: x(t), y: H - 8, "text-anchor": "middle", text: (t > 0 ? "+" : "") + Math.round(t) + "%" }));
+    });
+    root.appendChild(svg("line", { class: "baseline", x1: x(0), x2: x(0), y1: M.t, y2: H - M.b }));
+    var tip = el("div", { class: "tooltip", hidden: true });
+    var holder = el("div", { class: "chart" }, root, tip);
+    items.forEach(function (item, i) {
+      var y = M.t + i * rowH;
+      var pos = item.value >= 0;
+      var g = svg("g", { class: "row", tabindex: 0, "aria-label": item.title + ": " + item.valueText });
+      g.appendChild(svg("rect", { class: "hit", x: 0, y: y, width: W, height: rowH }));
+      g.appendChild(svg("text", { class: "bar-label", x: M.l - 10, y: y + rowH / 2 + 4, "text-anchor": "end", text: item.label }));
+      var x0 = x(Math.min(0, item.value)), w = Math.max(Math.abs(x(item.value) - x(0)), 1.5);
+      g.appendChild(svg("rect", { class: "bar grow-x " + (pos ? "pos" : "neg"), x: x0, y: y + 4, width: w, height: rowH - 8, rx: 2,
+        fill: pos ? "var(--good)" : "var(--bad)", style: "animation-delay:" + (0.1 + i * 0.025) + "s" }));
+      g.appendChild(svg("text", { class: "bar-value", x: pos ? x(item.value) + 6 : x(0) + 6, y: y + rowH / 2 + 4, text: item.valueText }));
+      function show() {
+        clear(tip);
+        tip.appendChild(el("div", { class: "tt-title", text: item.title }));
+        append(tip, tooltipRows(item.rows));
+        var scale = root.getBoundingClientRect().width / W;
+        placeTooltip(tip, holder, x(item.value) * scale, (y + rowH) * scale);
+      }
+      g.addEventListener("pointerenter", show);
+      g.addEventListener("focus", show);
+      g.addEventListener("pointerleave", function () { tip.hidden = true; });
+      g.addEventListener("blur", function () { tip.hidden = true; });
+      root.appendChild(g);
+    });
+    append(clear(container), holder);
+  }
+
+  /* Vertical columns around zero, one per day (blue up, red down). */
+  function columnChart(container, items, opts) {
+    var W = 400, H = 230, M = { l: 52, r: 8, t: 10, b: 28 };
+    var vals = items.map(function (i) { return i.value; });
+    var lo = Math.min(0, Math.min.apply(null, vals)), hi = Math.max(0, Math.max.apply(null, vals));
+    if (hi === lo) { hi = 1; lo = -1; }
+    var pad = (hi - lo) * 0.08; hi += hi > 0 ? pad : 0; lo -= lo < 0 ? pad : 0;
+    var y = function (v) { return M.t + (hi - v) * (H - M.t - M.b) / (hi - lo); };
+    var slot = (W - M.l - M.r) / items.length, bw = Math.min(slot * 0.62, 34);
+    var root = svg("svg", { viewBox: "0 0 " + W + " " + H, role: "img", "aria-label": opts.label });
+    ticks(lo, hi, 4).forEach(function (t) {
+      root.appendChild(svg("line", { class: "grid", x1: M.l, x2: W - M.r, y1: y(t), y2: y(t) }));
+      root.appendChild(svg("text", { class: "axis-text", x: M.l - 6, y: y(t) + 4, "text-anchor": "end", text: opts.yFormat(t) }));
+    });
+    root.appendChild(svg("line", { class: "baseline", x1: M.l, x2: W - M.r, y1: y(0), y2: y(0) }));
+    var tip = el("div", { class: "tooltip", hidden: true });
+    var holder = el("div", { class: "chart" }, root, tip);
+    items.forEach(function (item, i) {
+      var cx = M.l + slot * i + slot / 2, pos = item.value >= 0;
+      var g = svg("g", { class: "row", tabindex: 0, "aria-label": item.label + ": " + opts.yFormat(item.value, true) });
+      g.appendChild(svg("rect", { class: "hit", x: cx - slot / 2, y: M.t, width: slot, height: H - M.t - M.b }));
+      g.appendChild(svg("rect", { class: "bar grow-y " + (pos ? "pos" : "neg"), x: cx - bw / 2, y: Math.min(y(item.value), y(0)), width: bw,
+        height: Math.max(Math.abs(y(item.value) - y(0)), 1.5), rx: 2, fill: pos ? "var(--good)" : "var(--bad)", style: "animation-delay:" + (0.1 + i * 0.05) + "s" }));
+      if (items.length <= 8 || i % Math.ceil(items.length / 6) === 0 || i === items.length - 1) {
+        root.appendChild(svg("text", { class: "axis-text", x: cx, y: H - 8, "text-anchor": "middle", text: item.short }));
+      }
+      function show() {
+        clear(tip);
+        tip.appendChild(el("div", { class: "tt-title", text: item.label }));
+        append(tip, tooltipRows([{ key: keyLine(pos ? "var(--good)" : "var(--bad)"), value: opts.yFormat(item.value, true), name: "change in account value" }]));
+        var scale = root.getBoundingClientRect().width / W;
+        placeTooltip(tip, holder, cx * scale, y(Math.max(item.value, 0)) * scale);
+      }
+      g.addEventListener("pointerenter", show);
+      g.addEventListener("focus", show);
+      g.addEventListener("pointerleave", function () { tip.hidden = true; });
+      g.addEventListener("blur", function () { tip.hidden = true; });
+      root.appendChild(g);
+    });
+    append(clear(container), holder);
+  }
+
+  function tile(label, value, sub, cls) {
+    return el("div", { class: "tile" }, el("div", { class: "label", text: label }),
+      el("div", { class: "value " + (cls || ""), text: value }), el("div", { class: "sub", text: sub }));
+  }
+
+  /* One "By side / By topic / By size" block of meters (bar = share of bets won). */
+  function breakdown(title, groups) {
+    return el("div", { class: "breakdown" }, el("h3", { text: title }), groups.map(function (g) {
+      var rate = g.n ? g.wins / g.n : 0;
+      return el("div", { class: "meter-row" },
+        el("span", { class: "name", text: g.label.replace(/^Bought /, "") }),
+        el("div", { class: "meter" }, el("span", { style: { width: Math.max(rate * 100, 0) + "%" } })),
+        el("span", { class: "val" }, Math.round(rate * 100) + "% won",
+          el("small", { class: upDown(g.pnl) || "", text: money(g.pnl, true) + " · " + g.n + " bet" + (g.n === 1 ? "" : "s") })));
+    }));
+  }
+
   function renderPortfolio() {
     var start = portfolio.start || 1000;
     var value = portfolio.marked_equity !== undefined ? portfolio.marked_equity : portfolio.equity;
     var total = value - start;
     var realized = portfolio.pnl || 0;
     var unreal = portfolio.unrealized || 0;
-
-    var hero = document.getElementById("hero-pnl");
-    hero.className = "hero-num " + (upDown(total) || "");
-    countUp(hero, total, function (v) { return money(v, true); }, 150);
-    document.querySelector(".hero").classList.add(total >= 0 ? "is-up" : "is-down");
-    document.getElementById("hero-sub").textContent = (total >= 0 ? "Up " : "Down ") +
-      Math.abs(total / start * 100).toFixed(1) + "% on " + money(start) + " of paper money. " +
-      money(realized, true) + " from settled bets, " + money(unreal, true) + " on open bets at today's market prices.";
-    append(clear(document.getElementById("hero-side")),
-      el("div", null, "Account value", el("strong", { id: "hero-value", text: money(value) })));
-    countUp(document.getElementById("hero-value"), value, function (v) { return money(v); }, 150);
-
     var cash = portfolio.cash || 0;
+
+    // Column 1: the big number.
+    var hero = document.getElementById("hero-pnl");
+    hero.className = "hero-figure " + (upDown(total) || "");
+    countUp(hero, total, function (v) { return money(v, true); }, 100);
+    document.getElementById("hero-sub").textContent = (total >= 0 ? "Up " : "Down ") +
+      Math.abs(total / start * 100).toFixed(1) + "% on " + money(start) + " of paper money: " +
+      money(realized, true) + " from settled bets and " + money(unreal, true) + " on open bets at today's market prices.";
+    if (DATA.generated_at) {
+      document.getElementById("sc-sub").textContent = "Paper money · prices as of " +
+        new Date(DATA.generated_at).toLocaleString("en-US", { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" });
+    }
+
+    // Column 2: the tiles.
     append(clear(document.getElementById("pstats")), [
-      stat("Settled profit", money(realized, true), (portfolio.settled_bets || 0) + " bet" + (portfolio.settled_bets === 1 ? "" : "s") + " closed", upDown(realized)),
-      stat("Open profit", money(unreal, true), (portfolio.open_bets || 0) + " open at today's prices", upDown(unreal)),
-      stat("Win rate", portfolio.settled_bets ? Math.round(portfolio.wins / portfolio.settled_bets * 100) + "%" : "–",
-        portfolio.settled_bets ? portfolio.wins + " of " + portfolio.settled_bets + " bets won" : "no bets settled yet", null),
-      stat("Cash available", money(cash), cash < 1 ? "all money is in open bets" : money(portfolio.open_cost || 0) + " in open bets", null),
-      stat("Fees paid", money(portfolio.fees || 0), "Polymarket's taker fees", null),
+      tile("Account value", money(value), "started at " + money(start)),
+      tile("Win rate", portfolio.settled_bets ? Math.round(portfolio.wins / portfolio.settled_bets * 100) + "%" : "–",
+        portfolio.settled_bets ? portfolio.wins + " of " + portfolio.settled_bets + " settled bets won" : "no bets settled yet"),
+      tile("Settled profit", money(realized, true), (portfolio.settled_bets || 0) + " bets closed", upDown(realized)),
+      tile("Open profit", money(unreal, true), (portfolio.open_bets || 0) + " open, at today's prices", upDown(unreal)),
+      tile("Cash available", money(cash), cash < 1 ? "all money is in open bets" : money(portfolio.open_cost || 0) + " in open bets"),
+      tile("Fees paid", money(portfolio.fees || 0), "Polymarket's real taker fees"),
     ]);
 
-    // Account value over time.
+    // Column 3: what's working, as meters.
+    var bets = DATA.bets || {};
+    var bd = clear(document.getElementById("breakdowns"));
+    if (!(bets.by_side || []).length) {
+      bd.appendChild(el("p", { class: "empty", text: "Breakdowns appear once paper bets settle." }));
+    } else {
+      append(bd, [
+        breakdown("By side", bets.by_side || []),
+        breakdown("By size of disagreement", bets.by_gap || []),
+        breakdown("By topic", bets.by_topic || []),
+        el("p", { class: "legend-note", text: "Bar = share of settled bets won (blue) vs lost (red). Below: profit or loss and number of bets." }),
+      ]);
+    }
+
+    // Account value: summary on the left, chart on the right.
     var acct = DATA.account || [];
+    var first = acct.length ? acct[0].date : null;
+    append(clear(document.getElementById("pf-side")), [
+      el("p", { class: "pf-label" }, el("span", { class: "pf-swatch", style: { background: AI_COLOR } }), "The AI's paper account"),
+      el("div", { class: "pf-value", id: "pf-value", text: money(value) }),
+      pill(total, money(total, true) + " (" + (total >= 0 ? "+" : "−") + Math.abs(total / start * 100).toFixed(1) + "%)"),
+      el("p", { class: "pf-verdict", text: first ? (total >= 0 ? "Up " : "Down ") + money(Math.abs(total)) + " since " + shortDate(first) + "." : "No bets yet." }),
+      el("p", { class: "pf-legend", text: "Each day: cash plus every open bet valued at that day's market price. Settled bets count at what they paid out. Paper money only." }),
+    ]);
+    countUp(document.getElementById("pf-value"), value, function (v) { return money(v); }, 100);
     var ac = document.getElementById("account-chart");
     if (acct.length > 1) {
       lineChart(ac, {
         label: "Paper account value over time",
-        // Wide on computers; narrower on phones so the labels stay readable.
-        width: window.innerWidth < 760 ? 400 : 1060, height: window.innerWidth < 760 ? 260 : 300,
+        width: window.innerWidth < 760 ? 420 : 760, height: window.innerWidth < 760 ? 260 : 300,
         series: [{ name: "Account value", short: money(acct[acct.length - 1].value), color: AI_COLOR, values: acct.map(function (p) { return p.value; }) }],
         xLabel: function (i) { return shortDate(acct[i].date); },
         yFormat: function (v, long) { return long ? money(v) : "$" + Math.round(v).toLocaleString("en-US"); },
-        ref: { value: start, label: "starting $1,000" },
+        ref: { value: start, label: "$1,000 start" },
       });
     } else {
       append(clear(ac), el("p", { class: "empty", text: "This chart starts after the first full day of trading." }));
+    }
+
+    // Weekly report cards.
+    var wc = clear(document.getElementById("weeks"));
+    var weeks = (DATA.weeks || []).slice(0, 6);
+    if (!weeks.length) wc.appendChild(el("p", { class: "empty", text: "No bets yet." }));
+    weeks.forEach(function (w) {
+      var g = w.grade;
+      wc.appendChild(el("div", { class: "wk" },
+        el("div", { class: "wk-head" },
+          el("div", null, el("h3", { text: "Week of " + shortDate(w.week).replace(/, \d{4}$/, "") }),
+            el("small", { text: w.bets + " bets · " + money(w.invested) + " put in" })),
+          el("div", { class: "wk-grade " + (g ? "g-" + g : "pending") },
+            el("span", { text: g || "•••" }),
+            el("small", { text: g ? (w.return_pct > 0 ? "+" : "") + w.return_pct + "% settled" : "Pending" }))),
+        el("div", { class: "wk-row" }, el("span", { text: "Settled" }),
+          el("strong", { class: upDown(w.settled_pnl) || "", text: w.settled ? money(w.settled_pnl, true) + " · " + w.wins + " of " + w.settled + " won" : "None yet" })),
+        el("div", { class: "wk-row" }, el("span", { text: "Still open" }),
+          el("strong", { class: upDown(w.open_pnl) || "", text: w.bets - w.settled ? money(w.open_pnl, true) + " · " + (w.bets - w.settled) + " bets" : "None" })),
+        el("div", { class: "wk-row" }, el("span", { text: "Best bet" }), el("strong", { title: w.best.q, text: money(w.best.pnl, true) + "  " + trunc(w.best.q, 30) })),
+        el("div", { class: "wk-row" }, el("span", { text: "Worst bet" }), el("strong", { title: w.worst.q, text: money(w.worst.pnl, true) + "  " + trunc(w.worst.q, 30) }))));
+    });
+
+    // Every bet, scored: settled at their result, open at today's price.
+    var all = [];
+    (DATA.settled || []).forEach(function (r) {
+      if (r.bet && r.pnl !== undefined) all.push({ r: r, pnl: r.pnl, status: "settled" });
+    });
+    (DATA.open || []).forEach(function (r) {
+      if (r.bet) all.push({ r: r, pnl: (r.bet.value !== undefined ? r.bet.value : r.bet.cost) - r.bet.cost, status: "open" });
+    });
+    all.forEach(function (b) { b.ret = b.pnl / b.r.bet.cost * 100; });
+    all.sort(function (a, b) { return b.ret - a.ret; });
+    var eb = document.getElementById("every-bet");
+    if (!all.length) {
+      append(clear(eb), el("p", { class: "empty", text: "No bets yet." }));
+    } else {
+      barChart(eb, all.map(function (b) {
+        return {
+          label: trunc(b.r.q.replace(/^Will (the )?/, ""), 40) + (b.status === "open" ? "" : " ✓"),
+          value: b.ret,
+          valueText: (b.ret > 0 ? "+" : "") + Math.round(b.ret) + "%",
+          title: b.r.q,
+          rows: [
+            { key: keyLine(b.pnl >= 0 ? "var(--good)" : "var(--bad)"), value: money(b.pnl, true), name: b.status === "open" ? "at today's price" : "final" },
+            { key: el("span", { class: "side-tag", text: b.r.bet.side }), value: cents(b.r.bet.price), name: "paid per share" },
+            { key: keyDot(AI_COLOR), value: pct(b.r.ai), name: "AI vs market " + pct(b.r.crowd) },
+          ],
+        };
+      }), { label: "Return on every paper bet" });
+      eb.appendChild(el("p", { class: "chart-note", text: "✓ = settled. Hover a bar for details." }));
+    }
+
+    // Day by day: change in account value.
+    var days = [];
+    for (var i = 1; i < acct.length; i++) {
+      days.push({ label: shortDate(acct[i].date), short: shortDate(acct[i].date).replace(/, \d{4}$/, ""), value: acct[i].value - acct[i - 1].value });
+    }
+    var dc = document.getElementById("daily");
+    if (days.length) {
+      var lastDay = days[days.length - 1];
+      document.getElementById("daily-sub").textContent = "How much the account value changed each day. Latest (" + lastDay.short + "): " + money(lastDay.value, true) + ".";
+      columnChart(dc, days.slice(-30), { label: "Daily change in account value", yFormat: function (v, long) { return long ? money(v, true) : (v < 0 ? "−$" : "$") + Math.abs(Math.round(v)); } });
+    } else {
+      append(clear(dc), el("p", { class: "empty", text: "Starts after the first full day." }));
     }
 
     // Open positions, soonest to close first.
@@ -476,7 +676,7 @@
           el("td", { class: "r" }, el("div", { class: "now-cell" }, sparkline(r, 64, 24), el("span", { text: now === null ? "–" : cents(now) }))),
           el("td", { class: "r hide-sm", text: money(b.cost) }),
           el("td", { class: "r hide-sm", text: money(val) }),
-          el("td", { class: "r nowrap " + (upDown(pl) || ""), text: money(pl, true) }),
+          el("td", { class: "r nowrap" }, pill(pl)),
           el("td", { class: "r nowrap hide-sm", text: shortDate(r.end).replace(/, \d{4}$/, "") }));
       });
       pc.appendChild(el("div", { class: "table-scroll" }, el("table", { class: "data ptable" },
@@ -505,28 +705,9 @@
             el("td", { class: "nowrap" }, el("span", { class: "side-tag", text: r.bet.side }), " @ " + cents(r.bet.price)),
             el("td", { text: result }),
             el("td", { class: "r hide-sm", text: money(r.bet.cost) }),
-            el("td", { class: "r nowrap " + (upDown(r.pnl) || ""), text: money(r.pnl, true) }),
+            el("td", { class: "r nowrap" }, pill(r.pnl)),
             el("td", { class: "r nowrap hide-sm", text: shortDate(r.settled).replace(/, \d{4}$/, "") }));
         })))));
-    }
-
-    // What's working: settled bets broken down.
-    var bets = DATA.bets || {};
-    var bc = clear(document.getElementById("bet-breakdown"));
-    if (!(bets.by_side || []).length) {
-      bc.appendChild(el("p", { class: "empty", text: "Appears once paper bets settle." }));
-    } else {
-      var toRows = function (groups) {
-        return groups.map(function (g) {
-          return [g.label, String(g.n), g.wins + " (" + Math.round(g.wins / g.n * 100) + "%)", money(g.pnl, true), g.roi === null ? "–" : (g.roi > 0 ? "+" : "") + g.roi + "%"];
-        });
-      };
-      var head = ["", "Bets", "Won", "Profit", "Return"];
-      append(bc, [
-        el("h3", { class: "sub-head", text: "By size of disagreement with the market" }), simpleTable(head, toRows(bets.by_gap || [])),
-        el("h3", { class: "sub-head", text: "By side" }), simpleTable(head, toRows(bets.by_side || [])),
-        el("h3", { class: "sub-head", text: "By topic" }), simpleTable(head, toRows(bets.by_topic || [])),
-      ]);
     }
   }
 
