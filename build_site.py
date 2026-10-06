@@ -8,8 +8,10 @@ can always be checked against the forecast files.
 Run it with:  python build_site.py
 """
 
+import hashlib
 import json
 import os
+import re
 from datetime import datetime, timedelta, timezone
 
 import config
@@ -332,10 +334,43 @@ def write_data(data, path=OUTPUT_FILE):
     return True
 
 
+INDEX_FILE = os.path.join("docs", "index.html")
+
+
+def stamp_versions(index_path=INDEX_FILE):
+    """
+    Adds a fingerprint to the page's links to app.js and data.js, like
+    "app.js?v=3f9a1c2b". The fingerprint changes whenever the file changes,
+    so browsers always load the matching version instead of an old copy they
+    saved earlier (an old app.js with a new page breaks the dashboard).
+    Returns True if the page was updated.
+    """
+    try:
+        with open(index_path, encoding="utf-8") as f:
+            page = f.read()
+    except FileNotFoundError:
+        return False
+    new_page = page
+    for name in ("app.js", "data.js"):
+        path = os.path.join(os.path.dirname(index_path), name)
+        if not os.path.exists(path):
+            continue
+        with open(path, "rb") as f:
+            fingerprint = hashlib.sha256(f.read()).hexdigest()[:10]
+        new_page = re.sub(r'src="' + re.escape(name) + r'(\?v=[0-9a-f]*)?"', f'src="{name}?v={fingerprint}"', new_page)
+    if new_page == page:
+        return False
+    with open(index_path, "w", encoding="utf-8") as f:
+        f.write(new_page)
+    return True
+
+
 def main():
     data = build_data(storage.read_forecasts(), storage.read_resolutions(), storage.read_pending(),
                       storage.read_prices())
-    if not write_data(data):
+    wrote = write_data(data)
+    stamp_versions()
+    if not wrote:
         print(f"{OUTPUT_FILE} is already up to date.")
         return
     print(f"Wrote {OUTPUT_FILE}: {len(data['open'])} open, {data['settled_total']} settled, "

@@ -1066,13 +1066,12 @@
   // Start
   // ---------------------------------------------------------------------------
 
-  setupTheme();
-  setupMasthead();
-  renderPortfolio();
-  renderAccuracy();
-  renderOpen();
-  renderSettled();
-  renderMethod();
+  /* Runs one part of the page. If it fails, only that part is skipped (and
+     the error is logged), so one problem can't blank the whole dashboard. */
+  function safely(fn) {
+    try { fn(); } catch (e) { if (window.console) console.error(fn.name + " failed:", e); }
+  }
+  [setupTheme, setupMasthead, renderPortfolio, renderAccuracy, renderOpen, renderSettled, renderMethod].forEach(safely);
   document.querySelectorAll("[data-filter]").forEach(function (b) {
     b.addEventListener("click", function () { openFilter = b.getAttribute("data-filter"); renderOpen(); });
   });

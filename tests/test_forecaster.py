@@ -664,3 +664,18 @@ def test_weekly_report_cards():
     assert this["return_pct"] == -20.0 and this["grade"] == "D"
     assert this["best"]["q"] == "A" and this["worst"]["q"] == "B"
     assert weeks[1]["grade"] is None                     # nothing settled yet
+
+
+
+def test_page_links_carry_a_version_fingerprint(tmp_path):
+    (tmp_path / "app.js").write_text("console.log(1)")
+    (tmp_path / "data.js").write_text("window.FORECAST_DATA = {};")
+    page = tmp_path / "index.html"
+    page.write_text('<script src="data.js"></script><script src="app.js"></script>')
+    assert build_site.stamp_versions(str(page)) is True
+    first = page.read_text()
+    assert 'src="app.js?v=' in first and 'src="data.js?v=' in first
+    assert build_site.stamp_versions(str(page)) is False          # nothing changed
+    (tmp_path / "app.js").write_text("console.log(2)")
+    assert build_site.stamp_versions(str(page)) is True
+    assert page.read_text() != first                              # new fingerprint
