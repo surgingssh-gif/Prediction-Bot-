@@ -80,6 +80,48 @@
   }
 
   // ---------------------------------------------------------------------------
+  // Animation helpers (all skipped for people who prefer reduced motion)
+  // ---------------------------------------------------------------------------
+
+  var REDUCED = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  /* Counts a number up from 0 to `target`, showing it with `format`. */
+  function countUp(node, target, format, delay) {
+    if (REDUCED || !isFinite(target) || target === 0) { node.textContent = format(target); return; }
+    var duration = 1400, start = null;
+    node.textContent = format(0);
+    setTimeout(function () {
+      requestAnimationFrame(function step(now) {
+        if (start === null) start = now;
+        var t = Math.min((now - start) / duration, 1);
+        var eased = 1 - Math.pow(1 - t, 4);  // fast at first, then settles gently
+        node.textContent = format(target * eased);
+        if (t < 1) requestAnimationFrame(step);
+        else node.textContent = format(target);
+      });
+    }, delay || 0);
+  }
+
+  /* Fades sections in as they scroll into view (and starts their animations). */
+  function setupReveal() {
+    var targets = document.querySelectorAll(
+      ".section-head, .chart, .table-scroll, .cards > li, .stats.three, ol.calls, .duel, .verdict, .prose, .empty, .sub-head");
+    if (REDUCED || !("IntersectionObserver" in window)) {
+      targets.forEach(function (t) { t.classList.add("in"); });
+      return;
+    }
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target); }
+      });
+    }, { rootMargin: "0px 0px -8% 0px", threshold: 0.08 });
+    targets.forEach(function (t) {
+      if (!t.classList.contains("section-head")) t.classList.add("reveal");
+      io.observe(t);
+    });
+  }
+
+  // ---------------------------------------------------------------------------
   // Masthead, theme and tabs
   // ---------------------------------------------------------------------------
 
@@ -200,10 +242,20 @@
       root.appendChild(svg("text", { class: "ref-label", x: M.l + 4, y: y(opts.ref.value) - 5, text: opts.ref.label }));
     }
 
-    opts.series.forEach(function (s) {
+    opts.series.forEach(function (s, si) {
       var d = s.values.map(function (v, i) { return (i ? "L" : "M") + x(i).toFixed(1) + "," + y(v).toFixed(1); }).join("");
-      if (n > 1) root.appendChild(svg("path", { d: d, fill: "none", stroke: s.color, "stroke-width": 2, "stroke-linejoin": "round", "stroke-linecap": "round" }));
-      root.appendChild(svg("circle", { cx: x(n - 1), cy: y(s.values[n - 1]), r: 4, fill: s.color, stroke: "var(--paper)", "stroke-width": 2 }));
+      if (n > 1 && opts.series.length === 1) {
+        // A soft shaded area under a single line, fading down to the axis.
+        var gid = "grad-" + Math.random().toString(36).slice(2, 8);
+        root.appendChild(svg("defs", null, svg("linearGradient", { id: gid, x1: 0, y1: 0, x2: 0, y2: 1 },
+          svg("stop", { offset: "0%", "stop-color": s.color, "stop-opacity": 0.22 }),
+          svg("stop", { offset: "100%", "stop-color": s.color, "stop-opacity": 0 }))));
+        root.appendChild(svg("path", { class: "area", d: d + "L" + x(n - 1).toFixed(1) + "," + (H - M.b) + "L" + x(0).toFixed(1) + "," + (H - M.b) + "Z", fill: "url(#" + gid + ")" }));
+      }
+      if (n > 1) root.appendChild(svg("path", { class: "draw", pathLength: 1, d: d, fill: "none", stroke: s.color, "stroke-width": 2.25, "stroke-linejoin": "round", "stroke-linecap": "round", style: "animation-delay:" + (0.15 + si * 0.2) + "s" }));
+      // The latest value: a dot with a gentle pulse around it.
+      root.appendChild(svg("circle", { class: "pulse", cx: x(n - 1), cy: y(s.values[n - 1]), r: 4, fill: s.color }));
+      root.appendChild(svg("circle", { class: "end-dot", cx: x(n - 1), cy: y(s.values[n - 1]), r: 4.5, fill: s.color, stroke: "var(--raised)", "stroke-width": 2 }));
     });
     // Direct labels at the right end, nudged apart if they'd overlap.
     var ends = opts.series.map(function (s) { return { s: s, y: y(s.values[n - 1]) }; }).sort(function (a, b) { return a.y - b.y; });
@@ -284,7 +336,8 @@
       (cal[cfg[0]] || []).forEach(function (b) {
         var r = 4 + 8 * Math.sqrt(b.n / maxN);
         var g = svg("g", { tabindex: 0, "aria-label": cfg[2] + ": forecast " + pct(b.forecast) + ", happened " + pct(b.observed) + ", " + b.n + " questions" });
-        g.appendChild(svg("circle", { cx: x(b.forecast), cy: y(b.observed), r: r, fill: cfg[1], stroke: "var(--paper)", "stroke-width": 2, "fill-opacity": 0.9 }));
+        g.appendChild(svg("circle", { class: "cal-dot", cx: x(b.forecast), cy: y(b.observed), r: r, fill: cfg[1], stroke: "var(--raised)", "stroke-width": 2, "fill-opacity": 0.9,
+          style: "animation-delay:" + (0.2 + b.bin * 0.07 + (cfg[0] === "ai" ? 0.04 : 0)) + "s" }));
         g.appendChild(svg("circle", { cx: x(b.forecast), cy: y(b.observed), r: Math.max(r, 12), fill: "transparent" }));
         function show() {
           clear(tip);
@@ -329,7 +382,7 @@
       "aria-label": "Market price went from " + pct(first) + " to " + pct(last) + "; the AI said " + pct(row.ai) });
     root.appendChild(svg("line", { x1: P, x2: W - P, y1: y(row.ai), y2: y(row.ai), stroke: AI_COLOR, "stroke-width": 1.5, "stroke-dasharray": "3 3" }));
     if (pts.length > 1) {
-      root.appendChild(svg("path", { d: pts.map(function (p, i) { return (i ? "L" : "M") + x(i).toFixed(1) + "," + y(p[1]).toFixed(1); }).join(""),
+      root.appendChild(svg("path", { class: "draw", pathLength: 1, d: pts.map(function (p, i) { return (i ? "L" : "M") + x(i).toFixed(1) + "," + y(p[1]).toFixed(1); }).join(""),
         fill: "none", stroke: MARKET_COLOR, "stroke-width": 2, "stroke-linejoin": "round", "stroke-linecap": "round" }));
     }
     root.appendChild(svg("circle", { cx: x(pts.length - 1), cy: y(last), r: 3, fill: MARKET_COLOR, stroke: "var(--paper)", "stroke-width": 1.5 }));
@@ -367,13 +420,15 @@
     var unreal = portfolio.unrealized || 0;
 
     var hero = document.getElementById("hero-pnl");
-    hero.textContent = money(total, true);
     hero.className = "hero-num " + (upDown(total) || "");
+    countUp(hero, total, function (v) { return money(v, true); }, 150);
+    document.querySelector(".hero").classList.add(total >= 0 ? "is-up" : "is-down");
     document.getElementById("hero-sub").textContent = (total >= 0 ? "Up " : "Down ") +
       Math.abs(total / start * 100).toFixed(1) + "% on " + money(start) + " of paper money. " +
       money(realized, true) + " from settled bets, " + money(unreal, true) + " on open bets at today's market prices.";
     append(clear(document.getElementById("hero-side")),
-      el("div", null, "Account value", el("strong", { text: money(value) })));
+      el("div", null, "Account value", el("strong", { id: "hero-value", text: money(value) })));
+    countUp(document.getElementById("hero-value"), value, function (v) { return money(v); }, 150);
 
     var cash = portfolio.cash || 0;
     append(clear(document.getElementById("pstats")), [
@@ -391,7 +446,8 @@
     if (acct.length > 1) {
       lineChart(ac, {
         label: "Paper account value over time",
-        width: 1060, height: 300,
+        // Wide on computers; narrower on phones so the labels stay readable.
+        width: window.innerWidth < 760 ? 400 : 1060, height: window.innerWidth < 760 ? 260 : 300,
         series: [{ name: "Account value", short: money(acct[acct.length - 1].value), color: AI_COLOR, values: acct.map(function (p) { return p.value; }) }],
         xLabel: function (i) { return shortDate(acct[i].date); },
         yFormat: function (v, long) { return long ? money(v) : "$" + Math.round(v).toLocaleString("en-US"); },
@@ -488,7 +544,7 @@
     function side(name, color, value, sub) {
       return el("div", { class: "side" },
         el("h3", null, keyDot(color), name),
-        el("div", { class: "big", text: brier(value) }),
+        el("div", { class: "big", text: brier(value), "data-count": value === undefined || value === null ? null : value }),
         el("div", { class: "sub", text: sub }));
     }
     append(clear(document.getElementById("duel")), [
@@ -496,6 +552,10 @@
       el("div", { class: "vs", text: "vs." }),
       side("The Market", MARKET_COLOR, stats.crowd_brier, n ? "closer on " + stats.crowd_closer + " of " + n : "Brier score"),
     ]);
+
+    document.querySelectorAll("#duel .big[data-count]").forEach(function (node, i) {
+      countUp(node, parseFloat(node.getAttribute("data-count")), brier, 200 + i * 120);
+    });
 
     var verdict = clear(document.getElementById("verdict"));
     if (!n) {
@@ -837,4 +897,5 @@
   });
   window.addEventListener("hashchange", showTab);
   showTab();
+  setupReveal();
 })();
