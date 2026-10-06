@@ -33,5 +33,15 @@
     "outcome": 0,
     "resolved_at": "2026-10-05T04:54:40Z",
     "question": "Will Luiz Inácio Lula da Silva win the first round of the 2026 Brazilian presidential election by 5–10%?"
+  },
+  "4885967": {
+    "outcome": 1,
+    "resolved_at": "2026-10-06T11:41:25Z",
+    "question": "Saudi Oil Pipeline (East-West) restarts by October 15?"
+  },
+  "4619164": {
+    "outcome": 1,
+    "resolved_at": "2026-10-06T12:33:28Z",
+    "question": "Saudi Oil Pipeline (East-West) restarts by October 31?"
   }
 }
