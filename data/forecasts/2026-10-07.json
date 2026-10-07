@@ -1,0 +1,702 @@
+{
+  "run_id": "2026-10-07",
+  "date": "2026-10-07",
+  "created_at": "2026-10-07T02:16:35Z",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "questions": [
+    {
+      "market_id": "562803",
+      "event_id": "32225",
+      "event_title": "Which party will win the House in 2026?",
+      "option": "Republican Party",
+      "question": "Will the Republican Party control the House after the 2026 Midterm elections?",
+      "rules": "This market will resolve according to the party that wins control of the United States House of Representatives in the 2026 United States midterm election.\n\nA party wins control of the United States House of Representatives if it wins a majority of the chamber’s voting seats. If no party wins a majority of voting seats, the chamber will be deemed controlled by the party with which the first elected Speaker of the House of the Congress that convenes after the 2026 midterm election is affiliated.\n\nThe following rules govern the counting of seats for determining which party wins control of the chamber.\n\nAll House elections in the 2026 United States midterm election that elect voting members and determine representation in the upcoming 120th Congress are included. Where a seat is decided by a runoff, the runoff result will determine attribution of that seat.\n\nSeats are attributed to the party under which the member was elected. If a member-elect changes party affiliation, or vacates their seat, between election day and the formal organization of Congress, the seat is attributed to the party under which the member was elected.\n\nHouse members elected as independents who formally caucus with, or, for newly elected members, who announce their intent to caucus with, a party are included in that party’s count. If the caucus decisions of members of the House elected as independents cannot be determined on the date of the election, this market may remain open until the earlier of (i) an announcement from the relevant members of their intents to caucus, or (ii) January 4th, 11:59 PM ET of the following calendar year. If no such announcement is made by January 4th, 11:59 PM ET of the following calendar year, the member will not count towards the seat count of any party.\n\nThe resolution sources for this market will be official information from relevant state electoral authorities, the United States Congress, and a consensus of credible reporting.",
+      "topic": "Politics",
+      "end_date": "2026-11-04T04:59:00Z",
+      "url": "https://polymarket.com/event/which-party-will-win-the-house-in-2026",
+      "snapshot": {
+        "time": "2026-10-07T02:16:30Z",
+        "crowd": 0.085,
+        "best_bid": 0.08,
+        "best_ask": 0.09,
+        "volume": 6285455,
+        "liquidity": 2114171,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "Democrats hold midterm lead with independents breaking sharply against Trump",
+          "source": "PBS",
+          "published": "2026-09-23",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQQi14cHV0VEk0bS1DYThpcTYyRnNydUJ4ZWRXNTd0dml6NllkRGtncHdHUzRacXh1YkUxWGRISjNuYldBX1NrRDlWb0ZibzBOTks0QllVSExZYzhQUnl0RFFpQkFpdEJURVhrWkNXZVdYMFlpbFFZaUxUQUpWdWFLcUxhWFZYMWNuM3laZXlLaTN5aXNqWmhHVtIBngFBVV95cUxQQzVSSGY0OF91S2FPOVZZNjRlUndDNG5PZ0p4MnpIQ3lRamZ3d1p0Q3RkazFzNlpXdjFfWmJlYTgwUkdUQ2FEb3dnd0V6dWI3cFVZSXlwdVhhX09pOE9oNnBUeVpsbWtEM0JUd2VMal9melY3MWJLcVkwSVZtMEJhenFQUFNfTjhIUjA1NDUtTXdLVHduM0F1M0hqb0xxdw?oc=5"
+        },
+        {
+          "title": "Democrats’ advantage is clear with less than a month to go in the midterm elections",
+          "source": "NPR",
+          "published": "2026-10-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOdnphaHRDS1owRWZ5MzRNdlYyUXR3V0xLUmJMUDNkVnJNM3hiTjNpb3EweGR4aTA0cGpCSFFDTHk4X2hvM216bVRadUh2cmwxMjdUeEZOYkJCZVg5ekdYVmpuY2hwYTZCVG8yRXc0X0hFUmViRHdMVTFXOVZzUmlOSXRzVm5Ldw?oc=5"
+        },
+        {
+          "title": "Democratic surge predicted to hit Republican states hardest, scrambling Senate strategy",
+          "source": "Reuters",
+          "published": "2026-10-01",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOZXdFSzJFdjBLUDdCTG5MNjBWRzFXaEZTOWR3Rkl6NWtNeHcwd1Z0T18yNEx6emJuVmt3RDV0WU1wRGlqNDFWQ25ZcENURVdRb0RxNVBZR1Y3X01zdlpqa0NzNHBwTHhkSUItTGRRUDNnWWJVRnJ3aHN1aTl1Vk92Q2N1UlpnOTA4T0NYeEdkcW9uOVpsSnk3cEltZDgtUnpmVzVpSjFacEF4X0VsMmV5cTRCdmJQM0dNbS01THlGVW9jdw?oc=5"
+        },
+        {
+          "title": "House Majority Polls 2026: Tracking Who Voters Want in Congress",
+          "source": "NBC News",
+          "published": "2026-10-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5yajlBWGVJLUgzRVBkRVpUV1J5UV9ucGEyYXh5VFNJUFlpV0xjdGl0RVliSHRjRVpmVWY1bVJic29VT2RXSVZxalJ2ejdsbDFMdWk1OVFldS1Wd2k5RDRtX2k3TnRCcEhIeUN0WGRfU3NaWW5CakE?oc=5"
+        },
+        {
+          "title": "What are the US midterms? A simple guide",
+          "source": "BBC",
+          "published": "2026-10-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0wd0RneUNSNlg5bGN0R0hkTUduOVprdWhJQWpMM1NScmZrb0F0YzFaY0NybUs3OGxHQ2J3em94M1gtOWpaVXFVaFF3WEV3RkhnSzZCdlY0ZldlRnM?oc=5"
+        },
+        {
+          "title": "Midterm Elections: Who Is Winning the Race for Congress? Latest Data",
+          "source": "The New York Times",
+          "published": "2026-10-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOQTVNVlZKX21WSm5qd1ZhdUZkTVZyOWhoVnc1OTRXOF9FTFhNYkFUR1daVkVlRnJaY3NfV29wOE5uVXJsWlRqWHp3TTIyQ21rZ0JrcmY2UDNoMzVtOFhWYWRscDBWTXFnZmNYMVZuWEZPcXd6NE1zOWFsd1pvUExON0ZTeUtvLVNwTVdpNVktYw?oc=5"
+        }
+      ],
+      "forecast": {
+        "probability": 0.15,
+        "reasoning": "Polling a month out shows a clear Democratic lead on the generic ballot, with independents breaking against Trump. The president's party usually loses House seats in midterms, and the Republican majority is thin. Major forecasters describe a Democratic flip as close to certain. Republicans retaining control would take a sizable polling miss."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-07T02:19:07Z",
+        "crowd": 0.085,
+        "best_bid": 0.08,
+        "best_ask": 0.09,
+        "volume": 6285455,
+        "liquidity": 2115560,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Gap of 6 points is under the 10-point minimum."
+    },
+    {
+      "market_id": "562802",
+      "event_id": "32225",
+      "event_title": "Which party will win the House in 2026?",
+      "option": "Democratic Party",
+      "question": "Will the Democratic Party control the House after the 2026 Midterm elections?",
+      "rules": "This market will resolve according to the party that wins control of the United States House of Representatives in the 2026 United States midterm election.\n\nA party wins control of the United States House of Representatives if it wins a majority of the chamber’s voting seats. If no party wins a majority of voting seats, the chamber will be deemed controlled by the party with which the first elected Speaker of the House of the Congress that convenes after the 2026 midterm election is affiliated.\n\nThe following rules govern the counting of seats for determining which party wins control of the chamber.\n\nAll House elections in the 2026 United States midterm election that elect voting members and determine representation in the upcoming 120th Congress are included. Where a seat is decided by a runoff, the runoff result will determine attribution of that seat.\n\nSeats are attributed to the party under which the member was elected. If a member-elect changes party affiliation, or vacates their seat, between election day and the formal organization of Congress, the seat is attributed to the party under which the member was elected.\n\nHouse members elected as independents who formally caucus with, or, for newly elected members, who announce their intent to caucus with, a party are included in that party’s count. If the caucus decisions of members of the House elected as independents cannot be determined on the date of the election, this market may remain open until the earlier of (i) an announcement from the relevant members of their intents to caucus, or (ii) January 4th, 11:59 PM ET of the following calendar year. If no such announcement is made by January 4th, 11:59 PM ET of the following calendar year, the member will not count towards the seat count of any party.\n\nThe resolution sources for this market will be official information from relevant state electoral authorities, the United States Congress, and a consensus of credible reporting.",
+      "topic": "Politics",
+      "end_date": "2026-11-04T04:59:00Z",
+      "url": "https://polymarket.com/event/which-party-will-win-the-house-in-2026",
+      "snapshot": {
+        "time": "2026-10-07T02:16:30Z",
+        "crowd": 0.925,
+        "best_bid": 0.92,
+        "best_ask": 0.93,
+        "volume": 8109434,
+        "liquidity": 2424807,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "Democrats’ advantage is clear with less than a month to go in the midterm elections",
+          "source": "NPR",
+          "published": "2026-10-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOdnphaHRDS1owRWZ5MzRNdlYyUXR3V0xLUmJMUDNkVnJNM3hiTjNpb3EweGR4aTA0cGpCSFFDTHk4X2hvM216bVRadUh2cmwxMjdUeEZOYkJCZVg5ekdYVmpuY2hwYTZCVG8yRXc0X0hFUmViRHdMVTFXOVZzUmlOSXRzVm5Ldw?oc=5"
+        },
+        {
+          "title": "Who Will Win Midterms? Top Election Forecaster Says Democrats Flipping The House Is A ‘Done Deal’",
+          "source": "Forbes",
+          "published": "2026-09-28",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZUx0WWxLTW0tRFVOQnNTYUhTSlBoZ0t2T1Fmb3FoeEM0N2g0bXc1ZGlBVTJiazBTMlFNNVBCRkplUldJUTVWYm91dkIxYjdIV2dkWE5jWENWcVhjbmVjbjJ1Zzc5THVTaEc3c0ptTzJjZUhoUVVabnFOVHBsYmxLTEI3blliTjFnY3ZmZkVISkRKZV9kMVluM0NCc3BBRmtjRDNuc3ZfRGRjQzk5bzZ3Z2I3SDJfWEhu?oc=5"
+        },
+        {
+          "title": "The US midterm races that will decide control of Congress – mapped",
+          "source": "The Guardian",
+          "published": "2026-10-02",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPOXB4V3NLeHdiWmpINkRPaGFuc0wzT3hqN090Z29hTEJCYTlTWDNNU1djam5HLS1LclAxY2RhSFZEVmxWcE9iVlBfVG5vUzluM1ZndlduR2xjZGpLY29qMFI4bGhHSHpEOU1qeDNSWjRIYU9WOE0wdnlDeW1yTE82UWs2eThHQ2MzZmowTm5sMTYxZmRXRDhJVER0aXhrdk1xMHFlOUp0a2hWUzJS?oc=5"
+        },
+        {
+          "title": "Democratic surge predicted to hit Republican states hardest, scrambling Senate strategy",
+          "source": "Reuters",
+          "published": "2026-10-01",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOZXdFSzJFdjBLUDdCTG5MNjBWRzFXaEZTOWR3Rkl6NWtNeHcwd1Z0T18yNEx6emJuVmt3RDV0WU1wRGlqNDFWQ25ZcENURVdRb0RxNVBZR1Y3X01zdlpqa0NzNHBwTHhkSUItTGRRUDNnWWJVRnJ3aHN1aTl1Vk92Q2N1UlpnOTA4T0NYeEdkcW9uOVpsSnk3cEltZDgtUnpmVzVpSjFacEF4X0VsMmV5cTRCdmJQM0dNbS01THlGVW9jdw?oc=5"
+        },
+        {
+          "title": "US midterms polls: Are Democrats winning or is Trump losing?",
+          "source": "Chatham House",
+          "published": "2026-09-29",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPY3lNdmw5cVRQYTkwejFXeENYSzhWYjROanBHSkg2YnBLYVNZZ2J6SVU1Zjk2bS1IRzdjQXVhQksxRHFOTjVQRk5fRHF4ZGpaUkxIREVSU3pqc202eVhpU1BzaWdIbi1WS0VIc0c3eTNsM0tUc1U3Y3NDVjBfVEotWkx4VF9sd3lFZF9YY1A3YTY0bTV6U3Fn?oc=5"
+        },
+        {
+          "title": "Can Democrats win back Congress? What polls show a month before election",
+          "source": "PhillyBurbs",
+          "published": "2026-10-03",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPMGxnQWJrRFZBd0Z0Q1p5cVhhZElHRU1ZRkd3czdQclIyckdOal9qMHJ4SWlnQUxLMk9FdDlJelhndlVlSTdpcHRodTdJMDI1aG4tTUFsVmN1dHNuTWVKUy0xWUp5RVlVbEVFWUd6Nm9zWFZrZmtMVFFCRDVrWk9PeEE4b2ItMFdQZmw2OUhDTk5RYk1RQnVxMHg5VmREQjFIYmNfdjZMS2VwVUstYk12WE5XUzdBb3ZoaTVDaE45WWY3c1RPQUI0RUd0MFdKMHV1T3lfOXV3cWs1bURhQXVtWWxkS1hpZw?oc=5"
+        }
+      ],
+      "forecast": {
+        "probability": 0.85,
+        "reasoning": "This is the mirror of Q1. A strong national environment, midterm history and forecaster consensus (one calls it a 'done deal') all favor Democrats winning a House majority. There is still some room for a polling error or a favorable map to save Republicans."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-07T02:19:08Z",
+        "crowd": 0.925,
+        "best_bid": 0.92,
+        "best_ask": 0.93,
+        "volume": 8109434,
+        "liquidity": 2425485,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Gap of 7 points is under the 10-point minimum."
+    },
+    {
+      "market_id": "630963",
+      "event_id": "57672",
+      "event_title": "Texas Senate Election Winner",
+      "option": "James Talarico (D)",
+      "question": "Will the Democrats win the Texas Senate race in 2026?",
+      "rules": "This market will resolve according to the winner of the 2026 midterm Texas U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
+      "topic": "Politics",
+      "end_date": "2026-11-04T04:59:00Z",
+      "url": "https://polymarket.com/event/texas-senate-election-winner",
+      "snapshot": {
+        "time": "2026-10-07T02:16:30Z",
+        "crowd": 0.655,
+        "best_bid": 0.65,
+        "best_ask": 0.66,
+        "volume": 1134699,
+        "liquidity": 407007,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "Talarico works to reach Black voters in his bid to win a US Senate seat as a Democrat in Texas",
+          "source": "Houston Public Media",
+          "published": "2026-09-23",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxQQzJTWmR6RGFxb1pxOTNuNU9mQlB3WXJxM3BUZHllZnpIc2RLMVRKTjFlWWZ2b1NYMTBqOHprXzF4cmRYR3dFM0pJZTI0amZRNDY0NmsxMnhCcUd3QXVINWtIWm9LMTkyb2VZc2hCYUJBT2Jpa1pZejRqUWpHUm5vV2ktZ2p6OFBucnpRTkxCR3g3cFZxUUxaMjlwVUZXb1h1RkVrcjRKb2l6dndlSWg1VEwzazMxR25KeWpaR2xLamJYOVg5RGg5TGdXNmxMM2loYVlfckU3MXNwdGlIZHIzNThHMktvaDFaa1Y5d1g1Z2hqa2NwdlZHbWlRZExjSnhXUTFybnNhc1ZQM3NfclZrdmg5SdIBmwJBVV95cUxPOXRmQTlvSkVmSDFwVktsYjZVNXFfdGJPRndDNzdKa3NEamF1Z2xiNTRNdHdoVFFTQTRqSGNNLWJZbDE4R3ZxdUJ1TzhJZ0ZfMmJRREVLdEdiU0RyaHpLcWRoUHVOVW5ILVdPRC03MVFqOUxTNlE3U0VlVGZEcUF4MmpTak53QkpmV0pDYTJCRUZWYVRZVWRSaGs5UzJzMlBUU3U5cUcybU9nSzBxRzE2TzhOT3VHOEVsLTQzZU9QWUd0N1hKclVTcG9zTXYyWnNQNHh2cXlRVFVHT2VfVFZzOWFPMklrdnFqc0xpTFp5eHFFb1hLME92WVBZY2JRSjBvd2gxYkpjQkx1cnBmQzJwbmpFczltMXlpbFJj?oc=5"
+        },
+        {
+          "title": "Fox News Poll: It’s a Lone Star Senate showdown between Talarico and Paxton",
+          "source": "Fox News",
+          "published": "2026-10-01",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPLWtOeTNReENibmQ3aktvejVmcUkwdEhFVmk3N1YtLVNtOVY1WHQ2ai10WWVyUjV0M2tkVjkyYTZUUUxnUE5TLWVSOEFaMEhUOVdtYXBROS1lblUzcElXckZ3NWtaRmc5ZnViOWN2czg5SkYtWkFlOTFjMGhBV1g1SlV2cTUzQjRlb0h3VHpsSW1lQ3JkN3A2S2lwdm1IMl83ZFHSAacBQVVfeXFMUGpxOEdHd3cwLVVPeW1HemRPdUhmX282ZGtDdFNMLUtlWHItU2J0cFA5ZHVfMnJvaU9NMWd1QWZLVDR2aW1WY21BRDRkOEF0VkZZSzhDejZPLTE5X3FaODRRdzdJVnljVnJVVzJic0NoUndtdjBTbzVyOUR3TFRKczdsVGNpcjcyZ0xKTGJwcHRHWEd0MWxxQjhRQThnVmoxcXFBVWdua3M?oc=5"
+        },
+        {
+          "title": "Talarico leads Paxton by 2 points in tightening Texas Senate race: Survey",
+          "source": "The Hill",
+          "published": "2026-10-02",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9XbHZhUkdEQUU0ZzllampRSW1vczV3bWtQSXM0eDBPMmRQUTU0UVhfVTcyYXhVbG5RbWdOd0ZWb0EtOEc0UGZyZzlZNV9uWG15R0pOSU45eGtyQm5RWXBRTlhOamhwQ0xGOXc1QWw1UnRlTktNTWpaOGNGTUxfQdIBgwFBVV95cUxQNTJNN1BVXzZpVDVjTXF2aHlCNFhYdV9kc0VqcEprOENSdmRVMV9vWjQwYkFuTUZIYmpSajM2MHZFYzY0RGxxTXJCLXd6V3RkWUZqYnE4Z2ZPX3IzQXZMXzU4Y3NaUlN3RkFwQ09qOGF5QXBtU0s5Q1lyQnNXX2VQVEJNMA?oc=5"
+        },
+        {
+          "title": "How Paxton vs. Talarico compares to Cruz vs. O'Rourke",
+          "source": "Axios",
+          "published": "2026-09-29",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOVmZwa1c3LVpUM0xBYm82UHRiUUx0Mzk1UVdLUXdjSC0tLWhDTDJyUS0xaFBuN2pSMDluMlpISm9nVjhTRktHMTVoQmRDbU5UQmxfbEUyYkllN29qTUlyQ01lS3BlSTNiNXhhWThNcXowUGNXQk5SRjlnb2VqV3Z3VG1QN2l2djVnOWRnZXJCNk01SGp3bTV1aQ?oc=5"
+        },
+        {
+          "title": "Texas Senate race: Paxton faces uphill path as Talarico leads in recent polls",
+          "source": "KVUE",
+          "published": "2026-10-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxORTQ5eHpHLVpDbWQwUEJSVXJSWllQQ015VlZOLURIRGtvbngtX0NiTDcyTms0am9aR2xZQzc3SEpQVl9IYUktekZVeFhXTWN2TFM1aV8yMlBLbUs2UU9laXFrQ3JwZTFGV3JQdHJjYXJucE85bmMxRUh5TzI4R2pfaXBtZ3RVNUhvay1tZWZsS3BVYzlQU1Z4ZlpvRnZhUWdUREtNc1dIbE54end3VXJVY2VOWmtjeU40NnVjRzRWSmVhc1NaX182YWpVQWE4WFcw?oc=5"
+        },
+        {
+          "title": "Talarico leads Paxton by 5 points in Texas Senate race poll",
+          "source": "NewsNation",
+          "published": "2026-09-27",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOT1FkMlZ4QnloTVBxZms2alhOejdIUEdsbTlHT212bUgyN0NpeUpDUnVYZlNucjRGS2FIMjJrcm5zdE5YcWxqa0VYcy0ycTc3SDBCem5zb2o4YU51VWRXay1PS2tIS0lnTzhFazN4dlc5LVRVbWVsUXN3UjY4dWxzZnp3SVRReDdvZnVRT9IBkgFBVV95cUxQR2VBTUpSNS10SE1oVEdMSUZKaU9Qam9Vem5qbzdtWmJFU1pjTEJKZGtmd3JzeW0zczZyZ3hJWnVmaGtUQVJxUnd2SDE2ZXNreUN2MDRfWk5yczVWb0hSQlBBQ1FZVkZNNW5JRGlqZk9mWXlmczFVY3drR1VndTU4emtmWDZfcHQ4djRHSFBndWltdw?oc=5"
+        }
+      ],
+      "forecast": {
+        "probability": 0.45,
+        "reasoning": "Talarico leads Paxton by about 2 to 5 points in recent polls, and Paxton is a weak, scandal-hit nominee running in a bad year for Republicans. However, Texas polls have historically overstated Democrats, for example Beto O'Rourke in 2018. Texas's Republican lean makes this close to a coin flip, with a slight edge to the Republican."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-07T02:19:08Z",
+        "crowd": 0.655,
+        "best_bid": 0.65,
+        "best_ask": 0.66,
+        "volume": 1134699,
+        "liquidity": 406733,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Bet would be under $1 after fees and limits."
+    },
+    {
+      "market_id": "5309160",
+      "event_id": "1134137",
+      "event_title": "Jynxzi, Ron, and Los beat Minecraft by...?",
+      "option": "October 9",
+      "question": "Will Jynxzi, Ron and Los beat the Minecraft challenge by October 9?",
+      "rules": "Jynxzi, StableRonaldo, and Los Pollos are scheduled to begin a hardcore Minecraft marathon on October 5, 2026. Their goal, as of market creation, is to defeat the Ender Dragon in a hardcore Minecraft world without any of the three dying.\n\nThis market will resolve to \"Yes\" if Jynxzi, StableRonaldo, and Los Pollos defeat the Ender Dragon live on stream, as accepted by them as a successful completion of their challenge, between market creation and the specified date, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nOnly events occurring while at least one of the three players is broadcasting the challenge live will count. Footage of off-stream or previously recorded attempts will not qualify.\n\nIf the challenge is cancelled, abandoned before completion, or delayed to a point after the specified date, this market will resolve to \"No\".\n\nThe resolution source for this market will be footage from the official broadcasts of the challenge on Jynxzi's, StableRonaldo's, and Los Pollos's official broadcasts on YouTube and Twitch.",
+      "topic": "Entertainment",
+      "end_date": "2026-10-10T03:59:00Z",
+      "url": "https://polymarket.com/event/jynxzi-ron-and-los-beat-minecraft-byptptpt",
+      "snapshot": {
+        "time": "2026-10-07T02:16:30Z",
+        "crowd": 0.57,
+        "best_bid": 0.56,
+        "best_ask": 0.58,
+        "volume": 28993,
+        "liquidity": 4316,
+        "fee_rate": 0.05
+      },
+      "news": [],
+      "forecast": {
+        "probability": 0.33,
+        "reasoning": "Beating the Ender Dragon in hardcore mode with three casual players, none of whom can die, is hard over a roughly five-day window. A multi-day marathon gives them plenty of play time. But one death likely ends or resets the attempt, and these streamers are not Minecraft experts. I found no news suggesting they have already finished."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-07T02:19:08Z",
+        "crowd": 0.57,
+        "best_bid": 0.56,
+        "best_ask": 0.58,
+        "volume": 28993,
+        "liquidity": 4313,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Bet would be under $1 after fees and limits."
+    },
+    {
+      "market_id": "3247826",
+      "event_id": "778706",
+      "event_title": "Bank of England decision in November?",
+      "option": "25 bps increase",
+      "question": "Bank of England increases interest rates by 25 bps after November 2026 meeting?",
+      "rules": "This market will resolve according to the change in basis points in the Bank Rate resulting from the November 2026 meeting of the Bank of England’s Monetary Policy Committee, relative to the level it was prior to this meeting.\n\nThe resolution source will be official information from the Bank of England, including the statement or release from its November 2026 Monetary Policy Committee meeting, scheduled for November 5, 2026, as listed on the official Bank of England calendar (https://www.bankofengland.co.uk/monetary-policy/upcoming-mpc-dates). This market may resolve as soon as the statement or release of the Bank of England's November 2026 Monetary Policy Committee meeting with relevant data is issued.\n\nIf the specified rate is defined by an upper and lower bound, the relevant change will be the change to the upper bound.\n\nIf the specified rate is changed to a level not expressed in the displayed options, the change will be rounded according to the following guidelines. Increases or decreases of less than 25 bps will be rounded to 25 bps (e.g. an increase or decrease of 10 bps would be considered to be an increase or decrease of 25 bps). Increases or decreases of greater than 25 bps will be rounded to the nearest 25 bps and will be rounded away from 0 in cases of equidistance (e.g., an increase or decrease of 37.5 bps would be considered to be an increase or decrease of 50 bps). Displayed options of “Increase” or “Decrease” will include policy rate increases or decreases of any size.\n\nIf the specified meeting is postponed to a date and time before the start of the next scheduled meeting, this market will resolve based on the outcome of that postponed meeting. If the specified meeting is cancelled, or postponed such that no decision is announced by the start of the next scheduled meeting, this market will resolve to the “No Change” bracket. Emergency changes to the specified rate not resulting from the specified meeting will not be considered.",
+      "topic": "Economy",
+      "end_date": "2026-11-05T23:59:00Z",
+      "url": "https://polymarket.com/event/bank-of-england-decision-in-november-20260730150602252",
+      "snapshot": {
+        "time": "2026-10-07T02:16:30Z",
+        "crowd": 0.915,
+        "best_bid": 0.91,
+        "best_ask": 0.92,
+        "volume": 131474,
+        "liquidity": 18811,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "RBA raises cash rate by 25 bps to 4.60%, highest since 2011",
+          "source": "investingLive",
+          "published": "2026-09-29",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQWTBOMWxnVjFac3pSeHVnQTlVZXh1S0xSeGVDQktMR2ttS25jREN3a0FiWDNzalpkTlY5bjJtNlJJMDJ6LVAycl9GZXNubF9xRHNQc2lzVEdzUWQ1X1RuM0hYYUxpRGVlMnFPeDJmQjBWWmw5UUVXeUN4QTVlSldXYUM2elI3QVJoYXVBaGhON1N0LWR5dC1ZU2hTUUItSmc?oc=5"
+        },
+        {
+          "title": "South Africa raises interest rate, citing Iran war price shocks",
+          "source": "CLUB OF MOZAMBIQUE",
+          "published": "2026-09-24",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcmJkYUpFc2l6ZnBUb2FVM2ZteWl2QV9BbkJpeWFfeEs5SENkZDFhdWlaZ3p1bkxld3NJWVoxZFowbTlvWWxRek5jc0diZ2UtME9KaFBtU0NmM2dfNkZBOEd3UGU4UGNpRFM2TlVmSmMzdFpPZzY4YWlRNkg5NVNoUWktaFc0aFozTy1fTl9GRDRCS1Vvcl9MajdKLThqQQ?oc=5"
+        },
+        {
+          "title": "Pound finds respite on hawkish BoE remarks",
+          "source": "TorFX News",
+          "published": "2026-09-29",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPX2djcEpRZVA3UTNZSWdybWFhMzNWSHZpVU01MWNsTWczS1VrZGFvd2JqOExBbXl4U1VlV1EwMW9CVVVTREVObEJTd3dTNVVsZHRfWXRkN1lZcWdLZTlNTlZ5aHdCTG5MelRvLVc1NjRRSFp1ZURkQXk3MEh0Z0tlbFVKalpEWnQ0WVE?oc=5"
+        },
+        {
+          "title": "BOE’s Mann signals proactive rate hikes to combat inflation",
+          "source": "Crypto Briefing",
+          "published": "2026-10-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQMDF1alFqVHJieXAySEFTUEljOWE4NF9QUU1DWDQ4U0RXNXYtWHJWNkxoa0FOWUpUX0NxeUZ1a2F6YUNTSjVlOFotTVl3ek14V09uOF9TMXZnT1hKNC12QVd1dlk0UXlaV1Job2YwOGtIeXRwbEVSVHREQnFiNktCM004aXNKT01SaGFwZ1pJaw?oc=5"
+        },
+        {
+          "title": "‘Inflation risk may tilt RBI towards 25-bps rate hike’: Economists",
+          "source": "The Financial Express",
+          "published": "2026-10-04",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPVjBHSFJSZkZPRkJ3TlB4NmptOVhhVGhsWGt6OXcwS2Z0Y2VYX2wzNVJUdXR2OTFpblJvSWRIS2tiVDlTdjViS1RENklQbm9xc1lwMVU1Z0xHc1hCdlNmcDhrLU9MLW9CMGRGSzNqYkNpQ0lIeUJlY3J1Z1FJMVRHY2V2NnlVa0FxTUdDZXo2OWpPS2pYV1dEbEU0NGJlelg0S1BtX0RnVkZaV0pzVHBmOWtlSzJfNTY0QTRaUNIBwwFBVV95cUxOZVJGREZjS0Z6WHo5aG5uZkZFMFVEbUZnVVo5S281OWtRZWxZeno4a2JnOHNhUVhHTXRMNHNDMk4yM3J5cl9JS3pOWV9XODU0QlFIUjh1LWRQejc3ekdMVU5DMnFQSXd1aGFNS3luV25XeVFnTnNrcC10NFZqVVRoT1NHVjRPOHNFUWkwVUlaQ3ctWWdHYk5sVE5NcjJHaEx0V19YVEx3Tjc4SHJQcW1GUVdmVWh5SGFYVUR0S2FzTzJVTXM?oc=5"
+        },
+        {
+          "title": "RBI expected to raise Repo Rate to 5.50%; what it means for loan EMIs",
+          "source": "Mathrubhumi English",
+          "published": "2026-10-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPUU1mUDBLTTExbmo1MWRYczNkWU1RSS13NDR1TTF6ZERhMTZ5SmhCZGk3TjRfRnhsVzBGMmlici02X19YS3BuQ09EdEJOVGs2a1lfaUl5dWdPQkNtemk3Ui01MUt1bFB1YWMxZE9LYzhHVjdlVi1iRlh0WXN3QWFOVzUxYkxzLS02MXl6YnFZVXg0aFFzQnFXbVlLekx6RmV6QVpXUtIBpAFBVV95cUxPUU1mUDBLTTExbmo1MWRYczNkWU1RSS13NDR1TTF6ZERhMTZ5SmhCZGk3TjRfRnhsVzBGMmlici02X19YS3BuQ09EdEJOVGs2a1lfaUl5dWdPQkNtemk3Ui01MUt1bFB1YWMxZE9LYzhHVjdlVi1iRlh0WXN3QWFOVzUxYkxzLS02MXl6YnFZVXg0aFFzQnFXbVlLekx6RmV6QVpXUg?oc=5"
+        }
+      ],
+      "forecast": {
+        "probability": 0.38,
+        "reasoning": "Inflation shocks tied to the Iran war are pushing central banks such as the RBA and South Africa's reserve bank to raise rates. Commentary says November, which comes with a full Monetary Policy Report, is 'firmly in focus.' Mann signaling hikes matters less because she is a known hawk, and the committee recently held. A hike is plausible but not the base case."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-07T02:19:08Z",
+        "crowd": 0.915,
+        "best_bid": 0.91,
+        "best_ask": 0.92,
+        "volume": 131474,
+        "liquidity": 18775,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Bet would be under $1 after fees and limits."
+    },
+    {
+      "market_id": "5240811",
+      "event_id": "1125232",
+      "event_title": "Another pneumonic plague case in Russia by...?",
+      "option": "October 15, 2026",
+      "question": "Will a new pneumonic plague case be confirmed in Russia by October 15?",
+      "rules": "This market will resolve to \"Yes\" if a confirmed case of pneumonic plague in a human is reported in the Russian Federation at any point between market creation and the specified date, 11:59 PM Moscow time, . Otherwise, this market will resolve to \"No\".\n\nA \"confirmed case\" is a case explicitly identified by a qualifying source as laboratory-confirmed Yersinia pestis infection with pneumonic (pulmonary) involvement, or explicitly announced as a confirmed pneumonic plague case. Publication of the underlying laboratory results is not required. A bubonic or septicemic case that progresses to pneumonic plague qualifies. A case reported only as \"plague\" with no form specified, and a case described only as suspected or probable, do not qualify.\n\nThe case must be distinct from the Irkutsk Anti-Plague Research Institute employee who reportedly passed away on October 1, 2026; subsequent confirmation, reclassification, or post-mortem testing of that patient will not qualify. Resolution turns on the date a qualifying source publishes the confirmation, not the date of exposure, symptom onset, or laboratory result. A report published after the deadline does not count even if the infection occurred earlier.\n\nThe primary resolution sources for this market will be official information from Russian federal or regional public health authorities and the WHO; however a consensus of credible sources will also suffice.",
+      "topic": "Science",
+      "end_date": "2026-10-16T03:59:00Z",
+      "url": "https://polymarket.com/event/confirmed-pneumonic-plague-case-in-russia-byptptpt",
+      "snapshot": {
+        "time": "2026-10-07T02:16:30Z",
+        "crowd": 0.155,
+        "best_bid": 0.14,
+        "best_ask": 0.17,
+        "volume": 25527,
+        "liquidity": 3456,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "Siberian Anti-Plague Institute Staff Isolated After Worker's Death",
+          "source": "Radio Free Europe/Radio Liberty",
+          "published": "2026-10-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPSEx6d3VxR1QtNUVfV3J4cDE1cl9mSlc2WFFNbjdxZjVzTWw5MTJiS0h3MGt4dVVRNkZPVUFKQ0hQZE1JeXAtMHJEZGs3TG9ZUEExb0w2NTNuSTNVNmFqQmRIY0RGNnNVa0pIekR5VzNwSzc3dTdCQThELWFUazQyRjV0TkJrSlFMX3paSHVYc9IBkgFBVV95cUxPT0E5MkJQUXRWLW9UU0lLamdFU0ZOeEI4WldMa2F5eHFXUi1tVXVMa19JUzhaWFd1M1Jab3o1TkNZeTNwbHJ0RWN2bXJSWUNKV2I5dnplLXdFX1J2X2dZdjZxelRDbndyYnppcVQ5Uk8tSGF6NzJxN2NfU2NVTWdmcnFXQzMyZi1xT0lHZGZPdnladw?oc=5"
+        },
+        {
+          "title": "Scoop: White House monitors suspected plague outbreak in Russia",
+          "source": "Axios",
+          "published": "2026-10-04",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5XOWV5amNoaTYwcjNNS1liVl8ySTBaX2tmNzNac2JZNGpDN0ZkQ1dRZ2txa2JuVXRyZkNkaWZhYzJIQk8yVmZ6YXc3aGFQcnMyX0IwN3QwanlTVm9qY1RCWVhLQi1UQ3VLNE45Zi1DREVKMmY1RDNKNURB?oc=5"
+        },
+        {
+          "title": "Dozens quarantined after researcher at Russian plague laboratory dies of ‘unknown’ infection",
+          "source": "CNN",
+          "published": "2026-10-04",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPZV9DaDFJbWhKbXBBOUZFQkJyWjYtUFpmcnVlS1E4TWFoMGN5ZEp1UmVoazlQVHFVSTFDMnJJejRheDJuNTJ2d2lPdElZUlI2STBGXzBZc09vWWdrSTNtMFFFaW9PdU9MdWpIWXNVUGZ6UHNLWVVIanFmelRsU04yNFdR?oc=5"
+        },
+        {
+          "title": "Nearly 200 People Under Observation After Irkutsk Lab Worker Dies From Plague",
+          "source": "The Moscow Times",
+          "published": "2026-10-02",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPYlJyQWsxSFotWEg0UEw5ZE9DOE1ld0M3cWxLMUhYa3l0bmpLZmY3UTBlVU44bUF6RWpMeXZEX05XSWZiNE9KeFNHR0ZhSnYzRERyTFNsVjRzRmx6TUVld1E3bmRMOGFOVEVJdDkzNmthaUV3WFp4Mk5XTFVjQWtTLTgyY3B2d0dfNGdhZ0Z6RVJLWld6dTkzSEh3SDgydFJGN2Q0bm45dGs2WS1rUW1xeXlhRk53am4wTW5xWk45ZjVLdEgw?oc=5"
+        },
+        {
+          "title": "Russian lab worker dies of suspected plague as 200 enter medical observation",
+          "source": "NBC News",
+          "published": "2026-10-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNbmdUdVpKNGpYM3p3Y2xCeE5zZzZHUHE1YzR2Mzk1QXNrbzhkNWZFaTJEc1E1cVEtM09oZGpHTXNiMVFma19ObkpHVFVoY2k5MS14eU5YUGppZU5pWVc4YjUtblBLMHRUQk1JQVd2M3VyZ3daMEpVNWxYOVN5RGNZbzFiUzB3bFQ0eVR4MmJ1MlhNWTFPYW1lcmZuSUJwd3FMOTUtTjJrVHl0Q25UM3RiSw?oc=5"
+        },
+        {
+          "title": "Russian Lab Worker Dies in Suspected Pneumonic Plague Case",
+          "source": "Contagion Live",
+          "published": "2026-10-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOLVA2Y2x1Y1JqTVFZODZLY25oUWZ5R1VWbGtyV3JKXzJMTzg0ejVaWUEzSS15QW9KY08zdUxuN3FxaGY4NWI1b0JTQjR0c2xyVzlhb3BWbnhtb09lVjlPRUMwYTNJOGNpVi1lWl91MFNxUkN0Zk1CX0gyd01fd0NTYVh1LWN1aGN4NW9rT0V3Qk9NeEhycHlnTQ?oc=5"
+        }
+      ],
+      "forecast": null,
+      "bet": null,
+      "bet_note": "Claude gave no forecast for this question."
+    },
+    {
+      "market_id": "3247825",
+      "event_id": "778706",
+      "event_title": "Bank of England decision in November?",
+      "option": "No change",
+      "question": "No change in Bank of England’s interest rates after November 2026 meeting?",
+      "rules": "This market will resolve according to the change in basis points in the Bank Rate resulting from the November 2026 meeting of the Bank of England’s Monetary Policy Committee, relative to the level it was prior to this meeting.\n\nThe resolution source will be official information from the Bank of England, including the statement or release from its November 2026 Monetary Policy Committee meeting, scheduled for November 5, 2026, as listed on the official Bank of England calendar (https://www.bankofengland.co.uk/monetary-policy/upcoming-mpc-dates). This market may resolve as soon as the statement or release of the Bank of England's November 2026 Monetary Policy Committee meeting with relevant data is issued.\n\nIf the specified rate is defined by an upper and lower bound, the relevant change will be the change to the upper bound.\n\nIf the specified rate is changed to a level not expressed in the displayed options, the change will be rounded according to the following guidelines. Increases or decreases of less than 25 bps will be rounded to 25 bps (e.g. an increase or decrease of 10 bps would be considered to be an increase or decrease of 25 bps). Increases or decreases of greater than 25 bps will be rounded to the nearest 25 bps and will be rounded away from 0 in cases of equidistance (e.g., an increase or decrease of 37.5 bps would be considered to be an increase or decrease of 50 bps). Displayed options of “Increase” or “Decrease” will include policy rate increases or decreases of any size.\n\nIf the specified meeting is postponed to a date and time before the start of the next scheduled meeting, this market will resolve based on the outcome of that postponed meeting. If the specified meeting is cancelled, or postponed such that no decision is announced by the start of the next scheduled meeting, this market will resolve to the “No Change” bracket. Emergency changes to the specified rate not resulting from the specified meeting will not be considered.",
+      "topic": "Economy",
+      "end_date": "2026-11-05T23:59:00Z",
+      "url": "https://polymarket.com/event/bank-of-england-decision-in-november-20260730150602252",
+      "snapshot": {
+        "time": "2026-10-07T02:16:30Z",
+        "crowd": 0.065,
+        "best_bid": 0.06,
+        "best_ask": 0.07,
+        "volume": 93531,
+        "liquidity": 22643,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "Will the Bank of England Raise Interest Rates in Q4?",
+          "source": "Morningstar",
+          "published": "2026-10-01",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOdjN3NldKRzFTQ3lIeHJvTGJfemFKdENLdFdBMUU4VFhfeTlYRzhGNHQ1S2lja2ZZTnVTMzBpUFNVd0ZWY1hTeFEyZ182clhMUTRidFh5TE5fbkZWQWhzb1hDbXJrc253Y2Z5V1hXNHVqOEYxcHRhYnhrUW9DMFlDZFdkbnhRd0ZxU2x2VmJicw?oc=5"
+        },
+        {
+          "title": "Bank Rate holds again, but November is now firmly in focus",
+          "source": "Mortgage Soup",
+          "published": "2026-09-24",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOMUYyOTUyX1EzdGRBbWF6N0Z1bUM5Q1Fzb2R1NWM3SDNUcXUtejdBYmFWcjFnb0JGVERKcWNQeUdlclFyZTBLM2o0UlFZM3BERng4WldwX1cwci15anMtV2xuVFE2ZXo3MExXTVFqSzZtay1BNk1QdnQ0QXZETWNaR0dKVmlsYjJCbWRPbDln?oc=5"
+        },
+        {
+          "title": "UK GDP Preview: Second-Quarter Growth Revision in Focus",
+          "source": "AskTraders",
+          "published": "2026-09-29",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNckNxSDZKMUNhNHZWSGpLYzJuM1RYQmV5RXJiTXpweFNTdUM4Z0JXam8ySHNtRjFIODdidWJzR2ZxTEc3V2JpNzRJYndqYTFjYmJWVHZsaEZqNXpacHk1NGsxUUswZVd6N1l1Z3FjYjlPZVRfZ1RLeFc0NDlSY0xBSlBSTmZEeGlHTDZfb2FBbGdWNGlET3c?oc=5"
+        },
+        {
+          "title": "When will interest rates fall? Forecasts for a base rate cut",
+          "source": "This is Money",
+          "published": "2026-09-29",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOd0I5TUN6UXZmNWxJeUhwY2ppTWpjSkFlY21rTlMtMGJvc2ZwSDdORU8tbkJITktIbXkySW5iYXpkS0tfc0s0dlJMbk9lVUNNa0FjR0xWUER6djdBazhyYXlnOWpvM3ZHaEk4UXBRNG5aSXhwRHdFYzN6cGFSVWRiQlRvQlc0TVZHMHNEenRPbjF2bTNhcVV4aG4yUzU3UmdEUDlLeUVTZjJWa3BSM0tWLWtFTdIBuAFBVV95cUxQVDRMS3VPUlpQRXBWQXFtZWxGRkxnUVZxdUJqSGI0UGFQNUNRYl8wc1FzMmZJRmJrRGFob0lXMnRzemFYRkIwT0x3ZmQxcWhfU1pEbDhaaS1ubHQ1QVpXcFlhd013RkJDeFIyUmFLTlMzM2lhbnFfb2dsVU5JTU1acU1hODhydlViVUZ3ZW9aendoblNFQnpZdTZ6blVqT3lrOXl5Q29GR052N2FNejVzaVNMUndQNDUx?oc=5"
+        },
+        {
+          "title": "GBP/USD trades 1.3247, up 0.20%, inside a three-day range of 1.3182 to 1.3256.",
+          "source": "TradingNEWS",
+          "published": "2026-10-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOMHhQVXlFQjRvbnN3aG5aY3FsUGdRTFZrQURIRkpCNkdtNm9JdHhxUWRwUVdGcy1Qam4tb1k4T2Z0MmZuSUoxOXpKYWdXRERRY2N2LThtTUFBVXBCVDJQNGR5ZVVrRk52OFRCRU96UGx2Y1BPQkxIOG5JenlaQjI5TmdhMnZnbnc5Zk1talRtemE?oc=5"
+        }
+      ],
+      "forecast": {
+        "probability": 0.59,
+        "reasoning": "The Bank of England held at its last meeting, and the committee tends to move cautiously. Hawkish pressure from global inflation creates real hike risk, while a cut looks very unlikely. On balance, holding remains slightly more likely than hiking."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-07T02:19:09Z",
+        "crowd": 0.065,
+        "best_bid": 0.06,
+        "best_ask": 0.07,
+        "volume": 93531,
+        "liquidity": 22703,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Bet would be under $1 after fees and limits."
+    },
+    {
+      "market_id": "5178290",
+      "event_id": "1114151",
+      "event_title": "3rd largest private company end of October?",
+      "option": "ByteDance",
+      "question": "Will ByteDance have the third highest private market valuation at the end of October?",
+      "rules": "This market will resolve to the listed company with the third largest private market valuation on the last trading day of October 2026.\n\nNPM Prices are published for trading days only and are updated once daily at 1:00 PM ET on the following calendar day.\n\nIf NPM has not published relevant data for all business dates in the specified period by 1:00 PM ET on the calendar date following the specified date, this market may remain open until 11:59 PM ET on the third business day following the specified date. If no further data is released by that time, the market will resolve according to the data available.\n\nIf NPM ceases publishing relevant data prior to the specified date, this market will resolve based on the NPM data published prior to the cessation of coverage, as well as applicable public market capitalization data following an IPO or direct listing.\n\nIf a company completes an IPO or direct listing before the specified date, this market will resolve based on its final NPM valuation published between market creation and the IPO or direct listing date, as this market is based on private market valuations only.\n\nIf a listed company merges with or acquires another entity and remains the parent company, no change to resolution methodology applies.\n\nIf a listed company is acquired, merges into another entity and is no longer the surviving parent company, or otherwise ceases to exist as an independent entity prior to the end of the period, only the NPM valuation achieved prior to completion of the transaction will be considered for resolution. No transaction, acquisition, or merger consideration will be considered for resolution.\n\nIf two or more companies are tied for the third highest valuation, the market will resolve in favor of the company whose listed name comes first alphabetically.\n\nRevisions to previously published NPM data made after their initial release will not be considered, unless made to correct clearly erroneous data.\n\nThe resolution sources for this market are:\nhttps://fe.secondmarket.com/companies/data?start_date=2025-12-31&view=valuation&companies=company-c62b8140-fdeb-428d-a9a6-d04eb3b24b49\nhttps://fe.secondmarket.com/companies/data?start_date=2025-12-31&view=valuation&companies=company-3e197763-4ff8-4d8c-bd1f-cc2792937757\nhttps://fe.secondmarket.com/companies/data?start_date=2025-12-31&view=valuation&companies=company-f364d2ab-34b7-48c9-a2b7-af62da804953\nhttps://fe.secondmarket.com/companies/data?start_date=2025-12-31&view=valuation&companies=company-5e0e75a3-96d6-4893-8f23-9d9bac0ec1db\nhttps://fe.secondmarket.com/companies/data?start_date=2025-12-31&view=valuation&companies=company-53787f17-a704-47a9-895a-cb54833bdb1f\nhttps://fe.secondmarket.com/companies/data?start_date=2025-12-31&view=valuation&companies=company-782c0a32-4727-4097-a40b-9a2602f243e7\nhttps://fe.secondmarket.com/companies/data?start_date=2025-12-31&view=valuation&companies=company-30839e0b-2730-4495-839f-1bf638fa9cca\nhttps://fe.secondmarket.com/companies/data?start_date=2025-12-31&view=valuation&companies=company-802a7f97-3625-4614-a13d-d999cf139330\nhttps://fe.secondmarket.com/companies/data?start_date=2025-12-31&view=valuation&companies=company-70f3c3d1-565b-491a-83df-54d0c8b08186\nhttps://fe.secondmarket.com/companies/data?start_date=2025-12-31&view=valuation&companies=company-6edded11-6786-4392-9695-3cce6fda0de0",
+      "topic": "Tech",
+      "end_date": "2026-11-01T03:59:00Z",
+      "url": "https://polymarket.com/event/3rd-largest-private-company-end-of-october-2026",
+      "snapshot": {
+        "time": "2026-10-07T02:16:30Z",
+        "crowd": 0.91,
+        "best_bid": 0.9,
+        "best_ask": 0.92,
+        "volume": 11524,
+        "liquidity": 3979,
+        "fee_rate": 0.04
+      },
+      "news": [],
+      "forecast": {
+        "probability": 0.35,
+        "reasoning": "The leading private companies are likely SpaceX, OpenAI, Anthropic and ByteDance, and Anthropic's valuation has been rising fast. ByteDance probably sits fourth unless SpaceX drops out after an IPO or Anthropic is priced below it. The rules on post-IPO companies are ambiguous, which adds uncertainty."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-07T02:19:09Z",
+        "crowd": 0.91,
+        "best_bid": 0.9,
+        "best_ask": 0.92,
+        "volume": 11524,
+        "liquidity": 3853,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Bet would be under $1 after fees and limits."
+    },
+    {
+      "market_id": "5166967",
+      "event_id": "1111222",
+      "event_title": "3rd Largest Company end of October?",
+      "option": "Microsoft",
+      "question": "Will Microsoft be the third-largest company in the world by market cap on October 31?",
+      "rules": "This market will resolve to the third-largest company in the world by market cap on October 31, 2026, as of market close.\n\nThe resolution source for this market will be a consensus of credible reporting.",
+      "topic": "Economy",
+      "end_date": "2026-11-01T03:59:00Z",
+      "url": "https://polymarket.com/event/3rd-largest-company-end-of-october",
+      "snapshot": {
+        "time": "2026-10-07T02:16:30Z",
+        "crowd": 0.135,
+        "best_bid": 0.11,
+        "best_ask": 0.16,
+        "volume": 13980,
+        "liquidity": 5301,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "Microsoft Slashes Internal Claude Spending by a Third",
+          "source": "The Information",
+          "published": "2026-10-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOaEpVcFVhSDFxejVlaUt2WWdBeFIxU0Z4bmVqVFVPZHJTVDc1VzQ3SjA2a1JzTTViLUlwTjRZSWFXLTZFWGZGZ09wM1JVUnJ3NnlIaTBKdXRTQ3JScURTMUw0UVQ2Uzl6aUw1dnJ4ZHBpWGYtX1AwOVhxMmQ4dGNKYlBjTjJaSFlYVm54S3JCb3Z0QQ?oc=5"
+        },
+        {
+          "title": "Jim Cramer Predicts “Big Move Coming” For Microsoft Stock",
+          "source": "Yahoo Finance",
+          "published": "2026-10-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZC15QjVWenlTN0tjX2l3VWdxRGZzd0hyY3NjNFpCNmhnTm5yRElIQVB5VGFDalZESjMxcnZHRGFWbEo3bGh0T21HcjhMYmdocWtVcVVmZkVsbXVwVGh5VzJDbmJSNHFVLVFMc29xWGpITVh1OC1BQmVNTTd3QWk1ZkhPU1M3Mko5RWVCLUZqZ3hPODNWUVMwRA?oc=5"
+        },
+        {
+          "title": "Jim Cramer Predicts \"Big Move Coming\" For Microsoft Stock",
+          "source": "24/7 Wall St.",
+          "published": "2026-10-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQU4xUHlWdG9SZzNIWFo3aUxvZEJyVjFEMkYxSnFuYWV0NXgyZ3NFRkJudTMzSWZVOGwwM0hoR3NxU0lVUWtPTzJ4N1lwa2VNZGVtTU9sQkw4N2lLYXVhSnFBbGNfTlBfcUw5U0RJWi1GRWNmTEMwU210Q2taX1ExNGIyWjdYTXJaNlZ4RGs5UlZyWWF0TC1aY3NwS2JqYW1l?oc=5"
+        },
+        {
+          "title": "Software roared back last quarter. Cramer says these stocks can keep climbing",
+          "source": "CNBC",
+          "published": "2026-10-01",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE40cm5WdGRPelBsUmQySHJqanB4UXBvckM1Z3BpRUNRZHU5WmZEb1VLTDlyaVZvRjU1MndRZ1dEZWVaMzZNaHB1TWd1d3hJTWtMVTJWei1waWFBb005X25ONlE0VlpwX2I5clRTcmFtRDhOaWFZ0gF6QVVfeXFMTXNtN1NjS19kck5yNkZRZEozV0o2d2R6dnk4aWpxNHBSWHFXc19xWlQ1Y0ZFY3dURS1BRzRUaW9YWW90ckdSSHMyZnp1WE5EMFVKRlNRVElvQ1hmcWtUR1pKZnFNWEpyUndpTFZ6U3Y0UlB1T09rY1VXVGc?oc=5"
+        },
+        {
+          "title": "Windows Is About to Change Forever: My Predictions for Microsoft's Big October Event",
+          "source": "PCMag",
+          "published": "2026-09-23",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNVS1iZVRGZEZ1Y21UeEpSLTNlN1hhMHZOWWxYVV9jWVVSZzEyWUtpSS1tbEprX21iLVhJbnByNGZnQnZpU181QWZjbVh3SXgzUWpsMWpFSVJXRVBTTmQySDZuaGF1S0VzTE51bnBLdmx2eHFOM0o4NE9ZQTdIaUphemxvVndSZ3NSS2huRXNmdWV2T0dGVDd3YTZaNWhsMEx4bllhczRn?oc=5"
+        },
+        {
+          "title": "Alphabet vs. Amazon vs. Microsoft: Which \"Magnificent Seven\" Stock Is the Better Buy Right Now?",
+          "source": "The Motley Fool",
+          "published": "2026-10-01",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUExqTjJ2aG9jTjlVQldYeV93aXBsQ0xXNkdvTjR5RFY4OEV6ZnF1dFZaQnlZWG1RZGItbkhuUEEwdXZvZU1vMVRlVWtrdFRZODZ5VW40TC1MQ0xEQWoyTUFmbXN0Qnd3MlY3Y2FXNmRrVmE4TnY1YXdzVlIxcXRkdlJuRDdjVWdCaXV0b2NDWkYwdUc5WGww?oc=5"
+        }
+      ],
+      "forecast": {
+        "probability": 0.15,
+        "reasoning": "Microsoft's stock fell back in 2026 to around the fourth spot, behind Nvidia, Alphabet and Apple. Climbing to third within weeks would require a large relative move, such as a strong earnings reaction in late October. That is possible but unlikely."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-07T02:19:09Z",
+        "crowd": 0.135,
+        "best_bid": 0.11,
+        "best_ask": 0.16,
+        "volume": 13980,
+        "liquidity": 5316,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Gap of -1 points is under the 10-point minimum."
+    },
+    {
+      "market_id": "3554471",
+      "event_id": "841209",
+      "event_title": "Best Chinese AI Company end of October?",
+      "option": "Alibaba",
+      "question": "Will Alibaba have the best Chinese AI model at the end of October 2026?",
+      "rules": "This market will resolve according to the company that owns the model that has the highest arena rank among primarily Chinese companies, based on the arena.ai Text Arena (Overall) when the table under the \"Leaderboard\" tab is checked on October 31, 2026, 12:00 PM ET.\n\nChinese Companies include but are not limited to Alibaba, Moonshot, Baidu, Z.ai, Xiaomi, DeepSeek, ByteDance, MiniMax, Meituan, Tencent, and StepFun. Companies not headquartered in China or not primarily owned or operating within the Chinese technology ecosystem are not considered primarily Chinese.\n\nResults from the \"Rank\" column under the \"Text Arena | Overall\" Leaderboard tab at https://arena.ai/leaderboard/text/overall-no-style-control with style control off (Adjustments: None) and filtered for \"Models\" will be used to resolve this market.\n\nNote: Models marked “AutoEval” at the applicable check time will not be considered, regardless of whether they display a rank or score.\n\nQualifying Chinese Models will be ordered primarily by their leaderboard rank at the market’s check time. If two or more models are tied on rank, they will be ordered by their Arena score, including any underlying, unrounded, granular values reflected in the data below the leaderboard. If a tie still remains, alphabetical order of company names as listed in this market group will be used as a final tiebreaker (e.g., if the two models are tied by exact arena score, “Meituan” would be ranked ahead of “Xiaomi”). This market will resolve based on the company that occupies first place under this ranking.\n\nThe resolution source for this market is the arena.ai Text Arena (Overall). If this resolution source is unavailable at check time, this market will remain open until the leaderboard comes back online and will resolve based on the first check after it becomes available. If it becomes permanently unavailable, this market will resolve to \"Other\".",
+      "topic": "Tech",
+      "end_date": "2026-10-31T16:00:00Z",
+      "url": "https://polymarket.com/event/best-chinese-ai-company-end-of-october",
+      "snapshot": {
+        "time": "2026-10-07T02:16:30Z",
+        "crowd": 0.38,
+        "best_bid": 0.36,
+        "best_ask": 0.4,
+        "volume": 51585,
+        "liquidity": 3977,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "Alibaba Falls 4% as Reported Beijing AI Probe Undercuts Chip Rally; Baidu Eases, JD.com Dips",
+          "source": "Yahoo Finance",
+          "published": "2026-09-23",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPVnZ3QW9LMldYTzVKTlpCblBBZVAwOEVGMmNYRHF5WThBU04welRHMVc1aXN5Q0xIMmpTTWttd0J6YlByUzl2ZmhQQ0R6MDljWXBoMHdCSXFYNU1ESGlNOWpiRVZtNlY1c0tRTUViek0yOXU4am5CaFFiN1JsOFRIb1ZVRnJUYS1YSDFRdjJ1VmY5U1lJeG15U0FxaDg?oc=5"
+        },
+        {
+          "title": "China Weighs Allowing Purchases of New Nvidia Chips by ByteDance, Alibaba",
+          "source": "The Information",
+          "published": "2026-09-27",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNl9kVzV0NlBYQ0pyQ1ltekFUemRHX0pKNkJMcHRJN2pBMzFEYXh2U3NLbnd1dkJaWGUza3NRR1VJYmE1bVk2SlNMS09EcGNDR3RDZkdDSWd4aGVKYTNZek5CQzRoM2NUd0VCOUMxWHNXLTd5eFA2d05tLVRab1ZWS0QxSjlBX1ZHN2xHcU9ndzZPMG5NVTFCem1tSm5HWlBtNXVpem44dUNNZw?oc=5"
+        },
+        {
+          "title": "Chinese AI Chips Could Flood the Market. Alibaba’s New Chip Is 3X Better Than Its Predecessor.",
+          "source": "Barchart.com",
+          "published": "2026-10-04",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQMXJ5VXNkQ2RLUVZ2bXlWdllDbkRyVGVyN25HWHBQaWtRb29zNGw2bjNnYUtTZ0J6eEZQbGNsX3hNdXVraVNmQUx5UXpvTW5tQnRzVUwxWUFiaVhPTHdkSjM1T3F4cVpvWWZKbmtoRFdlOXFKakhWSFRqRHNZOG9pdFdPZTd2cWhROUNWZmFMTkxFRlQ1NkEtX3dqLTNVRko2N0pmTU1YdllmTTVUWlByUndCX0I0LVBuV1ptODg0MTVhVXluVlFvTl9tbVhGLXNl?oc=5"
+        },
+        {
+          "title": "Reflection AI's 5B Open Model Challenges China [2026]",
+          "source": "https://tech-insider.org/",
+          "published": "2026-10-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5OMlNSTElWS19ObmJERUFmVzI1MHRpeXcybExyT29xd1hyM0J3UVBoUEViLTdrYnFCaEE1dnlGQzBKUkFidTZOVW9rQm54ajAweHVndzdDODlPNXM4QVA2SFZTOU5LXzlBZmY5dFVVUEtMSTJnNkxr?oc=5"
+        },
+        {
+          "title": "Zhou Yuxiang hired food delivery riders to sell AI to factories. Now he’s chasing China’s industrial AI breakthrough",
+          "source": "Fortune",
+          "published": "2026-10-02",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPVTdKTVd3V19SanE2R0ZRbXpjMnRvVWhhejI1d3JaRnBjU2Q5SWlqa3pudlE5ZldlTmtiRl9kSk9JZ0pqMklwemxJLS10SjY1QmNMS2RuODNGR0ZPbnVlM0xLcG0xVDN3Z3dUbjk0VzVHb2t6YUhYOXRvYjJuazAyNWdyUkU?oc=5"
+        },
+        {
+          "title": "BABA Deadline Alert: Levi & Korsinsky Reminds Alibaba Group Holding Limited (BABA) Investors of Securities Class Action Deadline on October 5, 2026",
+          "source": "Morningstar",
+          "published": "2026-09-23",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxQcFpVWFlOU1N4MU9EZWFYNUY0cHd5UW5yWUdYbWMyWF9EYkFBeXQxN2pLN2xXRGhkcHhWR3lwaE1WWHNOTFFsU0Y5blNoa1JubFRmaFY5WV9adFdIY1dSMUNSQVd0ajF1UEZsQlNfemsxZjhfMEU3QmZPWkMxc0tQbENNNl9acHZaUmdMSTlkTGJQT2h5QUxpQnNZc18wZHM0OF9uLUs0QU94Ukd6cjZiWEFlX2JkbWQyeFBic19WZTJPNnY2eG5qbGt4dmpxRDRtaFJGclEydHFRWWlJY2VpT1dpbVZoUzZUdGdhYjNzemFQeFo5REFzY3d0QlhvQnlpRkh0TFRyem5rWUk4SXgwRWJnWWZxUlZEc0VOTzJnTFdlOTZYVWZ2VWJB?oc=5"
+        }
+      ],
+      "forecast": {
+        "probability": 0.3,
+        "reasoning": "Leadership among Chinese models on the Arena text leaderboard rotates among Alibaba's Qwen, Z.ai's GLM, Moonshot's Kimi, DeepSeek and ByteDance. Alibaba's frequent releases make it a leading contender. With many competitors and new releases possible before October 31, it is well short of a favorite."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-07T02:19:09Z",
+        "crowd": 0.38,
+        "best_bid": 0.36,
+        "best_ask": 0.4,
+        "volume": 51585,
+        "liquidity": 3573,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Gap of 6 points is under the 10-point minimum."
+    }
+  ],
+  "batch_id": "msgbatch_014YCwuc7gzqt8DDcsSoKotA",
+  "forecast_at": "2026-10-07T02:19:07Z",
+  "usage": {
+    "input_tokens": 7607,
+    "output_tokens": 2445
+  },
+  "cost_usd": 0.0397,
+  "budget": 0.0
+}
