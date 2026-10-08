@@ -1,0 +1,693 @@
+{
+  "run_id": "2026-10-08",
+  "date": "2026-10-08",
+  "created_at": "2026-10-08T00:07:42Z",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "questions": [
+    {
+      "market_id": "562830",
+      "event_id": "32228",
+      "event_title": "Balance of Power: 2026 Midterms",
+      "option": "R Senate, D House",
+      "question": "2026 Balance of Power: R Senate, D House",
+      "rules": "This market will resolve according to the party that wins control of the United States Senate and the party that wins control of the United States House of Representatives in the 2026 United States midterm election.\n\nA party wins control of the United States Senate if it wins a majority of the chamber’s voting seats. If no party wins a majority of voting seats, the party that wins control of the chamber is the party that wins half of the voting seats and holds the Vice Presidency. If the outcome remains ambiguous after applying the above criteria, the chamber will be deemed controlled by the party with which the first selected President Pro Tempore of the Congress that convenes after the specified election is affiliated.\n\nA party wins control of the United States House of Representatives if it wins a majority of the chamber’s voting seats. If no party wins a majority of voting seats, the chamber will be deemed controlled by the party with which the first elected Speaker of the House of the Congress that convenes after the 2026 midterm election is affiliated.\n\nThe following rules govern the counting of seats for determining which party wins control of the chambers.\n\nFor determining Senate control, all regular and special Senate elections that determine representation in the upcoming 120th Congress and are scheduled to take place in November 2026 as of October 31, 2026 are included. Vacant Senate seats for which no election or special election to fill the seat is scheduled to take place in November 2026 as of October 31, 2026 will be treated as held by the party affiliation of the most recent member to hold that seat. For determining House control, all House elections in the 2026 United States midterm election that elect voting members and determine representation in the upcoming 120th Congress are included. Where a Senate or House seat is decided by a runoff, the runoff result will determine attribution of that seat, even if it takes place after November 2026.\n\nFor seats contested in the specified election, seats are attributed to the party under which the member was elected. If a member-elect changes party affiliation, or vacates their seat, between election day and the formal organization of Congress, the seat is attributed to the party under which the member was elected. \n\nFor seats not contested in the specified election, seats are attributed to the party that holds the seat as of the date of the election. If a current sitting member of the U.S. Senate who is not up for election changes party affiliation or vacates their seat after the date of the election, the seat is attributed to the party under which the member was affiliated at the time of the election.\n\nSenate and House members elected as independents who formally caucus with, or, for newly elected members, who announce their intent to caucus with, a party are included in that party’s count. If the caucus decisions of members of the Senate or House elected as independents cannot be determined on the date of the election, this market may remain open until the earlier of (i) an announcement from the relevant members of their intents to caucus, or (ii) January 4th, 11:59 PM ET of the following calendar year. If no such announcement is made by January 4th, 11:59 PM ET of the following calendar year, the member will not count towards the seat count of any party.\n\nThe resolution sources for this market will be official information from relevant state electoral authorities, the United States Congress, and a consensus of credible reporting.",
+      "topic": "Politics",
+      "end_date": "2026-11-04T04:59:00Z",
+      "url": "https://polymarket.com/event/balance-of-power-2026-midterms",
+      "snapshot": {
+        "time": "2026-10-08T00:07:39Z",
+        "crowd": 0.275,
+        "best_bid": 0.27,
+        "best_ask": 0.28,
+        "volume": 3069483,
+        "liquidity": 2589047,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "2026 Senate Election Interactive Map",
+          "source": "270toWin.com",
+          "published": "2026-10-02",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1MQVFrRE5uYXFVbmZiV2Z4anhmRFdoQm1XNlRBS1FlbXlBSmE0STJ3bTFuZ25laGtXVk1tcjc1eWhGbjdOcjBQQnItRWxPMEI4NnFkYWFkNjlsQQ?oc=5"
+        },
+        {
+          "title": "Tracking Competitive Races in the House and Senate",
+          "source": "The New York Times",
+          "published": "2026-10-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZ0ZhWGZlU2pYdmYwbk9SNk9JMWd6aTN1SjNudktsVkFoWEt3T3FJR1RjTC1ZU3Q3YU9ReTV0WUJJQkdDOWpzTWJ1X0liWk91MlpFdmxvX2F2THY3VnBVRDlRQlZFY19fYjRrZDQ1UlN6TGRueERkdmNIQkVveEZHMjd3eFVlM0VFWVN6WDEzcFBDSzdt?oc=5"
+        },
+        {
+          "title": "2026 midterm election races to watch",
+          "source": "CBS News",
+          "published": "2026-10-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1fM0tjOXRhTlFDWE14WWZTcGZxSUJPZGxjcG1ldlgyMC0tT1M2VWZadXVIMWZHUmNWTExKUmRsT0RHSjRYUTFycjRqMlVma0dOTEd6cTRXTUdqUGtmZ01lSVlrd0VCb0RZ?oc=5"
+        },
+        {
+          "title": "WATCH: Senate rejects war powers resolution to halt military action in Iran as gas prices upend midterms",
+          "source": "PBS",
+          "published": "2026-09-24",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPN25WZkg3RFZicjQyY1lvb20yQ3JNdzJJa2J3ZGZSQjdyV3BEVmNiZDhqM1V5dF9YMkZKS3NpR3pPemUwaTBhUzA1dHplOWZnVE9OVnBnSzNnOFFseFRkX0J5TUcxVFVsX3g0cXg3X1IwdTRsY19vNTkwS3lkMjhXcjJwNHB3MnFTYTJNbnByU29XcWllcDYzSkhPRnVYSVJKVW12WDhTYS1YX0NqX1N3M3RqZXcwenZTUXg4UDNpS2RGeWVuelA4STY3SmZWUUtmRG8xRtIB2gFBVV95cUxNUV9zQlAzUm9ETWZkT25RdGg3bTFhN01KcFN3YmI5U2dYMjlUUDJDSXN3UXlEb2RveWZMUlpiYVIwOHZjcVA5NmxCZjkzTXItX3RVMEk4Y3BVa0VRdi1YRFAzdVlIcXhPRXhlTGplNFduUFpQYy1vdWJ0X2tydnNYZ3c2Y3IxQ3M3TzlRUzl4UWJCTlZaRnhlY2FGeWR1NW0wSld5Y28xemZiemZaNmlOYVlHdHBFc1luaXh6X3d1QUVpS1VnX0t5U2Z3ek1uQll4UTFDT0dsQ29Udw?oc=5"
+        },
+        {
+          "title": "GOP is at risk of significant state legislative losses, Post analysis finds",
+          "source": "The Washington Post",
+          "published": "2026-10-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxObGVfXzJWLXBud0hzT3I1VlBkWUxlS01EZ0duZkNKYkI3Z2NXOVBMc2Y0ZTVBajVLMzdwamdtak5Hak45VWxHckhSbjViUzJzN2NwYnBHTnNuY2hXNTM1TE85amNKVFVJRUQwUnRtMGNtMjU4ZHh1cXZFalgxMUZZdmtmYkFLRUJRc0NzODdQUThMbGZxakNQam9FYmJ4aVRKS0x2UHNrZTBLXzRJaWVwX0RFdF84RjN3TkZr?oc=5"
+        },
+        {
+          "title": "Who Will Win the Midterms? Play Our Prediction Map Game",
+          "source": "Newsweek",
+          "published": "2026-10-03",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOSktSTzFieFllWjBINEhsMzIzNnNGSGdwa0tIZkEzOThqNjNHTV9CZDdwM3FEb08wNEl4bTdCXzdBZkludExHV1ZQaEU2VElFM19kTk5VaXQ1Xzc4eUxQLVJ2MDg5dFlMaFhKUHNKLUxEeEljTm9NbklzYkNKajJSdFk0aV9PM3NQT1BlTQ?oc=5"
+        }
+      ],
+      "forecast": {
+        "probability": 0.5,
+        "reasoning": "Democrats look well placed to win the House in a midterm with an unpopular-environment backdrop and high gas prices. The Senate map is hard for Democrats, who need a net gain of about four seats. But reports of a surge reaching red states, with even South Carolina polling close, make a Democratic Senate a real possibility. That puts this split outcome at roughly a coin flip."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-08T00:09:45Z",
+        "crowd": 0.275,
+        "best_bid": 0.27,
+        "best_ask": 0.28,
+        "volume": 3069483,
+        "liquidity": 2587118,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Bet would be under $1 after fees and limits."
+    },
+    {
+      "market_id": "4824600",
+      "event_id": "1061332",
+      "event_title": "Serbia Parliamentary Election Winner",
+      "option": "Aleksandar Vučić – United Serbia",
+      "question": "Will Aleksandar Vučić – United Serbia win the most seats in the 2026 Serbian parliamentary election?",
+      "rules": "Parliamentary elections to elect the 250 members of the National Assembly of Serbia are scheduled to take place on October 25, 2026.\n\nThis market will resolve to the electoral list that wins the greatest number of seats in the National Assembly of Serbia as a result of this election.\n\nElectoral lists will be primarily ranked by the number of seats won in the specified election. If two or more lists are tied on seats, ties will be broken by the total number of valid votes received, with higher vote totals ranking higher. If lists remain tied, ties will be broken by alphabetical order of the listed names. This market will resolve to the list that occupies the highest finishing position after applying this ranking.\n\nThis market's resolution will be based solely on the number of seats won by the named electoral list, as it appears on the ballot and official proclamations, regardless of which parties make up the list or how its members later organize themselves in the National Assembly.\n\nIf the results of the specified election are not definitively known by March 31, 2027, 11:59 PM ET, this market will resolve to \"Other\".\n\nThis market will resolve based on the results of the elections, as indicated by a consensus of credible reporting. In the case of ambiguity, this market will resolve solely based on the results as reported by the Republic Electoral Commission of Serbia (https://www.rik.parlament.gov.rs/).",
+      "topic": "Politics",
+      "end_date": "2026-10-25T23:59:00Z",
+      "url": "https://polymarket.com/event/serbia-parliamentary-election-winner-2026",
+      "snapshot": {
+        "time": "2026-10-08T00:07:39Z",
+        "crowd": 0.615,
+        "best_bid": 0.61,
+        "best_ask": 0.62,
+        "volume": 226559,
+        "liquidity": 80278,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "Serbia's President Vucic resigns ahead of October parliamentary elections",
+          "source": "Reuters",
+          "published": "2026-09-27",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTmcySFNmNWFxcDFQOEl6OU1UYy1MZ2RmcE9TU2V5N1FUYVhidncyRVRHZEtxbl9yU2Rpbi1yc0pVcmtyajlhaHFkakFqZFBPTlY3UFFObnl5aDZOcmVOajRKQzNYb2FCd2JmZnJ6clNjV0d5T0tmN1o1a0hGUDFQeHFRWi1Ba01KZDdXOG1YamVNT3RBUTRnX1RDRmNaQXhscnRYcXlON3RpdjQ?oc=5"
+        },
+        {
+          "title": "Serbia’s Longtime Leader Looks to Extend His Influence by Swapping Posts",
+          "source": "The New York Times",
+          "published": "2026-09-27",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNNXJ1bXJBeEp0c1ZTTXVwcXhUbHdyVzJsN2IyZnVpck9hXzRVNmVnZm1aX2p3R2thWkcyaTBvNVU1WVU4bllzTWxwcHdvX2kydmpVLXRfRHpqRFAtUk84YVNfQWMwWHpORFlHNkk5RnJFd1B2VC1La2IxdEUxWk9Gc01vUlozQkNTUWxaRGZNTTNnX0g1Vl9BZml2NVk?oc=5"
+        },
+        {
+          "title": "Serbian President Aleksandar Vucic resigns to run for prime minister in October elections",
+          "source": "France 24",
+          "published": "2026-09-27",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPUXc3UzJBM0htZi1QazJaSEF1MDBXM05RdjA1QXJpempOZk5mdHhWcmVlYVZYZVBTWEY1TE4xWTlSTzNuQW1rNTlySlI1V0xtdGVsWS11YmpIeENiaklMSU50dGxfYmFJejY5UDA3aTZXYktSeXZTX0ctYlVITl9KMmRnR0lBcXRvbWFsWGI5ZWZ6LXkweUE1LTJYTWliaFZaVkxabnpoSzJORHZtVVhvZEFNVHMtLTBlOHgzSzdB?oc=5"
+        },
+        {
+          "title": "Opposing the Opposition: What Serbian and Hungarian Opposition Parties Have in Common",
+          "source": "International Centre for Defence and Security",
+          "published": "2026-10-02",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNWW53Rkd3Rm1wMS12YmVVcVFUMGtxZjdEcWJwNC1GZjk5TFdjY3ZYVWtIMVlzemFFVXhtRzRfcmJhWm45a3lxMWxyS1JwWkxxek1IUlZtalIzOWFHTnplenhHSFJUTDIyS0w1cFZIX0ZXOXZIVEIyQ3J6UEdESlI2VnhILXJncnJOc2laMEFvUzZYRlRIMHR2cGc3OG5TNlFZWmtMMm9Naw?oc=5"
+        },
+        {
+          "title": "Vucic resigns as Serbia's president, setting up election that could see him become PM",
+          "source": "CBC",
+          "published": "2026-09-27",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBIQ3ZUU0I0b1NMemtGZHlHdnk3aUs5R2ZpeG1fUVNIR0ctb2ZlQUdqbWJxMWRDOW16S01Qc2VCdXFvQTZhcGdMeHh0NHc4XzN2Wl9HZ3VJUTNNNXdrMGktWm9DcTlicjJ0YVNQRWxUbmJJbE15X2lEYnFR?oc=5"
+        },
+        {
+          "title": "Serbia: Early Parliamentary Elections, A Test Of Political Legitimacy And Future Direction - Analysis",
+          "source": "Eurasia Review",
+          "published": "2026-09-26",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNejlKWTREMTY2UmdyMkFhMVI5S1hKV1ZoQnZxdnViUEtQS2w2QkI0TFlqUEx1UDJWdlVFQWJaX3dxZFpBTzlYZnkweXd6TDRxNHQxYXlYQzk2dlpyX1V6OHNwODJPaXNPQ0Q2MzBYYm9UN1hXV1EtaTF4SElxRnNUd2dVVjVpTU16RG5jUUdhRVVhbDJLMlN5d3dmWUtwcmI3VGxhS2lXelBvd1RteGNYV2F4b3FvVVk3aTBnd1hUNS1sNlV1ZGNNV21jMXh6NzJuNnlj?oc=5"
+        }
+      ],
+      "forecast": {
+        "probability": 0.8,
+        "reasoning": "Vučić's ruling coalition has long dominated Serbian elections and controls state resources and the media. A unified student-led opposition list is the main threat after more than a year of protests. Even so, Vučić's list is still the favorite to finish first in seats."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-08T00:09:45Z",
+        "crowd": 0.615,
+        "best_bid": 0.61,
+        "best_ask": 0.62,
+        "volume": 226559,
+        "liquidity": 80565,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Bet would be under $1 after fees and limits."
+    },
+    {
+      "market_id": "630924",
+      "event_id": "57669",
+      "event_title": "South Carolina Senate Election Winner",
+      "option": "Annie Andrews (D)",
+      "question": "Will the Democrats win the South Carolina Senate race in 2026?",
+      "rules": "This market will resolve according to the winner of the 2026 midterm South Carolina U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
+      "topic": "Politics",
+      "end_date": "2026-11-04T04:59:00Z",
+      "url": "https://polymarket.com/event/south-carolina-senate-election-winner",
+      "snapshot": {
+        "time": "2026-10-08T00:07:39Z",
+        "crowd": 0.155,
+        "best_bid": 0.15,
+        "best_ask": 0.16,
+        "volume": 413326,
+        "liquidity": 240040,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "As Democrats’ Midterm Dreams Grow, South Carolina Becomes a Test of the Possible",
+          "source": "The New York Times",
+          "published": "2026-10-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQWXdmZU1YV2dDR1JiMUdVWlNMMzhKOVVObXk0LVJHU1RVMlRzSUJnTk9xbzRBWWpfdTBzeTV0SERkUHhqcUxXeXEzNUV5d1FnMG5wOXRwTEdLd2lWSHlpS2RYcUNQMXVUTk9QUGxQTjZjSWlQMGRXZ2ktMHl1cUNSU1pOZ2puVTUzOEtQUm9QOEpyTGpnSmRXQzFoRmU4TWU4TUc3NVp3NVhTeGlzNWUtVk1DQ2ZVdw?oc=5"
+        },
+        {
+          "title": "Candidates, experts react after new poll shows SC's US Senate race as neck and neck",
+          "source": "WCIV",
+          "published": "2026-09-28",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQbzZlODZXclpLZG5RSXdkZm92aE1PdG5LOWRhdk5iSm9STXlDcVVFMk11X0tfdENNVDdDX0J1Ty1yb1hESF9NX09malgzTlhDS3FTeFpfbHZzNDB6TV9acVBlb1lVYWlkTGgtU1N6S0pRNUkyMHhPXzZoQnEyMGp6anQyb05Cc3l1VVlRTURRZnAwMUNEUk5iOWFXa0JlQVA1VzVqaUp6Q3F0aXhJZVdBc201X2VBM2VYdzNtNHlDOUNPR3J5eXZqb0VnOUZiRDlsV3NfTFNKcmlzOTJmRG1OZGtIUkhCQ25xMVNZ?oc=5"
+        },
+        {
+          "title": "Democratic surge predicted to hit Republican states hardest, scrambling Senate strategy",
+          "source": "Reuters",
+          "published": "2026-10-01",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOZXdFSzJFdjBLUDdCTG5MNjBWRzFXaEZTOWR3Rkl6NWtNeHcwd1Z0T18yNEx6emJuVmt3RDV0WU1wRGlqNDFWQ25ZcENURVdRb0RxNVBZR1Y3X01zdlpqa0NzNHBwTHhkSUItTGRRUDNnWWJVRnJ3aHN1aTl1Vk92Q2N1UlpnOTA4T0NYeEdkcW9uOVpsSnk3cEltZDgtUnpmVzVpSjFacEF4X0VsMmV5cTRCdmJQM0dNbS01THlGVW9jdw?oc=5"
+        },
+        {
+          "title": "Democrats dream big in South Carolina Senate race",
+          "source": "Washington Times",
+          "published": "2026-10-02",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOalBPTEoyWldNNkpxdWpadkxEUmR3aHZLSWpwME9wNV9KZlVvVUtBM1I5SHJXdWNRRkxsV3BSYTdLSHl6VXN3TE5PZEZHNDhWUUZ1RzZNbEpWTFRjeXpHS1N1aFlvR3FabDZhMU1mUTJKSDRGMktxWEZDY05oZzdzQU1DUkt3a2ZLb2VQSV9yMk9XMDdjcWdwcWZCZw?oc=5"
+        },
+        {
+          "title": "Trump hurls anti-trans slurs at Graham’s opponent as South Carolina race tightens",
+          "source": "The Hill",
+          "published": "2026-10-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNc0hGclhlSUhMQXdwakt4Zi1vdl9Ja1RadkhoNFVoSHJDaFlWU2NnT2RWMElWc3A2NmdkRVpvdGtpbnFSblU2REdlR3ZpMGI2MUNrNlpOU2RrLVBmT0tvUjU1ZnJBNDREcTVmcUwxdmQ5S0NDZEtWVHltUjYwdFJ6Y0xBbkFGTnUwN1HSAY8BQVVfeXFMT0VKXzRidjN0d09ldmc4U3ltcG9PRjg3QUlscnhtX0ZlUWZrRF8tMEtnZWdxcVI4NDc2Skozc0Zndm5QU0pKUHJGVW5weGU0YnB5UDQtV2R4MUtkYnF3ZUFZNW9lWHdJWnZvVGwycHlPV3F2d1A5NWZTUVBJUGh6SUdTT3RRdC03SDYxN0tXNnc?oc=5"
+        },
+        {
+          "title": "Mark Kelly urges SC Democrats to 'outwork' GOP before election",
+          "source": "Greenville Online",
+          "published": "2026-10-02",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPLVpkdU5BWVNiSWNPeFBtZFBHeTA4X0VwRm1LV0JSMzFUZXdMdXR4X0lBZTdmTHR4cy1WalN6UkRKZzFiMTJjU2pKN3VjdFhwQzVCSTQ3UGF2S0dnLTctV3ZNcjBPcUlzZDdLR0M5Q0lFWDZ1WkFReGV1Zk1rVmRhY3JUSjFmbUNxanBHbmhwU2t3UE1VbThGRVNTUGhxYlhXdzg0WVQyVXdVT3BhcGIxSDNPc19FZGdUMWlkY3NZRzdvbGNpYWU5M2xCejJoWkdzMl9FT3lZSklPWmM?oc=5"
+        }
+      ],
+      "forecast": {
+        "probability": 0.18,
+        "reasoning": "South Carolina is a strongly Republican state that Graham has won comfortably before. New polling showing a neck-and-neck race and a national Democratic surge raise the odds above the usual baseline. Graham remains a clear favorite."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-08T00:09:45Z",
+        "crowd": 0.155,
+        "best_bid": 0.15,
+        "best_ask": 0.16,
+        "volume": 413326,
+        "liquidity": 240040,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Gap of 2 points is under the 10-point minimum."
+    },
+    {
+      "market_id": "5371243",
+      "event_id": "1142093",
+      "event_title": "Nobel Economics Prize Winner 2026",
+      "option": "Ariel Pakes",
+      "question": "Will Ariel Pakes win the Nobel Prize in Economics in 2026?",
+      "rules": "The Nobel Prize in Economics is awarded annually by the Royal Swedish Academy of Sciences. The 2026 Nobel Prize in Economics is scheduled to be announced on October 12, 2026, at 11:45 AM CEST (5:45 AM ET) at the earliest.\n\nThe Nobel Prize in Economics means the Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel.\n\nThis market will resolve to \"Yes\" if the listed person is named a laureate of the 2026 Nobel Prize in Economics in the official announcement from the Royal Swedish Academy of Sciences. Otherwise, this market will resolve to \"No\".\n\nThe prize may be shared by up to three laureates. A listed person who shares the 2026 Nobel Prize in Economics will resolve to \"Yes\" regardless of how many other laureates are named alongside them.\n\nIf the 2026 Nobel Prize in Economics is withheld, is reserved for a later year, or has otherwise not been announced by December 31, 2026, 11:59 PM ET, this market will resolve to \"No\".\n\nThe primary resolution source for this market will be the official announcement from the Royal Swedish Academy of Sciences, published at https://www.nobelprize.org/; however, a consensus of credible reporting may also be used.",
+      "topic": "Entertainment",
+      "end_date": "2026-10-13T03:59:00Z",
+      "url": "https://polymarket.com/event/nobel-economics-prize-winner-2026",
+      "snapshot": {
+        "time": "2026-10-08T00:07:39Z",
+        "crowd": 0.195,
+        "best_bid": 0.18,
+        "best_ask": 0.21,
+        "volume": 10223,
+        "liquidity": 3867,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "Who will win the 2026 Nobel Prize in economics? : Planet Money",
+          "source": "NPR",
+          "published": "2026-10-07",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPOFp1MUNTSjZaR0xCc0tGTkJFRzdqdDUxOXlGWUFwajZKQ0ZlSVM1R2N1YnI1N21hNFB0X2hlaW93ejNfbHNtVU1ES3FSLUtTWGU0TXRMUjlZdU9ZRkV6dUpuY3ZQbldKRXdGeVVRZ2FROE9wRWxkS3Nyb1duaFhGWnQ3OUFYb2k3SmFVZ052clRNNzQ2STVyakNrZlhCMmRaMVBYZVNlbjJNUWJnMS1rNw?oc=5"
+        }
+      ],
+      "forecast": {
+        "probability": 0.05,
+        "reasoning": "Pakes is a perennial Nobel candidate for his work in industrial organization. However, many strong candidates compete each year, and he has no unusually strong signal this year."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-08T00:09:45Z",
+        "crowd": 0.195,
+        "best_bid": 0.18,
+        "best_ask": 0.21,
+        "volume": 10223,
+        "liquidity": 3878,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Bet would be under $1 after fees and limits."
+    },
+    {
+      "market_id": "4366394",
+      "event_id": "549546",
+      "event_title": "Next Google Gemini Pro Model released by...?",
+      "option": "October 15",
+      "question": "Will the next Google Gemini Pro model be released by October 15, 2026?",
+      "rules": "This market will resolve to \"Yes\" if Google's next Gemini Pro model is made available to the general public between market creation and the specified date (ET). Otherwise, this market will resolve to “No”.\n\nAny Gemini model released after market creation and labeled as \"Pro\" may qualify (e.g., gemini-3.2-pro, gemini-3.5-pro, or gemini-4.0-pro-preview). Gemini models labeled only as Flash, Flash-Lite, or another non-Pro variant will not qualify.\n\nProducts labeled as a GA promotion of an already-existing Preview model (e.g., gemini-3.1-pro-ga) may qualify\n\nA qualifying model must be launched and publicly accessible, including via open beta or open rolling waitlist signups. A closed beta or any form of private access will not suffice. The release must be either clearly defined and publicly announced by Google as being accessible to the general public or otherwise made publicly accessible and explicitly labeled within the company's official website. Labeling errors, placeholder text, or version names displayed on the website that do not correspond to a model that is actually accessible to the general public will not qualify.\n\nThe primary resolution source for this market will be official information from Google, with additional verification from a consensus of credible reporting.",
+      "topic": "Tech",
+      "end_date": "2026-10-16T03:59:00Z",
+      "url": "https://polymarket.com/event/next-google-gemini-pro-model-released-byptptpt",
+      "snapshot": {
+        "time": "2026-10-08T00:07:39Z",
+        "crowd": 0.125,
+        "best_bid": 0.11,
+        "best_ask": 0.14,
+        "volume": 40670,
+        "liquidity": 3917,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "Gemini 4 Argon: our next era of frontier intelligence",
+          "source": "blog.google",
+          "published": "2026-09-30",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNRjB3amppaF9yb1FhSmxoUW5GUEtCREcxbW1ScXJRRWN5ZGtIM0N0d21wVEI3ZTd5ZHY4N09KRWNwX3U2Z3JBeDNWakYxYXlBVE95NEpKWW5vcWFKZlA5Qkdka3hGZG9INUZtMVN2VTJhWG1TTldVSE1JVm5VaVlvcnpWRlhzX0V1NGJXZGhfMEY?oc=5"
+        },
+        {
+          "title": "Google’s $4.99 Gemini Tier Now Gatekeeps 3 AI Models [2026]",
+          "source": "shattered.io",
+          "published": "2026-09-30",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5NMElBZ3V2VVdaT00wNHJLVENUQ3JjeHJhclEybnZaMmhIekpPVUMyWUoyajBac3VYakswdTF3YVZqaERaUkFldzV5cklHYmVvRFRNLWR0bl84SHRKbXhZLW5lalZMaC10b0NhNUVWa2djanUzVmNLUGhvOG4?oc=5"
+        },
+        {
+          "title": "Google Squeezes Free Gemini 3 Days After Argon Debut [2026]",
+          "source": "https://tech-insider.org/",
+          "published": "2026-10-04",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE11Z3dNWk0tQnYtc2xRRDY0bldtdDdfVURWZEFMRkNQZFhabVR4TXlvMk1QY2VsMkZwU3BFbG40eThSYnE2UmFtUEJsRjRVd2NLbEZCWlFHNnJYa0tqdF9WMzNxRTRQWEMxOHZYd3FlVzBtUnJ2czRZQkVn?oc=5"
+        },
+        {
+          "title": "Google retires a Gemini image model 154 days after release, on 23 days' notice",
+          "source": "MIXED Reality News",
+          "published": "2026-10-07",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTHlNZ2FQZmVHYk83ZVJsV2FBODFjaUV5TjU5ZmlfM3VCaGY2LXFSbWtYd3JwaXZaeGU0UDBPUHAtU1dDV2ZMcTJkdUs2S0FsWkJTUV84ZGdhZWFJdGpHUzNBMzJuc0VqQW9wN0JGRFFLVnNPbXR6S0dXSnA5UV96TGZ4T1hGM1E1S29HNTVmMXM4RzQ?oc=5"
+        },
+        {
+          "title": "Google Gemini 4 is coming later this year with something to prove",
+          "source": "Techzine Global",
+          "published": "2026-09-25",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSGI5djJfTHlkQ1ZGX1FGaWNqa3lsTldCM1cyOFhfQ0VKT3hEMGpFLTd1S2xCTldFWDU3YmQ1clhIUktWU3dWS0pCb3k0TEVOdV9PSWU1eHp0anBSU2lMNE1FT0psdUx3NEpUYkZIVl9qbGFpYXZkMjBRNFJYUkpXNE9jM0kzc3lWd2QwcG9PZlJQQ2hVUW5XaTFLQU84bGh3aTBxT0lUSnBMRmxCOW5CZkZ4Y3hyQQ?oc=5"
+        },
+        {
+          "title": "Google to Limit Gemini Free to Just One AI Model",
+          "source": "WinBuzzer",
+          "published": "2026-10-07",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPX3hBTXZfTEQzMjZTZkt5M1NLb0YybHM0TGdkUEcxZ0JKNWE0MW1ncmVWLXNpSWYtV05TOHJpSlNSV0FGYXg3cC12RHpWaUxOdHRkalBhN1loVTk3MXJlYWRYTWk4dTU3RU5tYzBwcWJCTGU4WGNDLTZsNmdLTVhydmRuWVhMajBYMmNRYXlFUQ?oc=5"
+        }
+      ],
+      "forecast": {
+        "probability": 0.2,
+        "reasoning": "Google announced 'Gemini 4 Argon' on September 30, which likely came before this market was created. That would mean a further Pro release is needed within about a week. It is unclear whether a Gemini 4 Pro label is still pending, so I give a modest chance."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-08T00:09:45Z",
+        "crowd": 0.12,
+        "best_bid": 0.11,
+        "best_ask": 0.13,
+        "volume": 40670,
+        "liquidity": 3331,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Gap of 7 points is under the 10-point minimum."
+    },
+    {
+      "market_id": "3081958",
+      "event_id": "743553",
+      "event_title": "Bank of Russia decision in October?",
+      "option": "Decrease",
+      "question": "Will the Bank of Russia decrease the key rate after the October Meeting?",
+      "rules": "This market will resolve according to the change in the key rate resulting from the Bank of Russia’s October meeting, relative to the level it was prior to this meeting.\n\nThe resolution source for this market is information released by the Bank of Russia after its October 23, 2026 meeting as listed on the official Bank of Russia calendar: https://www.cbr.ru/eng/dkp/cal_mp/#t13\n\nThis market may resolve as soon as the Bank of Russia’s press release for their October 2026 meeting with relevant data is issued. If no decision on the key rate is issued by the end date of the next scheduled meeting, this market will resolve to the \"No Change\" bracket.",
+      "topic": "Economy",
+      "end_date": "2026-10-24T03:59:00Z",
+      "url": "https://polymarket.com/event/bank-of-russia-decision-in-october-20260724021538830",
+      "snapshot": {
+        "time": "2026-10-08T00:07:39Z",
+        "crowd": 0.135,
+        "best_bid": 0.13,
+        "best_ask": 0.14,
+        "volume": 20260,
+        "liquidity": 11916,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "Indian shares decline as RBI rate hike signals tighter policy",
+          "source": "Reuters",
+          "published": "2026-10-07",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNeWI2VTJBM0hPOXBYT3lXTFZfb1lfU2xBS3l1Y2NLRkIzY2h2V2FTci1wVTNWdEZOckdjN0w1Qm1UZ0ttTlUyWHpkNUxoNGhXdVBRQ2hidGNyemZmZVRzeWhTNUROTU9hc0FSWUszMWhJZ3h3WFhCYmFScUlMNmM1b0NFajlEUGUtWDM1ckRWV0JZRmlOa0pMUnc4ck1VeXZKel9lWF93?oc=5"
+        },
+        {
+          "title": "Global Economics Intelligence executive summary (August 2026)",
+          "source": "McKinsey & Company",
+          "published": "2026-09-30",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPSmgzTkdja3YzVE1LaEtHbGFYak1oUU9Pei1CR1AwOW4wak5uY3hRQk0wb1o1SWhObGhxTUZDaEZqSUZ0TjdqUS1Ed3hwclZJRi1YV0RLQzZIY3paTzR3R2l0dkp5TkhLYVdXbm5NREhjc0lSazNjRmhJNlc4Y0Z5c2d0MWZ0WWNqNVhWRjFIRUdnWHJvaEYzdmp6NnV3cXd3bjdybm9EVTN4TEgwdUJsVA?oc=5"
+        },
+        {
+          "title": "European banks are shedding Russian clients: accounts are increasingly being blocked",
+          "source": "Українські Національні Новини (УНН)",
+          "published": "2026-10-03",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdmdSaHU0amgyWlFqLW9Dd293ejNvdHI4eTl6TDJMVE9OeWVldUQ2ZmlpZ19jVDFJS0dJOVhjaDBLLWJ3aHc1YjhidW1KMjd2NF84TXR1N21haTlhRnk0eEVESFJFVm1EeWhKenlSSUpHeGliYTJKZU9BaW5YSHhUSTJPWHQ3aEl2X3NUczlGX2JmcVpwVVR3bHI4MFpZRWZHbU80S0RERC1pUHR3MFVzbHFR0gGwAUFVX3lxTE4zXzVTcnFkZi0xNnc5bm9PaXpfLVRiT0E1V2xiVTlBNXNIekpoNGVCakhDMkY1TlhhTnFuaXV4SjNMbjBMTS1ZZjZWcEY0Y2tHLUd1Q1p3QzQ3Nnl6RDJLTUhXaVJhdzFpOENULWc2dXpwa3VLTDZvNWRkV2lvMDJnWkhqRHh5VVBLMDEzQ0JmOUxhQ0huRjc0QWdwMnhFWW93d3ozb2FXbGROdUhqYVhY?oc=5"
+        },
+        {
+          "title": "Trump temporarily allows 'dyed' diesel for truckers in attempt to lower fuel costs",
+          "source": "KATU",
+          "published": "2026-10-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOblo5NGM2eGlkZXdEZ0lrS3JPZWZjX3pmUDNjMWF1VEdlNWUzWUNOSHh5R0p1U00xNDlqNkxYa1pjZG1oRXFHQWxxUlZudVVjcXlXR1VtQVZQd04xejRtMzRJVzdxaFZqeW9Ja2MyWkZvSWllOUNGRTJ2VGs5eW9fRjhBX05Ydk4xX1dUajlVR0NWQTBpVFVkak5EWDJUdUJmRlI4dG1kWkZsMnE2M1JqUFVFOExxazJzVVNDSEp4WlFuMnZKVzBjQmVIaDI5VU1kX3Jv?oc=5"
+        },
+        {
+          "title": "Russia lets crypto exchanges apply October 5 – but even Bitcoin lacks final retail clearance",
+          "source": "Cryptonews.net",
+          "published": "2026-09-28",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9uck9oMUthRW5xOTA0N0dfb0VnenRNWkZUSGZKTXpnbGw5WFpzbWpLekdBS2taOVpMYkh5SGJ2ZEExSnRpRWszMUNpbVdWU2ZQV2RCRkFR?oc=5"
+        },
+        {
+          "title": "Gasoline has fallen in price in 27 regions of Russia",
+          "source": "ИА Ореанда-Новости",
+          "published": "2026-10-07",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPcWlacUVER0VlQlhBcEZNaVJXWTE3UHdSc1l4WkUtTld5QUdoLWJreGhTWmlHNW5COEFhci1nNUhwNUlOaUdwaHBBQ25HdHJVTjA1RVNjcDBJSFpwRFpvYk51M1BqNmJZSlBzRFRYSGgxRnZaRUdua1hKWC15amstV0F6V3VjV0F6Y21XRWNRbV92YmZzWXhONVViLTdackpDcTdMVjdkd3ZFMVpI?oc=5"
+        }
+      ],
+      "forecast": {
+        "probability": 0.55,
+        "reasoning": "The Bank of Russia has been on a gradual easing path, and high oil prices plus falling domestic gasoline prices support further disinflation. A global inflation shock, with other central banks hiking, could make it pause. On balance a cut is slightly more likely than not."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-08T00:09:45Z",
+        "crowd": 0.135,
+        "best_bid": 0.13,
+        "best_ask": 0.14,
+        "volume": 20260,
+        "liquidity": 11916,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Bet would be under $1 after fees and limits."
+    },
+    {
+      "market_id": "5220225",
+      "event_id": "1121489",
+      "event_title": "Billboard Hot 100 #1 Song Week of October 17",
+      "option": "Choosin' Texas - Ella Langley",
+      "question": "Will \"Choosin' Texas - Ella Langley\" be the Billboard Hot 100 #1 song for the week of October 17?",
+      "rules": "Billboard updates its Hot 100 songs chart each Tuesday (with adjusted release schedules on some holiday weeks), reflecting data from the previous week (Friday-Thursday). Each Billboard chart is then titled “Week of (date of the upcoming Saturday)”.\n\nThis market will resolve according to the number 1 song on the Billboard Hot 100 chart titled “Week of October 17, 2026”. Songs will be primarily ranked by order on the specified chart. If two or more songs are tied for any position, ties will be broken by alphabetical order of the songs' listed titles. This market will resolve to the song that occupies the highest finishing position after applying this ranking.\n\nThis market will resolve as soon as the relevant chart is published. If the Billboard Hot 100 chart for the specified week is not published within 14 calendar days of the expected release date, this market will resolve to “Other”.\n\nThe resolution source for this market will be the official Billboard Hot 100 chart, published on the Billboard website (https://www.billboard.com/charts/hot-100/) or through other official Billboard channels.",
+      "topic": "Entertainment",
+      "end_date": "2026-10-13T23:59:00Z",
+      "url": "https://polymarket.com/event/billboard-hot-100-1-song-week-of-october-17",
+      "snapshot": {
+        "time": "2026-10-08T00:07:39Z",
+        "crowd": 0.1095,
+        "best_bid": 0.093,
+        "best_ask": 0.126,
+        "volume": 15522,
+        "liquidity": 3034,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "Ella Langley’s ‘Choosin’ Texas’ Extends Hot 100 Record With 24th Week at No. 1",
+          "source": "Billboard",
+          "published": "2026-09-28",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQWGN4UnZLRG1xN1V1ZWU0OTB3d1gzMlg3bDFyblNWNzJRQUgwN3JidVZBQ3pXa2VvWVB6UDk3SlZibEV5a3NPTmZfdzkxbmRZQ1RYRl9xd21Fb2tWM0pYWEtmNWZQTjM5OXBmYXZKMk5VU3ZJcUlTbjNUU2E1dDhYRDR6cUppRzNnR016Tk9TVkZOZw?oc=5"
+        },
+        {
+          "title": "‘Patient Zero’ No. 1 on Billboard Hot 100, knocks ‘Choosin’ Texas’ off top spot",
+          "source": "WSB-TV",
+          "published": "2026-10-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQNVlEd0JUZjVJQkxUem51bWd1c3VEd3RpZnI2blY0bjJEcEFmYnFITV9sZVA3U2pMMnJncEYyZVM2RkZmZUliZ1RJbnBnRGdrTGREbTlDYXNlbHMwdFMwOFljY2VDQnQ1WkpaM3VpMWtoeGE3RXl3MmpzTlJFTWxCcmJCRnRqYlpkNWgwUllhN3lkNkNqMjQwZnljd3ZSam92OWNmZFR1MkhLQVRjRDlBYmVWVGFkRkxGXzlfWGFSVXpRTElaODByVzhpWEJ0QdIB4gFBVV95cUxNeWhOUjdXdXdoTWZKaGFNNFFjRG5SVWdNQmxMVThBVWtaZ2xYdURKVkdJY2c3X2Qwa01QdHppd3Rrek5wbWVmQjVJbXptNzVKMllFendFZGJ5NHlaUS1KaFQ1NWlYNTNzLUdIOXhibjl5ZG15anU1a21ZdDJXbm5PZ2ZaZmtWMExUZmlJdnk4RnpaNGxtNVZteE9jckQwS2plak13SkhvVFhteHZoOU5DaWJFT0dzd0Exb3VDcG5mbUg5blZHQTVCOTB5ckE4YUx1V1p3V2QwNlVnRFBUXy1CRkh3?oc=5"
+        },
+        {
+          "title": "Taylor Swift dethrones Ella Langley's record-breaking 'Choosin' Texas' on Billboard Hot 100",
+          "source": "KHOU",
+          "published": "2026-10-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPdlNsaEswVlQwUU9TdDUydnljQkIyVV9NX1Myd2wwT3c5bzU2bmdTbVQ0elpMSVp5TDlEaTF0Z2tjUFRwa3gxVmVvdTljVmo5RzZhNk91ZnJpTnFwdzVXOHd1Y2FGTExFX1ZoX2JsaEtyRFB4d1hkNVhLSXpObnNrTzhaTEQ4ZG9iQURrcDBhTjB0LVFoOUZNTE5rY0pfcUlKWldOY2tiYm1DSE51NTVsWi1tNVcxd3ZLVEs0VWk2LW81UnhGUTBoMzRwTVFnQlJCV1NqcnpjRXNiQzFDX01lNXI3T3VITm1yenQ5QlFIc2lvejlYVEFTMFhMOFI?oc=5"
+        },
+        {
+          "title": "A Complete Timeline Of Ella Langley’s Historic Rise To The Top With “Choosin’ Texas”",
+          "source": "Whiskey Riff",
+          "published": "2026-09-25",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNTHpvVnZvQm91am1aVGN3UDJ6SWl2VTFndW9xUC04VTllZ05NclRWQkxBbldieWtKdWdQaTdWQ2xXblBfa0VzVTlpUlFCT3AtWkZON0J4NHc3Mm1VVmhzd19KbUFtZVZnSVpWV1lhdnpyREpmNl93LXhtLWpiQnVDWkJtTmpvalpXQjBKVm5ZbHVOakU4ekFWQ24zd1JxMjk1S0VWZ3hsUG1DblNneVJvbU9OTnIxX2Qzd2VqaA?oc=5"
+        },
+        {
+          "title": "Ella Langley’s ‘Choosin’ Texas’ & All the Hot 100 Hits That Set Records for Most Weeks at No. 1",
+          "source": "Yahoo",
+          "published": "2026-09-29",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOSEYwNjZHcFRLR2JKQkVPNHFGakN5UW84QUJacE9DV1ZsSjRmUFJKMEl5bWIzS3JXeU1wSUxDRXlsc21oR1UzaVhseW5kYlhGNldEX1ZWUTBUVldLaGNuU2p1cWk4eWZ3TFQtNktrblBvYnFZOTBBcTVxRk5oV3g4MWlfZUMtbmV0d1g3OUY0Ykk2TmNxcldiazM1dU8?oc=5"
+        },
+        {
+          "title": "The Longest-Leading Billboard Hot 100 No. 1s: ‘Choosin’ Texas’ & More",
+          "source": "Billboard",
+          "published": "2026-09-29",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5Ud3ZqQVFYa1VsdzRYb21fa2pjUXZ4YWpKT2UxbG45QmJjejdZV1l5WnhYSE1nbDJsSG0yYzUtZzVtU3hTUHJNWXRIZHctNVdBS3ViM01DS184UkhxZ3pkT2hpemdkYjh2M3p1R3ZBTDJ4UV81dDhmR2d3?oc=5"
+        }
+      ],
+      "forecast": {
+        "probability": 0.4,
+        "reasoning": "Taylor Swift's 'Patient Zero' debuted at No. 1 and ended the 24-week run of 'Choosin' Texas'. Big Swift debuts often fall in their second week, giving Langley's long-running hit a real chance to return to the top. Swift holding on for a second week is still slightly more likely."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-08T00:09:45Z",
+        "crowd": 0.1095,
+        "best_bid": 0.093,
+        "best_ask": 0.126,
+        "volume": 15522,
+        "liquidity": 3034,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Bet would be under $1 after fees and limits."
+    },
+    {
+      "market_id": "2941850",
+      "event_id": "708477",
+      "event_title": "Bank of Canada Decision in October?",
+      "option": "No Change",
+      "question": "Will the Bank of Canada make no change to the target for the overnight rate at the October interest rate announcement?",
+      "rules": "This market will resolve according to the change in basis points in the target for the overnight rate resulting from the October 2026 interest rate announcement of the Bank of Canada, relative to the level it was prior to this announcement.\n\nThe resolution source will be official information from the Bank of Canada, including the statement or release from its October 2026 interest rate announcement, scheduled for October 28, 2026, as listed on the official Bank of Canada calendar (https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/#target-dates). This market may resolve as soon as the statement or release of the Bank of Canada resulting from its October 2026 interest rate decision with relevant data is issued. \n\nIf the specified rate is defined by an upper and lower bound, the relevant change will be the change to the upper bound. \n\nIf the specified rate is changed to a level not expressed in the displayed options, the change will be rounded according to the following guidelines. Increases or decreases of less than 25 bps will be rounded to 25 bps (e.g. an increase or decrease of 10 bps would be considered to be an increase or decrease of 25 bps). Increases or decreases of greater than 25 bps will be rounded to the nearest 25 bps and will be rounded away from 0 in cases of equidistance (e.g., an increase or decrease of 37.5 bps would be considered to be an increase or decrease of 50 bps). Displayed options of “Increase” or “Decrease” will include policy rate increases or decreases of any size.\n\nIf the specified announcement is postponed to a date and time before the start of the next scheduled announcement, this market will resolve based on the outcome of that postponed announcement.  If the specified announcement is cancelled, or postponed such that no decision is announced by the start of the next scheduled announcement, this market will resolve to the “No Change” bracket. Emergency changes to the specified rate not resulting from the specified announcement will not be considered.",
+      "topic": "Economy",
+      "end_date": "2026-10-28T00:00:00Z",
+      "url": "https://polymarket.com/event/bank-of-canada-decision-in-october-20260715203359314",
+      "snapshot": {
+        "time": "2026-10-08T00:07:39Z",
+        "crowd": 0.8225,
+        "best_bid": 0.814,
+        "best_ask": 0.831,
+        "volume": 54339,
+        "liquidity": 3519,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "Mortgage Rates Forecast For 2026: Experts Predict Whether Interest Rates Will Drop",
+          "source": "Forbes",
+          "published": "2026-10-07",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9kMlJHRWhRY2owbnpsZWhWOHVVZFR1ZmM3NzhqTUVEVnpHR2xlMHp0QnR2eXFwV2wzQ2FMbXZTN3lTLUJ5OHgxdnk0S3Z2Q3hEQ2pEYW9xcWhrRktVS3B0RXB0NkdnM0hPMzBReG5neWZ1TTdvVWs4bWgxdWFNUkk?oc=5"
+        },
+        {
+          "title": "VIEW India raises policy rate by 25 bps in first hike in nearly four years",
+          "source": "Reuters",
+          "published": "2026-10-07",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNbGVjbmZkLVFzUzNOSUZNeHRsaXRiazdETFQ4MmQwVGZfTHZsVXVrRlFzQW01U0YwanJVNzFjX1hiVHB0cjRMblpfOVlDYmpkVTBMWkNUbm5VdGhXZGZCWkY3VjdnR1FWS1lzVjlJZ1FCcGxzSDhEWWJrcHpvQWEwNTdMdVprYjIwbW1oQUw0MFVXbHl6T1VEWjNvM21tNW9EMVc2WHNBTEtZX0E2V0VvbUY5ZU5ZZkU?oc=5"
+        },
+        {
+          "title": "Rate hike calls gather pace ahead of October BoC decision",
+          "source": "Mortgage Professional America",
+          "published": "2026-10-02",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdE5KblJndTBrY0VHaWh5RGJ0VUNvWWlJbl9oVExOQnJseFRCNEdkMG1rYzdHdTNpbUgyeFMtbHhpZUN3TGtCZmFoRnlXbGJuY3BRS2FSX3loVXNwZ2pFaW9SVms5eFpaMlhSa3c3QmR3T2ZGN1F1YjFEMS10eDBZTVByeFVMWlZJTDNsaHdFNmFQX0hMSFdNVG13N2NlSjk2Uy1pcC02NzMwQUZ5MUJMU2dNN0xTalhERUgxcV9sdDhIdw?oc=5"
+        },
+        {
+          "title": "Posthaste: Tiff Macklem take note — markets have so far correctly called interest rate hikes, says analyst",
+          "source": "Financial Post",
+          "published": "2026-09-24",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPaG5SMUpkOTJwcU9TMnFzc2xLWl9pYUVjMzNPQWZaYUJOcEFDc2RORTJ0dXBoVFBVY3QwcmQyZWh3RUpJd0ZEMnNsZEdZamQ0N1ZaV0JuRHNVZHd1OExKYXdmcElPS0lBcVA4ZGd0WllZNUJIajJOSVpiUWFYNndWS0tRUjh3Zw?oc=5"
+        },
+        {
+          "title": "Canada’s housing affordability dilemma",
+          "source": "Bank of Canada",
+          "published": "2026-10-01",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE92OV9GaVU2R3g2RUVVam1JYVNnTU9vbWdYcFVkYUpISEJWbWU1Yy1VeU9URDllR2VtU0NBNFNUZUZ2N3JmX0g3OHVxb0lybHV1UUtvNm9KaTFtSWNkQzhZMm1TRExYcTI5X0t6LTU4NE93WHFMMHFqXzZubmQyems?oc=5"
+        },
+        {
+          "title": "CIBC and TD raise fixed mortgage rates by 20 basis points, completing a Big Six sweep that could cost renewers thousands",
+          "source": "Yahoo! Finance Canada",
+          "published": "2026-10-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUEJrTDlIbVJic0I2cm1RcWgtWnBmR0tSOXpXOHh3ck9DV2VkX0ZIeGViZFZJRzl2MnlVVE5ha0JOM3gzaEdVbjkwMG1tYVJnejNJdTdYdmdFWFlSTFZyOGFFbGZIekVPMlYzcUc0NlpxWmR0dDd1czE5VjZGX0FKVEVLNA?oc=5"
+        }
+      ],
+      "forecast": {
+        "probability": 0.45,
+        "reasoning": "Reports say calls for a rate hike are gathering pace ahead of the October decision, and peer central banks such as the RBA and RBI are hiking amid an inflation shock. Canadian banks are already raising fixed mortgage rates. A hold remains plausible given housing affordability worries, so I put it just under even."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-08T00:09:45Z",
+        "crowd": 0.8225,
+        "best_bid": 0.814,
+        "best_ask": 0.831,
+        "volume": 54339,
+        "liquidity": 3519,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Bet would be under $1 after fees and limits."
+    },
+    {
+      "market_id": "2941849",
+      "event_id": "708477",
+      "event_title": "Bank of Canada Decision in October?",
+      "option": "25 bps increase",
+      "question": "Will the Bank of Canada increase the target for the overnight rate by 25 bps at the October interest rate announcement?",
+      "rules": "This market will resolve according to the change in basis points in the target for the overnight rate resulting from the October 2026 interest rate announcement of the Bank of Canada, relative to the level it was prior to this announcement.\n\nThe resolution source will be official information from the Bank of Canada, including the statement or release from its October 2026 interest rate announcement, scheduled for October 28, 2026, as listed on the official Bank of Canada calendar (https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/#target-dates). This market may resolve as soon as the statement or release of the Bank of Canada resulting from its October 2026 interest rate decision with relevant data is issued. \n\nIf the specified rate is defined by an upper and lower bound, the relevant change will be the change to the upper bound. \n\nIf the specified rate is changed to a level not expressed in the displayed options, the change will be rounded according to the following guidelines. Increases or decreases of less than 25 bps will be rounded to 25 bps (e.g. an increase or decrease of 10 bps would be considered to be an increase or decrease of 25 bps). Increases or decreases of greater than 25 bps will be rounded to the nearest 25 bps and will be rounded away from 0 in cases of equidistance (e.g., an increase or decrease of 37.5 bps would be considered to be an increase or decrease of 50 bps). Displayed options of “Increase” or “Decrease” will include policy rate increases or decreases of any size.\n\nIf the specified announcement is postponed to a date and time before the start of the next scheduled announcement, this market will resolve based on the outcome of that postponed announcement.  If the specified announcement is cancelled, or postponed such that no decision is announced by the start of the next scheduled announcement, this market will resolve to the “No Change” bracket. Emergency changes to the specified rate not resulting from the specified announcement will not be considered.",
+      "topic": "Economy",
+      "end_date": "2026-10-28T00:00:00Z",
+      "url": "https://polymarket.com/event/bank-of-canada-decision-in-october-20260715203359314",
+      "snapshot": {
+        "time": "2026-10-08T00:07:39Z",
+        "crowd": 0.1845,
+        "best_bid": 0.177,
+        "best_ask": 0.192,
+        "volume": 43528,
+        "liquidity": 5881,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "VIEW India raises policy rate by 25 bps in first hike in nearly four years",
+          "source": "Reuters",
+          "published": "2026-10-07",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNbGVjbmZkLVFzUzNOSUZNeHRsaXRiazdETFQ4MmQwVGZfTHZsVXVrRlFzQW01U0YwanJVNzFjX1hiVHB0cjRMblpfOVlDYmpkVTBMWkNUbm5VdGhXZGZCWkY3VjdnR1FWS1lzVjlJZ1FCcGxzSDhEWWJrcHpvQWEwNTdMdVprYjIwbW1oQUw0MFVXbHl6T1VEWjNvM21tNW9EMVc2WHNBTEtZX0E2V0VvbUY5ZU5ZZkU?oc=5"
+        },
+        {
+          "title": "India’s inflation shock adds pressure on central bank",
+          "source": "The Real Economy Blog",
+          "published": "2026-10-01",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOc2FodUZMSUpwcjZ4NkJaeV9ja2toWGNES2lxREhYXzFPVDNHWk84ZEhiSklHcTFfQnpvOG53bUNYUDJBQVR1Z1BGUTY3cXJHVWZ6THI4cVlSRHlWSmdrdkdjQkFOdy1XbFB4NVlxclhxZ0xkQ0RiYkkxT2o1MGF0SWpveWs1VUNxNXBr?oc=5"
+        },
+        {
+          "title": "RBA raises interest rates by 25 bps; sees more hikes as inflationary risks mount",
+          "source": "Yahoo! Finance Canada",
+          "published": "2026-09-28",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQb3lWcTBhTkNDQVBxZzZ6djZoUUQtZDg4VlM3dVlobnYtOHgxR1NURGsyX043MGg5QlV1RGJkUlFzaG5lcGhEU2FkUHRqd044VFBRREpCczFRcjdHdVQtQjlNMjBVZmlfS2k1MHppVlRNSk5ULVhxcFg2bUdwalBjN2xXTQ?oc=5"
+        },
+        {
+          "title": "Indian shares decline as RBI rate hike signals tighter policy",
+          "source": "Reuters",
+          "published": "2026-10-07",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNeWI2VTJBM0hPOXBYT3lXTFZfb1lfU2xBS3l1Y2NLRkIzY2h2V2FTci1wVTNWdEZOckdjN0w1Qm1UZ0ttTlUyWHpkNUxoNGhXdVBRQ2hidGNyemZmZVRzeWhTNUROTU9hc0FSWUszMWhJZ3h3WFhCYmFScUlMNmM1b0NFajlEUGUtWDM1ckRWV0JZRmlOa0pMUnc4ck1VeXZKel9lWF93?oc=5"
+        },
+        {
+          "title": "Global Forex and Fixed Income Roundup: Market Talk",
+          "source": "Moomoo",
+          "published": "2026-10-07",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQVUwxMUlfcnJqdEd2ZW5TbXROVEVvMUphaFhma0VjVlEzeE4yQ2E0RENDZTQwUjRTQl9yY2FiRnRfZlZzUVlLd1lFSlZvSmozSFVYT2E2d2JLRlAtWUJfNGhUbnpYdUJmTEVzSDBlOGFpVzdnN1dkR0lkN1Q4b1hrRkh6aVNKTGNFR1NDOUxyNTUyc0RkT0g3dQ?oc=5"
+        },
+        {
+          "title": "RBI Rate Hike Expected This Week: 60% of Economists See 25bps Increase - News and Statistics",
+          "source": "IndexBox",
+          "published": "2026-10-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOX2xRYXJVZG5EbHdLVjBSWk5JNzF4VFplVVRxblJUMngwMXF6Z2JRZWM5aEtaMjUwTFY2MXI4M19BYkNVcnFNTVNER2JHZDNUQmhiSlRfd3RVNm5PYzEwUC1iVm8tUlB5aUxod2hsU2J5NHBUQy1BWktHb1ZRNGlGOURIOERMZU04STJReQ?oc=5"
+        }
+      ],
+      "forecast": {
+        "probability": 0.52,
+        "reasoning": "Momentum toward tightening, with markets pricing hikes and global peers raising rates, makes a 25 bps increase slightly more likely than a hold. This estimate is kept consistent with the hold probability, leaving a small chance for other outcomes."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-08T00:09:45Z",
+        "crowd": 0.1855,
+        "best_bid": 0.179,
+        "best_ask": 0.192,
+        "volume": 43528,
+        "liquidity": 5899,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Bet would be under $1 after fees and limits."
+    }
+  ],
+  "batch_id": "msgbatch_015rHzrgyYWqgkBXfnoxxsUA",
+  "forecast_at": "2026-10-08T00:09:45Z",
+  "usage": {
+    "input_tokens": 7276,
+    "output_tokens": 1990
+  },
+  "cost_usd": 0.0345,
+  "budget": 0.0
+}
