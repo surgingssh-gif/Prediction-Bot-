@@ -41,10 +41,14 @@ the full range when the evidence is strong, but avoid 0% and 100%; anything \
 can happen.
 - You will not be shown any market prices or betting odds, and you should \
 not try to guess them. Give your own independent judgment.
+- The headlines come from a short news search, so they can miss things. A \
+missing headline usually reflects the search's limits, not proof that \
+nothing happened.
 
-For each question, return its id, your probability as a whole-number percent \
-from 1 to 99, and 2-4 plain-English sentences of reasoning that a general \
-reader could follow, naming the key evidence."""
+Return exactly one forecast for every question, using its id, with your \
+probability as a whole-number percent from 1 to 99 and 2-4 plain-English \
+sentences of reasoning that a general reader could follow, naming the key \
+evidence."""
 
 # The exact JSON shape we want back. The API guarantees Claude's answer
 # matches it, so we don't have to guess how to read it.
@@ -69,7 +73,20 @@ OUTPUT_SCHEMA = {
     "additionalProperties": False,
 }
 
-MAX_RULES_CHARS = 1500  # very long rules are cut to keep costs down
+
+def trim_rules(rules, limit=None):
+    """
+    Very long resolution rules are cut at the end of a sentence, with a note
+    saying how much was left out (so the AI knows it didn't see everything).
+    """
+    limit = limit or config.MAX_RULES_CHARS
+    if len(rules) <= limit:
+        return rules
+    cut = rules[:limit]
+    end = max(cut.rfind(". "), cut.rfind(".\n"))
+    if end > limit // 2:
+        cut = cut[: end + 1]
+    return f"{cut} [rules shortened: {len(rules) - len(cut)} characters left out]"
 
 
 class ForecastFailed(RuntimeError):
@@ -86,9 +103,7 @@ def build_prompt(questions, today):
     """
     parts = [f"Today's date is {today}. Here are today's questions.\n"]
     for i, q in enumerate(questions, start=1):
-        rules = q["rules"]
-        if len(rules) > MAX_RULES_CHARS:
-            rules = rules[:MAX_RULES_CHARS] + "..."
+        rules = trim_rules(q["rules"])
         lines = [
             f"=== Q{i} ===",
             f"Question: {q['question']}",
@@ -102,8 +117,10 @@ def build_prompt(questions, today):
                 if h.get("summary"):
                     line += f": {h['summary']}"
                 lines.append(line)
+        elif q.get("news_error"):
+            lines.append("- (the news search failed today, so there are no headlines)")
         else:
-            lines.append("- (no news found)")
+            lines.append("- (the news search found no matching headlines)")
         parts.append("\n".join(lines))
     return "\n\n".join(parts)
 

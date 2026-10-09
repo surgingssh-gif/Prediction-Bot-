@@ -14,20 +14,46 @@ information at the same time.
 """
 
 import math
+from datetime import datetime, timedelta, timezone
+
+import groups
+
+# Students' t values for a 95% range, by degrees of freedom. With only a few
+# independent stories, the range has to be much wider than the usual 1.96.
+T_95 = [(1, 12.71), (2, 4.30), (3, 3.18), (4, 2.78), (5, 2.57), (6, 2.45), (7, 2.36), (8, 2.31),
+        (9, 2.26), (10, 2.23), (15, 2.13), (20, 2.09), (30, 2.04), (60, 2.00), (120, 1.98)]
+MIN_STORIES_FOR_RANGE = 5   # below this, no "is it luck?" range is shown
+
+
+def t_value(df):
+    """The 95% t value for df degrees of freedom (rounded down to the table)."""
+    value = 12.71
+    for d, t in T_95:
+        if df >= d:
+            value = t
+    return value if df <= 120 else 1.96
 
 
 def brier(prob, outcome):
     return (prob - outcome) ** 2
 
 
-def scored_questions(forecast_files, resolutions):
+def scored_questions(forecast_files, resolutions, now=None):
     """
     Every question that has an AI forecast and a real Yes/No result.
     (Cancelled "void" questions don't count.) Returns a list of dicts.
+
+    A question only counts once its deadline has passed, even if it settled
+    early. Otherwise the early scoreboard would be lopsided: "it happened"
+    results often arrive early, while "it didn't happen" ones always wait for
+    the deadline.
     """
+    now = now or datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     rows = []
     for day in forecast_files:
         for q in day.get("questions", []):
+            if (q.get("end_date") or "") > now:
+                continue  # settled early; joins the score at its deadline
             res = resolutions.get(q["market_id"])
             forecast = q.get("forecast")
             crowd = q["snapshot"].get("crowd")
@@ -39,6 +65,12 @@ def scored_questions(forecast_files, resolutions):
             blend = (ai + crowd) / 2  # a simple average of the two forecasts
             rows.append({
                 "market_id": q["market_id"],
+                "event_id": q.get("event_id"),
+                "event_title": q.get("event_title"),
+                "option": q.get("option"),
+                "question": q.get("question"),
+                "end_date": q.get("end_date"),
+                "phase": day.get("phase", "1.0"),
                 "topic": q.get("topic"),
                 "resolved_at": res["resolved_at"],
                 "ai": ai,
@@ -50,6 +82,39 @@ def scored_questions(forecast_files, resolutions):
             })
     rows.sort(key=lambda r: r["resolved_at"])
     return rows
+
+
+def story_ids(rows, days_apart=14):
+    """
+    Groups rows into real-world "stories": questions from the same Polymarket
+    event, or that share a distinctive name (see groups.py) and close within
+    about two weeks of each other. Five Brazil-election questions are one
+    story, not five separate tests. Returns one story number per row.
+    """
+    parent = list(range(len(rows)))
+
+    def find(i):
+        while parent[i] != i:
+            parent[i] = parent[parent[i]]
+            i = parent[i]
+        return i
+
+    def close_in_time(a, b):
+        try:
+            ta = datetime.fromisoformat(a.replace("Z", "+00:00"))
+            tb = datetime.fromisoformat(b.replace("Z", "+00:00"))
+        except (AttributeError, ValueError):
+            return True
+        return abs(ta - tb) <= timedelta(days=days_apart)
+
+    for i in range(len(rows)):
+        for j in range(i):
+            a, b = rows[i], rows[j]
+            same_event = a.get("event_id") and a.get("event_id") == b.get("event_id")
+            if same_event or (close_in_time(a.get("end_date"), b.get("end_date"))
+                              and a.get("question") and b.get("question") and groups.related(a, b)):
+                parent[find(i)] = find(j)
+    return [find(i) for i in range(len(rows))]
 
 
 def summary(rows):
@@ -80,12 +145,21 @@ def summary(rows):
         # A third forecaster: the average of the AI and the crowd. Averaging
         # two decent forecasts often beats both of them.
         result["blend_brier"] = round(sum(r["blend_brier"] for r in rows) / n, 4)
-    if n >= 2:
-        # Standard error of the average difference (a paired comparison).
-        variance = sum((d - mean_diff) ** 2 for d in diffs) / (n - 1)
-        margin = 1.96 * math.sqrt(variance / n)
-        result["ci_low"] = round(mean_diff - margin, 4)
-        result["ci_high"] = round(mean_diff + margin, 4)
+    # The 95% range treats each story (not each question) as one independent
+    # test: average the difference within each story, then use a t value for
+    # the number of stories. Hidden until there are enough stories.
+    by_story = {}
+    for story, d in zip(story_ids(rows), diffs):
+        by_story.setdefault(story, []).append(d)
+    story_means = [sum(v) / len(v) for v in by_story.values()]
+    k = len(story_means)
+    result["stories"] = k
+    if k >= MIN_STORIES_FOR_RANGE:
+        center = sum(story_means) / k
+        variance = sum((m - center) ** 2 for m in story_means) / (k - 1)
+        margin = t_value(k - 1) * math.sqrt(variance / k)
+        result["ci_low"] = round(center - margin, 4)
+        result["ci_high"] = round(center + margin, 4)
     return result
 
 
@@ -137,9 +211,10 @@ def running_scores(rows):
 
 def movement(questions):
     """
-    Did the crowd move toward the AI after it forecast? For each question,
-    compares the market price at forecast time with the latest price we
-    recorded while it was still open. "Toward" means the price moved in the
+    Did the crowd move toward the AI after it forecast? For each OPEN
+    question, compares the market price at forecast time with the latest
+    price recorded. (Settled questions are left out: their last price is
+    basically the result, so they'd just repeat the scoreboard.) "Toward" means the price moved in the
     direction the AI said it should. If markets keep drifting toward the
     AI's numbers, that's an early sign it's spotting something real, long
     before the questions settle.

@@ -26,7 +26,7 @@ something myself, and keep the code simple and well-commented.
 - Forecasts must be blind: never put market prices, volumes or odds in the
   prompt, and filter news that mentions prediction markets or odds.
 - Forecast files in data/forecasts/ are written once and never edited. They
-  are committed before questions resolve (the tamper-proof record).
+  are committed before questions resolve (the tamper-evident record).
 - Settings marked FROZEN in config.py (including the model) must not change
   mid-experiment. If one must, log the date and reason in the README.
 - One Claude request per day; keep costs around $1-3 a month.

@@ -1,0 +1,38 @@
+# Checks every change to the main branch: saved forecasts in data/forecasts/
+# may be ADDED, but never edited or deleted. If a push changes one, this
+# check fails (a red X on the Actions tab), so any tampering is visible.
+name: Forecast guard
+
+on:
+  push:
+    branches: [main]
+    paths: ["data/forecasts/**"]
+
+permissions:
+  contents: read
+
+jobs:
+  guard:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download the code
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0   # full history, to compare with the previous version
+
+      - name: Check that no saved forecast was changed
+        env:
+          BEFORE: ${{ github.event.before }}
+          AFTER: ${{ github.sha }}
+        run: |
+          # A brand-new branch has no "before"; nothing to compare.
+          if [ "$BEFORE" = "0000000000000000000000000000000000000000" ]; then
+            echo "New branch; nothing to compare."
+            exit 0
+          fi
+          changed=$(git diff --name-only --diff-filter=MDR "$BEFORE" "$AFTER" -- data/forecasts)
+          if [ -n "$changed" ]; then
+            echo "::error::Saved forecasts were changed or deleted: $changed"
+            exit 1
+          fi
+          echo "OK: forecasts were only added."

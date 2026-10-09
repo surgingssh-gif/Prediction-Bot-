@@ -63,12 +63,16 @@ def _row(day, q, resolutions, pnl_by_id, prices=None):
         ],
         "note": q.get("bet_note"),
         "spark": _spark(day, q, history),
+        "phase": day.get("phase", "1.0"),
     }
-    # The latest price we saw while the market was still open.
-    if history and history[-1][0] > (day.get("created_at") or "")[:10]:
+    # The latest price we saw while the market was still open (a market is
+    # never picked twice, so a same-day price is a real update too).
+    if history and history[-1][0] >= (day.get("created_at") or "")[:10]:
         row["latest"] = history[-1][1]
     if bet:
         row["bet"] = {k: bet[k] for k in ("side", "price", "shares", "cost", "fee", "gap_pts")}
+        if bet.get("fill"):
+            row["bet"]["fill"] = bet["fill"]
         if not res and "latest" in row:
             # What the bet would be worth at today's price (not yet real profit).
             price = row["latest"] if bet["side"] == "YES" else 1 - row["latest"]
@@ -78,7 +82,7 @@ def _row(day, q, resolutions, pnl_by_id, prices=None):
     if res:
         row["outcome"] = res["outcome"]
         row["settled"] = res["resolved_at"]
-        if row["ai"] is not None and res["outcome"] in (0, 1):
+        if row["ai"] is not None and not q.get("excluded") and res["outcome"] in (0, 1):
             row["ai_brier"] = round(scoring.brier(row["ai"], res["outcome"]), 4)
             row["crowd_brier"] = round(scoring.brier(row["crowd"], res["outcome"]), 4)
             row["blend_brier"] = round(scoring.brier((row["ai"] + row["crowd"]) / 2, res["outcome"]), 4)
@@ -209,16 +213,21 @@ def _short(row):
     return {k: row[k] for k in keys if k in row}
 
 
-def build_data(days, resolutions, pending=None, prices=None):
+def build_data(days, resolutions, pending=None, prices=None, now=None):
     """Everything the website needs, as one dict."""
     pending = pending or []
-    rows = scoring.scored_questions(days, resolutions)
+    now = now or datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    rows = scoring.scored_questions(days, resolutions, now=now)
     portfolio = trading.replay(days, resolutions)
     pnl_by_id = {s["market_id"]: s["pnl"] for s in portfolio["settled"]}
 
     all_rows = [_row(d, q, resolutions, pnl_by_id, prices) for d in days for q in d.get("questions", [])]
-    open_rows = [r for r in all_rows if "outcome" not in r and r["ai"] is not None and not r.get("excluded")]
+    # Questions Claude didn't answer still show (marked "no AI forecast").
+    open_rows = [r for r in all_rows if "outcome" not in r and not r.get("excluded")]
     settled_rows = [r for r in all_rows if "outcome" in r]
+    for r in settled_rows:
+        if "ai_brier" in r and r["end"] and r["end"] > now[:10]:
+            r["early"] = True  # settled before its deadline: joins the score then
     settled_rows.sort(key=lambda r: r["settled"], reverse=True)
 
     settled_bets = portfolio["settled"]
@@ -232,12 +241,12 @@ def build_data(days, resolutions, pending=None, prices=None):
     open_value = sum(b.get("value", b["cost"]) for b in open_bets)
     unrealized = round(open_value - sum(b["cost"] for b in open_bets), 2)
 
-    scored_rows = [r for r in all_rows if "ai_brier" in r and not r.get("excluded")]
+    scored_rows = [r for r in all_rows if "ai_brier" in r and not r.get("early")]
     best, worst = scoring.best_and_worst(scored_rows)
     settled_bet_rows = [
         {**r["bet"], "topic": r.get("topic"), "pnl": r["pnl"]} for r in settled_rows if r.get("bet") and "pnl" in r
     ]
-    moving = [r for r in all_rows if r["ai"] is not None and not r.get("excluded")]
+    moving = [r for r in open_rows if r["ai"] is not None]  # open questions only
     latest_run = days[-1]["run_id"] if days else None
 
     return {
@@ -264,6 +273,10 @@ def build_data(days, resolutions, pending=None, prices=None):
             "per_story": config.MAX_BETS_PER_STORY,
         },
         "stats": scoring.summary(rows),
+        "phase": config.PHASE,
+        "by_phase": [{"phase": p, **scoring.summary([r for r in rows if r["phase"] == p])}
+                     for p in sorted({r["phase"] for r in rows})],
+        "unanswered": sum(1 for r in all_rows if r["ai"] is None),
         "calibration": {"ai": scoring.calibration(rows, "ai"), "crowd": scoring.calibration(rows, "crowd")},
         "topics": scoring.by_topic(rows),
         "running": scoring.running_scores(rows),
@@ -298,7 +311,9 @@ def build_data(days, resolutions, pending=None, prices=None):
         "settled_total": len(settled_rows),
         "runs": [
             {"run": d["run_id"], "asked": d.get("created_at"), "answered": d.get("forecast_at"),
-             "n": len(d.get("questions", [])), "cost": d.get("cost_usd"), "error": d.get("error")}
+             "n": len(d.get("questions", [])), "cost": d.get("cost_usd"), "error": d.get("error"),
+             "phase": d.get("phase", "1.0"), "eligible": (d.get("pick_stats") or {}).get("eligible"),
+             "answered_n": sum(1 for q in d.get("questions", []) if q.get("forecast"))}
             for d in days
         ],
         "pending": [{"run": d["run_id"], "asked": d.get("created_at"), "n": len(d.get("questions", []))}

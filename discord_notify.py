@@ -81,17 +81,24 @@ def build_message(finished_days, newly_settled, resolutions, problems):
 
 
 def split_message(text):
-    """Cuts a long message into pieces Discord will accept, at line breaks."""
+    """
+    Cuts a long message into pieces Discord will accept, at line breaks.
+    Every piece ends with the disclaimer, so no part of the summary is ever
+    posted without it.
+    """
+    tail = f"\n_{config.DISCLAIMER}_"
+    body = text[: -len(tail)] if text.endswith(tail) else text
+    room = DISCORD_LIMIT - len(tail) - 1  # space left for the message itself
     chunks, current = [], ""
-    for line in text.split("\n"):
-        line = line[: DISCORD_LIMIT - 1]
-        if len(current) + len(line) + 1 > DISCORD_LIMIT:
+    for line in body.split("\n"):
+        line = line[: room - 1]
+        if len(current) + len(line) + 1 > room:
             chunks.append(current)
             current = ""
         current += line + "\n"
     if current.strip():
         chunks.append(current)
-    return chunks
+    return [c.rstrip("\n") + "\n" + tail for c in chunks]
 
 
 def send_to_discord(webhook_url, message):

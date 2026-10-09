@@ -42,7 +42,7 @@ def now_iso():
     return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
 
-def place_bets(day, forecasts, fetch=None):
+def place_bets(day, forecasts, fetch=None, asks_for=None):
     """
     Adds Claude's forecasts to the day's questions and decides on paper bets.
 
@@ -52,11 +52,15 @@ def place_bets(day, forecasts, fetch=None):
     AI's news was gathered: same information, same moment.)
     """
     fetch = fetch or markets.fetch_market
+    asks_for = asks_for or markets.fetch_asks
     past_days = storage.read_forecasts()
     portfolio = trading.replay(past_days, storage.read_resolutions())
     equity, cash = portfolio["equity"], portfolio["cash"]
-    # Today's spending limit (an extra run on the same day shares it).
-    spent_today = sum(q["bet"]["cost"] for d in past_days if d.get("date") == day["date"]
+    # Today's spending limit, by the calendar day the bets are actually
+    # placed (UTC). Every run that places bets today shares it, including a
+    # late batch from yesterday that finishes today.
+    today = now_iso()[:10]
+    spent_today = sum(q["bet"]["cost"] for d in past_days if (d.get("forecast_at") or "")[:10] == today
                       for q in d.get("questions", []) if q.get("bet"))
     budget = trading.daily_budget(cash, spent_today)
     for q in day["questions"]:
@@ -65,6 +69,7 @@ def place_bets(day, forecasts, fetch=None):
         if not q["forecast"]:
             q["bet_note"] = "Claude gave no forecast for this question."
             continue
+        market = None
         try:
             market = fetch(q["market_id"])
             live = markets.snapshot(market)
@@ -77,10 +82,18 @@ def place_bets(day, forecasts, fetch=None):
             print(f"Couldn't get live prices for {q['market_id']} ({e}); using the earlier prices.")
             live = q["snapshot"]
         q["trade_snapshot"] = live
-        bet, note = trading.decide_bet(
-            q["forecast"]["probability"], live["best_bid"], live["best_ask"],
-            live["fee_rate"], equity, cash,
-        )
+        args = (q["forecast"]["probability"], live["best_bid"], live["best_ask"], live["fee_rate"], equity, cash)
+        bet, note = trading.decide_bet(*args)
+        if bet:
+            # Fill it like a real order, from the shares actually on offer.
+            tokens = markets.token_ids(market) if market else None
+            asks = None
+            if tokens:
+                try:
+                    asks = asks_for(tokens[0] if bet["side"] == "YES" else tokens[1])
+                except Exception as e:
+                    print(f"Couldn't read the order book for {q['market_id']} ({e}); using the best price.")
+            bet, note = trading.decide_bet(*args, asks=asks)
         q["bet"], q["bet_note"] = bet, note
 
     # Don't pile onto one story: at most MAX_BETS_PER_STORY open bets on
@@ -145,8 +158,10 @@ def finish_batch(client, day, problems, wait_minutes=0):
 def start_new_run(client, date_str, problems, dry_run=False):
     """Picks today's questions, researches them and sends them to Claude."""
     events = markets.fetch_events()
-    questions = markets.pick_questions(events, storage.already_forecast())
-    print(f"Picked {len(questions)} questions from {len(events)} Polymarket events.")
+    pick_stats = {}
+    questions = markets.pick_questions(events, storage.already_forecast(), stats=pick_stats)
+    print(f"Picked {len(questions)} questions from {len(events)} Polymarket events. "
+          f"Eligible by topic: {pick_stats.get('eligible')}")
     if not questions:
         problems.append("No questions passed today's filters.")
         return None
@@ -154,10 +169,11 @@ def start_new_run(client, date_str, problems, dry_run=False):
     news_failures = 0
     for q in questions:
         try:
-            q["news"] = news.fetch_news(q)
+            found = news.fetch_news(q)
+            q["news"], q["news_query"] = found["headlines"], found["query"]
         except Exception as e:
             print(f"News search failed for {q['market_id']}: {e}")
-            q["news"] = []
+            q["news"], q["news_error"] = [], type(e).__name__
             news_failures += 1
     if news_failures:
         problems.append(f"News search failed for {news_failures} of {len(questions)} questions.")
@@ -176,6 +192,8 @@ def start_new_run(client, date_str, problems, dry_run=False):
         "created_at": now_iso(),
         "model": config.MODEL,
         "effort": config.EFFORT,
+        "phase": config.PHASE,
+        "pick_stats": pick_stats,
         "questions": questions,
     }
     day["batch_id"] = forecaster.submit_batch(client, questions, date_str, custom_id=day["run_id"])
@@ -192,7 +210,7 @@ def main():
     # Keys come from .env on your computer, or GitHub Secrets on Actions.
     load_dotenv()
     api_key = os.getenv("ANTHROPIC_API_KEY")
-    webhook_url = os.getenv("DISCORD_WEBHOOK_URL")
+    webhook_url = (os.getenv("DISCORD_WEBHOOK_URL") or "").strip()
     date_str = datetime.now(timezone.utc).strftime("%Y-%m-%d")  # dates are in UTC
     problems = []
 
@@ -210,7 +228,12 @@ def main():
     finished = []
     if client:
         for day in storage.read_pending():
-            saved = finish_batch(client, day, problems)
+            try:
+                saved = finish_batch(client, day, problems)
+            except Exception as e:
+                # One broken pending file mustn't stop every later step.
+                problems.append(f"Couldn't finish the waiting batch {day.get('run_id')}: {type(e).__name__}")
+                continue
             if saved:
                 finished.append(saved)
 
@@ -254,7 +277,9 @@ def main():
     try:
         send_to_discord(webhook_url, message)
     except Exception as e:
-        print(f"Sending to Discord failed: {e}\n{message}")
+        # Only the error type: the full error text can contain the secret webhook link.
+        status = getattr(getattr(e, "response", None), "status_code", None)
+        print(f"Sending to Discord failed ({status or type(e).__name__}).\n{message}")
 
 
 if __name__ == "__main__":

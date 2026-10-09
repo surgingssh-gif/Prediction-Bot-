@@ -15,16 +15,16 @@ on:
     - cron: "7 17 * * *"
     - cron: "7 20 * * *"
     - cron: "7 23 * * *"
-  # Adds a "Run workflow" button on the Actions tab. With "force" ticked (the
-  # default) it makes an EXTRA round of new forecasts even if today's exist.
-  # Untick it to only check results and refresh the website. An outside
-  # scheduler (like cron-job.org) can start it too, sending force=false.
+  # Adds a "Run workflow" button on the Actions tab. Normally it just does a
+  # regular run (forecasts if today has none yet, then checks results).
+  # Tick "force" to make an EXTRA round of new forecasts even if today's
+  # exist. An outside scheduler (like cron-job.org) can start it too.
   workflow_dispatch:
     inputs:
       force:
         description: "Make new forecasts even if today's already exist"
         type: boolean
-        default: true
+        default: false
 
 # Lets the workflow save the forecasts back into the repository.
 permissions:
@@ -43,6 +43,8 @@ jobs:
     steps:
       - name: Download the code
         uses: actions/checkout@v5
+        with:
+          ref: ${{ github.ref_name }}   # the latest version, not the one when the run was queued
 
       - name: Set up Python
         uses: actions/setup-python@v6
@@ -65,8 +67,19 @@ jobs:
         if: always()
         run: python build_site.py
 
+      # Keeps a copy of the data with the run, in case saving fails below.
+      - name: Keep a backup of the data
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: data-${{ github.run_id }}
+          path: data/
+          retention-days: 30
+          if-no-files-found: ignore
+
       # Commit the new records. This timestamped commit, made before any
-      # question resolves, is the tamper-proof record of each forecast.
+      # question resolves, is the tamper-evident record of each forecast:
+      # git history shows if a saved forecast was ever changed.
       - name: Save forecasts and website
         if: always()
         run: |
@@ -75,10 +88,26 @@ jobs:
           git add data docs 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "Nothing new to save."
-          else
-            git commit -m "Forecasts and results for $(date -u +%Y-%m-%d)"
-            # Another run may have saved in the meantime: add this on top
-            # (keeping this run's version of any file both changed), then push.
-            git pull --rebase -X theirs
-            git push
+            exit 0
           fi
+          git commit -m "Forecasts and results for $(date -u +%Y-%m-%d)"
+          # Another run may have saved in the meantime: add this on top
+          # (keeping this run's version of any file both changed), then push.
+          # Tries a few times in case runs keep overlapping.
+          for attempt in 1 2 3 4; do
+            git pull --rebase -X theirs
+            # Safety check: saved forecasts may only be ADDED, never changed
+            # or deleted. If this run would change one, stop instead.
+            changed=$(git diff --name-only --diff-filter=MDR @{u} HEAD -- data/forecasts)
+            if [ -n "$changed" ]; then
+              echo "::error::Refusing to push: this would change saved forecasts: $changed"
+              exit 1
+            fi
+            if git push; then
+              exit 0
+            fi
+            echo "Push failed (attempt $attempt); trying again."
+            sleep $((attempt * 5))
+          done
+          echo "::error::Could not save after 4 tries. The data is in this run's backup artifact."
+          exit 1

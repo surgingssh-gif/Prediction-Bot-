@@ -51,6 +51,19 @@ MAX_PER_TOPIC_PER_DAY = 3   # keeps each day's questions varied
 HEADLINES_PER_QUESTION = 6
 NEWS_LOOKBACK = "14d"       # Google News "when:" filter: only the last 14 days
 
+# Resolution rules longer than this are cut (at a sentence end, with a note).
+# Raised from 1,500 on 2026-10-09 (Phase 1.1): the cut was hiding the
+# deciding fine print on 31 of the first 76 questions. (FROZEN)
+MAX_RULES_CHARS = 8000
+
+# Which version of the experiment's rules made a forecast. Every forecast
+# file records it, so results can be split before/after a logged change.
+#   1.0 - Oct 2-9, 2026: the original setup
+#   1.1 - from Oct 9, 2026: wider odds filter, better news searches, full
+#         rules, realistic fills, exact-10-point fix, conflict/odds-market
+#         filters (see the README's experiment log)
+PHASE = "1.1"
+
 # ---------------------------------------------------------------------------
 # Paper trading (FROZEN) - no real money, ever
 # ---------------------------------------------------------------------------

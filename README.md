@@ -36,15 +36,28 @@ resolves, so the record can't be quietly edited afterwards.
 
 The **crowd's** forecast is the market price when we picked the question (a
 62¢ price means 62%). That's the same moment the AI's news was gathered, so
-both sides had the same information. The site also shows a **95% range** for
-the difference: if it includes zero, the difference could just be luck.
+both forecasts are made at the same time. (They don't have the same
+information: the market can draw on everything traders know, while the AI
+only sees a short news search. That makes the test harder for the AI, not
+easier.)
+
+A question only counts once its **deadline** has passed, even if it settled
+early. "It happened" results often arrive early, but "it didn't happen" ones
+always wait for the deadline, so counting early results would tilt the score.
+
+Questions about the same real-world story (for example, five questions about
+one election) are counted as **one story** for the **95% range** of the
+difference: if it includes zero, the difference could just be luck. The range
+appears once at least 5 separate stories have settled.
 
 **Calibration**: when the AI says 70%, does it happen about 70% of the time?
 The calibration chart groups forecasts into buckets to check.
 
 **Paper trading**: the AI buys "Yes" when it thinks the price is too low and
 "No" when it's too high, but only when the gap is at least 10 points. It pays
-the real asking price and Polymarket's real fee. Bet size uses the **Kelly
+the prices actually on offer in Polymarket's order book (cheapest first,
+moving up, and never paying a price that leaves less than a 10-point gap),
+plus Polymarket's real fee. Bet size uses the **Kelly
 formula** (a classic way to size bets by how big your edge is), scaled down to
 a quarter for safety, and never more than 5% of the bankroll on one question.
 At most 10% of the available cash goes into new bets each day, so money stays
@@ -129,10 +142,11 @@ From then on it runs by itself every day. GitHub often starts scheduled runs
 late or skips some, so there are 5 start times a day (13:07-23:07 UTC). The
 first one makes the day's forecasts; the rest just check results.
 
-**About the Run workflow button:** with **force** ticked (the default), it makes
-an **extra** round of ~10 new questions even if today's already exist, saved as
-e.g. `2026-10-02-2.json` (nothing is ever overwritten). It costs about the same
-as a normal day. To only check results and refresh the site, untick **force**.
+**About the Run workflow button:** normally it does a regular run (forecasts
+if today has none yet, then checks results and refreshes the site). If you tick
+**force**, it makes an **extra** round of ~10 new questions even if today's
+already exist, saved as e.g. `2026-10-02-2.json` (nothing is ever
+overwritten). That costs about the same as a normal day.
 
 ### Running it on your own computer (optional)
 
@@ -170,17 +184,25 @@ https://console.anthropic.com > **Usage**.
 ## The experiment's rules (so the results are trustworthy)
 
 - **Blind forecasts.** The prompt never includes prices, volumes or odds.
-  Headlines that mention Polymarket, Kalshi, betting or odds are removed.
+  Headlines that mention Polymarket, Kalshi, betting, odds, or what traders
+  "expect" or have "priced in" are removed, and so are questions that are
+  themselves about betting odds.
 - **One shot per question.** Each question is forecast once. If Claude's
   request fails, the day is recorded as failed, not retried.
 - **No editing.** Forecast files are written once and committed before results
-  are known. Their GitHub history proves when each forecast was made.
+  are known. The record is **tamper-evident**: GitHub's history shows when
+  each forecast was made and would show any later change. The daily run
+  refuses to save if it would change a saved forecast, and the "Forecast
+  guard" check fails if anyone else does.
 - **Frozen settings.** Don't change the settings marked FROZEN in
   `config.py` (including the model) during the experiment. If you have to,
   write it in the log below.
 - **Report everything**, including results where the AI loses.
 - Questions about Anthropic or Claude are skipped (Claude is made by Anthropic,
-  so that would be a conflict of interest).
+  so that would be a conflict of interest). This includes events where
+  Anthropic is one of the options, like "which company has the best AI model".
+- **Phases.** Each day's file records which version of the rules it used
+  ("phase"). The website can show results for each phase separately.
 
 ### Experiment log
 
@@ -190,6 +212,7 @@ https://console.anthropic.com > **Usage**.
 | 2026-10-03 | Reasoning style in the prompt changed from "a high school student could follow" to "a general reader could follow" (wording only; same rules and output). |
 | 2026-10-05 | Added a daily betting budget: at most 10% of available cash goes into new bets each day, with all of that day's bets scaled down equally if needed. Before this, the full $1,000 was tied up in open bets within 4 days, leaving nothing for later questions. Bets placed before this date are unchanged. |
 | 2026-10-05 | Added a limit of 2 open bets per real-world story (questions sharing a name like "Brazil" or "Gemini", see `groups.py`). Polymarket splits one story into many events, and 5 bets had piled onto the Brazil election. When the AI wants more, the biggest disagreements get priority. Every question is still forecast and scored; only betting is limited. |
+| 2026-10-09 | **Phase 1.1** (Oct 2-8 is Phase 1.0). Changes after a full review: (1) A wider filter for headlines that hint at market odds. Some got through before: "Fed officials wash away market bets on October rate increase" and "Dollar Jumps to 8-Week High on Fed Rate-Hike Bets" (questions 2589812 and 2589813, Oct 2), "Options Traders Give Nvidia a 50% Chance of Hitting $6 Trillion This Month" (5180413, Oct 9) and "...with hike priced in" (3940926, Oct 9). Those forecasts stay in the record, unchanged. (2) Better news searches: dates and filler words are removed from the search, a backup search uses the event title, headlines must name the question's subject, and at most 2 come from one site. The prompt also says when the search failed. (3) Resolution rules can be up to 8,000 characters (was 1,500; `MAX_RULES_CHARS`, FROZEN), and any cut is marked. (4) Paper bets are filled from the real order book instead of assuming every share costs the best price. (5) An exact 10-point gap now counts (a rounding error skipped it). (6) Events where Anthropic is one of the options are skipped: 3554659 (Oct 2), 5178290 (Oct 7) and 3554549 (Oct 9) slipped through before. They stay in the record but shouldn't have been picked. (7) Questions that resolve on betting odds, and derivatives and gaming/streamer markets, are skipped. (8) The daily budget is shared by every run on the same calendar day (UTC), so a late batch can't double it. Scoring: questions count only after their deadline, and the 95% range treats each story as one test (needs 5+ stories). |
 
 ---
 

@@ -75,6 +75,8 @@
   }
   function keyLine(color) { return el("span", { class: "key-line", style: { borderTopColor: color } }); }
   function keyDot(color) { return el("span", { class: "key-dot", style: { background: color } }); }
+  /* Only web links from the data are used (never "javascript:" links). */
+  function safeUrl(url) { return /^https?:\/\//i.test(url || "") ? url : null; }
   function recordUrl(run) {
     return "https://github.com/" + DATA.repo + "/commits/main/data/forecasts/" + run + ".json";
   }
@@ -660,7 +662,7 @@
     // Open positions, soonest to close first.
     var open = (DATA.open || []).filter(function (r) { return r.bet; });
     document.getElementById("positions-sub").textContent = open.length + " open · " + money(portfolio.open_cost || 0) + " invested · soonest to close first";
-    var pc = clear(document.getElementById("positions"));
+    var pc = clear(document.getElementById("positions-table"));
     if (!open.length) {
       pc.appendChild(el("p", { class: "empty", text: "No open positions." }));
     } else {
@@ -670,7 +672,7 @@
         var val = b.value !== undefined ? b.value : b.cost;
         var pl = val - b.cost;
         return el("tr", null,
-          el("td", null, r.url ? el("a", { href: r.url, target: "_blank", rel: "noopener", text: r.q }) : r.q,
+          el("td", null, safeUrl(r.url) ? el("a", { href: safeUrl(r.url), target: "_blank", rel: "noopener", text: r.q }) : r.q,
             el("div", { class: "row-meta", text: r.topic + " · AI " + pct(r.ai) + " vs market " + pct(r.crowd) })),
           el("td", { class: "nowrap" }, el("span", { class: "side-tag", text: b.side }), " @ " + cents(b.price)),
           el("td", { class: "r" }, el("div", { class: "now-cell" }, sparkline(r, 64, 24), el("span", { text: now === null ? "–" : cents(now) }))),
@@ -700,7 +702,7 @@
         el("tbody", null, closed.map(function (r) {
           var result = r.outcome === "void" ? "Cancelled" : r.outcome === 1 ? "YES" : "NO";
           return el("tr", null,
-            el("td", null, r.url ? el("a", { href: r.url, target: "_blank", rel: "noopener", text: r.q }) : r.q,
+            el("td", null, safeUrl(r.url) ? el("a", { href: safeUrl(r.url), target: "_blank", rel: "noopener", text: r.q }) : r.q,
               el("div", { class: "row-meta", text: r.topic + " · AI " + pct(r.ai) + " vs market " + pct(r.crowd) })),
             el("td", { class: "nowrap" }, el("span", { class: "side-tag", text: r.bet.side }), " @ " + cents(r.bet.price)),
             el("td", { text: result }),
@@ -720,7 +722,8 @@
     document.getElementById("acc-deck").textContent =
       "Before each bet, the AI writes down its own probability without seeing the market's price. Here it's scored against " +
       "the market price at that moment, on the same questions. " +
-      (n ? n + " questions have settled so far." : "Scores appear as questions settle.");
+      (n ? n + " questions have been scored so far, from " + stats.stories + " separate stor" + (stats.stories === 1 ? "y" : "ies") +
+        ". (A question counts once its deadline has passed, even if it settled early.)" : "Scores appear as questions reach their deadlines.");
 
     function side(name, color, value, sub) {
       return el("div", { class: "side" },
@@ -743,15 +746,18 @@
       append(verdict, ["The ", el("strong", { text: "Brier score" }), " measures forecast error: 0 is perfect, 0.25 is what you'd get by always saying 50%, and lower is better."]);
     } else {
       var leader = stats.diff < 0 ? "the AI" : stats.diff > 0 ? "the market" : "neither side";
-      var range = stats.ci_low === null ? "" : " The 95% range for the difference (AI minus market) is " +
-        stats.ci_low.toFixed(3) + " to " + stats.ci_high.toFixed(3) + ".";
+      var stories = stats.stories || 0;
+      var range = stats.ci_low === null || stats.ci_low === undefined
+        ? " There's no 95% range yet: it needs at least 5 separate stories, because linked questions (like five on one election) count as one."
+        : " The 95% range for the difference (AI minus market), counting each story once, is " +
+          stats.ci_low.toFixed(3) + " to " + stats.ci_high.toFixed(3) + ".";
       var call;
-      if (n < 30) call = el("strong", { text: "Too early to call." });
+      if (stories < 30 || stats.ci_low === null || stats.ci_low === undefined) call = el("strong", { text: "Too early to call." });
       else if (stats.ci_high < 0) call = el("strong", { text: "The AI is ahead, by more than luck alone would likely explain." });
       else if (stats.ci_low > 0) call = el("strong", { text: "The market is ahead, by more than luck alone would likely explain." });
       else call = el("strong", { text: "Too close to call." });
       append(verdict, [call, " Lower is better; so far " + leader + " has the lower score." + range +
-        (n < 100 ? " With fewer than about 100 settled questions, differences like this can easily be luck." : "")]);
+        (stories < 30 ? " With fewer than about 30 separate stories, differences like this can easily be luck." : "")]);
     }
 
     var running = DATA.running || [];
@@ -819,6 +825,18 @@
 
   /* The 0-100% strip with the AI's dot, the market's dot and (if settled) the result. */
   function compareStrip(row) {
+    if (row.ai === null || row.ai === undefined) {
+      // Claude didn't answer this one: show only the market.
+      return el("div", { class: "compare" },
+        el("div", { class: "compare-track", "aria-hidden": "true" },
+          el("div", { class: "compare-line" }),
+          row.outcome === 0 || row.outcome === 1 ? el("div", { class: "compare-outcome", style: { left: row.outcome * 100 + "%" } }) : null,
+          el("div", { class: "compare-dot", style: { left: row.crowd * 100 + "%", background: MARKET_COLOR } })),
+        el("div", { class: "compare-scale" }, el("span", { text: "0% (No)" }), el("span", { text: "50%" }), el("span", { text: "100% (Yes)" })),
+        el("div", { class: "compare-legend" },
+          el("span", { text: "No AI forecast (Claude skipped this question)" }),
+          el("span", null, keyDot(MARKET_COLOR), " Market said ", el("strong", { text: pct(row.crowd) }))));
+    }
     var lo = Math.min(row.ai, row.crowd), hi = Math.max(row.ai, row.crowd);
     var track = el("div", { class: "compare-track", "aria-hidden": "true" },
       el("div", { class: "compare-line" }),
@@ -832,7 +850,7 @@
       el("div", { class: "compare-legend" },
         el("span", null, keyDot(AI_COLOR), " AI says ", el("strong", { text: pct(row.ai) })),
         el("span", null, keyDot(MARKET_COLOR), " Market said ", el("strong", { text: pct(row.crowd) })),
-        el("span", { text: gap + "-point gap" })),
+        el("span", { text: gap + "-point gap from the market midpoint" })),
       row.outcome === undefined ? el("div", { class: "live" }, sparkline(row, 140, 34),
         el("span", null, "Market now ", el("strong", { text: row.latest !== undefined ? pct(row.latest) : pct(row.crowd) }),
           el("span", { class: "muted", text: " · " + moveText(row) }))) : null);
@@ -843,14 +861,16 @@
     return el("details", { class: "more" }, el("summary", { text: "News the AI read (" + row.news.length + ")" }),
       el("ul", null, row.news.map(function (h) {
         var label = (h.d ? h.d + " · " : "") + (h.s || "");
-        return el("li", null, h.l ? el("a", { href: h.l, target: "_blank", rel: "noopener", text: h.t }) : h.t,
+        return el("li", null, safeUrl(h.l) ? el("a", { href: safeUrl(h.l), target: "_blank", rel: "noopener", text: h.t }) : h.t,
           label ? el("span", { text: " (" + label + ")" }) : null);
       })));
   }
 
   function card(row, settled) {
-    var title = row.url ? el("a", { href: row.url, target: "_blank", rel: "noopener", text: row.q }) : row.q;
-    var meta = [row.topic, settled ? "Settled " + shortDate(row.settled) : "Closes " + shortDate(row.end), "Asked " + shortDate(row.asked)];
+    var title = safeUrl(row.url) ? el("a", { href: safeUrl(row.url), target: "_blank", rel: "noopener", text: row.q }) : row.q;
+    var meta = [row.topic, settled ? "Settled " + shortDate(row.settled) : "Closes " + shortDate(row.end), "Asked " + shortDate(row.asked),
+      "Phase " + (row.phase || "1.0")];
+    if (row.early) meta.push("Settled early: joins the score on " + shortDate(row.end));
     var right = null;
     if (settled) {
       var result = row.outcome === "void" ? "Cancelled" : row.outcome === 1 ? "Resolved YES" : "Resolved NO";
@@ -868,7 +888,8 @@
 
     var betLine = row.bet
       ? el("p", { class: "bet-line" }, "Bought ", el("strong", { text: row.bet.side }), " at " + Math.round(row.bet.price * 100) +
-        "¢ a share: " + row.bet.shares + " shares for " + money(row.bet.cost) + " including " + money(row.bet.fee) + " in fees." +
+        "¢ a share" + (row.bet.fill === "order book" ? " (average, filled from the real order book)" : "") + ": " +
+        row.bet.shares + " shares for " + money(row.bet.cost) + " including " + money(row.bet.fee) + " in fees." +
         (row.bet.value !== undefined && row.outcome === undefined ? " Worth " + money(row.bet.value) + " at today's price (" +
           money(row.bet.value - row.bet.cost, true) + ")." : ""))
       : row.note ? el("p", { class: "bet-line", text: "No bet: " + row.note.replace(/\.$/, "") + "." }) : null;
@@ -883,7 +904,7 @@
       row.why ? el("p", { class: "reason", text: row.why }) : null,
       sources(row),
       el("p", { class: "record-link" }, el("a", { href: recordUrl(row.run), target: "_blank", rel: "noopener", text: "Original record" }),
-        " · committed to GitHub when it was made, before the result was known"));
+        " · committed to GitHub when it was made, before the result was known (its history shows any change)"));
   }
 
   var openFilter = "bets";
@@ -909,7 +930,8 @@
     var rows = DATA.settled || [];
     var total = DATA.settled_total || 0;
     document.getElementById("settled-sub").textContent = total
-      ? total + " settled · newest first" + (total > rows.length ? " · showing the latest " + rows.length : "")
+      ? total + " settled · " + (stats.n || 0) + " scored (cancelled, excluded, unanswered or settled-early questions aren't scored yet) · newest first" +
+        (total > rows.length ? " · showing the latest " + rows.length : "")
       : "";
     var list = clear(document.getElementById("settled-list"));
     if (!rows.length) {
@@ -967,7 +989,7 @@
       if (!rows.length) { box.appendChild(el("p", { class: "empty", text: cfg[1] })); return; }
       box.appendChild(el("ol", { class: "calls" }, rows.map(function (r) {
         var result = r.outcome === 1 ? "YES" : "NO";
-        return el("li", null, r.url ? el("a", { href: r.url, target: "_blank", rel: "noopener", text: r.q }) : r.q,
+        return el("li", null, safeUrl(r.url) ? el("a", { href: safeUrl(r.url), target: "_blank", rel: "noopener", text: r.q }) : r.q,
           el("div", { class: "row-meta", text: "Resolved " + result + " · AI " + pct(r.ai) + " vs market " + pct(r.crowd) +
             " · Brier " + brier(r.ai_brier) + " vs " + brier(r.crowd_brier) }));
       })));
@@ -994,33 +1016,41 @@
           "economy, politics, tech, business, science, weather or entertainment; close in " + s.min_days + " to " + s.max_days +
           " days; have at least $" + (s.min_volume || 0).toLocaleString() + " traded, a tight price spread and written resolution rules; " +
           "and not be nearly certain (the market must be between " + pct(s.min_price) + " and " + pct(s.max_price) + "). " +
-          "Sports, esports, crypto price bets and questions about Anthropic (the AI's maker) are skipped. No more than 3 per topic per day."),
-        li("For each question, the top " + s.headlines + " Google News headlines from the last " + s.lookback.replace("d", " days") +
-          " are collected. Headlines that mention prediction markets, betting or odds are thrown out, so the AI can't see the market's price."),
+          "Sports, esports, gaming streams, crypto price bets, questions that resolve on betting odds, and any event involving Anthropic " +
+          "(the AI's maker) or Claude in any of its options are skipped. No more than 3 per topic per day."),
+        li("For each question, up to " + s.headlines + " Google News headlines from the last " + s.lookback.replace("d", " days") +
+          " are collected (at most 2 per news site, and only ones that name the question's subject). Headlines that report what " +
+          "markets or traders expect (odds, bets, \u201cpriced in\u201d, \u201ca 50% chance\u201d) are thrown out, so the AI can't see the market's view."),
         li("All the questions go to Claude (" + DATA.model + ", " + DATA.effort + " effort) in one request. It sees each question, its " +
-          "rules and its news, but never the market price. It answers with a probability and a short explanation. " +
+          "full resolution rules and its news, but never the market price. It answers with a probability and a short explanation. " +
           "Each question is forecast once, and the same model is used for the whole experiment."),
         li("The forecasts are saved and committed to GitHub straight away, with a timestamp, before any result is known. " +
-          "The files are never edited afterwards (the “Original record” links show their history)."),
+          "The files are never edited afterwards: the bot refuses to save if an existing forecast file would change, and " +
+          "GitHub's history shows any change (the “Original record” links). That makes the record tamper-evident."),
       ]),
       h("Scoring"),
       p("The Brier score is the squared gap between a forecast and what happened (1 for Yes, 0 for No), averaged over all " +
         "questions. Lower is better: 0 is perfect, and always saying 50% scores 0.25. Both the AI and the market are scored on exactly " +
         "the same questions. The market's forecast is the market's midpoint price at the moment the questions were picked, " +
-        "which is also when the AI's news was gathered, so both sides had the same information at the same time. " +
-        "Cancelled questions, and any that closed before the AI's answer arrived, are left out."),
-      p("The scoreboard also shows a 95% range for the difference between the two scores. If that range includes zero, " +
-        "the difference could just be luck."),
+        "which is also when the AI's news was gathered, so both are measured at the same moment. (The market can use any " +
+        "information; the AI only sees the headlines we give it.) " +
+        "Cancelled questions, unanswered ones, and any that closed before the AI's answer arrived are left out. A question " +
+        "counts once its deadline has passed, even if it settled early, because \u201cit happened\u201d results tend to arrive " +
+        "early while \u201cit didn't\u201d ones wait for the deadline."),
+      p("The scoreboard also shows a 95% range for the difference between the two scores, once there are at least 5 separate " +
+        "stories. Linked questions (like five on one election) count as one story, because they win or lose together. " +
+        "If the range includes zero, the difference could just be luck."),
       h("Other measures"),
       el("ul", null, [
         li("Blend: a third forecaster that averages the AI and the market, scored the same way. Combining independent forecasts often beats each one alone."),
-        li("Market movement: the market's price is recorded once a day while a question is open. If prices tend to move toward the AI's forecast after it's made, the AI may be picking up information before the market does. This is an early signal only; the Brier score on settled questions is the real test."),
+        li("Market movement (open questions only): the market's price is recorded once a day while a question is open. If prices tend to move toward the AI's forecast after it's made, the AI may be picking up information before the market does. This is an early signal only; the Brier score on settled questions is the real test."),
         li("Open bets are also valued at today's market midpoint (\u201cAt today's prices\u201d). That figure isn't profit until the question settles."),
       ]),
       h("Paper trading (fake money)"),
       p("The AI starts with $" + (s.start || 1000).toLocaleString() + " of pretend money. It bets only when its probability " +
         "is at least " + Math.round(s.min_edge * 100) + " points away from the price it would actually pay. It buys at the current " +
-        "asking price (not the midpoint) and pays Polymarket's real taker fee, so the results aren't flattered. " +
+        "asking price (not the midpoint), filling the order from the shares actually on offer in Polymarket's order book " +
+        "(cheapest first, and only at prices that still keep the full gap), and pays Polymarket's real taker fee, so the results aren't flattered. " +
         "Bet size uses the Kelly formula, scaled down to " + s.kelly * 100 + "% of what Kelly suggests, and never more than " +
         s.max_bet * 100 + "% of the bankroll on one question. At most " + Math.round((s.daily_budget || 0.1) * 100) +
         "% of the available cash goes into new bets each day; if a day's bets add up to more, they're all scaled down by the same proportion. " +
@@ -1035,8 +1065,14 @@
         li("The AI only reads headlines (Google's free feed has no article text), while traders can read everything."),
         li("The questions aren't independent: two candidates in one election, or several Fed outcomes, rise and fall together."),
         li("The question filters (most-traded, not nearly certain) shape which questions are tested, so results may not apply to all questions."),
-        li("Paper trades assume the asking price was available for the full amount. A real order might move the price a little."),
+        li("Bets placed before Oct 9, 2026 (Phase 1.0) assumed every share cost the best price on offer. On cheap long shots that " +
+          "was optimistic: one 795-share bet at 6\u00a2 only had 10 shares on offer at that price."),
       ]),
+      h("Phases"),
+      p("Phase 1.0 ran Oct 2\u20139, 2026. Phase 1.1 started Oct 9 after a full review: a wider odds filter (some market-odds " +
+        "headlines had reached the AI), better news searches, full resolution rules, realistic order-book fills, a fix so an exact " +
+        "10-point gap always counts, and stricter filters for Anthropic-related and odds-based questions. Old forecasts are kept " +
+        "exactly as they were; every card shows its phase, and the Accuracy tab splits the score by phase."),
       h("Cost"),
       p("One request a day through Anthropic's Message Batches API, which is half price. Total so far: $" +
         (DATA.total_cost || 0).toFixed(2) + "."),
@@ -1050,14 +1086,16 @@
       return;
     }
     rc.appendChild(el("div", { class: "table-scroll" }, el("table", { class: "data" },
-      el("thead", null, el("tr", null, el("th", { text: "Run" }), el("th", { text: "Questions sent" }), el("th", { text: "Answered" }),
+      el("thead", null, el("tr", null, el("th", { text: "Run" }), el("th", { text: "Phase" }), el("th", { text: "Questions sent" }), el("th", { text: "Answered" }),
         el("th", { class: "r", text: "Questions" }), el("th", { class: "r", text: "Cost" }))),
       el("tbody", null, runs.slice().reverse().map(function (r) {
         return el("tr", null,
           el("td", null, el("a", { href: recordUrl(r.run), target: "_blank", rel: "noopener", text: r.run })),
+          el("td", { text: r.phase || "1.0" }),
           el("td", { text: r.asked ? r.asked.replace("T", " ").replace("Z", " UTC") : "" }),
           el("td", { text: r.error ? "Failed: " + r.error : r.answered ? r.answered.replace("T", " ").replace("Z", " UTC") : "" }),
-          el("td", { class: "r", text: String(r.n) }),
+          el("td", { class: "r", text: r.answered_n !== undefined && r.answered_n !== r.n ? r.answered_n + " of " + r.n + " answered" : String(r.n),
+            title: r.eligible ? "Eligible that day: " + Object.keys(r.eligible).map(function (k) { return k + " " + r.eligible[k]; }).join(", ") : null }),
           el("td", { class: "r", text: r.cost === null || r.cost === undefined ? "–" : "$" + r.cost.toFixed(3) }));
       })))));
   }

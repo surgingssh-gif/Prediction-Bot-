@@ -54,6 +54,7 @@ def fake_market(market_id="1", days=10, bid=0.40, ask=0.42, volume=50_000, **ext
         "bestAsk": ask,
         "feesEnabled": True,
         "feeSchedule": {"rate": 0.04},
+        "clobTokenIds": f'["yes-{market_id}", "no-{market_id}"]',
     }
     market.update(extra)
     return market
@@ -165,9 +166,9 @@ def test_news_drops_headlines_that_leak_market_prices():
 
 def test_news_query_is_short_and_uses_the_option():
     q = {"question": "Will the Fed cut rates after the October 2026 meeting?", "option": "", "event_title": ""}
-    assert news.build_query(q) == "Fed cut rates October 2026 meeting"
+    assert news.build_query(q) == "Fed cut rates meeting"       # no dates or filler
     q2 = {"question": "Will Lula win?", "option": "Lula", "event_title": "Brazil Presidential Election"}
-    assert news.build_query(q2) == "Brazil Presidential Election Lula"
+    assert news.build_queries(q2) == ["Lula win", "Brazil Presidential Election Lula"]
 
 
 # ---------------------------------------------------------------------------
@@ -325,7 +326,7 @@ def test_summary_and_calibration():
     assert s["ai_brier"] == pytest.approx((0.01 + 0.04 + 0.49) / 3, abs=1e-4)
     assert s["crowd_brier"] == pytest.approx((0.16 + 0.16 + 0.25) / 3, abs=1e-4)
     assert s["ai_closer"] == 2 and s["crowd_closer"] == 1
-    assert s["ci_low"] < s["diff"] < s["ci_high"]
+    assert s["ci_low"] is None        # only 3 separate stories: too few for a range
     cal = scoring.calibration(rows, "ai")
     assert [c["bin"] for c in cal] == [2, 7, 9]
     assert scoring.summary([]) == {"n": 0}
@@ -338,7 +339,7 @@ def test_void_and_excluded_questions_are_not_scored():
     q3["excluded"] = "closed early"
     resolutions = {m: {"outcome": o, "resolved_at": "2026-10-05T00:00:00Z"}
                    for m, o in (("a", 1), ("b", "void"), ("c", 0))}
-    rows = scoring.scored_questions([fake_day("2026-10-02", [q1, q2, q3])], resolutions)
+    rows = scoring.scored_questions([fake_day("2026-10-02", [q1, q2, q3])], resolutions, now="2026-12-01T00:00:00Z")
     assert [r["market_id"] for r in rows] == ["a"]
 
 
@@ -378,7 +379,10 @@ def workspace(tmp_path, monkeypatch):
     monkeypatch.setattr(markets, "fetch_events", lambda: events)
     by_id = {m["id"]: m for e in events for m in e["markets"]}
     monkeypatch.setattr(markets, "fetch_market", lambda market_id: by_id[market_id])
-    monkeypatch.setattr(news, "fetch_news", lambda q: [{"title": "Headline", "source": "AP"}])
+    monkeypatch.setattr(news, "fetch_news",
+                        lambda q: {"headlines": [{"title": "Headline", "source": "AP"}], "query": "q"})
+    # A fake order book: plenty of shares at 2 cents above the best price.
+    monkeypatch.setattr(markets, "fetch_asks", lambda token_id: [(0.43, 5_000), (0.60, 5_000)])
     monkeypatch.setenv("ANTHROPIC_API_KEY", "fake-key")
     monkeypatch.delenv("DISCORD_WEBHOOK_URL", raising=False)
     monkeypatch.setattr(main, "load_dotenv", lambda: None)
@@ -472,7 +476,7 @@ def test_site_data_is_compact_and_complete(tmp_path):
     q1["bet"] = {"side": "YES", "price": 0.42, "shares": 50, "stake": 21, "fee": 0.5, "cost": 21.5, "gap_pts": 38}
     days = [fake_day("2026-10-02", [q1, q2])]
     resolutions = {"a": {"outcome": 1, "resolved_at": "2026-10-05T00:00:00Z"}}
-    data = build_site.build_data(days, resolutions)
+    data = build_site.build_data(days, resolutions, now="2026-12-01T00:00:00Z")
     assert data["stats"]["n"] == 1
     assert [r["id"] for r in data["open"]] == ["b"]
     assert data["settled"][0]["pnl"] == 28.5
@@ -489,8 +493,11 @@ def test_site_data_is_compact_and_complete(tmp_path):
 def test_discord_message_has_disclaimer_and_splits(workspace):
     message = discord_notify.build_message([], [], {}, ["Something failed"])
     assert message.endswith(f"_{config.DISCLAIMER}_")
-    long = "\n".join(["x" * 150] * 40)
-    assert all(len(c) <= discord_notify.DISCORD_LIMIT for c in discord_notify.split_message(long))
+    long = "\n".join(["x" * 150] * 40) + f"\n_{config.DISCLAIMER}_"
+    chunks = discord_notify.split_message(long)
+    assert len(chunks) > 1
+    assert all(len(c) <= discord_notify.DISCORD_LIMIT for c in chunks)
+    assert all(c.endswith(f"_{config.DISCLAIMER}_") for c in chunks)   # every piece
 
 
 # ---------------------------------------------------------------------------
@@ -548,7 +555,7 @@ def test_site_shows_live_value_blend_and_sparkline():
     days = [fake_day("2026-10-02", [q1, q2])]
     resolutions = {"b": {"outcome": 1, "resolved_at": "2026-10-05T00:00:00Z"}}
     prices = {"a": [["2026-10-03", 0.50], ["2026-10-04", 0.55]]}
-    data = build_site.build_data(days, resolutions, prices=prices)
+    data = build_site.build_data(days, resolutions, prices=prices, now="2026-12-01T00:00:00Z")
     open_row = data["open"][0]
     assert open_row["latest"] == 0.55
     assert open_row["spark"] == [["2026-10-02", 0.40], ["2026-10-03", 0.50], ["2026-10-04", 0.55]]
@@ -679,3 +686,168 @@ def test_page_links_carry_a_version_fingerprint(tmp_path):
     (tmp_path / "app.js").write_text("console.log(2)")
     assert build_site.stamp_versions(str(page)) is True
     assert page.read_text() != first                              # new fingerprint
+
+
+# ---------------------------------------------------------------------------
+# Phase 1.1 changes (2026-10-09)
+# ---------------------------------------------------------------------------
+
+@pytest.mark.parametrize("headline", [
+    "Fed officials wash away market bets on a December cut",
+    "Options Traders Give Nvidia a 50% Chance of a Record High",
+    "Traders now see a rate cut as likely",
+    "A December hike is now fully priced in",
+    "Polymarket bettors back Lula",
+    "CME FedWatch shows 70% probability of a cut",
+    "Odds of a shutdown jump",
+    "Markets expect the ECB to hold",
+])
+def test_headlines_that_leak_market_odds_are_dropped(headline):
+    assert news.is_leaky(headline)
+
+
+@pytest.mark.parametrize("headline", [
+    "Fed holds rates steady",
+    "Lula leads new Datafolha poll",
+    "Apple unveils new iPhone",
+    "ECB's Lagarde says inflation is easing",
+    "Jobs report surprises economists",
+    "Senate passes funding bill",
+])
+def test_normal_headlines_are_kept(headline):
+    assert not news.is_leaky(headline)
+
+
+def test_headlines_must_name_the_questions_subject():
+    q = {"question": "Will Apple be the largest company by market cap?", "option": "", "event_title": ""}
+    assert news.is_relevant({"title": "Apple shares hit a record"}, q)
+    assert not news.is_relevant({"title": "Microsoft shares hit a record"}, q)
+
+
+def test_fetch_news_uses_backup_search_and_limits_each_source(monkeypatch):
+    results = {
+        "Lula win": [{"title": f"Lula story {i}", "source": "Same Site"} for i in range(5)],
+        "Brazil Presidential Election Lula": [{"title": "Lula campaign rally", "source": "Other"}],
+    }
+    monkeypatch.setattr(news, "_search", lambda query: results[query])
+    q = {"question": "Will Lula win?", "option": "Lula", "event_title": "Brazil Presidential Election"}
+    found = news.fetch_news(q, limit=8)
+    assert [h["title"] for h in found["headlines"]] == ["Lula story 0", "Lula story 1", "Lula campaign rally"]
+    assert found["query"] == "Lula win | Brazil Presidential Election Lula"
+
+
+def test_long_rules_are_shortened_at_a_sentence_and_marked():
+    rules = "First sentence here. " * 50
+    trimmed = forecaster.trim_rules(rules, limit=100)
+    assert len(trimmed) < 160 and "[rules shortened:" in trimmed
+    assert trimmed.split(" [rules")[0].endswith(".")
+    assert forecaster.trim_rules("Short rules.", limit=100) == "Short rules."
+
+
+def test_prompt_says_when_the_news_search_failed():
+    q = fake_question()
+    q["news"], q["news_error"] = [], "ConnectionError"
+    assert "news search failed" in forecaster.build_prompt([q], "2026-10-02")
+    del q["news_error"]
+    assert "found no matching headlines" in forecaster.build_prompt([q], "2026-10-02")
+
+
+def test_exactly_ten_point_gap_counts():
+    # 0.60 - 0.50 is 0.0999... in computer maths; it must still count as 10.
+    bet, note = trading.decide_bet(0.50, 0.60, 0.602, 0.0, 1000, 1000)
+    assert bet and bet["side"] == "NO" and bet["gap_pts"] == 10.0
+
+
+def test_small_gap_note_explains_why():
+    bet, note = trading.decide_bet(0.50, 0.45, 0.47, 0.0, 1000, 1000)
+    assert bet is None and "under the 10-point minimum" in note
+
+
+def test_order_book_fill_walks_up_and_stops_at_the_limit():
+    asks = [(0.40, 10), (0.45, 10), (0.70, 1000)]
+    shares, stake, fees, levels = trading.fill_order(100, asks, 0.0, limit_price=0.50)
+    assert shares == 20 and stake == pytest.approx(8.5) and levels == 2   # never pays 70 cents
+
+
+def test_bet_is_filled_from_the_order_book():
+    asks = [(0.42, 20), (0.45, 1000)]
+    bet, _ = trading.decide_bet(0.80, 0.40, 0.42, 0.0, 1000, 1000, asks=asks)
+    assert bet["fill"] == "order book" and bet["levels"] == 2
+    assert 0.42 < bet["price"] < 0.45 and bet["top_price"] == 0.42
+
+
+def test_no_bet_when_the_book_is_too_thin():
+    bet, note = trading.decide_bet(0.80, 0.40, 0.42, 0.0, 1000, 1000, asks=[(0.75, 1000)])
+    assert bet is None and "Not enough shares" in note
+
+
+def test_questions_about_odds_and_the_ais_own_company_are_skipped():
+    odds = fake_market(question="Will the Democrats' odds be above 60%?")
+    assert markets.market_problem(odds, NOW) == "resolves on betting odds"
+    assert markets.event_conflict(fake_event(tags=("ai",), title="Best AI model end of October?",
+                                             markets_list=[fake_market(groupItemTitle="Anthropic")]))
+    assert markets.event_conflict(fake_event(tags=("claude",)))
+    assert not markets.event_conflict(fake_event(title="Fed decision in October"))
+    assert markets.topic_for(["politics", "derivatives"]) is None
+    assert markets.topic_for(["tech", "gaming"]) is None
+
+
+def test_only_settled_questions_past_their_deadline_are_scored():
+    q = fake_question("a")
+    q["forecast"] = {"probability": 0.6, "reasoning": ""}
+    resolutions = {"a": {"outcome": 1, "resolved_at": "2026-10-05T00:00:00Z"}}
+    days = [fake_day("2026-10-02", [q])]
+    assert scoring.scored_questions(days, resolutions, now="2026-10-06T00:00:00Z") == []   # before deadline
+    assert len(scoring.scored_questions(days, resolutions, now="2026-12-01T00:00:00Z")) == 1
+    data = build_site.build_data(days, resolutions, now="2026-10-06T00:00:00Z")
+    assert data["stats"]["n"] == 0 and data["settled"][0]["early"] is True
+
+
+def test_questions_from_one_story_count_once_for_the_range():
+    def row(event, diff, question):
+        return {"event_id": event, "question": question, "end_date": "2026-10-20T00:00:00Z",
+                "option": "", "event_title": "", "ai_brier": 0.1 + diff, "crowd_brier": 0.1}
+    same = [row("e1", -0.05, f"Will thing {i} happen?") for i in range(6)]
+    assert len(set(scoring.story_ids(same))) == 1
+    assert scoring.summary(same)["stories"] == 1 and scoring.summary(same)["ci_low"] is None
+    names = ["Apple", "Tesla", "Lula", "Ukraine", "Nvidia", "Rhine"]
+    diffs = [-0.05, -0.02, 0.01, -0.04, 0.0, -0.03]
+    separate = [row(f"e{i}", d, f"Will {n} make news?") for i, (n, d) in enumerate(zip(names, diffs))]
+    s = scoring.summary(separate)
+    assert s["stories"] == 6 and s["ci_low"] < s["diff"] < s["ci_high"]
+
+
+def test_unanswered_questions_are_shown_but_not_scored():
+    q1, q2 = fake_question("a"), fake_question("b")
+    q1["forecast"] = {"probability": 0.8, "reasoning": "R"}
+    q2["forecast"] = None
+    resolutions = {"a": {"outcome": 1, "resolved_at": "2026-10-05T00:00:00Z"},
+                   "b": {"outcome": 0, "resolved_at": "2026-10-05T00:00:00Z"}}
+    data = build_site.build_data([fake_day("2026-10-02", [q1, q2])], resolutions, now="2026-12-01T00:00:00Z")
+    assert data["stats"]["n"] == 1 and data["unanswered"] == 1
+    b = next(r for r in data["settled"] if r["id"] == "b")
+    assert b["ai"] is None and "ai_brier" not in b
+
+
+def test_movement_counts_open_questions_only():
+    q1, q2 = fake_question("a", crowd=0.40), fake_question("b", crowd=0.40)
+    for q in (q1, q2):
+        q["forecast"] = {"probability": 0.70, "reasoning": "R"}
+    resolutions = {"b": {"outcome": 1, "resolved_at": "2026-10-05T00:00:00Z"}}
+    prices = {"a": [["2026-10-03", 0.50]], "b": [["2026-10-04", 0.99]]}
+    data = build_site.build_data([fake_day("2026-10-02", [q1, q2])], resolutions, prices=prices,
+                                 now="2026-12-01T00:00:00Z")
+    assert data["movement"]["n"] == 1
+
+
+def test_daily_budget_is_shared_by_every_run_on_the_same_day(workspace, monkeypatch):
+    # A bet placed earlier today (by another run) counts against today's budget.
+    today = main.now_iso()[:10]
+    old = fake_question("x")
+    old["forecast"] = {"probability": 0.9, "reasoning": "R"}
+    old["bet"] = {"side": "YES", "price": 0.42, "shares": 200, "stake": 84, "fee": 16, "cost": 100, "gap_pts": 48}
+    storage.save_forecast(fake_day("2026-10-01", [old], forecast_at=f"{today}T01:00:00Z"))
+    q = fake_question("1")
+    day = main.place_bets({"questions": [q]}, {"1": {"probability": 0.9, "reasoning": "R"}})
+    assert day["budget"] == pytest.approx(0.0)   # 10% of $1,000 was already used today
+    assert q["bet"] is None

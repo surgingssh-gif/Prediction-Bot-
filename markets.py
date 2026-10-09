@@ -59,7 +59,18 @@ SKIP_TAGS = {
     "finance-updown", "up-or-down", "pyth-finance", "multi-strikes",
     # "Will X say the word Y?" and tweet-count markets
     "mention-markets", "mentions", "tweets-markets",
+    # gaming and live-streamer challenges (added 2026-10-09)
+    "gaming", "streamer", "live-streams", "minecraft", "twitch", "kick",
+    # bets on what other betting odds will be (added 2026-10-09)
+    "derivatives",
 }
+
+# Questions whose answer is a market's odds ("Senate odds hit 45%?") are bets
+# on bets, not on the real world, so they're skipped too (added 2026-10-09).
+ODDS_QUESTION = re.compile(r"\bodds\b", re.IGNORECASE)
+
+# Polymarket tags that mean an event is about Anthropic or Claude.
+CONFLICT_TAGS = {"anthropic", "claude", "opus"}
 
 
 # Claude is made by Anthropic, so it doesn't forecast questions about
@@ -170,7 +181,23 @@ def market_problem(market, now):
         return "resolution rules too short"
     if CONFLICT_WORDS.search(market.get("question") or ""):
         return "about the AI's own company"
+    if ODDS_QUESTION.search(market.get("question") or "") or \
+            "predictionmarketodds" in (market.get("description") or "").lower().replace(" ", ""):
+        return "resolves on betting odds"
     return None
+
+
+def event_conflict(event):
+    """
+    True if an event involves Anthropic or Claude anywhere: its tags, its
+    title, or ANY of its options. ("Will Google have the best AI model?"
+    is really "Will Anthropic not be #1?" when Anthropic is another option.)
+    """
+    tags = {(t.get("slug") or "").lower() for t in event.get("tags") or []}
+    if tags & CONFLICT_TAGS or CONFLICT_WORDS.search(event.get("title") or ""):
+        return True
+    return any(CONFLICT_WORDS.search(f"{m.get('groupItemTitle') or ''} {m.get('question') or ''}")
+               for m in event.get("markets") or [])
 
 
 def fetch_events():
@@ -206,13 +233,15 @@ def fetch_events():
     return events
 
 
-def pick_questions(events, already_forecast, count=None, now=None):
+def pick_questions(events, already_forecast, count=None, now=None, stats=None):
     """
     Chooses today's questions from a list of events.
 
     already_forecast - dict of market id -> event id for every question
                        forecast before (so we never forecast one twice, and
                        don't pile onto one event)
+    stats            - optional dict, filled in with how many questions
+                       were eligible per topic (to watch the supply)
     Returns a list of question dicts, most-traded first.
     """
     count = count or config.QUESTIONS_PER_DAY
@@ -224,7 +253,7 @@ def pick_questions(events, already_forecast, count=None, now=None):
     candidates = []
     for event in events:
         topic = topic_for(t.get("slug", "") for t in event.get("tags") or [])
-        if not topic:
+        if not topic or event_conflict(event):
             continue
         for market in event.get("markets") or []:
             if str(market.get("id")) in already_forecast or market_problem(market, now):
@@ -233,6 +262,11 @@ def pick_questions(events, already_forecast, count=None, now=None):
 
     # Most-traded today first.
     candidates.sort(key=lambda c: _to_float(c[1].get("volume24hr")) or 0, reverse=True)
+    if stats is not None:
+        eligible = {}
+        for _, _, topic in candidates:
+            eligible[topic] = eligible.get(topic, 0) + 1
+        stats["eligible"] = dict(sorted(eligible.items()))
 
     picked, per_topic = [], {}
     for event, market, topic in candidates:
@@ -246,6 +280,8 @@ def pick_questions(events, already_forecast, count=None, now=None):
         picked.append(make_question(event, market, topic))
         if len(picked) == count:
             break
+    if stats is not None:
+        stats["picked"] = len(picked)
     return picked
 
 
@@ -263,6 +299,30 @@ def make_question(event, market, topic):
         "url": f"https://polymarket.com/event/{event.get('slug')}" if event.get("slug") else None,
         "snapshot": snapshot(market),
     }
+
+
+CLOB_URL = "https://clob.polymarket.com"
+
+
+def token_ids(market):
+    """The ids of the market's YES and NO shares, used to read its order book."""
+    ids = _parse_json_list(market.get("clobTokenIds"))
+    return ids if len(ids) == 2 else None
+
+
+def fetch_asks(token_id):
+    """
+    The sell offers for one kind of share, cheapest first: a list of
+    (price, number of shares offered at that price).
+    """
+    response = requests.get(f"{CLOB_URL}/book", params={"token_id": token_id}, headers=HEADERS, timeout=30)
+    response.raise_for_status()
+    asks = []
+    for level in response.json().get("asks") or []:
+        price, size = _to_float(level.get("price")), _to_float(level.get("size"))
+        if price and size and 0 < price < 1:
+            asks.append((price, size))
+    return sorted(asks)
 
 
 def fetch_market(market_id):

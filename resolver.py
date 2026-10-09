@@ -55,9 +55,9 @@ def check_resolutions(forecast_files, resolutions, prices=None, fetch=None, toda
     for day in forecast_files:
         for q in day.get("questions", []):
             market_id = q["market_id"]
-            # Questions without a forecast (e.g. Claude's request failed)
-            # aren't scored, so there's no need to look them up.
-            if market_id in resolutions or not q.get("forecast"):
+            # Questions Claude didn't answer aren't scored, but they're still
+            # looked up so the website can show how they turned out.
+            if market_id in resolutions:
                 continue
             try:
                 market = fetch(market_id)

@@ -37,7 +37,33 @@ def kelly_fraction(win_prob, cost):
     return max((win_prob - cost) / (1 - cost), 0.0)
 
 
-def decide_bet(ai_prob, best_bid, best_ask, fee_rate, equity, cash):
+def fill_order(spend, asks, fee_rate, limit_price):
+    """
+    Buys shares the way a real order would: cheapest offers first, moving up
+    to pricier ones until `spend` dollars are used, and never paying more
+    than `limit_price` a share (above that the AI's edge would be gone).
+
+    asks - (price, shares offered) pairs, cheapest first
+    Returns (shares, money for shares, fees, number of price levels used).
+    """
+    shares = stake = fees = 0.0
+    levels = 0
+    for price, size in asks:
+        if price > limit_price + 1e-9 or spend <= 0.005:
+            break
+        per_share = price + fee_per_share(price, fee_rate)
+        take = min(size, spend / per_share)
+        if take <= 0:
+            break
+        shares += take
+        stake += take * price
+        fees += take * fee_per_share(price, fee_rate)
+        spend -= take * per_share
+        levels += 1
+    return shares, stake, fees, levels
+
+
+def decide_bet(ai_prob, best_bid, best_ask, fee_rate, equity, cash, asks=None):
     """
     Decides whether to make a paper bet, and how big.
 
@@ -46,6 +72,10 @@ def decide_bet(ai_prob, best_bid, best_ask, fee_rate, equity, cash):
     best_ask - lowest price someone will sell "Yes" for right now
     equity   - our total paper money (cash + money in open bets)
     cash     - money not already in a bet
+    asks     - the real sell offers for the side we'd buy, cheapest first
+               (from the order book). If given, the bet is filled level by
+               level like a real order. If None (the book couldn't be read),
+               every share is assumed to cost the best price.
 
     Returns (bet, note): bet is a dict, or None with a note saying why not.
     """
@@ -54,35 +84,56 @@ def decide_bet(ai_prob, best_bid, best_ask, fee_rate, equity, cash):
 
     # Buying "Yes" costs the ask. Buying "No" costs 1 - bid
     # (selling "Yes" at the bid is the same as buying "No").
-    yes_gap = ai_prob - best_ask
-    no_gap = best_bid - ai_prob
+    # Rounded so that an exact 10-point gap counts as 10, not 9.9999999
+    # (computers store 0.60 - 0.50 as 0.0999...; fixed 2026-10-09).
+    yes_gap = round(ai_prob - best_ask, 6)
+    no_gap = round(best_bid - ai_prob, 6)
     if yes_gap >= config.MIN_EDGE:
         side, price, win_prob, gap = "YES", best_ask, ai_prob, yes_gap
     elif no_gap >= config.MIN_EDGE:
-        side, price, win_prob, gap = "NO", 1 - best_bid, 1 - ai_prob, no_gap
+        side, price, win_prob, gap = "NO", round(1 - best_bid, 6), round(1 - ai_prob, 6), no_gap
     else:
         biggest = max(yes_gap, no_gap)
-        return None, f"Gap of {biggest * 100:.0f} points is under the {config.MIN_EDGE * 100:.0f}-point minimum."
+        return None, (f"Gap vs. the price we'd pay is {biggest * 100:.1f} points, "
+                      f"under the {config.MIN_EDGE * 100:.0f}-point minimum.")
 
+    if cash < config.MIN_BET:
+        return None, "No cash left for new bets; it's all in open bets."
     fee = fee_per_share(price, fee_rate)
-    cost = price + fee  # what one share really costs us
+    cost = price + fee  # what one share really costs at the best price
     full_kelly = kelly_fraction(win_prob, cost)
     fraction = min(full_kelly * config.KELLY_FRACTION, config.MAX_BET_FRACTION)
     spend = min(fraction * equity, cash)
     if spend < config.MIN_BET:
         return None, f"Bet would be under ${config.MIN_BET:.0f} after fees and limits."
 
-    shares = round(spend / cost, 2)
+    if asks is not None:
+        # Real fill: only buy shares that still have the full 10-point edge.
+        limit_price = round(win_prob - config.MIN_EDGE, 6)
+        shares, stake, fees, levels = fill_order(spend, asks, fee_rate, limit_price)
+        if stake + fees < config.MIN_BET:
+            return None, "Not enough shares offered at a price that keeps a 10-point gap."
+        fill = "order book"
+    else:
+        shares = spend / cost
+        stake, fees, levels = shares * price, shares * fee, 1
+        fill = "best price (order book unavailable)"
+
+    shares = round(shares, 2)
+    avg_price = stake / shares if shares else price
     return {
         "side": side,
-        "price": round(price, 4),
+        "price": round(avg_price, 4),       # average price paid per share
+        "top_price": round(price, 4),       # best price on offer
         "shares": shares,
-        "stake": round(shares * price, 2),  # money for the shares
-        "fee": round(shares * fee, 2),      # Polymarket's fee
-        "cost": round(shares * cost, 2),    # stake + fee
+        "stake": round(stake, 2),           # money for the shares
+        "fee": round(fees, 2),              # Polymarket's fee
+        "cost": round(stake + fees, 2),     # stake + fee
         "gap_pts": round(gap * 100, 1),
         "kelly_full": round(full_kelly, 4),
-    }, f"Bought {side} ({gap * 100:.0f}-point gap)."
+        "fill": fill,
+        "levels": levels,
+    }, f"Bought {side} ({gap * 100:.1f}-point gap)."
 
 
 def payout(bet, outcome):
