@@ -1,0 +1,506 @@
+{
+  "run_id": "2026-10-09",
+  "date": "2026-10-09",
+  "created_at": "2026-10-09T00:15:04Z",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "questions": [
+    {
+      "market_id": "562793",
+      "event_id": "32224",
+      "event_title": "Which party will win the Senate in 2026?",
+      "option": "Democratic Party",
+      "question": "Will the Democratic Party control the Senate after the 2026 Midterm elections?",
+      "rules": "This market will resolve according to the party that wins control of the United States Senate in the 2026 United States midterm election.\n\nA party wins control of the United States Senate if it wins a majority of the chamber’s voting seats. If no party wins a majority of voting seats, the party that wins control of the chamber is the party that wins half of the voting seats and holds the Vice Presidency. If the outcome remains ambiguous after applying the above criteria, the chamber will be deemed controlled by the party with which the first selected President Pro Tempore of the Congress that convenes after the specified election is affiliated.\n\nThe following rules govern the counting of seats for determining which party wins control of the chamber.\n\nAll regular and special Senate elections that determine representation in the upcoming 120th Congress and are scheduled to take place in November 2026 as of October 31, 2026 are included. Runoffs for qualifying elections will determine attribution of the relevant seat, even if they take place after November 2026. Vacant seats for which no election or special election to fill the seat is scheduled to take place in November 2026 as of October 31, 2026 will be treated as held by the party affiliation of the most recent member to hold that seat.\n\nFor seats contested in the specified election, seats are attributed to the party under which the member was elected. If a member-elect changes party affiliation, or vacates their seat, between election day and the formal organization of Congress, the seat is attributed to the party under which the member was elected.\n\nFor seats not contested in the specified election, seats are attributed to the party that holds the seat as of the date of the election. If a current sitting member of the U.S. Senate who is not up for election changes party affiliation or vacates their seat after the date of the election, the seat is attributed to the party under which the member was affiliated at the time of the election.\n\nSenate members elected as independents who formally caucus with, or, for newly elected members, who announce their intent to caucus with, a party are included in that party’s count. If the caucus decisions of members of the Senate elected as independents cannot be determined on the date of the election, this market may remain open until the earlier of (i) an announcement from the relevant members of their intents to caucus, or (ii) January 4th, 11:59 PM ET of the following calendar year. If no such announcement is made by January 4th, 11:59 PM ET of the following calendar year, the member will not count towards the seat count of any party.\n\nThe resolution sources for this market will be official information from relevant state electoral authorities, the United States Congress, and a consensus of credible reporting.",
+      "topic": "Politics",
+      "end_date": "2026-11-04T04:59:00Z",
+      "url": "https://polymarket.com/event/which-party-will-win-the-senate-in-2026",
+      "snapshot": {
+        "time": "2026-10-09T00:15:01Z",
+        "crowd": 0.625,
+        "best_bid": 0.62,
+        "best_ask": 0.63,
+        "volume": 3575372,
+        "liquidity": 2301445,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "FLIPR 2026 midterm election forecast",
+          "source": "Silver Bulletin",
+          "published": "2026-10-08",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1GWjFMc2tINlY1LWQ1RGZtUUJpZlZlN21hNF9iYU1TME9sSmhNclhGM3pmZW54a1JMX0F1TUZSeEtXWDlidVVDRWpUVUtoT0IzdEMyODhrWVRvSlRKd3pDdkdIOUpodHN5aHlJU2lZbWpweWt0a2ZScENITkJzdnc?oc=5"
+        },
+        {
+          "title": "Will Democrats Win Back Voters This Year?",
+          "source": "Dartmouth",
+          "published": "2026-10-07",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQakRlNERtMGdZaFhwTHd6QkN1UnpfTE5WUUVJX2VGUldlTXVRdXFpNFY1bDhyRjVxYldJeWdfamZfRUJ0QzNjLXY3VVpyVF9qUDZXSGl3U1RXT2JLWE1udEtpRzNkUjJ3ZWotSWI5UGlMQ0J5WTVUQ1hzLXotYjVHdw?oc=5"
+        },
+        {
+          "title": "Democratic surge predicted to hit Republican states hardest, scrambling Senate strategy",
+          "source": "Reuters",
+          "published": "2026-10-01",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOZXdFSzJFdjBLUDdCTG5MNjBWRzFXaEZTOWR3Rkl6NWtNeHcwd1Z0T18yNEx6emJuVmt3RDV0WU1wRGlqNDFWQ25ZcENURVdRb0RxNVBZR1Y3X01zdlpqa0NzNHBwTHhkSUItTGRRUDNnWWJVRnJ3aHN1aTl1Vk92Q2N1UlpnOTA4T0NYeEdkcW9uOVpsSnk3cEltZDgtUnpmVzVpSjFacEF4X0VsMmV5cTRCdmJQM0dNbS01THlGVW9jdw?oc=5"
+        },
+        {
+          "title": "Democrats’ advantage is clear with less than a month to go in the midterm elections",
+          "source": "NPR",
+          "published": "2026-10-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOdnphaHRDS1owRWZ5MzRNdlYyUXR3V0xLUmJMUDNkVnJNM3hiTjNpb3EweGR4aTA0cGpCSFFDTHk4X2hvM216bVRadUh2cmwxMjdUeEZOYkJCZVg5ekdYVmpuY2hwYTZCVG8yRXc0X0hFUmViRHdMVTFXOVZzUmlOSXRzVm5Ldw?oc=5"
+        },
+        {
+          "title": "Democrats Look Strong in Polls. They Have These Groups to Thank.",
+          "source": "The New York Times",
+          "published": "2026-10-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOcXBaX0tJYlhoTHlYWkd2X0lKN1I3aldMV01rLXdEeGNVcldjRXVqQ0VLcjU2ak9kNHF2S0w1dS1Pa2w4VWtsbEFDdmZNcVZUdTBFazdxQTN1VHZSekNpRDVVakRWakhCRzVYZXBSNUtScVB2cFVWLTBLLW5wTFVSTkViVFZ4RjMz?oc=5"
+        },
+        {
+          "title": "Can the Polls Possibly Be Right?",
+          "source": "The Atlantic",
+          "published": "2026-09-29",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNNllUQzhneDU4WFUtQVVrRXhwdm1lYV9nczFDZ0VwRUVna1FlUmNva1BzbGp4TEttRnF3a29oQ2dZaC1YemRWOFZydFNZWkQ4Tk1ic2ViTTlndV9scDA5dXhTQVBJNGpyc3dRR3M3ejR0NzZUai1jQXR3ckJ4MDZTUnFNS1ZkQVNucmRN?oc=5"
+        }
+      ],
+      "forecast": {
+        "probability": 0.55,
+        "reasoning": "Republicans hold 53 seats, and with the Vice President also Republican, Democrats need a net gain of four seats. The news points to a strong Democratic environment. Republicans are pulling money out of North Carolina to defend Kansas, and a Democrat is reported ahead in Ohio. Still, the map is tough and some contested seats, such as Nebraska's, may go to independents rather than Democrats, so this is only modestly better than a coin flip."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-09T00:18:08Z",
+        "crowd": 0.625,
+        "best_bid": 0.62,
+        "best_ask": 0.63,
+        "volume": 3575372,
+        "liquidity": 2301445,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Gap of 7 points is under the 10-point minimum."
+    },
+    {
+      "market_id": "562794",
+      "event_id": "32224",
+      "event_title": "Which party will win the Senate in 2026?",
+      "option": "Republican Party",
+      "question": "Will the Republican Party control the Senate after the 2026 Midterm elections?",
+      "rules": "This market will resolve according to the party that wins control of the United States Senate in the 2026 United States midterm election.\n\nA party wins control of the United States Senate if it wins a majority of the chamber’s voting seats. If no party wins a majority of voting seats, the party that wins control of the chamber is the party that wins half of the voting seats and holds the Vice Presidency. If the outcome remains ambiguous after applying the above criteria, the chamber will be deemed controlled by the party with which the first selected President Pro Tempore of the Congress that convenes after the specified election is affiliated.\n\nThe following rules govern the counting of seats for determining which party wins control of the chamber.\n\nAll regular and special Senate elections that determine representation in the upcoming 120th Congress and are scheduled to take place in November 2026 as of October 31, 2026 are included. Runoffs for qualifying elections will determine attribution of the relevant seat, even if they take place after November 2026. Vacant seats for which no election or special election to fill the seat is scheduled to take place in November 2026 as of October 31, 2026 will be treated as held by the party affiliation of the most recent member to hold that seat.\n\nFor seats contested in the specified election, seats are attributed to the party under which the member was elected. If a member-elect changes party affiliation, or vacates their seat, between election day and the formal organization of Congress, the seat is attributed to the party under which the member was elected.\n\nFor seats not contested in the specified election, seats are attributed to the party that holds the seat as of the date of the election. If a current sitting member of the U.S. Senate who is not up for election changes party affiliation or vacates their seat after the date of the election, the seat is attributed to the party under which the member was affiliated at the time of the election.\n\nSenate members elected as independents who formally caucus with, or, for newly elected members, who announce their intent to caucus with, a party are included in that party’s count. If the caucus decisions of members of the Senate elected as independents cannot be determined on the date of the election, this market may remain open until the earlier of (i) an announcement from the relevant members of their intents to caucus, or (ii) January 4th, 11:59 PM ET of the following calendar year. If no such announcement is made by January 4th, 11:59 PM ET of the following calendar year, the member will not count towards the seat count of any party.\n\nThe resolution sources for this market will be official information from relevant state electoral authorities, the United States Congress, and a consensus of credible reporting.",
+      "topic": "Politics",
+      "end_date": "2026-11-04T04:59:00Z",
+      "url": "https://polymarket.com/event/which-party-will-win-the-senate-in-2026",
+      "snapshot": {
+        "time": "2026-10-09T00:15:01Z",
+        "crowd": 0.355,
+        "best_bid": 0.35,
+        "best_ask": 0.36,
+        "volume": 2546352,
+        "liquidity": 2077478,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "Democratic surge predicted to hit Republican states hardest, scrambling Senate strategy",
+          "source": "Reuters",
+          "published": "2026-10-01",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOZXdFSzJFdjBLUDdCTG5MNjBWRzFXaEZTOWR3Rkl6NWtNeHcwd1Z0T18yNEx6emJuVmt3RDV0WU1wRGlqNDFWQ25ZcENURVdRb0RxNVBZR1Y3X01zdlpqa0NzNHBwTHhkSUItTGRRUDNnWWJVRnJ3aHN1aTl1Vk92Q2N1UlpnOTA4T0NYeEdkcW9uOVpsSnk3cEltZDgtUnpmVzVpSjFacEF4X0VsMmV5cTRCdmJQM0dNbS01THlGVW9jdw?oc=5"
+        },
+        {
+          "title": "GOP doubts about Georgia and North Carolina have Republicans shifting focus in battle for Senate",
+          "source": "www.ap.org",
+          "published": "2026-09-29",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQaXItbThrLTZyRVlkOFVMSWVMQmJJNk1mOXp3MjdNNHRqUnlrYjZfYTFGcnlDazFqeWZXZDlyRllEcXluM0U1M0k2RHpHamp2T2d6T0xmNW5wUTdJcXVXYWhidkxuSEFWQU1YOGk1bFNLUW53c0RzSk93alhGaUc1R0dLd1JyQVFiMkJaQVJTWXcydUdQZFRDQkRFRkZYU0tjWUpqemszbWM5NUlIV0pmSWx0S2RwN0tRYXR0Qzl3bFI5MklITl94b2hfOVYzSmhoRVNNV2J1b3hid2k3N0cwcg?oc=5"
+        },
+        {
+          "title": "Will Democrats Win Back Voters This Year?",
+          "source": "Dartmouth",
+          "published": "2026-10-07",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQakRlNERtMGdZaFhwTHd6QkN1UnpfTE5WUUVJX2VGUldlTXVRdXFpNFY1bDhyRjVxYldJeWdfamZfRUJ0QzNjLXY3VVpyVF9qUDZXSGl3U1RXT2JLWE1udEtpRzNkUjJ3ZWotSWI5UGlMQ0J5WTVUQ1hzLXotYjVHdw?oc=5"
+        },
+        {
+          "title": "AP report: Senate Republicans move cash from North Carolina to Kansas as battle for majority shifts",
+          "source": "PBS",
+          "published": "2026-10-02",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPLXItRXFfX09HT1hoLUtGQ1RFNHdTU1VlTl82SmdDLWRtczlmWllSTVJqMjl2UzhWREtQc21uUGVFZ1Z3a3pLRTlySnFlUkZHR0QxMEY2YTMxU21oRTJEVG9sTzIzc0EtejlDaWVmQjVPZFZGM2VSRkwzV1k5MG9USHh6YzlUbHRGVzRlMVdNY2djeENPWUIyMThBSGU4bnE3Z2VsSmE4ODFZeGNqMmc5d3ZXWTVfdGItZUJTVi1iRnRLMFI10gHKAUFVX3lxTE03bDFHdHdKaW9FdmdFbTZQWUtLMk0zanhUOUpETzBYcjZyNG4zdGFZVExEd3BTQ0dNRE5rWkczYm54aWF4b01BYzVjMmY2ekd3ak1HV29XX2xrNkY5dE9PZFk0dmpxdnJsOW5zRHhERWNYWjF0eHVVM1B3dVdjV2hpaWZYbWU4Zk5icS1QSXozMEZIN0wwWW1pdmlWWUV5NGtSMjlmR21RTl96UE52QnY5WjUzQi1DeWdzUTMyM1ppdHg4ckFDNloxa3c?oc=5"
+        },
+        {
+          "title": "Hottest 2026 Midterm Races—Republican Leads In Iowa, Democrat Ahead In Ohio Senate Races (Updated Daily)",
+          "source": "Forbes",
+          "published": "2026-10-08",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOdHV3emJ6YkVQd2F1Zk5xNklrTjZJTVp6SlMxS2p1UkE3bWl1dHRnUUdyVVNBZS1RMVBySGxDYmlNeEVIRnFJYU5BaVQxaTFoemtlSC1xSGItR2t5Q0tFUEdrUzB4SUVWcHR4R2V5TWZ3YXZ0SDFpYlBubldEWE9hWmlmelZQbkxmb0dKazdsNElYWDhRVVBodUZneWdiT2JHak1MdE1hUk9CU0twdmhWdnBXbmpmWmsyZDJMbDdSUVV1cUhmSTF2b3ZRUkxhbFV0TW82SGdWWElKZWROTzBjRFJUMlJLOXI2TnY4U0N1LVFWc25SWGJBZVNR?oc=5"
+        },
+        {
+          "title": "Democrats’ advantage is clear with less than a month to go in the midterm elections",
+          "source": "NPR",
+          "published": "2026-10-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOdnphaHRDS1owRWZ5MzRNdlYyUXR3V0xLUmJMUDNkVnJNM3hiTjNpb3EweGR4aTA0cGpCSFFDTHk4X2hvM216bVRadUh2cmwxMjdUeEZOYkJCZVg5ekdYVmpuY2hwYTZCVG8yRXc0X0hFUmViRHdMVTFXOVZzUmlOSXRzVm5Ldw?oc=5"
+        }
+      ],
+      "forecast": {
+        "probability": 0.44,
+        "reasoning": "This is the complement of Q1. Republicans start with a 53-47 edge and a favorable map, but the national environment is moving against them. A small residual chance goes to ambiguous outcomes involving independents."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-09T00:18:08Z",
+        "crowd": 0.355,
+        "best_bid": 0.35,
+        "best_ask": 0.36,
+        "volume": 2546352,
+        "liquidity": 2078621,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Gap of 8 points is under the 10-point minimum."
+    },
+    {
+      "market_id": "5340071",
+      "event_id": "1138953",
+      "event_title": "Brazil Presidential Election Second Round: Margin of Victory",
+      "option": "Flávio Bolsonaro <4%",
+      "question": "Will Flávio Bolsonaro win the second round of the 2026 Brazilian presidential election by less than 4%?",
+      "rules": "The second round of the presidential election is scheduled to take place in Brazil on October 25, 2026.\n\nThis market will resolve according to the margin of victory between the top two candidates in the second round of the next Brazil Presidential Election.\n\nFor the purpose of this market, the “margin of victory” is defined as the absolute difference between the percentages of valid votes received by the first- and second-place candidates. Percentages of the valid votes received by each candidate will be determined by dividing the total number of valid votes each of the top two candidates receives by the sum of all valid votes cast in the election.\n\nIf the reported value falls exactly between two brackets, then this market will resolve to the higher range bracket.\n\nIf a candidate other than Flávio Bolsonaro or Luiz Inácio Lula da Silva receives the most valid votes in the second round, or if the top two candidates receive exactly the same number of valid votes, this market will resolve to \"Other\".\n\nThis market will resolve based on the official vote count once the vote count has been made official.\n\nIf a recount is initiated before the vote total has been made official, the market will remain open until the recount is completed and the vote is made official.\n\nIf the result of this election isn't known definitively by June 30, 2027, 11:59 PM ET, the market will resolve to \"Other\".\n\nThis market will resolve based on the result of the election, as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the Brazilian government, specifically the Superior Electoral Court (Tribunal Superior Eleitoral, TSE) (e.g., https://dadosabertos.tse.jus.br/).",
+      "topic": "Politics",
+      "end_date": "2026-10-26T03:59:00Z",
+      "url": "https://polymarket.com/event/brazil-presidential-election-second-round-margin-of-victory",
+      "snapshot": {
+        "time": "2026-10-09T00:15:01Z",
+        "crowd": 0.25,
+        "best_bid": 0.24,
+        "best_ask": 0.26,
+        "volume": 61719,
+        "liquidity": 78089,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "Flávio Bolsonaro's First-Round Lead Sent the Brazilian Real Surging - R$4.50 BRL/USD Exchange Rate Coming?",
+          "source": "Latin Times",
+          "published": "2026-10-08",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQN1JDYnpINGtOY1pzZUR4NVpQUE4taXA5aVJIbWlXVEdLaE9lVkp3N3BBZ1lfbElfX25HX01FamJKVDhfclVrdjdkZHRMbmhELTV6RnZKYWZqdGJnaWxGM2xIY3NkZ00yR2JNZXl3czhKWlpLQzBFZTg2cUFIQ2otUEhQTW5FaV8tbUppczR1M0FZWXJqeVNNaEF0SzZfZmFkbUNQMUFNVDZETFFrMnFIRTNZVV9Qa0tvclFqWkUwRWs?oc=5"
+        },
+        {
+          "title": "Brazil markets set to rally as Bolsonaro leads in first round vote",
+          "source": "WTAQ",
+          "published": "2026-10-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOTmJQQm1hLW43cDBGQjVWSER0d1dsYW5IcldBWUdQeW5DUTRXUjJCNGNWUU50Y05ORFZVYmhoMDdhUXhfVk8wZjduM2ltNnZlSHVhYWZDNklkYnozUXlCWXVKTnNya3FxYm5QSGRYdGdHTTJyQzBNZm94OFdQNGVXWVpEX1V3TEdHd2Izcl9yM2llNGRya0dKSmpEU1hpVVVCLUx4amR5cjd0LUU?oc=5"
+        },
+        {
+          "title": "Lula ahead in polls for Brazil’s first-round vote; runoff likely",
+          "source": "WNWN-FM",
+          "published": "2026-10-03",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOVm5qZ044ZjJEa1FzTWJCcHZteEZFcHZOVjF0YkdmVEJyal9tZTZody1OdVlVM29iNEl2eW5SdFpMUzRxZU1QbXE1THdqNi1BZ0IzWGxaSEVJSl9rZWYteTRsS2UtZVAyUV9vQm1KU3BQNVotMWd4WWVnUW16RXY0SVg3d2xUbzdNSExoRFRFTzlRMmVpbnlHdFJQYVlXT1JkMFFEaEI1bi1kdFRu?oc=5"
+        },
+        {
+          "title": "Brazil election: Bolsonaro’s son Flavio surges as father’s political comeback gathers pace",
+          "source": "The Economic Times",
+          "published": "2026-10-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNMDhkVjlmQ0V3YjJyTVdCUUk1YlJFdDd2UmFQaGJnU0NfM25xN1ZjZU9mYzZnRUlubk5XQlJPTERER2o1cEIxVnBUZW9SRUpLNWZUUFdraC1iZjAwYVdabjlibTM2TGsyVTVCbXFLSURlNlRfc2REQW5PUWxPSG1GemE1dHliWG1VUUlERzZjT0tKUlhDUVc3SnhveFZGcFZ2NFBjU0hfcWc2UjEtVE52V0doSFc3S2VObThHVFFIa2ZfV0lDUkZUemYyajhpRGdBWVlYM1JoclhycTdnZ3JEY1VLZDhwS1lzRU1fWnZYNFRHWk9vX0oxcDFOQ2NfQlVH0gGGAkFVX3lxTFBKLUNQbzFReGZlUDZaTHZDSDlmWkZjY1B0dzZ1THlxNWgzUno5T3ZtRGlDTGtWZnlfODVEaTRfcDBYZ1dCeHFpaFBwSElZMGdvSUZ0VXVQWnJiTnJ2Wm9PTnAyQ25YSlF4bEtMMXZjWEIxVzF0ajVpSGl2YkhsLWZaTFZoRUhuYTNXMlhlQ0xWZVcySG5Qc1QtaU01WDd6RVFHOWEwbjllMnZlWndVM2RSN2p6ZGJTcm91MUU0dVFKb1ozUHlXTzh4RnVwRnB6Rzd1c3lUU3l6VlpFTFROZHFKbmVhb3NicC1NZzZNTlBzcjZXNEgzSklXSFhmbkNUZV91UnVDelE?oc=5"
+        },
+        {
+          "title": "Beyond the Ballot: How Flávio Bolsonaro's Unexpected Lead Triggered the Biggest Market Day in Brazil's History",
+          "source": "Latin Times",
+          "published": "2026-10-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOdnNiNU0yMjJkOWpkaTdEYTVLZ29jMUVnUWNjUXRpYjBWMkdFWHUzdExzLTVPZElIRkhXSGVZOUhzbU95aUpoUnZNUS1yOWxpS2VyWVphc0thOEc3SkVTTmxyRnpUcG1KRVVSa2FVVUFjWl9PeXFwNVFSZm1XZU9pNUQ2TDUzOGNuaE5Qb3FSM2lieUw4cDZILWh4eHMwcExpUnJvclI3R283R2lYSks1RVZTRWZoSWRuRU5PTDZiaw?oc=5"
+        },
+        {
+          "title": "In Brazil, President Lula leads Senator Bolsonaro in poll — MercoPress",
+          "source": "UA.NEWS",
+          "published": "2026-09-25",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNRmkzV3Awd1lHSmZrN2twZ3JjZy1YLUt2VVpuWkptTjVyZDVneWpQTF8zT04tM1Fyc29YRmJpWm9TT3J5QTJEMFFsT0Zsalllb3U1MkctNkFoQ3pqSF8tQ2d0WW4wUFlIaExiQ0xQVEVrdW1xVC1hNXJ1cHczVWdPbURFLTdtMUdJaEZrU19aaWRlNzlSVE00SUt4QUt6OTBTbjNmZk5CQUk2MG8?oc=5"
+        }
+      ],
+      "forecast": {
+        "probability": 0.3,
+        "reasoning": "Flávio Bolsonaro led the first round, which makes him a modest favorite in the runoff. Recent Brazilian runoffs have been very close (1.8 points in 2022, 3.3 points in 2014). Roughly a 60% chance he wins, times about a 50% chance the margin is under 4 points, gives around 30%."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-09T00:18:08Z",
+        "crowd": 0.25,
+        "best_bid": 0.24,
+        "best_ask": 0.26,
+        "volume": 61719,
+        "liquidity": 78568,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Gap of 4 points is under the 10-point minimum."
+    },
+    {
+      "market_id": "3388093",
+      "event_id": "807644",
+      "event_title": "Bank of Mexico Decision in November?",
+      "option": "No change",
+      "question": "No change in Bank of Mexico’s interest rates after November 2026 meeting?",
+      "rules": "This market will resolve according to the change in basis points in the target for the overnight interbank interest rate resulting from the November 2026 meeting of the Bank of Mexico, relative to the level it was prior to this meeting.\n\nThe resolution source will be official information from the Bank of Mexico, including the statement or release from its November 2026 meeting, scheduled for November 5, 2026, as listed on the official Bank of Mexico calendar (https://www.banxico.org.mx/viewers2/JSP/calendarioDifusion_es.jsp). This market may resolve as soon as the statement or release of the Bank of Mexico resulting from its November 2026 meeting with relevant data is issued. \n\nIf the specified rate is defined by an upper and lower bound, the relevant change will be the change to the upper bound. \n\nIf the specified rate is changed to a level not expressed in the displayed options, the change will be rounded according to the following guidelines. Increases or decreases of less than 25 bps will be rounded to 25 bps (e.g. an increase or decrease of 10 bps would be considered to be an increase or decrease of 25 bps). Increases or decreases of greater than 25 bps will be rounded to the nearest 25 bps and will be rounded away from 0 in cases of equidistance (e.g., an increase or decrease of 37.5 bps would be considered to be an increase or decrease of 50 bps). Displayed options of “Increase” or “Decrease” will include policy rate increases or decreases of any size.\n\nIf the specified meeting is postponed to a date and time before the start of the next scheduled meeting, this market will resolve based on the outcome of that postponed meeting.  If the specified meeting is cancelled, or postponed such that no decision is announced by the start of the next scheduled meeting, this market will resolve to the “No Change” bracket. Emergency changes to the specified rate not resulting from the specified meeting will not be considered.",
+      "topic": "Economy",
+      "end_date": "2026-11-05T23:59:00Z",
+      "url": "https://polymarket.com/event/bank-of-mexico-decision-in-november",
+      "snapshot": {
+        "time": "2026-10-09T00:15:01Z",
+        "crowd": 0.56,
+        "best_bid": 0.54,
+        "best_ask": 0.58,
+        "volume": 30240,
+        "liquidity": 2259,
+        "fee_rate": 0.05
+      },
+      "news": [],
+      "forecast": {
+        "probability": 0.7,
+        "reasoning": "Banxico had already cut rates substantially by 2026 and was signaling a pause. Other central banks (India, Australia) are now hiking amid renewed inflation, which argues against further cuts. A hold looks most likely, though a final small cut or other move can't be ruled out."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-09T00:18:08Z",
+        "crowd": 0.56,
+        "best_bid": 0.54,
+        "best_ask": 0.58,
+        "volume": 30240,
+        "liquidity": 2125,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Bet would be under $1 after fees and limits."
+    },
+    {
+      "market_id": "5180413",
+      "event_id": "1114519",
+      "event_title": "Largest Company end of October 2026?",
+      "option": "NVIDIA",
+      "question": "Will NVIDIA be the largest company in the world by market cap on October 31, 2026?",
+      "rules": "This market will resolve to the largest company in the world by market cap on October 31, 2026, as of market close.\n\nThe resolution source for this market will be a consensus of credible reporting.",
+      "topic": "Economy",
+      "end_date": "2026-11-01T03:59:00Z",
+      "url": "https://polymarket.com/event/largest-company-end-of-october-2026",
+      "snapshot": {
+        "time": "2026-10-09T00:15:01Z",
+        "crowd": 0.9345,
+        "best_bid": 0.934,
+        "best_ask": 0.935,
+        "volume": 38015,
+        "liquidity": 11721,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "The Largest Companies by Market Cap in October 2026",
+          "source": "The Motley Fool",
+          "published": "2026-10-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA1NUo0RjhSeGFhdTZUbG5xWmgybGJNam9uM3Zkb2I3QzRkdmJnbG1XMkVleEZEeTE2SnRreWptSDVTT0FiMmkwZnl4VUZGQkJleXVPLTdvQjZjOE1qN0FQSWxuaDgyOU1tdDNpb0VPMA?oc=5"
+        },
+        {
+          "title": "Microsoft Tops Forbes Best Employers List, Nvidia #5 [2026]",
+          "source": "https://tech-insider.org/",
+          "published": "2026-10-01",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBBaFVlUVk5QlhFS3NfM1N5U2U0MXF0RExNQ3E2TVVORTNiWHpZNTlnMFpvLWNqMFNvU2l3eFVxN3Nla1VCSzNUczgzUWlVdGdOMHJUdVVmdnl5YkRFcU1TWnNqVTFkaUp2Tm5aNy1vMkx3SGdJa0lUNFhCYkg?oc=5"
+        },
+        {
+          "title": "Nvidia's bet that its chips can finance the AI boom gets a Wall Street reality check",
+          "source": "Reuters",
+          "published": "2026-10-01",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPWWFtWW9YMHUyWmxwTUs1VmZnOHZNdnJBNzB6azNFSG84M0FtS2x1SE50TDZMS0ZNS25zQ1lEZnFRdnd3UFhDRXMwLUVXaDZWRW9RZHdfQXdhNjFBdEJSd243SHlselowdWpIZ3RycmRSdUhlaTlDLUVGNjV1a3UwY2llSXpiV0dvVDN2VU1tS3NmbmQzVFNXV2FZcDJzWEI5b05NRW4zRXFPOV9NZnZUMmE5M2sycEtKVUdpNjRkLW90bGtiZnY0LWtvTHRDQQ?oc=5"
+        },
+        {
+          "title": "Largest Companies By Market Cap (2026)",
+          "source": "Investing.com",
+          "published": "2026-09-29",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQVmNqNmt4S0hoZWRicER2MzRaaElwcG81a0ZodkNmQmFabUJzTkhQRmViQlVYSzEyNXlvUjg2QUh6aFRlbWZqck81YWFoSVJIWXRwS2tYcTlpWWVHQWhGUEVGdl93VUx1dHZsaDZRX1FqUmM3VlRpVENLRm43Ti1ONQ?oc=5"
+        },
+        {
+          "title": "The Best AI Stocks to Buy Now",
+          "source": "Morningstar",
+          "published": "2026-10-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5MSWticmVUcmhzVVpBMWg0bFpvRGpXR1FIdzhKMmVOdVVETlV0MzVfemFuMzBwX3Q2Ykh4TFRjakstUDZVX2N6NEpsSWxZZU54bTZnQmNMal9Fdkw3ei04N2htZldJYkhl?oc=5"
+        },
+        {
+          "title": "Options Traders Give Nvidia a 50% Chance of Hitting $6 Trillion This Month",
+          "source": "24/7 Wall St.",
+          "published": "2026-10-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQSEt5WWl1LURoeS1ZVkNKV0xkNVRkakRIWkRuV05EMHc4YjJCbWtiQktnZlN1czZhdGxJd2ZXVUhHVF9EcmNTT044VVgyd0pWWnljTU9yTEdoSVk3MUgzemtGZmNpV0E4YlJnaUdZT3IyaExUT1NrbEQzOGRxM185UG55VV8yeS1xZlVXVFBFRkY0eXNjQ0piN1BuaXNTQ0pSVTVYUmNUTUY4RmVuVjYwam95V1ZHcXM?oc=5"
+        }
+      ],
+      "forecast": {
+        "probability": 0.86,
+        "reasoning": "Nvidia has been the world's largest company by a comfortable margin. Options traders reportedly see a near 50% chance it reaches $6 trillion this month. Only a sharp selloff over the next three weeks would let Apple or Microsoft overtake it."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-09T00:18:09Z",
+        "crowd": 0.9345,
+        "best_bid": 0.934,
+        "best_ask": 0.935,
+        "volume": 38015,
+        "liquidity": 12139,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Gap of 7 points is under the 10-point minimum."
+    },
+    {
+      "market_id": "3940926",
+      "event_id": "923208",
+      "event_title": "Bank of Korea decision in October?",
+      "option": "25 bps hike",
+      "question": "Will the Bank of Korea hike by 25 bps at the October 2026 meeting?",
+      "rules": "This market will resolve according to the change in basis points in the base rate resulting from the October 2026 meeting of the Bank of Korea's Monetary Policy Board, relative to the level it was prior to this meeting.\n\nThe resolution source will be official information from the Bank of Korea's Monetary Policy Board, including the statement or release from its October 2026 meeting, scheduled for October 22, 2026, as listed on the official Bank of Korea calendar (https://www.bok.or.kr/eng/bbs/E0000627/view.do?nttId=10094301&searchCnd=1&searchKwd=&depth2=400417&depth3=400022&depth=400022&pageUnit=10&pageIndex=1&programType=newsDataEng&menuNo=400022&oldMenuNo=400022). This market may resolve as soon as the statement or release of the Bank of Korea's Monetary Policy Board resulting from its October 2026 meeting with relevant data is issued.\n\nIf the specified rate is defined by an upper and lower bound, the relevant change will be the change to the upper bound.\n\nIf the specified rate is changed to a level not expressed in the displayed options, the change will be rounded according to the following guidelines. Increases or decreases of less than 25 bps will be rounded to 25 bps (e.g. an increase or decrease of 10 bps would be considered to be an increase or decrease of 25 bps). Increases or decreases of greater than 25 bps will be rounded to the nearest 25 bps and will be rounded away from 0 in cases of equidistance (e.g., an increase or decrease of 37.5 bps would be considered to be an increase or decrease of 50 bps). Displayed options of \"Increase\" or \"Decrease\" will include policy rate increases or decreases of any size.",
+      "topic": "Economy",
+      "end_date": "2026-10-22T00:00:00Z",
+      "url": "https://polymarket.com/event/bank-of-korea-decision-in-october",
+      "snapshot": {
+        "time": "2026-10-09T00:15:01Z",
+        "crowd": 0.11,
+        "best_bid": 0.1,
+        "best_ask": 0.12,
+        "volume": 16587,
+        "liquidity": 4676,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "Rupee hits two-month low on outflows, investors await RBI outcome with hike priced in",
+          "source": "Reuters",
+          "published": "2026-10-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQTUlsSHkxcnpDbnA5WEwxYmhPSm5tMlBIRFJPS29xUUo3TkdWVF9qTFBaSGFQVFFvYlV5SDY5WnMwQklfTnlyQkxjeU9GcWZfeTNnejBBNWVkMUNfVElidVNTZnUyd09OM0NvMUMwT21LTUViOEFtLUtiZ3pCS21mY2gydGxvRndQRHZxNmJ4VC1uczcxSWltSlV6UVpBNXYwaFUzaXZCOF9fOGpNdklWQzZYdjlTRm5F?oc=5"
+        },
+        {
+          "title": "RBI turns hawkish, but economists expect the tightening cycle to remain shallow",
+          "source": "The Tribune",
+          "published": "2026-10-07",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUzBuZzhPa3RxTzNvNTBoX2dxR3h4YTFNeG5XMWJrcUZRX1Z4Sml4SENoMld3ZFRRU1Y0c3paRkJLNXJOV0ZRZTVHS3JCWk5qb3RUemZ4OWpTRHFzVDVueGRmQkVsSUp0WE84MjNqWTdWbUtPYWo3TzktSzRvc0JUVnFjLWlMeldHYWhLRVpRNVlXcTBSd096cjJINDdwRWJVX2hlVkYta3JOU1dwR1phb3hBX3luZG10eC1UV2NaLXlpcmPSAcMBQVVfeXFMT1Mwbmc4T2t0cU8zbzUwaF9ncUd4eGExTXhuVzFia3FGUV9WeEppeEhDaDJXd2RUUVNWNHN6WkZCSzVyTldGUWU1R0tyQlpOam90VHpmeDlqU0Rxc1Q1bnhkZkJFbElKdFhPODIzalk3Vm1LT2FqN085LUs0b3NCVFZxYy1pTHpXR2FoS0VaUTVZV3EwUndPenIySDQ3cEViVV9oZVZGLWtyTlNXcEdaYW94QV95bmRtdHgtVFdjWi15aXJj?oc=5"
+        },
+        {
+          "title": "India's Central Bank Delivers First Rate Hike in Nearly Four Years on Inflation Fears",
+          "source": "BigGo Finance",
+          "published": "2026-10-07",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE42NWVqNi12dzg2VGd3YVNHS0NSbXFxRkE1LU1uQjhIMldNOWxnVEtzMC0yb3dlUGU1WVdwNnBTQ183cTlhdEZqQkY2bFY4V3Z1QUJENHNGd0d3Z1pIUWppTGxQYXZUNkpPaHUyYW9UZTctNFlNRmc?oc=5"
+        },
+        {
+          "title": "RBI MPC Date and Time: Guv Sanjay Malhotra to share key update on repo rate, inflation & more; check when",
+          "source": "The Economic Times",
+          "published": "2026-10-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi0wJBVV95cUxPMzhlb3hiR0lQMXpxdXFuZDZlVWQ4OGxVcEZXSTRpbjUyMU9XNFJVV0xTQzBYbzREbzRiMExOLTkzXzhFQ3FubUppdTl3Vkw4eUxBRE1OWWVkM0N0Z25yeVBzazVNbTNmaG5Ldzk0LVpJbDJvbm54blRxdDQ2SkFGeUlBZmFqWHVzcllYVEVfYUhjX0JwRWRySEd1MU5feFRIdXhMWklYZzg1SGJEWVRmMzd2QWhyeGZxWmtEZ0RQb3dNVFVTTTQ4Z2pjUERZbGVPVEFqQ1psTXFHVTdzMFFQeEZ0cnc2ZDFZczNCaUZSMXltSlBYSUxSdzJJa0RnVHBRQXV1SC1wTlRzeF83eXc5MDI2TnpTVGVCelJfWjloS0swNFVib29HcXRMZXZxT3dtYVo4YUlLU3ZCUUNTcnFjUThIemloQ1lUVzVrQTYtcFpoSE3SAdMCQVVfeXFMTzM4ZW94YkdJUDF6cXVxbmQ2ZVVkODhsVXBGV0k0aW41MjFPVzRSVVdMU0MwWG80RG80YjBMTi05M184RUNxbm1KaXU5d1ZMOHlMQURNTlllZDNDdGducnlQc2s1TW0zZmhuS3c5NC1aSWwyb25ueG5UcXQ0NkpBRnlJQWZhalh1c3JZWFRFX2FIY19CcEVkckhHdTFOX3hUSHV4TFpJWGc4NUhiRFlUZjM3dkFocnhmcVprRGdEUG93TVRVU000OGdqY1BEWWxlT1RBakNabE1xR1U3czBRUHhGdHJ3NmQxWXMzQmlGUjF5bUpQWElMUncySWtEZ1RwUUF1dUgtcE5Uc3hfN3l3OTAyNk56U1RlQnpSX1o5aEtLMDRVYm9vR3F0TGV2cU93bWFaOGFJS1N2QlFDU3JxY1E4SHppaENZVFc1a0E2LXBaaEhN?oc=5"
+        },
+        {
+          "title": "RBI Rate Hike: Markets Trim Losses, Bank Stocks Rebound",
+          "source": "Rediff MoneyWiz",
+          "published": "2026-10-07",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQQzJQU29pRTJMSUZIWlVkWVZpSUhZS2ludTlOSHNBWDhrQ3NsWUhlbWhrVFhKVWtUSGFYY1NZX1V2TmJLSWNuUlYxVjVwb1d1VVBGUnJONExsVW5ycEE4M1NwZGVzT1Zjbzl0Ymc3Tnk0QzY1V2hTUUNMS25ZX3ZpSlQ4ZmxYU2RjajlvLWJ5RkJ5LWVyYnVFdDN2UkhGRTNxLWhzTTBBOUd1elkzU3fSAa4BQVVfeXFMUEMyUFNvaUUyTElGSFpVZFlWaUlIWUtpbnU5TkhzQVg4a0NzbFlIZW1oa1RYSlVrVEhhWGNTWV9Vdk5iS0ljblJWMVY1cG9XdVVQRlJyTjRMbFVucnBBODNTcGRlc09WY285dGJnN055NEM2NVdoU1FDTEtuWV92aUpUOGZsWFNkY2o5by1ieUZCeS1lcmJ1RXQzdlJIRkUzcS1oc00wQTlHdXpZM1N3?oc=5"
+        },
+        {
+          "title": "RBA lifts rates to highest level in 15 years",
+          "source": "ABC News & Headlines – Australian Broadcasting Corporation",
+          "published": "2026-09-28",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZzRpQjRiS3BWXzZGbVpGWW1ndktoWjM4Y3hrbUJUejh1VmNxWEdwUjlUOXFXYl9XNzBwaHE5OXk1Q2Nfazk4cU9GbW9CWmpWNUFvQVF0MU12YUVkVzROOUQ4Ml9KdWEyeG0tNy00a1ROY0t3d0NJY1lSajl3a1pBNDRMN2Q5Slo1WGdFS3hqVFB1VGNjMHpDaUdvc2pfblhJdE1wN2Zyd0k?oc=5"
+        }
+      ],
+      "forecast": {
+        "probability": 0.25,
+        "reasoning": "Several central banks, including India's and Australia's, have started hiking, suggesting a global tightening turn. However, I see no specific news signaling a Bank of Korea hike in October, and the BoK tends to move cautiously, so a hold remains more likely."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-09T00:18:09Z",
+        "crowd": 0.11,
+        "best_bid": 0.1,
+        "best_ask": 0.12,
+        "volume": 16587,
+        "liquidity": 5925,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Bet would be under $1 after fees and limits."
+    },
+    {
+      "market_id": "3554549",
+      "event_id": "841212",
+      "event_title": "Which company has the best Code Arena WebDev AI model end of October?",
+      "option": "OpenAI",
+      "question": "Will OpenAI have the best Code Arena | WebDev AI at the end of October 2026?",
+      "rules": "This market will resolve according to the company that owns the model that has the highest rank based on the arena.ai Code Arena | WebDev Leaderboard when the table under \"Code Arena | WebDev\" filtered for \"Models\" is checked on October 31, 2026, 12:00 PM ET.\n\nResults from the \"Rank\" column under the \"Code Arena | WebDev\" Leaderboard tab at https://arena.ai/leaderboard/code/webdev (Overall) filtered for \"Models\" will be used to resolve this market.\n\nNote: Models marked “AutoEval” at the applicable check time will not be considered, regardless of whether they display a rank or score.\n\nModels will be ordered primarily by their leaderboard rank at the market’s check time. If two or more models are tied on rank, they will be ordered by which model is listed higher on the leaderboard. If a tie still remains, alphabetical order of company names as listed in this market group will be used as a final tiebreaker (e.g., “Google” would be ranked ahead of “SpaceXAI”). This market will resolve based on the company that occupies first place under this ranking.\n\nThe resolution source for this market is the arena.ai Code Arena | WebDev Leaderboard. If this resolution source is unavailable at check time, this market will remain open until the leaderboard comes back online and will resolve based on the first check after it becomes available. If it becomes permanently unavailable, this market will resolve to \"Other\".",
+      "topic": "Tech",
+      "end_date": "2026-11-01T03:59:00Z",
+      "url": "https://polymarket.com/event/which-company-has-the-best-code-arena-webdev-ai-model-end-of-october",
+      "snapshot": {
+        "time": "2026-10-09T00:15:01Z",
+        "crowd": 0.1315,
+        "best_bid": 0.125,
+        "best_ask": 0.138,
+        "volume": 16005,
+        "liquidity": 2792,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "FTC investigates OpenAI, Anthropic over AI safety concerns: Axios",
+          "source": "Crypto Briefing",
+          "published": "2026-09-30",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOa284WWp0Sl9lSVlEckxScGFaQzlrWW53dEQxYjhScndsZ3Q5OTNXaUFoT2VpaTVRa0w5MENPWHhMYlE5d1IzTG9FYWtjYlRKN2ZsVUdja29EMnhZTkRCR29wcWt5M0FlTDhFZWlpZnBJSXYxbmxXNVNfWGNMY1RCLUV3c1dJRjl3Ni1XTktTLVZFbkROeUE?oc=5"
+        },
+        {
+          "title": "Alphabet stock falls despite Gemini 4 Argon launch, Why are analysts bullish?",
+          "source": "Invezz",
+          "published": "2026-10-01",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPeWVVQUVjSVBtdWxpaG51R0xsblp1MU82SXdQVnVsUE52ZkFIa1B3RmF3MW9tR18yYnhOTUNEbjFqR3RXaEU1a0ZwTjNYeWtmVVNMN0hiNThEMFZiTGJmQ0VlbUdFM3dCQ0Z1VGQydktGeDRQdUtqNnFEY0dqQnB5cjZKVUV3dmZWUzc3NkxNbkFfZ1dLRVczM1laQ1U4a0tRQlZteDJQdFA5R0ppYzRjMC1zUkk?oc=5"
+        },
+        {
+          "title": "OpenAI pauses AI training again after agents access US government sites",
+          "source": "Crypto Briefing",
+          "published": "2026-10-01",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOeVRHcmpQQ1AxbTdhLXNLMF9IRmdIUkZ2U1UyeFI2eVExZUtWWFRRMTdPc2FIU1FUdEQ4ejMxdDhPQUpHLVFxVEsyNVd0bENKN1Z2S1hDa0phYVZueHpEUTV2T2NHeUpJSTlyVHFORnlHZkUyWERZSnJnVER1RE5RR3VSNDJjRlhFb3dZV1R1THdHcEx3aHN6bjN4V1lNV1VQ?oc=5"
+        }
+      ],
+      "forecast": {
+        "probability": 0.12,
+        "reasoning": "Anthropic's Claude models have usually led the WebDev arena. Google just launched Gemini 4, which could take the top spot. OpenAI has rarely held first place there, and reports of it pausing training make a new top model by month-end less likely."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-09T00:18:09Z",
+        "crowd": 0.1315,
+        "best_bid": 0.125,
+        "best_ask": 0.138,
+        "volume": 16005,
+        "liquidity": 3332,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Gap of 1 points is under the 10-point minimum."
+    }
+  ],
+  "batch_id": "msgbatch_0141DMQim1Jun6dEwscZRrLD",
+  "forecast_at": "2026-10-09T00:18:08Z",
+  "usage": {
+    "input_tokens": 5678,
+    "output_tokens": 1593
+  },
+  "cost_usd": 0.0273,
+  "budget": 0.0
+}
