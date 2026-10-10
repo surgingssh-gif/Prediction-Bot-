@@ -1,0 +1,661 @@
+{
+  "run_id": "2026-10-10",
+  "date": "2026-10-10",
+  "created_at": "2026-10-10T02:15:51Z",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "phase": "1.1",
+  "pick_stats": {
+    "eligible": {
+      "Economy": 4,
+      "Entertainment": 5,
+      "Politics": 100,
+      "Tech": 2
+    },
+    "picked": 9
+  },
+  "questions": [
+    {
+      "market_id": "5447182",
+      "event_id": "1156710",
+      "event_title": "US-Iran ceasefire continues through the midterms?",
+      "option": "",
+      "question": "US-Iran ceasefire continues through the midterms?",
+      "rules": "This market will resolve to “No” if the United States takes a qualifying military action against Iran by November 3, 2026, 11:59 PM ET. Otherwise this market will resolve to “Yes.”\n\nA qualifying military action refers to an air strike or a surface-to-surface missile strike, initiated by the United States, that directly impacts Iran. An air strike includes bombs, air-to-surface missiles, and air-launched drones. A surface-to-surface missile strike includes one-way attack drones and surface-to-surface missiles such as cruise or ballistic missiles.\n\nThe following actions do not constitute a qualifying military action:\nMunitions destroyed or intercepted before impact;\nSurface-to-air missile strikes;\nSmall-arms fire;\nGround incursions;\nCyber operations;\nNaval gunfire and artillery fire;\nHowitzers, artillery pieces, mortars, and rocket artillery (e.g. MLRS systems);\nMinor surface-to-surface strikes, including short range loitering munitions, FPV drones, and ATGM strikes;\nAny threat, authorization, or announcement of force that has not been executed.\n\nAny munition that is intercepted or destroyed before impact does not constitute a qualifying military action. Debris, fragments, or any wreckage from intercepted munitions that land on Iran do not constitute a military action regardless of any damage incurred.\n\n“Iran” refers to the terrestrial territory of Iran, including its internal waters. Iran’s maritime territory and airspace are not encompassed. Where territorial borders are disputed, all territory claimed by and under the de facto control of Iran as of market creation will qualify.\n\nThe occurrence, attribution, and timing of a qualifying military action will be primarily determined based on a consensus of information available from the resolution sources. Where multiple sources conflict regarding the occurrence, attribution, or timing of a relevant military action, this market will remain open until the earlier of: i) the confirmation of the occurrence, attribution, and timing of the action based on a consensus of information available from the resolution sources or ii) 3 full calendar days (Iran Standard Time) from the date of the first credibly reported evidence of the action. If this period would extend past the end date, this market will remain open to allow for 3 full calendar days to pass. At the end of the third calendar day, if conflicting reports remain, the incident will be adjudicated based on the totality of information available from the resolution sources at that time. No single statement, denial, or presentation of evidence will govern where it is contradicted by the totality of information.\n\nThe resolution sources for this market will be official information from the governments and militaries of the United States and Iran and a consensus of credible reporting.",
+      "topic": "Politics",
+      "end_date": "2026-11-04T04:59:00Z",
+      "url": "https://polymarket.com/event/us-iran-ceasefire-continues-through-the-midterms",
+      "snapshot": {
+        "time": "2026-10-10T02:15:45Z",
+        "crowd": 0.725,
+        "best_bid": 0.72,
+        "best_ask": 0.73,
+        "volume": 75255,
+        "liquidity": 63763,
+        "fee_rate": 0.0
+      },
+      "news": [
+        {
+          "title": "Trump says Iran \"ready to fold up,\" after threatening post-midterm attacks",
+          "source": "CBS News",
+          "published": "2026-10-02",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOaXNwVUhFZkZrZmxLRFd1QVZwZFFWVjFLcEgxWmNJWnJCMlNnOExuY3BsdWlLaG9HYzF1VjJKYnB6eHlfU1NLZWlUcWhDMmpCVFI1eGczV19kR3kycThHd0ducEtLejdicmJXanhmWWFUcWRJeVVDb28xUlRmTWxPSWRwbXBfRU1uSW1N?oc=5"
+        },
+        {
+          "title": "Exclusive | Trump Rejects Iran Ceasefire, Expects Renewed Bombing After Midterms",
+          "source": "WSJ",
+          "published": "2026-09-26",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPbGVxM0NSSkVPVjdHTGNlUHBLbTdGTmh3OWZsTFRXVGVReHZGWmxEM2xjdUt4Y25KMVVyYlJ6WkdKZFVWdEFSVzFmcGx1X2lKTjd0MmxLak01UzgwYU5Iek1zazA1RzlhRXE0cGdhQzNtNFpUTVdhTWQ1Vk5DMWFxbHNEVTFLMTJRUFBFZjRNNU1UaHFoaDZqLWotX1RvUEhCVVotMElmMDdCRHB2RWFQVjMxNGs?oc=5"
+        },
+        {
+          "title": "Is Trump signalling a return to war with Iran after the midterms?",
+          "source": "Al Jazeera",
+          "published": "2026-10-09",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPS2lheENhTTNsdUk1TWdiTURrdmN5NDdSMHNVUFdCdllxZXFKU2lhR3c3dG03a3lJc2ZnQnJMeHJ1TDFrNGR4STJ4eWpuRHowYVVoYTZSRF90ZTl2ZVRuQThVMmMyaEdRSUt3WUZ4MVBYNC11SGVlWXdqa1dadEdNM0R0ckQ2aFpqUVQzd2pmcThjNnQ5SDhuMlRXR0tveGhtRmE2MnNHYlbSAa4BQVVfeXFMUElKblZ0WUdJMFZNMDNLMEhDRlBidFpKY1M3WjItQlJra2pPdGJ3b2dLVlN3WkZSMWFHNzN2MHR0WXoyTkIxRThLdks2M3g4YUx6cTJ5Xzc3X0hYTE9IVEFxTVFSQm5ybjNPeUxlSGx5YXZYRmxUS1pxUGRBXzRFS1BtZXpyVEZ3TlJ5MWZiVWtHWm1ZTVQyajVjcTJmN3o1Ui1CazdzdG0xcTVsSXdn?oc=5"
+        },
+        {
+          "title": "Trump says US won't strike Iran before midterms as blockade continues",
+          "source": "KFDM",
+          "published": "2026-10-08",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitgJBVV95cUxOaGVhZy1sRlJycGVWZXZrNW5PUFNoZGhvSVpsQ0xhNEhLcUlnNkswZUM1aWxBeGlpSzNEM3JXYkN2RnpCa0NvN1l2dUNwRzFqYlRkVjl0M1g2QlpwTHQ0THdDZGp1YkdPSWdzeXB0NWFyODM0S05FMGxQT2lJRS1LVmh4QTdDVktzT0I5WVpHRUNfckNXVml3cURla3A1YTFVQ01QUVVURzRyVDZ0QlpZOWE2UEFDbHh2aEFreEJHeHpNeVlyMjhUWVZwdGhQWDY5UG5CY1dsbWJZUGFJa1lMX0hoNlRkRTY2d3dPMElKQndNZ0VIMHNkQU56cnBXR0tCZTl2RFNBWGE4d3pxaWtWT3RQNElyYkdXMUJnUHNiSWVuQWFUUERPRzV3a2ZLZG5KM1hiR1Fn?oc=5"
+        },
+        {
+          "title": "Trump rejects Iran's conditional ceasefire proposal, WSJ reports, as Saudi coalition intercepts projectiles",
+          "source": "CNBC",
+          "published": "2026-09-26",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPLUxMZVVFQXRza3JoYUlJSWtwUkw4WF83RUJIdDg2ZjFybVpZeHFnVVNxQjEweFZ2aGdVSXlaS3p2bjNiQmxtUkZJdkpxZGRHQkgtMkMyZ1R0ZFJuaGp1dWlPbzVGdHR3Wmp1NG5GZnBmXzdCTkNOTU5ycUF4ckVQNHk4ZGg3ZHJGNG4wT3pQdUtrZVNod2RvQnNrMVZFckpM0gGmAUFVX3lxTFBYc1JCcDZQLV8zMkxxTHR5MlplR3NEU0hDSF9fcTJaSFh1QjZkaU9IajNGYk5UZ1VVMS0zQU5sZURnSlNIbHB0VzBlaUc0XzhmTGFtQTNSWlp1MXZjQTd6dXMxVFJvblBIdkVlVEF1bmh2Wk5sbW5sUXhiYjlCa2g5YS1WVEFlTHZpbjJKdDlJQ3FuLTVLQlhkZ2hmSEI1aVphMHdrNVE?oc=5"
+        },
+        {
+          "title": "Trump says renewed bombing of Iran after midterms 'possible'",
+          "source": "Iran International",
+          "published": "2026-10-01",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBqU0p0ZDZaUFU2ZDd5YnFZcVBPbkp4VTNqbFRwTzBlNXlYVElWMWROUXNXeFJQeWlBSkF2UFhvVkp3eEU3MGVKdWtTOXh6NkZBX3c?oc=5"
+        }
+      ],
+      "news_query": "US-Iran ceasefire continues through midterms",
+      "forecast": {
+        "probability": 0.86,
+        "reasoning": "On October 8 Trump said the US would not strike Iran before the midterms. His threats of renewed bombing are explicitly framed as coming after the election. The blockade continuing does not count as a qualifying strike, and less than four weeks remain, so the status quo favors Yes. Some risk of escalation or an incident-driven strike remains."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-10T02:17:23Z",
+        "crowd": 0.725,
+        "best_bid": 0.72,
+        "best_ask": 0.73,
+        "volume": 75255,
+        "liquidity": 63763,
+        "fee_rate": 0.0
+      },
+      "bet_note": "No cash left for new bets; it's all in open bets."
+    },
+    {
+      "market_id": "630805",
+      "event_id": "57658",
+      "event_title": "Michigan Senate Election Winner",
+      "option": "Abdul El-Sayed (D)",
+      "question": "Will the Democrats win the Michigan Senate race in 2026?",
+      "rules": "This market will resolve according to the winner of the 2026 midterm Michigan U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
+      "topic": "Politics",
+      "end_date": "2026-11-04T04:59:00Z",
+      "url": "https://polymarket.com/event/michigan-senate-election-winner",
+      "snapshot": {
+        "time": "2026-10-10T02:15:45Z",
+        "crowd": 0.675,
+        "best_bid": 0.67,
+        "best_ask": 0.68,
+        "volume": 894778,
+        "liquidity": 217177,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "Rogers and El-Sayed are set for their first debate in Michigan's Senate race after sparring online",
+          "source": "PBS",
+          "published": "2026-10-08",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOSWdnLV9FNFg0S2hUUy10TS1OT0hmczI1NmN6YlZmUktmcjhPSlB4RUhCcmswczhuU1J5NEVpRnZSbURCOUlBR1o2VG9sRXM2S2ZpMmdMdU02YURlZ3h3X2VkVFJzUWJLMkg1clREYzd0eWFHTmpjTVBHbWpMQlFkejhEemFBNjBaNE5wR0FtMnI4SVRFSnZTeGh0WkliZndsU2thUzNaTFBCMmZGdjNWSmVYVFNtQ0k0SlJSN0d3WXh3YlpXcGJsT1lTZlNQa2VS0gHWAUFVX3lxTFAwXzN4dVZwTDVNWmtaeFJFako0c0ZySWgzSkxaQUgxb1ZhQzRtNllJeldab2R3ek1OYnZxeVVRbEpfUUhWMXlfci1teHZ1eDRwUHl3OUZaRy1SN1FZT3JxSGlXLTNoSzhvSnlFQ0xGd0JCLWZFSDNvSjA1SkxXLXlqU3RlZ3pjVzBzSlhYdFJDeWYxeXBVQmw5QVdUY2pQYXRaNmM1VUNWaTJHLXBtUFJJRDM4WlRWNGJJNGFEQnhYUGcxUUlHTzRCZ1EwQThSeXRpWU1LQVE?oc=5"
+        },
+        {
+          "title": "Abdul El-Sayed is certain he’ll win Michigan’s Senate race. Some key Democrats quietly aren’t so sure",
+          "source": "CNN",
+          "published": "2026-10-07",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPLURVNkh4SDJ3b0wzQlpqcDRHUnZIenN5YWVWZ19zUzEyVGxNQ2ducHR1cjF4Y0dfdC0xR1p5QmJNSlNPejNwTzlWQ21FeHdwODR3ZC1yc0d1bGJ5andCQnEtZEYxZDhWaFlLanJhRFVkTFY1ZUdzZWh5WWc1aklGTjFhRUk2UWZHdnV0a241S0g?oc=5"
+        },
+        {
+          "title": "Fox News Poll: Michigan voters split between El-Sayed and Rogers",
+          "source": "Fox News",
+          "published": "2026-09-30",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOMUF3bDNVLU9CNnFLMUl4aEZxY1lEZWhZOUZaSUZib2FOVlFEQ2tXc2pNUXlOOFZqUzJJRk80SmN3ZWhnaEIwemd1a2tGUG5ubHdSMExRbmwxekUyOW9CWHBsV0NlZVY2UDBhdkwtMU45ZTBGejZlUjBoTS1XR19jOWtjQkJwYnlxMkxQejdGdVFOY20wby1N0gGcAUFVX3lxTE54V3Y5WmNzT3dKUlhGVUFzck1Ya21lRkJfTk50TVVBU2JjaE02WVdUOU90VjZlYnZDZm1vVDdTamp4SEp1d3lzQmJodlVvaElBem5uNlNkZjI5bmd4b3p1MU1zN3c3YU1PTlRBa2NGMXZMYXhPX3dvck9OVjdueWtwT2NnRmJLN1NMZ0EwMHJiWnZzQ01helN4MXIzdg?oc=5"
+        },
+        {
+          "title": "El-Sayed projected to win high-stakes Michigan Senate Democratic primary, as 5 states hold elections",
+          "source": "ABC News - Breaking News, Latest News and Videos",
+          "published": "2026-10-08",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQWDNwTTJ3aXpjYXlBQTRNLUlxUW9fZndfOS03VEN2RzBseV9nc0Z3NkQtOHA0SHZxYVU0OC1uaVFFLVd1UWNReFRpSVpvNllQdTkxYVpMY3E3V3JkVktrbkRUa3NTWmJZVl9zVDNRQ2VsSndxMHZfY3ZUcllyVGtJSTNHVjltZHNoMktjNlhDVEJ2TnJ3MXE0Sk16SENIX0p20gGmAUFVX3lxTE1mbFVabnVWb3BvTEphWUpRUDRRaUp3dkhfLS1PSDA0UFVlNWxXZ25NLTdfRFdfMXdqX2JxWVZvWXZCakQ2Q0dGZlJhN2JFblQ0T0hmM3BFU2NtdEFFNXJQN0VhMUo2aEhBeTEtaUVlaHJOODBXc0tNUy0zU2w3WDZVT2hmQlptUFBQdFpMNjFiOEMtOXNCZ3ZzbjVNQndCQTQxZ3pxbWc?oc=5"
+        },
+        {
+          "title": "Obama to appear at Abdul El-Sayed rally in critical Michigan Senate race",
+          "source": "The Guardian",
+          "published": "2026-10-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPVVVMb3pjMTVqT25OZTdDOUpnNmFUbEU2bXJzZkxmQkVKOVBvYTlTd0xCQXJLQjdUc1psREktWEtOMzZTTlZucE1OM1RhSFprMk83WUpCZTRYNjVJMXpxRUtTYmViT3o3MzhNUVZYdGd5SGw3WjJGZU9ieTRKd3FMRXB4cXlOQ2VvaVExQjV6Y0pQNnc?oc=5"
+        },
+        {
+          "title": "Key takeaways from US Senate debate in Michigan between El-Sayed, Rogers",
+          "source": "Al Jazeera",
+          "published": "2026-10-09",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQaFViVVBNRTJGQW1qTndiQ3Z5RG1BQlJIU19LcUVOaWlERGUydWxtZ0Y0XzRSTWxhOTJJTWMyN3NHYmdXT1NENWVvNjdDU01VWGttY2FYMUJzdVA3OFZDLWo3NWhhZGtpSUJhUS1ad0ZGRzJnbDlVN1E1UHhRVFVkVUZJbUJoaC1uTUNOVXJqYlVMYWp6ZXJZZkNuSHFLbFd0cnREN1Ixcks5NU9jT01kOXpR0gG3AUFVX3lxTE5MVzJ6Yl9iX3hqM3QzTUNjcEtPalVVVUFHZlZObUw3QWJUQ1ROdnZXa0JXR2VfSzJsQUFSQlg1Nm1sVi1kTk82NGdjWjA2OTU4SjdwX2h4RWtrcjJnYlZ5aFpXb1BnWm5ueWVSZ19YUWZ5LXZlYmc5R1lKU2puNVE5SWgzQkhQZ1NmdlZjbHJJa1ppdXhfRWpSdnFGaVpLejJucm4zZFNfWDROM1hnZzY5eGlESnk4OA?oc=5"
+        }
+      ],
+      "news_query": "Democrats win Michigan Senate race",
+      "forecast": {
+        "probability": 0.6,
+        "reasoning": "Fox News polling shows the race roughly tied between El-Sayed and Rogers. A midterm under a Republican president historically favors the out-party, which helps Democrats. However, El-Sayed is a progressive whom some Democrats worry about, and Rogers nearly won in 2024. That makes Democrats modest favorites."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-10T02:17:23Z",
+        "crowd": 0.675,
+        "best_bid": 0.67,
+        "best_ask": 0.68,
+        "volume": 894778,
+        "liquidity": 200012,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Gap vs. the price we'd pay is 7.0 points, under the 10-point minimum."
+    },
+    {
+      "market_id": "4824602",
+      "event_id": "1061332",
+      "event_title": "Serbia Parliamentary Election Winner",
+      "option": "Student List – Students Win",
+      "question": "Will Student List – Students Win win the most seats in the 2026 Serbian parliamentary election?",
+      "rules": "Parliamentary elections to elect the 250 members of the National Assembly of Serbia are scheduled to take place on October 25, 2026.\n\nThis market will resolve to the electoral list that wins the greatest number of seats in the National Assembly of Serbia as a result of this election.\n\nElectoral lists will be primarily ranked by the number of seats won in the specified election. If two or more lists are tied on seats, ties will be broken by the total number of valid votes received, with higher vote totals ranking higher. If lists remain tied, ties will be broken by alphabetical order of the listed names. This market will resolve to the list that occupies the highest finishing position after applying this ranking.\n\nThis market's resolution will be based solely on the number of seats won by the named electoral list, as it appears on the ballot and official proclamations, regardless of which parties make up the list or how its members later organize themselves in the National Assembly.\n\nIf the results of the specified election are not definitively known by March 31, 2027, 11:59 PM ET, this market will resolve to \"Other\".\n\nThis market will resolve based on the results of the elections, as indicated by a consensus of credible reporting. In the case of ambiguity, this market will resolve solely based on the results as reported by the Republic Electoral Commission of Serbia (https://www.rik.parlament.gov.rs/).",
+      "topic": "Politics",
+      "end_date": "2026-10-25T23:59:00Z",
+      "url": "https://polymarket.com/event/serbia-parliamentary-election-winner-2026",
+      "snapshot": {
+        "time": "2026-10-10T02:15:45Z",
+        "crowd": 0.375,
+        "best_bid": 0.37,
+        "best_ask": 0.38,
+        "volume": 354608,
+        "liquidity": 132975,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "Thousands pack arena in Belgrade as Serbia's leader Vucic launches prime minister bid",
+          "source": "ABC News - Breaking News, Latest News and Videos",
+          "published": "2026-10-03",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOY1JkTm5fZ1dadnBCYVFYZWY2S1ZidGtHUnRacFRiWTFDeDlSLWxhRVJGTE1RdmhEamJobEFQWVBmb1RfcWNOanFLVElUcTQzY2hPOFplUTF4bzdPdEZNT0IzYXQ4SW5qQng0UDBUYnl4YThhVEhMZGhINDhiOEF5elJrYnhaQWlJbFktUmVwRXgyVHpTelQ0X3NsTWtxWHV0eGJzTHVJUXlJcm9h0gGyAUFVX3lxTE1WQTZLaVdZYmU3WUJ3Tnd5YURtcF9WbTd3cksxaVNnT085ZjlZLTh0OFNNSzJYUnM5TC1oVUFEZHZVVWxDZmJLT0ZDZG5wWkx0TXozallwVGdzYVpSMVZOQ1ZTLVRaOERIa01WMXNDbXFIUHVFRHJ6TEtPN1NZTXdLZ2sxNk42cEl5MEVPZGJfb0VGZHdqZERtbXBQWTI4OEQtd3lSTjAxS056WHoyVFFDQXc?oc=5"
+        },
+        {
+          "title": "Benjamin Netanyahu ally Aleksandar Vucic resigns as Serbian president",
+          "source": "The Jerusalem Post",
+          "published": "2026-09-27",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8zbVlSUkZ2LXVlR3E3ZkQ2MEdTcjcwRGsxVFNTMzRncmhPVHJnNjFkRTVTcEdtb0NHcGZxQ1ZEVkdvWDA0eF9iTTZraDhWeFQ0Ym5rTGVILUF1TUFlM0tN?oc=5"
+        },
+        {
+          "title": "Who all is participating in the parliamentary elections on October 25",
+          "source": "vreme.com",
+          "published": "2026-10-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5MR05zYVo2TUNVLVIxNkdfR3Z5bTZPVnNuNU41RnlIdlVLYy1meDAtNlItUHZ1Mmo2LWRQRTQwNWtXSGtzWkZKa3NGUE5RdkdEeDFab0ZWa0llVklzc21pYmVvdkdQT2o4MFZvUTFrQVM?oc=5"
+        },
+        {
+          "title": "Expectations are expressed for greater representation of Albanians in the Serbian Parliament",
+          "source": "KOHA.net",
+          "published": "2026-09-30",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPQnJyYTZKajd1ME5sZFhqaS1BVGREOF9SZkhCS1p6ZDFna0lmNkJ1eVpERlRscEVVV3E0TTFKaHVVRXJPOVp6aWpENFlKUHdNdng4VDBlSlo1dnNYb0ktUnVtTGdQUkZ1Y1M1c0EyelFKdkRiYTVkTklLTFd0Y2M3YmgwcndKbF80cEE0RmM4alowY0g2eGl3T0E2UkhiMmhwNlc3RUZwdVJQS0F2a3c?oc=5"
+        },
+        {
+          "title": "Albanian Parties in Presevo and Bujanovac Unite on One List",
+          "source": "srpske.rs",
+          "published": "2026-09-30",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxORUZfR3dxRUs2OTlLakJ5RnpSNTNjRDdRNHN1UEo3dENVOTF3UVZJbmdHWGhtNEY3TGlQR3RLbUhSOHgySkN1bkdpN3dYRlVPNDFvcHRiLTF5MUdNbl9HeHN4NFFnMWp0Tlo1d3ZGdV8tU2IySDVyaXFjQWptN3B2MUtWNTRRcUdVZU5WUXRMamZITDF0eVlOTU1Sdms0eFJjTUpMTHpzNUdab2hRVWc?oc=5"
+        },
+        {
+          "title": "AP on Vučić's rally: Dozens of buses from all over Serbia clogged the streets around the Belgrade Arena",
+          "source": "vijesti.me",
+          "published": "2026-10-04",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxONy1QTXRtNGdVQTNrLTcyRUpWTXR5a3FxS01rSEJTeHFrMHlRYjBDVHMyY0U2U3NFTGNTV21VZEZyZXpEbzV0M2xkQXhiZ3doTFNXVEdLRXVqNTVnYUlRbUpCazlHTG1LYlVibVFyY3ZVckphZUMyM1FjUVRDeUFvWUtoc2VXNlVzR19JTFBmMWVJSDlwNDNzTURuUmRjbnVrLVQ0VnMzNVZyRE82c1MtMGthNnlxaUhEX1VzVndMQk1YbUZhTHIxMkIyXzYzY0R6U3haUVhiLUdWalFLelJFOXBmUG9JT0nSAdgBQVVfeXFMT0xmcFFkU050cTIzY1FNdDZGNlFSWHF1a003XzNmQk5ka3Z5R3ZfTHdqaWFLYWVZcnZRM3JYZy1XN1ZUX0N1VXgwQ0QwVld5MVoyNDl6VlhkYklkU2NiM09STXB3b0RFd19qVEZ4X2pkVFlIZVdLNnhxUWxLTWF1QmZycmFLeC1ES2QzdkdzSHhxSWJvZHFBdnVKNU9FNWJQLU5HR3BybXpWZTNaMktOcm0wZ28wYkRXR0F2UjFOelJET2VfbUFkNkd6em5DcjBIMXlvczF1Vkpw?oc=5"
+        }
+      ],
+      "news_query": "Student List Students Win seats Serbian parliamentary",
+      "forecast": {
+        "probability": 0.3,
+        "reasoning": "Vucic resigned the presidency to lead his list's push for prime minister. His SNS-led coalition has strong organization and media advantages and has historically won pluralities easily. The student list is the main challenger and has polled competitively, but overtaking the ruling list on seats remains less likely than not."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-10T02:17:23Z",
+        "crowd": 0.375,
+        "best_bid": 0.37,
+        "best_ask": 0.38,
+        "volume": 354608,
+        "liquidity": 126095,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Gap vs. the price we'd pay is 7.0 points, under the 10-point minimum."
+    },
+    {
+      "market_id": "5105581",
+      "event_id": "1100797",
+      "event_title": "\"The Social Reckoning\" Opening Weekend Box Office",
+      "option": "<5m",
+      "question": "Will \"The Social Reckoning\" Opening Weekend Box Office be less than 5m?",
+      "rules": "This market will resolve according to how much \"The Social Reckoning\" Opening Weekend Box Office will gross domestically on its opening weekend. The \"Daily Box Office Performance\" figures found on the \"Box Office\" tab on this movie's The Numbers (https://www.the-numbers.com/) page will be used to resolve this market once the values for the 3-day opening weekend (October 9 - 11) are final (i.e., not studio estimates).\n\nIf the reported value falls exactly between two brackets, then this market will resolve to the higher range bracket.\n\nPlease note, this market will resolve according to the The Numbers figures provided under Weekend Box Office Performance for the 3-day weekend (which typically includes Thursday's previews), regardless of whether domestic refers to only the USA, or to USA and Canada, etc.\n\nIf there is ambiguity as to whether the resolution source's figures are final, this market will remain open until both https://www.boxofficemojo.com/ and https://www.the-numbers.com/ have confirmed their finalized figures.\n\nIf there is no final data available by October 16, 2026, 11:59 PM ET, another credible resolution source will be chosen.",
+      "topic": "Entertainment",
+      "end_date": "2026-10-11T12:00:00Z",
+      "url": "https://polymarket.com/event/the-social-reckoning-opening-weekend-box-office",
+      "snapshot": {
+        "time": "2026-10-10T02:15:45Z",
+        "crowd": 0.66,
+        "best_bid": 0.65,
+        "best_ask": 0.67,
+        "volume": 14501,
+        "liquidity": 2943,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "Social Reckoning Box Office: Sequel Targets $7 Million, Other Mommy to Lead",
+          "source": "Variety",
+          "published": "2026-10-07",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPU1otTkZWZXFQb082MndLY2x4N2ZkcGdodEd6aFRZc2h5dDd1aFFOdDdQVjh0WHh3bFZGckh2dTFsQ3VBOXdXb21nZ2hRR2E5VTg0dU9TQlNYaVh0OTN5REVyS1V6Nm1MNXdBdUJSTzExMUI0ZGdpZF9aVVh0cm5YeUZyNHNtVHpSbmU0X0ZxenJtR0R5WUVDa1dZWjFMVG1oUVh1NHBlS1ZObUlQb082OVdEOTZFRE1VLUxhSQ?oc=5"
+        },
+        {
+          "title": "‘Other Mommy’ To Cook Up $20M Opening, ‘Social Reckoning’ Won’t Have Many Friends – U.S. Box Office Preview",
+          "source": "Deadline",
+          "published": "2026-10-07",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPRWFMWllTVDV6MzlTcUVSQ1M0R0FXTmRKYUs0R1pBaWJhOEJINHdQdUlpWjJseDNFemFXLWk5TERvWjlpMDRic0xjU0NxR0tFZmZTNUFWXzROOTFKZGxjNjluV0otS041bkpQUTFONzNvOFpDOEpRUy1nbWFLZ0ZlNklzQlR5T0diS1BTVk9yblpad21MY1E?oc=5"
+        },
+        {
+          "title": "‘Social Reckoning’ Faces Box Office Challenge With ‘Other Mommy’ Set to Scare Away Competition",
+          "source": "The Hollywood Reporter",
+          "published": "2026-10-09",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUTRqOXUzTkpubExJNzVTZ3FxR1QtUEZmZnVTRC03THloZ3g3c3BhZ0hNeEhfaUd4U0VvbXZmZ3VvQU9KWW1IcVAtRjhRSGhTNlU3cGcwdUJMX1BlM3lTYjN1eEVaV0U5TGR6RDJFazBzTy1XS091Nkd0R3pJTHJreXZ3VHJQWjViOXZoSGtjSzYyWldpdk5qNjljUTlnaHZGUWJ5UHZSV3hkY1NOOGlwaDNGMV84OHdhNXdv?oc=5"
+        },
+        {
+          "title": "‘Other Mommy’ On Track To Top Weekend With $27.5M Debut, ‘The Social Reckoning’ Lacks Likes At $6M — Box Office Update",
+          "source": "Deadline",
+          "published": "2026-10-09",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPdnRpTk15emxTZHFsanVULUJWSkZEZHlqSWltMTV1LW5TZzVBVF9TZlRtRWVNblJ5S2ZfY0g4RjlsaWpkN3NjVDRxNWE0UUx0RXFIMVlpZm40RVRERzJxZVhiV2tzZDVwV3EwVGJHWVphcF9ycm9lM21YYjVRbXl4TWpTYTRSVGM?oc=5"
+        },
+        {
+          "title": "U.K. and Ireland Forecast: Box Office Reckons with THE SOCIAL RECKONING",
+          "source": "Boxoffice Pro",
+          "published": "2026-10-08",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxONzlXNHRUZTJkaVE1RDJFclNBRHhPMEZqNGh0bEN4aXk2cUN1SE5QWWNfQmZpM1kzZGRVU0V0VmdLeDhaRHNYbFJEbWs1b3gyWlFxNkYwbjRWRkxfSl96YUdudVp2TGs1ZldqUmRxSW85bEM0dEdWUXFrSVdiWXpJZ09CdWVpZ1h5YkJQMnFKZ01pcTU5RTZPMXgyRTBnWnhi?oc=5"
+        },
+        {
+          "title": "Box Office: ‘The Social Reckoning’ Targets $7 Million Opening Weekend, ‘Other Mommy’ to Scare Up $20 Million-Plus Debut",
+          "source": "IMDb",
+          "published": "2026-10-07",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9zQVEtRjl5QzVNc2o5NzVxLWFLT1FSV3FuZ25BSVVOajdHektUX19QdHpTTFJDZjhBdm4xMVJuT0pWTDloNHFFa0dZSHl2b2Q4ZzVyMGZ2eXZ4aU5ocERhSTVVeU1OYnM?oc=5"
+        }
+      ],
+      "news_query": "Social Reckoning Opening Weekend Box Office",
+      "forecast": {
+        "probability": 0.22,
+        "reasoning": "Pre-release tracking was about $7M, and Deadline's Friday update put the opening at around $6M. Falling below $5M would require a further 17%+ drop from the Friday projection. That is possible for a poorly received sequel, but not the most likely outcome."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-10T02:17:23Z",
+        "crowd": 0.66,
+        "best_bid": 0.65,
+        "best_ask": 0.67,
+        "volume": 14501,
+        "liquidity": 2943,
+        "fee_rate": 0.05
+      },
+      "bet_note": "No cash left for new bets; it's all in open bets."
+    },
+    {
+      "market_id": "5105577",
+      "event_id": "1100796",
+      "event_title": "\"Other Mommy\" Opening Weekend Box Office",
+      "option": "24-27m",
+      "question": "Will \"Other Mommy\" Opening Weekend Box Office be between 24m and 27m?",
+      "rules": "This market will resolve according to how much \"Other Mommy\" Opening Weekend Box Office will gross domestically on its opening weekend. The \"Daily Box Office Performance\" figures found on the \"Box Office\" tab on this movie's The Numbers (https://www.the-numbers.com/) page will be used to resolve this market once the values for the 3-day opening weekend (October 9 - 11) are final (i.e., not studio estimates).\n\nIf the reported value falls exactly between two brackets, then this market will resolve to the higher range bracket.\n\nPlease note, this market will resolve according to the The Numbers figures provided under Weekend Box Office Performance for the 3-day weekend (which typically includes Thursday's previews), regardless of whether domestic refers to only the USA, or to USA and Canada, etc.\n\nIf there is ambiguity as to whether the resolution source's figures are final, this market will remain open until both https://www.boxofficemojo.com/ and https://www.the-numbers.com/ have confirmed their finalized figures.\n\nIf there is no final data available by October 16, 2026, 11:59 PM ET, another credible resolution source will be chosen.",
+      "topic": "Entertainment",
+      "end_date": "2026-10-11T12:00:00Z",
+      "url": "https://polymarket.com/event/other-mommy-opening-weekend-box-office",
+      "snapshot": {
+        "time": "2026-10-10T02:15:45Z",
+        "crowd": 0.24,
+        "best_bid": 0.22,
+        "best_ask": 0.26,
+        "volume": 25320,
+        "liquidity": 4091,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "‘Other Mommy’ On Track To Top Weekend With $27.5M Debut, ‘The Social Reckoning’ Lacks Likes At $6M — Box Office Update",
+          "source": "Deadline",
+          "published": "2026-10-09",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPdnRpTk15emxTZHFsanVULUJWSkZEZHlqSWltMTV1LW5TZzVBVF9TZlRtRWVNblJ5S2ZfY0g4RjlsaWpkN3NjVDRxNWE0UUx0RXFIMVlpZm40RVRERzJxZVhiV2tzZDVwV3EwVGJHWVphcF9ycm9lM21YYjVRbXl4TWpTYTRSVGM?oc=5"
+        },
+        {
+          "title": "Social Reckoning Box Office: Sequel Targets $7 Million, Other Mommy to Lead",
+          "source": "Variety",
+          "published": "2026-10-07",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPU1otTkZWZXFQb082MndLY2x4N2ZkcGdodEd6aFRZc2h5dDd1aFFOdDdQVjh0WHh3bFZGckh2dTFsQ3VBOXdXb21nZ2hRR2E5VTg0dU9TQlNYaVh0OTN5REVyS1V6Nm1MNXdBdUJSTzExMUI0ZGdpZF9aVVh0cm5YeUZyNHNtVHpSbmU0X0ZxenJtR0R5WUVDa1dZWjFMVG1oUVh1NHBlS1ZObUlQb082OVdEOTZFRE1VLUxhSQ?oc=5"
+        },
+        {
+          "title": "Weekend Preview: OTHER MOMMY Set to Smother the Box Office",
+          "source": "Boxoffice Pro",
+          "published": "2026-10-07",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOdy1EdE42aXVkdVFlNmIwV2xIcmdmR095Vkt4NHIwb19OWFdFZFZucVN6VDNWWU93NFBXbnVhYk4yTEYxQ0Q3MmYxbFpTMkJEbHBoTWJmQVhiSFlHekVydXVxVmd2SlRaQVJFbHlEQWpZN2I4LXZOc09ycEcwLVYzS3lvZWpyZGN4UjNpSUVkTFY?oc=5"
+        },
+        {
+          "title": "Can Other Mommy Be The Next Obsession Or Backrooms At The Box Office?",
+          "source": "SlashFilm",
+          "published": "2026-10-03",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPeTR4ZUQybWJ2eHNDNkE1Zms5Nzc5bm1DcG0xT1d5UGRpTXhsdGRiRUszVkNmUjZBakgtWWtvR2VST25YQkdKdGpJd01hYlNiX0ZOdWFCQlhBaGZENFJTTHNTd0hNbDl6VldzZnZUQ1QyRzZxdDVJVzl6cW5MX1BsTlU0VEpTZ3ZGTUV6c05zd3IzZC1X?oc=5"
+        },
+        {
+          "title": "Jessica Chastain on ‘Other Mommy’ Going Viral and Challenging Friend Aaron Sorkin at the Box Office",
+          "source": "The Hollywood Reporter",
+          "published": "2026-10-09",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPQV9JY3VzSFpqa3JCOHN5cFpVWG9TWFN4WTAzN0VHYTV4bnNWbldvUDhxaGYtLUtDOUMxUFdpTDJWZy1vb0lhaDZBQlZqRW1KN2xORXBQY3BPRG0tS3hQWXY2cFlvYU8wU3dFVGxYOFR1UGtPc0tlUV9Jd3FpUmViQVZNSEswUlB1ekhwcEhSOVVGUFhhOTA5SDdacVpJb1pzNDVvR2lMTHEwRlRhWDdBZnBKUjFjbEtKZFZzaGpNMA?oc=5"
+        },
+        {
+          "title": "‘Other Mommy’ Will Win The Box Office With Catastrophic Review Scores",
+          "source": "Forbes",
+          "published": "2026-10-09",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNa1Vnd2xQN1FkdmZvempNcTlMMFdTVW1Cd3BZWVQwZmlLOTlTOTZwWnZKQUFLb0xrdjZCWFhaQWJiTHVmbTlLZmNpcG8yVjliOG9QXy1uQU5Ed2NRaVBjVklIUVA1TndPaVMyTllnSkE4eHVnRHFCVlg5ckt5WjcyY2o3UHByeXNpeEZrbFlOZjZTUGRhcld0a1BndnVqUUppdmM4cERXcy15M2NOX2xFUjJGdHNRbTdURmc?oc=5"
+        }
+      ],
+      "news_query": "Other Mommy Opening Weekend Box Office",
+      "forecast": {
+        "probability": 0.37,
+        "reasoning": "Deadline's Friday update projects $27.5M, just above the 24-27M bracket, after earlier tracking of about $20M+. Catastrophic reviews could make the weekend front-loaded and pull the final number down into the bracket. A finish at $27M or above is also quite plausible."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-10T02:17:24Z",
+        "crowd": 0.24,
+        "best_bid": 0.22,
+        "best_ask": 0.26,
+        "volume": 25320,
+        "liquidity": 4091,
+        "fee_rate": 0.05
+      },
+      "bet_note": "No cash left for new bets; it's all in open bets."
+    },
+    {
+      "market_id": "5407540",
+      "event_id": "1148988",
+      "event_title": "# of views of next MrBeast video on week 1? (Even Higher Brackets)",
+      "option": "215-223M",
+      "question": "Will MrBeast's next video get between 215 and 223 million views on week 1?",
+      "rules": "This market will resolve according to the number of views the most recent YouTube video posted by MrBeast gets in the first 7 days after being posted.\n\nIf the reported value falls exactly between two brackets, this market will resolve to the higher range bracket.\n\nIf the resolution source is not available at the end of the specified duration, this market will resolve according to most recent number of views available before the end of the specified duration.\n\nThe resolution source for this is MrBeast's YouTube channel (https://www.youtube.com/@MrBeast), specifically the 'views' counter for the described video.\n\nNote: This market refers only to the video \"Eat Everything In A Grocery Store, Win $1,000,000\" by MrBeast (see: https://www.youtube.com/watch?v=plN7JMbadRg).",
+      "topic": "Entertainment",
+      "end_date": "2026-10-11T03:59:00Z",
+      "url": "https://polymarket.com/event/of-views-of-next-mrbeast-video-on-week-1-even-higher-brackets-20261003",
+      "snapshot": {
+        "time": "2026-10-10T02:15:45Z",
+        "crowd": 0.21,
+        "best_bid": 0.2,
+        "best_ask": 0.22,
+        "volume": 11762,
+        "liquidity": 2454,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "MrBeast Breaks Record For Most Views In 24 Hours After Trapping 4 People Inside A Grocery Store Until They Ate Their Way Out",
+          "source": "BroBible",
+          "published": "2026-10-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPeDFzZS0ybHRxRjQ5OE96bzVPeGlDUk02Z1kySnYxT0ZScGpZWjdEbXdOOU5pZEZVUGhEMDZhZVZ0ZnRLSnJORWhkZEJma1R3X0RIS1BjT1hlS2tkM2E2aU1nVkdMQzZBMFp4azFwd3RyVHNETUxrZ0twbWVwRnZpU0NOWWxIbkdXVXh0aW5kNGhsVUJiQVFESXduRWF3LUJmb1RDYkozRUFkcXBP?oc=5"
+        },
+        {
+          "title": "MrBeast",
+          "source": "Britannica",
+          "published": "2026-10-07",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5WMVZIQlFoNjFFZkx6T09vYkVwVXJ6TFEzcjNwdE5hUEdLMUlTZXVtRnIybW1OX2tMbW42WEVXelZBaUlUdFFFbnRyNnFnWFd6LWtPVmc3WQ?oc=5"
+        },
+        {
+          "title": "MrBeast breaks personal YouTube record as $1 million grocery store video hits 125 million views",
+          "source": "The Times of India",
+          "published": "2026-10-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQdEFaVldIcUZ1LVRJeXlPRTRpbHd3YUhCZnA2OFVGZ1hZakFZSGVSRENONnRBR3lIZlA3LVhneDlWeUMzT0ZQVmt1OUZBcmlTN0owaWhaT2VZUHV6cWhGSHotaFd5UEE4SWFTTGdmTU5LdjY2czB4QXV2bHpuOHI4OXNncUh0WTJ0UGhwMUhfSmNySGNtbWRNNGxjX3plVTlkSnZFYjQ0YzF1UTRqdUptOGpwU21jZUJqc3JoTUNBcUh6enpSYTRzRDlMX2wtLWNlRnJ1Q3FBc2l4SVJlQUFIMnZQOWkzUEtVZmZCdzgtSUs1dVVMZVdLLXhfUGpreHN6RGJfdlpB0gGLAkFVX3lxTE1tc3RsS09zZE5pVnJta1JRT0tGSHo4dFltVmV6U003cUdSalZ2SkNEX0pCSnI3Q0RJQ1RCclZoYTQzRHdKX2lVUnFGdTNXSWMxMElFSXFuSzZiWmlrX3QwNDY1eU5pSjdtekpKdHd5cUJIeG11cGZmbjBYbGtOWnNFRUxnMnl2SGVvQ3p1dUNtMGYyQVM0ZVpkTU9rOHV6eWFPN3I3eUIxS3c2SDFNcjdxZ25FQURxUjZqTkV3Sm9wcVI5cFliZkpBZUMzeTNacTM3NW1FMGxUTlg3ZXNWSmpoYnpqZENTRVVTbmtmN3JocF9RcHRjMUJUcEpsYzlJOWRVS29yZVFLbnlFSQ?oc=5"
+        },
+        {
+          "title": "MrBeast's 'Eat Everything in a Grocery Store' Becomes His Most-Viewed Video in 24 Hours: 'I Still Think M",
+          "source": "Benzinga",
+          "published": "2026-10-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPbUUwMllRdmY4Y2pBOFNXTWF5ZTloQkpsanQ4a05hV1AzUTBlYWFFWDJwcGh4dmxtWG9Db3JES25CeDlsQmNvZjBtRXdTelViM2p0RWFGM29uNURnbVJxczJFVXV1bnhjVEgxaURsNTRWZklkYWxFVUVWand2dGJKaUdIanVITkRJTFpVR3hCd0JIaEZYZlkxQlI4cWc2d0VWa1dmR0pjb3Rpbk5rUFE4RHpQS01sT2c?oc=5"
+        },
+        {
+          "title": "How this MrBeast challenge winner won the hearts of fans – and $250K",
+          "source": "USA Today",
+          "published": "2026-10-03",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOcDBQWVFFMF9ncURYVkgyU1ZwR0NyTllxRDB1MG52bDc2b3FsZTFrMDVScEJDdXpKcF84ZGVzSllUemlFcjZ0d21UTl9MNENSZll2QUdFYnU5VnhUZVN6eTRkYU1waFRacnV6Qm9GRnhMbDIxMjZIaG5SdGFOb2NwZW9wSXd0aXZyZnVCZHFrWHdCZjNva3d5OVFRYXBGQnV5X1I2Uk5YQzgyNEJWUlFpR1V3WGoxVWZjTGFHeldGVlRJdFJNRVhiY01CWWVjNVlUa1Q5YkdRLUs3UFA3V05VbzVxcV9yWEgtcnZPZ0p5NHc?oc=5"
+        },
+        {
+          "title": "MrBeast's 'Eat Everything in a Grocery Store' Becomes His Most-Viewed Video in 24 Hours: 'I Still Think My Best Days Are Ahead'",
+          "source": "Yahoo",
+          "published": "2026-10-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxON1NOZlpVOTNRSE4yME55eTk4VzJ2R2JGX09RVU5iZDEyOG5IaVlabjRxbjBOdS0xdlgzc2tYS0szZ3BRanZJWVpQU0JldTFlTGxYQ2tqZEZaWGxaMFNyRzdWRjI2a3pWQXQ5WVlPeWtpMFl0dnowRndCcms5aE1scTBQenhueVljSnUybGQyeWtrRFQ1ZlVQQ0JxejFZeGxvRk90dERrUHRublk?oc=5"
+        }
+      ],
+      "news_query": "MrBeast video views",
+      "forecast": {
+        "probability": 0.17,
+        "reasoning": "The video set a 24-hour record and had about 125M views roughly two days after release, according to an October 6 report. Typical decay patterns put the 7-day total somewhere around 190-240M. The 8M-wide 215-223M bracket captures only a modest slice of that range."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-10T02:17:24Z",
+        "crowd": 0.21,
+        "best_bid": 0.2,
+        "best_ask": 0.22,
+        "volume": 11762,
+        "liquidity": 2122,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Gap vs. the price we'd pay is 3.0 points, under the 10-point minimum."
+    },
+    {
+      "market_id": "4469461",
+      "event_id": "1005014",
+      "event_title": "September Inflation US - Monthly",
+      "option": "0.6%",
+      "question": "Will monthly inflation increase by 0.6% in September?",
+      "rules": "This is a market about the one-month percent change in the seasonally adjusted Consumer Price Index for All Urban Consumers (CPI-U) published by the Bureau of Labor Statistics (BLS).\n\nThis market will resolve to the one-month percent change in the seasonally adjusted Consumer Price Index for All Urban Consumers (CPI-U) in September 2026 according to the monthly BLS report.\n\nThe resolution source for this market will be the BLS Consumer Price Index report released for September 2026 (https://www.bls.gov/bls/news-release/cpi.htm), currently scheduled to be released on October 14, 2026, at 8:30 AM ET. Resolution of this market will take place upon release of the aforementioned data.\n\nNote: the resolution source for this market will be the official monthly Consumer Price Index for All Urban Consumers (CPI-U) which BLS reports to one decimal point (e.g. 0.4%). Thus, this is the level of precision that will be used when resolving the market.\n\nIf the BLS does not release the relevant figures on the scheduled date, this market may remain open up until the scheduled release time of the next CPI report (https://www.bls.gov/schedule). If the information is not released by that time, this market will resolve according to the figures of the most recent previous month with available data.",
+      "topic": "Economy",
+      "end_date": "2026-10-15T03:59:00Z",
+      "url": "https://polymarket.com/event/september-inflation-us-monthly",
+      "snapshot": {
+        "time": "2026-10-10T02:15:45Z",
+        "crowd": 0.335,
+        "best_bid": 0.33,
+        "best_ask": 0.34,
+        "volume": 12957,
+        "liquidity": 2795,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "Inflation cooled slightly last month even as consumers stepped up spending",
+          "source": "AP News",
+          "published": "2026-09-30",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPOTdtSDY4Q0J6S1R0Y2FTT2FwUEFFQXFmMEZQMGhtNlZXTVRZOEc2YWdEaklaS2tianh1b2QtZ0ptXzdhRmFEY2V0amJFTmhUakg5LVVzYnViY2VyNHlJRThuTGU5NWdxRmJjdzVXUDRMdDdjZ2l1UTUzZmRrUjd5aUFfUHhBd0h5LU1jYmhGdE1mQTZjUHhvQ19rYV8xZ0htZU8w?oc=5"
+        },
+        {
+          "title": "US inflation rises below expectations in August, gives the Fed breathing space",
+          "source": "Reuters",
+          "published": "2026-09-30",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSktrS2JqeGdwTmowTVBNV2lPbnZwcVdwSzJPVi1aRzZuVDVQU3RtRGZ1UExTOVJnWm9CcTNYbnFneF9wOWlCMU5MNXEwMDN4UmhVVkx2MFVWOC1EYVdyb3Y3WXNYYXhNUzZSUExKQzNZOWk4U1dRaVBMMUZBeklyT0VqNFVhbUV3RjJmbThsM3FOejFUV2lBV0ZtZjNTZjVqRFYwcGZqZWdKdjBRa3FvcmdKRTRWak0?oc=5"
+        },
+        {
+          "title": "Iran’s Inflation Reaches 89.8% in September: Statistical Center",
+          "source": "IranWire",
+          "published": "2026-10-01",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPLXRyZXUzZ2lIZlNVME82M3hLY3N4MTNMU0pDM2VYaUx1ektPQ1V0T1BpWTBNbFlvYUlVNkRUWWlDRG53MzRzRjdjbmlkUjhZc3JSM3hGNy1MWVFCMEJBeFgwYmM5eEh6cE5xc0hFWXg0YnppcTBPeTNIN25KZVZ0T2tEQXlrMHkxalpFMTN6S3VNQmpVU2pudmpjRlo?oc=5"
+        },
+        {
+          "title": "Iran’s Annual Inflation Rate at 143%, in Stark Discrepancy with Official Statistics",
+          "source": "Iran Focus",
+          "published": "2026-10-04",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSkh2TThMV004VG5hdkw4dWU1T2xFQ2hNUlRPeDBkVUpfS2xMc0NGUkcwNFZIZXhoMkhhdUdaSXZxV1dyeDJrZVZYdmxZWmZCWWVqbmg5MFVmOWx5blJid1RPOWw1VF95SWdLZWNZQ3A0b0c0UGxRWXg2U0ZNTDZlZDFINWsxcUZ1UFFtdXF5RU1lQjEtVGhvM05yRUtpMVc1N0k4WDJNdkMtUkN2MDNkZlJodUNtRVFu0gG-AUFVX3lxTE5tZ0RPZ3JNQ1dOQTk0cDNNX0ZKeElMb0lQYnB0ajRWNDFJem5fOHFDaFNGWGNSTkVwUV94WDlzSGNPVW5yMnlLZzFRamNBeVdQMmpQUDcwdHRDdDRCcmo4d2ZfcEsxLWk4LS1EOUhGa0RWV3JEbXdXdy05Unp3bU11QU44MzltbFIwazBwNWFNd1MyaXJjV1Q5NzZmdjc3Ukd1NkdzRE02ZFdmeXB4cEpncGhqN21tMzQxRE81dHc?oc=5"
+        },
+        {
+          "title": "Inflation Grows But Below Estimates of Fed’s Expectations",
+          "source": "RISMedia",
+          "published": "2026-09-30",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNNzduOUR3ZDhCQkRfS3lIY1p6OTF1V1dmb2dwcDBDUU4tOXpxSkFLdmdhRmt4TzNJcXhDYmZkZDdnTmNMWndRRWxBNkNZVVY0V2d2Y2ZGSTU0RjZzRkthMjFaWmN2UkN0dHV5dW14Umh1UzhESnVYd3hERzh6ZjlER0NNb19hYUN2Q01oaXZ5RkhzNGxXcl9WNg?oc=5"
+        },
+        {
+          "title": "Turkey’s annual inflation slows to 29.7 percent in September",
+          "source": "Turkish Minute",
+          "published": "2026-10-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNaF9EM2dHbHlVLWVvcUp2LUJhZEZiMjJSVnJobFZlZFU0d2t3WEtnRXN4Z0VFQlBpQmxwb2dXeUx4Um1zMWtvdVFnWGNTMk4ycXhhbjJUd3NoZGthVjJJTUpuQTllMGVCN1ZwaDhzZVNPendWSTBRdnRfTjdjdWhrOTBtNmdJOVVkUTdKcm9tZHlqLXVVVng1MEd0VDZxR2p3aVNz0gGoAUFVX3lxTE5DZ2JlU0d2bjQ0WFN2dDIwc0lkaWc4djhkWmtrajk4ZXU5bmxybE04WkVsYXRmbVJxdldvZnFHWk5iNXBBOWs5ZXlzdEZSMGNNbWNwTWhNdDg3c3QyTDVzT3NqckV2Vl9Jbld5X3Q3TFJRVW13MHhqS1E2eGNCRVE3QkhZclVfa0JTN2NUdUNFb1QtaXFadnpLLVh6cEYwZ1FzSjlRdUpTVA?oc=5"
+        }
+      ],
+      "news_query": "monthly inflation increase",
+      "forecast": {
+        "probability": 0.07,
+        "reasoning": "August inflation came in below expectations and cooled slightly. A 0.6% monthly CPI print would need a large energy shock. Iran tensions and the blockade add some upside risk, but 0.6% remains a tail outcome."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-10T02:17:24Z",
+        "crowd": 0.335,
+        "best_bid": 0.33,
+        "best_ask": 0.34,
+        "volume": 12957,
+        "liquidity": 2798,
+        "fee_rate": 0.05
+      },
+      "bet_note": "No cash left for new bets; it's all in open bets."
+    },
+    {
+      "market_id": "3347919",
+      "event_id": "798441",
+      "event_title": "Bank of Brazil decision in November?",
+      "option": "25 bps decrease",
+      "question": "Will the Bank of Brazil decrease the target for the Selic rate by 25 bps at the November meeting?",
+      "rules": "This market will resolve according to the change in basis points in the target for the Selic rate resulting from the November 2026 meeting of the Bank of Brazil’s Monetary Policy Committee (COPOM), relative to the level it was prior to this meeting.\n\nThe resolution source will be official information from the Bank of Brazil, including the statement or release from its November 2026 Monetary Policy Committee meeting, scheduled for November 3-4, 2026, as listed on the official Bank of Brazil calendar (https://www.bcb.gov.br/en/about/bcb-calendar?categoria=Monetary%20Policy%20Committee%20(Copom)). This market may resolve as soon as the statement or release of the Bank of Brazil's November 2026 Monetary Policy Committee meeting with relevant data is issued. \n\nIf the specified rate is defined by an upper and lower bound, the relevant change will be the change to the upper bound. \n\nIf the specified rate is changed to a level not expressed in the displayed options, the change will be rounded according to the following guidelines. Increases or decreases of less than 25 bps will be rounded to 25 bps (e.g. an increase or decrease of 10 bps would be considered to be an increase or decrease of 25 bps). Increases or decreases of greater than 25 bps will be rounded to the nearest 25 bps and will be rounded away from 0 in cases of equidistance (e.g., an increase or decrease of 37.5 bps would be considered to be an increase or decrease of 50 bps). Displayed options of “Increase” or “Decrease” will include policy rate increases or decreases of any size.\n\nIf the specified meeting is postponed to a date and time before the start of the next scheduled meeting, this market will resolve based on the outcome of that postponed meeting.  If the specified meeting is cancelled, or postponed such that no decision is announced by the start of the next scheduled meeting, this market will resolve to the “No Change” bracket. Emergency changes to the specified rate not resulting from the specified meeting will not be considered.",
+      "topic": "Economy",
+      "end_date": "2026-11-04T11:59:00Z",
+      "url": "https://polymarket.com/event/bank-of-brazil-decision-in-november-1785878499354",
+      "snapshot": {
+        "time": "2026-10-10T02:15:45Z",
+        "crowd": 0.865,
+        "best_bid": 0.86,
+        "best_ask": 0.87,
+        "volume": 14055,
+        "liquidity": 4068,
+        "fee_rate": 0.05
+      },
+      "news": [],
+      "news_query": "Bank Brazil decrease target Selic rate bps | Bank Brazil decision bps decrease",
+      "forecast": {
+        "probability": 0.35,
+        "reasoning": "Brazil's central bank was expected to be in an easing cycle in 2026 from a very high Selic rate. The choice between a 25bp cut, a 50bp cut, or a pause is uncertain, especially with oil-price risk from the Iran conflict. With no recent news to go on, a 25bp cut is one of several plausible outcomes."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-10T02:17:24Z",
+        "crowd": 0.865,
+        "best_bid": 0.86,
+        "best_ask": 0.87,
+        "volume": 14055,
+        "liquidity": 4062,
+        "fee_rate": 0.05
+      },
+      "bet_note": "No cash left for new bets; it's all in open bets."
+    },
+    {
+      "market_id": "4082026",
+      "event_id": "950431",
+      "event_title": "Bank of Israel Decision in October?",
+      "option": "Decrease",
+      "question": "Will the Bank of Israel decrease the Bank of Israel Interest Rate after the October decision?",
+      "rules": "This market will resolve according to the change in the Bank of Israel Interest Rate resulting from the Bank of Israel’s October monetary policy decision, relative to the level it was prior to this decision.\n\nThe resolution source for this market is information released by the Bank of Israel after its October 21, 2026 monetary policy decision, as listed on the official Bank of Israel interest rate decision schedule: https://www.boi.org.il/en/economic-roles/monetary-policy/interest-rate-announcement-dates-2026/\n\nThis market may resolve as soon as the Bank of Israel's announcement of their October 21, 2026 decision with relevant data is issued. If no decision on the Bank of Israel Interest Rate is issued by the end date of the next scheduled meeting, this market will resolve to the \"No change\" bracket.",
+      "topic": "Economy",
+      "end_date": "2026-10-21T00:00:00Z",
+      "url": "https://polymarket.com/event/bank-of-israel-decision-in-october",
+      "snapshot": {
+        "time": "2026-10-10T02:15:45Z",
+        "crowd": 0.1405,
+        "best_bid": 0.127,
+        "best_ask": 0.154,
+        "volume": 17908,
+        "liquidity": 5528,
+        "fee_rate": 0.05
+      },
+      "news": [],
+      "news_query": "Bank Israel decrease Interest Rate decision | Bank Israel Decision Decrease",
+      "forecast": {
+        "probability": 0.35,
+        "reasoning": "The Bank of Israel began cutting rates in late 2025 as inflation eased. However, geopolitical risk from the Iran conflict and the shekel's volatility often lead it to hold. With no recent news, a cut at this particular meeting is plausible but less likely than a hold."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-10T02:17:24Z",
+        "crowd": 0.1405,
+        "best_bid": 0.127,
+        "best_ask": 0.154,
+        "volume": 17908,
+        "liquidity": 6067,
+        "fee_rate": 0.05
+      },
+      "bet_note": "No cash left for new bets; it's all in open bets."
+    }
+  ],
+  "batch_id": "msgbatch_01VvF4AHmnFYkzoWfZpYe7xc",
+  "forecast_at": "2026-10-10T02:17:23Z",
+  "usage": {
+    "input_tokens": 7684,
+    "output_tokens": 2298
+  },
+  "cost_usd": 0.0383,
+  "budget": 0.0
+}
