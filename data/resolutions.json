@@ -63,5 +63,15 @@
     "outcome": 1,
     "resolved_at": "2026-10-10T18:02:31Z",
     "question": "Will MrBeast's next video get between 215 and 223 million views on week 1?"
+  },
+  "5291699": {
+    "outcome": 1,
+    "resolved_at": "2026-10-11T06:22:17Z",
+    "question": "Will SpaceXAI officially rename itself to SpaceXSI by October 15?"
+  },
+  "5291700": {
+    "outcome": 1,
+    "resolved_at": "2026-10-11T06:22:02Z",
+    "question": "Will SpaceXAI officially rename itself to SpaceXSI by October 31?"
   }
 }
