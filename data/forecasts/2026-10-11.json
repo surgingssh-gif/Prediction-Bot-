@@ -1,0 +1,611 @@
+{
+  "run_id": "2026-10-11",
+  "date": "2026-10-11",
+  "created_at": "2026-10-11T01:48:22Z",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "phase": "1.1",
+  "pick_stats": {
+    "eligible": {
+      "Economy": 10,
+      "Entertainment": 1,
+      "Politics": 94,
+      "Tech": 3
+    },
+    "picked": 8
+  },
+  "questions": [
+    {
+      "market_id": "5476380",
+      "event_id": "1161680",
+      "event_title": "US imports Russian diesel by October 31?",
+      "option": "",
+      "question": "US imports Russian diesel by October 31?",
+      "rules": "On October 9, 2026, Donald Trump announced an agreement with Vladimir Putin to import Russian diesel fuel, and the United States Treasury issued General License 135 authorizing the importation of Russian-origin diesel fuel into the United States through April 7, 2027 (see: https://truthsocial.com/@realDonaldTrump/posts/117412435306815143 & https://ofac.treasury.gov/recent-actions/20261009_33).\n\nThis market will resolve to “Yes” if Russian diesel fuel is imported to the United States between market creation and October 31, 2026, 11:59 PM ET. Otherwise, this market will resolve to “No”.\n\nRussian diesel fuel refers to diesel fuel of Russian production origin.\n\nImported to the United States refers to the diesel fuel being physically delivered to a United States port or into the terrestrial territory of the United States for commercial or government use within the United States. Diesel fuel carried as a vessel’s own fuel, held in bond for re-export, or passing through the United States in transit to another country will not qualify.\n\nTo qualify, the import must either be described by a consensus of credible reporting as having been made under the agreement announced on October 9, 2026 (or any amended or successor arrangement between the governments of the United States and Russia), or be authorized under General License 135 (or any amended or successor authorization permitting the importation of Russian-origin diesel fuel).\n\nThe primary resolution source for this market will be a consensus of credible reporting.",
+      "topic": "Economy",
+      "end_date": "2026-11-01T03:59:00Z",
+      "url": "https://polymarket.com/event/us-imports-russian-diesel-by-october-31",
+      "snapshot": {
+        "time": "2026-10-11T01:48:19Z",
+        "crowd": 0.445,
+        "best_bid": 0.43,
+        "best_ask": 0.46,
+        "volume": 68112,
+        "liquidity": 14887,
+        "fee_rate": 0.0
+      },
+      "news": [
+        {
+          "title": "Trump’s Russia Diesel Deal: Can the US Import Russian Fuel Despite Sanctions?",
+          "source": "Diplomacy and Law",
+          "published": "2026-10-09",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9rZU1BMFlpNy1yT2xNYUVEV3NnOGZZdEZ2M2JyMG9oOHVjbmFhUWZ3MmhydzdRcHQwUG1tTjg4OUlYcG44eXg1bkROQ3ZvT2Q0cHlVT2llMzlvTlFYX2d5MUlnRGJFdEU5ZERYb2F3?oc=5"
+        },
+        {
+          "title": "Trump Says He Will Import Russian Diesel Fuel Amid High Prices",
+          "source": "The New York Times",
+          "published": "2026-10-09",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOVS0yUEd6cWJMZnVXcjJORG0yelVLU01tbFh4ZFc1YkNERHZjTDJLRjh0ZUJIQ1d3am9iM0twaGtMdXRURXNIZHJBc0FZaG1laFU5bndoTWVlVnNhdXFwZjVUV2NpZVQ0X005NGhCTVdnX1NfV05SZHNYMHRlUVFoX2tZcw?oc=5"
+        },
+        {
+          "title": "Trump says US to import Russian diesel, reversing pressure on Moscow",
+          "source": "USA Today",
+          "published": "2026-10-10",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQTGFyN21yaExWSTBhczQ0Y3E4aTdJUm1fTGhJYUNGX0FxVGZic1hCR0RIVW9ISEN2V1NBWnNhSGFMcGNVdFpnWWNjTy16WlI5c3NXSk53RXZQTGdaMXNYUGdYeXloSWRTUFBIVkE5X0NkVExjWnNJa21nSm9ueTdlN0NRaE9UOEQ1UFJLQzhSZDVoRnBsMFNEdE40dDNGOTBiRGFsWGpycXlwVEZZOTdldWtCdThhUFF3dmhzb1pyWVd0cU5h?oc=5"
+        },
+        {
+          "title": "Why is US turning to Russia for diesel despite sanctions?",
+          "source": "Al Jazeera",
+          "published": "2026-10-10",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSGNTbVgyVC14ZDVBOEs3Mm1rTW16emtnYzdRZm1OWi1SQ0xod09CRWZaajVkbEVmanlDdUxDRGd4NXNJOFdJYUYwUmV2UW00VXl2a2p4M0ZxNVc2NGlNdFIyN1R4UEFwTzN4aFdDcFNSM3ZKdnpIN3Bqek1wT25UUkhZUVV4UlJ0YjNROFc3TEgwQ25hZWlmZmJMVVJ1ZUnSAaQBQVVfeXFMT1R5NE0yR3F1TTRkZHZCb1h4M2lvd1JTMklBT05BUWY5SGRsSVFSbG9LTlNNeDJVNFpnMk9ZcVVpNnBLOUxPQmdacjA2VTdCeWVSei1lbmVJYUw1MFBnN1RRV2VjNENoQmhDck5EbkpXaFpoUW0wQ1ktbG54Z2l2LTVyN2dDc3BERTZzYTlOVGdyNDItSnh3UnFRc2RlbWktbWtKVXI?oc=5"
+        },
+        {
+          "title": "U.S. and Russia tout diesel deal to ease sanctions and reopen fuel flows",
+          "source": "NPR",
+          "published": "2026-10-10",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPYm5oTEpwTVVzQ2hrd3ZTVWwxNG1rLTBNZkpDdnEtOUpTUUtCWGlHNlY0M0xkUmNPN2FISXNHQTlFX2J5VzZjQ0hNaHdNS05aeEdWQTNMMVVkT0VfMms3RHBJRllTWDE4WHN2MG0yWlpnLVg3SWxUUFNHRTZwbElqdGVDUldMZl9yN3NqV1lIbm1wZ3JuOGxSV29idW1mMjNhTGliSm9ISW9IcnZ1M1hzeGhNdUR2RkE?oc=5"
+        },
+        {
+          "title": "Boosting US oil supplies with Russian diesel unlikely to have much impact on prices, experts say",
+          "source": "ABC News - Breaking News, Latest News and Videos",
+          "published": "2026-10-10",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNVXNFaW5NLTM1YlVvZEZvSHNlLTJCcXRWV2h2NVN2SzhUdXhScGVUaWx0QUZXcW1WZDBpQ0JPMlE4d1BITHJZOEZubnhsTjcyM3cyRUw3dDFFeWFlVFRkMW0tVktRdXFmR0ZZS0NZLTBVQlZucFJENkR1eE5zTEF1OVl1eExzUlR5eWJjSGlfT3labXk3eDdhWktHS1XSAaIBQVVfeXFMTURrM0FZYXV2WG9FZmNxOUtpM2VQZ2JmcVlCbkJQc1hXanZneDhVOXlYQ0JyVFg5aEtwTUtPd2JzSHE5VjdJOTNOZ3ZCbXVTbE9yb2VsWUk1MXNJdmxHdXk5bFA0c3NxdTBTX01vNWltNjJrWjd2Q0NWcDNMQWNPQ3B5LVFjdUY5SWJqQlhHRjBOajRTeUxWWUpmcEZCZGN6eGJR?oc=5"
+        }
+      ],
+      "news_query": "US imports Russian diesel",
+      "forecast": {
+        "probability": 0.38,
+        "reasoning": "The licence (General License 135) was issued on October 9, which leaves about three weeks for a cargo to physically arrive at a US port. A tanker from Baltic or Black Sea ports takes roughly two to three weeks, so only an already-loaded or diverted cargo could plausibly arrive in time. Buyers may also be cautious about reputational and legal risk. Strong political pressure over fuel prices could still speed up at least one delivery."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-11T01:50:25Z",
+        "crowd": 0.445,
+        "best_bid": 0.43,
+        "best_ask": 0.46,
+        "volume": 68112,
+        "liquidity": 14887,
+        "fee_rate": 0.0
+      },
+      "bet_note": "Gap vs. the price we'd pay is 5.0 points, under the 10-point minimum."
+    },
+    {
+      "market_id": "682708",
+      "event_id": "81557",
+      "event_title": "Prime Minister of Israel after the next election?",
+      "option": "Gadi Eizenkot",
+      "question": "Will Gadi Eizenkot be the next Prime Minister of Israel?",
+      "rules": "Legislative elections are schedule to be held in Israel on October 27, 2026. \n\nThis market will resolve to the next individual who is officially appointed and sworn in as Prime Minister of Israel following the 2026 parliamentary election. If an election is called early, this market will immediately resolve to the individual who is officially appointed and sworn in after that election.\n\nTo count for resolution, the individual must be formally sworn in. Any interim or caretaker Prime Minister will not count toward the resolution of this market.\n\nIf no such Prime Minister is sworn in by December 31, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Israel; however, a consensus of credible reporting may also be used.",
+      "topic": "Politics",
+      "end_date": "2026-10-28T03:59:00Z",
+      "url": "https://polymarket.com/event/who-will-be-the-next-prime-minister-of-israel-after-the-next-election",
+      "snapshot": {
+        "time": "2026-10-11T01:48:19Z",
+        "crowd": 0.4155,
+        "best_bid": 0.413,
+        "best_ask": 0.418,
+        "volume": 2846984,
+        "liquidity": 177224,
+        "fee_rate": 0.0
+      },
+      "news": [
+        {
+          "title": "Gadi Eisenkot Challenges Netanyahu To Televised Debate Ahead Of Israel Election",
+          "source": "i24NEWS",
+          "published": "2026-10-04",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQdVNvdVpzOGhhWjJ6TEk2TnBCZXJsdmRvY1FlXzJxRk9ITGJLZ2xyM2UyT01jNmVtWFZMTFdqZlBrdmlRQjVrZmNwTDVwVEY3UXhCeElTZW5PY2ZuN0h2TkdXcDNmQjc5RW9mYVdYeVZUYkxRQnZBWlhnRzJlSDJwZFlESmxKa1M5SzJ0VEl0RXJFUk1RenpXOXRQX01ZWllUTlRJNFdhZjFvQmdhdFFLWlFSckV0anRMMzBVc1NvaFNwQndackZvQXM1LTM4VVg1SWtUXw?oc=5"
+        },
+        {
+          "title": "Bereaved by war, determined to heal, protect and revive Israel: Gadi Eisenkot's prime ministerial mission",
+          "source": "The Times of Israel",
+          "published": "2026-10-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNSEZxbmFUdktjVW12aEF4eW9UZ1d4U1ltMnlVSnlkVWlIMDlwUWptdlNqUmhlZFI2R1RLWUtkWDRPQ3dsZ3RJZ0JVQmV1Mk92aTk0T2tYZnFtWGlGNFN0NzBJWVRpaElYN3F5d0JCRTZONk95LUxCZkZlcWJkS3F0bVdRdHk1X2tTZUF1bXpXamRVdXFQUzNLSklwb2lvRGR2YmwydWtVS3Q2UDRSOTRUay1WY2FzakZnSVFDYi1UVkZFYzZ3SUhFdXhORUw?oc=5"
+        },
+        {
+          "title": "Israelis divided as vote that could oust Netanyahu only weeks away",
+          "source": "The Guardian",
+          "published": "2026-10-01",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNYVY4Nl9TRzlxZXd1aVI0a0Jhak0xNFR6SkcxS0VFZnp2cHUyc2Z4RFFmQ3NsUGFEajRwYTBBTXVUbkd4M1RkS1BLRWd5M3dsUExUZ1d4OEdiN2dwSVI5LVNMVnQyaUdOc1RCZmVPNEUtdG82b3ViZkp3cm0wdV9CdXotenpEalZLX2NzNk12aDRFeFdXSWRBM0pB?oc=5"
+        },
+        {
+          "title": "Gadi Eisenkot (Eizenkot) | Party, Son, Israel, Politics, Biography, & Two-State Solution",
+          "source": "Britannica",
+          "published": "2026-10-10",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9qb3VwcFlIdnpTdnhlUXRESFB0T0NHMU03RzNqa0RWV0ZSMGNaeEYzd2tXWXY0X3dubkdkQWxsTEU2a0tnQ3BxN1F1R1hZZmNWaVZpLWhvNXdxVjFIVkJF?oc=5"
+        },
+        {
+          "title": "Scars from Oct. 7 fuel deep divisions over Netanyahu ahead of Israeli election",
+          "source": "AP News",
+          "published": "2026-10-07",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQekQyN2VTQVB1ckZNWTFfbWpaTE9nLWE0T2xTc3BTdUtuR2lXSG5GRFRoMkhrSTFGMDZYaFlqTXhHWnU5NlJCNElKU3ExSi1KenlQcFcyT0xKNWY5QjFZY1I4Unl5OEpDV3JaM1RqVVdzZTZPY3dmYnU4eER2a2VodnM3bXdaZWNiTzM4cG9kWWRCUFN5NzgxUkNIZ3l4V1JRc2NSdQ?oc=5"
+        },
+        {
+          "title": "Israel election poll: Gadi Eisenkot leads as Benjamin Netanyahu, opposition blocs tied",
+          "source": "The Jerusalem Post",
+          "published": "2026-09-28",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8xNVVHVG12bUZZaHJkbTgyLWNGNFYteExKaVNkV3ZvcjI1dGZ1amcycDRSa0tIWDFISV96SHJuZFFFVlpoeWhkYURnanZRZGZGLWQ1NzBwOE9tUmRFSkxFY04xbjZFaVR5?oc=5"
+        }
+      ],
+      "news_query": "Gadi Eizenkot Prime Minister Israel",
+      "forecast": {
+        "probability": 0.25,
+        "reasoning": "Polls show Eisenkot's party leading but the two blocs tied, so forming a coalition is uncertain. He would also have to beat Netanyahu and possibly other opposition leaders such as Bennett to become prime minister. Israeli coalition-building often drags on or produces surprises."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-11T01:50:25Z",
+        "crowd": 0.4155,
+        "best_bid": 0.413,
+        "best_ask": 0.418,
+        "volume": 2846984,
+        "liquidity": 177078,
+        "fee_rate": 0.0
+      },
+      "bet_note": "No cash left for new bets; it's all in open bets."
+    },
+    {
+      "market_id": "3954617",
+      "event_id": "798490",
+      "event_title": "Iran-Oman Hormuz Management Agreement by...?",
+      "option": "October 31",
+      "question": "Iran-Oman Hormuz Agreement by October 31?",
+      "rules": "This market will resolve to “Yes” if a diplomatic agreement between Oman and Iran over traffic in the strait of Hormuz is announced by the specified date, 11:59 PM ET.\n\nA diplomatic agreement refers to an official agreement, treaty, deal, or substantially similar diplomatic instrument that establishes agreed actions, policies, obligations, or commitments between Oman and Iran.\n\nA qualifying diplomatic agreement must establish Iranian or Omani policies, obligations, or commitments aimed at managing, permitting, restoring, or increasing vessel or shipping traffic through the Strait of Hormuz, including agreements defining vessel traffic corridors, fee collection policies, or other management policies.\n\nAll listed countries must announce their acceptance of the same qualifying diplomatic agreement for the Payout Condition to be met. A joint announcement will qualify, as will separate announcements from each entity of its own acceptance of an agreement which, taken together, directly indicate that all the listed countries accepted the same agreement. Separate announcements of individual policies will not qualify if the policies are not announced as part of a diplomatic agreement.\n\nEach announcement must be a declarative statement that clearly and unambiguously communicates acceptance of an agreement. Statements that reference ongoing negotiations or a prospective agreement, or that allude to or express support for an agreement without confirming acceptance of the agreement, do not qualify. A qualifying announcement need not reference the agreement by name or use specific terminology, provided it clearly communicates acceptance of an agreement.\n \nWhether announcements from the listed countries represent a diplomatic agreement and whether such an agreement qualifies will be primarily determined through the announcements themselves. Where an announcement is made by all listed countries but, based on the announcements, it remains ambiguous whether the announcements represent a qualifying diplomatic agreement between the countries, this market will remain open until either i) definitive confirmation that the announcements represent a qualifying diplomatic agreement between the listed entities is achieved through further announcements from the listed countries or a consensus of credible reporting or ii) 14 calendar days (ET) have passed after the date that the last country made their first potentially qualifying announcement. If, at the end of the fourteenth calendar day, no definitive confirmation has been achieved, this market will resolve based on the totality of information available from the resolution sources at that time. No single statement, denial, or presentation of evidence will govern where it is contradicted by the totality of information.\n\nThe resolution sources for this market will be official information from the governments of Oman and Iran and a consensus of credible reporting.",
+      "topic": "Politics",
+      "end_date": "2026-10-31T23:59:00Z",
+      "url": "https://polymarket.com/event/iran-oman-hormuz-management-agreement-byptptpt-20260804222725871",
+      "snapshot": {
+        "time": "2026-10-11T01:48:19Z",
+        "crowd": 0.13,
+        "best_bid": 0.12,
+        "best_ask": 0.14,
+        "volume": 411647,
+        "liquidity": 58113,
+        "fee_rate": 0.0
+      },
+      "news": [
+        {
+          "title": "Escaping the Hormuz trap: What should an agreement to reopen the Strait look like?",
+          "source": "Chatham House",
+          "published": "2026-09-30",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQbWdDWFZJVEx6ZG0taDhwaUVuNmtmLTJGbG9wbWNRTkhBX3VZaUhvX0h1NWdockN4a25ZOHE3M1FjQjZtSERTdkRkX1psbXk1OFVHNWlwbEkyT3ppUGNyanZBUUJxWndXbnA0T0NCbE5WQnR1ajVoZDh2dUpnYk9wSnFtdU1CNjlLYi1ibXhSclJBaXlmUDBUT0RyRE5RZG8?oc=5"
+        },
+        {
+          "title": "Trump expects talks with Iran to resume this week after rejecting proposal",
+          "source": "CBS News",
+          "published": "2026-09-27",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNMkdfOTQxTjRqN04xZFVPX21CZDlGNTFDREhiZjV5RmZWQ090V0RtV3dZamlyQnMxTFVRU29OV2xyLUM0Q2RKTDMwR2hjVjRaaE96SU5HQzN3VHREbE04ZzhHYXNiamw1R0d5ZEozY1J3d2ZfazZoM3J5S2VlYUkxaUpyU3piczhjWkw3M09MQVI?oc=5"
+        },
+        {
+          "title": "Iran Offers Proposal Allowing Ships to Exit Oman Side of Hormuz Free of Attack, Source Says",
+          "source": "EnergyNow.com",
+          "published": "2026-10-08",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNSkpiNms4aU92MG1WdER5UV9xVVNNUmRmN0dfVk1xQk5CeXlJTHIzZzQ1S2pfczBfZDRkT0kyOFVWWmk2MEtNb1B1ZzlGN3cyam80ejNpRURkU2hxSjhNTHg2bE15bktiNmsybkFWUzlQU0wzQU5pck9NdWlQVWMzMXpPWDI5akJWZHRmbkdHakt2V1p3aTFWcl9nSkpCRVlmRV9nZXFCaGdBZXRWb3dKQTFEQnU5YlhIWThwV1B3?oc=5"
+        },
+        {
+          "title": "Iran-Oman deal reached on navigational corridors through Hormuz: Baghaei",
+          "source": "Gulf News",
+          "published": "2026-10-07",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPbzVCZU1mc2VVQlFmWFZXdi1TYVNiNGU5UTljcE9laUhnNU9uNG9UVF9FeWNyN2ZSQXdrb0NqZkxZdHJ6anpjTTE5SlZoN1dIVUJkTE5JZ0FNNU5kSWZ3TEVFTVR2aVhoNUl4YUFneVlCakZDS1U5OVo2Q3JiR0lvUGRua0hUeGZUanRvV2d4TEcxME9YSjJFaXl6YXJKdkZwcHVJZkVVUGM3RmN1ekZubldPOVVmbF9WLXJiNmtLOEFaQm9nbmNOWXN1TDVRcThDQnNV0gHmAUFVX3lxTE81eHBzRHRac2UxcHVoaG5WT3d1T0dvTXpVVU9IdHh6dHhidlhyS2FEX0w1VjhzeGYyNlF2VHNaYzBCOHlsMUtYZUtiTnpndmdmLXV6TnIzN1BfVzgxMVhBYk1EN1VGbXk2WEdCZWQxWTFEdmtMd2FKME5ubHFHN1lCWnJjWUQ5bWNHZk9sUUJVNURCSHpwVWxVY2pqRmtkY0V0UEtkdlRqbzYyenVGbkdrTlFEUGJUelZaYUEzaTU4Q3liVjhiQzZYdW5McEw2Z0l2NnVlSzNXNjFsa3ZsSVJST0MyaHBn?oc=5"
+        },
+        {
+          "title": "Hormuz and Yemen: Iran offers de-escalation at a price others will pay",
+          "source": "Al Jazeera",
+          "published": "2026-09-29",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPN2lMdHRwRTV3WEtTMEhFSVA1S2hqYlpzUHZaV3hjTmpHZnNaOEVBR3NZTEp3Wmc4eDBWaVNPa0xsMDZrbmlxWnlVUGh0TWJ3VG52dWlzakw1NDlVQml1V2pKNlh5akNuSnhMNEphOTVLZGtxTGN6RWRBUDIzOXBUakJ0UDVBU1JLcExjaDNvRko3TGNDcm52ZzhScG85NFVuQUlPSGpwZVNRR1Z1eEVaMU1weEbSAboBQVVfeXFMTkRJcEV1S0Ric2Q3TXlOSlc4TGlTS1ZBalhYamV4QXNKMG5MZ0FwOGhHS0owbDB3NDRDOGJrdktGdkk0cTM3Z2F1RGRKVC13U3ZtTzA1U1dEUVNRaDd1X0RGTi00V2FzbmZtbm9hb0JURUV0bW5mOEN1ZFFoUjdDNE5WRHJ6bVpaX19JOTRIdEtybW5wZlRmdlZDV2NqUGw2Z3lfOUxmbHkwZjdhblFNa1FIWUFIZ0tiWWpB?oc=5"
+        },
+        {
+          "title": "Iran and Oman agree on ’safe routes’ in Hormuz",
+          "source": "The New Arab",
+          "published": "2026-10-08",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBxdmVrR2NQR1FoWW13LVRnbzVqc1g1akpMQlo1T0lKMUVBT1pIY3dvR2dtZnZvaUxNSm91NnBDeFlQWHBNVElScFhKVThqMVdLY2M4dkIwVXdHOUlkaVhCSUUzX19HUVNCUVI1UWt2eGF4b2c3MkE?oc=5"
+        }
+      ],
+      "news_query": "Iran-Oman Hormuz Agreement",
+      "forecast": {
+        "probability": 0.45,
+        "reasoning": "Iran's foreign ministry spokesman (Baghaei) said on October 7 that a deal with Oman on navigation corridors had been reached, and other outlets reported the two agreed on 'safe routes.' The rules require Oman to clearly announce acceptance as well, and Oman's confirmation is not evident in the headlines. Oman tends to be quiet diplomatically, and the arrangement may stay framed as a proposal rather than an agreement."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-11T01:50:25Z",
+        "crowd": 0.13,
+        "best_bid": 0.12,
+        "best_ask": 0.14,
+        "volume": 411647,
+        "liquidity": 56024,
+        "fee_rate": 0.0
+      },
+      "bet_note": "No cash left for new bets; it's all in open bets."
+    },
+    {
+      "market_id": "634976",
+      "event_id": "59233",
+      "event_title": "Alaska Senate Election Winner",
+      "option": "Mary Peltola",
+      "question": "Will Mary Peltola win the Alaska Senate race in 2026?",
+      "rules": "This market will resolve according to the winner of the 2026 midterm Alaska U.S. Senate election, inclusive of any run-offs, currently scheduled for November 3, 2026.\n\nIf the results of the election are not confirmed by July 31, 2027, this market will resolve to \"Other\".\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on official certification.",
+      "topic": "Politics",
+      "end_date": "2026-11-04T04:59:00Z",
+      "url": "https://polymarket.com/event/alaska-senate-election-winner",
+      "snapshot": {
+        "time": "2026-10-11T01:48:19Z",
+        "crowd": 0.725,
+        "best_bid": 0.72,
+        "best_ask": 0.73,
+        "volume": 770937,
+        "liquidity": 197775,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "How the phrase 'Lower 48' became a fixture in Alaska's high-stakes Senate race",
+          "source": "PBS",
+          "published": "2026-09-28",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZEozS2NGTk1WZlZGTVVaYXdQMlhpS0RHVzk2QVVrbGhPTzNGS3BtWFhjMjFMeTZ1U081ZXRJMm0xNDltYXhEN1o2ZzdlVzhLS2ZXS25DWkN1ejJ6bnRiVW52bElLc2hPV1NxLWhPeHA1ZV8yNWxyUUFIdjREVEZwNF9wMkdGYnZaVG12bktNY3d2S3d1NVhOR2JnRmh3TzZfVUpGWlJaZU51U1pfTkhUeVIxY9IBuAFBVV95cUxOcFJxeGl6ZUMyNnl0V2tKTVRUVXRlaDIyS3BMOWowTHZtY1VGRjNGckNXUUVGLTYzSjkzVEdrRl9ZT0d2bUtLcnlfS3BsalhncGdiR0oxS0lERldTTzJISjJiNlVjZmxLQzlIYTNNRlZrSk4xd3ZiTk4zSkJvTF8xYmt1cWlaczN4dFFzalczSUhxLVcyVTVCcVZVMVZpWktJSW5uWGJhbTc2YWxNYVJIcldlcWxpZUFv?oc=5"
+        },
+        {
+          "title": "Sabato’s Crystal Ball moves Alaska Senate race to ‘leans Democrat’",
+          "source": "The Hill",
+          "published": "2026-10-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZ3FqeUI3ZXE1TEtGZHZfeVZpLW1CYVV0Uzl4ejdKY01ENEttVGhSblAwYzg2V1RVdFQ1b2ExbG5rT2pxTHZXZXlNNmtuYzNiWGVsUnNsREtUcGpIajVnTnB1bVlqRHRaWTVQS3J1eFltOXlnN2Zkb3JOcWJPY0RGd1JtNUlqVUth0gGOAUFVX3lxTE5HTXcxLTBfZ0lkVVUyUjRGLTNsR2JuTXhJMmstWFlvQzY0N3ZLd3RhRDVNQ2kwdlBveHR4bXRrMWpfWmVxRXBVYnF3bXVFNm1JZnZpM19BUldEZWlLV3ZvQ0tjVTFFQ3lkbjNKa2RJREczMnFGdnBGQ0lPWFNlNmFLdnZqMFZfNklVSG41b2c?oc=5"
+        },
+        {
+          "title": "Opinion | She Could Flip the Senate. All She Wants to Talk About Are Fish and Diesel.",
+          "source": "The New York Times",
+          "published": "2026-10-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQOGp2NTN6UDE4R2JqenE1ejJMbUtuTEtIWnFyaWZSdFFDcmlObEJRbDB0S1hjWFlBTWxuQTBsNUItUHlVakl4ekt6RzZZWlhXUlhfVlBSZm1SU2F1ZjE3aHpHeEw1UmwxdjhIcmh2WHJSdVdCdXlUZnl3QjJRQVBTb0dzdDVPVGtseF9J?oc=5"
+        },
+        {
+          "title": "$10 for a gallon of gas has red Alaska thinking about a Democratic senator",
+          "source": "The Washington Post",
+          "published": "2026-09-29",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQcTkyNHdIT0ZVeFkzY3lDU0NiY0xYNWgzTUtwQUNYRWtBNUFQb0RuSnJCeEE5TC1laGdxMW1MSGh5cENEZXdjajhPWjBkVVZFSzdVTmQwcUxNV01Cc3M0UlRTRlBUT0t2cklCUVM2S3I2X0VkckxuaHRuTVlYQ3FjWnZ0QTRMOWt5bUpzeG5zWmR4dVd6WUhOQnZJYXZYa2RCWmZUT2VSa2pFT1NnMjQtMlU5dWh2QjBZYkRJMjYwOEpRYlFvMVdyWWpB?oc=5"
+        },
+        {
+          "title": "Will New York Times article critical of Mary Peltola affect Alaska’s Senate race?",
+          "source": "Homer News",
+          "published": "2026-09-28",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVVZoNWNEZlJqa2hEcUpZOFRIWXZabTJIRVI4NlFDZnNGUkJDclliWGtPRzd0RmpnTElCMW5XTE1NV0FCLW5mQ0FPTDJRbzlSNUxNMF8xNC1wZ1hKWlZLRnJmOWZLYmlEOWdNbjFCUTRVbFgzekdaN0tQY2Z1NTNGb0llQWZtU3dtYndLMFBVSXYyVTJpczBFQWRpdDd5ekgxRmxJMGhGMUltdjlUZmhzb2RvaTFoakNi?oc=5"
+        },
+        {
+          "title": "Peltola Leads by 7 in Alaska Poll as Vance Rips Democrats’ Focus on State",
+          "source": "Newsweek",
+          "published": "2026-10-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWXFtSjhjS09ybXdfSU5GNUdCX2xPaFNqYl9NLUF6dC1Oekg4c3NKbnZqUWt2dEFiamFMU1lWSlBrd0hjTjRsUkhrT2cxX1hZTEZyOFRHakxQVWFKMTJFOXVzNzFrbEpaOU9Wemhoc1FvNGVvMnpCMVNSaVR0YWwwbm96R0pCVUdKcUh4bmk2ek9wRnRuaWp1U3M1alBjTDNqcEI4cQ?oc=5"
+        }
+      ],
+      "news_query": "Mary Peltola win Alaska Senate race",
+      "forecast": {
+        "probability": 0.6,
+        "reasoning": "A recent poll has Peltola ahead by 7 points, and Sabato's Crystal Ball moved the race to 'leans Democrat.' High fuel prices are hurting the incumbent party. Alaska still leans Republican, and polling there has historically been unreliable."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-11T01:50:25Z",
+        "crowd": 0.725,
+        "best_bid": 0.72,
+        "best_ask": 0.73,
+        "volume": 770937,
+        "liquidity": 197775,
+        "fee_rate": 0.04
+      },
+      "bet_note": "No cash left for new bets; it's all in open bets."
+    },
+    {
+      "market_id": "4469396",
+      "event_id": "1005013",
+      "event_title": "September Inflation US - Annual",
+      "option": "3.6%",
+      "question": "Will annual inflation be 3.6% in September?",
+      "rules": "This is a market about inflation over the 12-month period ending September 2026, before seasonal adjustment, as reported by the Bureau of Labor Statistics.\n\nThis market will resolve to the percentage change in the Consumer Price Index (CPI) over the 12-month period ending in September 2026 according to the monthly Bureau of Labor Statistics (BLS) report.\n\nThe resolution source for this market will be the BLS Consumer Price Index report released for September 2026 (https://www.bls.gov/bls/news-release/cpi.htm), currently scheduled to be released on October 14, 2026, at 8:30 AM ET. Resolution of this market will take place upon release of the aforementioned data.\n\nNote: the resolution source for this market will be the official monthly BLS CPI news release, which reports inflation over 12-month periods to only one decimal point (e.g., 2.9%). Thus, this is the level of precision that will be used when resolving the market.\n\nIf the BLS does not release the relevant figures on the scheduled date, this market may remain open up until the scheduled release time of the next CPI report (https://www.bls.gov/schedule). If the information is not released by that time, this market will resolve according to the figures of the most recent previous month with available data.",
+      "topic": "Economy",
+      "end_date": "2026-10-15T03:59:00Z",
+      "url": "https://polymarket.com/event/september-inflation-us-annual",
+      "snapshot": {
+        "time": "2026-10-11T01:48:19Z",
+        "crowd": 0.405,
+        "best_bid": 0.39,
+        "best_ask": 0.42,
+        "volume": 32681,
+        "liquidity": 8845,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "Philippine annual inflation at 7.2% in September",
+          "source": "Reuters",
+          "published": "2026-10-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQM0F6OEVoYTNBemw2MEFUQkFpWm01OFVkLTJfeWhvZkx2NjZCbDc5bXhURHMyZ2xxYUNMcVB5RERSZC0xS0RsVnZtbHY3UXJtTHozR2F4bXhLeWl4enREa0E0dTZ3ZXZEcW9oSHNRdE5TeE5SRTFfNU5qTU5ablVucUFIbHA1eTJPdklpQXFObzF5SDdMWFAxNFBBbw?oc=5"
+        },
+        {
+          "title": "Jobs report today: Hiring worse than expected in June amid elevated inflation",
+          "source": "ABC7 Eyewitness News",
+          "published": "2026-10-08",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqglBVV95cUxNbUFIejBYdXk2VUNjWGxXWlpRSUtfTjh1all5b1FmSnZOOHNvd2wta1Jyc3hBVmFYM3Z6WFhyZk1obmRhSkNpcjRCTG5hbUZPSTZmWnBlYmxYRkM1TUNhVWtDdExxNnRZVXZuVmhzQXloRi1GUlhBNUNXdjdGWW93ZVUxMDdtb2Q0eEFQS0ZSSVhBVnBUUTFCNnV3c1NkaG9oNDI1THduVmVLY2ttSlRLSExITlhieXpNN05vOW9oSWlrRG9wR2tVVTYzNmJwU2xNUjdUUUJ3U1F3aVVtU3pfcTlCWmpPWXF5alpZWGhESTZhUnphc2pwMmdJTmhJdmlJSm9EdkFiLU1WOU4zdjAycEVfYUFGSUZUcEtBWHdrd21RczRJendCQWJRMUNSVE5VbFlKUHJTREFGYWQzckVsM0xDOTlDYzljSzJNUUo3bU5aa2lTeWtIVVBhRFktQUJWcnFNTGdZTzk0RTRVRlJtcmgwZl9fSnljYmtJNzRmQXZGY2dHUU1TY0JLcWs1Q1JZa2dVbHYxU295cTc5Tmpfbi1tWHgtdXNmTl9GM2ZqblVnRUg4UDFOYmhDU3huMmh0a1RnUlBGVVBLNUl4R0dkc2RsdnVkbURhLVBJZG1YWHF6blh5dXk4dzB3ZHo2bE5ZbXBCV3JLVmFSQ2hjajNORnloNFp0Mnp4MXR3MVQtcHpJbWx6NHJSdmpkb244aGlubndsZWNKTGRCdHBNREZuS290Y3IxelFzLWRfanRicUU5c1A0cnNuRXNLeHNtNFhaTUVFTVY4WlZ4TUNFSmZpQkowTklRX2oxQ3NWMnpUV0RHem42c1U1T1ktRHh4X3dDNTRLbVNXVVdQYTNjd1Y4Zjl0LVlLbzJIOGM1TWZtaktXZzFFeWp5eC10UGR0ODRwelQ5bHVtdWtLM0lOT3EyUEtZUnZITTZDU3NaS0VMbGUzRW1vTG1raHFBZkVYTWsyVjlreW54OElmOEhROHd6V0RDWXFfbWhGZ3EwdnBuek1WV2pSNkJkMWI1cXRqOERDaVVOU1ZrMlRCR0VFeDhEZ091UDBBUVJLdjZiam4zVXByU3BrbFhtaVNBbWxFQnlSUnN4dG9UYkZNRjhWczhjNExXaXk1emlLU25ZVDBqNGczTVVPRk5VaVlMYlR5ZlZJcVpFTW9VSExuU1lNMFhycWhCZUlnU2RYbC12RGdlbUswZzVVNGlvdE4zZU5uUzdBUWlySlFvNUVTOEdjQWZuM0N1dzJLaGRtOHBEeXR5SnJXdGpxcng2WFlETnJ3YktWekRzYmllbnRrS3c0bS1UZEdLZWprWnpLSDhXZXpWTWY1cXk3dEt3ekxZX2w5ZDlmRzVTYnA1ajNYOTlUcGFtSXcxMHZrNEFTVlNjQzVaeWFIT2hRYlpLeVBwNWN4WGo4YS1WX1VQSU9YdGo4RW8yQ1ZmZlNHN29LOE83WjBRWVpEaVlQQnRfejNVc1lYWFZiX2pKOHF6Q0pVR3V3ejFJR0VYOFRWT1VZUUNQNE9NSGxZQVNJQl9PczAzZHQ0UW9lWkJUUGRqUHQ3STZiQ0tLUmxrSHRITmthRmc?oc=5"
+        },
+        {
+          "title": "Turkey’s annual inflation slows to 29.7 percent in September",
+          "source": "Turkish Minute",
+          "published": "2026-10-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNaF9EM2dHbHlVLWVvcUp2LUJhZEZiMjJSVnJobFZlZFU0d2t3WEtnRXN4Z0VFQlBpQmxwb2dXeUx4Um1zMWtvdVFnWGNTMk4ycXhhbjJUd3NoZGthVjJJTUpuQTllMGVCN1ZwaDhzZVNPendWSTBRdnRfTjdjdWhrOTBtNmdJOVVkUTdKcm9tZHlqLXVVVng1MEd0VDZxR2p3aVNz0gGoAUFVX3lxTE5DZ2JlU0d2bjQ0WFN2dDIwc0lkaWc4djhkWmtrajk4ZXU5bmxybE04WkVsYXRmbVJxdldvZnFHWk5iNXBBOWs5ZXlzdEZSMGNNbWNwTWhNdDg3c3QyTDVzT3NqckV2Vl9Jbld5X3Q3TFJRVW13MHhqS1E2eGNCRVE3QkhZclVfa0JTN2NUdUNFb1QtaXFadnpLLVh6cEYwZ1FzSjlRdUpTVA?oc=5"
+        },
+        {
+          "title": "Annual inflation in Ukraine rises to 10%",
+          "source": "Yahoo Finance",
+          "published": "2026-10-09",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNLUpnUENILTRBQzVNUVZsLWJETlNIbFlkNDRpZE85b0l0Vm14WDI1Tl9RYkN1Z2w0bXNiaU9MSWNvcXVwZTBuaVVERkJrcS04eTZHT1pyQU1FYnU3N09oQ2l0QkpEbVYtR0xoNllkUVBhQ3NzY0EzUkxyanZLODZCSS15U1kxUnNZb3Z4eXNTRlhyRVl4a1E?oc=5"
+        },
+        {
+          "title": "Eurozone inflation hits its highest level in three years at 3.8% as energy costs soar",
+          "source": "CNBC",
+          "published": "2026-10-02",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1hbWJvUF8zdkxOVi1YdGlFNkRKcTFxdVhZdE1mSmxJbm02S3R1b2NPdndza0ZXUkxtakhxalNWbTZLR2o5TFplemhyQV9DX1VvbXlRSy1IRGUwVmlISG5kM1hFXzEzNEloQzd30gFwQVVfeXFMT2llN05KRDNwbXNoYVd1TzU2UDVLNUhjYzlOWXE3UVI0Rmpzai02eDNWekhsNXh6RjRkRDNiRll4YVdGOFJTVVo4cmJWc25xVUFYVU5wWWZOLXgyTlluR1NtSGtIWUlWUnhZTEd3OFVXWg?oc=5"
+        },
+        {
+          "title": "Turkey’s battle against inflation",
+          "source": "The Economist",
+          "published": "2026-10-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPOUF4bVZZTmdaY2daWEVEWWlSYmctc1p6cEpBMWlaOEZXYjYtdG1kTWgzT1BFUVlhTjVONHpKd1RhVXU0YVh2MFdCbmZsTlQ1NUtxdXJoRENEV3VQVjV4enNCcVNpM25WblQ1NzcwTjQwZmlYNWJZb3QwMWlhcmJQUFlEdW5JTTFyOE5QRm5mT0NDeVpOVmtr?oc=5"
+        }
+      ],
+      "news_query": "annual inflation",
+      "forecast": {
+        "probability": 0.23,
+        "reasoning": "Headlines point to an energy-price shock pushing inflation up, and 3.6% looks like one of the likely readings. However, I don't have the August US figure, so this is one bucket among several plausible values."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-11T01:50:25Z",
+        "crowd": 0.405,
+        "best_bid": 0.39,
+        "best_ask": 0.42,
+        "volume": 32681,
+        "liquidity": 10264,
+        "fee_rate": 0.05
+      },
+      "bet_note": "No cash left for new bets; it's all in open bets."
+    },
+    {
+      "market_id": "4469398",
+      "event_id": "1005013",
+      "event_title": "September Inflation US - Annual",
+      "option": "3.7%",
+      "question": "Will annual inflation be 3.7% in September?",
+      "rules": "This is a market about inflation over the 12-month period ending September 2026, before seasonal adjustment, as reported by the Bureau of Labor Statistics.\n\nThis market will resolve to the percentage change in the Consumer Price Index (CPI) over the 12-month period ending in September 2026 according to the monthly Bureau of Labor Statistics (BLS) report.\n\nThe resolution source for this market will be the BLS Consumer Price Index report released for September 2026 (https://www.bls.gov/bls/news-release/cpi.htm), currently scheduled to be released on October 14, 2026, at 8:30 AM ET. Resolution of this market will take place upon release of the aforementioned data.\n\nNote: the resolution source for this market will be the official monthly BLS CPI news release, which reports inflation over 12-month periods to only one decimal point (e.g., 2.9%). Thus, this is the level of precision that will be used when resolving the market.\n\nIf the BLS does not release the relevant figures on the scheduled date, this market may remain open up until the scheduled release time of the next CPI report (https://www.bls.gov/schedule). If the information is not released by that time, this market will resolve according to the figures of the most recent previous month with available data.",
+      "topic": "Economy",
+      "end_date": "2026-10-15T03:59:00Z",
+      "url": "https://polymarket.com/event/september-inflation-us-annual",
+      "snapshot": {
+        "time": "2026-10-11T01:48:19Z",
+        "crowd": 0.385,
+        "best_bid": 0.38,
+        "best_ask": 0.39,
+        "volume": 19562,
+        "liquidity": 8267,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "Philippine annual inflation at 7.2% in September",
+          "source": "Reuters",
+          "published": "2026-10-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQM0F6OEVoYTNBemw2MEFUQkFpWm01OFVkLTJfeWhvZkx2NjZCbDc5bXhURHMyZ2xxYUNMcVB5RERSZC0xS0RsVnZtbHY3UXJtTHozR2F4bXhLeWl4enREa0E0dTZ3ZXZEcW9oSHNRdE5TeE5SRTFfNU5qTU5ablVucUFIbHA1eTJPdklpQXFObzF5SDdMWFAxNFBBbw?oc=5"
+        },
+        {
+          "title": "Jobs report today: Hiring worse than expected in June amid elevated inflation",
+          "source": "ABC7 Eyewitness News",
+          "published": "2026-10-08",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqglBVV95cUxNbUFIejBYdXk2VUNjWGxXWlpRSUtfTjh1all5b1FmSnZOOHNvd2wta1Jyc3hBVmFYM3Z6WFhyZk1obmRhSkNpcjRCTG5hbUZPSTZmWnBlYmxYRkM1TUNhVWtDdExxNnRZVXZuVmhzQXloRi1GUlhBNUNXdjdGWW93ZVUxMDdtb2Q0eEFQS0ZSSVhBVnBUUTFCNnV3c1NkaG9oNDI1THduVmVLY2ttSlRLSExITlhieXpNN05vOW9oSWlrRG9wR2tVVTYzNmJwU2xNUjdUUUJ3U1F3aVVtU3pfcTlCWmpPWXF5alpZWGhESTZhUnphc2pwMmdJTmhJdmlJSm9EdkFiLU1WOU4zdjAycEVfYUFGSUZUcEtBWHdrd21RczRJendCQWJRMUNSVE5VbFlKUHJTREFGYWQzckVsM0xDOTlDYzljSzJNUUo3bU5aa2lTeWtIVVBhRFktQUJWcnFNTGdZTzk0RTRVRlJtcmgwZl9fSnljYmtJNzRmQXZGY2dHUU1TY0JLcWs1Q1JZa2dVbHYxU295cTc5Tmpfbi1tWHgtdXNmTl9GM2ZqblVnRUg4UDFOYmhDU3huMmh0a1RnUlBGVVBLNUl4R0dkc2RsdnVkbURhLVBJZG1YWHF6blh5dXk4dzB3ZHo2bE5ZbXBCV3JLVmFSQ2hjajNORnloNFp0Mnp4MXR3MVQtcHpJbWx6NHJSdmpkb244aGlubndsZWNKTGRCdHBNREZuS290Y3IxelFzLWRfanRicUU5c1A0cnNuRXNLeHNtNFhaTUVFTVY4WlZ4TUNFSmZpQkowTklRX2oxQ3NWMnpUV0RHem42c1U1T1ktRHh4X3dDNTRLbVNXVVdQYTNjd1Y4Zjl0LVlLbzJIOGM1TWZtaktXZzFFeWp5eC10UGR0ODRwelQ5bHVtdWtLM0lOT3EyUEtZUnZITTZDU3NaS0VMbGUzRW1vTG1raHFBZkVYTWsyVjlreW54OElmOEhROHd6V0RDWXFfbWhGZ3EwdnBuek1WV2pSNkJkMWI1cXRqOERDaVVOU1ZrMlRCR0VFeDhEZ091UDBBUVJLdjZiam4zVXByU3BrbFhtaVNBbWxFQnlSUnN4dG9UYkZNRjhWczhjNExXaXk1emlLU25ZVDBqNGczTVVPRk5VaVlMYlR5ZlZJcVpFTW9VSExuU1lNMFhycWhCZUlnU2RYbC12RGdlbUswZzVVNGlvdE4zZU5uUzdBUWlySlFvNUVTOEdjQWZuM0N1dzJLaGRtOHBEeXR5SnJXdGpxcng2WFlETnJ3YktWekRzYmllbnRrS3c0bS1UZEdLZWprWnpLSDhXZXpWTWY1cXk3dEt3ekxZX2w5ZDlmRzVTYnA1ajNYOTlUcGFtSXcxMHZrNEFTVlNjQzVaeWFIT2hRYlpLeVBwNWN4WGo4YS1WX1VQSU9YdGo4RW8yQ1ZmZlNHN29LOE83WjBRWVpEaVlQQnRfejNVc1lYWFZiX2pKOHF6Q0pVR3V3ejFJR0VYOFRWT1VZUUNQNE9NSGxZQVNJQl9PczAzZHQ0UW9lWkJUUGRqUHQ3STZiQ0tLUmxrSHRITmthRmc?oc=5"
+        },
+        {
+          "title": "Turkey’s annual inflation slows to 29.7 percent in September",
+          "source": "Turkish Minute",
+          "published": "2026-10-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNaF9EM2dHbHlVLWVvcUp2LUJhZEZiMjJSVnJobFZlZFU0d2t3WEtnRXN4Z0VFQlBpQmxwb2dXeUx4Um1zMWtvdVFnWGNTMk4ycXhhbjJUd3NoZGthVjJJTUpuQTllMGVCN1ZwaDhzZVNPendWSTBRdnRfTjdjdWhrOTBtNmdJOVVkUTdKcm9tZHlqLXVVVng1MEd0VDZxR2p3aVNz0gGoAUFVX3lxTE5DZ2JlU0d2bjQ0WFN2dDIwc0lkaWc4djhkWmtrajk4ZXU5bmxybE04WkVsYXRmbVJxdldvZnFHWk5iNXBBOWs5ZXlzdEZSMGNNbWNwTWhNdDg3c3QyTDVzT3NqckV2Vl9Jbld5X3Q3TFJRVW13MHhqS1E2eGNCRVE3QkhZclVfa0JTN2NUdUNFb1QtaXFadnpLLVh6cEYwZ1FzSjlRdUpTVA?oc=5"
+        },
+        {
+          "title": "Annual inflation in Ukraine rises to 10%",
+          "source": "Yahoo Finance",
+          "published": "2026-10-09",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNLUpnUENILTRBQzVNUVZsLWJETlNIbFlkNDRpZE85b0l0Vm14WDI1Tl9RYkN1Z2w0bXNiaU9MSWNvcXVwZTBuaVVERkJrcS04eTZHT1pyQU1FYnU3N09oQ2l0QkpEbVYtR0xoNllkUVBhQ3NzY0EzUkxyanZLODZCSS15U1kxUnNZb3Z4eXNTRlhyRVl4a1E?oc=5"
+        },
+        {
+          "title": "Eurozone inflation hits its highest level in three years at 3.8% as energy costs soar",
+          "source": "CNBC",
+          "published": "2026-10-02",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1hbWJvUF8zdkxOVi1YdGlFNkRKcTFxdVhZdE1mSmxJbm02S3R1b2NPdndza0ZXUkxtakhxalNWbTZLR2o5TFplemhyQV9DX1VvbXlRSy1IRGUwVmlISG5kM1hFXzEzNEloQzd30gFwQVVfeXFMT2llN05KRDNwbXNoYVd1TzU2UDVLNUhjYzlOWXE3UVI0Rmpzai02eDNWekhsNXh6RjRkRDNiRll4YVdGOFJTVVo4cmJWc25xVUFYVU5wWWZOLXgyTlluR1NtSGtIWUlWUnhZTEd3OFVXWg?oc=5"
+        },
+        {
+          "title": "Turkey’s battle against inflation",
+          "source": "The Economist",
+          "published": "2026-10-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPOUF4bVZZTmdaY2daWEVEWWlSYmctc1p6cEpBMWlaOEZXYjYtdG1kTWgzT1BFUVlhTjVONHpKd1RhVXU0YVh2MFdCbmZsTlQ1NUtxdXJoRENEV3VQVjV4enNCcVNpM25WblQ1NzcwTjQwZmlYNWJZb3QwMWlhcmJQUFlEdW5JTTFyOE5QRm5mT0NDeVpOVmtr?oc=5"
+        }
+      ],
+      "news_query": "annual inflation",
+      "forecast": {
+        "probability": 0.22,
+        "reasoning": "The reasoning is the same as for 3.6%: 3.7% is plausible given elevated energy prices. Without recent US CPI data, I spread the probability across neighbouring outcomes."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-11T01:50:26Z",
+        "crowd": 0.385,
+        "best_bid": 0.38,
+        "best_ask": 0.39,
+        "volume": 19562,
+        "liquidity": 8267,
+        "fee_rate": 0.05
+      },
+      "bet_note": "No cash left for new bets; it's all in open bets."
+    },
+    {
+      "market_id": "3900397",
+      "event_id": "774067",
+      "event_title": "Situational Awareness raises new capital by...?",
+      "option": "October 31",
+      "question": "Situational Awareness raises new capital by October 31?",
+      "rules": "This market will resolve to \"Yes\" if Situational Awareness or Situational Awareness LP announces, or a consensus of credible reporting confirms, that it has received new outside investor capital by October 31, 2026, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nCapital from existing investors and capital from new investors will both qualify. Capital contributed by Situational Awareness, its principals, or its employees will not qualify.\n\nOnly capital actually contributed will qualify. Announcements of plans to raise, soft commitments, and signed subscriptions not yet funded will not qualify.\n\nThe resolution sources for this market will be official information from Situational Awareness, and a consensus of credible reporting.",
+      "topic": "Tech",
+      "end_date": "2026-11-01T03:59:00Z",
+      "url": "https://polymarket.com/event/situational-awareness-raises-new-capital-by-august-31-20260730182353379",
+      "snapshot": {
+        "time": "2026-10-11T01:48:19Z",
+        "crowd": 0.1,
+        "best_bid": 0.09,
+        "best_ask": 0.11,
+        "volume": 26911,
+        "liquidity": 5283,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "Situational Awareness hedge fund collapse reveals record leverage",
+          "source": "Quartz",
+          "published": "2026-09-30",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNaU94dzYtWWxnWXZmTDNmYnRfUEFtNUY4YWYyaC1rSEhVOEpWTS03RkNSZy00d0lGaF9qczB6cXFkamd0RG5TU0FWNXdEWFNkUzJjQU1vbmNIREhCbGRsZ3piVHVYd2hzM2hHdm9xZFJad19RaER2UFpxd2w2WHJsNVBkZEZLbXVa?oc=5"
+        },
+        {
+          "title": "MU, NVDA, ORCL, NBIS: AI Stocks In Focus As Situational Awareness Reportedly Seeks Fresh Investment After July Rout",
+          "source": "Stocktwits",
+          "published": "2026-10-09",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQVlR3NmN0VWhyVE9xNE12RWhqX2dQN0E2MGU3LWNRU1BIYVZnWDJndnhnUm83WmNvbkY0M0dGclo1NXE1N3FLV1gydjJBUl9CdTdETW4yOWhKODk3aVBvbjZtZXd4RHk1bU5wcldyWURfRlBjVkd6NzdxYU80ekUyNm1GVFN1VW15TWx5Wkpxa2JhZWRvRUZPeV9RRlZ2RTJZLXBic25SRDNESFJNN3oxenhldDg0QWpHcVotSmVvLWZHdmFoUWVZeW43clB6c1hfZTRRWFpIbzNRak9zRDFwVGRSdTFZTzBHdUZ4SkxaT191OWQ0aHlYUTRaVzdNbEppcV9tbGl3?oc=5"
+        },
+        {
+          "title": "Situational Awareness Exposes Big Banks Face Hedge Fund Debt Blind Spot",
+          "source": "Forbes",
+          "published": "2026-10-01",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQdVczZFhQZ3lZLVJZX3QtcWJZN2FoZW9QQ2NBa2xwdEd0OFdzcGpSakFxazgtaXBxN2FIZjZiRkRXUWJvODFsRTdvRGFWNjlzeEdlRnJmdVRiZTc0YkMzR1l2NzJJc2tCYjE5T255UnY4aFphMlFuVkVBSEJWdDhwckF1QWpWMjB5LTg0QkV4LXduMEE3WWhOSWpULWY0eUhBd1NtSGJMR3ZoLWJZckJfQWZ5UHRTUnJBbVBSWFY2bVZocUwxdDBMN2JlSWVsVTdSU1pR?oc=5"
+        }
+      ],
+      "news_query": "Situational Awareness raises capital",
+      "forecast": {
+        "probability": 0.15,
+        "reasoning": "The fund suffered a severe July rout and is only reported to be seeking new investment. The rules require capital actually contributed and publicly confirmed by October 31, which is a high bar over a short window."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-11T01:50:26Z",
+        "crowd": 0.1,
+        "best_bid": 0.09,
+        "best_ask": 0.11,
+        "volume": 26911,
+        "liquidity": 5283,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Gap vs. the price we'd pay is 4.0 points, under the 10-point minimum."
+    },
+    {
+      "market_id": "5371237",
+      "event_id": "1142093",
+      "event_title": "Nobel Economics Prize Winner 2026",
+      "option": "Susan Athey",
+      "question": "Will Susan Athey win the Nobel Prize in Economics in 2026?",
+      "rules": "The Nobel Prize in Economics is awarded annually by the Royal Swedish Academy of Sciences. The 2026 Nobel Prize in Economics is scheduled to be announced on October 12, 2026, at 11:45 AM CEST (5:45 AM ET) at the earliest.\n\nThe Nobel Prize in Economics means the Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel.\n\nThis market will resolve to \"Yes\" if the listed person is named a laureate of the 2026 Nobel Prize in Economics in the official announcement from the Royal Swedish Academy of Sciences. Otherwise, this market will resolve to \"No\".\n\nThe prize may be shared by up to three laureates. A listed person who shares the 2026 Nobel Prize in Economics will resolve to \"Yes\" regardless of how many other laureates are named alongside them.\n\nIf the 2026 Nobel Prize in Economics is withheld, is reserved for a later year, or has otherwise not been announced by December 31, 2026, 11:59 PM ET, this market will resolve to \"No\".\n\nThe primary resolution source for this market will be the official announcement from the Royal Swedish Academy of Sciences, published at https://www.nobelprize.org/; however, a consensus of credible reporting may also be used.",
+      "topic": "Entertainment",
+      "end_date": "2026-10-13T03:59:00Z",
+      "url": "https://polymarket.com/event/nobel-economics-prize-winner-2026",
+      "snapshot": {
+        "time": "2026-10-11T01:48:19Z",
+        "crowd": 0.105,
+        "best_bid": 0.1,
+        "best_ask": 0.11,
+        "volume": 13863,
+        "liquidity": 4721,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "Who will win the 2026 Nobel Prize in economics? : Planet Money",
+          "source": "NPR",
+          "published": "2026-10-07",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPOFp1MUNTSjZaR0xCc0tGTkJFRzdqdDUxOXlGWUFwajZKQ0ZlSVM1R2N1YnI1N21hNFB0X2hlaW93ejNfbHNtVU1ES3FSLUtTWGU0TXRMUjlZdU9ZRkV6dUpuY3ZQbldKRXdGeVVRZ2FROE9wRWxkS3Nyb1duaFhGWnQ3OUFYb2k3SmFVZ052clRNNzQ2STVyakNrZlhCMmRaMVBYZVNlbjJNUWJnMS1rNw?oc=5"
+        }
+      ],
+      "news_query": "Susan Athey win Nobel Prize Economics | Nobel Economics Prize Winner Susan Athey",
+      "forecast": {
+        "probability": 0.05,
+        "reasoning": "Athey is a perennial candidate in market design and machine-learning econometrics. However, any single named candidate has a low chance of winning in a given year."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-11T01:50:26Z",
+        "crowd": 0.105,
+        "best_bid": 0.1,
+        "best_ask": 0.11,
+        "volume": 13863,
+        "liquidity": 4727,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Gap vs. the price we'd pay is 5.0 points, under the 10-point minimum."
+    }
+  ],
+  "batch_id": "msgbatch_01Upp39x76i1TFECxt5yjAef",
+  "forecast_at": "2026-10-11T01:50:25Z",
+  "usage": {
+    "input_tokens": 6431,
+    "output_tokens": 1892
+  },
+  "cost_usd": 0.0318,
+  "budget": 0.0
+}
