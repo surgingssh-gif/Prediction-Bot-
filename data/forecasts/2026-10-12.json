@@ -1,0 +1,442 @@
+{
+  "run_id": "2026-10-12",
+  "date": "2026-10-12",
+  "created_at": "2026-10-12T02:17:45Z",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "phase": "1.1",
+  "pick_stats": {
+    "eligible": {
+      "Economy": 10,
+      "Politics": 99,
+      "Tech": 1
+    },
+    "picked": 6
+  },
+  "questions": [
+    {
+      "market_id": "5568259",
+      "event_id": "1171733",
+      "event_title": "Who wins the Senate pending Hormuz Agreement by Oct 23?",
+      "option": "No Hormuz Agreement",
+      "question": "Will there be no Hormuz agreement?",
+      "rules": "This market will resolve to \"Hormuz Agreement; R Senate\" if a Hormuz Agreement is announced by October 23, 2026, 11:59 PM ET, and the Republican Party wins control of the United States Senate in the 2026 United States midterm election.\n\nThis market will resolve to \"Hormuz Agreement; D Senate\" if a Hormuz Agreement is announced by October 23, 2026, 11:59 PM ET, and the Democratic Party wins control of the United States Senate in the 2026 United States midterm election.\n\nThis market will resolve to \"No Hormuz Agreement\" immediately if a Hormuz Agreement is not announced by October 23, 2026, 11:59 PM ET.\n\nHormuz Agreement: A \"Hormuz Agreement\" will be considered to have occurred if a diplomatic agreement between the United States and Iran over traffic in the Strait of Hormuz is announced by October 23, 2026, 11:59 PM ET.\n\nA diplomatic agreement refers to an official agreement, treaty, deal, or substantially similar diplomatic instrument that establishes agreed actions, policies, obligations, or commitments between the United States and Iran.\n\nA qualifying diplomatic agreement must establish Iranian policies, obligations, or commitments aimed at permitting, restoring, or increasing vessel or shipping traffic through the Strait of Hormuz.\n\nAll listed countries must announce their acceptance of the same qualifying diplomatic agreement for the Hormuz Agreement component to be met. A joint announcement will qualify, as will separate announcements from each entity of its own acceptance of an agreement which, taken together, directly indicate that all the listed countries accepted the same agreement. Separate announcements of individual policies will not qualify if the policies are not announced as part of a diplomatic agreement.\n\nEach announcement must be a declarative statement that clearly and unambiguously communicates acceptance of an agreement. Statements that reference ongoing negotiations or a prospective agreement, or that allude to or express support for an agreement without confirming acceptance of the agreement, do not qualify. A qualifying announcement need not reference the agreement by name or use specific terminology, provided it clearly communicates acceptance of an agreement.\n\nWhether announcements from the listed countries represent a diplomatic agreement and whether such an agreement qualifies will be primarily determined through the announcements themselves. Where an announcement is made by all listed countries but, based on the announcements, it remains ambiguous whether the announcements represent a qualifying diplomatic agreement between the countries, the Hormuz Agreement component will remain undetermined until either i) definitive confirmation that the announcements represent a qualifying diplomatic agreement between the listed entities is achieved through further announcements from the listed countries or a consensus of credible reporting or ii) 14 calendar days (ET) have passed after the date that the last country made their first potentially qualifying announcement. If, at the end of the fourteenth calendar day, no definitive confirmation has been achieved, the Hormuz Agreement component will be determined based on the totality of information available from the resolution sources at that time. No single statement, denial, or presentation of evidence will govern where it is contradicted by the totality of information.\n\nThe resolution sources for the Hormuz Agreement component will be official information from the governments of the United States and Iran and a consensus of credible reporting.\n\nSenate: A party wins control of the United States Senate if it wins a majority of the chamber’s voting seats. If no party wins a majority of voting seats, the party that wins control of the chamber is the party that wins half of the voting seats and holds the Vice Presidency. If the outcome remains ambiguous after applying the above criteria, the chamber will be deemed controlled by the party with which the first selected President Pro Tempore of the Congress that convenes after the specified election is affiliated.\n\nThe following rules govern the counting of seats for determining which party wins control of the chamber.\n\nAll regular and special Senate elections that determine representation in the upcoming 120th Congress and are scheduled to take place in November 2026 as of October 31, 2026 are included. Runoffs for qualifying elections will determine attribution of the relevant seat, even if they take place after November 2026. Vacant seats for which no election or special election to fill the seat is scheduled to take place in November 2026 as of October 31, 2026 will be treated as held by the party affiliation of the most recent member to hold that seat.\n\nFor seats contested in the specified election, seats are attributed to the party under which the member was elected. If a member-elect changes party affiliation, or vacates their seat, between election day and the formal organization of Congress, the seat is attributed to the party under which the member was elected.\n\nFor seats not contested in the specified election, seats are attributed to the party that holds the seat as of the date of the election. If a current sitting member of the U.S. Senate who is not up for election changes party affiliation or vacates their seat after the date of the election, the seat is attributed to the party under which the member was affiliated at the time of the election.\n\nSenate members elected as independents who formally caucus with, or, for newly elected members, who announce their intent to caucus with, a party are included in that party’s count. If the caucus decisions of members of the Senate elected as independents cannot be determined on the date of the election, this market may remain open until the earlier of (i) an announcement from the relevant members of their intents to caucus, or (ii) January 4th, 11:59 PM ET of the following calendar year. If no such announcement is made by January 4th, 11:59 PM ET of the following calendar year, the member will not count towards the seat count of any party.\n\nThe resolution sources for the Senate component will be official information from relevant state electoral authorities, the United States Congress, and a consensus of credible reporting.",
+      "topic": "Politics",
+      "end_date": "2026-11-04T04:59:00Z",
+      "url": "https://polymarket.com/event/who-wins-the-senate-pending-hormuz-agreement",
+      "snapshot": {
+        "time": "2026-10-12T02:17:42Z",
+        "crowd": 0.8885,
+        "best_bid": 0.888,
+        "best_ask": 0.889,
+        "volume": 210078,
+        "liquidity": 480790,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "Escaping the Hormuz trap: What should an agreement to reopen the Strait look like?",
+          "source": "Chatham House",
+          "published": "2026-09-30",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQbWdDWFZJVEx6ZG0taDhwaUVuNmtmLTJGbG9wbWNRTkhBX3VZaUhvX0h1NWdockN4a25ZOHE3M1FjQjZtSERTdkRkX1psbXk1OFVHNWlwbEkyT3ppUGNyanZBUUJxWndXbnA0T0NCbE5WQnR1ajVoZDh2dUpnYk9wSnFtdU1CNjlLYi1ibXhSclJBaXlmUDBUT0RyRE5RZG8?oc=5"
+        },
+        {
+          "title": "Iran says Strait of Hormuz will not reopen until conditions are met",
+          "source": "Reuters",
+          "published": "2026-10-04",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNUEhSM2E2MkI0TDU0LXVLZl9GLWY5d3FoTU1PdS1ON0xUV1NNQ3FnUlZGRFhOYkVHTVp5RDFaN3pxZ1pVeVNJdTdhemxsNkdRaHJBTWNtRDEwWjg2cnlKb3F5VmpEN25tTHNmV2hLTnFkc1IxSEhLVGplNTJJSnBXMDFmOUN1V3NpRmxoVnJkcmRxd1hmbzBRTHZjd05rWlhUbDBfQmFCZWRkS0pHUTJNa041QlRtSkd5YUE?oc=5"
+        },
+        {
+          "title": "Hormuz reopening no longer hinges on a US-Iran deal",
+          "source": "Kpler",
+          "published": "2026-10-01",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNN1JDVjEyV1ZEdURZaGJ4dTRZbGZWem1MY055dG40ZHJOVDJuLV9PTlBfeDNTdV8tWEZDWmd2MHdLVGtELTVZN0FhSXd0anRLT1BSNERQc2JhVTlPbWtTaU1CMVlXSU9Jai1ZQW1mcGN3R0pKNlNkb1ozajlIbkxZX05XQmpMTVZMQU1NcE0wakNzQQ?oc=5"
+        },
+        {
+          "title": "Hormuz and Yemen: Iran offers de-escalation at a price others will pay",
+          "source": "Al Jazeera",
+          "published": "2026-09-29",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPN2lMdHRwRTV3WEtTMEhFSVA1S2hqYlpzUHZaV3hjTmpHZnNaOEVBR3NZTEp3Wmc4eDBWaVNPa0xsMDZrbmlxWnlVUGh0TWJ3VG52dWlzakw1NDlVQml1V2pKNlh5akNuSnhMNEphOTVLZGtxTGN6RWRBUDIzOXBUakJ0UDVBU1JLcExjaDNvRko3TGNDcm52ZzhScG85NFVuQUlPSGpwZVNRR1Z1eEVaMU1weEbSAboBQVVfeXFMTkRJcEV1S0Ric2Q3TXlOSlc4TGlTS1ZBalhYamV4QXNKMG5MZ0FwOGhHS0owbDB3NDRDOGJrdktGdkk0cTM3Z2F1RGRKVC13U3ZtTzA1U1dEUVNRaDd1X0RGTi00V2FzbmZtbm9hb0JURUV0bW5mOEN1ZFFoUjdDNE5WRHJ6bVpaX19JOTRIdEtybW5wZlRmdlZDV2NqUGw2Z3lfOUxmbHkwZjdhblFNa1FIWUFIZ0tiWWpB?oc=5"
+        },
+        {
+          "title": "Why Trump rejected Iran’s Hormuz deal but kept the negotiating channel open",
+          "source": "Arab News",
+          "published": "2026-09-29",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPaml2Y2tBaTYtTEgyZzY5bkNaLVYxSTdsVzhrcE42d05uWTBwaHJOWVRkR3VUT3NOcmpSX0t5ZTk1Wkx3RzlNa0J5MWZrWGU5XzBBM2s0eXd6QXRPNzctRGRwTmNYcWMtYXpZeWVBQ1RIaW8yRGhsaVY4TmJTVUl6Umw2UndYS0lBZ2NkRUg3UFRFNi1HUWFZbUdpcHplZkhSVkRTVmV1RFNVZktaTXIxNmd1Q2hMNXNGTmg0?oc=5"
+        },
+        {
+          "title": "Iran reaches agreement with Oman on safe shipping routes in Strait of Hormuz",
+          "source": "VOV World",
+          "published": "2026-10-09",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbEdQb281OU1QTmx4ODExT213WTM5V2UwRGlmVHRMam5fZ1pycjhGdE50bmVYRktiekpIeFJTUXVKMnJlbGgyWGZ5WFJBbklDUFc5bjVhWW01dlFBNzRxVmtxU2h4MzM0RURjV3pHOTVnMUJmOUpPZ3d5NjNIRV9FbnBJcVVFZUhNQkF0Q0I1aTA3bUlZRFRyWHFUWDhqUXMxVEl2VnVaQ2JHa1BtVzJNbjZ1WFY?oc=5"
+        }
+      ],
+      "news_query": "Hormuz agreement",
+      "forecast": {
+        "probability": 0.92,
+        "reasoning": "Only about 11 days remain before the October 23 deadline. Recent reporting shows Trump rejected Iran's Hormuz offer, and Iran says the strait will not reopen until its conditions are met. Iran's shipping arrangement with Oman does not count, because the rules require a US-Iran agreement that both sides announce. A formal deal in such a short window looks unlikely, though the negotiating channel remains open."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-12T02:19:47Z",
+        "crowd": 0.8885,
+        "best_bid": 0.888,
+        "best_ask": 0.889,
+        "volume": 210078,
+        "liquidity": 478549,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Gap vs. the price we'd pay is 3.1 points, under the 10-point minimum."
+    },
+    {
+      "market_id": "5568258",
+      "event_id": "1171733",
+      "event_title": "Who wins the Senate pending Hormuz Agreement by Oct 23?",
+      "option": "Hormuz Agreement; D Senate",
+      "question": "Will there be a Hormuz agreement and the Democrats win the Senate?",
+      "rules": "This market will resolve to \"Hormuz Agreement; R Senate\" if a Hormuz Agreement is announced by October 23, 2026, 11:59 PM ET, and the Republican Party wins control of the United States Senate in the 2026 United States midterm election.\n\nThis market will resolve to \"Hormuz Agreement; D Senate\" if a Hormuz Agreement is announced by October 23, 2026, 11:59 PM ET, and the Democratic Party wins control of the United States Senate in the 2026 United States midterm election.\n\nThis market will resolve to \"No Hormuz Agreement\" immediately if a Hormuz Agreement is not announced by October 23, 2026, 11:59 PM ET.\n\nHormuz Agreement: A \"Hormuz Agreement\" will be considered to have occurred if a diplomatic agreement between the United States and Iran over traffic in the Strait of Hormuz is announced by October 23, 2026, 11:59 PM ET.\n\nA diplomatic agreement refers to an official agreement, treaty, deal, or substantially similar diplomatic instrument that establishes agreed actions, policies, obligations, or commitments between the United States and Iran.\n\nA qualifying diplomatic agreement must establish Iranian policies, obligations, or commitments aimed at permitting, restoring, or increasing vessel or shipping traffic through the Strait of Hormuz.\n\nAll listed countries must announce their acceptance of the same qualifying diplomatic agreement for the Hormuz Agreement component to be met. A joint announcement will qualify, as will separate announcements from each entity of its own acceptance of an agreement which, taken together, directly indicate that all the listed countries accepted the same agreement. Separate announcements of individual policies will not qualify if the policies are not announced as part of a diplomatic agreement.\n\nEach announcement must be a declarative statement that clearly and unambiguously communicates acceptance of an agreement. Statements that reference ongoing negotiations or a prospective agreement, or that allude to or express support for an agreement without confirming acceptance of the agreement, do not qualify. A qualifying announcement need not reference the agreement by name or use specific terminology, provided it clearly communicates acceptance of an agreement.\n\nWhether announcements from the listed countries represent a diplomatic agreement and whether such an agreement qualifies will be primarily determined through the announcements themselves. Where an announcement is made by all listed countries but, based on the announcements, it remains ambiguous whether the announcements represent a qualifying diplomatic agreement between the countries, the Hormuz Agreement component will remain undetermined until either i) definitive confirmation that the announcements represent a qualifying diplomatic agreement between the listed entities is achieved through further announcements from the listed countries or a consensus of credible reporting or ii) 14 calendar days (ET) have passed after the date that the last country made their first potentially qualifying announcement. If, at the end of the fourteenth calendar day, no definitive confirmation has been achieved, the Hormuz Agreement component will be determined based on the totality of information available from the resolution sources at that time. No single statement, denial, or presentation of evidence will govern where it is contradicted by the totality of information.\n\nThe resolution sources for the Hormuz Agreement component will be official information from the governments of the United States and Iran and a consensus of credible reporting.\n\nSenate: A party wins control of the United States Senate if it wins a majority of the chamber’s voting seats. If no party wins a majority of voting seats, the party that wins control of the chamber is the party that wins half of the voting seats and holds the Vice Presidency. If the outcome remains ambiguous after applying the above criteria, the chamber will be deemed controlled by the party with which the first selected President Pro Tempore of the Congress that convenes after the specified election is affiliated.\n\nThe following rules govern the counting of seats for determining which party wins control of the chamber.\n\nAll regular and special Senate elections that determine representation in the upcoming 120th Congress and are scheduled to take place in November 2026 as of October 31, 2026 are included. Runoffs for qualifying elections will determine attribution of the relevant seat, even if they take place after November 2026. Vacant seats for which no election or special election to fill the seat is scheduled to take place in November 2026 as of October 31, 2026 will be treated as held by the party affiliation of the most recent member to hold that seat.\n\nFor seats contested in the specified election, seats are attributed to the party under which the member was elected. If a member-elect changes party affiliation, or vacates their seat, between election day and the formal organization of Congress, the seat is attributed to the party under which the member was elected.\n\nFor seats not contested in the specified election, seats are attributed to the party that holds the seat as of the date of the election. If a current sitting member of the U.S. Senate who is not up for election changes party affiliation or vacates their seat after the date of the election, the seat is attributed to the party under which the member was affiliated at the time of the election.\n\nSenate members elected as independents who formally caucus with, or, for newly elected members, who announce their intent to caucus with, a party are included in that party’s count. If the caucus decisions of members of the Senate elected as independents cannot be determined on the date of the election, this market may remain open until the earlier of (i) an announcement from the relevant members of their intents to caucus, or (ii) January 4th, 11:59 PM ET of the following calendar year. If no such announcement is made by January 4th, 11:59 PM ET of the following calendar year, the member will not count towards the seat count of any party.\n\nThe resolution sources for the Senate component will be official information from relevant state electoral authorities, the United States Congress, and a consensus of credible reporting.",
+      "topic": "Politics",
+      "end_date": "2026-11-04T04:59:00Z",
+      "url": "https://polymarket.com/event/who-wins-the-senate-pending-hormuz-agreement",
+      "snapshot": {
+        "time": "2026-10-12T02:17:42Z",
+        "crowd": 0.0655,
+        "best_bid": 0.063,
+        "best_ask": 0.068,
+        "volume": 146323,
+        "liquidity": 472640,
+        "fee_rate": 0.04
+      },
+      "news": [],
+      "news_query": "Hormuz agreement Democrats win Senate | wins Senate pending Hormuz Agreement",
+      "forecast": {
+        "probability": 0.04,
+        "reasoning": "This needs both a US-Iran Hormuz deal by October 23 (about 8%) and a Democratic Senate win (roughly 40-50%). Multiplying the two gives a small joint probability."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-12T02:19:47Z",
+        "crowd": 0.0655,
+        "best_bid": 0.063,
+        "best_ask": 0.068,
+        "volume": 146323,
+        "liquidity": 457106,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Gap vs. the price we'd pay is 2.3 points, under the 10-point minimum."
+    },
+    {
+      "market_id": "5523557",
+      "event_id": "1053896",
+      "event_title": "US-Yemen ceasefire continues through...?",
+      "option": "October 15",
+      "question": "US x Yemen ceasefire continues through October 15?",
+      "rules": "This market will resolve to “No” if the United States takes a qualifying military action against Yemen by the specified date, 11:59 PM Yemen Standard Time. Otherwise this market will resolve to “Yes.”\n\nA qualifying military action refers to an air strike or a surface-to-surface missile strike, initiated by the United States, that directly impacts Yemen. An air strike includes bombs, air-to-surface missiles, and air-launched drones. A surface-to-surface missile strike includes one-way attack drones and surface-to-surface missiles such as cruise or ballistic missiles.\n\nThe qualifying military action must be carried out by the armed forces of the United States. Actions carried out by private military contractors, mercenaries, or proxy forces will not qualify. Where a qualifying action is carried out in the course of a coalition or multinational operation, it will qualify only if the armed forces of the United States directly conducted the strike.\n\nThe following actions do not constitute a qualifying military action:\nMunitions destroyed or intercepted before impact;\nSurface-to-air missile strikes;\nSmall-arms fire;\nGround incursions;\nCyber operations;\nNaval gunfire and artillery fire;\nHowitzers, artillery pieces, mortars, and rocket artillery (e.g. MLRS systems);\nMinor surface-to-surface strikes, including short range loitering munitions, FPV drones, and ATGM strikes;\nAny threat, authorization, or announcement of force that has not been executed.\n\nAny munition that is intercepted or destroyed before impact does not constitute a qualifying military action. Debris, fragments, or any wreckage from intercepted munitions that land on Yemen do not constitute a military action regardless of any damage incurred.\n\n“Yemen” refers to the terrestrial territory of Yemen, including its internal waters. Yemen’s maritime territory and airspace are not encompassed. Where territorial borders are disputed, all territory claimed by and under the de facto control of Yemen as of market creation will qualify.\n\nThe occurrence, attribution, and timing of a qualifying military action will be primarily determined based on a consensus of information available from the resolution sources. Where multiple sources conflict regarding the occurrence, attribution, or timing of a relevant military action, this market will remain open until the earlier of: i) the confirmation of the occurrence, attribution, and timing of the action based on a consensus of information available from the resolution sources or ii) 3 full calendar days (Yemen Standard Time) from the date of the first credibly reported evidence of the action. If this period would extend past the end date, this market will remain open to allow for 3 full calendar days to pass. At the end of the third calendar day, if conflicting reports remain, the incident will be adjudicated based on the totality of information available from the resolution sources at that time. No single statement, denial, or presentation of evidence will govern where it is contradicted by the totality of information.\n\nThe resolution sources for this market will be official information from the governments and militaries of the United States and Yemen and a consensus of credible reporting.",
+      "topic": "Politics",
+      "end_date": "2026-10-15T23:59:00Z",
+      "url": "https://polymarket.com/event/us-yemen-ceasefire-continues-throughptptpt",
+      "snapshot": {
+        "time": "2026-10-12T02:17:42Z",
+        "crowd": 0.915,
+        "best_bid": 0.91,
+        "best_ask": 0.92,
+        "volume": 87705,
+        "liquidity": 488256,
+        "fee_rate": 0.0
+      },
+      "news": [
+        {
+          "title": "Iran-backed Houthis deny losing ground in Yemen as oil prices ease despite fierce fighting",
+          "source": "CBS News",
+          "published": "2026-10-07",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQczhsWnBDYVFqOGRhcWt5dS1WUy01WWZyWjV0UEIxVTZwUVV0RlBlcnpwbnhhRHVEZG83dE5HS05LWUxKWWR2MG9oWDVNQzE1aElqVkN3Tzc4Mjl4ZTQtTmNJVXMyTWVESmJ5MEJIZ2RWME13WGszcEhmUENQUmdLdEkxRXJ1TWszcnZiUklfblBaVVQ1RVRWUDRXS3BfQ1BhTlhHSA?oc=5"
+        },
+        {
+          "title": "How a series of miscalculations restarted Saudi Arabia’s war in Yemen",
+          "source": "CNN",
+          "published": "2026-10-10",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPLWxtMDIyVGd1V1hEUFJRd01YMVF6a2cxNEVjM2xxX2xkNndkT3Q4NF9sX2JNckZ2VjZnbWVwMWNCN0xjYTNsaTNnTzRJWnlwYnk2M1N2REpfQl85V1JvSWNDVGdKTkdGSFJaQVE4UlNiQ3lLWGc5SU5DN0hHSktmc05WbWY?oc=5"
+        },
+        {
+          "title": "Has Yemen returned to ‘full-scale war’?",
+          "source": "Al Jazeera",
+          "published": "2026-10-10",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOM2l0eVRNdUNWT1pVd1VMNWRrUVVzQUxJTkV3YnVjeHMtRzd4NFVPYUd2ZlJwZW5tUXNkaWM1RkpJLWFjWC1Vdjh4eVQ3eUhLbGxqMGZ2dkVGcnd0MGhXSzg5RjNkQ2x6YVNDdk9CSmxscmtqdVNhT1l6QnJIS1NqR3ZxUmHSAYoBQVVfeXFMUEs0MXBLamNrT25Ed01xSExUaEh5X0l1NzlJbXZJVGcwUE16MEZuTm8ySTE2cHlMYXZnbC11bFdST21VZjQ2U0ppUW9PLU9mXy15NHhFbTF1ZnlJRmd5RG9CVDhCRWtKeDNHN01kT2hVellqQmp4cGI5Q0RMZWh5WWJGR3BJdUQ4cGd3?oc=5"
+        },
+        {
+          "title": "Yemen fighting expands as Houthis attack Saudi airport again: What to know",
+          "source": "Al Jazeera",
+          "published": "2026-10-11",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMDVTS1ZGSF8wX1ZNRk8wdUFmVFd5SmkyNWlkZmktVFRNNUxqSWxwUF8tT01GN2d0RzNtWmxSY0Y5aHJ1YlBWWHB3cjh4OXRjczc0UlNtWlJFc3JpUzlPMkZTS0laSDVOakFxZTVpNVZ0U19JUi03RTVvWVZGVlY0U0JUcDlPODJMZ1paTW9VUUp2M3VaSUFKVl91TENySDVHYXQ0RVQ0SlBEWUlTOUHSAbMBQVVfeXFMTVRZSG13RHl2RzVyQWtTSE9pb09YdldWYXcwSXBBOXRDeERqRGdwQXZFd2NfS2tjY0NxbDJwbTgybXFHeldfOHBaeVo5RGNRVnBsOXRya3JTTHc4T0RYS09BdGIydkFpMHlKX056NDhLc2w3a1o0ZHJzQkdRamtfMmZyQjB4MWktOEZqVXRfRXhfNWVwQVdwSUozemRzemkwR2puUmxBRFVDSHZBQXFZeUVIRDA?oc=5"
+        },
+        {
+          "title": "‘We Are with You’: Yemen Vows Support for Gaza Resistance in Any New Escalation",
+          "source": "Palestine Chronicle",
+          "published": "2026-10-07",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMUFnTURPYVM4U3N4c09HYy1oVHp2SlRRTTk3VDlKdHBZYzBGQXZlREVHa29vak5Fd3ZnM0pKWkpiTXpWMVpZTnY2aWNfQ2xTWF9kNkk2YmRFS1J2bWl3TDBrVDRIMTM4bW1tTXNpU20xcjZ2SmZhdklyVjEyd0VCSEd2eWhVOHBldGtIS256TWpTamN1WVVnVU13aWJPVHhKemRPWDF1Z0FiWWpuTmE1aW1n?oc=5"
+        },
+        {
+          "title": "Pakistan confirms it has troops in Saudi as conflict with Yemen’s Houthi rebels escalates",
+          "source": "Yahoo News Singapore",
+          "published": "2026-10-08",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOSDFEaXVtcEJUWDVIMmszMWNBajVKeDk4NjEzRGlSbThIYzhlOEp5ckVRYktMNFlpQ3MwRDMyRWI2YWNWQTExNGdSMkxwTG5RbzM4bHBLcUtBckljUjZiUTBadGhaRVhRaDNEdVoxQnEyYW1yNFlHZHg0OUxnZEdqaA?oc=5"
+        }
+      ],
+      "news_query": "US Yemen ceasefire continues through",
+      "forecast": {
+        "probability": 0.88,
+        "reasoning": "The window is only about three days. The renewed fighting in Yemen is mainly a Saudi-Houthi war, and the headlines show no direct US strikes. Escalation risk is elevated, so I don't put this near certainty, but the status quo of no US strikes is likely to hold."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-12T02:19:47Z",
+        "crowd": 0.915,
+        "best_bid": 0.91,
+        "best_ask": 0.92,
+        "volume": 87705,
+        "liquidity": 483803,
+        "fee_rate": 0.0
+      },
+      "bet_note": "Gap vs. the price we'd pay is 3.0 points, under the 10-point minimum."
+    },
+    {
+      "market_id": "4469523",
+      "event_id": "1005015",
+      "event_title": "Core CPI MoM - September 2026",
+      "option": "0.3%",
+      "question": "Will Core CPI MoM be 0.3% in September?",
+      "rules": "This is a market about the one-month percent change in the Consumer Price Index for All Urban Consumers excluding food and energy in September 2026 as reported by the Bureau of Labor Statistics.\n\nThis market will resolve to the one-month percentage change in the Consumer Price Index for All Urban Consumers excluding food and energy (Core CPI-U) in September 2026 according to the monthly Bureau of Labor Statistics (BLS) report (seasonally adjusted change from the preceding month).\n\nThe resolution source for this market will be the BLS Consumer Price Index report released for September 2026 (https://www.bls.gov/bls/news-release/cpi.htm), currently scheduled to be released on October 14, 2026, at 8:30 AM ET. Resolution of this market will take place upon release of the aforementioned data.\n\nNote: the resolution source for this market will be the official monthly BLS CPI news release, which reports core inflation (all items less food and energy) over 1-month periods to only one decimal point (e.g., 0.3%). Thus, this is the level of precision that will be used when resolving the market. For the avoidance of doubt, this market resolves on the core CPI figure (the all items index excluding food and energy), not the headline all items CPI figure.\n\nIf the BLS does not release the relevant figures on the scheduled date, this market may remain open up until the scheduled release time of the next CPI report (https://www.bls.gov/schedule). If the information is not released by that time, this market will resolve according to the figures of the most recent previous month with available data.",
+      "topic": "Economy",
+      "end_date": "2026-10-15T03:59:00Z",
+      "url": "https://polymarket.com/event/core-cpi-mom-september-2026",
+      "snapshot": {
+        "time": "2026-10-12T02:17:42Z",
+        "crowd": 0.335,
+        "best_bid": 0.33,
+        "best_ask": 0.34,
+        "volume": 13981,
+        "liquidity": 3691,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "The Decisive Impact of Next Week's U.S. CPI Data: Will the Fed Skip an October Rate Hike?",
+          "source": "深潮TechFlow",
+          "published": "2026-10-10",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE90anBUbUZTd29UZkpxdXlfYk0yTXVCZ3E5M1YwTmFKdDNUbHBaaEZKVVAwbmtfYU1ENHNPYnlRMWh6LXhKSkY1QVNqNGlCbG84NXJvRHZrX183RDMx?oc=5"
+        },
+        {
+          "title": "Inflationary Spike Unfolding - September CPI Report Preview",
+          "source": "Seeking Alpha",
+          "published": "2026-10-09",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZUx1OHVha1Zhd295WEdFcmlyVjhmYmdzQVpFNTc5UFAyMG15OGlRVG8wQ0tfUnBIWm54NHM1NzBJQUFucWdjVXNHcUZfZWsxUm5jemFKVGFUazM5MERwMmx4U1otZmxYWFRYcFZxYk1UWURoY3BJVENCUGR3emFHQ01qN0djR1VWQXc1X3hOeXNrN3BDWkRzWnozMFhCbFU?oc=5"
+        },
+        {
+          "title": "CPI Report: Annual Inflation Rate Comes In At 3.4% In July, In Line With Expectations As Energy Prices Ease",
+          "source": "Stocktwits",
+          "published": "2026-10-10",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNdFJ2VVJORkN1S1JaOUwtd3JfNVAxZmJDNjBZYTVucEpodURGTVVHb0NQQU5fV1Q4V0xoZVFJRnNWM2N5a1ZfYnV2TG5NOXBVUFJBQzNKel9rTGdKRTc4REVNRHE4YjJpbW91eG45VlpwNy0xMEJKeVB2MzlSOXBMamNxbkZUdXhFMTEyRXczYmMteGZoRzJPeklrUnlBSzRvTTdKX3JROFFpZw?oc=5"
+        },
+        {
+          "title": "CPI Week, Bank Earnings, 10Y Above 5%",
+          "source": "Moomoo",
+          "published": "2026-10-12",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPeEZrNlBaTm9ES2w3cWxEbHQtTXBvVU1QV2FnRWFhX3FGTVkwT2dNSDFfR2JFdGNiVml5a1A1cEMtRy1kTVZ3N0RKTjRGd1kzWnk0VUZrRlFQSkhqejJVWnljR3Jld09wSTBEbWZaRmsyMWhWOF85VWNiNnVSXzV2RFFQLUo3MUJZMm93UW9SaG54QQ?oc=5"
+        },
+        {
+          "title": "Equities to end week positive despite higher oil. Next week is a big week with Sept CPI (Wed) and Fed Warsh speaking (Fri)",
+          "source": "Fundstrat Direct",
+          "published": "2026-10-09",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPVkZUWFFFS0ttbDZYbUJhUkV5N0hxLVp6cWMyNlRhMThRdXEyNTBqdElzeXdNa1ZXNTVxZFMwZWNySTl1amVxZjJHcVExZFMxNkFGMlZXR3VLNDZ3a0pfcko4RkZnbUJNNm5NY0JTSGo3OFo5WWc3VHN0bWNOa3p0clF5NG9zT1JkQUhoc09uczNZRnlmeWFtaERZTm14cU9EYVJ5N3MySnVNUFUzV3Yxd3NmUzV6OENsMXd2R3FXRkxoRFlmeGtocUdaR0RCQWdWOW9ralpBYWQ?oc=5"
+        },
+        {
+          "title": "CPI Report: Annual Inflation Rate Comes In At 3.5% In June, Lower Than Expected As Energy Prices Ease",
+          "source": "Stocktwits",
+          "published": "2026-10-09",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNc0NxVkRlY2VMOVdDdDFmZmYwSFNnWWJSTXBuNmM5ZXlMVHhrcXpJbmJyYkwwVFFfX2s3OS1ENTBISnJqWUxQR185aTg0Vi1OYlhFLTN6V1g4STV1X1N6TmFxT3ljQ2tXTE1UckNBYlNfM2tNelYtREhpMXVDWUxiTkZjVVNfSG5PUDhwR09WLUFqYjU5MDl5RjRJMmF6eUtxcmtWOGJpc0lBQQ?oc=5"
+        }
+      ],
+      "news_query": "Core CPI MoM",
+      "forecast": {
+        "probability": 0.38,
+        "reasoning": "Inflation is running hot, with headline CPI around 3.4-3.5% and talk of possible Fed rate hikes. Previews describe an 'inflationary spike', which makes a 0.3% core reading the single most likely outcome. There is still substantial chance of 0.4% or 0.2%."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-12T02:19:47Z",
+        "crowd": 0.335,
+        "best_bid": 0.33,
+        "best_ask": 0.34,
+        "volume": 13981,
+        "liquidity": 3804,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Gap vs. the price we'd pay is 4.0 points, under the 10-point minimum."
+    },
+    {
+      "market_id": "5166819",
+      "event_id": "1111175",
+      "event_title": "Avg. # of ships transiting Bab el-Mandeb Strait end of October?",
+      "option": "25-29",
+      "question": "Will there be between 25 and 29 average daily transits of the Bab el-Mandeb Strait on October 31?",
+      "rules": "This market will resolve according to the 7-day moving average of transit calls (“Arrivals of Ships”) for the Bab el-Mandeb Strait that IMF Portwatch reports for October 31, 2026.\n\nTransit calls include container, dry bulk, roll-on/roll-off, general cargo, and tanker ships. Ships not reported by IMF Portwatch will not be considered.\n\nThis market will resolve as soon as the relevant data has been published. If the relevant data is not published within 14 calendar days of the specified date, this market will resolve based on the most recent data published up to that point.\n\nIn case of obvious data integrity issues (i.e., erroneous data), the market may remain open until the end of the third calendar day (ET) after the date on which such data is first released to allow for corrections. Data integrity issues refer only to clerical or other similar errors in the underlying data, and do not include cases where IMF Portwatch differs from alternative sources.\n\nThe resolution source for this market will be IMF Portwatch, specifically the transit calls data published for the Bab El-Mandeb Strait at https://portwatch.imf.org/pages/6b1814d64903461b98144a6cc25eb79c, both in the chart and through downloadable files. Where an unrounded and rounded value provided by the resolution source differ with respect to the resolution of this market, the unrounded value will be used.",
+      "topic": "Economy",
+      "end_date": "2026-11-01T03:59:00Z",
+      "url": "https://polymarket.com/event/avgpt-of-ships-transiting-bab-el-mandeb-strait-end-of-october",
+      "snapshot": {
+        "time": "2026-10-12T02:17:42Z",
+        "crowd": 0.515,
+        "best_bid": 0.5,
+        "best_ask": 0.53,
+        "volume": 14138,
+        "liquidity": 23350,
+        "fee_rate": 0.0
+      },
+      "news": [
+        {
+          "title": "Yemeni troops retake key areas near Bab el-Mandeb from Houthis",
+          "source": "Daily Sabah",
+          "published": "2026-10-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQd2dIODRwSmZkWEtCRE5FZDJQZkRHRTFXMFNwNl96SnUxQm9jYUh3S2lONldNSDdPSTYzblJ2WGs4S3NuMzJKbUMzOUxtclBMQkNkdmhKWUZETUFGREI2Rmt0N1F6ejA3RkRVeng5MXB0WVZjTklKem9HUVB6eDB5OGw4SGQ2X2l2RDNfa09Rd1ZHMURNcnVDR3htZEZ2X052bjlsbU1SVQ?oc=5"
+        },
+        {
+          "title": "Both Shores of the Bab el-Mandeb Are Now at War",
+          "source": "Modern Diplomacy",
+          "published": "2026-10-04",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRFVsaldDNmFUWDVYcVBTQndoQTcwVHNNMDVBY1RhSTVuaVl0bkxlV04zQnJYSlQ4UmstUkdlUXJOWGpUcWFmQ0k1di1QT1NPSm00SmJBWE8xNndVTjZER0lTT0wzWm1SY1RhRVgyMG84OXRfLU1VOUg4enlpbXZnMWU1RTlkRkdTTUJPdmdURzNETHlvSnpHbGhHaDVsZC1m?oc=5"
+        },
+        {
+          "title": "Hormuz crossings drop 22.7% amid tanker attacks; Bab el-Mandeb stable",
+          "source": "Data Portuaria",
+          "published": "2026-10-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQdVBWNnFGdXBjM1hBaGVmeXBjNngzcWdBUnpZdUJfQXlfaV9lM2hhMmczbGR2bzBsdlAwbjhycWc5eEZWNFA4MFdBUFd0SGZSMS0tdnlKeHRNMjRacDhWNm9JdmNHUm12SGt1ZDNwcU9fRzJ3T014dnJUaldYdHl3TUxBVk9xX1V0NmRZbUtIbkRBa3NoSUlvN2ZWVGZxTUpHQlFjZmhOREhNZldENVBmaHRtVWswblVsSDJvaFFXakpwRnBt?oc=5"
+        }
+      ],
+      "news_query": "average daily transits Bab el-Mandeb Strait",
+      "forecast": {
+        "probability": 0.2,
+        "reasoning": "Bab el-Mandeb traffic was recently reported as 'stable', likely around the 30s per day after the Houthi disruptions. Saudi oil diverted from Hormuz to Red Sea ports could push the count higher. The new war on both shores could push it lower, and that uncertainty makes a narrow 25-29 band only moderately likely."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-12T02:19:48Z",
+        "crowd": 0.53,
+        "best_bid": 0.52,
+        "best_ask": 0.54,
+        "volume": 14138,
+        "liquidity": 23578,
+        "fee_rate": 0.0
+      },
+      "bet_note": "No cash left for new bets; it's all in open bets."
+    },
+    {
+      "market_id": "4469522",
+      "event_id": "1005015",
+      "event_title": "Core CPI MoM - September 2026",
+      "option": "0.2%",
+      "question": "Will Core CPI MoM be 0.2% in September?",
+      "rules": "This is a market about the one-month percent change in the Consumer Price Index for All Urban Consumers excluding food and energy in September 2026 as reported by the Bureau of Labor Statistics.\n\nThis market will resolve to the one-month percentage change in the Consumer Price Index for All Urban Consumers excluding food and energy (Core CPI-U) in September 2026 according to the monthly Bureau of Labor Statistics (BLS) report (seasonally adjusted change from the preceding month).\n\nThe resolution source for this market will be the BLS Consumer Price Index report released for September 2026 (https://www.bls.gov/bls/news-release/cpi.htm), currently scheduled to be released on October 14, 2026, at 8:30 AM ET. Resolution of this market will take place upon release of the aforementioned data.\n\nNote: the resolution source for this market will be the official monthly BLS CPI news release, which reports core inflation (all items less food and energy) over 1-month periods to only one decimal point (e.g., 0.3%). Thus, this is the level of precision that will be used when resolving the market. For the avoidance of doubt, this market resolves on the core CPI figure (the all items index excluding food and energy), not the headline all items CPI figure.\n\nIf the BLS does not release the relevant figures on the scheduled date, this market may remain open up until the scheduled release time of the next CPI report (https://www.bls.gov/schedule). If the information is not released by that time, this market will resolve according to the figures of the most recent previous month with available data.",
+      "topic": "Economy",
+      "end_date": "2026-10-15T03:59:00Z",
+      "url": "https://polymarket.com/event/core-cpi-mom-september-2026",
+      "snapshot": {
+        "time": "2026-10-12T02:17:42Z",
+        "crowd": 0.49,
+        "best_bid": 0.48,
+        "best_ask": 0.5,
+        "volume": 15574,
+        "liquidity": 3699,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "The Decisive Impact of Next Week's U.S. CPI Data: Will the Fed Skip an October Rate Hike?",
+          "source": "深潮TechFlow",
+          "published": "2026-10-10",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE90anBUbUZTd29UZkpxdXlfYk0yTXVCZ3E5M1YwTmFKdDNUbHBaaEZKVVAwbmtfYU1ENHNPYnlRMWh6LXhKSkY1QVNqNGlCbG84NXJvRHZrX183RDMx?oc=5"
+        },
+        {
+          "title": "Inflationary Spike Unfolding - September CPI Report Preview",
+          "source": "Seeking Alpha",
+          "published": "2026-10-09",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZUx1OHVha1Zhd295WEdFcmlyVjhmYmdzQVpFNTc5UFAyMG15OGlRVG8wQ0tfUnBIWm54NHM1NzBJQUFucWdjVXNHcUZfZWsxUm5jemFKVGFUazM5MERwMmx4U1otZmxYWFRYcFZxYk1UWURoY3BJVENCUGR3emFHQ01qN0djR1VWQXc1X3hOeXNrN3BDWkRzWnozMFhCbFU?oc=5"
+        },
+        {
+          "title": "CPI Report: Annual Inflation Rate Comes In At 3.4% In July, In Line With Expectations As Energy Prices Ease",
+          "source": "Stocktwits",
+          "published": "2026-10-10",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNdFJ2VVJORkN1S1JaOUwtd3JfNVAxZmJDNjBZYTVucEpodURGTVVHb0NQQU5fV1Q4V0xoZVFJRnNWM2N5a1ZfYnV2TG5NOXBVUFJBQzNKel9rTGdKRTc4REVNRHE4YjJpbW91eG45VlpwNy0xMEJKeVB2MzlSOXBMamNxbkZUdXhFMTEyRXczYmMteGZoRzJPeklrUnlBSzRvTTdKX3JROFFpZw?oc=5"
+        },
+        {
+          "title": "CPI Week, Bank Earnings, 10Y Above 5%",
+          "source": "Moomoo",
+          "published": "2026-10-12",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPeEZrNlBaTm9ES2w3cWxEbHQtTXBvVU1QV2FnRWFhX3FGTVkwT2dNSDFfR2JFdGNiVml5a1A1cEMtRy1kTVZ3N0RKTjRGd1kzWnk0VUZrRlFQSkhqejJVWnljR3Jld09wSTBEbWZaRmsyMWhWOF85VWNiNnVSXzV2RFFQLUo3MUJZMm93UW9SaG54QQ?oc=5"
+        },
+        {
+          "title": "Equities to end week positive despite higher oil. Next week is a big week with Sept CPI (Wed) and Fed Warsh speaking (Fri)",
+          "source": "Fundstrat Direct",
+          "published": "2026-10-09",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPVkZUWFFFS0ttbDZYbUJhUkV5N0hxLVp6cWMyNlRhMThRdXEyNTBqdElzeXdNa1ZXNTVxZFMwZWNySTl1amVxZjJHcVExZFMxNkFGMlZXR3VLNDZ3a0pfcko4RkZnbUJNNm5NY0JTSGo3OFo5WWc3VHN0bWNOa3p0clF5NG9zT1JkQUhoc09uczNZRnlmeWFtaERZTm14cU9EYVJ5N3MySnVNUFUzV3Yxd3NmUzV6OENsMXd2R3FXRkxoRFlmeGtocUdaR0RCQWdWOW9ralpBYWQ?oc=5"
+        },
+        {
+          "title": "CPI Report: Annual Inflation Rate Comes In At 3.5% In June, Lower Than Expected As Energy Prices Ease",
+          "source": "Stocktwits",
+          "published": "2026-10-09",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNc0NxVkRlY2VMOVdDdDFmZmYwSFNnWWJSTXBuNmM5ZXlMVHhrcXpJbmJyYkwwVFFfX2s3OS1ENTBISnJqWUxQR185aTg0Vi1OYlhFLTN6V1g4STV1X1N6TmFxT3ljQ2tXTE1UckNBYlNfM2tNelYtREhpMXVDWUxiTkZjVVNfSG5PUDhwR09WLUFqYjU5MDl5RjRJMmF6eUtxcmtWOGJpc0lBQQ?oc=5"
+        }
+      ],
+      "news_query": "Core CPI MoM",
+      "forecast": {
+        "probability": 0.22,
+        "reasoning": "Given broad inflation pressures and the hot-inflation preview, a soft 0.2% core reading is less likely than 0.3% or 0.4%. It remains plausible, because monthly core prints often swing by a tenth of a point."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-12T02:19:48Z",
+        "crowd": 0.49,
+        "best_bid": 0.48,
+        "best_ask": 0.5,
+        "volume": 15574,
+        "liquidity": 3712,
+        "fee_rate": 0.05
+      },
+      "bet_note": "No cash left for new bets; it's all in open bets."
+    }
+  ],
+  "batch_id": "msgbatch_01LfWVwewyLfxbbnYvWpWWtk",
+  "forecast_at": "2026-10-12T02:19:47Z",
+  "usage": {
+    "input_tokens": 8830,
+    "output_tokens": 1330
+  },
+  "cost_usd": 0.031,
+  "budget": 0.0
+}
