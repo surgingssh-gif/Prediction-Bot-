@@ -1,0 +1,506 @@
+{
+  "run_id": "2026-10-13",
+  "date": "2026-10-13",
+  "created_at": "2026-10-13T01:58:08Z",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "phase": "1.1",
+  "pick_stats": {
+    "eligible": {
+      "Economy": 7,
+      "Politics": 122,
+      "Tech": 3
+    },
+    "picked": 6
+  },
+  "questions": [
+    {
+      "market_id": "2757891",
+      "event_id": "655483",
+      "event_title": "Next Prime Minister of Serbia?",
+      "option": "Aleksandar Vučić",
+      "question": "Will Aleksandar Vučić be the next Prime Minister of Serbia?",
+      "rules": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Serbia by June 30, 2028, 11:59 PM ET.\n\nTo count for resolution, the individual must be elected by the National Assembly and be formally sworn-in, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who is not elected by the National Assembly will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by June 30, 2028, 11:59 PM ET, this market will resolve to “Other”.\n\nThis market will resolve based on a consensus of credible reporting. If there is ambiguity, this market will resolve solely based on official information from the Serbian government.",
+      "topic": "Politics",
+      "end_date": "2026-10-25T23:59:00Z",
+      "url": "https://polymarket.com/event/next-prime-minister-of-serbia-20260629223938642",
+      "snapshot": {
+        "time": "2026-10-13T01:58:06Z",
+        "crowd": 0.701,
+        "best_bid": 0.7,
+        "best_ask": 0.702,
+        "volume": 727789,
+        "liquidity": 134109,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "Serbian populist leader Vucic launches campaign for prime minister",
+          "source": "Al Jazeera",
+          "published": "2026-10-04",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVm9VZWxqZXBibExNU0NJcEJmSmZuYkZRX2dZRjE0OFdUN2hINkxGOVlBdmlHTERHMG0yX3Z4aDVxUnVzOTUxZUtwVGRqcmZpZ3l2dGlaUzJHVnMyRVEwcWFwUVI5UU4yQkVHMzIteHFGNVpsRzczVGZ1WFB6YVJOb1RJS0xjbDhwbkRUQTUtOWxLcjhmc0JKd2tCZzJNSTFOMzNUUjhZOE9BVVnSAbABQVVfeXFMT2txQmx4VWl1bEhqMTlKaG9hRWRMbk5FVk1hSkdfY2hzdE42eWxuNWo1OTEwOWFLSWFBaGpQMWptZ1gyX2tjVVhWTVRSVzVrRHZJcXEwdGdTNzhjUGhkLUg0N181S2VhY1NtS2pfU3BBVG1NRk1SSVBXZW1fM3B6WnBGMzkxc3JSMUNyNXVneTNWM0lqVEFKMnJNRWhCMXdOVzE1RkFORlQwYWVRRXpMTjM?oc=5"
+        },
+        {
+          "title": "Thousands pack arena in Belgrade as Serbia’s leader Vucic launches prime minister bid",
+          "source": "AP News",
+          "published": "2026-10-03",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNcWpLVHF1Tjl2bWtVUEtOQm94M0dkRFpkNWZZOEpSWktmbjNPWjlpU08tdTdCd0JpcmpSTFVpMFVQVzF1aGJzUk9ZdWFaa242ZS01MGJkV2Fwa296dlBfRzRuMXlLRDA0SmxQa3laUzgzVGxBNXBSRFRPdkY4WW9MSTU1d2p3U1hHejlKTk5GMERVX1pESjZDV1lQTVBjdkNCS3Bnag?oc=5"
+        },
+        {
+          "title": "Thousands pack arena in Belgrade as Serbia's leader Vucic launches prime minister bid",
+          "source": "Bozeman Daily Chronicle",
+          "published": "2026-10-03",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxOZ20zaHFqUU5qcGxZTGhkOUFHTlBzUWVBN0JmSDVTdU90QWZaWGNnVlEyXzNQQUFlTG1HYnYxbXFqM0xBUUlEV3lvNElHeEpVSWF6MkdzYzM3QjExX2tPY0RNLWZGanhsemx0VjNtSlhZNzE3TkFFTF9yZWlWaE9PNWFyN2UtcjE3bUM2eE1rY2lNd1RzVlFMTGxtN1FENTdrRWhhZHI0SUd6Z0lrX2FFTExGT1NqN3BzZE9idXZNMF9TcXl0VjZ6emNsMHk2THRjTzVNMGJ6bjZJdHczbDVEUkRiNlJDTWdKRnkzbm1mbHk1M0h4VWpkaXpDSmNjZVdGSDNWZ3N1RFpLSXA3WkVhZ3ZUcHc?oc=5"
+        },
+        {
+          "title": "Vucic Resigns to Run for Prime Minister as Serbia’s Energy Deadlines Loom",
+          "source": "Geopolitical Monitor",
+          "published": "2026-10-02",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1VN3RIYTM3dGxpSnA3QURCc0tmaDdNcVRId1dKMjZ6LXVFRldJRWJ6M19GRVlpclFQb0JObDRrQlRTUmc1dnRCV0pZb1FOenFCVDYxdjFFQ2JibmUwZ3dNV2I1QjJVMDlkNXlFcHNRQjVJUE8zY0hIX3phcw?oc=5"
+        },
+        {
+          "title": "Serbia’s president has resigned – but intends to remain in control",
+          "source": "The Conversation",
+          "published": "2026-10-01",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPTUdJUHBEaUN3Q3hiLVBkUlpQWGRCQmVnMjVSaDNGWmJFSDB6V1EyUEFINjZmd0Jxd1ZKLTVTaFJpMFdKM0tMQ3BpMmJCZTJkalQ0aU9iQXJjc0RQWmdoVXBSQ3FuWkl0WGpscGRoQURQdThZOWVBM0xrUF9VQUk2dkwwbVlHVXhQa04wVGxESS1RM0w4d20xYkdyX1lUWE0?oc=5"
+        },
+        {
+          "title": "US Lawmakers Target Serbia's Democratic Backsliding, Ties To Russia, China, Iran",
+          "source": "Radio Free Europe/Radio Liberty",
+          "published": "2026-10-03",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQUnVIdy1zaXhfaUQxaDl2cDhWYl9DbjJCNnY3WjNtLXZtMlliTEN3N2Q1Nml0bXpqdjdiVjNiWkNDc3ZOM0oxdkRXVGl4ZmtQVlJrM1lESVZSMjdHTTVyRk1HWWZLS3B1bklkYVFjVUh3ZUkxSFYyUmQ4WEtoLTNrcHBkdy1VLVFmalN6bG9pczZSVmZkQzd1VjdJeWVKMkdRczZxbTFRUHVlY1pYVlF0ektiZktmZ9IBuAFBVV95cUxPaENiX0RIQmNhVzRlcUxtWUVZMDQyQk9fNDNtX1ZPQ2dURWFtdDViaW8xNmdCUlZxOEhIdGpPUUpiUjFoc3VLQmE1ZGV0c0JiVHkyX3UwcmJFRHpJQkZ4T1NwZVhnVVQzLTZSNmNiTEJabHByZlNob2ZLVERxR2FSQnRZQmtDMDFJdjRBbUcyVjBhRElPcXdXLUZhOE13NlFySnUzaGotNXhsOGRDYjNxcWk5eWZiNmZC?oc=5"
+        }
+      ],
+      "news_query": "Aleksandar Vučić Prime Minister Serbia",
+      "forecast": {
+        "probability": 0.72,
+        "reasoning": "Vučić resigned the presidency specifically to run for prime minister and has launched his campaign. His SNS party remains the dominant force, so if it wins the coming parliamentary election he is the most likely person to be elected PM. The main risks are an opposition or student-list upset amid ongoing protests, or SNS choosing a different figure for the post."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-13T02:00:41Z",
+        "crowd": 0.701,
+        "best_bid": 0.7,
+        "best_ask": 0.702,
+        "volume": 727789,
+        "liquidity": 137065,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Gap vs. the price we'd pay is 1.8 points, under the 10-point minimum."
+    },
+    {
+      "market_id": "4761462",
+      "event_id": "1053896",
+      "event_title": "US-Yemen ceasefire continues through...?",
+      "option": "October 31",
+      "question": "US x Yemen ceasefire continues through October 31?",
+      "rules": "This market will resolve to “No” if the United States takes a qualifying military action against Yemen by the specified date, 11:59 PM Yemen Standard Time. Otherwise this market will resolve to “Yes.”\n\nA qualifying military action refers to an air strike or a surface-to-surface missile strike, initiated by the United States, that directly impacts Yemen. An air strike includes bombs, air-to-surface missiles, and air-launched drones. A surface-to-surface missile strike includes one-way attack drones and surface-to-surface missiles such as cruise or ballistic missiles.\n\nThe qualifying military action must be carried out by the armed forces of the United States. Actions carried out by private military contractors, mercenaries, or proxy forces will not qualify. Where a qualifying action is carried out in the course of a coalition or multinational operation, it will qualify only if the armed forces of the United States directly conducted the strike.\n\nThe following actions do not constitute a qualifying military action:\nMunitions destroyed or intercepted before impact;\nSurface-to-air missile strikes;\nSmall-arms fire;\nGround incursions;\nCyber operations;\nNaval gunfire and artillery fire;\nHowitzers, artillery pieces, mortars, and rocket artillery (e.g. MLRS systems);\nMinor surface-to-surface strikes, including short range loitering munitions, FPV drones, and ATGM strikes;\nAny threat, authorization, or announcement of force that has not been executed.\n\nAny munition that is intercepted or destroyed before impact does not constitute a qualifying military action. Debris, fragments, or any wreckage from intercepted munitions that land on Yemen do not constitute a military action regardless of any damage incurred.\n\n“Yemen” refers to the terrestrial territory of Yemen, including its internal waters. Yemen’s maritime territory and airspace are not encompassed. Where territorial borders are disputed, all territory claimed by and under the de facto control of Yemen as of market creation will qualify.\n\nThe occurrence, attribution, and timing of a qualifying military action will be primarily determined based on a consensus of information available from the resolution sources. Where multiple sources conflict regarding the occurrence, attribution, or timing of a relevant military action, this market will remain open until the earlier of: i) the confirmation of the occurrence, attribution, and timing of the action based on a consensus of information available from the resolution sources or ii) 3 full calendar days (Yemen Standard Time) from the date of the first credibly reported evidence of the action. If this period would extend past the end date, this market will remain open to allow for 3 full calendar days to pass. At the end of the third calendar day, if conflicting reports remain, the incident will be adjudicated based on the totality of information available from the resolution sources at that time. No single statement, denial, or presentation of evidence will govern where it is contradicted by the totality of information.\n\nThe resolution sources for this market will be official information from the governments and militaries of the United States and Yemen and a consensus of credible reporting.",
+      "topic": "Politics",
+      "end_date": "2026-10-31T23:59:00Z",
+      "url": "https://polymarket.com/event/us-yemen-ceasefire-continues-throughptptpt",
+      "snapshot": {
+        "time": "2026-10-13T01:58:06Z",
+        "crowd": 0.795,
+        "best_bid": 0.79,
+        "best_ask": 0.8,
+        "volume": 87060,
+        "liquidity": 81996,
+        "fee_rate": 0.0
+      },
+      "news": [
+        {
+          "title": "Iran-backed Houthis deny losing ground in Yemen as oil prices ease despite fierce fighting",
+          "source": "CBS News",
+          "published": "2026-10-07",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQczhsWnBDYVFqOGRhcWt5dS1WUy01WWZyWjV0UEIxVTZwUVV0RlBlcnpwbnhhRHVEZG83dE5HS05LWUxKWWR2MG9oWDVNQzE1aElqVkN3Tzc4Mjl4ZTQtTmNJVXMyTWVESmJ5MEJIZ2RWME13WGszcEhmUENQUmdLdEkxRXJ1TWszcnZiUklfblBaVVQ1RVRWUDRXS3BfQ1BhTlhHSA?oc=5"
+        },
+        {
+          "title": "Has Yemen returned to ‘full-scale war’?",
+          "source": "Al Jazeera",
+          "published": "2026-10-10",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOM2l0eVRNdUNWT1pVd1VMNWRrUVVzQUxJTkV3YnVjeHMtRzd4NFVPYUd2ZlJwZW5tUXNkaWM1RkpJLWFjWC1Vdjh4eVQ3eUhLbGxqMGZ2dkVGcnd0MGhXSzg5RjNkQ2x6YVNDdk9CSmxscmtqdVNhT1l6QnJIS1NqR3ZxUmHSAYoBQVVfeXFMUEs0MXBLamNrT25Ed01xSExUaEh5X0l1NzlJbXZJVGcwUE16MEZuTm8ySTE2cHlMYXZnbC11bFdST21VZjQ2U0ppUW9PLU9mXy15NHhFbTF1ZnlJRmd5RG9CVDhCRWtKeDNHN01kT2hVellqQmp4cGI5Q0RMZWh5WWJGR3BJdUQ4cGd3?oc=5"
+        },
+        {
+          "title": "Yemen fighting expands as Houthis attack Saudi airport again: What to know",
+          "source": "Al Jazeera",
+          "published": "2026-10-11",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMDVTS1ZGSF8wX1ZNRk8wdUFmVFd5SmkyNWlkZmktVFRNNUxqSWxwUF8tT01GN2d0RzNtWmxSY0Y5aHJ1YlBWWHB3cjh4OXRjczc0UlNtWlJFc3JpUzlPMkZTS0laSDVOakFxZTVpNVZ0U19JUi03RTVvWVZGVlY0U0JUcDlPODJMZ1paTW9VUUp2M3VaSUFKVl91TENySDVHYXQ0RVQ0SlBEWUlTOUHSAbMBQVVfeXFMTVRZSG13RHl2RzVyQWtTSE9pb09YdldWYXcwSXBBOXRDeERqRGdwQXZFd2NfS2tjY0NxbDJwbTgybXFHeldfOHBaeVo5RGNRVnBsOXRya3JTTHc4T0RYS09BdGIydkFpMHlKX056NDhLc2w3a1o0ZHJzQkdRamtfMmZyQjB4MWktOEZqVXRfRXhfNWVwQVdwSUozemRzemkwR2puUmxBRFVDSHZBQXFZeUVIRDA?oc=5"
+        },
+        {
+          "title": "Pakistan confirms it has troops in Saudi as conflict with Yemen’s Houthi rebels escalates",
+          "source": "Yahoo News Singapore",
+          "published": "2026-10-08",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOSDFEaXVtcEJUWDVIMmszMWNBajVKeDk4NjEzRGlSbThIYzhlOEp5ckVRYktMNFlpQ3MwRDMyRWI2YWNWQTExNGdSMkxwTG5RbzM4bHBLcUtBckljUjZiUTBadGhaRVhRaDNEdVoxQnEyYW1yNFlHZHg0OUxnZEdqaA?oc=5"
+        },
+        {
+          "title": "Houthis claim new attack on Riyadh airport as fighting continues in Yemen",
+          "source": "France 24",
+          "published": "2026-10-08",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNUXJhdTFsVHpuVDFtWVRxZlYwTEc0LUZWZERyYUl4Y2tRSGRSRGladXVoOVpkRFBDMi15Mk5hWTdQRnFPVGRMMXZIdVBUSXVKRFRITnBjWGQybEFUQnlleXNFazhiZVFBVGRRak1ZRHIxM2pldDdxSG9fUV8yRUZxalpzS0NsSE9ucnMtbHMtTlFEWFB4TXY2WG92X0RDR0U4LXkzN1VkMy1neElTdGplNGRwRkxTOVk?oc=5"
+        },
+        {
+          "title": "Yemeni gov’t forces say they repel Houthi attacks near Bab el-Mandeb, in Taiz",
+          "source": "Anadolu Ajansı",
+          "published": "2026-10-10",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOaEJOMkhSZFNDMHM1UlZYYmg3a1ZwdkNUTlI1ZGVoS0tfTXhUR2ZUOFBLVTNlcThnVDVxYVlacDRPUmNKSVEwMms3MlhoNUpnMk5DdVlaYXdBVkdKQjlCSG1zUms0dTdSYndZeHMxb0Yyb0Q3Wk9iMjQzM3p5QkxUQ2pNOWlJeW1mSVNELU9WVU1EZkR3aXZmTzJNMm1VazJENGhRNDJ5SjRya0JkTmdNMjNvZHdNWGl1cjZmdUpn?oc=5"
+        }
+      ],
+      "news_query": "US Yemen ceasefire continues through",
+      "forecast": {
+        "probability": 0.22,
+        "reasoning": "The fighting in Yemen has escalated, with the Houthis attacking Saudi airports and Pakistan confirming troops in Saudi Arabia. Still, the headlines show no direct US involvement so far. Occasional US strikes on al-Qaeda targets in Yemen would also count, which adds some risk over the roughly 18-day window. Even so, the status quo of no US strikes is more likely to hold."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-13T02:00:41Z",
+        "crowd": 0.795,
+        "best_bid": 0.79,
+        "best_ask": 0.8,
+        "volume": 87060,
+        "liquidity": 81996,
+        "fee_rate": 0.0
+      },
+      "bet_note": "No cash left for new bets; it's all in open bets."
+    },
+    {
+      "market_id": "5611043",
+      "event_id": "1177812",
+      "event_title": "Who wins the Senate pending oil above or below $80 before the midterms?",
+      "option": "Oil < $80; D Senate",
+      "question": "Will oil be below $80 on November 2 and the Democrats win the Senate?",
+      "rules": "This market will resolve to \"Oil < $80; R Senate\" if oil is less than $80 at the close of trading on November 2, 2026, and the Republican Party wins control of the United States Senate in the 2026 United States midterm election.\n\nThis market will resolve to \"Oil < $80; D Senate\" if oil is less than $80 at the close of trading on November 2, 2026, and the Democratic Party wins control of the United States Senate in the 2026 United States midterm election.\n\nThis market will resolve to \"Oil ≥ $80; R Senate\" if oil is greater than or equal to $80 at the close of trading on November 2, 2026, and the Republican Party wins control of the United States Senate in the 2026 United States midterm election.\n\nThis market will resolve to \"Oil ≥ $80; D Senate\" if oil is greater than or equal to $80 at the close of trading on November 2, 2026, and the Democratic Party wins control of the United States Senate in the 2026 United States midterm election.\n\nOil price: The oil price component will be determined based on the Close price for the Active Month of ICE Futures Europe WTI Crude Futures (denoted by Pyth as \"CLL\") for the November 2, 2026 trading day.\n\nFor a standard full trading session, the closing price refers to the Pyth \"Close\" value of the 1-minute candle corresponding to the final minute of regular trading hours on the primary exchange. Closing prices will be used exactly as published by Pyth, without rounding.\n\nIf the Active Month contract does not trade at all during the relevant trading session, or if the listed date is not a trading day under the applicable trading-hours schedule, the oil price component will be determined based on the Close price for the most recent prior trading day.\n\nFor the purposes of this market, trading days will be determined according to the applicable trading hours schedule for the underlying market (See: \"Trading Hours\" at https://www.ice.com/products/213/WTI-Crude-Futures). The trading session for a given business day typically begins at 8:00 PM ET on the prior calendar date, except for the session dated Monday, which begins at 6:00 PM ET on the preceding Sunday, and where modified by holiday or other special hours (See: https://www.ice.com/holiday-hours).\n\nThe Active Month is the nearest listed contract, except during that contract's final three trading sessions. At the open of the third-to-last trading session, the next listed contract becomes the Active Month.\n\nEach contract's last trading day will be determined by ICE Futures Europe per the WTI Crude Futures contract specification (generally the 4th US business day prior to the 25th calendar day of the month preceding the contract month, or five US business days prior if the 25th calendar day is not a US business day). The last trading day for each contract is posted at https://www.ice.com/products/213/WTI-Crude-Futures/expiry.\n\nFor example, if the last trading session for the nearest listed contract is the session for Monday the 20th, the next listed contract would become the Active Month at the start of the trading session for Thursday the 16th (8:00 PM ET on Wednesday), assuming a standard trading calendar.\n\nIf the specified day has no valid Pyth Close value for the 1-minute candle corresponding to the end of regular trading hours on the primary exchange, the market will use the last valid Pyth price achieved during the regular trading hours of the primary exchange as the effective closing price. If no valid Pyth price exists for that trading day due to a system outage, data failure, or other disruption, the official close price published for the Active Month WTI Crude Oil Futures contract by ICE Futures Europe will be used to determine the closing price for that day (See: https://www.ice.com/report/10 with \"T-West Texas Intermediate Light Sweet Crude Future\" selected).\n\nIn the event of a contract specification change, feed change, or similar structural modification affecting the underlying market during the listed time frame, this market will resolve based on adjusted prices as displayed on Pyth.\n\nThe resolution source for the oil price component will be Pyth, specifically the \"Close\" value for the relevant 1-minute candle for the Active Month WTI Crude Oil Futures contract by ICE Futures Europe available at https://app.pyth.com/explore?search=CLL. Historical 1-minute candles may be accessed by appending a Unix timestamp (seconds) to the Pyth chart URL using the \"t=\" parameter.\n\nSenate: A party wins control of the United States Senate if it wins a majority of the chamber’s voting seats. If no party wins a majority of voting seats, the party that wins control of the chamber is the party that wins half of the voting seats and holds the Vice Presidency. If the outcome remains ambiguous after applying the above criteria, the chamber will be deemed controlled by the party with which the first selected President Pro Tempore of the Congress that convenes after the specified election is affiliated.\n\nThe following rules govern the counting of seats for determining which party wins control of the chamber.\n\nAll regular and special Senate elections that determine representation in the upcoming 120th Congress and are scheduled to take place in November 2026 as of October 31, 2026 are included. Runoffs for qualifying elections will determine attribution of the relevant seat, even if they take place after November 2026. Vacant seats for which no election or special election to fill the seat is scheduled to take place in November 2026 as of October 31, 2026 will be treated as held by the party affiliation of the most recent member to hold that seat.\n\nFor seats contested in the specified election, seats are attributed to the party under which the member was elected. If a member-elect changes party affiliation, or vacates their seat, between election day and the formal organization of Congress, the seat is attributed to the party under which the member was elected.\n\nFor seats not contested in the specified election, seats are attributed to the party that holds the seat as of the date of the election. If a current sitting member of the U.S. Senate who is not up for election changes party affiliation or vacates their seat after the date of the election, the seat is attributed to the party under which the member was affiliated at the time of the election.\n\nSenate members elected as independents who formally caucus with, or, for newly elected members, who announce their intent to caucus with, a party are included in that party’s count. If the caucus decisions of members of the Senate elected as independents cannot be determined on the date of the election, this market may remain open until the earlier of (i) an announcement from the relevant members of their intents to caucus, or (ii) January 4th, 11:59 PM ET of the following calendar year. If no such announcement is made by January 4th, 11:59 PM ET of the following calendar year, the member will not count towards the seat count of any party.\n\nThe resolution sources for the Senate component will be official information from relevant state electoral authorities, the United States Congress, and a consensus of credible reporting.",
+      "topic": "Economy",
+      "end_date": "2026-11-04T04:59:00Z",
+      "url": "https://polymarket.com/event/who-wins-the-senate-pending-oil-above-or-below-80-before-the-midterms",
+      "snapshot": {
+        "time": "2026-10-13T01:58:06Z",
+        "crowd": 0.065,
+        "best_bid": 0.062,
+        "best_ask": 0.068,
+        "volume": 27570,
+        "liquidity": 336149,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "Democrats to probe lucrative Trump family business deals if they win midterms",
+          "source": "Reuters",
+          "published": "2026-09-29",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQbVEyT3VyN0paVEEwS1hrNVlLYk13T2ZKZHB0aGFnRW5HVngtNXI0OGhWVmJCR0o4TXJTRGpfMmFxQ1I4ZkNMQzQ3ZDczd0xQNHhBWHhGZDY5TEQzWmhPTHlHLVlFaGZXTFlNeUt4cjQ0c1V0dkRCSWRMOThJbW9scmVXZTN4MWRiMXpVQTdBZEtZUDU3U2d4NllpT3ZaenpFQXBJMFFVcjRoeFNrSVE4czNjQV8tRjNzVGJHN2FUbUMwM19qNEE?oc=5"
+        },
+        {
+          "title": "Senate Democrats probe former Trump official’s connections to oil company",
+          "source": "Politico",
+          "published": "2026-10-07",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOb0VVZFc3b2JERWJhMUpjYkJQSkl4eHU2NURrSDlxeDZ0TER4VGVkRk1SU0p5S251NVpvWnVHZTY5MnBjc1g3Ulc4V3lFNDJnQS1LOC1JT280Zy1CVTRDSFQxVjVpU3ZfRDhjR0hTTXZqLWxhRE1JM3VCSWpaWXpYTzJGQ2FocVJmQnQwOGFPemhwNUV1czk0LWtIa1FmMjE2TnhMRTVVNTNtd2Y1aHF6LW5vQ2dqci1tWUV4TGcwTQ?oc=5"
+        },
+        {
+          "title": "The staggering cost of winning a Senate seat in 2026",
+          "source": "Axios",
+          "published": "2026-10-08",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1EbXdKUHA0MENFQmlJR0tEN1lnNURCTEUwN2V4NXNBanpsZk5fbXpZX2treE01b0d3QlA4WmpSaHF0ZHkwNEszeHpYZG1PbGFSeTlYVUhOaDJTQ0o1SWo5TzRXV01JZTg3?oc=5"
+        },
+        {
+          "title": "Here’s What Could Happen if Democrats Win in November",
+          "source": "WSJ",
+          "published": "2026-09-29",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNY1VYRnp2dlNnSExUcnNLOE9rY1FfVVlnRjJGTTBoOFowcmhQUmZBWlo2MWt3X21YdjIxNTNOdGVvS2U1SXBnblA3aGhTQ0czbG1wMW5VRjZZc3pSeUd0bVR3OHFxdk85V1B0ODJfYUZtcHh2SGN6QWRaZE9QZXJrT1pqQ1RpNFBJdm04ZzlGWThrUWVOWnc3WktiekhYcmNJYUE?oc=5"
+        },
+        {
+          "title": "Trump could face a new threat in January: A Democratic Senate",
+          "source": "The Washington Post",
+          "published": "2026-10-12",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQVWRBdzkxZmpMOGd4T3V4WWFyRFZ2ajJHaElTWlJoUjdXbW4yNTAxdEVYdF9LR0NnWkFvd0VJVVlxNVB4R2tIYUZJYXZVb0dtcWtHVGx1RnhrX1dCRDVqZTFaTXM3WnJpazBzMGxSSmJ4MkhkUDNoampUNk9fZ1JLejgxZVkwdVJBNjVSWXUtNURiNUpJMEdRREwyeHV2cDc1RndmSHBXdTQ?oc=5"
+        },
+        {
+          "title": "Along U.S. Route 1, Maine voters worry about heating oil, gas and Canadian tariffs",
+          "source": "NPR",
+          "published": "2026-10-01",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQT1AyQUNkcXNHaHgxa2JFSDJ0ZFU2Z0ViVHVPaGxMN2xmNVk4YWJrc3NUM0NOcU1YMFZGQm1QVTczcm01UGRCMkIzbFllNG1iemlILVhUbmw1cUIxNVJIM1RnTjRmQVl2RU1sLUl2SEtnX3lXZ2tpVEp6YlNXSE14eUtDTVVVeF9WYWMzXy1fbnZqRmpv?oc=5"
+        }
+      ],
+      "news_query": "oil Democrats win Senate",
+      "forecast": {
+        "probability": 0.22,
+        "reasoning": "I estimate roughly even odds that WTI closes below $80 on November 2, given elevated but easing prices amid Middle East tensions. I put Democrats winning the Senate at about 43%: the national mood favors them, but they need a net gain of four seats on a tough map. Lower oil prices slightly favor Republicans, which nudges the joint probability down a bit."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-13T02:00:42Z",
+        "crowd": 0.065,
+        "best_bid": 0.062,
+        "best_ask": 0.068,
+        "volume": 27570,
+        "liquidity": 336303,
+        "fee_rate": 0.04
+      },
+      "bet_note": "No cash left for new bets; it's all in open bets."
+    },
+    {
+      "market_id": "5340070",
+      "event_id": "1138953",
+      "event_title": "Brazil Presidential Election Second Round: Margin of Victory",
+      "option": "Flávio Bolsonaro 4-8%",
+      "question": "Will Flávio Bolsonaro win the second round of the 2026 Brazilian presidential election by 4–8%?",
+      "rules": "The second round of the presidential election is scheduled to take place in Brazil on October 25, 2026.\n\nThis market will resolve according to the margin of victory between the top two candidates in the second round of the next Brazil Presidential Election.\n\nFor the purpose of this market, the “margin of victory” is defined as the absolute difference between the percentages of valid votes received by the first- and second-place candidates. Percentages of the valid votes received by each candidate will be determined by dividing the total number of valid votes each of the top two candidates receives by the sum of all valid votes cast in the election.\n\nIf the reported value falls exactly between two brackets, then this market will resolve to the higher range bracket.\n\nIf a candidate other than Flávio Bolsonaro or Luiz Inácio Lula da Silva receives the most valid votes in the second round, or if the top two candidates receive exactly the same number of valid votes, this market will resolve to \"Other\".\n\nThis market will resolve based on the official vote count once the vote count has been made official.\n\nIf a recount is initiated before the vote total has been made official, the market will remain open until the recount is completed and the vote is made official.\n\nIf the result of this election isn't known definitively by June 30, 2027, 11:59 PM ET, the market will resolve to \"Other\".\n\nThis market will resolve based on the result of the election, as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the Brazilian government, specifically the Superior Electoral Court (Tribunal Superior Eleitoral, TSE) (e.g., https://dadosabertos.tse.jus.br/).",
+      "topic": "Politics",
+      "end_date": "2026-10-26T03:59:00Z",
+      "url": "https://polymarket.com/event/brazil-presidential-election-second-round-margin-of-victory",
+      "snapshot": {
+        "time": "2026-10-13T01:58:06Z",
+        "crowd": 0.495,
+        "best_bid": 0.49,
+        "best_ask": 0.5,
+        "volume": 138789,
+        "liquidity": 136473,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "REACTION: Flávio Bolsonaro and Lula Advance to Brazil’s Presidential Runoff",
+          "source": "Americas Quarterly",
+          "published": "2026-10-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNQTJLOVJkVlVJZ3dVOTFzd280dUYtTVpLWWF6c2Jfbm94blBCLW9teF9hR0FzNTVuV2JfM0g1SFUwdWRyZjZORC1UV2NNNllsMGlTLWlxdXVxMDA3bTZ1SjM3c280bTdFVGNXN3V4RHAybzAwdkRIeUlLRjhySXQzZk51d3lHbVpSRmZaLVhoa0RZWTl1el9hdXdVUEg3US1LTVFvNHRkVHhuaDlsQXV1a2lTMVJkZWs?oc=5"
+        },
+        {
+          "title": "Lula shake-ups campaign as Flávio Bolsonaro reaches for more support ahead of Brazil's runoff",
+          "source": "PBS",
+          "published": "2026-10-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNRzlWaFZnR0lTUldRbUc5X1docHlCcE1RV1NfV2pQb2UzWUduYXpzdGNEclZYcncxcjZ4N1RoTW95ZkhDOWhwXzVrSTU1dDViVGJOTjcwSnRvTVZIRU5rUDhGQk1wLWo3Vmdab3JlM05vbXRMUktBNTZpcjR2SW5sSUFDLUFOcWphTTZNbE42NjBUYUVVOUROMW1URmVmOThfeS1hNmR4Q1FZZjhIUE80V1M4RTBXWG4zc2ZubkJqSG5VaHZKMkHSAcsBQVVfeXFMUDdMOUhsUmk5NzFIVUtVNi1lUW93UmdKajFwTDhrdF9oU1lRbndsVHpjSWctT3ZFM0RIVjFoWElSTzRYQ0VxOUdFTWRDRWk1dzEzWW1TVDBKZ0xET2w1VkdZMFJxYTg5M2tvLXk5Qjk5SWYyUXdoQXFEWW1xZmlwUDhJNnhaSU84SWJ5NkxaYUxMaEp4dzBQTzdTZ2tMS3VCQUpGOEV1c3RUaGh6N0I2Nlp5QjE2R25fRjBYRnpiY0hDNkV4cmMxVDVkOFk?oc=5"
+        },
+        {
+          "title": "Brazil's presidential race heads to Lula-Bolsonaro runoff as right gains ground",
+          "source": "NPR",
+          "published": "2026-10-04",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNN3FfNk9WT2lvc0IyTUJsY0R6Z2l1REJIMmF0Ty16cTI2anJZZldrMnlLZFcyY2U3MEJqQnpsOWY1M0hSZ3RITUdZWXpRZXYtWnJlUFM2TWFrVVdsUHRrcjZHamdsOUd2SU5ZN2xOR29EUzJENXB5bS1zcV9NMFNyWWZmNVlXZw?oc=5"
+        },
+        {
+          "title": "Bolsonaro will face Lula in runoff in Brazil's presidential vote",
+          "source": "Reuters",
+          "published": "2026-10-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTzYxcENTQ3M0VnFWR3h0cVF2TkRtc2Rlci13bDE5dnZXMENGLWVPTzdKX3RpRXBvZGJFcEo3d2tmelg2QmN4Q1lkNGhnN1luQ3FCdnRMeUxlTHlTeGswVzNjWVBzdVI2ZWttdm5HR3REQ3lSd3JqSUltVTRuTTY2dWdVTFVsRUNyZGVTVDBkY2E1M3poNG8tNktZMjNtNWliR2dlRkxR?oc=5"
+        },
+        {
+          "title": "Brazil’s presidential race goes to second round as Flávio Bolsonaro leads incumbent Lula",
+          "source": "The Guardian",
+          "published": "2026-10-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOdU1sSmNra0JOMDFWSFR3WjdMdFBkVjZqZ1N6RXhVU2FFblZVWXY1UTlYWE8yeE5VeDh6c3pWeVQ5bk0tY0EzYk5hbUk0ano0X180WjNjXzhRSWxIUFlIV2hGNHAzSXRFQVAta2FFRWFwQlZWcUdCMWtHWi1UYkQxbzhBYThoT3NraDlGVV9iZ2lXWENzbzhxYXE0aThYT0tNVHVIeEc3X2p4dHhwWVNYZ01OaENrWXVqVFBMczFB?oc=5"
+        },
+        {
+          "title": "Brazil’s presidential race: Three key takeaways from the first round",
+          "source": "Al Jazeera",
+          "published": "2026-10-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTGhjQ2RDR1lNb1lnWWtpOGVBN0c3S2dtYUp3WHRSbzkyQ2IzRGVrcWRnTV83elQ0SXpXOGFZMG5BVnMzLUFaZHVvaUhSM1hFN0pic29QVDJ0SFBaOXJIUVJnOFFGYmFsdkY3SDJORTQ5YlNCUVBUZzJtVmxfekZqV192d2poZkpuTkNKT0RwUFdzU04wdFBUb09RMjc1c0NEd0dkdTR5c1NGZFHSAbABQVVfeXFMT1UtZTFyZzhOWGFld2ZSYktBbHR3Q3lTaHVzS2RrNFlPTmNKN2Z6SFN0aVlZY3VlQ2JGbE5tREh1ZE1OZzJReTA4VXBlbUM0cllaeFJ6eV9ucF9jaFhuR2wzSU5LaExxc05tYk10MDJFM2VTYXFGeEV2N241c1UyYmRNNlpuVnRILWZJb3pXcGllRVFNQnVWMk1FZGlLYXJlazE5Qm9DaTRkZTlHM0cxYUk?oc=5"
+        }
+      ],
+      "news_query": "Flávio Bolsonaro win second round Brazilian presidential",
+      "forecast": {
+        "probability": 0.2,
+        "reasoning": "Flávio Bolsonaro led Lula in the first round, so I make him a slight favorite in the runoff at about 55%. Brazilian runoffs are often close, and a 4–8 point win is only one of several possible margins, perhaps a third of his winning scenarios."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-13T02:00:42Z",
+        "crowd": 0.495,
+        "best_bid": 0.49,
+        "best_ask": 0.5,
+        "volume": 138789,
+        "liquidity": 110378,
+        "fee_rate": 0.04
+      },
+      "bet_note": "No cash left for new bets; it's all in open bets."
+    },
+    {
+      "market_id": "5611042",
+      "event_id": "1177812",
+      "event_title": "Who wins the Senate pending oil above or below $80 before the midterms?",
+      "option": "Oil < $80; R Senate",
+      "question": "Will oil be below $80 on November 2 and the Republicans win the Senate?",
+      "rules": "This market will resolve to \"Oil < $80; R Senate\" if oil is less than $80 at the close of trading on November 2, 2026, and the Republican Party wins control of the United States Senate in the 2026 United States midterm election.\n\nThis market will resolve to \"Oil < $80; D Senate\" if oil is less than $80 at the close of trading on November 2, 2026, and the Democratic Party wins control of the United States Senate in the 2026 United States midterm election.\n\nThis market will resolve to \"Oil ≥ $80; R Senate\" if oil is greater than or equal to $80 at the close of trading on November 2, 2026, and the Republican Party wins control of the United States Senate in the 2026 United States midterm election.\n\nThis market will resolve to \"Oil ≥ $80; D Senate\" if oil is greater than or equal to $80 at the close of trading on November 2, 2026, and the Democratic Party wins control of the United States Senate in the 2026 United States midterm election.\n\nOil price: The oil price component will be determined based on the Close price for the Active Month of ICE Futures Europe WTI Crude Futures (denoted by Pyth as \"CLL\") for the November 2, 2026 trading day.\n\nFor a standard full trading session, the closing price refers to the Pyth \"Close\" value of the 1-minute candle corresponding to the final minute of regular trading hours on the primary exchange. Closing prices will be used exactly as published by Pyth, without rounding.\n\nIf the Active Month contract does not trade at all during the relevant trading session, or if the listed date is not a trading day under the applicable trading-hours schedule, the oil price component will be determined based on the Close price for the most recent prior trading day.\n\nFor the purposes of this market, trading days will be determined according to the applicable trading hours schedule for the underlying market (See: \"Trading Hours\" at https://www.ice.com/products/213/WTI-Crude-Futures). The trading session for a given business day typically begins at 8:00 PM ET on the prior calendar date, except for the session dated Monday, which begins at 6:00 PM ET on the preceding Sunday, and where modified by holiday or other special hours (See: https://www.ice.com/holiday-hours).\n\nThe Active Month is the nearest listed contract, except during that contract's final three trading sessions. At the open of the third-to-last trading session, the next listed contract becomes the Active Month.\n\nEach contract's last trading day will be determined by ICE Futures Europe per the WTI Crude Futures contract specification (generally the 4th US business day prior to the 25th calendar day of the month preceding the contract month, or five US business days prior if the 25th calendar day is not a US business day). The last trading day for each contract is posted at https://www.ice.com/products/213/WTI-Crude-Futures/expiry.\n\nFor example, if the last trading session for the nearest listed contract is the session for Monday the 20th, the next listed contract would become the Active Month at the start of the trading session for Thursday the 16th (8:00 PM ET on Wednesday), assuming a standard trading calendar.\n\nIf the specified day has no valid Pyth Close value for the 1-minute candle corresponding to the end of regular trading hours on the primary exchange, the market will use the last valid Pyth price achieved during the regular trading hours of the primary exchange as the effective closing price. If no valid Pyth price exists for that trading day due to a system outage, data failure, or other disruption, the official close price published for the Active Month WTI Crude Oil Futures contract by ICE Futures Europe will be used to determine the closing price for that day (See: https://www.ice.com/report/10 with \"T-West Texas Intermediate Light Sweet Crude Future\" selected).\n\nIn the event of a contract specification change, feed change, or similar structural modification affecting the underlying market during the listed time frame, this market will resolve based on adjusted prices as displayed on Pyth.\n\nThe resolution source for the oil price component will be Pyth, specifically the \"Close\" value for the relevant 1-minute candle for the Active Month WTI Crude Oil Futures contract by ICE Futures Europe available at https://app.pyth.com/explore?search=CLL. Historical 1-minute candles may be accessed by appending a Unix timestamp (seconds) to the Pyth chart URL using the \"t=\" parameter.\n\nSenate: A party wins control of the United States Senate if it wins a majority of the chamber’s voting seats. If no party wins a majority of voting seats, the party that wins control of the chamber is the party that wins half of the voting seats and holds the Vice Presidency. If the outcome remains ambiguous after applying the above criteria, the chamber will be deemed controlled by the party with which the first selected President Pro Tempore of the Congress that convenes after the specified election is affiliated.\n\nThe following rules govern the counting of seats for determining which party wins control of the chamber.\n\nAll regular and special Senate elections that determine representation in the upcoming 120th Congress and are scheduled to take place in November 2026 as of October 31, 2026 are included. Runoffs for qualifying elections will determine attribution of the relevant seat, even if they take place after November 2026. Vacant seats for which no election or special election to fill the seat is scheduled to take place in November 2026 as of October 31, 2026 will be treated as held by the party affiliation of the most recent member to hold that seat.\n\nFor seats contested in the specified election, seats are attributed to the party under which the member was elected. If a member-elect changes party affiliation, or vacates their seat, between election day and the formal organization of Congress, the seat is attributed to the party under which the member was elected.\n\nFor seats not contested in the specified election, seats are attributed to the party that holds the seat as of the date of the election. If a current sitting member of the U.S. Senate who is not up for election changes party affiliation or vacates their seat after the date of the election, the seat is attributed to the party under which the member was affiliated at the time of the election.\n\nSenate members elected as independents who formally caucus with, or, for newly elected members, who announce their intent to caucus with, a party are included in that party’s count. If the caucus decisions of members of the Senate elected as independents cannot be determined on the date of the election, this market may remain open until the earlier of (i) an announcement from the relevant members of their intents to caucus, or (ii) January 4th, 11:59 PM ET of the following calendar year. If no such announcement is made by January 4th, 11:59 PM ET of the following calendar year, the member will not count towards the seat count of any party.\n\nThe resolution sources for the Senate component will be official information from relevant state electoral authorities, the United States Congress, and a consensus of credible reporting.",
+      "topic": "Economy",
+      "end_date": "2026-11-04T04:59:00Z",
+      "url": "https://polymarket.com/event/who-wins-the-senate-pending-oil-above-or-below-80-before-the-midterms",
+      "snapshot": {
+        "time": "2026-10-13T01:58:06Z",
+        "crowd": 0.07,
+        "best_bid": 0.067,
+        "best_ask": 0.073,
+        "volume": 22711,
+        "liquidity": 327633,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "The staggering cost of winning a Senate seat in 2026",
+          "source": "Axios",
+          "published": "2026-10-08",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1EbXdKUHA0MENFQmlJR0tEN1lnNURCTEUwN2V4NXNBanpsZk5fbXpZX2treE01b0d3QlA4WmpSaHF0ZHkwNEszeHpYZG1PbGFSeTlYVUhOaDJTQ0o1SWo5TzRXV01JZTg3?oc=5"
+        },
+        {
+          "title": "Along U.S. Route 1, Maine voters worry about heating oil, gas and Canadian tariffs",
+          "source": "NPR",
+          "published": "2026-10-01",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQT1AyQUNkcXNHaHgxa2JFSDJ0ZFU2Z0ViVHVPaGxMN2xmNVk4YWJrc3NUM0NOcU1YMFZGQm1QVTczcm01UGRCMkIzbFllNG1iemlILVhUbmw1cUIxNVJIM1RnTjRmQVl2RU1sLUl2SEtnX3lXZ2tpVEp6YlNXSE14eUtDTVVVeF9WYWMzXy1fbnZqRmpv?oc=5"
+        },
+        {
+          "title": "US Republicans, Democrats want Trump to reverse course on Russia diesel",
+          "source": "Reuters",
+          "published": "2026-10-11",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPcDdtenR1Q0JlMzNKUUlHb0ROcUkwZHVpRlQ4ZDFDT2d2WlJndmVVMldTdC1EZkp6TUhSSHNNOWU3SFh3YnJVVk1wTFZIRl9nQTh5OEhHaGtUd1ZOUmJyaGtUOFJIZkFOb2E2N1VtREhDVEZFaHVPMXdaM3pRYlVLWUxTUW45WEllbmNVQ3RQTjZBSDltRXJIbUtJVHJGcU9lVEtNMTgtT0l5VWh2Tk5YQWdma0piSGhMWDQyYkhtc0tkZ2tNelE?oc=5"
+        },
+        {
+          "title": "Senate races to watch in the 2026 midterm elections",
+          "source": "AP News",
+          "published": "2026-10-08",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE0zLTZ5cjJQM005dl9RUVowT2haVDd4cHpSN2hfOGJxSkxzWkNWb2puVll3Tjk2TkViV3pQUk5JUmZJUGxZdjl5c0EwN3gxZGpwVkxkb1pDUWJFYlFwRzFsUDFmNnBkeElHNGplLVZncE1FZVJLNGxGUXllNl8?oc=5"
+        },
+        {
+          "title": "Trump could face a new threat in January: A Democratic Senate",
+          "source": "The Washington Post",
+          "published": "2026-10-12",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQVWRBdzkxZmpMOGd4T3V4WWFyRFZ2ajJHaElTWlJoUjdXbW4yNTAxdEVYdF9LR0NnWkFvd0VJVVlxNVB4R2tIYUZJYXZVb0dtcWtHVGx1RnhrX1dCRDVqZTFaTXM3WnJpazBzMGxSSmJ4MkhkUDNoampUNk9fZ1JLejgxZVkwdVJBNjVSWXUtNURiNUpJMEdRREwyeHV2cDc1RndmSHBXdTQ?oc=5"
+        },
+        {
+          "title": "US midterms: key takeaways from Senate debates in Michigan, Georgia and Maine",
+          "source": "The Guardian",
+          "published": "2026-10-09",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOWHJjX0xLYnJ0Q2I3TWwwbWlPcUhtMkk5VVo2MU9FTk96ZmE3dkpoU05ZNVpSQ2owN3lra29TTDZKMDZpUGZZQk1pRzFZR09KaDYxN21iY0xCbG1EOWNlRDVBajF0RGtOZ0VQTkxZRldLUjdfdzAycnU1OTRsajhCM0E3SG1IbUNwcGQtQTBHdFdiLURWeVJMTXluY2ZBVVl2T0dRMjNzOTkwRjJ6cG0w?oc=5"
+        }
+      ],
+      "news_query": "oil Republicans win Senate",
+      "forecast": {
+        "probability": 0.28,
+        "reasoning": "I give roughly 50% odds that oil closes below $80 and about 57% that Republicans hold the Senate. The two are mildly positively correlated, since cheaper oil tends to help the incumbent party. That puts this combination at around 28%."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-13T02:00:42Z",
+        "crowd": 0.07,
+        "best_bid": 0.067,
+        "best_ask": 0.073,
+        "volume": 22711,
+        "liquidity": 327928,
+        "fee_rate": 0.04
+      },
+      "bet_note": "No cash left for new bets; it's all in open bets."
+    },
+    {
+      "market_id": "5180417",
+      "event_id": "1114519",
+      "event_title": "Largest Company end of October 2026?",
+      "option": "Apple",
+      "question": "Will Apple be the largest company in the world by market cap on October 31, 2026?",
+      "rules": "This market will resolve to the largest company in the world by market cap on October 31, 2026, as of market close.\n\nThe resolution source for this market will be a consensus of credible reporting.",
+      "topic": "Economy",
+      "end_date": "2026-11-01T03:59:00Z",
+      "url": "https://polymarket.com/event/largest-company-end-of-october-2026",
+      "snapshot": {
+        "time": "2026-10-13T01:58:06Z",
+        "crowd": 0.053,
+        "best_bid": 0.044,
+        "best_ask": 0.062,
+        "volume": 36243,
+        "liquidity": 60010,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "Apple | AAPL Stock Price, Company Overview & News",
+          "source": "Forbes",
+          "published": "2026-10-07",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5rWDNjOGl0aWxxdkhOMjkwZHdyR0ptVVhFaVJOUDVtZW9XYlk2b3RtTkdoWmY0ajMyUE16Wm5WN0VlUkVsa24zYmhJcHdMNmZF?oc=5"
+        },
+        {
+          "title": "Prediction: By the End of 2027, Microsoft Will Be More Valuable Than Apple",
+          "source": "The Globe and Mail",
+          "published": "2026-10-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPUnlNQjByV19kUG5KSHY1VHViWnlkWTJGVlBRTnlkMkdfRW9DZVgwRlJRd2lMR2I0U1p5akZTVi1QN1pUZU5CTkFYa2llRWhZbkk0cGVQcVRUcWdOTzVuRkstdlZJTGFkcW8tVEdzUVBHU0dpUWh0Z0wzdjVPU0FDcWlNUVNEd19YNndWTG9KckxBYnoxQ0tpOXNISzVEVnRJU0FsWmhvNEt3UjhaRkFGbnY0RWZiOXM1WEdvMWNwTjcybXVKV1hnWm12TGZRVlBvX1FTQm1seGEzaEpsU0IxV09POEw2ZERTZDh4Y2F3?oc=5"
+        },
+        {
+          "title": "Apple and Amazon Stock Charts Point to More Gains for Big Tech",
+          "source": "Barron's",
+          "published": "2026-10-08",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPSGhUenFPdk9zVHFoYXBqb2J4WnBBMTBEN2ZxNUtxMW5nUkNTcmVYWG9xSjFjQjlieXJRamF0YzJLMEpJQVVMVEwzTUc2U3RMa1dwampRdTk0QlpIT1RPTkpYcnVqYXBFXzVVbXZ5S2N5cTE3Z3llSGU0T2ZQdTFXdVdKMl8?oc=5"
+        },
+        {
+          "title": "If You Had Invested $10,000 in Apple Stock 10 Years Ago, Here's How Much You'd Have Today",
+          "source": "The Motley Fool",
+          "published": "2026-10-08",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQV3RMSTNzWGlKa200dWxINFRscHhMY2VCZkxQVXZEb3BoOEFiRnNPV2ZMREFxS3hneGlNR2FzRm9tODdOVDhzcXlPMktLc0NraXQxMFZUa2ZvT3NIZ0pQMjdTYnNWX2Vld3BHY1U0VVVxbU9WU0lCdUdQekZzaTJ3aHVuUDk2dFZHVGJoXy1BMU1RblJ1NGNZ?oc=5"
+        },
+        {
+          "title": "Inquiry Into Apple's Competitor Dynamics In Technology Hardware, Storage & Peripherals Industry - App",
+          "source": "Benzinga",
+          "published": "2026-10-12",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQZV9udXNpLXlFZmoya3JPSGZaLWk4dnZPOVhtVGZkZTNWSzVZWjlOZG5ZVnUweWFCNW9JV1FkRER2OXB2TGJjc21lU3gxV3JQR3JpU0s1S2JVSVNPNy1XN08xaWx5Zll6czV1ZGtLX3V5WVJ5SWxqV1ZyQk1RczRxbHdybGlpelRkLTh1YTFQZkNYM3JZZHNrY25KMGYzVDE1NWZSdU5vZWppbmNtUGZQdUg5bmJkeGVvZjVBMmgyWUtHdjFpSmt2RVpjaVFmZw?oc=5"
+        },
+        {
+          "title": "NVIDIA Launches $150 Billion Buyback, Surpassing Apple in AI Cash Confidence",
+          "source": "조선일보",
+          "published": "2026-09-30",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPd3lrNDVaVTdnanhFcWJSeVdPak80MkxvOVN3aDJaV29uaFJZS1l6VUFNLU5fdXY4Q3Y3OVJnalFpV3U1QjN1VGxTVVRhSWQ2NnVMRjJGMDRxVnpjMDc5VEZFOEhHY3dDMEFQVGU4d1I4YVlGdGJkLUQza3E3ZTlqV1pRT3dvRVR6?oc=5"
+        }
+      ],
+      "news_query": "Apple largest company world market cap",
+      "forecast": {
+        "probability": 0.12,
+        "reasoning": "Nvidia has held the top market-cap spot by a meaningful margin through the AI boom. It also just announced a $150 billion buyback. Apple would need a large relative swing within about three weeks to overtake it, which is possible but unlikely."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-13T02:00:42Z",
+        "crowd": 0.054,
+        "best_bid": 0.046,
+        "best_ask": 0.062,
+        "volume": 36243,
+        "liquidity": 60102,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Gap vs. the price we'd pay is 5.8 points, under the 10-point minimum."
+    }
+  ],
+  "batch_id": "msgbatch_012NQkS5bPZmwbR21EwPFLXZ",
+  "forecast_at": "2026-10-13T02:00:41Z",
+  "usage": {
+    "input_tokens": 9121,
+    "output_tokens": 1762
+  },
+  "cost_usd": 0.0359,
+  "budget": 0.0
+}
