@@ -1,0 +1,558 @@
+{
+  "run_id": "2026-10-14",
+  "date": "2026-10-14",
+  "created_at": "2026-10-14T01:48:46Z",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "phase": "1.1",
+  "pick_stats": {
+    "eligible": {
+      "Economy": 10,
+      "Politics": 120,
+      "Tech": 3
+    },
+    "picked": 7
+  },
+  "questions": [
+    {
+      "market_id": "5611879",
+      "event_id": "1177878",
+      "event_title": "Who wins the Senate pending oil below $85 before the midterms?",
+      "option": "Oil < $85; R Senate",
+      "question": "Will oil be below $85 on November 2 and the Republicans win the Senate?",
+      "rules": "This market will resolve to \"Oil < $85; R Senate\" if oil is less than $85 at the close of trading on November 2, 2026, and the Republican Party wins control of the United States Senate in the 2026 United States midterm election.\n\nThis market will resolve to \"Oil < $85; D Senate\" if oil is less than $85 at the close of trading on November 2, 2026, and the Democratic Party wins control of the United States Senate in the 2026 United States midterm election.\n\nThis market will resolve to \"Oil ≥ $85; R Senate\" if oil is greater than or equal to $85 at the close of trading on November 2, 2026, and the Republican Party wins control of the United States Senate in the 2026 United States midterm election.\n\nThis market will resolve to \"Oil ≥ $85; D Senate\" if oil is greater than or equal to $85 at the close of trading on November 2, 2026, and the Democratic Party wins control of the United States Senate in the 2026 United States midterm election.\n\nOil price: The oil price component will be determined based on the Close price for the Active Month of ICE Futures Europe WTI Crude Futures (denoted by Pyth as \"CLL\") for the November 2, 2026 trading day.\n\nFor a standard full trading session, the closing price refers to the Pyth \"Close\" value of the 1-minute candle corresponding to the final minute of regular trading hours on the primary exchange. Closing prices will be used exactly as published by Pyth, without rounding.\n\nIf the Active Month contract does not trade at all during the relevant trading session, or if the listed date is not a trading day under the applicable trading-hours schedule, the oil price component will be determined based on the Close price for the most recent prior trading day.\n\nFor the purposes of this market, trading days will be determined according to the applicable trading hours schedule for the underlying market (See: \"Trading Hours\" at https://www.ice.com/products/213/WTI-Crude-Futures). The trading session for a given business day typically begins at 8:00 PM ET on the prior calendar date, except for the session dated Monday, which begins at 6:00 PM ET on the preceding Sunday, and where modified by holiday or other special hours (See: https://www.ice.com/holiday-hours).\n\nThe Active Month is the nearest listed contract, except during that contract's final three trading sessions. At the open of the third-to-last trading session, the next listed contract becomes the Active Month.\n\nEach contract's last trading day will be determined by ICE Futures Europe per the WTI Crude Futures contract specification (generally the 4th US business day prior to the 25th calendar day of the month preceding the contract month, or five US business days prior if the 25th calendar day is not a US business day). The last trading day for each contract is posted at https://www.ice.com/products/213/WTI-Crude-Futures/expiry.\n\nFor example, if the last trading session for the nearest listed contract is the session for Monday the 20th, the next listed contract would become the Active Month at the start of the trading session for Thursday the 16th (8:00 PM ET on Wednesday), assuming a standard trading calendar.\n\nIf the specified day has no valid Pyth Close value for the 1-minute candle corresponding to the end of regular trading hours on the primary exchange, the market will use the last valid Pyth price achieved during the regular trading hours of the primary exchange as the effective closing price. If no valid Pyth price exists for that trading day due to a system outage, data failure, or other disruption, the official close price published for the Active Month WTI Crude Oil Futures contract by ICE Futures Europe will be used to determine the closing price for that day (See: https://www.ice.com/report/10 with \"T-West Texas Intermediate Light Sweet Crude Future\" selected).\n\nIn the event of a contract specification change, feed change, or similar structural modification affecting the underlying market during the listed time frame, this market will resolve based on adjusted prices as displayed on Pyth.\n\nThe resolution source for the oil price component will be Pyth, specifically the \"Close\" value for the relevant 1-minute candle for the Active Month WTI Crude Oil Futures contract by ICE Futures Europe available at https://app.pyth.com/explore?search=CLL. Historical 1-minute candles may be accessed by appending a Unix timestamp (seconds) to the Pyth chart URL using the \"t=\" parameter.\n\nSenate: A party wins control of the United States Senate if it wins a majority of the chamber’s voting seats. If no party wins a majority of voting seats, the party that wins control of the chamber is the party that wins half of the voting seats and holds the Vice Presidency. If the outcome remains ambiguous after applying the above criteria, the chamber will be deemed controlled by the party with which the first selected President Pro Tempore of the Congress that convenes after the specified election is affiliated.\n\nThe following rules govern the counting of seats for determining which party wins control of the chamber.\n\nAll regular and special Senate elections that determine representation in the upcoming 120th Congress and are scheduled to take place in November 2026 as of October 31, 2026 are included. Runoffs for qualifying elections will determine attribution of the relevant seat, even if they take place after November 2026. Vacant seats for which no election or special election to fill the seat is scheduled to take place in November 2026 as of October 31, 2026 will be treated as held by the party affiliation of the most recent member to hold that seat.\n\nFor seats contested in the specified election, seats are attributed to the party under which the member was elected. If a member-elect changes party affiliation, or vacates their seat, between election day and the formal organization of Congress, the seat is attributed to the party under which the member was elected.\n\nFor seats not contested in the specified election, seats are attributed to the party that holds the seat as of the date of the election. If a current sitting member of the U.S. Senate who is not up for election changes party affiliation or vacates their seat after the date of the election, the seat is attributed to the party under which the member was affiliated at the time of the election.\n\nSenate members elected as independents who formally caucus with, or, for newly elected members, who announce their intent to caucus with, a party are included in that party’s count. If the caucus decisions of members of the Senate elected as independents cannot be determined on the date of the election, this market may remain open until the earlier of (i) an announcement from the relevant members of their intents to caucus, or (ii) January 4th, 11:59 PM ET of the following calendar year. If no such announcement is made by January 4th, 11:59 PM ET of the following calendar year, the member will not count towards the seat count of any party.\n\nThe resolution sources for the Senate component will be official information from relevant state electoral authorities, the United States Congress, and a consensus of credible reporting.",
+      "topic": "Economy",
+      "end_date": "2026-11-04T04:59:00Z",
+      "url": "https://polymarket.com/event/who-wins-the-senate-pending-oil-below-85-before-the-midterms",
+      "snapshot": {
+        "time": "2026-10-14T01:48:42Z",
+        "crowd": 0.0795,
+        "best_bid": 0.079,
+        "best_ask": 0.08,
+        "volume": 67794,
+        "liquidity": 401954,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "Along U.S. Route 1, Maine voters worry about heating oil, gas and Canadian tariffs",
+          "source": "NPR",
+          "published": "2026-10-01",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQT1AyQUNkcXNHaHgxa2JFSDJ0ZFU2Z0ViVHVPaGxMN2xmNVk4YWJrc3NUM0NOcU1YMFZGQm1QVTczcm01UGRCMkIzbFllNG1iemlILVhUbmw1cUIxNVJIM1RnTjRmQVl2RU1sLUl2SEtnX3lXZ2tpVEp6YlNXSE14eUtDTVVVeF9WYWMzXy1fbnZqRmpv?oc=5"
+        },
+        {
+          "title": "The staggering cost of winning a Senate seat in 2026",
+          "source": "Axios",
+          "published": "2026-10-08",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1EbXdKUHA0MENFQmlJR0tEN1lnNURCTEUwN2V4NXNBanpsZk5fbXpZX2treE01b0d3QlA4WmpSaHF0ZHkwNEszeHpYZG1PbGFSeTlYVUhOaDJTQ0o1SWo5TzRXV01JZTg3?oc=5"
+        },
+        {
+          "title": "US Republicans, Democrats want Trump to reverse course on Russia diesel",
+          "source": "Reuters",
+          "published": "2026-10-11",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPcDdtenR1Q0JlMzNKUUlHb0ROcUkwZHVpRlQ4ZDFDT2d2WlJndmVVMldTdC1EZkp6TUhSSHNNOWU3SFh3YnJVVk1wTFZIRl9nQTh5OEhHaGtUd1ZOUmJyaGtUOFJIZkFOb2E2N1VtREhDVEZFaHVPMXdaM3pRYlVLWUxTUW45WEllbmNVQ3RQTjZBSDltRXJIbUtJVHJGcU9lVEtNMTgtT0l5VWh2Tk5YQWdma0piSGhMWDQyYkhtc0tkZ2tNelE?oc=5"
+        },
+        {
+          "title": "Election Dispatches:: Candidates in Crucial Maine Senate Race Set to Debate",
+          "source": "The New York Times",
+          "published": "2026-10-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1VdU52Q2FHUGljSENraHRQZ3RIQnFhWXBDV0dJZDUzVmwwRmVjeGJSdUNYMGpQN1Q4SmtVQkozZTFjYzJoc0ZDV3I0TXlaUTRoX240c08xTThTMURwNXZMSF9GdklvdTh2V3lZTWhn?oc=5"
+        },
+        {
+          "title": "US midterms: key takeaways from Senate debates in Michigan, Georgia and Maine",
+          "source": "The Guardian",
+          "published": "2026-10-09",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOWHJjX0xLYnJ0Q2I3TWwwbWlPcUhtMkk5VVo2MU9FTk96ZmE3dkpoU05ZNVpSQ2owN3lra29TTDZKMDZpUGZZQk1pRzFZR09KaDYxN21iY0xCbG1EOWNlRDVBajF0RGtOZ0VQTkxZRldLUjdfdzAycnU1OTRsajhCM0E3SG1IbUNwcGQtQTBHdFdiLURWeVJMTXluY2ZBVVl2T0dRMjNzOTkwRjJ6cG0w?oc=5"
+        },
+        {
+          "title": "Here’s why oil and religion mix in the Texas Senate race",
+          "source": "Baptist News Global",
+          "published": "2026-10-08",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNMjNYRnRhMjJCa3JYZHk4MnIxTUJULWNmRDhMai1tQ2Uwb0NONGQzNENvM21kTHlxMnN6UDhpQ21OemtxTW5QNEFPblRlWHEydjlTUnN4b0ZIcjRGaVVBRUxyVXRqWnNUeGI3VlFVZlh1eVl3YW9wcGNubTlSbGg0RWd1dEtJYkFIdHNnMFBQYThjQQ?oc=5"
+        }
+      ],
+      "news_query": "oil Republicans win Senate",
+      "forecast": {
+        "probability": 0.28,
+        "reasoning": "This needs two things at once: WTI below $85 and Republicans keeping the Senate. Headlines about heating-oil and diesel worries suggest prices are elevated and near the $85 line, so I treat that as roughly a coin flip. Republicans hold 53 seats, but polling shows Democrats competitive in red states, so I give the GOP about 55%. Combined, that is about 28%."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-14T01:50:49Z",
+        "crowd": 0.0795,
+        "best_bid": 0.079,
+        "best_ask": 0.08,
+        "volume": 67794,
+        "liquidity": 401954,
+        "fee_rate": 0.04
+      },
+      "bet_note": "No cash left for new bets; it's all in open bets."
+    },
+    {
+      "market_id": "5611880",
+      "event_id": "1177878",
+      "event_title": "Who wins the Senate pending oil below $85 before the midterms?",
+      "option": "Oil < $85; D Senate",
+      "question": "Will oil be below $85 on November 2 and the Democrats win the Senate?",
+      "rules": "This market will resolve to \"Oil < $85; R Senate\" if oil is less than $85 at the close of trading on November 2, 2026, and the Republican Party wins control of the United States Senate in the 2026 United States midterm election.\n\nThis market will resolve to \"Oil < $85; D Senate\" if oil is less than $85 at the close of trading on November 2, 2026, and the Democratic Party wins control of the United States Senate in the 2026 United States midterm election.\n\nThis market will resolve to \"Oil ≥ $85; R Senate\" if oil is greater than or equal to $85 at the close of trading on November 2, 2026, and the Republican Party wins control of the United States Senate in the 2026 United States midterm election.\n\nThis market will resolve to \"Oil ≥ $85; D Senate\" if oil is greater than or equal to $85 at the close of trading on November 2, 2026, and the Democratic Party wins control of the United States Senate in the 2026 United States midterm election.\n\nOil price: The oil price component will be determined based on the Close price for the Active Month of ICE Futures Europe WTI Crude Futures (denoted by Pyth as \"CLL\") for the November 2, 2026 trading day.\n\nFor a standard full trading session, the closing price refers to the Pyth \"Close\" value of the 1-minute candle corresponding to the final minute of regular trading hours on the primary exchange. Closing prices will be used exactly as published by Pyth, without rounding.\n\nIf the Active Month contract does not trade at all during the relevant trading session, or if the listed date is not a trading day under the applicable trading-hours schedule, the oil price component will be determined based on the Close price for the most recent prior trading day.\n\nFor the purposes of this market, trading days will be determined according to the applicable trading hours schedule for the underlying market (See: \"Trading Hours\" at https://www.ice.com/products/213/WTI-Crude-Futures). The trading session for a given business day typically begins at 8:00 PM ET on the prior calendar date, except for the session dated Monday, which begins at 6:00 PM ET on the preceding Sunday, and where modified by holiday or other special hours (See: https://www.ice.com/holiday-hours).\n\nThe Active Month is the nearest listed contract, except during that contract's final three trading sessions. At the open of the third-to-last trading session, the next listed contract becomes the Active Month.\n\nEach contract's last trading day will be determined by ICE Futures Europe per the WTI Crude Futures contract specification (generally the 4th US business day prior to the 25th calendar day of the month preceding the contract month, or five US business days prior if the 25th calendar day is not a US business day). The last trading day for each contract is posted at https://www.ice.com/products/213/WTI-Crude-Futures/expiry.\n\nFor example, if the last trading session for the nearest listed contract is the session for Monday the 20th, the next listed contract would become the Active Month at the start of the trading session for Thursday the 16th (8:00 PM ET on Wednesday), assuming a standard trading calendar.\n\nIf the specified day has no valid Pyth Close value for the 1-minute candle corresponding to the end of regular trading hours on the primary exchange, the market will use the last valid Pyth price achieved during the regular trading hours of the primary exchange as the effective closing price. If no valid Pyth price exists for that trading day due to a system outage, data failure, or other disruption, the official close price published for the Active Month WTI Crude Oil Futures contract by ICE Futures Europe will be used to determine the closing price for that day (See: https://www.ice.com/report/10 with \"T-West Texas Intermediate Light Sweet Crude Future\" selected).\n\nIn the event of a contract specification change, feed change, or similar structural modification affecting the underlying market during the listed time frame, this market will resolve based on adjusted prices as displayed on Pyth.\n\nThe resolution source for the oil price component will be Pyth, specifically the \"Close\" value for the relevant 1-minute candle for the Active Month WTI Crude Oil Futures contract by ICE Futures Europe available at https://app.pyth.com/explore?search=CLL. Historical 1-minute candles may be accessed by appending a Unix timestamp (seconds) to the Pyth chart URL using the \"t=\" parameter.\n\nSenate: A party wins control of the United States Senate if it wins a majority of the chamber’s voting seats. If no party wins a majority of voting seats, the party that wins control of the chamber is the party that wins half of the voting seats and holds the Vice Presidency. If the outcome remains ambiguous after applying the above criteria, the chamber will be deemed controlled by the party with which the first selected President Pro Tempore of the Congress that convenes after the specified election is affiliated.\n\nThe following rules govern the counting of seats for determining which party wins control of the chamber.\n\nAll regular and special Senate elections that determine representation in the upcoming 120th Congress and are scheduled to take place in November 2026 as of October 31, 2026 are included. Runoffs for qualifying elections will determine attribution of the relevant seat, even if they take place after November 2026. Vacant seats for which no election or special election to fill the seat is scheduled to take place in November 2026 as of October 31, 2026 will be treated as held by the party affiliation of the most recent member to hold that seat.\n\nFor seats contested in the specified election, seats are attributed to the party under which the member was elected. If a member-elect changes party affiliation, or vacates their seat, between election day and the formal organization of Congress, the seat is attributed to the party under which the member was elected.\n\nFor seats not contested in the specified election, seats are attributed to the party that holds the seat as of the date of the election. If a current sitting member of the U.S. Senate who is not up for election changes party affiliation or vacates their seat after the date of the election, the seat is attributed to the party under which the member was affiliated at the time of the election.\n\nSenate members elected as independents who formally caucus with, or, for newly elected members, who announce their intent to caucus with, a party are included in that party’s count. If the caucus decisions of members of the Senate elected as independents cannot be determined on the date of the election, this market may remain open until the earlier of (i) an announcement from the relevant members of their intents to caucus, or (ii) January 4th, 11:59 PM ET of the following calendar year. If no such announcement is made by January 4th, 11:59 PM ET of the following calendar year, the member will not count towards the seat count of any party.\n\nThe resolution sources for the Senate component will be official information from relevant state electoral authorities, the United States Congress, and a consensus of credible reporting.",
+      "topic": "Economy",
+      "end_date": "2026-11-04T04:59:00Z",
+      "url": "https://polymarket.com/event/who-wins-the-senate-pending-oil-below-85-before-the-midterms",
+      "snapshot": {
+        "time": "2026-10-14T01:48:42Z",
+        "crowd": 0.1305,
+        "best_bid": 0.13,
+        "best_ask": 0.131,
+        "volume": 66286,
+        "liquidity": 461506,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "Senate Democrats probe former Trump official’s connections to oil company",
+          "source": "Politico",
+          "published": "2026-10-07",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOb0VVZFc3b2JERWJhMUpjYkJQSkl4eHU2NURrSDlxeDZ0TER4VGVkRk1SU0p5S251NVpvWnVHZTY5MnBjc1g3Ulc4V3lFNDJnQS1LOC1JT280Zy1CVTRDSFQxVjVpU3ZfRDhjR0hTTXZqLWxhRE1JM3VCSWpaWXpYTzJGQ2FocVJmQnQwOGFPemhwNUV1czk0LWtIa1FmMjE2TnhMRTVVNTNtd2Y1aHF6LW5vQ2dqci1tWUV4TGcwTQ?oc=5"
+        },
+        {
+          "title": "The staggering cost of winning a Senate seat in 2026",
+          "source": "Axios",
+          "published": "2026-10-08",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1EbXdKUHA0MENFQmlJR0tEN1lnNURCTEUwN2V4NXNBanpsZk5fbXpZX2treE01b0d3QlA4WmpSaHF0ZHkwNEszeHpYZG1PbGFSeTlYVUhOaDJTQ0o1SWo5TzRXV01JZTg3?oc=5"
+        },
+        {
+          "title": "Along U.S. Route 1, Maine voters worry about heating oil, gas and Canadian tariffs",
+          "source": "NPR",
+          "published": "2026-10-01",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQT1AyQUNkcXNHaHgxa2JFSDJ0ZFU2Z0ViVHVPaGxMN2xmNVk4YWJrc3NUM0NOcU1YMFZGQm1QVTczcm01UGRCMkIzbFllNG1iemlILVhUbmw1cUIxNVJIM1RnTjRmQVl2RU1sLUl2SEtnX3lXZ2tpVEp6YlNXSE14eUtDTVVVeF9WYWMzXy1fbnZqRmpv?oc=5"
+        },
+        {
+          "title": "Senate races to watch in the 2026 midterm elections",
+          "source": "AP News",
+          "published": "2026-10-08",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE0zLTZ5cjJQM005dl9RUVowT2haVDd4cHpSN2hfOGJxSkxzWkNWb2puVll3Tjk2TkViV3pQUk5JUmZJUGxZdjl5c0EwN3gxZGpwVkxkb1pDUWJFYlFwRzFsUDFmNnBkeElHNGplLVZncE1FZVJLNGxGUXllNl8?oc=5"
+        },
+        {
+          "title": "US midterms: key takeaways from Senate debates in Michigan, Georgia and Maine",
+          "source": "The Guardian",
+          "published": "2026-10-09",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOWHJjX0xLYnJ0Q2I3TWwwbWlPcUhtMkk5VVo2MU9FTk96ZmE3dkpoU05ZNVpSQ2owN3lra29TTDZKMDZpUGZZQk1pRzFZR09KaDYxN21iY0xCbG1EOWNlRDVBajF0RGtOZ0VQTkxZRldLUjdfdzAycnU1OTRsajhCM0E3SG1IbUNwcGQtQTBHdFdiLURWeVJMTXluY2ZBVVl2T0dRMjNzOTkwRjJ6cG0w?oc=5"
+        },
+        {
+          "title": "Opinion | She Could Flip the Senate. All She Wants to Talk About Are Fish and Diesel.",
+          "source": "The New York Times",
+          "published": "2026-10-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQOGp2NTN6UDE4R2JqenE1ejJMbUtuTEtIWnFyaWZSdFFDcmlObEJRbDB0S1hjWFlBTWxuQTBsNUItUHlVakl4ekt6RzZZWlhXUlhfVlBSZm1SU2F1ZjE3aHpHeEw1UmwxdjhIcmh2WHJSdVdCdXlUZnl3QjJRQVBTb0dzdDVPVGtseF9J?oc=5"
+        }
+      ],
+      "news_query": "oil Democrats win Senate",
+      "forecast": {
+        "probability": 0.22,
+        "reasoning": "This needs oil below $85, which I treat as roughly a coin flip, and a Democratic Senate. Democrats need a net gain of four seats, which is difficult, but polling shows unusual competitiveness in places like Ohio, Texas, Maine and Alaska. I put a Democratic majority near 45%, giving about 22% combined."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-14T01:50:49Z",
+        "crowd": 0.1305,
+        "best_bid": 0.13,
+        "best_ask": 0.131,
+        "volume": 66286,
+        "liquidity": 462401,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Gap vs. the price we'd pay is 8.9 points, under the 10-point minimum."
+    },
+    {
+      "market_id": "5167155",
+      "event_id": "1111230",
+      "event_title": "Will Russia target Kyiv on...?",
+      "option": "October 16",
+      "question": "Will Russia target Kyiv on October 16, 2026?",
+      "rules": "This market will resolve to “Yes” if Russia targets Kyiv through a qualifying military action on the specified date, Kyiv time. Otherwise, this market will resolve to “No.”\n\nA qualifying military action refers to an air strike or a surface-to-surface missile strike, initiated by Russia, directed at Kyiv. An air strike includes bombs, air-to-surface missiles, and air-launched drones. A surface-to-surface missile strike includes one-way attack drones and surface-to-surface missiles such as cruise or ballistic missiles.\n\nThe following actions do not constitute a qualifying military action:\nSurface-to-air missile strikes;\nSmall-arms fire;\nGround incursions;\nCyber operations;\nNaval gunfire and artillery fire;\nHowitzers, artillery pieces, mortars, and rocket artillery (e.g. MLRS systems);\nMinor surface-to-surface strikes, including short range loitering munitions, FPV drones, and ATGM strikes;\nAny threat, authorization, or announcement of force that has not been executed.\n\nMilitary action that consists primarily or exclusively of munitions that are intercepted before impact will still qualify if they constitute a qualifying military action during the specified timeframe; whether the munitions were intercepted, where the munitions landed, and whether damage resulted will not be considered.\n\nA military action will be considered directed at Kyiv if it targets any location within the city of Kyiv.\n\nThe occurrence, attribution, timing, and target of a qualifying military action will be primarily determined based on a consensus of information available from the resolution sources. Where multiple sources conflict regarding the occurrence, attribution, timing, or target of a relevant military action, this market will remain open until the earlier of: i) the confirmation of the occurrence, attribution, timing, and target of the action based on a consensus of information available from the resolution sources or ii) 3 full calendar days (Kyiv time) after the specified date. If this period would extend past the end date, this market will remain open to allow for 3 full calendar days to pass. If, at the end of the third calendar day, conflicting reports remain as to the occurrence, attribution, or timing of the action, this market will resolve based on the totality of information available from the resolution sources at that time. No single statement, denial, or presentation of evidence will govern where it is contradicted by the totality of information.\n\nThe resolution sources for this market will be official information from the governments and militaries of Ukraine and Russia and a consensus of credible reporting.",
+      "topic": "Politics",
+      "end_date": "2026-10-17T03:59:00Z",
+      "url": "https://polymarket.com/event/will-russia-target-kyiv-on-october-2026",
+      "snapshot": {
+        "time": "2026-10-14T01:48:42Z",
+        "crowd": 0.885,
+        "best_bid": 0.87,
+        "best_ask": 0.9,
+        "volume": 56026,
+        "liquidity": 21385,
+        "fee_rate": 0.0
+      },
+      "news": [
+        {
+          "title": "Russian attacks on Ukraine’s Kyiv region kill four, target power grid",
+          "source": "Al Jazeera",
+          "published": "2026-09-30",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRi1IZndmQ1lyX2l3Rl9hYXZmY3llVWdjMVhTSFdwd2dMSkF1ZVRIUDBmNWpkT3I2VnJkcnhxTTByRlJFUkYyU05ZazN2YmtxclF0UkxhVGtiVVFLbzNuZWs5X0RmUjVWZGJTWUdBeXZYYjN0SzA2cUhDX1lYQWdxcVB1VF9PRVJaWmRGTW9XUl9nVkU1eVNtRXFtTjR6TFBhazNnVHh2d0d1OW5I0gGyAUFVX3lxTFBtN3JrY3IwQnFwWE5ZSmt6QmJPZ21JREpuRC1NYmp0azJIYXVpazNTTjliWU1Hdl9JYVFKVWtkV1pDdTdrS1lYWWtWQWV4UUVMZkxlekM5alRxX29SOVAxOVJPZ3JHUHFPWG1uenF5eXJkOE9NOGFvc1d3elNjZmFDYjZnV04tQkw2QU5ZVFhiYmZHVDlMcklPQ3lMVzJMOVpzN2JRMEZ5WVBnbnBIdmhRQnc?oc=5"
+        },
+        {
+          "title": "Russia Turns to Striking Kyiv’s Bridges, Threatening a Vital Lifeline",
+          "source": "The New York Times",
+          "published": "2026-10-03",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQbXVpakVXTEFmeS1tM2JITW1LUmZManF3c2NCVEYxOUVMdG50azJUOW1lZzQ4WDY1V1QwdHFBT1RlQ3RTcDFLeWhjZ0dUemJ5bUtxTmZCWHQ0emZHUm5pSENFOUwyM1VUWGdBcDVoUXN3TWgwUW16bDlzM0Zza3FRYXZxbVlKWEE?oc=5"
+        },
+        {
+          "title": "Russia's attacks on Ukraine escalate as its drones target bridges in Kyiv",
+          "source": "NPR",
+          "published": "2026-10-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPUllNREhuNkp3QXlnX19DMDRGU2FYSi1RMHZSaldPblhpbzh3SWxsdkh5ajB6QXo0blFpemdmUzNpeEdnajFhbml3ZVNMZ2M1dS05WmNPRUN2UGsyRWxPVlpkMlY2RFIxQ3A5MnZNVkVnT2JhYkk0cWt5cm96NEgtSzRqOThSbTFISjBpSU81V1pQbjBsRk03UzBJSGhtMENvMndudi0tQkltbXlxbFY3TDAwNWxUVVBL?oc=5"
+        },
+        {
+          "title": "Ukraine will target Russian oil refineries amid Kyiv attacks",
+          "source": "CNN",
+          "published": "2026-10-04",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMWd3b2dGMmdUVDI5TkRUQTdjZlRwQ1prVWVIZ3R6WS16V1E1RGxjd3pEMEJnYS1VZUJNWldFbVl3SnY0RVI4RkJNYzUyRHBBWjNKdTMzTjNYbFlnYlVfcnY4Ti1SVTIwSGZnT1VlR0d5bG1TMjFvbmQxN3h2b1lMYVYyc3JyZ1ltcndLbUxXTm1saTFib01Rb2pabGdncUpYcGpJdE8xTFNxbENvTnlMcDlVNkk?oc=5"
+        },
+        {
+          "title": "EXCLUSIVE: Ukraine will hit Russian refineries in response to Moscow's 'new doctrine' of airstrikes, Zelenskiy says",
+          "source": "Reuters",
+          "published": "2026-10-04",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOQ0JETXJlUlJGblZwbTljbXFFb0JkS2REVzBWUVdPUE5uN0xSRGpVZVBpS3B3Qnh1VkFWQjdYUzdOWnFFZkd4aVRFQmViaEJkVkVzTUxUMDJKdWh5UWJfaExXMi1UbTlLd1AxVnJ2UF9BUUZFc2g0ZEFTOWJGTi1WS3h0YlNtYzFRY0FTam5WbllJVXdGbUp1S0tQcGgtdmppSHpIMGg5dUtuLVN3SjJFME9MYTNSci1maHptc3RVVVk5d3k4NmgwS0oxZUZ5alpUNmYzR09R?oc=5"
+        },
+        {
+          "title": "Russia ramps up attacks on Kyiv infrastructure as U.S. makes fresh push for peace talks",
+          "source": "CNBC",
+          "published": "2026-10-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQc28tbzJkRGxDNmEwVUFXQ0hYSGJJdjdfQ2xrOTVYb3JZLVBFYnJwUFAxWVA0NTROZWFnLUhWa1lVMHpHRFJLWW8tRHNDa0poZjQweVI0SHNoWGdIdmQ1Njh2T3lNNGR4d2ptNWlidEcyeVdnc3N5b0xHcGxMcWUtUDI3V2tSVFdaYkHSAY8BQVVfeXFMTTZiQzZqWXRKTDVKN1FjNGNoRVlGcWdGRFc0SjdidHVZYmtvUmtMZkNRSWp6aDg3S21oOGpvRlJkYjRfeHlRNkZRZl96RUtpT1R5Vmw0alZxNlZHeXUyYldfbVNCYkI2Zl9ZallzalVQZU45TllHTi1iNllRUmRpeEY1YnVQcTlka3BiQmxOdXc?oc=5"
+        }
+      ],
+      "news_query": "Russia target Kyiv",
+      "forecast": {
+        "probability": 0.72,
+        "reasoning": "Russia has escalated strikes on Kyiv in October, including attacks on bridges, infrastructure and the power grid. Drones or missiles aimed at the city are launched on most days during such campaigns, and intercepted attacks still count. Strikes on any single day are therefore likely but not certain."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-14T01:50:49Z",
+        "crowd": 0.885,
+        "best_bid": 0.87,
+        "best_ask": 0.9,
+        "volume": 56026,
+        "liquidity": 21596,
+        "fee_rate": 0.0
+      },
+      "bet_note": "No cash left for new bets; it's all in open bets."
+    },
+    {
+      "market_id": "629557",
+      "event_id": "57185",
+      "event_title": "Ohio Governor Election Winner",
+      "option": "Amy Acton (D)",
+      "question": "Will the Democrats win the Ohio governor race in 2026?",
+      "rules": "This market will resolve according to the winner of the 2026 Ohio gubernatorial election.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
+      "topic": "Politics",
+      "end_date": "2026-11-04T04:59:00Z",
+      "url": "https://polymarket.com/event/ohio-governor-winner-2026",
+      "snapshot": {
+        "time": "2026-10-14T01:48:42Z",
+        "crowd": 0.715,
+        "best_bid": 0.71,
+        "best_ask": 0.72,
+        "volume": 215223,
+        "liquidity": 265598,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "Ohio poll finds Democrats slightly ahead but within margin of error in Senate, governor races",
+          "source": "NBC4 WCMH-TV",
+          "published": "2026-10-08",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOOFFnNEQwYTFKelZHcDhYQzk4cVJEV0ZRTC16Z3dSaG5PMG9sdlJ0VnQ0eHdybG00S210X21TYnhHZ0tPNGNQQjU0S2lxZERmb3Y4eVFXMHRRcFY1aW93dEFDX2k1NGRTUHB6MFBNTnpQOW00SlZtZzBuLWhnOWxwLWJpRHAwYkFreVVCTFRxU2NzSDgxUkJDS2gwT1J4ZV9MLS1OVzFBSDJyUWtTWkhWSmRId2dra2dac1lvNThxVnZFVkRJOFlGUlZfaEtDdTJ5dVpId2kySjBtVDTSAeABQVVfeXFMT09nSGtzRWxUS3Y1UDY0VXBVQjJFS0M3ZjQ3Z1pMalpsVXl6NVNtXzZkZGwwTnhLQkc1Y3ZMYjE4RzNYNUZPMzZ3Zng3RFEyRUdjU0pBek1GODFQZXBvMF9nRXBnbmdoWDd4Z2lJb05PQzUxZTQ0VVZRbnozMmh0NURjdThGR3BYSGZuVW14SjdHRkRVYV9ONmw5R0l0OGY4RmxOSnh3aktrTGhNY1d1c0FpNkNNMmdBandOV1FROTI3dUhpbEoyNHMtZVFFU0dtUXlzNkljcks4cEZfZW9uU2c?oc=5"
+        },
+        {
+          "title": "Trump, Vance blitz Ohio as Democrats look to flip governor’s mansion",
+          "source": "The Hill",
+          "published": "2026-10-11",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOTDVXX0ZrX3pIenBBOGlqRDUxVzlVWmZqaUpqd0VQLWNpLUJxVERiX0N1Yko1MjNBajFNalZVZGZPNkJDOGtCX3BkOTlvN3Q5WDdPMHZLUE1CcVRTVTZHamNsTXh4dnVOOUxqM3oxMzB6NVo1bzNwaXpRMjE2RlpCb0IyYXF5aG1uZjd4dFJ30gGTAUFVX3lxTE4ydjMyakxwREZTWklBUm9kanZHWWNhVkx2ZTlCbkJjbldzZGM2VGVJR3psOW9acTR5V3ZxREI2QlZuVDZDbGR2cElTdXJaaTJrNVZiY2QzWW1ROEk3cFNLbEVfREtmS3YwM0hYay1ZYmFkMFlLZ0VNYW93NWpQQlgyU0lZc01kb0ZnWk9FWF9HemZLZw?oc=5"
+        },
+        {
+          "title": "‘Still anyone’s ball game’ Bowling Green poll finds statistical tie in Ohio’s race for governor",
+          "source": "Ohio Capital Journal",
+          "published": "2026-10-02",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOb05FYk9HWjB4NmRlRTJVMFlJUTdRaHh6eThDZ2ROaTNVWnYxdlJneThOZFRVVFY2OVE1MEt4WjI3TTZIUHRzYXVyQTRld1V5SnhFUWpHeVFfXzhaRkhVdzJJcGtYSG45bnBJYmY5V3c5ZHVkV05DQ2hhbGdOQS1pZklQWTJPSjVNWklkNEl4UTlIM2dDZVE1Z011XzVLTjgzVTdUXzVWTEUyXzBrYTBhN3NrQk9fdWFQWmcxREx4MlNISjZZOUpPNXotWVVxcWM?oc=5"
+        },
+        {
+          "title": "Ohio Democrats’ path to the governor’s office runs through rural areas that had turned against them",
+          "source": "AP News",
+          "published": "2026-10-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOd1lnUTFnSWdYNlJQWm5nalpwcXFYZkY4c0lfb3pabUd2MHZfOVJsVmdfZkpObFFfcXFLcGdkZjRQV0RwSDM4QmVCNkFvd1FBQTZKenZ6R2V0alFNTEFGaFF2QXlBU1pyLTRDQ0NWQ1c3MnNxSVhqWGFRSmNwYkFfT1hESnM0UHRYTHMxT1RUazNKWmhYNXFCQmMwQ3VQT0s5bnJBZg?oc=5"
+        },
+        {
+          "title": "Democrats could win majority of governor’s offices for first time in 16 years",
+          "source": "Stateline",
+          "published": "2026-10-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNTzBVNnR0emhSU3lMOUVpVFVybkNqWjJGMzJBZm5WZU94M2g5RE84VG9MMGlTZXI0QTM0UndldVpBNlM1M2dBVF9tNDh4QldqenZBNHRJQkc2UU1uV3VDOW9yV05WbFNMYVB6UFk3ekxLQjE0Ylo2d0c1UFpKdDMtcEdQZnlnamxnR2R0WVJaQUp5bS1TZW50WlNCQmpZMTU4bFk1RE1PSy0wQ2tJbFNv?oc=5"
+        },
+        {
+          "title": "Two states Trump carried by double digits are now in play for the Democrats, CNN polls show",
+          "source": "CNN",
+          "published": "2026-10-08",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdUVxZ1AxSkFIdjhDc25jRnBRUHo2dVhlcDRNeTVKWDBWeVBDUnRDQTVaQWdGQ0JFNEUyQTYzZ3NwZWVwRGhpbHY2QWNxUlJnTUVBeHhKUi14cTZmcmp2dmJEelpSb3U4a18yOE1pdlNNenFtaWdvdzJXRU8wWWtodHRyR3FEYW1zb2JxQQ?oc=5"
+        }
+      ],
+      "news_query": "Democrats win Ohio governor race",
+      "forecast": {
+        "probability": 0.45,
+        "reasoning": "Recent Ohio polls show the governor's race as a statistical tie, with Democrats slightly ahead within the margin of error. However, Ohio's strong Republican lean and the Trump and Vance campaign blitz tend to help Republicans close late. That makes it close to a toss-up with a slight Republican edge."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-14T01:50:49Z",
+        "crowd": 0.715,
+        "best_bid": 0.71,
+        "best_ask": 0.72,
+        "volume": 215223,
+        "liquidity": 268227,
+        "fee_rate": 0.04
+      },
+      "bet_note": "No cash left for new bets; it's all in open bets."
+    },
+    {
+      "market_id": "5336146",
+      "event_id": "1138395",
+      "event_title": "Fall Elections Three-Way: Brazil, Israel, US Senate Combo",
+      "option": "Bolsonaro, Eizenkot, Dems",
+      "question": "Will Flávio Bolsonaro win Brazil, Gadi Eizenkot become Israeli PM, and Democrats win the US Senate?",
+      "rules": "The runoff round of the Brazilian presidential election is scheduled to take place on October 25, 2026. Legislative elections in Israel are scheduled to be held on October 27, 2026. The United States midterm elections are scheduled to be held on November 3, 2026.\n\nThis market will resolve to the single listed outcome that matches all three of the following: the winner of the Brazilian presidential election, the first Prime Minister of Israel to be sworn in as a result of the election, and the party that wins control of the United States Senate in the midterm elections. \n\nFor full rules for the Brazilian presidential election, click here: https://polymarket.com/event/brazil-presidential-election\n\nFor full rules for the Israeli Prime Minister, click here: https://polymarket.com/event/who-will-be-the-next-prime-minister-of-israel-after-the-next-election\n\nFor full rules for the United States Senate control, click here: https://polymarket.com/event/which-party-will-win-the-senate-in-2026\n\nAdditional options may be added to this market between market creation and resolution. \n\nIn the event that any constituent market resolves to \"Other,\" this market will resolve to \"Other.\"\n\nThis market will resolve according to the sources named in the three markets linked above.",
+      "topic": "Politics",
+      "end_date": "2026-11-05T04:59:00Z",
+      "url": "https://polymarket.com/event/fall-elections-three-way-brazil-israel-us-senate-combo",
+      "snapshot": {
+        "time": "2026-10-14T01:48:42Z",
+        "crowd": 0.375,
+        "best_bid": 0.37,
+        "best_ask": 0.38,
+        "volume": 102968,
+        "liquidity": 78458,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "Bolsonaro will face Lula in runoff in Brazil's presidential vote",
+          "source": "Reuters",
+          "published": "2026-10-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTzYxcENTQ3M0VnFWR3h0cVF2TkRtc2Rlci13bDE5dnZXMENGLWVPTzdKX3RpRXBvZGJFcEo3d2tmelg2QmN4Q1lkNGhnN1luQ3FCdnRMeUxlTHlTeGswVzNjWVBzdVI2ZWttdm5HR3REQ3lSd3JqSUltVTRuTTY2dWdVTFVsRUNyZGVTVDBkY2E1M3poNG8tNktZMjNtNWliR2dlRkxR?oc=5"
+        },
+        {
+          "title": "Bolsonaro favourite to win: What Brazil’s first round of elections tells us",
+          "source": "Al Jazeera",
+          "published": "2026-10-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONFNYOWdZdHlfVG10WEcxbzd6VFZMWHdLOUJPakRqaHE3WHc3QUhWOThfekVZUEVkLXM2cnAteXpEbzZkMjVfUWdELVBiQ0V6YUowQ2d1VlpMc2kxTXNjXzBrQ1Vxc0tnSXR2VHF5QlBIWmJZVjR2emtaTFFST3FuZ05QWnk4RkhFRktTZVc0Tk56bnItMmtTUGxvLVctc1R4bzlIMl80Qm1jNlNNVmI1Qjd4QdIBuAFBVV95cUxPVENXZUxia2R2T0VUY2FMZzRqQXM0bFFEdS1KWl85bEdOWUVNa1M4UnJMYW5HZ1FJZlB5Wk9iMHVSN0dDNV9Jb3hiMUVJTUJobEFiQjVVYjVNZS1XTTdQdzVCb3BVTXZOb25nemtsSEdHXzVOZGdLU0k1eW5STXp0TEw3Wktadng1OG1yZF9Eem9VUkdSdFFRZXdxV055SFM4VzZjNkhvOERkLWN0eGk3aVBrenp2OExJ?oc=5"
+        }
+      ],
+      "news_query": "Flávio Bolsonaro win Brazil Gadi Eizenkot become | Fall Elections Three-Way Brazil Israel US Senate",
+      "forecast": {
+        "probability": 0.03,
+        "reasoning": "Flávio Bolsonaro is favored in the Brazilian runoff, perhaps around 60-65%. Gadi Eizenkot becoming Israeli prime minister is unlikely, since other opposition figures such as Bennett are better positioned. Multiplied by about a 45% chance of a Democratic Senate, the combination comes to only a few percent."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-14T01:50:49Z",
+        "crowd": 0.375,
+        "best_bid": 0.37,
+        "best_ask": 0.38,
+        "volume": 102968,
+        "liquidity": 78387,
+        "fee_rate": 0.04
+      },
+      "bet_note": "No cash left for new bets; it's all in open bets."
+    },
+    {
+      "market_id": "5166969",
+      "event_id": "1111222",
+      "event_title": "3rd Largest Company end of October?",
+      "option": "Alphabet",
+      "question": "Will Alphabet be the third-largest company in the world by market cap on October 31?",
+      "rules": "This market will resolve to the third-largest company in the world by market cap on October 31, 2026, as of market close.\n\nThe resolution source for this market will be a consensus of credible reporting.",
+      "topic": "Economy",
+      "end_date": "2026-11-01T03:59:00Z",
+      "url": "https://polymarket.com/event/3rd-largest-company-end-of-october",
+      "snapshot": {
+        "time": "2026-10-14T01:48:42Z",
+        "crowd": 0.79,
+        "best_bid": 0.77,
+        "best_ask": 0.81,
+        "volume": 16522,
+        "liquidity": 3583,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "Could Investing $10,000 in Alphabet Today Make You a Millionaire?",
+          "source": "The Globe and Mail",
+          "published": "2026-10-09",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNR3JJdjl6U1BkZnJWM1hPSXhnWDdWZVpGT1h5cFJZVUo2TWFQd3p6aFVYeU1BcU1hbnJwM09QNkx6RTB2WnA5cFo4bE00QUdxdG96blNTV3JYXzlRWkNzbDBGYjhWQ01NZlRmMWlTNFdObktLa0FYd3BxR18xMlkwckNzS2dnUVkxajZFcy1fUmZMWWJ2TEZjYmhaYXc0Q0xKaVBiaWtqUXY1WlFJQWxwUGpZTkxzOG9jMF80ZjhRQmZETlNnbUo4eVBTTENPNzdxUlR1Y3g5YTRvUQ?oc=5"
+        },
+        {
+          "title": "Anthropic's IPO Could Put Amazon's and Alphabet's Paper Profits to the Test",
+          "source": "The Globe and Mail",
+          "published": "2026-10-01",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQNGcyT0NpcnNZZW5rTmxuUEpLTTRXOWdQN1pOaDZ6bWZyMVV1SENEcXViR2hHZzFFZjliRGlhcm5BcUl1ZEpVV1JQN2VvV3FhNGE3S3IzYnNYZGh4Si1ZYkdhZmRNZWplMWx2T2hicklqS2VPOTJYQU1LdmFBNDVpUFhmTUx6ejliR0hxNnZETG5vZjl3M0J1a2QxWVV1T21NdmlQcG9DVVB4c2xRRHhIQk5fbWY3QTVhWnFiSHl1VE5vN0JFeDJIR0JJeU9aWkNHVEJDM3JIU1FwSTh1SWd2QXdQN0tuaGdkM25ZQkhR?oc=5"
+        },
+        {
+          "title": "Alphabet president Ruth Porat on how Google is funding AI to win long term, and the biggest risks ahead",
+          "source": "Fortune",
+          "published": "2026-10-13",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5mdzhIaVFqOVJyNlFQcnlCVW1McWZjVUtnTXFhbi1NYzVvWElqRUFLMUExSEJndWVuVmdXeFJVdjNYOEI5Q0xvdC1TZm42eFlXSjhUZ3o0Q3VCeHBNbFFYVlp4WHc4SzJDM016NWlLeUQ3R2xpOXc?oc=5"
+        },
+        {
+          "title": "Prediction: Alphabet Could Be One of the Market’s Biggest Winners Over the Next 5 Years",
+          "source": "24/7 Wall St.",
+          "published": "2026-10-09",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPYldrcnVWWmE4aFZ1ZF9OTXh3dk5HMTFEWTdlQVQ3TVNKX0JneWYxNk1mLWJsVjA2ZC03cjhkTkdYNnp1N3UtNFYwTUxyeE9mUWlpMGpZSGt4UFJ0YWpfazk2dkx1bXRXbS1kNnNTNW9WNWttYjZib2NiRmxNbjd0ZXB0X1ZLVXFHTFY1eTB6aUYwQ3dPNl9tWU81SVRjVTN0MWFubW5BMEplRmNBbUl5WWVMSFFUUEhGSllsSFktYmVTZFF0Z2ZpWg?oc=5"
+        },
+        {
+          "title": "Prediction: Alphabet Stock Could Be Worth $700 by 2030",
+          "source": "24/7 Wall St.",
+          "published": "2026-10-12",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPLW1sQVlsSnAzNXlwX0djVTdRTHVGclNVUnczWEZJandFNm0tY1dic3dfLTMzNFBlMV85Z1R2c1hpVHBxOFkxaVgwZGtHSHJUY3o1b29TWm5MU1JhZHUxSFZ2dmFfdk5EclIycWttWTJmcFZDd0xpd2x2R01qMl9uS0xnV0FqLVg2QlZZbFJNWkN0U3lYdUM2ZDhFOEw?oc=5"
+        },
+        {
+          "title": "Better Quantum Computing Stock: Alphabet vs. IonQ",
+          "source": "The Motley Fool",
+          "published": "2026-10-04",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOUEpUVER3dnJSYXZRdTlLZFdnLUwyY2lhX3ZNZ3N1aUxvcmRiZW5oQWh5dE1CUnRGYXd3V1FLQ1BINDQ3WVBzS3k3bU81Ums2ZGRjaTV0QjFyb29sT21MenAyRllqUFNxS0Q4T1BsT0l2bXFfTUpPeU8tYUVxQVRnWTRQU2JoZU9UYktKTEp3a3Z1dkJS?oc=5"
+        }
+      ],
+      "news_query": "Alphabet third-largest company world market cap | rd Largest Company Alphabet",
+      "forecast": {
+        "probability": 0.4,
+        "reasoning": "Alphabet has been in close competition with Apple and Microsoft for the second-to-fourth spots behind Nvidia, and it overtook Microsoft in late 2025. It could plausibly sit at #2, #3 or #4 at the end of October, and I have no current figures to confirm its exact rank. The third slot is plausible but far from assured."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-14T01:50:50Z",
+        "crowd": 0.79,
+        "best_bid": 0.77,
+        "best_ask": 0.81,
+        "volume": 16522,
+        "liquidity": 3367,
+        "fee_rate": 0.04
+      },
+      "bet_note": "No cash left for new bets; it's all in open bets."
+    },
+    {
+      "market_id": "4869280",
+      "event_id": "1066669",
+      "event_title": "Next Muse Spark Model (1.4+) released on...?",
+      "option": "No release by October 31",
+      "question": "Will there be no next Meta Muse Spark model release by October 31, 2026?",
+      "rules": "This market will resolve according to the calendar date (ET) on which Meta's next Muse Spark model (1.4+) is made available to the general public.\n\nA qualifying model must have a name or model identifier that includes \"Muse Spark\" and be designated as version 1.4 or higher, regardless of capitalization, hyphenation, spacing, or surrounding prefixes, suffixes, dates, or descriptors. For example, a version 1.4 or higher named in the same manner as Muse Spark 1.2 or Muse Spark 1.3 would qualify, including a new whole-number generation such as Muse Spark 2, while models whose name does not include \"Muse Spark\" or which retain a version designation below 1.4, such as Muse Spark 1.3 (released September 2, 2026, including any of its reasoning modes, open-weight re-releases, rollouts, promotions, or snapshots), Muse Glimmer, or Muse Image, will not qualify.\n\nA qualifying model must be launched and publicly accessible, including via open beta or open rolling waitlist signups. A closed beta or any form of private access will not suffice. The release must either be clearly defined and publicly announced by Meta as accessible to the general public, or otherwise be made publicly accessible and explicitly labeled on the company's official website. Labeling errors, placeholder text, or version names displayed on the website that do not correspond to a model that is actually accessible to the general public will not qualify.\n\nThe primary resolution source for this market will be official information from Meta, with additional verification from a consensus of credible reporting.",
+      "topic": "Tech",
+      "end_date": "2026-10-31T23:59:00Z",
+      "url": "https://polymarket.com/event/next-muse-spark-model-1pt4-released-onptptpt-20260922133617102",
+      "snapshot": {
+        "time": "2026-10-14T01:48:42Z",
+        "crowd": 0.9,
+        "best_bid": 0.89,
+        "best_ask": 0.91,
+        "volume": 15043,
+        "liquidity": 3347,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "Introducing Muse Wonder and Muse Wonder Full: Frontier Models for Agents",
+          "source": "Facebook",
+          "published": "2026-10-12",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE91ZEsySi16NFVPeGtFbHE2SWRCalRUMjNWYnhKNVI2eFg3aC1ocEJwYWRvdC1zaHhYYXRWNjNna3FfOFQxZXZMMXhRcnpHSGpnR204cGpzMzcxQmxXUkZCcmNXNDFfUXNCTzlMQ2Nmb0ZHaWPSAXhBVV95cUxQd0VSRVJsQ2M3eEtsZXpISkd5VWlMRTlCd29BZ3E2MUNWWUNhczVIOEhMSFFaSjNuemNlZ3l4aW5QdjVBWG15d21rVlRGbV93eUgyVzZOa19tYjVuNktQVDZ4RGYzMjJQU3R4cUUzZFdkM0o3U2pLRUQ?oc=5"
+        },
+        {
+          "title": "Meta releases its first frontier model, Muse Wonder",
+          "source": "TechCrunch",
+          "published": "2026-10-12",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPRkdnR0wyZkdNUGRYU2hGTDdfWTRncjBxeThHRUVhWXRndW5OYU1Ya3FJWEtCdWwwY2d0c1FEd29KWExNN2N1VkRCU01hVW9NYjE5UWFFV3MzNDRpREQ3ZWJVaEhZbXJkN2JEdlV0QXpYcWtETVNXYXFfU1NrWXN6RzI2VjhpcjNtdmhpdnBB?oc=5"
+        },
+        {
+          "title": "Meta Launches Muse Wonder AI Models to Play Catch-Up With Rivals",
+          "source": "CNET",
+          "published": "2026-10-12",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQU1Y0UFdHdXdYYkstX3lYcmRKUUxESnh5cEx1Y0p3ZlgxM0ZoR3N0eEExNWZqaEZGVzYwb1VIRVM4NTdMeDdGazRlUUR6dGl4SWNLUHNIOUxoZGZERThIaDlTRi04WXZPT3Fqc3owNGNVanlWTTZvVTBmTEtQbFVNZjJyVnNSQQ?oc=5"
+        },
+        {
+          "title": "Meta has some Wonder Full new AI models",
+          "source": "The Verge",
+          "published": "2026-10-12",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPdU1sVHpGd1VNUXZ5djFJN2FsSGlNWGQzalhzdDd5emt2UnJrUkdoYVN0ZzNxVFp3N21ZWi1KMEZRQUIzM19jenIyMjgxWThaMUxubm13Zm02am1tVk9JRkhhd1B2VTNnVm9ZcmZfaWs0M3d1UnVRWUxSY0ZyOHhXMkNBeGVudXdiUE9KNDdmQlFQREx1?oc=5"
+        },
+        {
+          "title": "Meta launches Muse Wonder, catching OpenAI, Anthropic: How to try it, benchmark results",
+          "source": "Mashable",
+          "published": "2026-10-13",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9jQWhkclNlSmV2TEZzY19JYW8wQ3pkZVhFNzFLaElxdHh2bFprTGwyYWxIVmtMd2tEMEw3bjVaMFJfQU9xU0lVQ2Q1S2owb185YXFpdElfZzVxTnJ6b1FMSWdZaFJSTFFWb1dTRzBqbjJjcngyb0E?oc=5"
+        },
+        {
+          "title": "Meta's new Muse Wonder and Muse Wonder Full models achieve frontier performance, but only the weaker one is available via API",
+          "source": "VentureBeat",
+          "published": "2026-10-12",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOMUwyWl9PSVZmUHlCamxZRU80cnlBcjNUUkc1SFRTVVYybEI0Y0ZWZzNpbkdqSHU5a2ZyUGlDUlIwd0QyeDN1MGRRamx5YU41WF9WMTdJZ05nUDZGakt1LWkwQVhOS0ZPc2RCcXFEMFNPSmRiOXlsUmstdmsxcDVRLXg0TjhNVzZIeU91aEdFcDVhT1lJeXZicktoRm5UTWFFRXg5b1ZKaC1TSHFRTVVBY1Y0aWdBM1ROdHYtLU93OTl6V3RrM0UxdXUxODJhVnVqd3lXZ1NIMm1yeTlEYnNXamdHU0VwcDdNQ3VRbDlONA?oc=5"
+        }
+      ],
+      "news_query": "Meta Muse Spark model release",
+      "forecast": {
+        "probability": 0.75,
+        "reasoning": "Muse Spark 1.3 came out only on September 2, and Meta just launched a separate Muse Wonder frontier line on October 12. Releasing another Spark version within the remaining 17 days seems less likely than not. The status quo of no new Spark release is favored."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-14T01:50:50Z",
+        "crowd": 0.9,
+        "best_bid": 0.89,
+        "best_ask": 0.91,
+        "volume": 15043,
+        "liquidity": 3347,
+        "fee_rate": 0.04
+      },
+      "bet_note": "No cash left for new bets; it's all in open bets."
+    }
+  ],
+  "batch_id": "msgbatch_01S5BNkZgYPs5DHcRsiR5fGo",
+  "forecast_at": "2026-10-14T01:50:49Z",
+  "usage": {
+    "input_tokens": 9570,
+    "output_tokens": 1960
+  },
+  "cost_usd": 0.0387,
+  "budget": 0.0
+}
