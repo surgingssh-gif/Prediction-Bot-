@@ -123,5 +123,10 @@
     "outcome": 0,
     "resolved_at": "2026-10-14T14:33:12Z",
     "question": "Will Core CPI MoM be 0.2% in September?"
+  },
+  "5130978": {
+    "outcome": 1,
+    "resolved_at": "2026-10-15T22:32:19Z",
+    "question": "US x Iran ceasefire continues through October 15?"
   }
 }
