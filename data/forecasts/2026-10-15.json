@@ -1,0 +1,639 @@
+{
+  "run_id": "2026-10-15",
+  "date": "2026-10-15",
+  "created_at": "2026-10-15T01:24:33Z",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "phase": "1.1",
+  "pick_stats": {
+    "eligible": {
+      "Economy": 6,
+      "Entertainment": 2,
+      "Politics": 112,
+      "Tech": 3
+    },
+    "picked": 8
+  },
+  "questions": [
+    {
+      "market_id": "635012",
+      "event_id": "59234",
+      "event_title": "Alaska Governor Election Winner  ",
+      "option": "Bernadette Wilson",
+      "question": "Will Bernadette Wilson win the 2026 Alaska governor election?",
+      "rules": "This market will resolve according to the candidate who wins the 2026 Alaska gubernatorial election currently scheduled for November 3, 2026.  \n\nIf the results of the election are not confirmed by July 31, 2027, this market will resolve to \"Other\".  \n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in Alaska for the same candidate, this market will resolve based on official certification.",
+      "topic": "Politics",
+      "end_date": "2026-11-04T04:59:00Z",
+      "url": "https://polymarket.com/event/alaska-governor-election-winner",
+      "snapshot": {
+        "time": "2026-10-15T01:24:29Z",
+        "crowd": 0.215,
+        "best_bid": 0.21,
+        "best_ask": 0.22,
+        "volume": 234192,
+        "liquidity": 218219,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "Governor",
+          "source": "Alaska Beacon",
+          "published": "2026-10-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5MUEdrTUh5VF9uT08xdzIyVnIycGJ4eEllQzhQTm1RUmQ3enBWNThCN3pWR1dxemlJT0M3Z2FkdTZnMjR3ZWxIc3hSaGU3QmVqVmp4SklIVFAtRjVtMlpOVFp4dHZnYTNLZkRPZUlZWGNIcUxHMS1nUlR3?oc=5"
+        },
+        {
+          "title": "A Democratic upset is brewing in Alaska’s governor’s race as Trump’s popularity craters",
+          "source": "The Guardian",
+          "published": "2026-10-02",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQTnE5Q2N3dGlybDRWY0MzNmVWR3F5NTNzWGE5d2xHaDlraEg3b2p5WURiSlZJd2N5akpfZWVQdHdsVlpYTEVPelF1ajhpNXZwM19UY3RsWHZyZXJSQmhiTDFPRlRyRG1OWXBuZlp5MTlnclVfczZlbzFIdXlRa05BdHh4M3BwcTB4OHRoRXp0dC1ZdHZIdFZkeEFfaURSUQ?oc=5"
+        },
+        {
+          "title": "Democrat JKT raises $2.1M in Alaska governor’s race, more than double Republicans' total",
+          "source": "Alaska Public Media",
+          "published": "2026-10-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPRlhTeGxMLWFiTDZYLWxoZzZhSVEwdUtKT1hxNS01V2J0ZThsQkpnVHk4S2lBYmd0XzFMclFEU3hUX0x1NnVhNmI0bTlFMUFFOHdTc0J4UFdXTGJlenJ0Q1dUSDI2RV9za2VFZnN4dkNQUDJqbmVZTUlXcVhuTFpDRndwbm0xQm0wTmNSbG44MTFRSlYxWGljU3V3YjU1SkRqQUh4c1dsdG9jMkd3YV84VmtpcERrSkJWMDBFRkl4VmpZdUNBUUVPNlM5ejR2M1JVc28xM1ZpbFVEdEda?oc=5"
+        },
+        {
+          "title": "Governor candidate Bernadette Wilson has been sued repeatedly over unpaid bills, records show",
+          "source": "Anchorage Daily News",
+          "published": "2026-10-03",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNYlA3NDh3bERaRWdFUmNDbEdKN3dDVmRwemQ1SGtsbzRSNXlBbWl6TFdnYVBGckQwUDhoSUFOZk1qdklrcWFmTXpWZnotekNOUDBYcFUwanJ1cXRyYXJUajRlNnVwSy1KRXRQNWlaVmt1OEUwOEYzRGphWmprOEFBOFppTG1Va1phVlZ5UHFlM2FKMUcwOEdwMEZRTlk3aWhzSV83MWFubEFMclBldDU4V1c1VHFvWkJ3SktUcVZuMU84Q1h5bzRLbWhwV2tQZw?oc=5"
+        },
+        {
+          "title": "Trump endorses Wilson for Alaska governor",
+          "source": "Alaska's News Source",
+          "published": "2026-10-13",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQRDVwb29wQ2lSUlh6SURxbTQ3UWF2aUZwRkdHNzc5b1NuMmE5OFlPQksyVHVLTDJFa0FHUlRfeTR5T0dCdG9GLWlObGJyclBKZDBUWGtxTENhcWE2TkRhLThxaWF0TTNCQjhtQWZMNUpja3M1R0N2azBRcVEtcmJaMWhyMi1Uc19VMlcw0gGfAUFVX3lxTFBrS0NTYVZKdDYxUnQybFVCbTFrOXdiMXRpYlVFY18xUUtPZHRoYWJpTVd2T013UjlqY2pKSDZXOFhLUElLNmpiTW4xcUZhOFRPRmZtLU5iT0dGX2txbUZqa2RnMkw4dm56N0d1el9WTnFDS1NlczdqOU5SbDFFNjdkbE9QaWlWcHBFc1dsMHhqUUhvSUhhYjc4Yk1KaENIVQ?oc=5"
+        },
+        {
+          "title": "Cook moves three red-state governor’s races toward Democrats",
+          "source": "The Washington Post",
+          "published": "2026-10-14",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPRjRsWXJBX3JlNTdXYjhTd0x4bjI1VTVpQzRDUXphcU1ZRXROaDQ0X09RYlhxaHdRUEg5VVlSQVh5SFlvb1RZaGUzWVRya2FZYjZjMHkwY2hhU2V5VEozMWlpU2VLdk5hZWI3alY1enVBZ296WGpTbHZLNkE1S2t4Yml2Z2NCS01fTlRFbmZ3M1NONmZnX3lueDhvN1R6ZGJMUFpPVk5VOUhTVlJRMGJQMA?oc=5"
+        }
+      ],
+      "news_query": "Bernadette Wilson win Alaska governor election",
+      "forecast": {
+        "probability": 0.42,
+        "reasoning": "Alaska normally leans Republican, and Trump's late endorsement helps Wilson. But Cook has moved the race toward Democrats, the Democratic candidate is raising far more money, and Wilson faces stories about unpaid-bill lawsuits. Ranked-choice voting adds more uncertainty, so this is close to a toss-up with a slight Democratic tilt."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-15T01:27:06Z",
+        "crowd": 0.215,
+        "best_bid": 0.21,
+        "best_ask": 0.22,
+        "volume": 234192,
+        "liquidity": 191627,
+        "fee_rate": 0.04
+      },
+      "bet_note": "No cash left for new bets; it's all in open bets."
+    },
+    {
+      "market_id": "629545",
+      "event_id": "57184",
+      "event_title": "New York Governor Election Winner",
+      "option": "Bruce Blakeman (R)",
+      "question": "Will the Republicans win the New York governor race in 2026?",
+      "rules": "This market will resolve according to the winner of the 2026 New York gubernatorial election.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
+      "topic": "Politics",
+      "end_date": "2026-11-04T04:59:00Z",
+      "url": "https://polymarket.com/event/new-york-governor-winner-2026",
+      "snapshot": {
+        "time": "2026-10-15T01:24:29Z",
+        "crowd": 0.051,
+        "best_bid": 0.049,
+        "best_ask": 0.053,
+        "volume": 153073,
+        "liquidity": 103293,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "What to Know About the New York Governor’s Race",
+          "source": "New York Focus",
+          "published": "2026-10-14",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE95ZlRrYzFaLUFxc2JRRkZxYXlCamxJWjBfUHVmSG5YX2pKZGFQX3ZJUmdyZzRZd3BXNlRqaXZ5Y0YtbEh6X3UxN3VjOTJyZVRIbFdsRzcwWUJHbFM3Y09DcmFKbGZCSGdFUElzOW91VHdUU1BZU2lya1BDTQ?oc=5"
+        },
+        {
+          "title": "Hochul holds double-digit lead for New York governor, new poll finds",
+          "source": "The Hill",
+          "published": "2026-10-08",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPUjZ5aHduZkhCZVdieGFsaHFSMDZaOW1ENUZPck5BOVpnUG9BRVg4OS16N1lwX1ZTV3dGbldpMWxTUWs3YjlYY0Z2MzVlOEpZbXp4bDczemhxNC02UUdad09rX0lPMC1LXzZjT0FEZUtwOS1vMWlTUHNWRkpfanN3ZXFoSkFGX2Ywdk1HekZ30gGTAUFVX3lxTE02aU8zR0ZsRmRkc1hVU2FaZm4wSmV2aDNLYnlTZUQtLU82c0ZQTzQ1cFRsYlJoeUItbGRYcnpPVVBIcHhTdUlDVUQtb2NUR29ubGh2bnlTNVJLWDMyaktVLU05bmNlWTNPc2NabjZUYmU1ZDV0R3Z2N3dwN2VvMmdQN2lKMm92bTdwYzdHWFFaTTF0VQ?oc=5"
+        },
+        {
+          "title": "WATCH: Trump rallies with New York's GOP gubernatorial candidate Bruce Blakeman",
+          "source": "PBS",
+          "published": "2026-10-09",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQSDY5a3BXNTIyXzc4bzFCZ0ZzRmZxVndjU0xzRThUYWF2d21tQ3NLNnloS21pb3RjOWFnYU9kUGYwR0haLVU1ejY3bTJnRmpuR2JjUDZlS1hyQktFVHFNajNJUGtCNFhuNHZuSWFNaXlYNXp6SkpZYkpLSk51ZFF6dExPbHlva0t1cVNNeWZUbThaWlZwZEVEX3Y3dWdrRmNpc1BqM2IwcmhFeUdLbEl6UU4xU1ZhejNUZGdXVdIBwgFBVV95cUxPSUkxVC1pS1FpeDd2SDFvTmRwczVHSEhiV3RmQ0QyZ2VmMElDRlgwYnBtbERILUd6amhXM2xDaVMtLWQxdTgySU9XSEtpNlhCZXNUY3B1WmlueWVsMDJ0RWZaOUxnY3N3MXZIMzF6TkRsNk5PZEg1UVJjMU1PM3pleldPMlE3M3Jmak1rclREUEtRVDVNa29JYjFNR0g2VENJTTY4RGYxNGdmM1I2UTNvZXpKZzBkRnh0dl9ySEpoU3kxdw?oc=5"
+        },
+        {
+          "title": "Trump emerges as the main character in New York governor debate",
+          "source": "Politico",
+          "published": "2026-10-14",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQWXRfeXk3U0xjeXZvdTlIeFU2RkV1NmRNdFNiU1pZSU5jOXpGVTZpajNlRUphMTFGVUhPNFhFWWgtaXV5ckFjaU81TUxtX3lOc1pkSlBiUWFlZDJxSXFxSnRJQWcwWHJPWnRabWRGUktsOTRTcGFTWjRua2lzVVZ4eHAxMVlLZjVa?oc=5"
+        },
+        {
+          "title": "Democrats Lead Governor Races Deep in Republican Territory, Polls Show",
+          "source": "The New York Times",
+          "published": "2026-10-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQdzl3OEVkaldjTGpnY3dqbTR4QjJhaVg5TTFDTFFjbm1vckNaaFQ3N1V6VmtFUFA5Q3JfaUZoc3A5V21zVXpQMzVWUlJBbVA3ZnlHSDJOSkZRS09HMExZNDJlY1JPNG50QUowa0xub01xVlpKMWliSVhQMWVoeWZ6bEZTM3dqUVFt?oc=5"
+        },
+        {
+          "title": "Who’s really winning Hochul-Blakeman N.Y. governor race? New poll offers clues",
+          "source": "SILive.com",
+          "published": "2026-10-07",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQS05hZ3VEbkMxOHJFdjdWeEI3TU5iY1BtUUV0bDEtblU4QXFKd0djX19iUEJ3TERoMTBzZVg5ZngtejRWZVBkbm1RTkZaVEkwMWJ6V19uY0h5Q2ZoUW16LV9WSy1wR1RsbnFjN1pEa3pqOUI0RXQ2bGQ2bmpsazRYMzJtd21tSWMxcm5UR1ctVUQ5dHRKMUZwc3lvcW5lUE01SFNGZkVvSzZyMWlLOE13ay1PYmR5Tjc4SHJj?oc=5"
+        }
+      ],
+      "news_query": "Republicans win York governor race",
+      "forecast": {
+        "probability": 0.07,
+        "reasoning": "Polls show Hochul with a double-digit lead over Blakeman in a deep-blue state. The national environment also appears to favor Democrats. A Republican win would require a major polling miss."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-15T01:27:06Z",
+        "crowd": 0.051,
+        "best_bid": 0.049,
+        "best_ask": 0.053,
+        "volume": 153073,
+        "liquidity": 103293,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Gap vs. the price we'd pay is 1.7 points, under the 10-point minimum."
+    },
+    {
+      "market_id": "629544",
+      "event_id": "57184",
+      "event_title": "New York Governor Election Winner",
+      "option": "Kathy Hochul (D)",
+      "question": "Will the Democrats win the New York governor race in 2026?",
+      "rules": "This market will resolve according to the winner of the 2026 New York gubernatorial election.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
+      "topic": "Politics",
+      "end_date": "2026-11-04T04:59:00Z",
+      "url": "https://polymarket.com/event/new-york-governor-winner-2026",
+      "snapshot": {
+        "time": "2026-10-15T01:24:29Z",
+        "crowd": 0.9495,
+        "best_bid": 0.947,
+        "best_ask": 0.952,
+        "volume": 81489,
+        "liquidity": 55557,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "What to Know About the New York Governor’s Race",
+          "source": "New York Focus",
+          "published": "2026-10-14",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE95ZlRrYzFaLUFxc2JRRkZxYXlCamxJWjBfUHVmSG5YX2pKZGFQX3ZJUmdyZzRZd3BXNlRqaXZ5Y0YtbEh6X3UxN3VjOTJyZVRIbFdsRzcwWUJHbFM3Y09DcmFKbGZCSGdFUElzOW91VHdUU1BZU2lya1BDTQ?oc=5"
+        },
+        {
+          "title": "WATCH: Trump rallies with New York's GOP gubernatorial candidate Bruce Blakeman",
+          "source": "PBS",
+          "published": "2026-10-09",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQSDY5a3BXNTIyXzc4bzFCZ0ZzRmZxVndjU0xzRThUYWF2d21tQ3NLNnloS21pb3RjOWFnYU9kUGYwR0haLVU1ejY3bTJnRmpuR2JjUDZlS1hyQktFVHFNajNJUGtCNFhuNHZuSWFNaXlYNXp6SkpZYkpLSk51ZFF6dExPbHlva0t1cVNNeWZUbThaWlZwZEVEX3Y3dWdrRmNpc1BqM2IwcmhFeUdLbEl6UU4xU1ZhejNUZGdXVdIBwgFBVV95cUxPSUkxVC1pS1FpeDd2SDFvTmRwczVHSEhiV3RmQ0QyZ2VmMElDRlgwYnBtbERILUd6amhXM2xDaVMtLWQxdTgySU9XSEtpNlhCZXNUY3B1WmlueWVsMDJ0RWZaOUxnY3N3MXZIMzF6TkRsNk5PZEg1UVJjMU1PM3pleldPMlE3M3Jmak1rclREUEtRVDVNa29JYjFNR0g2VENJTTY4RGYxNGdmM1I2UTNvZXpKZzBkRnh0dl9ySEpoU3kxdw?oc=5"
+        },
+        {
+          "title": "Democrats Lead Governor Races Deep in Republican Territory, Polls Show",
+          "source": "The New York Times",
+          "published": "2026-10-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQdzl3OEVkaldjTGpnY3dqbTR4QjJhaVg5TTFDTFFjbm1vckNaaFQ3N1V6VmtFUFA5Q3JfaUZoc3A5V21zVXpQMzVWUlJBbVA3ZnlHSDJOSkZRS09HMExZNDJlY1JPNG50QUowa0xub01xVlpKMWliSVhQMWVoeWZ6bEZTM3dqUVFt?oc=5"
+        },
+        {
+          "title": "Hochul leads Blakeman by 11 points, but upstate tells a different story",
+          "source": "Syracuse.com",
+          "published": "2026-10-07",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOQlh3cnBid3I3VmQ0RmZjVi1mWllaMXE4VVFpbGF5blNVM1FTV3VPQ0RNUzBDX0pPSGptSFJUU0g5RXltcHFUbWR5dzNMVDFNS005SlhDYW9QNTU2WnVac2JLQ1c1R3ZTN2NCVHQ5RXlybXhTVVhsZFRwT1hXVHJEeVh6dHN5MGtXRzdKc0lDNDRhYldGTDhFci02X1RtOXpPZXVPQW5ISlJSUEU?oc=5"
+        },
+        {
+          "title": "Hochul holds double-digit lead for New York governor, new poll finds",
+          "source": "The Hill",
+          "published": "2026-10-08",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPUjZ5aHduZkhCZVdieGFsaHFSMDZaOW1ENUZPck5BOVpnUG9BRVg4OS16N1lwX1ZTV3dGbldpMWxTUWs3YjlYY0Z2MzVlOEpZbXp4bDczemhxNC02UUdad09rX0lPMC1LXzZjT0FEZUtwOS1vMWlTUHNWRkpfanN3ZXFoSkFGX2Ywdk1HekZ30gGTAUFVX3lxTE02aU8zR0ZsRmRkc1hVU2FaZm4wSmV2aDNLYnlTZUQtLU82c0ZQTzQ1cFRsYlJoeUItbGRYcnpPVVBIcHhTdUlDVUQtb2NUR29ubGh2bnlTNVJLWDMyaktVLU05bmNlWTNPc2NabjZUYmU1ZDV0R3Z2N3dwN2VvMmdQN2lKMm92bTdwYzdHWFFaTTF0VQ?oc=5"
+        },
+        {
+          "title": "2026 Governor Elections Map",
+          "source": "270toWin.com",
+          "published": "2026-10-01",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA4OGl1RXF6U1RwZEYwcjNaQXE3NmpwaFpUQWlGa0ttbTdVQ2tSbm1ta3cxZGtNb2RRQmd6eXlOeEZMU3FrMks1OG9oS1MtOV80TTdwTjhJOWlkbHpN?oc=5"
+        }
+      ],
+      "news_query": "Democrats win York governor race",
+      "forecast": {
+        "probability": 0.93,
+        "reasoning": "Hochul leads by about 11 points in multiple polls in a strongly Democratic state, during an election cycle that favors Democrats. Weaker upstate numbers are not enough to overcome the statewide margin."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-15T01:27:06Z",
+        "crowd": 0.9495,
+        "best_bid": 0.947,
+        "best_ask": 0.952,
+        "volume": 81365,
+        "liquidity": 54976,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Gap vs. the price we'd pay is 1.7 points, under the 10-point minimum."
+    },
+    {
+      "market_id": "5700129",
+      "event_id": "1189922",
+      "event_title": "Will the Tesla Roadster fly for 1s+?",
+      "option": "",
+      "question": "Will the Tesla Roadster fly for 1s+?",
+      "rules": "Tesla is holding an event on October 15, 2026 at 8:55 PM ET where the company is expected to showcase an updated version of the Tesla Roadster.\n\nThis market will resolve to \"Yes\" if any version of the Roadster (including a prototype or other non-final version) that is physically present at the event performs a maneuver, under its own power, that makes the entire vehicle, including all four wheels, completely airborne, with no part contacting the ground or any supporting structure, for one continuous interval of at least 1.0 seconds. Otherwise, this market will resolve to \"No\".\n\nThe qualifying maneuver may use any method of propulsion (e.g., thrusters, suspension, or any other onboard mechanism), but the vehicle must propel itself into the air entirely on its own. A powered jump qualifies even if onboard propulsion does not continuously support the vehicle while airborne. Remote control is permitted. \n\nThe following will NOT qualify for a \"Yes\" resolution:\n- The vehicle using its own momentum to launch off a ramp, incline, or similar structure\n- The vehicle being lifted, thrown, or otherwise assisted in becoming or remaining airborne by any external means, including but not limited to cables, cranes, rigging, drones, or people\n- The vehicle using an external power supply during the maneuver\n- Any footage, simulation, animation, or pre-recorded video of the vehicle appearing to fly, shown at the event but not performed live\n\nSafety tethers or other external connections are permitted only if they provide no lifting force, support, propulsion, or power during the qualifying maneuver. Recordings of a maneuver performed live at the qualifying event may be used as evidence; demonstrations recorded before the event and merely played during it do not qualify.\n\nThis market is specifically about the Tesla event scheduled for October 15, 2026 at 8:55 PM ET. A demonstration at a separate location qualifies if Tesla presents it live as part of the event. A subsequent standalone demonstration does not qualify unless it forms part of an officially announced continuation of the event. If this event is postponed or rescheduled, this market will remain open and will resolve based on the rescheduled event, provided it takes place by October 31, 2026, 11:59 PM ET. The qualifying maneuver must occur by that deadline. If no qualifying maneuver has occurred by then, this market will resolve to \"No\".\n\nThe primary resolution source for this market will be video of the qualifying event, including Tesla’s official livestream. Official Tesla statements or a consensus of credible reporting may also be used to resolve this market, provided they establish that the maneuver met the conditions above. A general claim that the Roadster “flew,” without establishing those conditions, will not alone qualify.",
+      "topic": "Tech",
+      "end_date": "2026-10-16T03:59:00Z",
+      "url": "https://polymarket.com/event/will-the-tesla-roadster-fly-for-1s",
+      "snapshot": {
+        "time": "2026-10-15T01:24:29Z",
+        "crowd": 0.475,
+        "best_bid": 0.47,
+        "best_ask": 0.48,
+        "volume": 17222,
+        "liquidity": 5991,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "Can the New SpaceX-Spec Tesla Roadster Actually Fly? Here’s What FAA Rules and Physics Tell Us",
+          "source": "MotorTrend",
+          "published": "2026-10-14",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOYkJIMmFITVlzc1Zjck5UbG1vUVZOSWtjQUJlaHg3dUJSRDNjbjN4TVpiYW5mNVB5TTlhNlJOWnBCckxhWndKSGNOQTF6cjUwVHRmcEFmX2JlZ0ptQjJRMVlCVWpRbl9uaEFFb24tS2VDU0gzLWhnTmRGRUQ4cTdjbjhIYmVOWVNqcEFF?oc=5"
+        },
+        {
+          "title": "Do you believe it can fly? Tesla Roadster to make debut",
+          "source": "Axios",
+          "published": "2026-10-14",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4xUGdwci11VXdMUzBmMjZkRHVFRVJTZE9jLUZLZU9hY0NFU1NqRHJCWGRfRkN6Q1lRTHVvMVBaVEZrQ1JzR3JXQzcyX2d1azhBLXJCN25oXzF0WkVSNHdiblA3VVZBY2gzUGROZWdwT0JMeGc?oc=5"
+        },
+        {
+          "title": "Tesla Roadster’s 10 Thrusters, Zero FAA Approval [2026]",
+          "source": "https://tech-insider.org/",
+          "published": "2026-10-14",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNRlptcGFQSGlUenNQWVdPaXVPUmhfOFMwS2ZVNm5Qb2Z1ZWRIZWI5ejM2a1dXUng0VVZZRTZCMHR6YXgtS1ZBNjliSGY3d05iSmNOdlJnck1KV2pFYk1vS0RLUGNDUUlvV0dCb0NibWJRaEFyQklmUTFQSjVMVXpXMQ?oc=5"
+        },
+        {
+          "title": "Tesla’s Roadster 2 Is Late—and Entering a Different EV World",
+          "source": "WIRED",
+          "published": "2026-10-14",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNczk5UHJraXZ0ZWxLMTZaZmVGT0RsM2QzY1Mzd01qVUwyOENSZVZTNExfaFhRN3dCODVTc1dzYzFFazQ5cm81VWR2N2hzVlpHZk5CeTgtY3dDbHVlbi02NXZybmttYmE3OE5IbTZJR2ZlcTNZY0tFV3pMOFdDZXRsMHhUMWhpcDNNUzFqQXhVblI?oc=5"
+        },
+        {
+          "title": "They Paid $50,000 and Waited Nine Years. Will Tesla’s Roadster Live Up to the Hype?",
+          "source": "WSJ",
+          "published": "2026-10-07",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQbFNWYlBmSmtGZVVTR3l6N0o2X0VBeldFU2ZoLVRjckNwOUwyNzVEaENSb0RXWUVJMGFtemNDQXNaLWhNeElacG9NdHZ3dUN2N093cjl6RzZNbU5GQUt2WDNZN2FlZ2dQYnlkYzA3N0pubWdYakoxWXJ6QS1xdlJ1SlhuRFVnT09zRVU2RmNXT0dpc09yTHlBbko1akNmZDFfNkdzT0xvaGpwUmNjUHQ3SjlRUTdReXJVOERDUDFESlU?oc=5"
+        },
+        {
+          "title": "Tesla To Reportedly Unveil Design For ‘Flying’ Roadster This Month – Elon Musk Once Described It As ‘Crazier’ Than All James Bond Cars Combined",
+          "source": "Stocktwits",
+          "published": "2026-10-14",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOOEtFV0tkY2N4b0Jyei1HNllDeWY2anRmbjF4VkJYakJPdGRjS1hXQ01BbGY3eWNJT2YtMUJ6SkhFOFJrenpTUFlveXhLNExjeVdxdkZOemZycE13dXhGN2o3T1JFNlF1T0NlUk8yVURRVmRhdm11TGM4NVVJSGlOcFpYTWtZcjctNXhEX3lQQ3B1ZXhQNnFGeVRNOElTMFMzWlNjUEhVNEp3WVhxT3ZuVGR2Tkd0VTlwSjJmeUk2VC04Xy01TFpSSmxmSm5idmpXekItNw?oc=5"
+        }
+      ],
+      "news_query": "Tesla Roadster fly",
+      "forecast": {
+        "probability": 0.04,
+        "reasoning": "Reporting notes the car has no FAA approval, and physics experts are skeptical. Musk's 'flying' claims are likely to be shown through video or limited thruster demos rather than a live, self-powered flight of at least one second. Tesla unveils often rely on hype and prerecorded content."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-15T01:27:07Z",
+        "crowd": 0.475,
+        "best_bid": 0.47,
+        "best_ask": 0.48,
+        "volume": 17222,
+        "liquidity": 6662,
+        "fee_rate": 0.05
+      },
+      "bet_note": "No cash left for new bets; it's all in open bets."
+    },
+    {
+      "market_id": "5406454",
+      "event_id": "1148789",
+      "event_title": "\"You Can See Everything\" Opening Weekend Box Office",
+      "option": "7m+",
+      "question": "Will \"You Can See Everything\" Opening Weekend Box Office be at least 7m?",
+      "rules": "This market will resolve according to how much \"You Can See Everything\" Opening Weekend Box Office will gross domestically on its opening weekend. The \"Daily Box Office Performance\" figures found on the \"Box Office\" tab on this movie's The Numbers (https://www.the-numbers.com/) page will be used to resolve this market once the values for the 3-day opening weekend (October 16 - 18) are final (i.e., not studio estimates).\n\nIf the reported value falls exactly between two brackets, then this market will resolve to the higher range bracket.\n\nPlease note, this market will resolve according to the The Numbers figures provided under Weekend Box Office Performance for the 3-day weekend (which typically includes Thursday's previews), regardless of whether domestic refers to only the USA, or to USA and Canada, etc.\n\nIf there is ambiguity as to whether the resolution source's figures are final, this market will remain open until both https://www.boxofficemojo.com/ and https://www.the-numbers.com/ have confirmed their finalized figures.\n\nIf there is no final data available by October 23, 2026, 11:59 PM ET, another credible resolution source will be chosen.",
+      "topic": "Entertainment",
+      "end_date": "2026-10-18T12:00:00Z",
+      "url": "https://polymarket.com/event/you-can-see-everything-opening-weekend-box-office-20261007000529685",
+      "snapshot": {
+        "time": "2026-10-15T01:24:29Z",
+        "crowd": 0.805,
+        "best_bid": 0.79,
+        "best_ask": 0.82,
+        "volume": 10451,
+        "liquidity": 2428,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "Box Office: ‘Street Fighter’ Aims for $30 Million Opening, ‘You Can See Everything’ Could Score $8 Million Start",
+          "source": "Variety",
+          "published": "2026-10-14",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPbVVQTkpUMktkWHN1SWpDMVFEYWFMZHVEZEZJWlpUUUh4UkN5d0RkeDNQT1MzQTRtel9obDljbjJBMkhQejY5RHRzT2ZCYlRjMDNILV9LZ0h4X2lpYk92LTVjcmlPZFpyQTlXeldDRkR1NzUxd3VnSjRrSWNyMFc3ZTNuRGRsQXJydTlrM01JeU9WdHNrdHZQVTVfdzc5V0lENzg0ZnhtOWIxQQ?oc=5"
+        },
+        {
+          "title": "'You Can See Everything' Could Turn Its Buzz Into The Biggest Doc Box Office Opening Since COVID",
+          "source": "TheWrap",
+          "published": "2026-10-15",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQakEtY3QwVm5jODJlVFNaSTltV1NEX2FIem42ejFuV280bHFzYUFpc2ZSYnpscGcwTVpTU1hYaTh5NGRzaXpGdzQ0aE1Ubm1qQ1pSMW1TT2pWR0kzZE9kNllqVnFxQktQZXRXVGNYOFlyQTN6UUc1SWNqNVZuUmRwRnBFdG93UHY2eGxHTktNX19ab1J4?oc=5"
+        },
+        {
+          "title": "Box Office: 'Street Fighter' Eyes $70M Global Opening, First Paramount WB Movie",
+          "source": "Deadline",
+          "published": "2026-10-14",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQTUZoZU1RdE05UGpGdnpzQzlpTmR2MERxTlFPY3YyU3Voa056YUFZRU4zTEpiaUpRMlUwOUNiSjkybVotVm9BTGpLQ1lFalY0OGZfaEtSbWlDZVRlYTNCbV9wVVR1WjE1ajA0bVV2QUgyMnFPTy1jTXNqdnItdm5qNHR4cjNTanY5ZHdEbEF2dHBGdw?oc=5"
+        },
+        {
+          "title": "WEEKEND WARRIOR EARLY PREDICTIONS (for Paid Subscribers) for October 16, 2026",
+          "source": "Edward Douglas | Substack",
+          "published": "2026-10-12",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBaYm42Q29jQV9XTG83RDFzQU1hekstMW5Mbnk5RFB4RHF6VlJzcWZ3MjJjU2lLakZpX1doajlybVBGc0VVNElIMldad3NtV1BVQzA3RUk2eW16MU94Y2NmSEJjOEJOZmFKdWczcEpsWm9QTXZzTlc4SFBR?oc=5"
+        },
+        {
+          "title": "4-Week Box Office Forecasts: Latest Projections for STREET FIGHTER, CLAYFACE, GODZILLA MINUS ZERO, and More – Box Office Theory",
+          "source": "Box Office Theory",
+          "published": "2026-10-09",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNOGtKcWM2Ti1IaUNzLUt0S1JyT3VXQnpMVHR4WXQyYVB5bWdyQ2h0WTJFay1vaGRpYWJXNEx6TlFVeDJtWmwwdEQ5ZG5KQVNIR2wtYmZwMDM2RjBicDl5dEFSTzR3WVJlZGxackltQmdKNFNmV3kxYl83WHlULVlsNm8xRU1Pcm05YVFqVlloQWZCUlNrVzJKdVpvS3lyS2RWc3IwaHR5eUU5MlZjZV9TdGJvLVNFLVMxWWgzZW5iTWhQZw?oc=5"
+        },
+        {
+          "title": "Weekend Box Office: Other Mommy Scares Up an Impressive Debut",
+          "source": "Rotten Tomatoes",
+          "published": "2026-10-12",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQV1pIbVVwUHRic016dTE5dnlDeGRTdmdRU3FxelJXdVBXaGxWMUlyNDRfZFMyaGRFQjJfSDR0NjNYd0FVSjlPZTk5VFgxaVF4TDRRRnQxeUJEWWZZQ05oUEJEOXFwMURJNEgxclcxOEVaS09neHJBWUZhWDgtMzB3Vk12OTRIRmNPNFpn?oc=5"
+        }
+      ],
+      "news_query": "You Can See Everything Opening Weekend Box",
+      "forecast": {
+        "probability": 0.55,
+        "reasoning": "Variety projects about an $8M opening, and TheWrap points to strong buzz, which puts the projection modestly above the $7M line. Documentary openings are hard to forecast and can underperform their tracking. Overall this is slightly better than even."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-15T01:27:07Z",
+        "crowd": 0.805,
+        "best_bid": 0.79,
+        "best_ask": 0.82,
+        "volume": 10451,
+        "liquidity": 2428,
+        "fee_rate": 0.05
+      },
+      "bet_note": "No cash left for new bets; it's all in open bets."
+    },
+    {
+      "market_id": "3347918",
+      "event_id": "798441",
+      "event_title": "Bank of Brazil decision in November?",
+      "option": "No Change",
+      "question": "Will the Bank of Brazil make no change to the target for the Selic rate at the November meeting?",
+      "rules": "This market will resolve according to the change in basis points in the target for the Selic rate resulting from the November 2026 meeting of the Bank of Brazil’s Monetary Policy Committee (COPOM), relative to the level it was prior to this meeting.\n\nThe resolution source will be official information from the Bank of Brazil, including the statement or release from its November 2026 Monetary Policy Committee meeting, scheduled for November 3-4, 2026, as listed on the official Bank of Brazil calendar (https://www.bcb.gov.br/en/about/bcb-calendar?categoria=Monetary%20Policy%20Committee%20(Copom)). This market may resolve as soon as the statement or release of the Bank of Brazil's November 2026 Monetary Policy Committee meeting with relevant data is issued. \n\nIf the specified rate is defined by an upper and lower bound, the relevant change will be the change to the upper bound. \n\nIf the specified rate is changed to a level not expressed in the displayed options, the change will be rounded according to the following guidelines. Increases or decreases of less than 25 bps will be rounded to 25 bps (e.g. an increase or decrease of 10 bps would be considered to be an increase or decrease of 25 bps). Increases or decreases of greater than 25 bps will be rounded to the nearest 25 bps and will be rounded away from 0 in cases of equidistance (e.g., an increase or decrease of 37.5 bps would be considered to be an increase or decrease of 50 bps). Displayed options of “Increase” or “Decrease” will include policy rate increases or decreases of any size.\n\nIf the specified meeting is postponed to a date and time before the start of the next scheduled meeting, this market will resolve based on the outcome of that postponed meeting.  If the specified meeting is cancelled, or postponed such that no decision is announced by the start of the next scheduled meeting, this market will resolve to the “No Change” bracket. Emergency changes to the specified rate not resulting from the specified meeting will not be considered.",
+      "topic": "Economy",
+      "end_date": "2026-11-04T11:59:00Z",
+      "url": "https://polymarket.com/event/bank-of-brazil-decision-in-november-1785878499354",
+      "snapshot": {
+        "time": "2026-10-15T01:24:29Z",
+        "crowd": 0.1015,
+        "best_bid": 0.097,
+        "best_ask": 0.106,
+        "volume": 18121,
+        "liquidity": 5973,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "Brazil Rally And Strong Earnings Could Reframe Nu Stock (NU)",
+          "source": "Simply Wall Street",
+          "published": "2026-10-09",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOLWlOQmREUEMxanBadmp4OU03UmotUGNHSkl4SjN6LUwxcVZVSmtOdVVzYmp3ZDhEVkJyZk1iRGV2V1ZDY1B6aDdTLTdrTWc2TDZDT3gyVzV1WTlSMTExTm1yUDVwa3VPYmFDa0VQM0o1NmpERm9aZU1Wc2Q5bEpnQ3lYby1aWmJxeDhQUGxVM1kzUFFPd093UlpTQW12TnpXU3M0cGkyTTFkdHB5MWxrWEhISExDS0w5NG1Nd0xB0gHDAUFVX3lxTE41WmNVdHdocXpNaU9LQl9PVFNQbFU1d2U3YkRnQmF0R0I0dXRDSXBqNmFBRW9KNGxySzg5dUtGaWsteVJEMTZwVk5kaW5sQTdEc20zNDZsVUdGaFZQbzl3TzVBX19kWXozWndzYkEyeHZRYnRwTDQ3WDZlS2JQRllXMTRQNnEyS1p4RVZwQmV0amN0bWpCSU5CRGN3NkpWbXF2dmJSZks1dXo1TzA3cUFzTW0zS0pUMkMzQUZwejVyV1pvMA?oc=5"
+        },
+        {
+          "title": "Binance Drops Eight Services in Brazil as New Crypto Rules Take Effect in October",
+          "source": "CryptoRank",
+          "published": "2026-10-09",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQbWlCWkhrdjQwZnN4bXBLU3M1MWZZS21zOVNHMHhKUG1kY2hOVmVBRFZmbGptRmY3UXYtbXFBdUpPS294ZVFqSGNQREs1TVVuYm92cjh3SzFVSGtsUHlyMGZJOVdGVVJMYXdZM2dURC00M1dRTm9uYTh2OXNUNkYzTkVvNDF6RWF4Rm5WVHduSzNkeUY3YWV4NzNqU3J2WjNjZ2ZFU3pYb21xMk55ZVRXaEk5WUNKMUh4eWZF?oc=5"
+        }
+      ],
+      "news_query": "Bank Brazil change target Selic rate meeting | Bank Brazil decision Change",
+      "forecast": {
+        "probability": 0.3,
+        "reasoning": "Brazil's central bank was widely expected to be in an easing cycle from very high rates during 2026, which favors a cut in November. However, post-election uncertainty or currency pressure could prompt a pause. A hold is a meaningful minority outcome."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-15T01:27:07Z",
+        "crowd": 0.1015,
+        "best_bid": 0.097,
+        "best_ask": 0.106,
+        "volume": 18121,
+        "liquidity": 5506,
+        "fee_rate": 0.05
+      },
+      "bet_note": "No cash left for new bets; it's all in open bets."
+    },
+    {
+      "market_id": "5394324",
+      "event_id": "1145629",
+      "event_title": "\"Street Fighter\" Opening Weekend Box Office",
+      "option": "<25m",
+      "question": "Will \"Street Fighter\" Opening Weekend Box Office be less than 25m?",
+      "rules": "This market will resolve according to how much \"Street Fighter\" Opening Weekend Box Office will gross domestically on its opening weekend. The \"Daily Box Office Performance\" figures found on the \"Box Office\" tab on this movie's The Numbers (https://www.the-numbers.com/) page will be used to resolve this market once the values for the 3-day opening weekend (October 16 - 18) are final (i.e., not studio estimates).\n\nIf the reported value falls exactly between two brackets, then this market will resolve to the higher range bracket.\n\nPlease note, this market will resolve according to the The Numbers figures provided under Weekend Box Office Performance for the 3-day weekend (which typically includes Thursday's previews), regardless of whether domestic refers to only the USA, or to USA and Canada, etc.\n\nIf there is ambiguity as to whether the resolution source's figures are final, this market will remain open until both https://www.boxofficemojo.com/ and https://www.the-numbers.com/ have confirmed their finalized figures.\n\nIf there is no final data available by October 23, 2026, 11:59 PM ET, another credible resolution source will be chosen.",
+      "topic": "Entertainment",
+      "end_date": "2026-10-18T12:00:00Z",
+      "url": "https://polymarket.com/event/street-fighter-opening-weekend-box-office",
+      "snapshot": {
+        "time": "2026-10-15T01:24:29Z",
+        "crowd": 0.0865,
+        "best_bid": 0.07,
+        "best_ask": 0.103,
+        "volume": 10418,
+        "liquidity": 2861,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "Box Office: ‘Street Fighter’ Aims for $30 Million Opening, ‘You Can See Everything’ Could Score $8 Million Start",
+          "source": "Variety",
+          "published": "2026-10-14",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPbVVQTkpUMktkWHN1SWpDMVFEYWFMZHVEZEZJWlpUUUh4UkN5d0RkeDNQT1MzQTRtel9obDljbjJBMkhQejY5RHRzT2ZCYlRjMDNILV9LZ0h4X2lpYk92LTVjcmlPZFpyQTlXeldDRkR1NzUxd3VnSjRrSWNyMFc3ZTNuRGRsQXJydTlrM01JeU9WdHNrdHZQVTVfdzc5V0lENzg0ZnhtOWIxQQ?oc=5"
+        },
+        {
+          "title": "Box Office: 'Street Fighter' Eyes $70M Global Opening, First Paramount WB Movie",
+          "source": "Deadline",
+          "published": "2026-10-14",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQTUZoZU1RdE05UGpGdnpzQzlpTmR2MERxTlFPY3YyU3Voa056YUFZRU4zTEpiaUpRMlUwOUNiSjkybVotVm9BTGpLQ1lFalY0OGZfaEtSbWlDZVRlYTNCbV9wVVR1WjE1ajA0bVV2QUgyMnFPTy1jTXNqdnItdm5qNHR4cjNTanY5ZHdEbEF2dHBGdw?oc=5"
+        },
+        {
+          "title": "Street Fighter Box Office Tracking Puts It Right Between Two Flops (Report)",
+          "source": "Cosmic Book News",
+          "published": "2026-10-03",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5JYWVIeW9WSktwQWhUdUFaUWdZVUd4ZDFRLXFMU0JmcFVsUFZJRzFVRHZRR19KQTRDT2M3dVUxYUR2MXNSanJLdXhqVTgxZlVHSGF0U1l1RDlCMkNQUnFvMVJOUmwxRm55THRV?oc=5"
+        },
+        {
+          "title": "4-Week Box Office Forecasts: Latest Projections for STREET FIGHTER, CLAYFACE, GODZILLA MINUS ZERO, and More – Box Office Theory",
+          "source": "Box Office Theory",
+          "published": "2026-10-09",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNOGtKcWM2Ti1IaUNzLUt0S1JyT3VXQnpMVHR4WXQyYVB5bWdyQ2h0WTJFay1vaGRpYWJXNEx6TlFVeDJtWmwwdEQ5ZG5KQVNIR2wtYmZwMDM2RjBicDl5dEFSTzR3WVJlZGxackltQmdKNFNmV3kxYl83WHlULVlsNm8xRU1Pcm05YVFqVlloQWZCUlNrVzJKdVpvS3lyS2RWc3IwaHR5eUU5MlZjZV9TdGJvLVNFLVMxWWgzZW5iTWhQZw?oc=5"
+        },
+        {
+          "title": "Weekend Preview: Can STREET FIGHTER Rekindle Millennial Nostalgia to a $30M+ Debut?",
+          "source": "Boxoffice Pro",
+          "published": "2026-10-14",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNREttcWk2eTV2dkZ5UTBZT3ZHekdSVjIxRWtOcE9aSEw3UDNnNkZ0alZUeW1HQUhuY2c5RjVMUkxXZXU5SzR4WEs0amdoUGNxNDRtZ3hLODVlWEEyNUpiSTd3NHV1VS1UR3A3YnFQNGZ5VFFLSHNycU9OMGVDMC0zTUNiZWNwRlQ4VE13ZkFaMGs2UTQxUGJJeFV6NnJ3cmxnUFNKX2FETGhIM2tSYkE?oc=5"
+        },
+        {
+          "title": "‘Street Fighter’ Duels A 100% Rotten Tomatoes Scored Movie This Weekend",
+          "source": "Forbes",
+          "published": "2026-10-14",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQbGktRTdNbGhsVU5DcnltLWtQUjNoeUVBSFQ2Rm5neW5mS2cyNTdOb3VyQXBaUThycE8yRENtcy1YV2I1TXVLbDJOX3ZBVExjcG83WXBSOTZIaUVvWEFjbUxyN1RrUW0tbWF1VDhDSnZuN3JHSUxlcDlyMUlNcWVqcEl0ekxSWVhlZzc5a2RGbVdnNDNoeEF0a1NHSjlBNjVIZFVxRk10SXpIYTNVbVQ5VG5sUjlDSjAtcy00?oc=5"
+        }
+      ],
+      "news_query": "Street Fighter Opening Weekend Box Office",
+      "forecast": {
+        "probability": 0.25,
+        "reasoning": "Tracking and previews point to roughly a $30M debut, and Boxoffice Pro discusses $30M+. Some reports described soft tracking, and video game adaptations vary widely, so falling below $25M is plausible but not the base case."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-15T01:27:07Z",
+        "crowd": 0.0865,
+        "best_bid": 0.07,
+        "best_ask": 0.103,
+        "volume": 10418,
+        "liquidity": 2861,
+        "fee_rate": 0.05
+      },
+      "bet_note": "No cash left for new bets; it's all in open bets."
+    },
+    {
+      "market_id": "3251572",
+      "event_id": "779122",
+      "event_title": "Eurozone GDP growth in Q3 2026",
+      "option": "0.8-1.1%",
+      "question": "Will Eurozone GDP growth in Q3 2026 be between 0.8% and 1.1%?",
+      "rules": "This market will resolve according to the Eurozone (Euro Area 21) Q3 2026 GDP growth rate over the same quarter of the previous year (% change), based on seasonally adjusted data, in the Eurostat Preliminary Flash Estimate of GDP release for Q3 of 2026, scheduled for October 30, 2026.\n\nIf the reported value falls exactly between two brackets, then this market will resolve to the higher range bracket.\n\nThe GDP release will be made available here: https://ec.europa.eu/eurostat/web/main/news/euro-indicators\n\nIf no data for the specified quarter is released by the date the next quarter's data is scheduled to be released, this market will resolve based on data from the last available quarter.\n\nThis market’s resolution source reports GDP growth rates to one decimal point. Thus, this is the level of precision that will be used when resolving this market.\n\nNote: data from the initial release of the referenced flash GDP report is what will be used to resolve this market. Data may be revised during the following quarter or as a part of the next estimate's publication, however any revisions to GDP report data made after the initial release of the specified report will not be considered for this market's resolution.",
+      "topic": "Economy",
+      "end_date": "2026-10-30T06:00:00Z",
+      "url": "https://polymarket.com/event/eurozone-gdp-growth-in-q3-2026",
+      "snapshot": {
+        "time": "2026-10-15T01:24:29Z",
+        "crowd": 0.515,
+        "best_bid": 0.51,
+        "best_ask": 0.52,
+        "volume": 45930,
+        "liquidity": 2047,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "IMF forecasts 3.1% global growth in 2026, with eurozone at 1.1%",
+          "source": "Euronews.com",
+          "published": "2026-10-13",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRE5hR29ROHR6QkZSRTRaMnNLM0thREhGdmZ1TTJKVkZkWWY2Wk0tbFZEeGFOUTJXYS1YVnRZcElzUTFLUEpxeVE5UExNNFJfYWxpeEFYMUd4ZFZKcU5JRlJnVUQ5UmNEMC1lZmtvTGV0UFFEYnZXbFJud2JnTFFGRVp4Vmh0NUpLRnJZYjZzVTBtd2p3Z2FaT2Vn?oc=5"
+        },
+        {
+          "title": "IMF raises eurozone growth forecast, highlights sharp decline in French economy",
+          "source": "Le Monde.fr",
+          "published": "2026-10-13",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPNnljQlREQnhBejdfOE94Rlo4bnRURnBGNzRDMjNWNFpnWkwtNmwxU1lSV0RWd0R1Y3NUNERnczMwZURlalJDQ0YtNU8wdUlFOV8zV3N5UmFEZ1BMVDQ2UmZDdjBsYUdYcG5yQjBLUTlUZlpVejFRdzltODRCMzJRWTljeE9nWno5S20yU0ZfdHFmYmJRODhqRUdwZDBhT2ZZaE1UTTdTT1MyNmFpSVNOQ082ZDhoMW1iSHEwZWd3VkJSbThib3p6MGtaa3RURDYzVlZnM1pyT1c5V1A0ZnFaZQ?oc=5"
+        },
+        {
+          "title": "Eurozone Economic Calendar",
+          "source": "EUbusiness.com",
+          "published": "2026-10-10",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5fM2hLY0ZSOUstVW9hYU9yWFJ5QmtLNWRxbjNwOFluNkV1eWx5MnRLQ0JEc1lRTGZlSWVNTlY1aUkteXI1NThhWlVJZTJhZUlNa2VHYmFtOS0xMjlIZHlz?oc=5"
+        },
+        {
+          "title": "European Union - Eurozone, Debt Crisis, Stability",
+          "source": "Britannica",
+          "published": "2026-10-13",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE43enZOd2F1enNIbGdGYm1GQUFsU0Rnc1RHekE0UHFNWjBZU1ZHREl3RE4zMnVrVHpYLWRqRmRxUXk2SkNGMW9XMWJCUDFKbUR0bXNWaXVVa3FmNzhIWlk4OFJVaFVBMGp0YmpzUHJDNDBnelNnUGtZcWM1TU0yQQ?oc=5"
+        },
+        {
+          "title": "Europe’s GDP Gap Calls for a Stronger Transatlantic Economy",
+          "source": "CEOWORLD magazine",
+          "published": "2026-10-10",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNckpZSUowaUFxRnNrVmZYLVhCWEpjM1VJZ2NHMjBjQ2ZMeG0zZGpuY001YW9YOGhON0h6dWJldERXYi1nNjB5SGxJTExhenpKOWhOSHM3SmFzMWJOTm9GN0dKd09PT2F6cVJjNEJTeFFnNUVFc3U4RDBLa3NZZ0s4QUpLVDFNZHZYdHNvaTJ6VEpTejVwYkE?oc=5"
+        },
+        {
+          "title": "Eurozone set for firmer growth after bumper second quarter",
+          "source": "Luxembourg Times",
+          "published": "2026-10-08",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNREMwREpZTzBYYmY5UEpSRmFtVnlOREhrUHpKMFpCb0ZoRjZwWDlETmFQQk1TVXJlSXp5RlV0eXU0bFpmT3pPUjVEbnpsX19kcW1lM21RTFZvYWNpX3FTdVF2ZkhfWjJta1FUaFZVTGFib29HMDI0azFYbUQ3d3pfWlFTZFJpLU9pSU1LelRjS0tJTWxkdVlVemtkeGU2aUt3bDYxZ0hYM0FBNjI1WVpGNnNKR2lHYU0?oc=5"
+        }
+      ],
+      "news_query": "Eurozone GDP growth",
+      "forecast": {
+        "probability": 0.35,
+        "reasoning": "A 'bumper' second quarter and the IMF's raised 1.1% annual forecast suggest year-over-year growth could land around 1.1-1.3%, at or above the top of this bracket. A softer third quarter or weaker earlier quarters could put it within 0.8-1.0%. That gives a moderate chance."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-15T01:27:08Z",
+        "crowd": 0.515,
+        "best_bid": 0.51,
+        "best_ask": 0.52,
+        "volume": 45930,
+        "liquidity": 1948,
+        "fee_rate": 0.05
+      },
+      "bet_note": "No cash left for new bets; it's all in open bets."
+    }
+  ],
+  "batch_id": "msgbatch_01S6hfv7qtaiDDf1z35cwn9h",
+  "forecast_at": "2026-10-15T01:27:06Z",
+  "usage": {
+    "input_tokens": 7042,
+    "output_tokens": 1762
+  },
+  "cost_usd": 0.0317,
+  "budget": 0.0
+}
