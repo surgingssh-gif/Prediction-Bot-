@@ -128,5 +128,25 @@
     "outcome": 1,
     "resolved_at": "2026-10-15T22:32:19Z",
     "question": "US x Iran ceasefire continues through October 15?"
+  },
+  "5240811": {
+    "outcome": 0,
+    "resolved_at": "2026-10-16T04:31:25Z",
+    "question": "Will a new pneumonic plague case be confirmed in Russia by October 15?"
+  },
+  "4366394": {
+    "outcome": 0,
+    "resolved_at": "2026-10-16T06:01:58Z",
+    "question": "Will the next Google Gemini Pro model be released by October 15, 2026?"
+  },
+  "5523557": {
+    "outcome": 1,
+    "resolved_at": "2026-10-16T02:03:58Z",
+    "question": "US x Yemen ceasefire continues through October 15?"
+  },
+  "5700129": {
+    "outcome": 1,
+    "resolved_at": "2026-10-16T03:13:58Z",
+    "question": "Will the Tesla Roadster fly for 1s+?"
   }
 }
