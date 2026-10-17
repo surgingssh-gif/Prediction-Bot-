@@ -1,0 +1,807 @@
+{
+  "run_id": "2026-10-17",
+  "date": "2026-10-17",
+  "created_at": "2026-10-17T01:15:25Z",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "phase": "1.1",
+  "pick_stats": {
+    "eligible": {
+      "Business": 1,
+      "Economy": 7,
+      "Entertainment": 3,
+      "Politics": 136,
+      "Tech": 3
+    },
+    "picked": 10
+  },
+  "questions": [
+    {
+      "market_id": "631058",
+      "event_id": "57682",
+      "event_title": "Ohio Senate Election Winner",
+      "option": "Jon Husted (R)",
+      "question": "Will the Republicans win the Ohio Senate race in 2026?",
+      "rules": "This market will resolve according to the winner of the 2026 Ohio U.S. Senate special election currently scheduled for November 3, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
+      "topic": "Politics",
+      "end_date": "2026-11-04T04:59:00Z",
+      "url": "https://polymarket.com/event/ohio-senate-election-winner",
+      "snapshot": {
+        "time": "2026-10-17T01:15:21Z",
+        "crowd": 0.355,
+        "best_bid": 0.35,
+        "best_ask": 0.36,
+        "volume": 526542,
+        "liquidity": 266832,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "Ohio US Senate race: Tight race forces GOP to surge in resources",
+          "source": "The Statehouse News Bureau",
+          "published": "2026-10-10",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQSXRITnM0MUhLS3NGeXlyRENrX1NjTG5TTWV2UkFid1dUTjJqSHRGVVBWVmpPRndRc3ZTaWZRLWtYcjFaZ1Uyci05dnlETjBLNEFfb2hQSXV3UFdWbllndEROQ0NJTmhiYjFjYzBNSWQ1dTd3UDdHQ2JERXhuOWdTajd3b1RSZFY5NUNDenZPVVNTMkdiWW5UNFlnZUIwVWJJd3hmQ0xTS2x2ZXpNMjY0Z2JWaUZSYmNMcnlHRA?oc=5"
+        },
+        {
+          "title": "Senate Races in Republican States Tilt Toward Democrats, Polls Find",
+          "source": "The New York Times",
+          "published": "2026-10-03",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPT0F5cGdnWENzeUJldG5mc29Oa2JMcjM1cVlKbjhCQ1RaT1FZUk92V25DM1NENzhOaVc0RkY4LVlNSkRyZHBPOUI5ekN6RkhJODh6ajFOSnBRb1NYb2F6Qm41OTZ3X0xpNG9jdnJMXzhhLS1GVXl2MnlCcWhwTi1MVkREcWJ0Mk5pSEp1RDd3?oc=5"
+        },
+        {
+          "title": "Ohio poll finds Democrats slightly ahead but within margin of error in Senate, governor races",
+          "source": "NBC4 WCMH-TV",
+          "published": "2026-10-08",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOOFFnNEQwYTFKelZHcDhYQzk4cVJEV0ZRTC16Z3dSaG5PMG9sdlJ0VnQ0eHdybG00S210X21TYnhHZ0tPNGNQQjU0S2lxZERmb3Y4eVFXMHRRcFY1aW93dEFDX2k1NGRTUHB6MFBNTnpQOW00SlZtZzBuLWhnOWxwLWJpRHAwYkFreVVCTFRxU2NzSDgxUkJDS2gwT1J4ZV9MLS1OVzFBSDJyUWtTWkhWSmRId2dra2dac1lvNThxVnZFVkRJOFlGUlZfaEtDdTJ5dVpId2kySjBtVDTSAeABQVVfeXFMT09nSGtzRWxUS3Y1UDY0VXBVQjJFS0M3ZjQ3Z1pMalpsVXl6NVNtXzZkZGwwTnhLQkc1Y3ZMYjE4RzNYNUZPMzZ3Zng3RFEyRUdjU0pBek1GODFQZXBvMF9nRXBnbmdoWDd4Z2lJb05PQzUxZTQ0VVZRbnozMmh0NURjdThGR3BYSGZuVW14SjdHRkRVYV9ONmw5R0l0OGY4RmxOSnh3aktrTGhNY1d1c0FpNkNNMmdBandOV1FROTI3dUhpbEoyNHMtZVFFU0dtUXlzNkljcks4cEZfZW9uU2c?oc=5"
+        },
+        {
+          "title": "The races that will decide control of the US Senate",
+          "source": "Reuters",
+          "published": "2026-10-13",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPQ0tZUDg5VXplVzVWYmU4UFlBQkk3d0Q0TkJBR2VLVVFqYUlVbldCTWY5NzlqU2F3emd1dTNSTmN4RkMxd2s5M2xSZkozZkhLR05PLVgtLVJhZ0RuNUZsbkJiMnlKbFZMdmxhN3FtbWltcXR0ekhrb3lUTlFNZmUwNV9MczBodnNabWR4ZllxVEpGdFVBcXZRQg?oc=5"
+        },
+        {
+          "title": "Who will win the US Senate race in Ohio?",
+          "source": "FOX 8 News",
+          "published": "2026-10-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9qSFdWcG1GVnh2bXZMUmJlNzdDdGs4X2d0N0Zqck81Szg1emVHODdueWlEcG9ScmI4QlFzYXRkdW83MXpVeUtkVHRKeXNSX3VhX0pmNE1Ra0tPNTJnRndRNkxieGRpSm9LNnBRQXl1SdIBdEFVX3lxTE12eGc5T2ZOYTAwalB6dDJyM1M2NXJmdzJGTXlKZXI3U183WTI4UFRiVkFzOUZyU0t1RG9MTi1QbGJqZkhWV091VGdFWnc3M3A3WHd4R1Y1ZVA2c0MyS3Y0Vno3RW1zVk4wV1VCaE5WNnJhTjVz?oc=5"
+        },
+        {
+          "title": "Senate races to watch in the 2026 midterm elections",
+          "source": "AP News",
+          "published": "2026-10-08",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE0zLTZ5cjJQM005dl9RUVowT2haVDd4cHpSN2hfOGJxSkxzWkNWb2puVll3Tjk2TkViV3pQUk5JUmZJUGxZdjl5c0EwN3gxZGpwVkxkb1pDUWJFYlFwRzFsUDFmNnBkeElHNGplLVZncE1FZVJLNGxGUXllNl8?oc=5"
+        }
+      ],
+      "news_query": "Republicans win Ohio Senate race",
+      "forecast": {
+        "probability": 0.45,
+        "reasoning": "Recent Ohio polling shows Democrat Sherrod Brown slightly ahead of Jon Husted, though within the margin of error. The national polling environment appears to favor Democrats, with the New York Times reporting Senate races in red states tilting their way. Ohio's strong Republican lean and the GOP's late surge in resources keep this close to a coin flip."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-17T01:17:57Z",
+        "crowd": 0.355,
+        "best_bid": 0.35,
+        "best_ask": 0.36,
+        "volume": 526542,
+        "liquidity": 268240,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Gap vs. the price we'd pay is 9.0 points, under the 10-point minimum."
+    },
+    {
+      "market_id": "2100981",
+      "event_id": "425728",
+      "event_title": "Israeli Legislative Election Winner",
+      "option": "Likud",
+      "question": "Will Likud win the most seats in the 2026 Israeli legislative election?",
+      "rules": "Legislative elections are expected to be held in Israel on October 27, 2026.\n\nThis market will resolve according to the political party or coalition that wins the greatest number of seats in the Israeli Knesset as a result of this election.\n\nIf the results of this election are not definitively known by June 30, 2027, 11:59 PM ET, this market will resolve to \"Other\".\n\nIn the event of a tie between multiple parties or coalitions for the most seats won, this market will resolve in favor of the party or coalition whose candidate list received a greater number of valid votes. In the event that results in a tie, this market will resolve in favor of the party whose listed name appears first in alphabetical order.\n\nThis market's resolution will be based solely on the number of seats won by the named party or coalition in the Israeli Knesset.\n\nThis market will resolve based on the election results, as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by Israel’s Central Election Committee (Va'adet HaBehirot HaMerkazit) (https://www.gov.il/en/departments/central-elections-committee/govil-landing-page).\n\nThe following rules govern the merging, joint contention, and splitting of listed parties:\n\n- If Likud or Together (or any successor party created through a merger) merge with or contest the election jointly with any other party, the option corresponding to Likud or Together will represent the resultant candidate list or merged party. \n\nOtherwise:\n\n- If a listed party merges with, or contests the election as part of a joint candidate list with, one or more unlisted parties prior to the election, the option corresponding to the listed party will represent all seats won by the merged party or joint candidate list. If a listed party merges with, or contests the election as part of a joint candidate list with, one or more other listed parties prior to the election, the option corresponding to the party which held the most seats in the prior Knesset will represent all seats won by the merged party/joint candidate list. If these rules do not adequately determine which option represents a merged party or joint candidate list, the listed party whose name, as listed in this market, comes first in alphabetical order, will represent all seats won by the merged party or joint candidate list.\n\n- If a listed party splits into multiple parties prior to the election, the option corresponding to the listed party will represent the resulting party that holds the greatest number of seats in the Israeli Knesset as a result of the split. If these rules do not adequately determine which party represents a listed option after a split, the listed option will represent all seats won by the party resulting from the split whose primary English name comes first in alphabetical order.",
+      "topic": "Politics",
+      "end_date": "2026-10-28T03:59:00Z",
+      "url": "https://polymarket.com/event/israeli-legislative-election-winner",
+      "snapshot": {
+        "time": "2026-10-17T01:15:21Z",
+        "crowd": 0.325,
+        "best_bid": 0.32,
+        "best_ask": 0.33,
+        "volume": 431382,
+        "liquidity": 174815,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "JC poll tracker: Who is on course to win the 2026 Israeli elections?",
+          "source": "The Jewish Chronicle",
+          "published": "2026-10-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOU1NRbTR6MFJkSm9XUGZqNkhDYi1IM1A0SmJSM3FmWlRZcE1abjZyMzRfWmI2NThGSlhaSHNlTHpSNU56VFRPc0l0MERpN0wxSkVqazNsVVU0WW1EZjQ2VUo4enMzVmFFYmJTY1pkTjMteUlrdXVVbGN0enZmNktIWWpFY3VYYkFVUk1LU05jRF93czRlQzl1LWl3?oc=5"
+        },
+        {
+          "title": "Israel election poll: Gadi Eisenkot leads Benjamin Netanyahu, but no clear path to majority",
+          "source": "The Jerusalem Post",
+          "published": "2026-10-11",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5DbkpKXzBUZVA4cWIyWEZiZ1JXOUZVLTdrel80bGRNVnNTWUVRN1lZY2ZoZXFZbGowODM1WkQ4Z3ZMWUJuUHFyVUNrY0hxdkJwcE9ZV3I5c1hmQkNVQ3ZpQnhtOHZLRGtW?oc=5"
+        },
+        {
+          "title": "Israel election poll tracker: will Binyamin Netanyahu hold on to power?",
+          "source": "The Economist",
+          "published": "2026-10-16",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1ObDNEQkNJb0NDRHliRFh6ZGVlX2JvVkU3Q0FTSlFzVkNHM3FITER1SGFQdmlNNWZXQXpRNTYwM21CTDJmdFRQVWQtYXh4R2xLd0phaURJSC1RV210b1VCb2tnWlItM1dZMDc0NkRFQ1dudGd5?oc=5"
+        },
+        {
+          "title": "Israel’s Eisenkot leads Netanyahu 43% to 38% as preferred prime minister ahead of elections: Poll",
+          "source": "Anadolu Ajansı",
+          "published": "2026-10-11",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOVU9Ocjg4akdFVHR6X2U1ak50ZHYwS0dYcVJlSXZGQmdjcXBFSkt4WWhyV1FRMFg4Z0pSSTdUM2VrZnJiTGM0Rmp2T3ZEeFJBaVlJaHRQaVZObFB4cWFtUGRIaE95Z1JwY3NHYTY4VkZPUVBDbW9TaVRpTUxqaktEa0RzTXRZeWpEWktLSjJMRXdSVUFSc0xIbVBzb2V1eUpwSmNVWjl4NkEyY3J4S0loUlBGdnluMm5uZVUtT3hqMUFXZU1jbXFsb2c1akUwLWloOTM0YmFR?oc=5"
+        },
+        {
+          "title": "Small parties hovering around minimum vote threshold could determine Israel’s election",
+          "source": "The Times of Israel",
+          "published": "2026-10-14",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZm9RTGFvRlNBU2M0dEw2VWF6RS1LY1IyMjU3dXA0a01PN2VOUXN5UUstMjRINUFZQ21KV0pGcWprX040enBjNEZUOEk4MVl3djFQTDFNZU9XNktOUzU5NFZJVWUtN1ZaTklQRzVwWDhDUk9HU0JncndQUWFrTml6Q00zbU45cUVkLTVsQnlzQkYxQzVLMzBhWFgxVDJVbUZqYzhVVmlaTWxwUTg0MnNONE1zQkZpMVHSAbwBQVVfeXFMTm9pcThXeEw1aVhJWlFUZGo3NktVcW1SYkJiQVRLblgtUi1KQWlvcW5QTm51azFVbzRPaVRsY0F6dkxTTjRHcFl0RjJfX2dCVTl6TkgwMTh0VFotTFRUY1psdk9MUU10a3FQZjRsV25KWGtYWXVsb0lRZHVQa1ItdGlMOU9UV2t0N1ZHUTNBa2tZRjJrM00tR0ZDc2RJazJucjV0WDRwekpvRDUwYkh5OEQ0NTBsMXYwdWZCelc?oc=5"
+        },
+        {
+          "title": "Israel’s Critical Election: Netanyahu or Eisenkot?",
+          "source": "Politics Today",
+          "published": "2026-10-13",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1BQ3JaZHNtTTR4S3dKY21mVTdoZjVzcDU3QzNIS0ZNbDZZUy1iNVFJaXROUTRHMnZIOXNNejEwWmVQdDBBQXZhZ1dBbXB3Yjl3Y1AzOURibGlJVzNDdC1pTVE3V3RKWm1SQlgtNzJEUUJaVjBQQVVnbG9ubmEzNGc?oc=5"
+        }
+      ],
+      "news_query": "Likud win seats Israeli legislative election",
+      "forecast": {
+        "probability": 0.45,
+        "reasoning": "Eisenkot leads Netanyahu 43% to 38% as preferred prime minister. The market's special rule for a 'Together' list suggests a merged opposition list that could rival Likud's seat count. Likud has usually polled as the largest single party, so this is close to even."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-17T01:17:57Z",
+        "crowd": 0.325,
+        "best_bid": 0.32,
+        "best_ask": 0.33,
+        "volume": 431382,
+        "liquidity": 177947,
+        "fee_rate": 0.04
+      },
+      "bet_note": "No cash left for new bets; it's all in open bets."
+    },
+    {
+      "market_id": "630806",
+      "event_id": "57658",
+      "event_title": "Michigan Senate Election Winner",
+      "option": "Mike Rogers (R)",
+      "question": "Will the Republicans win the Michigan Senate race in 2026?",
+      "rules": "This market will resolve according to the winner of the 2026 midterm Michigan U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
+      "topic": "Politics",
+      "end_date": "2026-11-04T04:59:00Z",
+      "url": "https://polymarket.com/event/michigan-senate-election-winner",
+      "snapshot": {
+        "time": "2026-10-17T01:15:21Z",
+        "crowd": 0.305,
+        "best_bid": 0.3,
+        "best_ask": 0.31,
+        "volume": 744098,
+        "liquidity": 236253,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "Michigan Senate race polls: who will win the 2026 election?",
+          "source": "The Times",
+          "published": "2026-10-15",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPMlBkeFVsVEVKY1hkRFVCdmxGWlpPUU1XX2NmQ0pfbzdaQ1pfZU9MalJIODJsLWotLVZUM1ZjbVFiMDlEcnZ2Q0ZUY3hhZGh6YXlSb3hVOVRIV203NVUyanZ5R3U2OWJHWkRwbUFudG4zZkZEWS1MZ1ZiMGRNR2tLM1M0NmY3VHhFNzEtTXVGTTc5YXZQdzRKc3pvSURhOHl1aENHWFZHd08xaHk0U01iN1JWZ2xHYlVQYzdMNTd6Zw?oc=5"
+        },
+        {
+          "title": "Sparks fly as Abdul El-Sayed and Mike Rogers face off in first Michigan Senate debate",
+          "source": "NBC News",
+          "published": "2026-10-08",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQZS1GZ0dhTWcxUG14cGZYejBaSktsWXRqLW9qYnY5eHNKRzBheWNONkV0LU9hSVFiZXc1V3JGZlYzUlc3aDVUMm5vQWRWUE9vVjhEN1AzWW1laTRWY3JkN05yakk3UGJYRnZveXVNVm05LXdiYzRyNlZ1bnMyVnp4S2VtNGVVVHZPbEMtY2dzX3B6TE5GaFFTXzdkaVN5UTNGV3RMMFNuYlpMa0prMjFSREJmMTUyR3A2SnMyQXMwUnRVQQ?oc=5"
+        },
+        {
+          "title": "Republicans put spotlight on Abdul El-Sayed. He welcomes the fight",
+          "source": "Bridge Michigan",
+          "published": "2026-10-12",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUHNVS0VGajFucnkzd2szdE5pUEFpRVcwLXRPM2tPU240ZFl4bnRIWFRRLVp2dy1JRlJEbWZ4NU5pR3lNdllRbGZGUDlWTmt6a3ZZSXN1OUV1OEpEQ21PNG42S0JpQkFtN0VNUVJSX2ZlQS1ZSzFrWk9ySkhFeEVmN1B3QU1sUGxmTFRZa29tdE9iajhHMmhDdDJCeU1OeVU3WXVpUG5sNHFKcVk?oc=5"
+        },
+        {
+          "title": "US midterms: key takeaways from Senate debates in Michigan, Georgia and Maine",
+          "source": "The Guardian",
+          "published": "2026-10-09",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOWHJjX0xLYnJ0Q2I3TWwwbWlPcUhtMkk5VVo2MU9FTk96ZmE3dkpoU05ZNVpSQ2owN3lra29TTDZKMDZpUGZZQk1pRzFZR09KaDYxN21iY0xCbG1EOWNlRDVBajF0RGtOZ0VQTkxZRldLUjdfdzAycnU1OTRsajhCM0E3SG1IbUNwcGQtQTBHdFdiLURWeVJMTXluY2ZBVVl2T0dRMjNzOTkwRjJ6cG0w?oc=5"
+        },
+        {
+          "title": "Hottest 2026 Midterm Races—Talarico Ahead In Texas Senate Race In 2 New Polls (Updated Daily)",
+          "source": "Forbes",
+          "published": "2026-10-14",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNM0JlSU5fMW9rWGdCbTRGYjFtdnJXMzUzQkJvUHUyS0lXUTBoR1NEVlctWnBVUGZCUzZIaVptbzk1encyb19hNnJrWFotanZWR1hxcTB0SFI2eWJqcEpMdTFFMGt6UkhrZVVXZVlFWVMzVlNOTnRyZDlzNUE3d0kwc2xSU2d1em8yV2hHWVRDRDQzamUtLXl4MHk5LVVjUGc1ZTRFZzBkRndBWUJ4MzRXaDMtWHVkQ3FuVVpKMUFSUzA3RFpmTWZJbk5CbHcxdFJybEE4blJVT08?oc=5"
+        },
+        {
+          "title": "How Trump’s tariffs and Iran war are becoming liabilities in Michigan’s Senate race",
+          "source": "CNBC",
+          "published": "2026-10-14",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxObllseWdwR2FMbi0zbF9QYWVuREpVSHFhR3RMakxOOHQ1blF2Z2ktaDV6c0V1RkFwNXFINm54OUpTSGFGMG5KRFpCTXpwQnFtdWliTTRTUHpfcFZTZnVhdmNVcGJVRkpnbHR2WnB4OGNNYzFreVh6c2JqMmJNOEFEU3ZyQ1lPTm9YY0k5clpKVlfSAZYBQVVfeXFMTzdJTnJZa1h1eUFMcVVrY2Jhdld4cWlEb3JHRGNHRm9HcEZBZDF0Snd2Yk1xYnVxaDJnUUpzRkpHTE80YldRVXF0LVFYOWMyM3prR1A5ZWRQaTk2VU9CdlBBbzJMZmgzdlVjWVljZmJfT2o0RFlLS1ZJNllWRWZxSUQ0VEJBV1U2RElrOEtsSTdDcFcyamxB?oc=5"
+        }
+      ],
+      "news_query": "Republicans win Michigan Senate race",
+      "forecast": {
+        "probability": 0.3,
+        "reasoning": "Michigan leans Democratic in what looks like a Democrat-favorable midterm. Tariffs and the Iran war are reported as liabilities for Republicans in the state. Mike Rogers nearly won in 2024, and Republicans hope Abdul El-Sayed's progressive profile gives them an opening, but Rogers remains the underdog."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-17T01:17:57Z",
+        "crowd": 0.305,
+        "best_bid": 0.3,
+        "best_ask": 0.31,
+        "volume": 744098,
+        "liquidity": 236253,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Gap vs. the price we'd pay is 0.0 points, under the 10-point minimum."
+    },
+    {
+      "market_id": "5732709",
+      "event_id": "1194438",
+      "event_title": "# of views of Grand Theft Auto VI Launch Trailer on week 1?",
+      "option": "40-60M",
+      "question": "Will \"Grand Theft Auto VI Launch Trailer\" get between 40 and 60 million views on week 1?",
+      "rules": "This market will resolve according to the number of views the Grand Theft Auto VI Launch Trailer video gets in the first 7 days after being posted on the Rockstar Games YouTube channel. This market may not resolve until the 7 days are complete, regardless of whether a strike is reached earlier.\n\nIf the reported value falls exactly between two brackets, then this market will resolve to the higher range bracket.\n\nThe resolution source for this market is Rockstar Games' YouTube channel (https://www.youtube.com/@RockstarGames), specifically the 'views' counter for the described video.\n\nNote: This market refers only to the \"Grand Theft Auto VI Launch Trailer\" video posted by Rockstar Games (see: https://www.youtube.com/watch?v=rz1B4B2yBZY).",
+      "topic": "Entertainment",
+      "end_date": "2026-10-23T03:59:00Z",
+      "url": "https://polymarket.com/event/of-views-of-grand-theft-auto-vi-launch-trailer-on-week-1",
+      "snapshot": {
+        "time": "2026-10-17T01:15:21Z",
+        "crowd": 0.67,
+        "best_bid": 0.66,
+        "best_ask": 0.68,
+        "volume": 14248,
+        "liquidity": 3209,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "Grand Theft Auto VI Launch Trailer Released",
+          "source": "VGChartz",
+          "published": "2026-10-15",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMkxFSkdpbFdjb191cUFFOTFiT0EwbjZGVlg2dnZHMk1IdzdEbk1PYVF1NU5OSklGbjlhWGoxMjdFTHFRbzNjVDNXTENlTmJ1YVIxcWdQdDBKR0ZnQ2s3WElERG1WZWY1NkduaVBJZ052Qkc5Y21IdHVTQ2dPbk05cnhmbnI2RHFXamlEYQ?oc=5"
+        },
+        {
+          "title": "GTA 6 Launch Trailer Explodes Online — But The Comments Tell Another Story",
+          "source": "Cosmic Book News",
+          "published": "2026-10-15",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBfWHpicHp5SWxHOGZ3Y0ZJTlFWU1FCTnU5NFdfZnlUb3B1SnA3RGxiNDFKTk1VcHF2enpXdVJCX09RRFdadGNpdm95TkdidVFNNXpnYVRHZw?oc=5"
+        },
+        {
+          "title": "New GTA 6 Screenshot And Launch Trailer Artwork Released",
+          "source": "RockstarINTEL",
+          "published": "2026-10-15",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPVlBlVWRBTVNxUk9hQ1IwLW12Zzl2dlRXeDdWVWJaMXdESnctMlRhMEM4bGVnUEdDUFdiYXJXWFAwcHMxTTZhWTVyY3RYSUI1QU80YkxnaGhOa2FuRkJNb0FWaERHYzBVV2txWVhuQ29YR0x0ZnNoSTZ1cFh5MHJPbjFlQlo1MUNEdnVr?oc=5"
+        },
+        {
+          "title": "Rockstar Games unveiled the Grand Theft Auto VI launch trailer featuring music from Justice.",
+          "source": "GameGPU",
+          "published": "2026-10-15",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQUlKaE1iRVdOaFhGaFVTZXp1Mlp4TVU0cENlT1FKMTZkREdUSXVsNWRuSzVSZTJhWTZScGFwY1JYSm9BWEdjM2FieFNSZXlpRVRCbnE1Tk5mY0R4bkx0LWZCczNxZHpXNHJpdXRmYUJxZ2pmX29ncEhCd0ZSeFY1aVJrbFVWblk1OERtWTBBY1Y2bzJOc1JGVnNfZDdoNnhGX1ctVThuQURhZkY3SjhIdU5HSEc?oc=5"
+        },
+        {
+          "title": "Grand Theft Auto VI Launch Trailer",
+          "source": "YouTube",
+          "published": "2026-10-15",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE84S2owdVJLRUk0T0lURWg4VkJXWEJsNnVVNXZqU1k1bm1VWllQNHg4NDh4NUdpb01fbzFENkl3MzJUUloyemFOWGttUmpXMnJXOF9kekNmR2p1VFpF?oc=5"
+        },
+        {
+          "title": "The Final Countdown Begins: ‘GTA VI’ Launch Trailer Arrives Five Weeks Before Release",
+          "source": "FanBolt",
+          "published": "2026-10-16",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMWROTnhDcVp2czJobzBGVXlWam5zcjZ2N1VKUXhIeHJobk9mbkFaSDR1TEg4ek9wS2Q4YzNTM0U1QVlzdVVVR2tYRDlkN1VaS1lZeG5lVEdFTmZ0NU1nOHNXcGRlYi1tamFiVkhZR3FFNDFQRXo3ckJxdFFxQ2xGZ0dDX3ZiN1dac21paEI5WXQ0LTdKQlVjNU5wa3hGczFOZ21YY0lUZU80aHNXZ0V6UnBtLU0?oc=5"
+        }
+      ],
+      "news_query": "Grand Theft Auto VI Launch Trailer views",
+      "forecast": {
+        "probability": 0.33,
+        "reasoning": "Earlier GTA VI trailers drew around 90 million or more YouTube views within about a day. A launch trailer usually generates less hype than a reveal, but this is still the most anticipated game around. A first week of 40-60 million is plausible, though landing above 60 million is a serious possibility."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-17T01:17:57Z",
+        "crowd": 0.665,
+        "best_bid": 0.66,
+        "best_ask": 0.67,
+        "volume": 14248,
+        "liquidity": 3781,
+        "fee_rate": 0.05
+      },
+      "bet_note": "No cash left for new bets; it's all in open bets."
+    },
+    {
+      "market_id": "5394325",
+      "event_id": "1145629",
+      "event_title": "\"Street Fighter\" Opening Weekend Box Office",
+      "option": "25-30m",
+      "question": "Will \"Street Fighter\" Opening Weekend Box Office be between 25m and 30m?",
+      "rules": "This market will resolve according to how much \"Street Fighter\" Opening Weekend Box Office will gross domestically on its opening weekend. The \"Daily Box Office Performance\" figures found on the \"Box Office\" tab on this movie's The Numbers (https://www.the-numbers.com/) page will be used to resolve this market once the values for the 3-day opening weekend (October 16 - 18) are final (i.e., not studio estimates).\n\nIf the reported value falls exactly between two brackets, then this market will resolve to the higher range bracket.\n\nPlease note, this market will resolve according to the The Numbers figures provided under Weekend Box Office Performance for the 3-day weekend (which typically includes Thursday's previews), regardless of whether domestic refers to only the USA, or to USA and Canada, etc.\n\nIf there is ambiguity as to whether the resolution source's figures are final, this market will remain open until both https://www.boxofficemojo.com/ and https://www.the-numbers.com/ have confirmed their finalized figures.\n\nIf there is no final data available by October 23, 2026, 11:59 PM ET, another credible resolution source will be chosen.",
+      "topic": "Entertainment",
+      "end_date": "2026-10-18T12:00:00Z",
+      "url": "https://polymarket.com/event/street-fighter-opening-weekend-box-office",
+      "snapshot": {
+        "time": "2026-10-17T01:15:21Z",
+        "crowd": 0.305,
+        "best_bid": 0.28,
+        "best_ask": 0.33,
+        "volume": 18809,
+        "liquidity": 2989,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "Box Office: ‘Street Fighter’ Aims for $30 Million Opening, ‘You Can See Everything’ Could Score $8 Million Start",
+          "source": "Variety",
+          "published": "2026-10-14",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPbVVQTkpUMktkWHN1SWpDMVFEYWFMZHVEZEZJWlpUUUh4UkN5d0RkeDNQT1MzQTRtel9obDljbjJBMkhQejY5RHRzT2ZCYlRjMDNILV9LZ0h4X2lpYk92LTVjcmlPZFpyQTlXeldDRkR1NzUxd3VnSjRrSWNyMFc3ZTNuRGRsQXJydTlrM01JeU9WdHNrdHZQVTVfdzc5V0lENzg0ZnhtOWIxQQ?oc=5"
+        },
+        {
+          "title": "Box Office: 'Street Fighter' Eyes $70M Global Opening, First Paramount WB Movie",
+          "source": "Deadline",
+          "published": "2026-10-14",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQTUZoZU1RdE05UGpGdnpzQzlpTmR2MERxTlFPY3YyU3Voa056YUFZRU4zTEpiaUpRMlUwOUNiSjkybVotVm9BTGpLQ1lFalY0OGZfaEtSbWlDZVRlYTNCbV9wVVR1WjE1ajA0bVV2QUgyMnFPTy1jTXNqdnItdm5qNHR4cjNTanY5ZHdEbEF2dHBGdw?oc=5"
+        },
+        {
+          "title": "‘Street Fighter’ Eyes Box Office Victory as Buzzy Elizabeth Holmes Doc Heads for Strong Launch",
+          "source": "The Hollywood Reporter",
+          "published": "2026-10-16",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQWjlMcDBXMXVaeXIzRmhPbnQtd1d5Qm1XcjI0RU1TSjNmTjg2cjFmZWxYNlZmSGtsTmloX1U4QWNXYzFTVHNLTWtveEZrWDgzS0l4WkZMaVJ0MkQ1MWo5ay1tVjRwUGlLb3BobDZpdi1MVElYMlBwNjdNaUpVaEdQNjZoRXZmTXJaSWN2OXdQczh5aTVXMUpVZkF3c0dqNW40emd3eXpRWndyYW92T3BsN0FocnBEVzk3RmR6SWxRdw?oc=5"
+        },
+        {
+          "title": "Street Fighter Could Be In For A Rough First Round At The Box Office",
+          "source": "GameSpot",
+          "published": "2026-10-16",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5WUUZpLURDaHlFUVBBLUtMdEg5TkRObWFVYVdZZ0hlRWk5LXVyRVBuVmpjN1ptdy1MRkVNRnBxd1UtZUVOVjdWeFdEWkgxa1JSRzEzNVVObUpxSW9FM2prY2VvbnJKQ3RmUDcydWtoblNyRS0xZjlXZHpuZHRNazA?oc=5"
+        },
+        {
+          "title": "Street Fighter Box Office Tracking Puts It Right Between Two Flops (Report)",
+          "source": "Cosmic Book News",
+          "published": "2026-10-03",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5JYWVIeW9WSktwQWhUdUFaUWdZVUd4ZDFRLXFMU0JmcFVsUFZJRzFVRHZRR19KQTRDT2M3dVUxYUR2MXNSanJLdXhqVTgxZlVHSGF0U1l1RDlCMkNQUnFvMVJOUmwxRm55THRV?oc=5"
+        },
+        {
+          "title": "4-Week Box Office Forecasts: Latest Projections for STREET FIGHTER, CLAYFACE, GODZILLA MINUS ZERO, and More – Box Office Theory",
+          "source": "Box Office Theory",
+          "published": "2026-10-09",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNOGtKcWM2Ti1IaUNzLUt0S1JyT3VXQnpMVHR4WXQyYVB5bWdyQ2h0WTJFay1vaGRpYWJXNEx6TlFVeDJtWmwwdEQ5ZG5KQVNIR2wtYmZwMDM2RjBicDl5dEFSTzR3WVJlZGxackltQmdKNFNmV3kxYl83WHlULVlsNm8xRU1Pcm05YVFqVlloQWZCUlNrVzJKdVpvS3lyS2RWc3IwaHR5eUU5MlZjZV9TdGJvLVNFLVMxWWgzZW5iTWhQZw?oc=5"
+        }
+      ],
+      "news_query": "Street Fighter Opening Weekend Box Office",
+      "forecast": {
+        "probability": 0.48,
+        "reasoning": "Deadline's Friday update projects about $30 million for the weekend, right at the top edge of this bracket, and an exact $30 million would resolve to the higher bracket. Fan-driven video game films are often front-loaded, so Saturday and Sunday could come in soft and pull the actual total slightly below $30 million. Pre-release forecasts ranged from $22 million to $30 million."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-17T01:17:58Z",
+        "crowd": 0.305,
+        "best_bid": 0.28,
+        "best_ask": 0.33,
+        "volume": 18809,
+        "liquidity": 2989,
+        "fee_rate": 0.05
+      },
+      "bet_note": "No cash left for new bets; it's all in open bets."
+    },
+    {
+      "market_id": "5394247",
+      "event_id": "1145601",
+      "event_title": "\"Whalefall\" Opening Weekend Box Office",
+      "option": "<8m",
+      "question": "Will \"Whalefall\" Opening Weekend Box Office be less than 8m?",
+      "rules": "This market will resolve according to how much \"Whalefall\" Opening Weekend Box Office will gross domestically on its opening weekend. The \"Daily Box Office Performance\" figures found on the \"Box Office\" tab on this movie's The Numbers (https://www.the-numbers.com/) page will be used to resolve this market once the values for the 3-day opening weekend (October 16 - 18) are final (i.e., not studio estimates).\n\nIf the reported value falls exactly between two brackets, then this market will resolve to the higher range bracket.\n\nPlease note, this market will resolve according to the The Numbers figures provided under Weekend Box Office Performance for the 3-day weekend (which typically includes Thursday's previews), regardless of whether domestic refers to only the USA, or to USA and Canada, etc.\n\nIf there is ambiguity as to whether the resolution source's figures are final, this market will remain open until both https://www.boxofficemojo.com/ and https://www.the-numbers.com/ have confirmed their finalized figures.\n\nIf there is no final data available by October 23, 2026, 11:59 PM ET, another credible resolution source will be chosen.",
+      "topic": "Entertainment",
+      "end_date": "2026-10-18T12:00:00Z",
+      "url": "https://polymarket.com/event/whalefall-opening-weekend-box-office",
+      "snapshot": {
+        "time": "2026-10-17T01:15:21Z",
+        "crowd": 0.78,
+        "best_bid": 0.76,
+        "best_ask": 0.8,
+        "volume": 22736,
+        "liquidity": 2131,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "Box Office: ‘Street Fighter’ Aims for $30 Million Opening, ‘You Can See Everything’ Could Score $8 Million Start",
+          "source": "Variety",
+          "published": "2026-10-14",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPbVVQTkpUMktkWHN1SWpDMVFEYWFMZHVEZEZJWlpUUUh4UkN5d0RkeDNQT1MzQTRtel9obDljbjJBMkhQejY5RHRzT2ZCYlRjMDNILV9LZ0h4X2lpYk92LTVjcmlPZFpyQTlXeldDRkR1NzUxd3VnSjRrSWNyMFc3ZTNuRGRsQXJydTlrM01JeU9WdHNrdHZQVTVfdzc5V0lENzg0ZnhtOWIxQQ?oc=5"
+        },
+        {
+          "title": "‘Street Fighter’ Eyes Box Office Victory as Buzzy Elizabeth Holmes Doc Heads for Strong Launch",
+          "source": "The Hollywood Reporter",
+          "published": "2026-10-16",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQWjlMcDBXMXVaeXIzRmhPbnQtd1d5Qm1XcjI0RU1TSjNmTjg2cjFmZWxYNlZmSGtsTmloX1U4QWNXYzFTVHNLTWtveEZrWDgzS0l4WkZMaVJ0MkQ1MWo5ay1tVjRwUGlLb3BobDZpdi1MVElYMlBwNjdNaUpVaEdQNjZoRXZmTXJaSWN2OXdQczh5aTVXMUpVZkF3c0dqNW40emd3eXpRWndyYW92T3BsN0FocnBEVzk3RmR6SWxRdw?oc=5"
+        },
+        {
+          "title": "‘Street Fighter’ Socking $30M, ‘You Can See Everything’ Beaming 2nd Best Opening For Documentary At $12M – Friday Box Office Update",
+          "source": "Deadline",
+          "published": "2026-10-16",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNVmgxbFd5MThIY1VDSzFzYmpkRXBISGxHbU8tWHphRUFGaHJuQU5qcVRrUlVKcW41ZGpaTTA0TWo4Yl9RNzZDNmh6M1ptOWZaQW80dFFRQy1EeU0xSHRabERydTlVdnc0VDJ1ZjJvSnpBd0dTZVgzWjZodF9SZDFlMGVOOENFaVI3dnlyOGdrcGZON00?oc=5"
+        },
+        {
+          "title": "Box Office Weekend Forecast: STREET FIGHTER ($22-25M+) and YOU CAN SEE EVERYTHING ($8M+) Aim to Stand Out on Sleepy Mid-October Frame – Box Office Theory",
+          "source": "Box Office Theory",
+          "published": "2026-10-14",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPOERGcGxUNlNpdi0yamZuRjhDaDI1VldoZDBnRktNN2g4RVFNQmozTzBqUzdfX0xSUnF0eWVWX2ROakZBWVNFS2dBQnBOT3RHbXFwcFQwcUZFaW54a0pXRW5jQzd5d3k5X2M3cVFfREVocGZoR1NrMkRoUWpKYmFLNnBSVUZzTFlZdFRoZzljcDZrV3VVVGFfVU1DeW03bWVPUTBOM1JHa1F0Snh2bmJQSGFoQWlZNVpjZ0pZdUZrOURlbUU0?oc=5"
+        },
+        {
+          "title": "Weekend Preview: Can STREET FIGHTER Rekindle Millennial Nostalgia to a $30M+ Debut?",
+          "source": "Boxoffice Pro",
+          "published": "2026-10-14",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNREttcWk2eTV2dkZ5UTBZT3ZHekdSVjIxRWtOcE9aSEw3UDNnNkZ0alZUeW1HQUhuY2c5RjVMUkxXZXU5SzR4WEs0amdoUGNxNDRtZ3hLODVlWEEyNUpiSTd3NHV1VS1UR3A3YnFQNGZ5VFFLSHNycU9OMGVDMC0zTUNiZWNwRlQ4VE13ZkFaMGs2UTQxUGJJeFV6NnJ3cmxnUFNKX2FETGhIM2tSYkE?oc=5"
+        },
+        {
+          "title": "THE WEEKEND WARRIOR for October 16, 2026",
+          "source": "Edward Douglas | Substack",
+          "published": "2026-10-15",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFAzeVhwS3FvUFlnUlV1VG14eWV2NGcwRkFSZU9aSTg5NGh5U3VBdTNTME4ydXdQV19oS2p6SWdWUGxPd19vUDFNRGxSQ0YwRUVaLXNEUHhWeEc0Y3RvX3lCaXczZ0FmWS1FZVBoZUc4X010aVRRcFNXVzduRQ?oc=5"
+        }
+      ],
+      "news_query": "Whalefall Opening Weekend Box Office",
+      "forecast": {
+        "probability": 0.85,
+        "reasoning": "Whalefall barely appears in weekend previews, while Street Fighter and the documentary You Can See Everything (around $12 million) dominate the coverage. That suggests a modest debut well under $8 million."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-17T01:17:58Z",
+        "crowd": 0.78,
+        "best_bid": 0.76,
+        "best_ask": 0.8,
+        "volume": 22736,
+        "liquidity": 2131,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Gap vs. the price we'd pay is 5.0 points, under the 10-point minimum."
+    },
+    {
+      "market_id": "5166818",
+      "event_id": "1111175",
+      "event_title": "Avg. # of ships transiting Bab el-Mandeb Strait end of October?",
+      "option": "20-24",
+      "question": "Will there be between 20 and 24 average daily transits of the Bab el-Mandeb Strait on October 31?",
+      "rules": "This market will resolve according to the 7-day moving average of transit calls (“Arrivals of Ships”) for the Bab el-Mandeb Strait that IMF Portwatch reports for October 31, 2026.\n\nTransit calls include container, dry bulk, roll-on/roll-off, general cargo, and tanker ships. Ships not reported by IMF Portwatch will not be considered.\n\nThis market will resolve as soon as the relevant data has been published. If the relevant data is not published within 14 calendar days of the specified date, this market will resolve based on the most recent data published up to that point.\n\nIn case of obvious data integrity issues (i.e., erroneous data), the market may remain open until the end of the third calendar day (ET) after the date on which such data is first released to allow for corrections. Data integrity issues refer only to clerical or other similar errors in the underlying data, and do not include cases where IMF Portwatch differs from alternative sources.\n\nThe resolution source for this market will be IMF Portwatch, specifically the transit calls data published for the Bab El-Mandeb Strait at https://portwatch.imf.org/pages/6b1814d64903461b98144a6cc25eb79c, both in the chart and through downloadable files. Where an unrounded and rounded value provided by the resolution source differ with respect to the resolution of this market, the unrounded value will be used.",
+      "topic": "Economy",
+      "end_date": "2026-11-01T03:59:00Z",
+      "url": "https://polymarket.com/event/avgpt-of-ships-transiting-bab-el-mandeb-strait-end-of-october",
+      "snapshot": {
+        "time": "2026-10-17T01:15:21Z",
+        "crowd": 0.115,
+        "best_bid": 0.11,
+        "best_ask": 0.12,
+        "volume": 10026,
+        "liquidity": 19242,
+        "fee_rate": 0.0
+      },
+      "news": [
+        {
+          "title": "How War Is Choking Global Oil Tanker Traffic in the Strait of Hormuz and Beyond",
+          "source": "The National Interest",
+          "published": "2026-10-15",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNOVN4QVVnNmdmblhUQkpqZHlaampHdTBLOHcyWEstMmNQbGpmTThLMTNrTnpfSWpNVmVPN0trSmxLdUhrUnUyNzdHd0RKVEdoQm5KNjJSX3FucDNvNk9EemZ6ZmNyRnlBeUVjUm91TXQ4b0d4SUc0RHY3eHpDVGRCeklhUmNZOUF6bGlGWjhqb2ktQ2E3dWxBVXVzWUFOeDB3TV85T2Y1STVka0s2MlpnUnl2MXhnSUpTN0VIVE53RWVxazZ4?oc=5"
+        },
+        {
+          "title": "Both Shores of the Bab el-Mandeb Are Now at War",
+          "source": "Modern Diplomacy",
+          "published": "2026-10-04",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRFVsaldDNmFUWDVYcVBTQndoQTcwVHNNMDVBY1RhSTVuaVl0bkxlV04zQnJYSlQ4UmstUkdlUXJOWGpUcWFmQ0k1di1QT1NPSm00SmJBWE8xNndVTjZER0lTT0wzWm1SY1RhRVgyMG84OXRfLU1VOUg4enlpbXZnMWU1RTlkRkdTTUJPdmdURzNETHlvSnpHbGhHaDVsZC1m?oc=5"
+        },
+        {
+          "title": "Hormuz crossings drop 22.7% amid tanker attacks; Bab el-Mandeb stable",
+          "source": "Data Portuaria",
+          "published": "2026-10-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQdVBWNnFGdXBjM1hBaGVmeXBjNngzcWdBUnpZdUJfQXlfaV9lM2hhMmczbGR2bzBsdlAwbjhycWc5eEZWNFA4MFdBUFd0SGZSMS0tdnlKeHRNMjRacDhWNm9JdmNHUm12SGt1ZDNwcU9fRzJ3T014dnJUaldYdHl3TUxBVk9xX1V0NmRZbUtIbkRBa3NoSUlvN2ZWVGZxTUpHQlFjZmhOREhNZldENVBmaHRtVWswblVsSDJvaFFXakpwRnBt?oc=5"
+        }
+      ],
+      "news_query": "average daily transits Bab el-Mandeb Strait",
+      "forecast": {
+        "probability": 0.25,
+        "reasoning": "Traffic through the strait has been reported as 'stable' despite regional conflict, but I don't know the current baseline. Levels in 2024-25 often ran in the high 20s to 30s per day. With conflict now on both shores, a drop is possible, so a 4-unit bracket gets moderate probability."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-17T01:17:58Z",
+        "crowd": 0.115,
+        "best_bid": 0.11,
+        "best_ask": 0.12,
+        "volume": 10026,
+        "liquidity": 19242,
+        "fee_rate": 0.0
+      },
+      "bet_note": "No cash left for new bets; it's all in open bets."
+    },
+    {
+      "market_id": "3528499",
+      "event_id": "836010",
+      "event_title": "GPU rental prices (RTX 5090) end of October?",
+      "option": "$0.60+",
+      "question": "Will the Ornn RTX 5090 Index be at least $0.60 on October 31, 2026?",
+      "rules": "This market will resolve according to the finalized Ornn RTX 5090 Index price for October 31, 2026.\n\nIf the recorded data falls exactly between two brackets, this market will resolve to the higher bracket.\n\nThe resolution source for this market is Ornnai.com (ornnai.com), specifically, the RTX 5090 Index chart data available at https://dashboard.ornnai.com. The specified finalized daily value shown on the chart will be used for resolution. Daily data will be considered finalized once the following day’s data point is published.\n\nResolution will occur once the specified data point is finalized. If the relevant data is not finalized by the end of the 7th calendar day after the specified date (ET), this market will resolve according to the latest data available at that time. Revisions made after the relevant figure has been finalized will not be considered.",
+      "topic": "Tech",
+      "end_date": "2026-11-01T03:59:00Z",
+      "url": "https://polymarket.com/event/gpu-rental-prices-rtx-5090-end-of-october",
+      "snapshot": {
+        "time": "2026-10-17T01:15:21Z",
+        "crowd": 0.806,
+        "best_bid": 0.801,
+        "best_ask": 0.811,
+        "volume": 22023,
+        "liquidity": 2212,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "'GPU pricing to climb significantly' warns PC maker and 'elevated prices could stick around for some time' — while Nvidia's RTX 5090 might be on its deathbed",
+          "source": "Yahoo Tech",
+          "published": "2026-10-12",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQbkxIYTI3b19EaTBuZ0JheHRJemM1Q3ZCMWZtTWo1M1NQdTJ5MFgtOTJzcVFaV0Vvb0h0dFA3Uk9rMlNtNHA0ak1wLWVvQ2pRODJtUTdpdEdlUmlwZ2R3NV9lTHNQT0ZSX0lHRk4zTGRxLWNiekZwV1BOMzd2Mm14SHdWaS1DaEppano5LWFwWGlEbXVpU2d5VlNB?oc=5"
+        },
+        {
+          "title": "HP RTX Spark Laptop Leak Pegs Price at $2,999 [2026]",
+          "source": "https://tech-insider.org/",
+          "published": "2026-10-08",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBXZUFVbHRYaEg3U3VHT3RiclBlUkUzeHRRWnd0Q0tweTZCenQ5ZWJQdUF6SkxjeXlrWkNVbGlFRmVKeGxHVTdsS1BWYWxZZ3NsV1hYeGNqZlNia0FSRENtZ2IzR2VsNWtCbi1hRDRfcHFwNTVh?oc=5"
+        },
+        {
+          "title": "Nvidia RTX Spark laptop prices seemingly revealed by HP leak",
+          "source": "Mashable",
+          "published": "2026-10-14",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE95UEpYNzh6dm92MzV4MUdmVF9DTHFpeFNpTi1HT29xN3B1NWNkelVVd2l2Z0lNX2x2bS1GeVgxNTJlSEgybWNsR2RVTE81bk1IYl9MRzRlQndGLXl1X1ZKLUZHa3ZGNjBfYUhwZ1h2ZjViZ2tVSEpkWQ?oc=5"
+        },
+        {
+          "title": "ASUS ProArt RTX Spark AI PCs: Local Agentic AI | ASUS",
+          "source": "ASUS Pressroom",
+          "published": "2026-10-08",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQS1NHUTFvVTRBV3RnV0dXUnhHa3owS2kzbkZOajZZOFpFekN4cHF2Ymp5VXFsaUoySXhoZllXUmVBT0stN1ViZ241MVFqTEpvWVNCbW5QaDNUa2ZBX1pRM1d3SWYwZ0xDckI2d3JYcUd0WjhranpoRWlYdk1vZ203ZlhOTkpKYXc?oc=5"
+        },
+        {
+          "title": "These are the cheapest prices for every current gen GPU worth buying",
+          "source": "PC Gamer",
+          "published": "2026-10-08",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNOVFuTUFmRU9odnZya0tuSW5oUTBaNTdrS3MwaVdCQjVORHRneHVmdW5WWUdlb2xvVnVqa25rZDVXNUNjRVQ4UGk1T1AtRkUyc3hjT2FvT2h5OWNldzZMOVlWMDk1dDRYaEZSTnY1NkxtQm9BTjVHM0RrTDBYM1hNemVTZk5YVlk?oc=5"
+        },
+        {
+          "title": "7 best RunPod alternatives for GPU workloads in 2026",
+          "source": "Hostinger",
+          "published": "2026-10-07",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9FcTVtYjFxNTJPbmNoa1RqU1IweVlacExMME9Nb1lyRkZLYl9IaWhoaHhWdFBCWWQwZGU1aVdGY3lsVDJSMFZUT3VIaEJocUwxZWFuVDNFODlKMGYtNXFsT3lYLWlyZ0tPLVNF?oc=5"
+        }
+      ],
+      "news_query": "Ornn RTX Index | GPU rental prices RTX",
+      "forecast": {
+        "probability": 0.55,
+        "reasoning": "RTX 5090 rental prices have generally been near or above $0.60 per hour, and reports warn GPU pricing will climb. However, I have no direct view of the current index level, so I lean only slightly toward yes."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-17T01:17:58Z",
+        "crowd": 0.806,
+        "best_bid": 0.801,
+        "best_ask": 0.811,
+        "volume": 22023,
+        "liquidity": 2261,
+        "fee_rate": 0.04
+      },
+      "bet_note": "No cash left for new bets; it's all in open bets."
+    },
+    {
+      "market_id": "5180403",
+      "event_id": "1114518",
+      "event_title": "2nd Largest Company end of October 2026?",
+      "option": "NVIDIA",
+      "question": "Will NVIDIA be the second-largest company in the world by market cap on October 31, 2026?",
+      "rules": "This market will resolve to the second-largest company in the world by market cap on October 31, 2026, as of market close.\n\nThe resolution source for this market will be a consensus of credible reporting.",
+      "topic": "Economy",
+      "end_date": "2026-11-01T03:59:00Z",
+      "url": "https://polymarket.com/event/2nd-largest-company-end-of-october-2026",
+      "snapshot": {
+        "time": "2026-10-17T01:15:21Z",
+        "crowd": 0.189,
+        "best_bid": 0.172,
+        "best_ask": 0.206,
+        "volume": 11555,
+        "liquidity": 2654,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "ETFs to Buy as NVIDIA Marches Toward $6 Trillion Market Cap",
+          "source": "Yahoo Finance",
+          "published": "2026-10-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSlN1NjN2ME9YNTVDMGpCTXhtUlZpVXFOczdnUjZvd0tCZk11MGNzOG1SVldyZ2FEUk9XU1pFYkxWcmpUdkRKOHRiczF5MkJJdkZNMGJ1ZURnMldaRi1IY3I2c2x6UmU1WEtIbHhGZVhhT3dOY1h0VUVOMklxLXUzX2RZVUdEVTFRc2Z3dFRNTFEyWmk2b3pJcjRMOA?oc=5"
+        },
+        {
+          "title": "Apple Tops $5T, Chases Nvidia’s $5.3T Crown [2026]",
+          "source": "https://tech-insider.org/",
+          "published": "2026-10-15",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFAwUnZOYWVLUmZGUVk3WjBtUElDbTRCcnZDTmRqNGE3MUt2VmF2bzBFdnV1OWl4dndSY3dzTWJYaE9KbmNCRnJCQkxHYldWNzI0Vi1DYzIwTmtOdW51bGI3NDl2UXBDNmZDVWFpaHlFZk1QLWM?oc=5"
+        },
+        {
+          "title": "Nvidia’s Market Cap Nears $6 Trillion As Stock Hits Record High",
+          "source": "The Globe and Mail",
+          "published": "2026-10-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOTDF0aU1RYnhvU2lpQ0x6SHpwNm5RTmxVRXhxOU1jckt3b2J6WmwzZHRoSVBYeGJUZWp6NVdoTFJhNEdHS1I0ZEUycVJab3NJYjhOR3MxNHdRcUhORE9aZ3gyS2VHcjN6SVRpV1RCMk5Dbk1PR25vS3BRSHhkWERWQnhTNU10VThnaWRuUmpCb0JYdVVDMVgyUzFSNGRIc3o2MEUyaVJOWGdhRVhKbjZ6d2t1V0gzN0J1LXhBc0QwQW9uQ0FzRjF4YW02UVBGUTlGMmhmdzJYS214aFVXSXdr?oc=5"
+        },
+        {
+          "title": "Is Nvidia About to Score a $6 Trillion Market Cap?",
+          "source": "AOL.com",
+          "published": "2026-10-07",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5aMnB6ZEZlcWZMVFplTGFsVms3dWNXdGtOemJxVTAtZXl2RXBHQWI3ME9jUnNsdll6cWx3SGVxQ3NKVWEzYmlHOFpFWHd0a0pQd1RiZ3JOQ0s0eTlGNVE4aHJnVmdVUE9BWkJiR2hDd2UzSVJ4eHhhSU12eHg4YXM?oc=5"
+        },
+        {
+          "title": "Nvidia in 5 Years: Where the Stock Could Be Headed",
+          "source": "Yahoo Finance",
+          "published": "2026-10-13",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQbm04VVBmVXpkd2JycjZoRmhEaE0zMWpScFVMT0dhbEo3US1WaG1rMncyT1FnQjYxOVMzUGZza0xyUUpTNWdYMUVwV3ZhQmFIZFI0d1JudjBzT19mT0diajBpbVpkSzJETEhUaGw1cHgzUGhrQ1FGS1dqZHdITWRMc2tPZlJ3WWg2cnd4N0pjRTM5TERWYkE?oc=5"
+        },
+        {
+          "title": "Nvidia-backed Firmus scraps $5 billion Australia IPO amid growing AI scrutiny",
+          "source": "Reuters",
+          "published": "2026-10-09",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQY21BNU1iQlJDajVWejFGYjVrM2J0cllKVmc5WEVZX2tMQnROZGFJRkRDekhCaFY0MzRnYXhYOGNaVi11cFlndVo5b1RIYUpaS25JbV92dVkwVEZpXzVaTWdtR3piN0d6SUI2OW9qaEI4eHVCV1VBQkFBWXhyemttZDlhMlFVa3hQdDhpWVZkLW95cmxNaEFzZGxWb2dzU3VPSzNlNTc4OEF5YXV1LVoxOHZuUzFsMTZfaDJuckx4UQ?oc=5"
+        }
+      ],
+      "news_query": "NVIDIA second-largest company world market cap",
+      "forecast": {
+        "probability": 0.22,
+        "reasoning": "Nvidia is currently the largest company at about $5.3 trillion, with Apple just over $5 trillion. For Nvidia to be second, Apple would need to close a gap of roughly 6% by October 31. Apple's late-October earnings report could swing things, but the status quo favors Nvidia staying first."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-17T01:17:58Z",
+        "crowd": 0.19,
+        "best_bid": 0.172,
+        "best_ask": 0.208,
+        "volume": 11555,
+        "liquidity": 2673,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Gap vs. the price we'd pay is 1.2 points, under the 10-point minimum."
+    },
+    {
+      "market_id": "3212217",
+      "event_id": "770107",
+      "event_title": "Reserve Bank of New Zealand decision in October?",
+      "option": "No change",
+      "question": "No change in Reserve Bank of New Zealand's interest rates at the October 2026 meeting?",
+      "rules": "This market will resolve according to the change in basis points in the official cash rate (OCR) resulting from the October 2026 meeting of the Reserve Bank of New Zealand, relative to the level it was prior to this meeting. \n\nThe resolution source will be official information from the Reserve Bank of New Zealand, including the statement or release from its October 2026 meeting, scheduled for October 28, 2026, as listed on the official RBNZ calendar (https://www.rbnz.govt.nz/news-and-events/events). This market may resolve as soon as the statement or release of the Reserve Bank of New Zealand resulting from its October 2026 meeting with relevant data is issued.\n\nIf the specified rate is defined by an upper and lower bound, the relevant change will be the change to the upper bound.\n\nIf the specified rate is changed to a level not expressed in the displayed options, the change will be rounded according to the following guidelines. Increases or decreases of less than 25 bps will be rounded to 25 bps (e.g. an increase or decrease of 10 bps would be considered to be an increase or decrease of 25 bps). Increases or decreases of greater than 25 bps will be rounded to the nearest 25 bps and will be rounded away from 0 in cases of equidistance (e.g., an increase or decrease of 37.5 bps would be considered to be an increase or decrease of 50 bps). Displayed options of \"Increase\" or \"Decrease\" will include policy rate increases or decreases of any size.\n\nIf the specified meeting is postponed to a date and time before the start of the next scheduled meeting, this market will resolve based on the outcome of that postponed meeting.\n\nIf the specified meeting is cancelled, or postponed such that no decision is announced by the start of the next scheduled meeting, this market will resolve to the \"No Change\" bracket. Emergency changes to the specified rate not resulting from the specified meeting will not be considered.",
+      "topic": "Economy",
+      "end_date": "2026-10-28T00:00:00Z",
+      "url": "https://polymarket.com/event/reserve-bank-of-new-zealand-decision-in-october-20260729164521631",
+      "snapshot": {
+        "time": "2026-10-17T01:15:21Z",
+        "crowd": 0.31,
+        "best_bid": 0.3,
+        "best_ask": 0.32,
+        "volume": 33163,
+        "liquidity": 2646,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "New Zealand Dollar rebounds as RBNZ hawkish, US PPI caps upside",
+          "source": "FXStreet",
+          "published": "2026-10-15",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPT255ajZlYlE4YTFRQmN4enpSRGRPMzJtRGd5ZkZRXzNkNmV4SDlvSHplU0V4WjA2Y3dTV242MkRwczVmaXVQMlVVMkR0NENyY19DLWt5WHRnWmNPZF9CSUtFVkg0Q1pHcUl5LXhYQ2s1cG0zUVRjR21BUUYwTDY5SlRYV05IQjAxYlNfU3JqeDhiX09vQk9pWmhrMDVKVGhsTnZHSjktcndxQ01EZ0NsQ0lqRlkwenI3eXc?oc=5"
+        },
+        {
+          "title": "New Zealand Shares End Slightly Higher; Infratil-Backed CDC Data Centres' Wagga Wagga Project Reportedly Draws Local Opposition",
+          "source": "Yahoo Finance Australia",
+          "published": "2026-10-07",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNMnBvQ0lMRmJwM29Rakswd3M2NktRQVQ2anZtY1lWZE1hQ0lISnhva0FXaktUUnNrNFVYdkhscnlKWUk2Z0EySk9YZU1Jai1wZi1NcTVSQllDQjBIWW5vYVZUc0FLNXhSaUVuWFdYc0pwSXdOdmpnNVJBQnNYMm43NEo0dVFseWVYd21n?oc=5"
+        },
+        {
+          "title": "New Zealand Dollar rebounds toward 0.5600 as RBNZ signals further rate hikes",
+          "source": "www.tmgm.com",
+          "published": "2026-10-16",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxObW9IazNLVUpPMF9yOGJrUXlaVVlKMGtKTXI5OVItdVIwNUJ0R1pmM3gwNFRQenE2WlN5aDJMRDdJa1czVm9qV041c1hybXNaWGppTFNUOTZ6enNoV3dmQlpMcFpILWxIelpEOElsTUpmdTZOMXZLSE1Rc2QtYXQxV0daTFBpbkVObWlIamxUSzAzdE1GMzZpUmZ5Tl9EbWFFRDlKNzZIbUtCNlYwZGNDckVtZExyTG5kMVd6UkxuYkZtNFVyeHpLY0FFYUctT0Z5bHVMRW5nM3NKQURB?oc=5"
+        },
+        {
+          "title": "New Zealand Dollar rises to near 0.5650 as Fed's Warsh gives no hint on October decision",
+          "source": "FXStreet",
+          "published": "2026-10-16",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPUVFMLXJZeFZ4dEhRX25uLTFtaWYwb2U2VGZ0VTgtRkQ1WHlCZmtseFVYMllTLXQ2c1pHQWZNVWxKVFEyUXpQMzd3NlIzVXZGZXZoVmVWYzYtZ0dwQW16NF9HUlNWbHhHdmowSlV1ZFVOX3RzVEVoT1ZUN09XWG1fMzdsSHNfcURGMFladHVEeG4yR2JZS0Z6My1vTU5aemhWT2xiY3RqUEJHbkRUNVFDUnZ4OXJZeC1CRk5HUU5DZEx1V3pQZVJ0WA?oc=5"
+        },
+        {
+          "title": "New Zealand Dollar rebounds as RBNZ hawkish, US PPI caps upside | FXStreet",
+          "source": "شبكة تواصل الإخبارية",
+          "published": "2026-10-15",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5OeFdUOE9KRnJSYVNtRFZVd0J1emE5Z21DbnplUzFoN0FTX2dxbnlwWmJzUEtvaFN6VGEzb3JKd0RLY3p0Ry1Id0J0SjJjUUktcll3?oc=5"
+        },
+        {
+          "title": "New Zealand Dollar Recovers From 18-Month Low",
+          "source": "VT Markets",
+          "published": "2026-10-16",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPSVpyUzBBVUR6aHBqNlpLV1NhSWpVdFZYTzZwWXdhMko1Vlp4MmwwWFJUaXI3UFJmY3h2MDgwLWtyRXRlQjBqcnBVM1R3Z3dwYW5TTWRneDM3M0hLNTZZRkNkRFZfallxRGhybC04RmczamVYeFFRNG9VVGxwcmhUYzJUTldFb01G?oc=5"
+        }
+      ],
+      "news_query": "change Reserve Bank Zealand interest rates meeting",
+      "forecast": {
+        "probability": 0.35,
+        "reasoning": "Recent coverage describes the RBNZ as hawkish and signaling further rate hikes, which makes a hike at the October 28 meeting quite possible. The bank could still wait for more data, so 'no change' remains a meaningful possibility."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-17T01:17:58Z",
+        "crowd": 0.31,
+        "best_bid": 0.3,
+        "best_ask": 0.32,
+        "volume": 33163,
+        "liquidity": 2646,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Gap vs. the price we'd pay is 3.0 points, under the 10-point minimum."
+    }
+  ],
+  "batch_id": "msgbatch_01MFaTEVqGK3Q4SV98x67khA",
+  "forecast_at": "2026-10-17T01:17:57Z",
+  "usage": {
+    "input_tokens": 8443,
+    "output_tokens": 2808
+  },
+  "cost_usd": 0.045,
+  "budget": 0.0
+}
