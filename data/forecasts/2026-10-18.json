@@ -1,0 +1,500 @@
+{
+  "run_id": "2026-10-18",
+  "date": "2026-10-18",
+  "created_at": "2026-10-18T00:53:34Z",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "phase": "1.1",
+  "pick_stats": {
+    "eligible": {
+      "Economy": 5,
+      "Entertainment": 4,
+      "Politics": 119,
+      "Tech": 2
+    },
+    "picked": 6
+  },
+  "questions": [
+    {
+      "market_id": "5732710",
+      "event_id": "1194438",
+      "event_title": "# of views of Grand Theft Auto VI Launch Trailer on week 1?",
+      "option": "60-80M",
+      "question": "Will \"Grand Theft Auto VI Launch Trailer\" get between 60 and 80 million views on week 1?",
+      "rules": "This market will resolve according to the number of views the Grand Theft Auto VI Launch Trailer video gets in the first 7 days after being posted on the Rockstar Games YouTube channel. This market may not resolve until the 7 days are complete, regardless of whether a strike is reached earlier.\n\nIf the reported value falls exactly between two brackets, then this market will resolve to the higher range bracket.\n\nThe resolution source for this market is Rockstar Games' YouTube channel (https://www.youtube.com/@RockstarGames), specifically the 'views' counter for the described video.\n\nNote: This market refers only to the \"Grand Theft Auto VI Launch Trailer\" video posted by Rockstar Games (see: https://www.youtube.com/watch?v=rz1B4B2yBZY).",
+      "topic": "Entertainment",
+      "end_date": "2026-10-23T03:59:00Z",
+      "url": "https://polymarket.com/event/of-views-of-grand-theft-auto-vi-launch-trailer-on-week-1",
+      "snapshot": {
+        "time": "2026-10-18T00:53:31Z",
+        "crowd": 0.5325,
+        "best_bid": 0.511,
+        "best_ask": 0.554,
+        "volume": 43176,
+        "liquidity": 12997,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "Grand Theft Auto VI Launch Trailer Released",
+          "source": "VGChartz",
+          "published": "2026-10-15",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMkxFSkdpbFdjb191cUFFOTFiT0EwbjZGVlg2dnZHMk1IdzdEbk1PYVF1NU5OSklGbjlhWGoxMjdFTHFRbzNjVDNXTENlTmJ1YVIxcWdQdDBKR0ZnQ2s3WElERG1WZWY1NkduaVBJZ052Qkc5Y21IdHVTQ2dPbk05cnhmbnI2RHFXamlEYQ?oc=5"
+        },
+        {
+          "title": "GTA 6 Launch Trailer Explodes Online — But The Comments Tell Another Story",
+          "source": "Cosmic Book News",
+          "published": "2026-10-15",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBfWHpicHp5SWxHOGZ3Y0ZJTlFWU1FCTnU5NFdfZnlUb3B1SnA3RGxiNDFKTk1VcHF2enpXdVJCX09RRFdadGNpdm95TkdidVFNNXpnYVRHZw?oc=5"
+        },
+        {
+          "title": "New GTA 6 Screenshot And Launch Trailer Artwork Released",
+          "source": "RockstarINTEL",
+          "published": "2026-10-15",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPVlBlVWRBTVNxUk9hQ1IwLW12Zzl2dlRXeDdWVWJaMXdESnctMlRhMEM4bGVnUEdDUFdiYXJXWFAwcHMxTTZhWTVyY3RYSUI1QU80YkxnaGhOa2FuRkJNb0FWaERHYzBVV2txWVhuQ29YR0x0ZnNoSTZ1cFh5MHJPbjFlQlo1MUNEdnVr?oc=5"
+        },
+        {
+          "title": "Rockstar Games unveiled the Grand Theft Auto VI launch trailer featuring music from Justice.",
+          "source": "GameGPU",
+          "published": "2026-10-15",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQUlKaE1iRVdOaFhGaFVTZXp1Mlp4TVU0cENlT1FKMTZkREdUSXVsNWRuSzVSZTJhWTZScGFwY1JYSm9BWEdjM2FieFNSZXlpRVRCbnE1Tk5mY0R4bkx0LWZCczNxZHpXNHJpdXRmYUJxZ2pmX29ncEhCd0ZSeFY1aVJrbFVWblk1OERtWTBBY1Y2bzJOc1JGVnNfZDdoNnhGX1ctVThuQURhZkY3SjhIdU5HSEc?oc=5"
+        },
+        {
+          "title": "Grand Theft Auto VI Launch Trailer",
+          "source": "GameFront - Mods",
+          "published": "2026-10-16",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPQzg1ZWg3Y3lxbTVubENQZjJrZlFqbW1qMjFXbVVPTkctWUNIaE5RQlAwcV9YdnNvMGl4eEI0TkpPR0dOYi1fWXFMYlI2MjcxenpzSFFkQ090OUdfekNVV20wcVpRQnpvX2YxVGxTYkxMOUp1TVRELXc5QlZnX0k1ME5JY040WDY5SmI5djVHMDE?oc=5"
+        },
+        {
+          "title": "The Final Countdown Begins: ‘GTA VI’ Launch Trailer Arrives Five Weeks Before Release",
+          "source": "FanBolt",
+          "published": "2026-10-16",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMWROTnhDcVp2czJobzBGVXlWam5zcjZ2N1VKUXhIeHJobk9mbkFaSDR1TEg4ek9wS2Q4YzNTM0U1QVlzdVVVR2tYRDlkN1VaS1lZeG5lVEdFTmZ0NU1nOHNXcGRlYi1tamFiVkhZR3FFNDFQRXo3ckJxdFFxQ2xGZ0dDX3ZiN1dac21paEI5WXQ0LTdKQlVjNU5wa3hGczFOZ21YY0lUZU80aHNXZ0V6UnBtLU0?oc=5"
+        }
+      ],
+      "news_query": "Grand Theft Auto VI Launch Trailer views",
+      "forecast": {
+        "probability": 0.33,
+        "reasoning": "The launch trailer went up on October 15, so week one ends around October 22. Earlier GTA VI trailers drew roughly 90M+ YouTube views within days, and hype is extreme five weeks before release. However, launch trailers often draw less than reveals, and views are split across platforms. The 60–80M band is plausible but competes with higher outcomes."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-18T00:55:06Z",
+        "crowd": 0.5325,
+        "best_bid": 0.511,
+        "best_ask": 0.554,
+        "volume": 43176,
+        "liquidity": 12997,
+        "fee_rate": 0.05
+      },
+      "bet_note": "No cash left for new bets; it's all in open bets."
+    },
+    {
+      "market_id": "629183",
+      "event_id": "57141",
+      "event_title": "Arizona Governor Election Winner",
+      "option": "Katie Hobbs (D)",
+      "question": "Will the Democrats win the Arizona governor race in 2026?",
+      "rules": "This market will resolve according to the winner of the 2026 Arizona gubernatorial election.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
+      "topic": "Politics",
+      "end_date": "2026-11-04T04:59:00Z",
+      "url": "https://polymarket.com/event/arizona-governor-winner-2026",
+      "snapshot": {
+        "time": "2026-10-18T00:53:31Z",
+        "crowd": 0.925,
+        "best_bid": 0.92,
+        "best_ask": 0.93,
+        "volume": 103647,
+        "liquidity": 143901,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "New Arizona poll shows Democrats leading in several key races",
+          "source": "AZ Family",
+          "published": "2026-10-14",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQYlpPSExlS2ItWERUS1RLOG01aDR0NDJTUDRUWE10RzRTRzc5NkhrOE1fZXd2MjBRSjBWbkFqb0tFTFFrZURjNjNVZGNoVUZwMlJDUF9BcTRYRng4bUg2cVBqVUpIVDFUcEROOVJ3QUtMUHUxdVRKM0dtaXdybVFodXVSSXA2eFB2VW50WEZOdnhuZUJRajlJNG91c9IBrwFBVV95cUxOd3FqOUFWQVVxZzJmbG1hTThRMkh4YklFb1BVRXRTeGpLNUFoNVZ1aHhjQmI4Sk9DZ1Z5TzZqYjZleTYzSmxjWTMzZWpZZ2YzOENrVEFlSC1CTy05ZXdEaUZpSlFLa2RHY0VIeFIwVTZzY2tXZmF1Sm5rNVJiaFpNaGN2Zmh6VUJMUWNCbDlydEViWGhJX1JYQUljYnJ1ZGozakU0WHVPSTRodTFmeEFF?oc=5"
+        },
+        {
+          "title": "New Arizona poll shows Democrats leading every statewide race",
+          "source": "KTAR News 92.3 FM",
+          "published": "2026-10-13",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQUS1ya2hwYkV0NjdGbVBrWFVvcVdZSEFGU1lGMW1EWTZPbS1LMmpjZUN2NGRDdm9WRy1rSHgyUkZpTWdneWx2MmJvUlNnY2l4MHoweTMzdC1DdEFkSm0yNlpSY2haMEE2dWFEb1NxRFVWaVF4YldXNUlRdDhvbWhSR2pMSzJySmY0?oc=5"
+        },
+        {
+          "title": "Latter-day Saints women turn away from scandal-plagued Republican candidate in Arizona",
+          "source": "NPR",
+          "published": "2026-10-04",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxObHdteGkwU1ltcWQ0ZnpmWUhlRUZVdXF5Q19wVGdhWWpYNjUxVFJZN25abFpYaHhueGNqT2ItVHJFc0JJeWxfZU5YN29ENUc5RjNPOW9tRGpja2doVEVCZkVHU3VQS1R0a3RTdEREUG90d1ZscU9wdF9uSEJwQnJSMmNyNGNkLUh6d3ZCVQ?oc=5"
+        },
+        {
+          "title": "2026 Arizona governor's race: The candidates",
+          "source": "KJZZ",
+          "published": "2026-10-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQSzNPcF9XdDVWRWFGY3ItRm5fVlNocTV3NU9yTmJuYmpTNUJITFlnb1JmWFYxNXlWQlI3b0FROHVCanVmenZyUkd6cldrRTZlTHZ4RU5oS1BTUmhrbUpCaTI3eXdnU2RJNWgxUC1BVVM1RXQtTkRwc2oxQUVrSjRIY0J0X0FYaktLMml3M2ZwaDBFVHc?oc=5"
+        },
+        {
+          "title": "Democrats Hold the Edge in These 17 Races for Governor",
+          "source": "U.S. News & World Report",
+          "published": "2026-10-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNOW5fbC1uenhFYVFENDdpdUR1eDV0YXNtX2RWamZwUDZBeUFsRkx5SWoweUlERDcxOGlWUVNaMC1scmZKem1qLW5lLU90OXpPN1dfU05uQWNIdlpUMmNfclFvcEx0eHJ0V0xEQXg2aHUzUUlrbmNINGh6Q202cUlscHVqLVhLMW1mRE1TejJfWUIycVdzd0RINFQ4YVhvTnpaR1UyRXp6X1dwcWgxVGFrQUEyX1J3MnlxMEU2M1hiTQ?oc=5"
+        },
+        {
+          "title": "US midterms: Trump warns voters Democrats will 'destroy' America, backs Andy Biggs in Arizona governor ra",
+          "source": "The Times of India",
+          "published": "2026-10-15",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxQSXlPZTNjRTYzdXltYVdDZVJmeGZHY0ZYVVgtTVN3ZlRoeXFpZHh0dDJ2MVlRTy1KeERlRC1PWmY4WmpVYzNXNDNpMTZjdGRqUUx5X1RkV09IeFBmYkkydmxxLVJ2cERabXlrZ3g0eEhpNHdkaWxldlF6aXZpOUx0cHBzamFKTTRrZWR0amFDQ28yaTFuNWFobzI0OFU3aDk4aTdNamJjcWsyTWNxeVN2NzVJYksteE5TR2p3YWZ3V2ZQRDg2UldtUTMwYi1rdTV3X0c0c2J0NS1uNjRjb1oxX3VZdUdIdHBOaGUybHZpY1JqRTlka1JnUk9wcmtkX1RkWmhaMlJ3ZXdHWFlLc3V2VXM4ejZOVVQtV1cwa0lNaFliTTdOWG5UVNIBrgJBVV95cUxNbFl0M25lSmcyMklieEZZdlJhN2kxb0h4VlBLVTNJbkVoMkZTelFQdzRtM3JhNkFhTVpkZ0FCdTdncDlDRzE1SG5kSWZvZlVJTi1Xa1hVY0pRTU4zQXF0cGs4YmU4SjBrbGlsTVgzNk13MG9wbG1YSUFLWUJ2UGVQUWQ3VnExMjA4T3FzQWpGcnFreW5GS2VxOHpiUjZQa1NFVmYxX1A4WC1oUU5VazJUYVMzU21ibWNHUi1NOU5OQ0RGemx1WldDYkszYnhCWWNzbW44dDVIR0lzc0tEMi1GMFlBdEExUDRab1pyNWVhZnBMbmJ0MV8tNFc4aFFUZUtOYlJMdTFMZnlJT3ZSSnFJaFdlOEdvazVDR0hZaXZhN0lqTE5XeGx1eGI4OXl5UQ?oc=5"
+        }
+      ],
+      "news_query": "Democrats win Arizona governor race",
+      "forecast": {
+        "probability": 0.76,
+        "reasoning": "Recent Arizona polls show Democrats leading every statewide race, and the national environment favors Democrats. Incumbent Katie Hobbs faces a Trump-backed Andy Biggs, who reportedly is losing ground with key voter groups. Arizona remains closely divided, so an upset is possible."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-18T00:55:06Z",
+        "crowd": 0.925,
+        "best_bid": 0.92,
+        "best_ask": 0.93,
+        "volume": 103647,
+        "liquidity": 150242,
+        "fee_rate": 0.04
+      },
+      "bet_note": "No cash left for new bets; it's all in open bets."
+    },
+    {
+      "market_id": "630773",
+      "event_id": "57650",
+      "event_title": "Maine Senate Election Winner",
+      "option": "Susan Collins (R)",
+      "question": "Will the Republicans win the Maine Senate race in 2026?",
+      "rules": "This market will resolve according to the winner of the 2026 midterm Maine U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
+      "topic": "Politics",
+      "end_date": "2026-11-04T04:59:00Z",
+      "url": "https://polymarket.com/event/maine-senate-election-winner",
+      "snapshot": {
+        "time": "2026-10-18T00:53:31Z",
+        "crowd": 0.405,
+        "best_bid": 0.4,
+        "best_ask": 0.41,
+        "volume": 1016014,
+        "liquidity": 272377,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "Election Dispatches:: Candidates in Crucial Maine Senate Race Set to Debate",
+          "source": "The New York Times",
+          "published": "2026-10-07",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1VdU52Q2FHUGljSENraHRQZ3RIQnFhWXBDV0dJZDUzVmwwRmVjeGJSdUNYMGpQN1Q4SmtVQkozZTFjYzJoc0ZDV3I0TXlaUTRoX240c08xTThTMURwNXZMSF9GdklvdTh2V3lZTWhn?oc=5"
+        },
+        {
+          "title": "What happened in the first Maine Senate debate between Collins and Jackson",
+          "source": "PBS",
+          "published": "2026-10-07",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRHh1Rk1TR05ZUXIzcWRWMTJZMUgxZjhGN0F3ZHMzSVJqOGZHRnBuNVNDYzlQUzNZSGpOSUhTaEJqOTF1ZFRhSTMzX1h3VlhHV2pUZ1ZaOGhFcWVvZDk4V2x2WUwzaFhXSXJSMTEyb3R4cXNMOGpocXlfSzRiX2w2Y2tESGJzRUh5NndPQ3I1bVlOTHdiWWVnajFWMDJMM2hCRTl6c0tBeFpwV1hkUVBOdTdB0gG3AUFVX3lxTE5ZWHF3WEdWN1ZGY2VRWGlKdkdsMHlDTzJUbFJZOGdJbmd2NVJ5YnR4ZllwaHRXSXg4QXhtRXViUlVaQ2hsSDFTRVBJS0VRazAzM2luRXZ6VnJnWGxqOTRYXzkxeExUMmx1WkNHLS1tdUI5ak9OVDM3MDVna3NaS0tzSi16ajk0X2lNeDhSdHFjNV9mWUk5TG9fMXNKMmtmNm9OLXI5ZXhsVkQyc3Z0UUdsZnJuY05GMA?oc=5"
+        },
+        {
+          "title": "As Susan Collins goes for a sixth term, Maine Democrats worry she’s a ‘Teflon candidate’",
+          "source": "The 19th News",
+          "published": "2026-10-08",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE05dXltTmR1eFZhWFo2d0tzbEZnMUxBa3FlUHRKRVhDZDV6dDJjRkdMWTBRR1JqdUJjSlhNYlVjRGFsMTZ4eXVoUXd0cURUZnFmbDVETmdLLWZCaXNwRk9vaTlGMzdtM2NZTE5vQXc2N0drQ0FzdE5QRDBMXy0?oc=5"
+        },
+        {
+          "title": "Trump looms as tensions flare in final Maine Senate debate",
+          "source": "NBC News",
+          "published": "2026-10-16",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQWRNeFJYMWtCTTVyWVp0ekt3SmJFZXdWNnFCcTFPTlJvc2NnbUJTeDZJUk5HSnI2ZUhYM2pQLVFtOENfTGQxRUxZLTFJWGpLQkg5cFVjclVIbW9NbWxPVk1RQjNISlhIVWk2c0J0aTJacG9qM0VMQnhydTJ6b2lxU0tRM2ZIUm9LaXU0N3JYMld0NmJlV1dRUkJSeUdTckcwd1l0Y1AxTzhCTFluT3N3?oc=5"
+        },
+        {
+          "title": "Oops: GOP group mistakenly bought ad for Maine Senate candidate in wrong Portland",
+          "source": "Oregon Public Broadcasting - OPB",
+          "published": "2026-10-12",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPY1o5Q24yU0F1RGpVM09uLXZiYkRwMzdKVlV4UnRvNEFGRzlkTlZ5N21NS09jMTVmcjExSkd2LU9nMHBWd2JDY3FZZ0RseGdKU1NsOG1BbzZlQlVkSDFCMk5RNTlhcC10WUFHYTZmZ1FEY3FRMF9tNzB6RnotQTRXWF8xaXZzaUlfcUtkaWtEanFvVjFzSWU1WUFqT1NZdUsxelpmazA3Wmt1R184OUE?oc=5"
+        },
+        {
+          "title": "Hottest 2026 Midterm Races—Democrat Up By Double Digits In North Carolina Senate Race (Updated Daily)",
+          "source": "Forbes",
+          "published": "2026-10-13",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQZVZVZ2pRM3VsNEVzY3R2Y3paSmF3ZjJGb3piZDF3YXRUbFFWYmh4SHRXdzU5MGQ0LW9FOFMyVkxrcml5TXdEYWdrWmRVSDRGTmVIbjU5aXlyaldMYXZRMk54N0xnMHp1ZFh0OEpnTzhtLXFIRkJSYXNCRm5lTm1DTkFLNENQdVlrSnlyVl9xSzU4RjFfZEJFbklHVENLUnVlSHpjQmRpd0RLeW8zX0dER2hZX3ZLVVlEclBIWi1TaGV4ODdJQ3EwVGx4eWRRcjJsbmd3cmlqSFJaMkdPd1dKTWhQbm01d0kwSmJDa3QxY2RFLWl3MHJyVkR0cnVTTE0?oc=5"
+        }
+      ],
+      "news_query": "Republicans win Maine Senate race",
+      "forecast": {
+        "probability": 0.45,
+        "reasoning": "Susan Collins has repeatedly outperformed her polls and is seen as a 'Teflon' candidate. Even so, a Democratic-leaning midterm in a blue-leaning state makes this a genuine toss-up, tilting slightly against her."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-18T00:55:06Z",
+        "crowd": 0.405,
+        "best_bid": 0.4,
+        "best_ask": 0.41,
+        "volume": 1016014,
+        "liquidity": 272377,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Gap vs. the price we'd pay is 4.0 points, under the 10-point minimum."
+    },
+    {
+      "market_id": "629506",
+      "event_id": "57181",
+      "event_title": "Nevada Governor Election Winner",
+      "option": "Joe Lombardo (R)",
+      "question": "Will the Republicans win the Nevada governor race in 2026?",
+      "rules": "This market will resolve according to the winner of the 2026 Nevada gubernatorial election.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
+      "topic": "Politics",
+      "end_date": "2026-11-04T04:59:00Z",
+      "url": "https://polymarket.com/event/nevada-governor-winner-2026",
+      "snapshot": {
+        "time": "2026-10-18T00:53:31Z",
+        "crowd": 0.425,
+        "best_bid": 0.42,
+        "best_ask": 0.43,
+        "volume": 211135,
+        "liquidity": 175561,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "New poll shows Lombardo is the only Republican leading in state races",
+          "source": "Reno Gazette Journal",
+          "published": "2026-10-07",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPalpDS3JfR0xvZFhrNjR2WEFEWU1ab3h2dEk2Sm1ra2pwVmVMUUNpckt6eC1GelVDNkdyMTVPNU15YWlUM2NhcjBaWlduTGxraHQ3WUhSQ3ZPNVBzUC01cW5Sa3J1c2ZBOXpjcmZlajM0X29ZVThnTl8yUS02ZzFUTWhoYTVfdFlpVWNNSFBiNnl1RURUX2F3eTBnREQ0eHFzZExLdnYxOTVoMkZGaV9UcE92LUkzRkRpVlE?oc=5"
+        },
+        {
+          "title": "Lombardo Tries to Escape Trump’s Orbit; Up 2 Over Ford",
+          "source": "Noble Predictive Insights",
+          "published": "2026-10-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPTElid3ZiZHpwOUFNcHZNOXI4OGU1cTBBTTdYYkhIMFVMcUo1ajBUWUZtOWxEWVgzOXREUDBXYXVKaUZQZ2tiSzRuNzVyVGZRR1prVFlWN2FqakhvaVpZckd2NHZJMThEeGlUdzdUeE4xWld1NnZVUkkzdXA1WmVQdExPUG1JbnFJcUQyRjBkMXZrY1RhYkZZWWRGNzV3bXM?oc=5"
+        },
+        {
+          "title": "Can Nevada Democrats Roll a Trifecta?",
+          "source": "The American Prospect",
+          "published": "2026-10-13",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQR2YxZjZtOWR1OGx6WFJTXzlDZEo2MWtmNEQ4VFdoVURXeUtiSF9JRG9qeU9jTWpUdktDZXV6RGs2Z0I5TXhqS29kcVozWGFfZFFFNDNwcHR1SnVvcDh3aF9mMTRpemx1cDF4WHlKaThIcS1hMGluLWc2NmY4SzNfS2F6SXVSZ2RRbkVn?oc=5"
+        },
+        {
+          "title": "Democrats could win majority of governor’s offices for first time in 16 years",
+          "source": "Stateline",
+          "published": "2026-10-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNTzBVNnR0emhSU3lMOUVpVFVybkNqWjJGMzJBZm5WZU94M2g5RE84VG9MMGlTZXI0QTM0UndldVpBNlM1M2dBVF9tNDh4QldqenZBNHRJQkc2UU1uV3VDOW9yV05WbFNMYVB6UFk3ekxLQjE0Ylo2d0c1UFpKdDMtcEdQZnlnamxnR2R0WVJaQUp5bS1TZW50WlNCQmpZMTU4bFk1RE1PSy0wQ2tJbFNv?oc=5"
+        },
+        {
+          "title": "5 House districts where Republicans are looking to turn the tables as Democrats eye big midterm wins",
+          "source": "PBS",
+          "published": "2026-10-08",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOcEhPWllLeUpIak14UmV3SEhRcElEdTNTNkh1Z2x0a1BqM0U5NHFMYThBODFsaUFCY2NPTWM4M0tNNkRSc3JKM1p6WXFwSU1tSXNwQ2M1WnQ0dG50UTNadkR1aGxSWDZvcXRoUk1rbGxJRUp2S3NqMU9CSWY3Y2ROb1h5QTVDbWlxOWlJbVJlSk9SejF4bHdnbk1oTGhHTWZmNTg1SXVtdmRaczQ3Ml82bWpvZmNxT0JOZmxzQVppZU9QdWk1R2F1Z29rS0ptTTRaQktoUmpRNmFPTE03dHNCblBhang2ZTlMM2ZjdTlLVU9OZG9kNWxBOTRTMzNDdldG0gGGAkFVX3lxTE83QzQ2cVd6dExFaFpNd1FPdXdwTjFBVXRMSTlpWEpkRV9VMzYxajZDZ3Rva3RkekRUcHQ2cC13WS1sTUpZS1NMQ0x6RWtsejVvczd2WGFTNFRVZ3N4SlNTNmFsR0lYeEVkR2x2OUJlRWtIa0xaVDlvSl9rRXhldWlaTUROR1F5aDNtbWF2Skh5cU8wRlktOVV5eDM5M19mbTFDSXdPOXprZ01NdkdDb3ZMbVZ2cEpkeTJmU19FMm11WjJSLVlucElzWjVJTXI5RzYwUHA2WW5kQmI1Tm9nejhmLUF4Snl3ZVZNQVNXMGNOX3JvUE91YzVWQks4cXZsWTFFMzRFN3c?oc=5"
+        },
+        {
+          "title": "Nonpartisans could decide Nevada governor and Washoe County races in November",
+          "source": "KRXI2",
+          "published": "2026-10-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMikwNBVV95cUxNQVBTelRyZVl0NWRZOEJnLTZDTnRhVkIweWhZdHptVjNndy1ZTFdLOWxuWWthaVVEZTItR29hT0VZR1NxOHU2Nnh5bTJLZ3FiSVlIWWthdFBoMXhUZ0NaV0MyRV95TjRqeklmQ21CTzIxbmpsMG1vM3BYZHVyczBMVHFVNVVIVFlrNzZfWFI3V1pZcjdUTGpvVUpvdHMxMjYwdHNzUDkxdDdFelRlel9UQ1hPZFJXMlY3T18xNldPb0drRHJ3Z2NyTWVLcGRjZ3Y5QkdDM3ZxYmliUENGODNBdFQ3OWJvN29TTG1RUlp5LS04d1BTQjgyNHhSUUxJeUsxbWNOZU5iNTFjeWZkYlZyY0JyRlU3dkhTY1JtTWdwa09JMlhQYS1Pc3gtenZ6TFhnODdSNnp3TXJFQ0ZmaUlSdzdYcXQ2bHFpZ1hXelBrNS01RU04LUVlZ1I0bnRLSm0wU1ExUy1ZZEFzMHducXNpT0VhZVRRVmdxSWhKZkNHbjFCVmFCOFJyLVhZbFpzZXFHU2F3?oc=5"
+        }
+      ],
+      "news_query": "Republicans win Nevada governor race",
+      "forecast": {
+        "probability": 0.52,
+        "reasoning": "Incumbent Joe Lombardo is up about 2 points over Aaron Ford in a recent poll and is the only Republican leading statewide. Incumbency helps him, but the Democratic-leaning environment and nonpartisan voters make it near a coin flip."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-18T00:55:06Z",
+        "crowd": 0.425,
+        "best_bid": 0.42,
+        "best_ask": 0.43,
+        "volume": 211135,
+        "liquidity": 175696,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Gap vs. the price we'd pay is 9.0 points, under the 10-point minimum."
+    },
+    {
+      "market_id": "5194704",
+      "event_id": "1116436",
+      "event_title": "Core PCE YoY - September 2026",
+      "option": "3.0%",
+      "question": "Will Core PCE YoY be 3.0% in September?",
+      "rules": "This is a market about percentage change in the Personal Consumption Expenditures Price Index excluding food and energy (Core PCE) over the 12-month period ending September 2026, seasonally adjusted, as reported by the Bureau of Economic Analysis.\n\nThis market will resolve to the percentage change in the Personal Consumption Expenditures Price Index excluding food and energy (Core PCE) over the 12-month period ending in September 2026 according to the monthly Bureau of Economic Analysis (BEA) report.\n\nThe resolution source for this market will be the BEA Personal Income and Outlays report for September 2026 (https://www.bea.gov/data/personal-consumption-expenditures-price-index), currently scheduled to be released on October 29, 2026, at 8:30 AM ET. Resolution of this market will take place upon release of the aforementioned data.\n\nNote: the resolution source for this market will be the official monthly BEA Personal Income and Outlays news release, which reports core inflation (all items less food and energy) over 12-month periods to only one decimal point (e.g., 3.7%). Thus, this is the level of precision that will be used when resolving the market. For the avoidance of doubt, this market resolves on the core PCE figure (the PCE price index excluding food and energy), not the headline all-items (total) PCE price index figure.\n\nIf the BEA does not release the relevant figures on the scheduled date, this market may remain open up until the scheduled release time of the next Personal Income and Outlays report (https://www.bea.gov/news/schedule). If the information is not released by that time, this market will resolve according to the figures of the most recent previous month with available data.",
+      "topic": "Economy",
+      "end_date": "2026-10-29T13:30:00Z",
+      "url": "https://polymarket.com/event/core-pce-yoy-september-2026",
+      "snapshot": {
+        "time": "2026-10-18T00:53:31Z",
+        "crowd": 0.215,
+        "best_bid": 0.21,
+        "best_ask": 0.22,
+        "volume": 10388,
+        "liquidity": 4445,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "PCE Report: Fed's Preferred Inflation Gauge Rises 3.5% In March, Q1 GDP Comes In At 2%",
+          "source": "Stocktwits",
+          "published": "2026-10-16",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxORDVUd3VQR3ltMUFtVVFGR0RiVlVCOEx6QnhlSWJoZ1lRMnN1cnY0ODJoa3hvS01vME5vZjN1aVVVN0RnMkxWV3NabHJJM0hGblh5b3dGWEVCWXMzWGVfcjdLYkVyTm5lbXhxX1pUNEl5dHdGWlVWQVdVTlN4ZmtDdVFKT1lkTmRucUhTV3drZVM0elV6TU9Cb2I4bW15WFZS?oc=5"
+        },
+        {
+          "title": "US CPI Preview: September 2026 Forecasts and the Core CPI Outlook",
+          "source": "Admirals",
+          "published": "2026-10-08",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPTnVERlI0bHRFUGZOa19JY0l4LW44a0QzRmVJbUVWRlJXd0JvcGZMcDJmZ0t0VDBVLXJpLVdXUGtaTUw1dHBnTC1oaG5fRjlKZVFRQUxOQzh0alAyRmFwUW1wZ1ZfX0pFc0hTeFd5Z284MVJPaV8zV1pHN216d08tVmNBdkFrYmhqM2NKN2ZJbU5PNXB5MFIyd2pfNW9BMS1zY29TYmQ5dlNPTXd6b0d2RHZJbHc?oc=5"
+        },
+        {
+          "title": "United States: PCE Inflation forecast and Fed stance – TD Securities",
+          "source": "FXStreet",
+          "published": "2026-10-15",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPcXNsWEI3Y0I0dms0UWM2ZnhCLWhfMVBsaU43WEdJblZLODRIM3hqODVaal9CaEo5R0ZyZ3VUWVlYbHdPU0VhVU5XNVNIeGY5RjExdGM4TExlNU5zdWdtbEMzN3lRWXBZZDhCaEFKc0t5Y0JlZTk0MU9MR1JkU1RDRmFFamMwemM1TlFjeG1jcnpMU2FHMnI0TXM2ZklaVUttVkZrdjNaMDZqV1Iw?oc=5"
+        },
+        {
+          "title": "PCE Report: Fed's Preferred Inflation Gauge Rises 2.8% In February, But US Growth Slows Sharply To 0.5%",
+          "source": "Stocktwits",
+          "published": "2026-10-16",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNOXNwTTJlUVQtLU83dktXVXZBbDdobnNfR1A1T3ZWY2xIYUNKOC1LcXR5WGRwdmRUWkltU2xDT2RybmdNUXFsd1lFdDdHcmpNWENrYnItbDZQOTBzRmxNdmR3ak13X2FzMHY5QVdpZEM3dm1KekczSm0yd0NUelZyclBTQ1BySGRJOGdLejlXeE1iZDBZYUFVNzA4N2J0NnItWmo4NXk3NzFGZw?oc=5"
+        },
+        {
+          "title": "US Inflation Likely Accelerated in September on Gasoline Surge, Core Pressures Eased",
+          "source": "BigGo Finance",
+          "published": "2026-10-12",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5FWllzcGpIcWYzdkZ5QTk2N25XQnFCSUFXMFppQnU1UXlFNnI0UVk0d2N4b2gzU2MwNFV3ZkRNTzZSQXBHaTZMQUNLYnAwQWRTX0RscHAzR0xtVDVyMFBaYlB5YmRXZ2pSV3I4UzJ5Wi1xZUptY2c?oc=5"
+        },
+        {
+          "title": "Gold outlook: can Core PCE and Fed expectations decide the next move?",
+          "source": "Equiti Global",
+          "published": "2026-10-08",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNRnhGbGd0Tm13NGNnemVuY2JiN1FBVXRObFo1TFYxZTNEemJibXprcS0xbU1jVnRwM0liUDcxWnlNQlU3TU1wb3JFaFhkM0IxUllyUkc1azlDbTRtM0JJVVhQYWl0UHhXTVVqdlBjOGdKNHdTamZNdEVwZllvUTN2QVEtME5HS1RyNU4xRzU0OThpVW8?oc=5"
+        }
+      ],
+      "news_query": "Core PCE YoY",
+      "forecast": {
+        "probability": 0.25,
+        "reasoning": "Core PCE has been running near 3% with tariff pass-through, and September core pressures reportedly eased. A single 0.1-point bucket typically gets about 25–35% probability even when it sits near the central estimate."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-18T00:55:06Z",
+        "crowd": 0.215,
+        "best_bid": 0.21,
+        "best_ask": 0.22,
+        "volume": 10388,
+        "liquidity": 4445,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Gap vs. the price we'd pay is 3.0 points, under the 10-point minimum."
+    },
+    {
+      "market_id": "5219954",
+      "event_id": "1121432",
+      "event_title": "#2 Spotify Artist in October?",
+      "option": "The Weeknd",
+      "question": "Will The Weeknd have the second-greatest number of monthly Spotify listeners this month?",
+      "rules": "This market will resolve according to the listed artist with the second-greatest number of monthly listeners according to Spotify on October 31, 2026, 12:00 PM ET.\n\nThe monthly listener count is listed on each artist's public Spotify profile. Only primary artist profiles will qualify; features or collaborations under another artist profile will not count towards the featured artist's total.\n\nIn the event of an exact tie for the number of monthly listeners, this market will resolve in favor of the listed artist whose name comes first in alphabetical order.\n\nIf Spotify is down at the listed time on the listed date, this market will resolve based on the most recent available data.\n\nThe resolution source for this market will be Spotify.\n\nThis market and these products have not been endorsed by Spotify. Any references to Spotify, Spotify charts, streaming data, or any associated marks are descriptive only and do not indicate an endorsement of this product or any affiliation between Spotify and Polymarket. Spotify and related marks are the property of Spotify AB and its group companies.",
+      "topic": "Entertainment",
+      "end_date": "2026-10-31T23:59:00Z",
+      "url": "https://polymarket.com/event/2-spotify-artist-in-october-20261031",
+      "snapshot": {
+        "time": "2026-10-18T00:53:31Z",
+        "crowd": 0.215,
+        "best_bid": 0.2,
+        "best_ask": 0.23,
+        "volume": 10302,
+        "liquidity": 3245,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "Justin Bieber's 'Daisies' Earns More Than a Billion Streams on Spotify",
+          "source": "Billboard",
+          "published": "2026-10-07",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNbkFmaEJjWG5sdFBTSmN5U0hMcjRpZFQyYi1fMlJZQ2dVQUNueUpyT25rTFpHODg3VW9xYWVwcS1nRVhsckVHYWpRcUQ2WGxQY24zMm1sQmV3T0FJNm1saHF3US1MMTRITEhLZktuYVkzbENzZ3JDcDZWZHp2YVZrNWFCVQ?oc=5"
+        },
+        {
+          "title": "Jennie x The Weeknd's 'One Of The Girls' Sets New Record for Longest Chart Run on Spotify Global, First for Asian and K-Pop Artists [K-EYES]",
+          "source": "스타뉴스",
+          "published": "2026-10-13",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE41QUVtVFNDX1NSUmdRUkEzZGR2YUFFZy10XzFVYVdnVlRwNnNNR2JqbkJyZTN3dmVLZjhXa1NDOVJBNXNhT3A5bDg1UjRZUWFYYk1fRHV1LVpEcGFfdGw5MktyMW53VDUtNXpFRFlsT0hSc2RxNWtJUQ?oc=5"
+        },
+        {
+          "title": "Most-streamed Spotify songs of all time, ranked",
+          "source": "qz.com",
+          "published": "2026-10-15",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE84ei1DUUU3TmY5bE9fZktRUFcwOF9hYXlURElBV0luV1dGY2lTMVBJNkM3TkdybDYwX0NRUlZINWZhVG9nN3BWX204VEZqSE16V3NQVA?oc=5"
+        },
+        {
+          "title": "JENNIE Joins The Weeknd for First-Ever Live Performance of “One of the Girls”",
+          "source": "InMusic Blog",
+          "published": "2026-10-08",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNeThtTXRUSXRWRXRkQUgxbnE5UG04dE9SZGd3cTVlUWItQlloa2pSMW16Snk4T2FJRVBvUjVNTTVLLUFKcnk4NUJLOV9iVXJNM21wWkhzM2JuSUkySzh0RWpDSzlDc3FxQ21WS0ZwZlBHOVM3QWNlOFlzR09LUGk1eA?oc=5"
+        },
+        {
+          "title": "The Weeknd’s Album, Starboy, Hits 20 Billion Streams on Spotify",
+          "source": "Tooxclusive",
+          "published": "2026-10-04",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNOUIzdTUtQ0J3cjYtQ0pZQTlHRFNiNFNYQ2FKVjRTRkVmM0E5LTNpclM2cHBreTcwTnp1MjhzWTZCcktvR0V5c1JCZkstWl9Na2NHYzNrNnRManVoZ09qTTByVDMzOTlibDJkQ3VOYWFvN0YtRk1PX2htQlRvQVNsWQ?oc=5"
+        }
+      ],
+      "news_query": "Weeknd second-greatest number monthly Spotify listeners | Spotify Artist Weeknd",
+      "forecast": {
+        "probability": 0.3,
+        "reasoning": "The Weeknd has been in the top two or three for monthly listeners, but competition from Bruno Mars, Taylor Swift, Justin Bieber and Bad Bunny is strong. I don't have clear current rankings, so he is one of several plausible candidates for second place."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-18T00:55:06Z",
+        "crowd": 0.215,
+        "best_bid": 0.2,
+        "best_ask": 0.23,
+        "volume": 10302,
+        "liquidity": 2937,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Gap vs. the price we'd pay is 7.0 points, under the 10-point minimum."
+    }
+  ],
+  "batch_id": "msgbatch_01K2HA5gTUdsLaqsbSHQRQEB",
+  "forecast_at": "2026-10-18T00:55:06Z",
+  "usage": {
+    "input_tokens": 5021,
+    "output_tokens": 1667
+  },
+  "cost_usd": 0.0267,
+  "budget": 0.0
+}
