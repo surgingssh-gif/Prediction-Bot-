@@ -1,0 +1,347 @@
+{
+  "run_id": "2026-10-19",
+  "date": "2026-10-19",
+  "created_at": "2026-10-19T01:06:46Z",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "phase": "1.1",
+  "pick_stats": {
+    "eligible": {
+      "Business": 1,
+      "Economy": 4,
+      "Politics": 111,
+      "Tech": 2
+    },
+    "picked": 4
+  },
+  "questions": [
+    {
+      "market_id": "634892",
+      "event_id": "59204",
+      "event_title": "Nebraska Senate Election Winner  ",
+      "option": "Pete Ricketts (R)",
+      "question": "Will the Republicans win the Nebraska Senate race in 2026?",
+      "rules": "This market will resolve according to the winner of the 2026 midterm Nebraska U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
+      "topic": "Politics",
+      "end_date": "2026-11-04T04:59:00Z",
+      "url": "https://polymarket.com/event/nebraska-senate-election-winner",
+      "snapshot": {
+        "time": "2026-10-19T01:06:44Z",
+        "crowd": 0.705,
+        "best_bid": 0.7,
+        "best_ask": 0.71,
+        "volume": 380831,
+        "liquidity": 266590,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "Nebraska tests if an independent can win in a deep-red state",
+          "source": "Decision Desk HQ | Substack",
+          "published": "2026-10-15",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPQVE4Y2ItZ0pZNTdZNHZ2RURsQmVNSGJaMm1zMXp3UUs3aVEyYTExdUV2REJsWFR3ZVNZUm8zcjFTeEk0dlJnaG5nMzFyRDktMlJLbmg3QXAxb283Rnd2Qi15U0YxX1VXYlBzN2tERFItSG92QXlxYktRWEFSNnNyUmNsRmhxSC03V1JpbXpHSzQzSmJS?oc=5"
+        },
+        {
+          "title": "Exclusive | Republicans Spend Big to Defend Nebraska Senate Seat",
+          "source": "WSJ",
+          "published": "2026-10-13",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPVlNGV0RfWGNGc0pkMUR4UnZWQk9vcWlMWG1CcnI3dnRuQzBVNk9SZk1JNnhhRk9nLUp4c3JFV2lRa0hIaTA5amZ2cERWRHFaYlNQa3h5eEtDUmE5enFxdXJ3NUw2dS0ySFdRSGRoZGd2TjZlLUc4ZWJDZ3dYT1NidE9DQndBZjVkRnV2Si1oRkFDZjZZRGFBcURvLTh3eTk2MlE?oc=5"
+        },
+        {
+          "title": "Osborn’s independence continues to be scrutinized in Nebraska Senate race",
+          "source": "Nebraska Examiner",
+          "published": "2026-10-17",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQTkpMdjlqd3ExU0FIclp5Uldxby0ybEVJM0x2eEFNaEMyZ1czazFYTGhJWXRvVDZwWUFLTzZrZGpaejdiVXJnUDBIR1RycXUtckVSdHN0WmZJZ0lVbWE5cTI1cl9iSllrYmVSbHRsQlk5cEpnRTdDUnFYNlQ1bXZmN0pqU2Naa0RBd2ItUWtGRmFiNXlRUnluZUxjaVEyME1PM2xJWU9NTVAzZkNoNVFJeHlpTQ?oc=5"
+        },
+        {
+          "title": "Election Dispatches:: Trump Rallies in Nebraska to Try to Lift Republican Incumbents",
+          "source": "The New York Times",
+          "published": "2026-10-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1OZDZUMXpEeGtFVmVFVElveVJ0NlJaRXNoMkJGUXpmMjVWRlRKeG5aWmlpVEFjQzJjelBkeEthdHFGRE9IMk1WWWR6Ul9BNFhWWC1sXzM5T2dYVktKUnlBOTNyQ0JrLTk2Z2tqY21B?oc=5"
+        },
+        {
+          "title": "Senate races to watch in the 2026 midterm elections",
+          "source": "AP News",
+          "published": "2026-10-08",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE0zLTZ5cjJQM005dl9RUVowT2haVDd4cHpSN2hfOGJxSkxzWkNWb2puVll3Tjk2TkViV3pQUk5JUmZJUGxZdjl5c0EwN3gxZGpwVkxkb1pDUWJFYlFwRzFsUDFmNnBkeElHNGplLVZncE1FZVJLNGxGUXllNl8?oc=5"
+        },
+        {
+          "title": "Trump to rally in deep-red Nebraska, where a Senate seat and key House seat are on the line",
+          "source": "ABC News - Breaking News, Latest News and Videos",
+          "published": "2026-10-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQTDUzT0toQkJoWTM5N0FlcEpwNFFUcy0xaXRmcTgzM0RtdEN6RGNxajN2MXB0Zm9vMnRlSVBHcGhzUjBJTi0tcHJMSUg2eVg4eFhBWkh2TEhGN0JCYzh5WnR1ZDdlbVJxU2RuN3A0LVVKZ2s2OXlNSk10aFBLYnNXQlhzYUJfSzhsckN2Mkw4UzVKZ0FnWE5jStIBngFBVV95cUxNVVBLYUpGaHR4NURsaXluNk84N01hQl9WZzFmUnh6cUV6WnpBN2J1OEFmS0pnZTVIUnAyZkZpNEdpdmhHSFdTU1UzREJROHEwZ3ZyYjdDWkIwektWSzdwRjdLbWpjY2JvcklIbnVqeWtZSHFDOHREbGF1YkI4MnFvY0dJY3VvM2RHeHhhMDgxZlRaS3NXc1ZDcDRIa0FXZw?oc=5"
+        }
+      ],
+      "news_query": "Republicans win Nebraska Senate race",
+      "forecast": {
+        "probability": 0.74,
+        "reasoning": "Incumbent Republican Pete Ricketts is favored in a deep-red state where Trump won easily. Independent Dan Osborn nearly beat Deb Fischer in 2024 and is again competitive. Heavy Republican spending and a Trump rally show the race is closer than usual, but the partisan lean still favors Ricketts."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-19T01:15:22Z",
+        "crowd": 0.705,
+        "best_bid": 0.7,
+        "best_ask": 0.71,
+        "volume": 380831,
+        "liquidity": 268876,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Gap vs. the price we'd pay is 3.0 points, under the 10-point minimum."
+    },
+    {
+      "market_id": "5329576",
+      "event_id": "1137668",
+      "event_title": "Brazil Presidential Election Second Round: 1st Place in Amapá",
+      "option": "Flavio Bolsonaro",
+      "question": "Will Flavio Bolsonaro win the most votes in the second round of the Brazil presidential election from Amapá?",
+      "rules": "The second round of the presidential election is scheduled to take place in Amapá, Brazil on October 25, 2026.\n\nThis market will resolve according to the listed candidate who receives the most valid votes in the second round of this election from Amapá.\n\nCandidates will be primarily ranked by order of valid votes won in Amapá. If two or more candidates are tied for any position, ties will be broken by alphabetical order of the candidates’ listed full names as they appear in this market. This market will resolve to the candidate that occupies the highest finishing position after applying this ranking.\n\nIf the result of this election isn't known definitively by June 30, 2027, 11:59 PM ET, the market will resolve to \"Other\".\n\nThis market will resolve based on the result of the election, as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the Brazilian government, specifically the Superior Electoral Court (Tribunal Superior Eleitoral, TSE) (e.g., https://dadosabertos.tse.jus.br/).",
+      "topic": "Politics",
+      "end_date": "2026-10-26T03:59:00Z",
+      "url": "https://polymarket.com/event/brazil-presidential-election-second-round-1st-place-in-amapa",
+      "snapshot": {
+        "time": "2026-10-19T01:06:44Z",
+        "crowd": 0.8,
+        "best_bid": 0.79,
+        "best_ask": 0.81,
+        "volume": 94405,
+        "liquidity": 45852,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "REACTION: Flávio Bolsonaro and Lula Advance to Brazil’s Presidential Runoff",
+          "source": "Americas Quarterly",
+          "published": "2026-10-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNQTJLOVJkVlVJZ3dVOTFzd280dUYtTVpLWWF6c2Jfbm94blBCLW9teF9hR0FzNTVuV2JfM0g1SFUwdWRyZjZORC1UV2NNNllsMGlTLWlxdXVxMDA3bTZ1SjM3c280bTdFVGNXN3V4RHAybzAwdkRIeUlLRjhySXQzZk51d3lHbVpSRmZaLVhoa0RZWTl1el9hdXdVUEg3US1LTVFvNHRkVHhuaDlsQXV1a2lTMVJkZWs?oc=5"
+        },
+        {
+          "title": "Brazil election goes to run-off as right-wing Flávio Bolsonaro wins first round",
+          "source": "BBC",
+          "published": "2026-10-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5xcldfam9VWEswdWNrb0dvcl9qdC0ycndGNGZ1UkhYRkU3LWR0SWw3UmlPVWVaNUJkSUN3M0NzMGVuRXI0b1ZaLURYRXZxWGxVeTlnenBPcW9NM1E?oc=5"
+        },
+        {
+          "title": "Why Flavio Bolsonaro outperformed the polls in Brazil’s election",
+          "source": "Al Jazeera",
+          "published": "2026-10-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZG5uXzdXc18xNk1HcnBVTkRMM1V5Yjc5OGVZMHpYM2VKdkxDQ0VpelpsbTFfeWFORk1USzlxeGdNSURLZWJpSElPOFB3UnFRSlg4WkNHMm9kbWtPLURaeC12Tml5SjhQSzFfOEZCcWgzaTh2Uy1NQms0X3VJalIzQjFUTU03Qk55eDNZMWxLUlB4RFdkaEVvTGhCVWVHUzRnX0N2dDVmUdIBrAFBVV95cUxOWkllN0FiWTFBRncwcW40Vnh4V25SQWJPZm9BOGZTdkNHRmRNT3dCaGJ1QXBRd19hdnFvUE1UeURwaF8tWVlQcE94OTE4UjUwYmo1aHJGQWtKM3NUNFhLY2ZmYnVCUnNFWDg1aGZEVDR6SHhwQ0pqNGdCbVAzWFRnTUoxTFJjdTZScVJibk9wSXdYaDlKU1MtLUFoZVFQczBVb3RyTm9FQTYyY1lJ?oc=5"
+        },
+        {
+          "title": "Brazil’s presidential race goes to second round as Flávio Bolsonaro leads incumbent Lula",
+          "source": "The Guardian",
+          "published": "2026-10-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOdU1sSmNra0JOMDFWSFR3WjdMdFBkVjZqZ1N6RXhVU2FFblZVWXY1UTlYWE8yeE5VeDh6c3pWeVQ5bk0tY0EzYk5hbUk0ano0X180WjNjXzhRSWxIUFlIV2hGNHAzSXRFQVAta2FFRWFwQlZWcUdCMWtHWi1UYkQxbzhBYThoT3NraDlGVV9iZ2lXWENzbzhxYXE0aThYT0tNVHVIeEc3X2p4dHhwWVNYZ01OaENrWXVqVFBMczFB?oc=5"
+        },
+        {
+          "title": "Bolsonaro and Lula head to a runoff in Brazil’s presidential election",
+          "source": "AP News",
+          "published": "2026-10-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPRnAtck5sQXdwQlZkQUxjQXVIQXZpWS1lUTA5d0EtdklWTnZPN01aUnpLQXZYbENYYlM4ZEoxNUVmNmNqSG9nZUJwMnNHdVA3RG1JelBnVWd3cUg0ZlpkazQtUkc4cC1SOThmYlJmY1F6czNsM3hXakZ4SGVON1E5YUp2VTNtTFh2d2ljSkhNWGdlemVjZ05jQmlWcllfM2xiVDU3NWVCdzBfdw?oc=5"
+        },
+        {
+          "title": "Bolsonaro wins endorsements from right-wing rivals for Brazil election runoff",
+          "source": "Reuters",
+          "published": "2026-10-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZXE3UzVhcjhuX19MVHBtZG1RNE91dURXQzJ1RG9HNllGaXQyU0ZDVXQ4aHViX3c4MGRLeFJ5TExDNG9QNmFFS1V5SE50T1dIS2J1cEF6UGNFVjFlWWNTYS0yWkFxQk9Cbi16SlJjNVBBNThweFU1SmdSZ1V1eHhLMXpaZEQyZC1zbkdZQktUWlluUW5YNHhHN05VU3dGelY0R2ItUjBVV0tveEM2M0Z3WHV1ZGF0SG5hc0I0?oc=5"
+        }
+      ],
+      "news_query": "Flavio Bolsonaro win votes second round Brazil",
+      "forecast": {
+        "probability": 0.7,
+        "reasoning": "Jair Bolsonaro narrowly carried Amapá in the runoffs of both 2018 and 2022. Flávio Bolsonaro outperformed the polls and led the first round nationally, and he has picked up endorsements from right-wing rivals. Local Lula allies such as Randolfe Rodrigues add some uncertainty in a state that has been close."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-19T01:15:22Z",
+        "crowd": 0.795,
+        "best_bid": 0.79,
+        "best_ask": 0.8,
+        "volume": 94405,
+        "liquidity": 47351,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Gap vs. the price we'd pay is 9.0 points, under the 10-point minimum."
+    },
+    {
+      "market_id": "634893",
+      "event_id": "59204",
+      "event_title": "Nebraska Senate Election Winner  ",
+      "option": "Independent",
+      "question": "Will an independent win the Nebraska Senate race in 2026?",
+      "rules": "This market will resolve according to the winner of the 2026 midterm Nebraska U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
+      "topic": "Politics",
+      "end_date": "2026-11-04T04:59:00Z",
+      "url": "https://polymarket.com/event/nebraska-senate-election-winner",
+      "snapshot": {
+        "time": "2026-10-19T01:06:44Z",
+        "crowd": 0.295,
+        "best_bid": 0.29,
+        "best_ask": 0.3,
+        "volume": 235639,
+        "liquidity": 335639,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "Osborn’s independence continues to be scrutinized in Nebraska Senate race",
+          "source": "Nebraska Examiner",
+          "published": "2026-10-17",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQTkpMdjlqd3ExU0FIclp5Uldxby0ybEVJM0x2eEFNaEMyZ1czazFYTGhJWXRvVDZwWUFLTzZrZGpaejdiVXJnUDBIR1RycXUtckVSdHN0WmZJZ0lVbWE5cTI1cl9iSllrYmVSbHRsQlk5cEpnRTdDUnFYNlQ1bXZmN0pqU2Naa0RBd2ItUWtGRmFiNXlRUnluZUxjaVEyME1PM2xJWU9NTVAzZkNoNVFJeHlpTQ?oc=5"
+        },
+        {
+          "title": "Nebraska tests if an independent can win in a deep-red state",
+          "source": "Decision Desk HQ | Substack",
+          "published": "2026-10-15",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPQVE4Y2ItZ0pZNTdZNHZ2RURsQmVNSGJaMm1zMXp3UUs3aVEyYTExdUV2REJsWFR3ZVNZUm8zcjFTeEk0dlJnaG5nMzFyRDktMlJLbmg3QXAxb283Rnd2Qi15U0YxX1VXYlBzN2tERFItSG92QXlxYktRWEFSNnNyUmNsRmhxSC03V1JpbXpHSzQzSmJS?oc=5"
+        },
+        {
+          "title": "Exclusive | Republicans Spend Big to Defend Nebraska Senate Seat",
+          "source": "WSJ",
+          "published": "2026-10-13",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPVlNGV0RfWGNGc0pkMUR4UnZWQk9vcWlMWG1CcnI3dnRuQzBVNk9SZk1JNnhhRk9nLUp4c3JFV2lRa0hIaTA5amZ2cERWRHFaYlNQa3h5eEtDUmE5enFxdXJ3NUw2dS0ySFdRSGRoZGd2TjZlLUc4ZWJDZ3dYT1NidE9DQndBZjVkRnV2Si1oRkFDZjZZRGFBcURvLTh3eTk2MlE?oc=5"
+        },
+        {
+          "title": "Nebraska U.S. Senate Election 2026: Latest Polls",
+          "source": "The New York Times",
+          "published": "2026-10-16",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQai04b2VObzBCUm05bjZ0NHNWY1YxbXlPR0t6cktsdkRaeUpRaHVBbzVsc2xILU1fRTNQY0xvT01SalZNQU9LTDQ0bVBLbnF6aGg0VUxXa0hPSG1NdGd5UWZOWUVhUjhqRXdQU2tEWnhIcWNQYm4tNWR1eHotczVvQmFUejZJbTFpR3NCdUhR?oc=5"
+        },
+        {
+          "title": "Just over half of candidates in key US Senate races say they will accept results, others hedge",
+          "source": "Reuters",
+          "published": "2026-10-15",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQbkx3Y2ZQNjVuMjhITGZoWTRPdUJxaE00cWdLR3ZuRllkaWtFdzFkWXlwTjRZWmRxbEJtVXZ1dTc3X3Q4NXlzdzlBcXdZS1FkemJMR2IzNzQteW0wQS05bVZ6U0NGN2FRWTlDWjUza2V2bkRfUTJyS25QYThSVGpEMXdrWXo4VE5GR2JEVUxZTWVTbl9kSGp1WEt1ekQtS1B1c1NmY29DazZGbzktbHZYdkZzc1hUUG9lNGhaaEphMzFJYmVScmc?oc=5"
+        },
+        {
+          "title": "13 races that will determine control of the Senate",
+          "source": "PBS",
+          "published": "2026-10-14",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOdzRXNmVKTkg3UzdZN2tMSDFZLXhVRDFhY210anRDbng2Y0Q5TFRjMmdNUnk4Si16dUZrR3dYd2EzcjVURTJhSk1wZl9KdHUwc05VVTVYZVVqSURCcFVzTkVFLUJDcnpLcHBKUlRuNTRIT2VJcTlUN09MOWgtRGpua1N4NWN3b0VIQXpKcHF6Rm1hYXfSAZgBQVVfeXFMTVlWNWFWbDFsX2ZjT1h6MExFNGhDbDBXbXU2ZmRVVndkYnNNLWxQcXB1dk1faXR5Rl9OVnJUdG1NWXhpaGE0TjVqeUcydlNUUFlyNzUxazc3UnJsZVBzNklYYXZhWktlaDB2aDNBYVZPemJuVEVaYXdTbEVsWFFQOGZRdFBIaExpQlREUjA5RXJGYksyRllYX1I?oc=5"
+        }
+      ],
+      "news_query": "independent win Nebraska Senate race",
+      "forecast": {
+        "probability": 0.26,
+        "reasoning": "Osborn is the only serious non-Republican option, since Democrats effectively stood aside. That makes this question roughly the complement of a Ricketts win. His 2024 overperformance and the national coverage give him a real shot, but he remains the underdog."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-19T01:15:22Z",
+        "crowd": 0.295,
+        "best_bid": 0.29,
+        "best_ask": 0.3,
+        "volume": 235639,
+        "liquidity": 337894,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Gap vs. the price we'd pay is 3.0 points, under the 10-point minimum."
+    },
+    {
+      "market_id": "5457287",
+      "event_id": "1159287",
+      "event_title": "Netflix (NFLX) Q3 operating margin?",
+      "option": "32% to 34%",
+      "question": "Netflix (NFLX) Q3 operating margin 32% to 34%?",
+      "rules": "This market will resolve according to Netflix's operating margin for the upcoming third fiscal quarter, as reported in its official company earnings materials.\n\nThe specified metric will be considered as reported in the company's official earnings materials. Subsequent revisions will not be considered.\n\nIf the specified company's official earnings materials for the specified quarter are released, and the specified metric is not included, this market will resolve to the lowest bracket.\n\nIf the specified company does not release quarterly earnings materials for the specified quarter by November 30, 2026, 11:59 PM ET, this market will resolve to the lowest bracket.\n\nIf the reported value falls exactly between two brackets, this market will resolve to the higher range bracket.\n\nIf the specified metric is reported as a range rather than a specific number, the midpoint of the range will be used for resolution of this market.\n\nThe resolution source for this market is Netflix's official company earnings materials, including press releases, investor presentations, and regulatory filings. If the specified metric is not reported in these materials, recordings or transcripts of the company's earnings webcast may also be used.\n\nNote: This market will resolve based on the most numerically precise version of the specified metric reported in the company's official earnings materials. Only the specified metric will be considered; alternate versions that differ in definition or scope from the specified metric will not be considered.",
+      "topic": "Business",
+      "end_date": "2026-10-20T22:00:00Z",
+      "url": "https://polymarket.com/event/netflix-nflx-q3-operating-margin-20261008120015000",
+      "snapshot": {
+        "time": "2026-10-19T01:06:44Z",
+        "crowd": 0.68,
+        "best_bid": 0.67,
+        "best_ask": 0.69,
+        "volume": 16235,
+        "liquidity": 2381,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "Is Netflix Stock Worth More Than Its Competitors?",
+          "source": "Trefis",
+          "published": "2026-10-15",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOcjdHdGh5VkN3Qmxrd1V2b2trZFRubVE3TjBVbDZsd1ZYWjg3bjJEbEtqM25Sd2NnVVBTbjRCcktmYXQxTU1Lc2ZsdWZxNHI1Y2pWaEc3MUpQVjdicjlQWEN4dHctd1dneC1XY0UwRTUxV19WeDZmdGgwaGVsMUdZN19STkJMY3FEdWxhNEt6cmlSeVZ6Q2p0bmtpeHBUY1VFaTlwZUVQbm9PRG1EREE?oc=5"
+        },
+        {
+          "title": "Netflix Looks Priced For Margins To Stop Growing (NASDAQ:NFLX)",
+          "source": "Seeking Alpha",
+          "published": "2026-10-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQY1dsWFI2WXhMV2lrZm53QzZRNGNjYkNndlNiTjI4cVlGamRpMVpFWktTcWZEcS1FM2xWYzY1OE5GWEJCRDVITGlEQlNJaEVnTEZFYWFyQWNyOUNxUjBTN0Y3amFSOGJ6cHJGakxqdGZ5T2lXYVlvajBXMURnczJyTDA4SURUUUZrYmtHdktidGZ3WEU?oc=5"
+        },
+        {
+          "title": "Netflix Stock Is Down 22% This Year. Is it a Buy Ahead of Earnings?",
+          "source": "Morningstar",
+          "published": "2026-10-16",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNlh2TEVjT1IxUDlIRVFyQjY2R3dFZTZBdnNmS2pCa3FEX0dpVnVwdkdaNUlTcUJZWXVrUWh0d3d5RHpLb0xOZjJ1MjZ0YThhdWh3d0hnX0Z1U21oVHgtOWtIY29jSG14NVBoYWRTcnA1eVZ5UGV0Z3c1b2VBcnE4T0d4bWdkRWxBd0V6VlF6MklidmFPYmlQYnZR?oc=5"
+        },
+        {
+          "title": "Netflix Stock Plunges 26.8% Year to Date: 3 Key Reasons to Stay Away",
+          "source": "TradingView",
+          "published": "2026-10-07",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQUjhWaFdlcnc0UjNSdVU5WllIZkxBa2JSYjExY051MHhSNTJMUndHZG15cU1uOS1MdHpCR1dTSVdMeS1tWDRPVTU1bHlFbEVOek1FenY3SXRLZnJqQmVDOWZUSERVeTVsa0JuUVRpVDhEcGtYTzNmUkkyRTNqTUZvbm1MVzNYdDVtTFhjRFpTY0FmeHoyclo0Zkx6R1VkQjNndnczR1lyWkJhek5WNlpkRi1JMHdlbFVSb0hSMkV3?oc=5"
+        },
+        {
+          "title": "My Netflix Stock Prediction for 2027: Why I'm Not Selling a Single Share",
+          "source": "The Motley Fool",
+          "published": "2026-10-13",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQRDhGbnYybElSaVU1cEgwemtQVjBuOVZRaGlzYjh4X19aS2hjcW5uVmxRZF9HRTZpUDJBQjVNamVwa3FnaE0tYU40X2RneHk4WE1ZUm5PZmpXOXFTQU1aU2RrbC1wMFhuSy1Cc3BFaU5OSmtLUDRvdjdZVTFzVzlfa0tCVUlxVWU2VVBzSkI0N0RsZ1hC?oc=5"
+        },
+        {
+          "title": "Netflix Is Profitable and Still Growing. Why Did It Just Make a Huge Round of Layoffs and Oust Its Top Content Exec?",
+          "source": "Variety",
+          "published": "2026-10-16",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE10eGRwNlpMeW5tdDA0aFdxenM1bmRmZEI5SmFGVmdaT3BPdzlZM1k4MG9CeDdIWF9MV01WT3E5c1VWWTI2ZjMtZkNZVkhqbllVVlZoTEJRMHdKOUhoRmgtNXg4NWtNbDRwZ21UcThpNjFxV2xYM1p3Mg?oc=5"
+        }
+      ],
+      "news_query": "Netflix NFLX operating margin",
+      "forecast": {
+        "probability": 0.5,
+        "reasoning": "Netflix guided to about a 31.5% operating margin for full-year 2026, and the third quarter is usually one of its stronger margin quarters. That puts 32–34% near the center of plausible outcomes. Still, beats above 34%, or one-off costs such as layoffs and deal-related expenses pushing it below 32%, are both plausible."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-19T01:15:22Z",
+        "crowd": 0.68,
+        "best_bid": 0.67,
+        "best_ask": 0.69,
+        "volume": 16235,
+        "liquidity": 3104,
+        "fee_rate": 0.04
+      },
+      "bet_note": "No cash left for new bets; it's all in open bets."
+    }
+  ],
+  "batch_id": "msgbatch_01FU1TbCYYnQCndJUiTzjuow",
+  "forecast_at": "2026-10-19T01:15:22Z",
+  "usage": {
+    "input_tokens": 3684,
+    "output_tokens": 1235
+  },
+  "cost_usd": 0.0197,
+  "budget": 0.0
+}
