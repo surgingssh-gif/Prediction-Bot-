@@ -60,6 +60,16 @@ def fake_market(market_id="1", days=10, bid=0.40, ask=0.42, volume=50_000, **ext
     return market
 
 
+def live_market(market_id="1", **extra):
+    """
+    A fake market that ends 10 days from the REAL current time. The full
+    daily-run tests use the real clock, so their markets must always be in
+    the future (otherwise these tests would start failing as time passes).
+    """
+    end = (datetime.now(timezone.utc) + timedelta(days=10)).strftime("%Y-%m-%dT%H:%M:%SZ")
+    return fake_market(market_id, endDate=end, **extra)
+
+
 def fake_event(event_id="e1", tags=("politics",), markets_list=None, title="Some event"):
     return {
         "id": event_id,
@@ -374,8 +384,8 @@ def no_internet(monkeypatch):
 def workspace(tmp_path, monkeypatch):
     """Runs in an empty temporary folder with fake Polymarket and news."""
     monkeypatch.chdir(tmp_path)
-    events = [fake_event("e1", ["politics"], [fake_market("1"), fake_market("2", bid=0.20, ask=0.22)]),
-              fake_event("e2", ["economy"], [fake_market("3")])]
+    events = [fake_event("e1", ["politics"], [live_market("1"), live_market("2", bid=0.20, ask=0.22)]),
+              fake_event("e2", ["economy"], [live_market("3")])]
     monkeypatch.setattr(markets, "fetch_events", lambda: events)
     by_id = {m["id"]: m for e in events for m in e["markets"]}
     monkeypatch.setattr(markets, "fetch_market", lambda market_id: by_id[market_id])
@@ -638,7 +648,7 @@ def test_related_questions_share_a_name():
 
 def test_bets_capped_per_story(workspace, monkeypatch):
     # Three markets about the same story ("Gemini"); the AI disagrees with all three.
-    events = [fake_event(f"e{i}", ["tech"], [fake_market(str(i))], title="Next Google Gemini model released by...?")
+    events = [fake_event(f"e{i}", ["tech"], [live_market(str(i))], title="Next Google Gemini model released by...?")
               for i in range(1, 4)]
     monkeypatch.setattr(markets, "fetch_events", lambda: events)
     by_id = {m["id"]: m for e in events for m in e["markets"]}
@@ -851,3 +861,18 @@ def test_daily_budget_is_shared_by_every_run_on_the_same_day(workspace, monkeypa
     day = main.place_bets({"questions": [q]}, {"1": {"probability": 0.9, "reasoning": "R"}})
     assert day["budget"] == pytest.approx(0.0)   # 10% of $1,000 was already used today
     assert q["bet"] is None
+
+
+def test_results_are_split_by_phase():
+    old, new = fake_question("a"), fake_question("b")
+    for q in (old, new):
+        q["forecast"] = {"probability": 0.8, "reasoning": "R"}
+    old["bet"] = {"side": "YES", "price": 0.42, "shares": 50, "stake": 21, "fee": 0.5, "cost": 21.5, "gap_pts": 38}
+    day_old = fake_day("2026-10-02", [old])                     # no "phase": the original rules
+    day_new = {**fake_day("2026-10-10", [new]), "phase": "1.1"}
+    resolutions = {"a": {"outcome": 1, "resolved_at": "2026-10-05T00:00:00Z"}}
+    data = build_site.build_data([day_old, day_new], resolutions, now="2026-12-01T00:00:00Z")
+    phases = {p["phase"]: p for p in data["phases"]}
+    assert phases["1.0"]["bets"] == 1 and phases["1.0"]["pnl"] == 28.5
+    assert phases["1.0"]["accuracy"]["n"] == 1
+    assert phases["1.1"]["bets"] == 0 and phases["1.1"]["questions"] == 1 and phases["1.1"]["pnl"] == 0

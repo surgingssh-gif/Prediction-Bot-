@@ -213,6 +213,48 @@ def _short(row):
     return {k: row[k] for k in keys if k in row}
 
 
+PHASE_NAMES = {
+    "1.0": "Original rules",
+    "1.1": "New rules (after the Oct 9 review)",
+}
+
+
+def phase_report(all_rows, scored_rows):
+    """
+    Results split by phase (the version of the rules a question was asked
+    under), so bets and forecasts made under the new rules get their own
+    scorecard instead of being mixed in with the old ones.
+
+    Bets are valued the same way as on the main scorecard: settled bets at
+    what they paid, open bets at today's price (or at cost if no newer price).
+    """
+    report = []
+    for phase in sorted({r["phase"] for r in all_rows}):
+        rows = [r for r in all_rows if r["phase"] == phase]
+        asked = sorted(r["asked"][:10] for r in rows if r.get("asked"))
+        bets = [r for r in rows if r.get("bet")]
+        settled = [r for r in bets if "pnl" in r]
+        open_bets = [r for r in bets if "outcome" not in r]
+        settled_pnl = sum(r["pnl"] for r in settled)
+        open_pnl = sum(r["bet"].get("value", r["bet"]["cost"]) - r["bet"]["cost"] for r in open_bets)
+        report.append({
+            "phase": phase,
+            "name": PHASE_NAMES.get(phase, ""),
+            "first": asked[0] if asked else None,
+            "last": asked[-1] if asked else None,
+            "questions": len(rows),
+            "accuracy": scoring.summary([r for r in scored_rows if r["phase"] == phase]),
+            "bets": len(bets),
+            "settled_bets": len(settled),
+            "wins": sum(1 for r in settled if r["pnl"] > 0),
+            "invested": round(sum(r["bet"]["cost"] for r in bets), 2),
+            "settled_pnl": round(settled_pnl, 2),
+            "open_pnl": round(open_pnl, 2),
+            "pnl": round(settled_pnl + open_pnl, 2),
+        })
+    return report
+
+
 def build_data(days, resolutions, pending=None, prices=None, now=None):
     """Everything the website needs, as one dict."""
     pending = pending or []
@@ -276,6 +318,7 @@ def build_data(days, resolutions, pending=None, prices=None, now=None):
         "phase": config.PHASE,
         "by_phase": [{"phase": p, **scoring.summary([r for r in rows if r["phase"] == p])}
                      for p in sorted({r["phase"] for r in rows})],
+        "phases": phase_report(all_rows, rows),
         "unanswered": sum(1 for r in all_rows if r["ai"] is None),
         "calibration": {"ai": scoring.calibration(rows, "ai"), "crowd": scoring.calibration(rows, "crowd")},
         "topics": scoring.by_topic(rows),

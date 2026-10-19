@@ -189,6 +189,8 @@ a { color: inherit; }
 .wk-grade small { font: 400 10.5px/1.3 var(--sans); color: var(--muted); }
 .wk-row { display: flex; justify-content: space-between; align-items: center; gap: 10px; padding: 7px 0; border-bottom: 1px solid var(--hair); font: 400 12px/1.3 var(--sans); }
 .wk-row:last-child { border-bottom: none; }
+.weeks.phases { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.phase-note { margin: 10px 0 2px; font: 400 12px/1.5 var(--sans); color: var(--ink-2); }
 .wk-row > span:first-child { color: var(--ink-2); flex: none; }
 .wk-row strong { font-weight: 600; text-align: right; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 
@@ -355,7 +357,7 @@ ol.calls li a:hover { text-decoration: underline; }
   .portfolio, .chart-grid { grid-template-columns: 1fr; }
   .pf-side, .chart-grid > figure { padding: 0; }
   .pf-chart, .chart-grid > figure + figure { padding: 0; border-left: none; margin-top: 24px; }
-  .weeks { grid-template-columns: 1fr; }
+  .weeks, .weeks.phases { grid-template-columns: 1fr; }
 }
 @media (max-width: 760px) {
   .page { padding: 0 16px 40px; }
@@ -411,6 +413,9 @@ ol.calls li a:hover { text-decoration: underline; }
         <div class="sc-col"><div class="tiles" id="pstats"></div></div>
         <div class="sc-col" id="breakdowns"></div>
       </div>
+
+      <div class="section-head"><h2>By Phase</h2><p>The same results, split by the version of the rules each question was asked under</p></div>
+      <div class="weeks phases" id="phases"></div>
 
       <div class="section-head"><h2>Account Value</h2><p>Cash plus open bets at each day's market price</p></div>
       <div class="portfolio">
@@ -521,7 +526,7 @@ ol.calls li a:hover { text-decoration: underline; }
     Nothing here is financial or betting advice.
   </footer>
 </div>
-<script src="data.js?v=f91b5dd802"></script>
-<script src="app.js?v=a2e2ca93a6"></script>
+<script src="data.js?v=90bc7b33d4"></script>
+<script src="app.js?v=fa6bb158a1"></script>
 </body>
 </html>

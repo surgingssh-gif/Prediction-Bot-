@@ -714,6 +714,46 @@
   }
 
   // ---------------------------------------------------------------------------
+  // By phase: results under each version of the rules, side by side
+  // ---------------------------------------------------------------------------
+
+  function renderPhases() {
+    var box = clear(document.getElementById("phases"));
+    var phases = DATA.phases || [];
+    if (!phases.length) { box.appendChild(el("p", { class: "empty", text: "No forecasts yet." })); return; }
+    phases.forEach(function (p) {
+      var acc = p.accuracy || {};
+      var current = p.phase === DATA.phase;
+      var when = p.first ? shortDate(p.first).replace(/, \d{4}$/, "") + " – " + (current ? "today" : shortDate(p.last).replace(/, \d{4}$/, "")) : "";
+      var accText = acc.n ? "AI " + brier(acc.ai_brier) + " · market " + brier(acc.crowd_brier) : "None scored yet";
+      var note = null;
+      if (!p.bets && current) {
+        note = "No bets yet under these rules. All the cash is still tied up in bets from the original rules, " +
+          "so the daily budget is $0. New bets start as those settle (most by early November). " +
+          "The AI is still forecasting every day, and those forecasts are scored in this card.";
+      }
+      box.appendChild(el("div", { class: "wk" },
+        el("div", { class: "wk-head" },
+          el("div", null, el("h3", { text: "Phase " + p.phase + (current ? " (current)" : "") }),
+            el("small", { text: p.name + (when ? " · " + when : "") })),
+          el("div", { class: "wk-grade " + (p.bets ? "" : "pending") },
+            el("span", { class: upDown(p.pnl) || "", text: p.bets ? money(p.pnl, true) : "–" }),
+            el("small", { text: p.bets ? "profit / loss" : "no bets yet" }))),
+        el("div", { class: "wk-row" }, el("span", { text: "Questions forecast" }), el("strong", { text: String(p.questions) })),
+        el("div", { class: "wk-row" }, el("span", { text: "Paper bets" }),
+          el("strong", { text: p.bets ? p.bets + " · " + money(p.invested) + " put in" : "None" })),
+        el("div", { class: "wk-row" }, el("span", { text: "Settled" }),
+          el("strong", { class: upDown(p.settled_pnl) || "", text: p.settled_bets ? money(p.settled_pnl, true) + " · " + p.wins + " of " + p.settled_bets + " won" : "None yet" })),
+        el("div", { class: "wk-row" }, el("span", { text: "Still open" }),
+          el("strong", { class: upDown(p.open_pnl) || "", text: p.bets - p.settled_bets ? money(p.open_pnl, true) + " at today's prices" : "None" })),
+        el("div", { class: "wk-row" }, el("span", { text: "Questions scored" }),
+          el("strong", { text: acc.n ? acc.n + " from " + acc.stories + " stories" : "None yet" })),
+        el("div", { class: "wk-row", title: "Brier score: lower is better" }, el("span", { text: "Accuracy (lower wins)" }), el("strong", { text: accText })),
+        note ? el("p", { class: "phase-note", text: note }) : null));
+    });
+  }
+
+  // ---------------------------------------------------------------------------
   // Accuracy: the AI's forecasts vs. the market's prices
   // ---------------------------------------------------------------------------
 
@@ -1065,11 +1105,11 @@
         li("The AI only reads headlines (Google's free feed has no article text), while traders can read everything."),
         li("The questions aren't independent: two candidates in one election, or several Fed outcomes, rise and fall together."),
         li("The question filters (most-traded, not nearly certain) shape which questions are tested, so results may not apply to all questions."),
-        li("Bets placed before Oct 9, 2026 (Phase 1.0) assumed every share cost the best price on offer. On cheap long shots that " +
+        li("Bets placed in Phase 1.0 (Oct 2\u20139, 2026) assumed every share cost the best price on offer. On cheap long shots that " +
           "was optimistic: one 795-share bet at 6\u00a2 only had 10 shares on offer at that price."),
       ]),
       h("Phases"),
-      p("Phase 1.0 ran Oct 2\u20139, 2026. Phase 1.1 started Oct 9 after a full review: a wider odds filter (some market-odds " +
+      p("Phase 1.0 ran Oct 2\u20139, 2026. Phase 1.1 started with the Oct 10 forecasts, after a full review: a wider odds filter (some market-odds " +
         "headlines had reached the AI), better news searches, full resolution rules, realistic order-book fills, a fix so an exact " +
         "10-point gap always counts, and stricter filters for Anthropic-related and odds-based questions. Old forecasts are kept " +
         "exactly as they were; every card shows its phase, and the Accuracy tab splits the score by phase."),
@@ -1109,7 +1149,7 @@
   function safely(fn) {
     try { fn(); } catch (e) { if (window.console) console.error(fn.name + " failed:", e); }
   }
-  [setupTheme, setupMasthead, renderPortfolio, renderAccuracy, renderOpen, renderSettled, renderMethod].forEach(safely);
+  [setupTheme, setupMasthead, renderPortfolio, renderPhases, renderAccuracy, renderOpen, renderSettled, renderMethod].forEach(safely);
   document.querySelectorAll("[data-filter]").forEach(function (b) {
     b.addEventListener("click", function () { openFilter = b.getAttribute("data-filter"); renderOpen(); });
   });
