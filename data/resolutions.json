@@ -163,5 +163,20 @@
     "outcome": 1,
     "resolved_at": "2026-10-19T20:24:44Z",
     "question": "Will \"You Can See Everything\" Opening Weekend Box Office be at least 7m?"
+  },
+  "5394324": {
+    "outcome": 0,
+    "resolved_at": "2026-10-19T22:10:50Z",
+    "question": "Will \"Street Fighter\" Opening Weekend Box Office be less than 25m?"
+  },
+  "5394325": {
+    "outcome": 0,
+    "resolved_at": "2026-10-19T22:35:46Z",
+    "question": "Will \"Street Fighter\" Opening Weekend Box Office be between 25m and 30m?"
+  },
+  "5394247": {
+    "outcome": 1,
+    "resolved_at": "2026-10-19T22:10:50Z",
+    "question": "Will \"Whalefall\" Opening Weekend Box Office be less than 8m?"
   }
 }
