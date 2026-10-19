@@ -153,5 +153,10 @@
     "outcome": 1,
     "resolved_at": "2026-10-16T17:38:17Z",
     "question": "Will Russia target Kyiv on October 16, 2026?"
+  },
+  "2953635": {
+    "outcome": 0,
+    "resolved_at": "2026-10-19T04:17:14Z",
+    "question": "Will China GDP growth in Q3 2026 be between 4.6% and 4.9%?"
   }
 }
