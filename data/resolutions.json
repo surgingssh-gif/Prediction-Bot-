@@ -158,5 +158,10 @@
     "outcome": 0,
     "resolved_at": "2026-10-19T04:17:14Z",
     "question": "Will China GDP growth in Q3 2026 be between 4.6% and 4.9%?"
+  },
+  "5406454": {
+    "outcome": 1,
+    "resolved_at": "2026-10-19T20:24:44Z",
+    "question": "Will \"You Can See Everything\" Opening Weekend Box Office be at least 7m?"
   }
 }
