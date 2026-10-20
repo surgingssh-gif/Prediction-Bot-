@@ -1,0 +1,318 @@
+{
+  "run_id": "2026-10-20",
+  "date": "2026-10-20",
+  "created_at": "2026-10-20T01:43:15Z",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "phase": "1.1",
+  "pick_stats": {
+    "eligible": {
+      "Economy": 4,
+      "Politics": 122,
+      "Tech": 3
+    },
+    "picked": 4
+  },
+  "questions": [
+    {
+      "market_id": "5167210",
+      "event_id": "1111240",
+      "event_title": "Saudi Arabia military action against Yemen on...?",
+      "option": "October 29",
+      "question": "Saudi Arabia military action against Yemen on October 29?",
+      "rules": "This market will resolve to “Yes” if Saudi Arabia takes a qualifying military action against Yemen on the specified date, Yemen Standard Time. Otherwise this market will resolve to “No.”\n\nA qualifying military action refers to an air strike or a surface-to-surface missile strike, initiated by Saudi Arabia, that directly impacts Yemen. An air strike includes bombs, air-to-surface missiles, and air-launched drones. A surface-to-surface missile strike includes one-way attack drones and surface-to-surface missiles such as cruise or ballistic missiles.\n\nThe qualifying military action must be carried out by the armed forces of Saudi Arabia. Actions carried out by private military contractors, mercenaries, or proxy forces will not qualify. Where a qualifying action is carried out in the course of a coalition or multinational operation, it will qualify only if the armed forces of Saudi Arabia directly conducted the strike.\n\nThe following actions do not constitute a qualifying military action:\nMunitions destroyed or intercepted before impact;\nSurface-to-air missile strikes;\nSmall-arms fire;\nGround incursions;\nCyber operations;\nNaval gunfire and artillery fire;\nHowitzers, artillery pieces, mortars, and rocket artillery (e.g. MLRS systems);\nMinor surface-to-surface strikes, including short range loitering munitions, FPV drones, and ATGM strikes;\nAny threat, authorization, or announcement of force that has not been executed.\n\nAny munition that is intercepted or destroyed before impact does not constitute a qualifying military action. Debris, fragments, or any wreckage from intercepted munitions that land on Yemen do not constitute a military action regardless of any damage incurred.\n\n“Yemen” refers to the terrestrial territory of Yemen, including its internal waters. Yemen’s maritime territory and airspace are not encompassed. Where territorial borders are disputed, all territory claimed by and under the de facto control of Yemen as of market creation will qualify.\n\nThe occurrence, attribution, and timing of a qualifying military action will be primarily determined based on a consensus of information available from the resolution sources. Where multiple sources conflict regarding the occurrence, attribution, or timing of a relevant military action, this market will remain open until the earlier of: i) the confirmation of the occurrence, attribution, and timing of the action based on a consensus of information available from the resolution sources or ii) 3 full calendar days (Yemen Standard Time) from the date of the first credibly reported evidence of the action. If this period would extend past the end date, this market will remain open to allow for 3 full calendar days to pass. At the end of the third calendar day, if conflicting reports remain, the incident will be adjudicated based on the totality of information available from the resolution sources at that time. No single statement, denial, or presentation of evidence will govern where it is contradicted by the totality of information.\n\nThe resolution sources for this market will be official information from the governments and militaries of Saudi Arabia and Yemen, the Houthis, and a consensus of credible reporting.",
+      "topic": "Politics",
+      "end_date": "2026-10-30T03:59:00Z",
+      "url": "https://polymarket.com/event/saudi-arabia-military-action-against-yemen-on-october-2026",
+      "snapshot": {
+        "time": "2026-10-20T01:43:13Z",
+        "crowd": 0.65,
+        "best_bid": 0.64,
+        "best_ask": 0.66,
+        "volume": 84828,
+        "liquidity": 29332,
+        "fee_rate": 0.0
+      },
+      "news": [
+        {
+          "title": "Avoiding Another Long War in Yemen",
+          "source": "CSIS | Center for Strategic and International Studies",
+          "published": "2026-10-15",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE43RFVrNXdtQUxib1N5Vld3Tkwtb1RqR0R2QndYd21xaXU5ejZjSUxJY2FvaUN4cmp4dTBDMjJUakF0UW5FTkNmbkxGMjZLY01GMmpzcDRGdjFOTG5XY3RBekhLYVVCVlJzcVpFWnh3?oc=5"
+        },
+        {
+          "title": "Houthi strikes on Saudi Arabia show the Yemeni rebels’ growing strength",
+          "source": "AP News",
+          "published": "2026-10-17",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOVE5nRDF3WG9JZEEtTWpyWVUyaVR6MlVfbTRxNVZpNGJFdmdXVHlXZzh6WXBZazVCcDdfSTNjaFpkMmhlZjhObHJRVUk5RkYxdFhicXhmblhpWkVBc2ZfX1FRSWthVnBDUUxPenVjSUxsTWJMS3pNX3RWS3BZZmJ0LUxnTllfaTVZYnpRVmt0SWI3YXZyUHZWQ2dMcDZ4V1VrYXlpbWZPMjM?oc=5"
+        },
+        {
+          "title": "Egypt's top security body agrees to help Saudi Arabia defend itself against Houthi attacks",
+          "source": "PBS",
+          "published": "2026-10-18",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQSExWUWxPbDZ3eVc3aWhxcTkzM2pMMGh3WmtudnlJaGtCMTVFZ09hVUJ4NnU1TVYyVUMzQ25uRG1VcURqb1o1akJRdG5fd0I5Mnd0Yl9YeGZwV1RXejgzUGtDQnJXaTlOUnRYcXZlMTh3NkRRWjBROFU3OWRFREE3WWRtNmpLbTdLZ2ZlSEFOMkp4ZHhnRGRWTnV1c3p3UzNuQnd3cTNvVFcwaWNvdlNBSUM0SUdiTHhldG5xaXlWVEx5QdIBxwFBVV95cUxNdkx4dC1JQTBBTlVIaHVsUGZkeWQzdE1uRWpMWEcycFQ5R0JjRkx5Z25GQ1duTzF2VVYwT2dPMDR5RzhVNThvZ1FBbmh3SURFNDlaR0pjVHk2SmRtanBNUlZnbXViSDJqZmEzSmlxVE1QX3ZEQjNRaUdGSzZ4Z1AzSUMyY3ZIbmYtYk50XzFIUmR0UHFoUVE2ZXRMOU9xMDlWSE1aOVJyak52RzZXZDQ1V3NkQUhpbndRRkVET29VZVZmNExkdXlv?oc=5"
+        },
+        {
+          "title": "Egypt says ready to back Saudi Arabia in war against Iran-allied Houthis",
+          "source": "Reuters",
+          "published": "2026-10-18",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNaUsxbVVqQ0FFUl81U25IbG1NaXhrNzFqZzIzaFpRUVhKbF9rYlZoMXg1Z3NzYjR1TEtkeHNCU1BrOWs4ZXR5VHFqMTBoX3VjSV9FRV9neGVDSkdUNWIxMlNhZWRJbldocDM5Q2hiMXYxUXpHVUJqWkkyOEF5OGNBNWduQXFPMXp6VXhYRjUyNmsxaV9pbXJhS29uVGh6Tm51emp4S3YtdmI5c21HZE9HeFkycENlNGxHRUlJd29YWkxwRF85eXc?oc=5"
+        },
+        {
+          "title": "Saudi airport struck again a day after deadly attack",
+          "source": "NBC News",
+          "published": "2026-10-11",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPd3M5MTVOZmhBYU5OT0RNMHd6dmN0RWgzb2hNRnRaYmRlbFZnQzB3TTVZWUZucDZXekNkSlFxS21TS2JhNUxJSElTNms1Q0hGOGYzUk9vWndFWHVoVlQ2emF1bFhMOWFZOGdGVDQ5Q0NsMHlUa1NIQ2t2SmpNTmcwWkFBSGE2aTRkanoyUF9iWk5xMUxqVGE5bFhmeFl0bFA5cWpV?oc=5"
+        },
+        {
+          "title": "How the Iran war is ruining Saudi Arabia’s plans",
+          "source": "Vox",
+          "published": "2026-10-19",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNd2I2bWZkUTFFRDVvUHYwU0dLS2otVkN3QUVsV3dOMXVvcm42azIzemxjTExOd0ZxTDdTVGN4NVN1bGRrelk5OVo2Tzc4T3lqTUdtalBGX1ZvQmlMUWNTdjV4WjlsQWNCNE40ejRZQThTWUhiNXBoQnhJVzVtUVBtM2NzcjZnZw?oc=5"
+        }
+      ],
+      "news_query": "Saudi Arabia military action against Yemen",
+      "forecast": {
+        "probability": 0.5,
+        "reasoning": "Recent headlines describe an active conflict: Houthi strikes on Saudi airports, including a deadly attack, and Egypt pledging to back Saudi Arabia in a 'war' against the Houthis. That makes Saudi air strikes on Yemen plausible on any given day. However, the headlines do not confirm a daily Saudi strike campaign, and the question needs a confirmed strike on one specific date, so it is roughly a coin flip."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-20T01:45:18Z",
+        "crowd": 0.655,
+        "best_bid": 0.65,
+        "best_ask": 0.66,
+        "volume": 84828,
+        "liquidity": 30192,
+        "fee_rate": 0.0
+      },
+      "bet_note": "No cash left for new bets; it's all in open bets."
+    },
+    {
+      "market_id": "5572738",
+      "event_id": "1172100",
+      "event_title": "Who wins the Senate pending Hormuz Agreement before the midterms?",
+      "option": "Hormuz Agreement; D Senate",
+      "question": "Will there be a Hormuz agreement and the Democrats win the Senate?",
+      "rules": "This market will resolve to \"Hormuz Agreement; R Senate\" if a Hormuz Agreement is announced by November 2, 2026, 11:59 PM ET, and the Republican Party wins control of the United States Senate in the 2026 United States midterm election.\n\nThis market will resolve to \"Hormuz Agreement; D Senate\" if a Hormuz Agreement is announced by November 2, 2026, 11:59 PM ET, and the Democratic Party wins control of the United States Senate in the 2026 United States midterm election.\n\nThis market will resolve to \"No Hormuz Agreement\" immediately if a Hormuz Agreement is not announced by November 2, 2026, 11:59 PM ET.\n\nHormuz Agreement: A \"Hormuz Agreement\" will be considered to have occurred if a diplomatic agreement between the United States and Iran over traffic in the Strait of Hormuz is announced by November 2, 2026, 11:59 PM ET.\n\nA diplomatic agreement refers to an official agreement, treaty, deal, or substantially similar diplomatic instrument that establishes agreed actions, policies, obligations, or commitments between the United States and Iran.\n\nA qualifying diplomatic agreement must establish Iranian policies, obligations, or commitments aimed at permitting, restoring, or increasing vessel or shipping traffic through the Strait of Hormuz.\n\nAll listed countries must announce their acceptance of the same qualifying diplomatic agreement for the Hormuz Agreement component to be met. A joint announcement will qualify, as will separate announcements from each entity of its own acceptance of an agreement which, taken together, directly indicate that all the listed countries accepted the same agreement. Separate announcements of individual policies will not qualify if the policies are not announced as part of a diplomatic agreement.\n\nEach announcement must be a declarative statement that clearly and unambiguously communicates acceptance of an agreement. Statements that reference ongoing negotiations or a prospective agreement, or that allude to or express support for an agreement without confirming acceptance of the agreement, do not qualify. A qualifying announcement need not reference the agreement by name or use specific terminology, provided it clearly communicates acceptance of an agreement.\n\nWhether announcements from the listed countries represent a diplomatic agreement and whether such an agreement qualifies will be primarily determined through the announcements themselves. Where an announcement is made by all listed countries but, based on the announcements, it remains ambiguous whether the announcements represent a qualifying diplomatic agreement between the countries, the Hormuz Agreement component will remain undetermined until either i) definitive confirmation that the announcements represent a qualifying diplomatic agreement between the listed entities is achieved through further announcements from the listed countries or a consensus of credible reporting or ii) 14 calendar days (ET) have passed after the date that the last country made their first potentially qualifying announcement. If, at the end of the fourteenth calendar day, no definitive confirmation has been achieved, the Hormuz Agreement component will be determined based on the totality of information available from the resolution sources at that time. No single statement, denial, or presentation of evidence will govern where it is contradicted by the totality of information.\n\nThe resolution sources for the Hormuz Agreement component will be official information from the governments of the United States and Iran and a consensus of credible reporting.\n\nSenate: A party wins control of the United States Senate if it wins a majority of the chamber’s voting seats. If no party wins a majority of voting seats, the party that wins control of the chamber is the party that wins half of the voting seats and holds the Vice Presidency. If the outcome remains ambiguous after applying the above criteria, the chamber will be deemed controlled by the party with which the first selected President Pro Tempore of the Congress that convenes after the specified election is affiliated.\n\nThe following rules govern the counting of seats for determining which party wins control of the chamber.\n\nAll regular and special Senate elections that determine representation in the upcoming 120th Congress and are scheduled to take place in November 2026 as of October 31, 2026 are included. Runoffs for qualifying elections will determine attribution of the relevant seat, even if they take place after November 2026. Vacant seats for which no election or special election to fill the seat is scheduled to take place in November 2026 as of October 31, 2026 will be treated as held by the party affiliation of the most recent member to hold that seat.\n\nFor seats contested in the specified election, seats are attributed to the party under which the member was elected. If a member-elect changes party affiliation, or vacates their seat, between election day and the formal organization of Congress, the seat is attributed to the party under which the member was elected.\n\nFor seats not contested in the specified election, seats are attributed to the party that holds the seat as of the date of the election. If a current sitting member of the U.S. Senate who is not up for election changes party affiliation or vacates their seat after the date of the election, the seat is attributed to the party under which the member was affiliated at the time of the election.\n\nSenate members elected as independents who formally caucus with, or, for newly elected members, who announce their intent to caucus with, a party are included in that party’s count. If the caucus decisions of members of the Senate elected as independents cannot be determined on the date of the election, this market may remain open until the earlier of (i) an announcement from the relevant members of their intents to caucus, or (ii) January 4th, 11:59 PM ET of the following calendar year. If no such announcement is made by January 4th, 11:59 PM ET of the following calendar year, the member will not count towards the seat count of any party.\n\nThe resolution sources for the Senate component will be official information from relevant state electoral authorities, the United States Congress, and a consensus of credible reporting.",
+      "topic": "Politics",
+      "end_date": "2026-11-04T04:59:00Z",
+      "url": "https://polymarket.com/event/who-wins-the-senate-pending-hormuz-agreement-before-the-midterms",
+      "snapshot": {
+        "time": "2026-10-20T01:43:13Z",
+        "crowd": 0.0795,
+        "best_bid": 0.079,
+        "best_ask": 0.08,
+        "volume": 425139,
+        "liquidity": 48443,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "Many congressional Democrats call Trump's threats to blow up Iran 'unhinged'",
+          "source": "ABC News - Breaking News, Latest News and Videos",
+          "published": "2026-10-19",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNOER6cjZfNUZJZ1RGcWNobUZIY0EyWWI3MmtmWnFucVFMSXZuajJ0NWRLWFZSSzhpQWhILU42WlRqWWs3bDNOd2w3anpOX3pNMzVxUldEaXZSUUd6S3ZKdE9XZHl3cTU0ZHJlWkhiekI2djJPNExmQ0cwMEF2VGFFa0FZaTVfRVVQZWpId09PWHRHdU1ubXdWbi1RR2hTaV9WNnJ3YmI0clFlQVhtUUg40gG0AUFVX3lxTE9mV3lpRndleUZVZEhuYm4yWFN1cjhMdnB6M2ZDN3RTQzB3QlZFVmxkcTdHQlZBaXlLRW1ybmliRllNazVfSk03TUlxNzJkbUJIcUE4T2xacTdkMThDSnVOdEdZVFl6Rmk3dTlLQUhwcE9LTWlrZ3FLOEF5NlkwUkVPYlJxSVNGNGhTNVFYQVFsVUg4dVZMcDhXZzNFRTNkeHhKbUpOMTlmamZHSUpxR2c2T3pYOQ?oc=5"
+        },
+        {
+          "title": "Alaska’s Sullivan and Peltola Clash Over Iran and High Prices in Testy Senate Debate",
+          "source": "The Well News",
+          "published": "2026-10-16",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNRkdJeEpyYmxqdjk0RkVMcWZTcnkzamJEdG9WaEkxd0RQaU1JSnNKc2NkVWx2UUxmdmx2cHdQTVBaS1lwMXpGUVdRM0o5ZnB3dFpyVUlqX3NibWpmN004VXFpdzhJNklIUXcwOXNWbDYyek5JZDlKUGFCYWZMN2FqVE1UdU50WEk5ZUhJTXdCQW15STd1aHJfV1lZQWNjLTlvcDRvYXZyVlZvaURtRWFCMGt1SEZhMEY4cFMwdFNrLXNtdkx5X1E?oc=5"
+        }
+      ],
+      "news_query": "Hormuz agreement Democrats win Senate | wins Senate pending Hormuz Agreement midterms",
+      "forecast": {
+        "probability": 0.04,
+        "reasoning": "This needs both a US–Iran Hormuz agreement announced by November 2 and a Democratic Senate win. As of October 19 Trump was threatening to blow up Iran, which makes a formal shipping deal within about two weeks unlikely, perhaps 10%. Democratic Senate control is also less likely than not, so the combined chance is small."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-20T01:45:18Z",
+        "crowd": 0.0795,
+        "best_bid": 0.079,
+        "best_ask": 0.08,
+        "volume": 425139,
+        "liquidity": 48270,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Gap vs. the price we'd pay is 3.9 points, under the 10-point minimum."
+    },
+    {
+      "market_id": "2110579",
+      "event_id": "428819",
+      "event_title": "Israel Election: Likud # of seats?",
+      "option": "30-34",
+      "question": "Will Likud win 30-34 seats in the 2026 Israeli legislative election?",
+      "rules": "Legislative elections are expected to be held in Israel on October 27, 2026.\n\nThis market will resolve according to the number of seats won by the Likud party in the Israeli Knesset as a result of this election.\n\nIf the Likud party contests this election as part of a joint candidate list with one or more parties, all seats won by the joint candidate list will be counted. If the Likud party merges with another party prior to the election, all seats won by the resultant merged party, or any joint candidate list through which it contests the election, will be counted.\n\nIf the results of this election are not definitively known by October 31, 2027, 11:59 PM ET, this market will resolve to the lowest range bracket.\n\nThis market's resolution will be based solely on the number of seats won by the Likud party in this election.\n\nThis market will resolve based on the election results, as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by Israel’s Central Election Committee (Va'adet HaBehirot HaMerkazit) (https://www.gov.il/en/departments/central-elections-committee/govil-landing-page).",
+      "topic": "Politics",
+      "end_date": "2026-10-28T03:59:00Z",
+      "url": "https://polymarket.com/event/israel-election-likud-of-seats",
+      "snapshot": {
+        "time": "2026-10-20T01:43:13Z",
+        "crowd": 0.08,
+        "best_bid": 0.07,
+        "best_ask": 0.09,
+        "volume": 365192,
+        "liquidity": 75196,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "The kingmakers who could determine Israel’s election",
+          "source": "Al Jazeera",
+          "published": "2026-10-19",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOaTJoeTFQVGhpRUlTNmhtWEljY0dST0ZtNWk4azN6UzY5ektzeG90UDNlT2lOZ2JjNXlfSW9VUFJiR3lWdkNuN3JPZkg3S1FFbEFHWWc1OURENjYxVnN1emNRVU5kc09hTElMMjFYcDh6RDZFNDVlSGh5d1V2TXZwWHl2d1ZUWTJCcGoyXzJLSGFlcDQycDl3UGhB0gGfAUFVX3lxTFBtSFZPQUhFd1FWVjFoNXRfYVlmTWJNSEFwYTcyUml3TGRRTjY5VzNhU2o0MlhkTXFONGdhQVpyb0lRN1NjVnFnazU1Z25RS2RXYS0zeUtsdERBamJ6ZVpUVlVNZVhZU0pqeHBsakVMamk1cVpfbl9yZWJ1a0llYVdOaVVJWC0tZmpBdXRwTXllMkwwaFRtUDcyYlBUR2d1OA?oc=5"
+        },
+        {
+          "title": "2026 Israeli elections: What you need to know",
+          "source": "The Times of Israel",
+          "published": "2026-10-18",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQSjJTZ3ZPcFM1UVctTXRRTWJCLThSSnpIMmt2WHdLLS1LelVON293dGJnMnpfTFk2LTlCcXFxeURxX1ZaSklJRU9NTlpUQnlzNlh2V2lsemlLWWZOTlJ3Zy1saXNoZ3FPMXZwRjhDU25qQ3ZxUDNaSHN4ZGZKZlI1Z9IBhgFBVV95cUxPR1FZeDJvSTNXV0FlLUFiTGI4V1dIc1JHejZCMGkzWFlDMkI4dWpLY1dxRVRSYUM3cWFnU0pRX1JxQVBkeW94dkNSdmxnckFEWldKN0preHlmZ2o1anFrLXFkVE1Sb21nYnlxUnRfOVFQNDRqU2pyOWN6Q3NINURDQzhyRXBaZw?oc=5"
+        },
+        {
+          "title": "2026 Israeli Elections | Prime Minister, Candidates, Knesset, Date, & Polling",
+          "source": "Britannica",
+          "published": "2026-10-19",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9QcFBiVzlGaXVWdmVYcVNFNEstaUFKekhLdWlJNnFEVXlEZlFvZThMSFFZSkxONy1sb2NOaFJKMENiZGJ1QzN6bzQ0SkkybEQ1VkVRVUk1akdLajEzVzBvOTFYV19Ddw?oc=5"
+        },
+        {
+          "title": "Fact Check Team: How Israel’s election could shape its relationship with the US and Iran",
+          "source": "WXLV",
+          "published": "2026-10-19",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQeUJTVXJLbE8tZEw2VkppZk9yZlpDLVRhVXFpanE4Si1tNzhBX3BZNVNRS0tIWVVjT1JSc1ZtSWN3ZUtGeXRsWTBSWXJTbkM1V0htekt5RlVUN1A2N2N4Nzl3Y1JBdktDUzNDOXo0Q2Rka3hleWkwNFZxTEFmRGt0V1N2VWVTTG8zTUd6UWl4aDZ1YTdqOWJpblIyZWVPeGhoNVc3el9Rd3hvcWlDSUZaZ0JUelhMRjBhOTNtVWpuY3lYNC11cVV2SjhhRXREREFDbEEzN1gzU0FaNTNpbGZTY3FQRkc4XzZsYUxzQTNxOEE1Zw?oc=5"
+        },
+        {
+          "title": "Israel’s crucial election",
+          "source": "The Week",
+          "published": "2026-10-18",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5sUldKaHJ1YXZoUk5ZT2Z1R3IxenpxTUNia0gySlo5TkZZSjRBYi1qalZMcWUwcjZIcDRkbHVHMDJOQkszYU5EUWoxU0lxNTU0S3p0bG43SG1NMlkwUFprQlNnRmJiZw?oc=5"
+        },
+        {
+          "title": "Israel election poll tracker: will Binyamin Netanyahu hold on to power?",
+          "source": "The Economist",
+          "published": "2026-10-19",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1ObDNEQkNJb0NDRHliRFh6ZGVlX2JvVkU3Q0FTSlFzVkNHM3FITER1SGFQdmlNNWZXQXpRNTYwM21CTDJmdFRQVWQtYXh4R2xLd0phaURJSC1RV210b1VCb2tnWlItM1dZMDc0NkRFQ1dudGd5?oc=5"
+        }
+      ],
+      "news_query": "Likud win seats Israeli legislative election",
+      "forecast": {
+        "probability": 0.25,
+        "reasoning": "Polls over the past year have mostly put Likud in the mid-to-high 20s in seats, with occasional readings near 30. A wartime rally effect or the usual gap between polls and results could push it into the 30–34 range. Still, staying below 30 looks more likely."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-20T01:45:18Z",
+        "crowd": 0.08,
+        "best_bid": 0.07,
+        "best_ask": 0.09,
+        "volume": 365192,
+        "liquidity": 75196,
+        "fee_rate": 0.04
+      },
+      "bet_note": "No cash left for new bets; it's all in open bets."
+    },
+    {
+      "market_id": "3528498",
+      "event_id": "836010",
+      "event_title": "GPU rental prices (RTX 5090) end of October?",
+      "option": "$0.55-$0.60",
+      "question": "Will the Ornn RTX 5090 Index be between $0.55 and $0.60 on October 31, 2026?",
+      "rules": "This market will resolve according to the finalized Ornn RTX 5090 Index price for October 31, 2026.\n\nIf the recorded data falls exactly between two brackets, this market will resolve to the higher bracket.\n\nThe resolution source for this market is Ornnai.com (ornnai.com), specifically, the RTX 5090 Index chart data available at https://dashboard.ornnai.com. The specified finalized daily value shown on the chart will be used for resolution. Daily data will be considered finalized once the following day’s data point is published.\n\nResolution will occur once the specified data point is finalized. If the relevant data is not finalized by the end of the 7th calendar day after the specified date (ET), this market will resolve according to the latest data available at that time. Revisions made after the relevant figure has been finalized will not be considered.",
+      "topic": "Tech",
+      "end_date": "2026-11-01T03:59:00Z",
+      "url": "https://polymarket.com/event/gpu-rental-prices-rtx-5090-end-of-october",
+      "snapshot": {
+        "time": "2026-10-20T01:43:13Z",
+        "crowd": 0.1185,
+        "best_bid": 0.113,
+        "best_ask": 0.124,
+        "volume": 16002,
+        "liquidity": 3384,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "The Best AI GPU Cloud Platforms When Buying Hardware No Longer Adds Up",
+          "source": "Technology Org",
+          "published": "2026-10-19",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQYmV6cmJSYmNOb25MU0dsWG9lTDZLWEhHUkZYY1V1MFRlWVlHZURyWGk4TFFpQVIycGprUXhsX2kxSmNKdWN4UU9hOVFmMTJqS0JNU1c2N0RsNTMwejlnRGg2ejE5RzZzRWZHMDJBY3dVdWdWNXk1Wm1sUE5SajNpWVdWWFBBdU1yQlkxdVNQMFI3bFQtc09fOGlwSG9tTkprczJqWFl0dWx2c0dHT2c?oc=5"
+        },
+        {
+          "title": "NVIDIA RTX Spark Undercuts $18,600 AI Workstations by 86% [2026]",
+          "source": "https://tech-insider.org/",
+          "published": "2026-10-18",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9qU0VMOXJPczdoTVlRY1M1blBGYVJJN3ZDVlJiX3pRaDl3S0tCeGdNM2thY1NocDU4c2dXWE5HU3FkNXdnVUJMdVpTU3dBeVJoZFZEZ0tWeEJnejBhQl9QbFpxMW8wdE1UX2FJNWIwd2MzVC1NMllDSG5uV2RIZw?oc=5"
+        },
+        {
+          "title": "'GPU pricing to climb significantly' warns PC maker and 'elevated prices could stick around for some time' — while Nvidia's RTX 5090 might be on its deathbed",
+          "source": "Yahoo Tech",
+          "published": "2026-10-12",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQbkxIYTI3b19EaTBuZ0JheHRJemM1Q3ZCMWZtTWo1M1NQdTJ5MFgtOTJzcVFaV0Vvb0h0dFA3Uk9rMlNtNHA0ak1wLWVvQ2pRODJtUTdpdEdlUmlwZ2R3NV9lTHNQT0ZSX0lHRk4zTGRxLWNiekZwV1BOMzd2Mm14SHdWaS1DaEppano5LWFwWGlEbXVpU2d5VlNB?oc=5"
+        },
+        {
+          "title": "10 best GPU cloud providers for AI and machine learning",
+          "source": "Hostinger",
+          "published": "2026-10-17",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE4yNTNTMDhIVW05VVF0VGNlWUR3eGVWVG9WVGxxTnBnSF9GV1JvZDJqTk1WRURlT2l0N2dVSFp4eWZOYU9ISVd6R3paUnQ2ZS1Dd1MtQzg3TExjaWFXNHVHV0NsbmFXRVEzaG0zekVmbFBFUQ?oc=5"
+        },
+        {
+          "title": "PADO launches GPU leasing brokerage platform",
+          "source": "조선일보",
+          "published": "2026-10-19",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZE5qdTBObjVsUzhkTEVOVG10OTlFQXJ5clIzVndOR2UzSkZmSW1VQlBpMnVFUzRBUVpRU2E1dXNmdkhVWDZBZ3ljQVh3ZHlkckl0US1vRXFhTzdkd3d5Mk1OTzNlcWgySzFpaWZXMnNzNUg1bUNtUmFDT29GeS1FRmh6aFJOV2N1?oc=5"
+        },
+        {
+          "title": "ASUS ProArt RTX Spark AI PCs: Local Agentic AI | ASUS",
+          "source": "ASUS Pressroom",
+          "published": "2026-10-08",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQS1NHUTFvVTRBV3RnV0dXUnhHa3owS2kzbkZOajZZOFpFekN4cHF2Ymp5VXFsaUoySXhoZllXUmVBT0stN1ViZ241MVFqTEpvWVNCbW5QaDNUa2ZBX1pRM1d3SWYwZ0xDckI2d3JYcUd0WjhranpoRWlYdk1vZ203ZlhOTkpKYXc?oc=5"
+        }
+      ],
+      "news_query": "Ornn RTX Index | GPU rental prices RTX",
+      "forecast": {
+        "probability": 0.2,
+        "reasoning": "The RTX 5090 cloud rental index has typically been somewhere around $0.40–0.70 per hour, but I don't know its current level. A narrow 5-cent bracket on a single date deserves only a modest probability. Tight GPU supply and rising prices give slight support to mid-range values."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-20T01:45:18Z",
+        "crowd": 0.1185,
+        "best_bid": 0.113,
+        "best_ask": 0.124,
+        "volume": 16002,
+        "liquidity": 3242,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Gap vs. the price we'd pay is 7.6 points, under the 10-point minimum."
+    }
+  ],
+  "batch_id": "msgbatch_01BitcEqX2xknTp16CeY8ZPa",
+  "forecast_at": "2026-10-20T01:45:18Z",
+  "usage": {
+    "input_tokens": 5549,
+    "output_tokens": 1156
+  },
+  "cost_usd": 0.0227,
+  "budget": 0.0
+}
