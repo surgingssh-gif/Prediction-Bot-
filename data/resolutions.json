@@ -178,5 +178,10 @@
     "outcome": 1,
     "resolved_at": "2026-10-19T22:10:50Z",
     "question": "Will \"Whalefall\" Opening Weekend Box Office be less than 8m?"
+  },
+  "5457287": {
+    "outcome": 0,
+    "resolved_at": "2026-10-20T22:03:22Z",
+    "question": "Netflix (NFLX) Q3 operating margin 32% to 34%?"
   }
 }
