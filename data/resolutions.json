@@ -183,5 +183,20 @@
     "outcome": 0,
     "resolved_at": "2026-10-20T22:03:22Z",
     "question": "Netflix (NFLX) Q3 operating margin 32% to 34%?"
+  },
+  "5008726": {
+    "outcome": 1,
+    "resolved_at": "2026-10-21T06:02:16Z",
+    "question": "Will OpenAI not announce that it has resumed training by October 20, 2026?"
+  },
+  "4082027": {
+    "outcome": 1,
+    "resolved_at": "2026-10-21T15:03:45Z",
+    "question": "Will the Bank of Israel make no change to the Bank of Israel Interest Rate after the October decision?"
+  },
+  "4082026": {
+    "outcome": 0,
+    "resolved_at": "2026-10-21T15:03:45Z",
+    "question": "Will the Bank of Israel decrease the Bank of Israel Interest Rate after the October decision?"
   }
 }
