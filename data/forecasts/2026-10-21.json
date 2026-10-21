@@ -1,0 +1,543 @@
+{
+  "run_id": "2026-10-21",
+  "date": "2026-10-21",
+  "created_at": "2026-10-21T01:28:55Z",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "phase": "1.1",
+  "pick_stats": {
+    "eligible": {
+      "Economy": 6,
+      "Entertainment": 2,
+      "Politics": 152
+    },
+    "picked": 7
+  },
+  "questions": [
+    {
+      "market_id": "4890262",
+      "event_id": "1071009",
+      "event_title": "Bulgaria Presidential Election First Round: Margin of Victory",
+      "option": "Iotova 40%+",
+      "question": "Will Iliana Iotova win the 2026 Bulgarian presidential first round by at least 40%?",
+      "rules": "The first round of the 2026 Bulgarian presidential election is currently expected to be held on October 25, 2026.\n\nThis market will resolve according to the margin of victory between the top two candidates in the first round of the specified election.\n\nThe \"margin of victory\" is defined as the absolute difference between the percentages of valid votes received by the first-place and second-place candidates. Percentages of the valid votes received by each candidate will be determined by dividing the total number of valid votes each of the top two candidates receives by the sum of all valid votes cast in the election.\n\nThe candidates named in this market are individual candidates appearing on the first round ballot. They do not represent party options, and this market will not resolve based on the party affiliation of any candidate.\n\nIf the reported value falls exactly between two brackets, then this market will resolve to the higher margin bracket.\n\nIf two or more candidates tie for the most valid votes in this election, and the tie is between two candidates listed, this market will resolve to the lowest margin bracket for the candidate whose ballot-listed last name comes first in alphabetical order. If the tie is between a listed candidate and an unlisted candidate, this market will resolve to the lowest margin bracket for the listed candidate. If the tie is between two or more unlisted candidates, this market will resolve to \"Other.\"\n\nThis market will resolve based on the official vote count once the count has been made official.\n\nIf the election results are not known definitively by June 30, 2027, 11:59 PM ET, this market will resolve to \"Other\".\n\nIf a recount is initiated before the vote total has been made official, the market will remain open until the recount is completed and the vote is made official.\n\nThe primary resolution source for this market will be the official results of the 2026 Bulgarian presidential election as published by the Central Election Commission of Bulgaria (Централна избирателна комисия); however, an overwhelming consensus of credible reporting may also be used.",
+      "topic": "Politics",
+      "end_date": "2026-10-25T23:59:00Z",
+      "url": "https://polymarket.com/event/bulgaria-presidential-election-first-round-margin-of-victory",
+      "snapshot": {
+        "time": "2026-10-21T01:28:53Z",
+        "crowd": 0.107,
+        "best_bid": 0.105,
+        "best_ask": 0.109,
+        "volume": 108512,
+        "liquidity": 72005,
+        "fee_rate": 0.0
+      },
+      "news": [
+        {
+          "title": "How Bulgaria’s pro-Russian PM could gain his own president and why it matters",
+          "source": "Європейська правда",
+          "published": "2026-10-14",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9OdUxFN005WmVTdUxHRU1aeGpmNmZvYWxKU0d3V0tLWWZVV2hMcXJOMGJjVGJRaXdDOTZwaTRNWXdkYlVJMWNDNDVDc0dSaVVVS0xLYXZyb2xuOE9Ibk1jT0hVbUUwVmZKRzN5VlBXQU4?oc=5"
+        },
+        {
+          "title": "Presidential Candidate Iliana Yotova: The Status Quo",
+          "source": "Novinite.com",
+          "published": "2026-10-19",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZHRHeDdvLUNwN3B3ci02Sld4N1B4MUoxb3RHYWljV0FGNncwTDFVSGhaZmdxTU45LWhON0hIQkNhbmVEUjdNTHF1TjMxcURNRGxPdmM4MWt3SmE1d2lDMHd4R1o4MmdGVnB1TzRXZFdJeDBobGhZeENVQVROa0xMVnAtVi02U29RZld4aG9la0tQY2hIMkdmb0Z1OA?oc=5"
+        },
+        {
+          "title": "Iotova and Valchev would beat Gyurov and Kandev in a runoff with 65.8%, Sova Harris poll says",
+          "source": "BurgasMedia",
+          "published": "2026-10-20",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUnFSNFY1UHJmOEpOY1cwRDRwNi1teE15aWNsZ2ctSnRfcXYyY21HQ0tDOGQxSHhkRDJFMVl1bHNqWVAyRzRoWE5oeGlMZ05MTzBoaGtNdWlmTWh0el9FQXQxY20wTXl3ZW1QRkxPTVpsaTVaLXVFM296QXNIUGN2Q0V5SVlxUUNMcFJqZS1qNFNkaWxPRFlMNW9Ic1Z1dGQ2cVB1Q2JpMnVqRVJBNFZOZUFmRdIBuAFBVV95cUxQaGVZQm52b01fWkdFdHJfWTZXM1VIdF82SExLVlo0SkZ6bWZPalBXZVJneUZoMTZ0dE5pa1NQS1FlYktnV1NGU25mRVQ3UUJQd2V1cnJrYjNJTUNwN2JNNmN4ZnlIUHZnNFBFMmozc0c5UWVYZ0FTb0JJYjB5b0I5R1ZfRlVqNWM1QmNnZEtubWRBVy01a0tjUS1MaDZBX29WVXRlMTFtaHpqRkI5a1lGTjdEWHlyU2Fa?oc=5"
+        },
+        {
+          "title": "Gallup: Yotova-Valchev Lead With 44.9% Ahead of Bulgaria’s Presidential Vote",
+          "source": "Novinite.com",
+          "published": "2026-10-08",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQQ0d1N3g0aVg3cDU2ak53WTNLWmZzRTdpODRMaEpCbjRTcFh1UUdHQ3VfRUJFajFYeHBXMXgzN2R0OEYyZFVyaUNDQ2lTdDhIWXVZWS14RDQ0RDRuelpKdmtJcUVkX1NJYnJ0TGpFd0IzSmRGelFTY1o4bVRvdXRPMVNwR2FWZzE5VTlFWTJoVGtwbThUeE1aZkJSMU5HZmFmNFQwOE9QeHZycDFQTzFpU0FGbk1rcEF6aW83OWl4M0J6cEhN?oc=5"
+        },
+        {
+          "title": "\"Viktor Orban in a Skirt\": TAC article about Iliana Yotova",
+          "source": "Fakti.bg",
+          "published": "2026-10-13",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNSkJBSDNUNlRaS05yUHJGNTRlVy1nNnJmUEpIOG50SXRGaGlpVlhaRFBtckxTSXVyZWlXX1NIRXZvR0Mwc3FTRnltcGY2QmN3cG4yaXpMX0hHT21tN0Z1STRKNXROUnJYUDdPM3hLMDFMbEpjVEdOX3dONHhNRHZyQlNTRVdKNVBxemVfcWFQVnk4X2dM?oc=5"
+        },
+        {
+          "title": "Radostin Vassilev: I expect a big surprise in the presidential elections ᐉ News from Fakti.bg - Bulgaria",
+          "source": "Fakti.bg",
+          "published": "2026-10-17",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNTBGOUhEQjdYellnUnRSMUgwazRWSWNZekVGal84Nnc0bTdpNTlhdTNJSFl5N1VlOTBmSXNKQUVnTnhmRXZ2Yy1YeEdHWlJjM3VVbW5VRlB5MWNReE9xU1lvSGtJVkJteURPMHZ2LTlKZ0pCOUtlMVVUNGpGbElVQUVEXzlXcWNaNUZ4QU9lbm1qSVh2ZjZsQjFSdkE1aWVfNWg4ZmY3MWVUWUJ1elRUT2d3?oc=5"
+        }
+      ],
+      "news_query": "Iliana Iotova win Bulgarian presidential first round",
+      "forecast": {
+        "probability": 0.1,
+        "reasoning": "Polls put Iotova around 45%, well ahead of the field but not dominant. Winning by 40 points would require something like 55% against 15% for the runner-up. Rival candidates such as Gyurov look likely to take enough of the vote to keep the margin below 40 points."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-21T01:30:28Z",
+        "crowd": 0.107,
+        "best_bid": 0.105,
+        "best_ask": 0.109,
+        "volume": 108512,
+        "liquidity": 72005,
+        "fee_rate": 0.0
+      },
+      "bet_note": "Gap vs. the price we'd pay is 0.5 points, under the 10-point minimum."
+    },
+    {
+      "market_id": "1812607",
+      "event_id": "330634",
+      "event_title": "Toronto Mayoral Election Winner",
+      "option": "Olivia Chow",
+      "question": "Will Olivia Chow win the 2026 Toronto mayoral election?",
+      "rules": "The 2026 Toronto mayoral election is currently scheduled to be held on October 26, 2026.\n\nThis market will resolve according to the candidate who becomes the next mayor of Toronto as a result of this election.\n\nTemporary, interim, or placeholder mayors appointed before the election will not be considered.\n\nIf the result of this election isn't known by June 30, 2027, 11:59 PM ET, the market will resolve to \"Other\".\n\nThe primary resolution source for this market will be a consensus of credible reporting; however, if there is any ambiguity in the results, this market will resolve according to official information from Toronto.",
+      "topic": "Politics",
+      "end_date": "2026-10-27T03:59:00Z",
+      "url": "https://polymarket.com/event/toronto-mayoral-election-winner-545",
+      "snapshot": {
+        "time": "2026-10-21T01:28:53Z",
+        "crowd": 0.645,
+        "best_bid": 0.64,
+        "best_ask": 0.65,
+        "volume": 232857,
+        "liquidity": 74604,
+        "fee_rate": 0.0
+      },
+      "news": [
+        {
+          "title": "Chow and Bradford neck-and-neck with days left in Toronto mayoral election campaign",
+          "source": "Global News",
+          "published": "2026-10-20",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPUWFlOVVIRi1GODBDSk1yc1JUbXZUd3RGZ1BVSlFTRHhMaldTMGNQWGtmTVItaVE5aDJ5cEN4Q3JLVmt5ZW16ei0zY1pWeW45SWIyZkN4XzNCQWJGekFhZngxb0NKeENuMXFIek0zOEJRMXcySVYwUDBQaXFrdHpVR2FwNWJwS0R5YW9ISkJwYklQQzdBZFdzWFl2QWRFeUdVaU8tZ3ZabEdiU3R6dzVFOVFn?oc=5"
+        },
+        {
+          "title": "LILLEY: Advance poll surge could spell trouble for Olivia Chow in mayoral race",
+          "source": "Toronto Sun",
+          "published": "2026-10-13",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNa1kySU5CaTRmVnJZaGdfd1NLcmt4VDZ2UnQ1TTU3UFVZQ1AyWU9Edl96N2oxelNiRU9sdG85VDdhWGc0ZXZkTEZFeDlLck1IaWsyN29jTTNYMGFpNDU5YWJHMXlDZFV5MFQ2LTVHWXhFRkoxejE5a1NxQS1sNUx6NExOS1VuMkY5bGxvUHZR?oc=5"
+        },
+        {
+          "title": "Richard Warnica: If Olivia Chow loses, this will be the reason why",
+          "source": "Toronto Star",
+          "published": "2026-10-19",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxOLXNwN0VfamtIZlVFRVdQNW94LWY4MXdQTWdGTW1qZjNWQU1pRnJaUjdvQ1hJTDRSV0RoNmRTQkhCLUZpQy1RYWhDd2F6Qjdpc05feEo5eTZWS0lLeXcyZjdnbkd0bFJWMEhWUXNKZDBOaHdnOVFwdGJ5bTFRbnViWlFHYkFQUDhxR2lvX2J1bkNLRHNPQjBIVnkxdHRROVVUMTNGNGQ1MmF1UmFxUWNPT1RXbWpSZ09RYnViclEzYjhqTEFrcU9TSU11Y1B2WDhITFFPRHNBNWtxYzFaX1BmQlBHNjNFOWd5YVRBQ2NLUWdmTjBtLUV2RnhpNlppYkE1enRSM0NyUHpIY1ltdUlQSDJJNGo?oc=5"
+        },
+        {
+          "title": "Toronto Votes 2026: Your final-week guide to voting in this election",
+          "source": "CBC",
+          "published": "2026-10-17",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPNjNrX3JacU4tTjdOb0d5c2lMQnNqc29NbXZYNlVaX3FXTGtSYm03TFIwRjRfRHROZU9EeUpJdU1vTGpfbFpaWkZSWExqdngxMHdwYXMwREJXVEZoTF9lbnNVNm94V2VUUGtJRWdqeVVFaHdaMEV5Tmo5c3pWY1E0WUdTWElJdWs?oc=5"
+        },
+        {
+          "title": "Has Olivia Chow Been an Effective Mayor?",
+          "source": "The Local",
+          "published": "2026-10-17",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9DRUhTWUgwVU0tQlNENWdSY2ZhdzBVZGR0dXhQMDJVZVJyU3lQV2hpU3NOQ3pFbGVLVFNnSzRPMGo4Xy1XRVVsV0JJdVVnaGdBLVJQRFNtQXl0ZTJ6V0E?oc=5"
+        },
+        {
+          "title": "Bradford takes narrow lead over Chow in Toronto mayoral race: poll",
+          "source": "CityNews Toronto",
+          "published": "2026-10-20",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQZGxPaDFMRlU4WjJGTFJjZG56eDRZTXFrQkNob1locXRxY2R6amF2X3JBQW9FUkV2VUJyb0pZQWZVTDF0eU0zZThiV2VYdmY4akN1T2t6SWd5QWtmVnU5RXhjYU1FeFFBYXhvVjNFTlFjNU1VWnNyS0czNDlQNmU1VFFHNkpHRUlNMDFQa3R5MjBTdw?oc=5"
+        }
+      ],
+      "news_query": "Olivia Chow win Toronto mayoral election",
+      "forecast": {
+        "probability": 0.44,
+        "reasoning": "Recent polls show Chow and Bradford neck-and-neck, with one poll giving Bradford a narrow lead. Commentators also point to an advance-poll surge that may favour Bradford. Incumbency helps Chow somewhat, but the race is roughly a toss-up with a slight lean against her."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-21T01:30:28Z",
+        "crowd": 0.645,
+        "best_bid": 0.64,
+        "best_ask": 0.65,
+        "volume": 232857,
+        "liquidity": 73788,
+        "fee_rate": 0.0
+      },
+      "bet_note": "No cash left for new bets; it's all in open bets."
+    },
+    {
+      "market_id": "629558",
+      "event_id": "57185",
+      "event_title": "Ohio Governor Election Winner",
+      "option": "Vivek Ramaswamy (R)",
+      "question": "Will the Republicans win the Ohio governor race in 2026?",
+      "rules": "This market will resolve according to the winner of the 2026 Ohio gubernatorial election.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
+      "topic": "Politics",
+      "end_date": "2026-11-04T04:59:00Z",
+      "url": "https://polymarket.com/event/ohio-governor-winner-2026",
+      "snapshot": {
+        "time": "2026-10-21T01:28:53Z",
+        "crowd": 0.22,
+        "best_bid": 0.21,
+        "best_ask": 0.23,
+        "volume": 248193,
+        "liquidity": 155622,
+        "fee_rate": 0.0
+      },
+      "news": [
+        {
+          "title": "Ohio becomes midterm battleground after years of Republican wins",
+          "source": "PBS",
+          "published": "2026-10-19",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQRVpDYjRGRVY3VENTc191TDZ0Z1lNb3lFTmJmY2tuT3ZrSmFpS0NGb0toT1hKYnBGZVRNdVZOcnI5bHhJS1lsQmRvaFhwZ2xGd1BRZDJfXzhjZWJ5ZXl6SFVXSXNOeEs4cDFLeEpLcTA3U0FBZ3Zsd09JU0R4V0RVbkl0SzhkWGp2NjhCcTRmNHNQeWR2WkpYUFNRWkVMUVk?oc=5"
+        },
+        {
+          "title": "Ramaswamy Facing Tougher Fight Than Republicans Had Expected in Ohio",
+          "source": "Time Magazine",
+          "published": "2026-10-20",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOelUxU1NDVlA2dGZNRmpVTzctU3NWMDd2dlQ2Sk9ZNGVYSEpINFN0b29KLWlxUjItZFRfbGI5anpBOHkxN2RocGppZ1VORHJSaXJ0VTdwXzRBQl95bHV2QzlNUzNqNktiTDRRZXZjOUhuUEY2R2RTc0NjQURIb2VWTE1IV2E4dnEyT1pvaE9kRUppTURib2lxellLSQ?oc=5"
+        },
+        {
+          "title": "Ohio poll finds Republicans slightly ahead but within margin of error in Senator, governor races",
+          "source": "NBC4 WCMH-TV",
+          "published": "2026-10-14",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOYUpLOGxQdzVYWlFOQVRTV2IwaHhpVHdrQUxsMmpBYmNBbU0zbTBlaEZndlgtem5yeGxzRzI5Ml80TUNKMGp2RTRBdDQ0XzV6U1R4RTVIZFVQYkZ3NDF0TWw2UmZMNjdORHVSa09qcFJ2dTdfUDZVRzRKanBDYmVLLVNOdXdibERYZFFtM19tNkJYcFcyY1BSS2dHTHQ0MzdzVGFYSVBPX19CbGRyWTRjODhwYlJ1SElMX0JubXJ1bVYtUWxvdG9NcGdiUDVHYmNuWjZxSGV5Z1pHTFg2T2hZ0gHkAUFVX3lxTE1mNF9nZjRFUURKbm90Y3BNa203cXJqSnFoLUl6WENxNUJWemdVWTRmTG1zWnhwREk3aWNnbWFrMkxUQ1Q3bWYxeWtxeVdNNWpYSDNROUxXZFNFNWVSQ2ZNcHJtRjNBdm9NYUItb1dNYks0aVI4MUhlcHZONEVrZnVGaExhTk9NYlM3TVF0b29ITWxPbUdYTUlQZ3p0R3lfeXM4bEtPQU0yLXVQVkVSbFJxeGtETDZoc3NHTTRNcjA0dDZvbF94Wm1CUktzWEdEOFVyZ2VFc3g1TmhockJ6OXJLcTFQLQ?oc=5"
+        },
+        {
+          "title": "Ohio’s bitter governor’s race got even uglier when an attack video surfaced featuring Democratic nominee Amy Acton’s estranged mother calling her “a liar.” Acton’s brother accused Republican opponent Vivek Ramaswamy of exploiting childhood trauma.",
+          "source": "Facebook",
+          "published": "2026-10-21",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPWXMzUlRYTU9TQkU0M19LZlA1cTJKSzRyQTVVUTNfaXVGSU5hbGVBQ01jdEFwbFZ2cGxSa2Z1eDFhd1pHZk5pVVd3LXFHb0JXOHRVR1N2OXlfZF9oM056SGFHdTJaRW12dm05WmRfa3BCYnJwVU5NajZDNjNiUlV4UTBpcFVSeGNhNWYwVko1eFV5UlZqVVZkSmx4a1BLVjlkWVZRbmtOaGtfcWhMYjBCVUNLMlRaMExUOEp5ckF5SlNDeUtvWjBRT0htQ2l2a0RKUFdSSVRSV0JPUXdB?oc=5"
+        },
+        {
+          "title": "Ramaswamy will win Ohio GOP primary for governor, ABC News projects",
+          "source": "ABC News - Breaking News, Latest News and Videos",
+          "published": "2026-10-19",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQbXl4Xy1YT01yMEZmX1V4ZmQtbnVhdDh4YjBkcm0zVVkxcEpvRUVpRXE2LU5IeTV5SjNuelZwaVRvMTlDcUFyeFRMdC16ME9QZ21ZdmJWTUZFX0FoeWhGNEVPbHVpTGowWjNYMUZUNWRhWUxYMDkwTkZ6RERrM05qblFid2ptYmZYUXlZeFBBczJjVHBqb0l2NTltZlLSAaIBQVVfeXFMT1N4SUUtZ1NXc0pvWmFsVXRVVzktUkkwdFhldDIzSU8xeUtCRmlyRUZOZW9zU0ZubGVGRzk4cGthVVNwM3NFNC1wTmMyNEN1SF9McEJlVzlDcWtIMXFvTFlqeDRXTXAyOEtwRFlGRF9lRTI5aFhBZ01xU1FiMjJ0X2pSMkRLc3M2Qi0xNC1MM1FfaVBlbHZydTFHMWVnQlRwdDBB?oc=5"
+        },
+        {
+          "title": "Newly released poll shows Democrats maintaining edge in Ohio Senate, gubernatorial races",
+          "source": "WLWT",
+          "published": "2026-10-17",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOOHVDSy12R2luWm1BZ2I2NmtneHowWl90MEM4cU4wNXNfaWRBTjB6Y1BDc3BvSnpLTDFSZlFsOGhrTWRDSnFSQUpMeDdENXdUY0RkQmJETWdsUnB2SGFGQTlVTVRwUG5LV2xEZzlZMFdXUXZ6WFRKWUZ3a0FXbF9aN2taUWV1eFVUNExNeG9RVkRNcmpvSmZSNEdKN1RGRnc?oc=5"
+        }
+      ],
+      "news_query": "Republicans win Ohio governor race",
+      "forecast": {
+        "probability": 0.57,
+        "reasoning": "Ohio has leaned Republican for years, but polls show a close race, and one recent poll has Acton ahead. Ramaswamy is facing a tougher fight than expected. Ohio's partisan lean still gives him a modest edge in a possibly Democratic-leaning midterm."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-21T01:30:28Z",
+        "crowd": 0.22,
+        "best_bid": 0.21,
+        "best_ask": 0.23,
+        "volume": 248193,
+        "liquidity": 152802,
+        "fee_rate": 0.0
+      },
+      "bet_note": "No cash left for new bets; it's all in open bets."
+    },
+    {
+      "market_id": "5887861",
+      "event_id": "1212333",
+      "event_title": "# of views of next MrBeast video on week 1? (Higher Brackets)",
+      "option": "<150M",
+      "question": "Will MrBeast's next video get less than 150 million views on week 1?",
+      "rules": "This market will resolve according to the number of views the YouTube video \"Lose 150 Lbs Together, Win $250,000\" by MrBeast gets in the first 7 days after being posted.\n\nIf the reported value falls exactly between two brackets, this market will resolve to the higher range bracket.\n\nIf the resolution source is not available at the end of the specified duration, this market will resolve according to most recent number of views available before the end of the specified duration.\n\nThe resolution source for this is MrBeast's YouTube channel (https://www.youtube.com/@MrBeast), specifically the 'views' counter for the described video.\n\nNote: This market refers only to the video \"Lose 150 Lbs Together, Win $250,000\" by MrBeast (see: https://www.youtube.com/watch?v=RE3_PGwDwhw).",
+      "topic": "Entertainment",
+      "end_date": "2026-10-24T16:00:18Z",
+      "url": "https://polymarket.com/event/of-views-of-next-mrbeast-video-on-week-1-higher-brackets-20261017",
+      "snapshot": {
+        "time": "2026-10-21T01:28:53Z",
+        "crowd": 0.913,
+        "best_bid": 0.9,
+        "best_ask": 0.926,
+        "volume": 23755,
+        "liquidity": 3908,
+        "fee_rate": 0.0
+      },
+      "news": [
+        {
+          "title": "MrBeast contestants speak after spending 202 days inside of Greenville grocery store",
+          "source": "WITN",
+          "published": "2026-10-09",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPN3BtWkpReF9RY3lKRnVmNUd1TFNWS3hDa0M2Yml5TW54Xzc0OTdVUExQOWdsSjBBUmoxcXdETlMxSEs0MEp0anhsSXRhUFlWUEJGTTlHNzBQNWgtSWVNUTFDbGJtaEo5UWNxNmVjY2VSX1dBQVpiLTJLSTl5Q3RGU04xWXFGVnFnaklkbkRXXzk0WUVnN0dhVzA1RVBmNEtuS29GMmdDcEd0bkludjZ1NWVHdkvSAcgBQVVfeXFMTzhYemxWOWxvajN1aEhrajREZXFCM19PNFdYdVFLRnZxc3UtUTBsUXRSd1htZ0J1VGUzb3M1cTF6azJwMTlWdlBlTXlWbkY5Z3ZPQ2ZSX2g5WlZCSjF6Tm04SDA5U1cxYkZHMWVoZnRvd05obVY2cXFXZVBpQTdrVlF1WnBDREhxeVcxOWNYd2VBcnZ2Z2JpQWhMRWlENnZlMnlmNzU0MWZucWVzNHJ5cFFIYUdrNHkzaUlBellGYXlRV3dGNXlqUXg?oc=5"
+        },
+        {
+          "title": "MrBeast",
+          "source": "Britannica",
+          "published": "2026-10-07",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5WMVZIQlFoNjFFZkx6T09vYkVwVXJ6TFEzcjNwdE5hUEdLMUlTZXVtRnIybW1OX2tMbW42WEVXelZBaUlUdFFFbnRyNnFnWFd6LWtPVmc3WQ?oc=5"
+        },
+        {
+          "title": "Is MrBeast Appropriate for Kids? Here’s What Parents Should Know Before They Say Yes",
+          "source": "Parents",
+          "published": "2026-10-10",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1KV2h0Szh3aVg5QVZqY2owRzVGVEpzRHhNbkNqN25RdFZJT0xKTTkxT0tsS2F5UUJlNnRZZnpmY0RvdElCZmRvMFRSMGFmSmNwYWVFZm9DeURMS01xUnljRWpsdlVZUVhSSl9WWTliZ3k?oc=5"
+        },
+        {
+          "title": "Mr. Beast MrBeast",
+          "source": "YouTube",
+          "published": "2026-10-12",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE8yOWhSLUhFTUpSS0w1NF9yM3Z0R19sRmc5dUd3UEhCNWJDOTlYWE93dldCWDMtV1k0SDM2b3B1ZUROaHc2eUhGc0FmUnMyWi1V?oc=5"
+        },
+        {
+          "title": "MrBeast Surprises Indian Woman With Rs 9.5 Lakh After Her 365-Day Challenge",
+          "source": "NDTV",
+          "published": "2026-10-15",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZmc0UkxsVnJtRTVOckVPb2laV3BObFFrSjUxS1BMRkd0ZHIyQUp6UzIxUGVLU1NtdGE2ZHBoWmtIVWp1N0EwRkJCOTFEd3BOTUVRUGdiTkNNRVhJSTY3MmN3WmVxc2JRT1Q2T1NuSk03QWZZVnBIYlcyT29Tb2ZjZjhnQmNzcXNkb0dBWFh6d0hDVnVseHhBdkJGVV9HMEZMVERsSHAwemYtTWUyTXpyYWY2RdIBuwFBVV95cUxNZDFhX1d4WmNRaXVITjBXNFJqUGlQYmx1SGJuMWpTMDZHQkk4cWs4a0VTSUcwNWtMbk5IN1doUDZFV1VTUVEyaHVWWnhadXhWbkFBM0lkYXIwQTdmUEc1MW4wZXEyYm1rVzgxcUxTU1E4WTdsTUJINnFZekJUNnBoY3RZU0ZhOGYtVlhjdHo1Tm8wX242bVFKazEyZi1fNlVnX1RJOHplUVRxSXJSQjJqaUZxRVc3T3NvV1VR?oc=5"
+        },
+        {
+          "title": "MrBeast asks Elon Musk to lend him Tesla’s flying Roadster for a video | Trending",
+          "source": "Hindustan Times",
+          "published": "2026-10-18",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNc0NicllYUGhtdlE4OGRzNHFiYnhhdEtmREczQ0JybVV1aFNKUUxUWXRZQ21UM05mbjlJUjRENFVERTBvNlVMVTN1RVdjNnhEbnowd25ZNFJsekl3akwzcDRmaURXRi01QUN4QzIwY3A0OE1yZG1XaXI4U2hZc3pPcXIwNUU2V2ZqTUsxVGhlTUdKSW5ya2dlSGhqdFlITnpmRzBhMnQzY1FiRDhtNVZpTWRvZEJpc01xZm9zRi0yTTdQMTFwUlhmbG83TdIB0AFBVV95cUxNS01iMDE5aURfcjhiUkExMzlkWG5NaWlYcEtZUEpIS3VCRllKSkcyZl9PSm92R3gwYXREbGxPMWIzZks4VTl3NUF2RlBZdEk2WTJ5RFNQcGtPTm8zZkJ2Y0NNODQ1aE1leDdsNklWcnZoM3RaWFlydU5NcUxhZGNSbTRhbk9EMExjRXI3VTAtNU1OWV96enZNTGF3X3daQjZQQ1E1dU9xNl9Vekx4V0g0dVg3ZUExd3BJb2x6NjEycDlTUW9YcmVRLWxfc2dLeG14?oc=5"
+        }
+      ],
+      "news_query": "MrBeast video views",
+      "forecast": {
+        "probability": 0.55,
+        "reasoning": "MrBeast's recent uploads usually draw roughly 100–200 million views in their first week, so 150 million is near the middle of that range. A weight-loss challenge may draw less interest than his biggest stunt videos, which tilts this slightly toward under 150 million."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-21T01:30:28Z",
+        "crowd": 0.913,
+        "best_bid": 0.9,
+        "best_ask": 0.926,
+        "volume": 23755,
+        "liquidity": 3908,
+        "fee_rate": 0.0
+      },
+      "bet_note": "No cash left for new bets; it's all in open bets."
+    },
+    {
+      "market_id": "5887862",
+      "event_id": "1212333",
+      "event_title": "# of views of next MrBeast video on week 1? (Higher Brackets)",
+      "option": "150-160M",
+      "question": "Will MrBeast's next video get between 150 and 160 million views on week 1?",
+      "rules": "This market will resolve according to the number of views the YouTube video \"Lose 150 Lbs Together, Win $250,000\" by MrBeast gets in the first 7 days after being posted.\n\nIf the reported value falls exactly between two brackets, this market will resolve to the higher range bracket.\n\nIf the resolution source is not available at the end of the specified duration, this market will resolve according to most recent number of views available before the end of the specified duration.\n\nThe resolution source for this is MrBeast's YouTube channel (https://www.youtube.com/@MrBeast), specifically the 'views' counter for the described video.\n\nNote: This market refers only to the video \"Lose 150 Lbs Together, Win $250,000\" by MrBeast (see: https://www.youtube.com/watch?v=RE3_PGwDwhw).",
+      "topic": "Entertainment",
+      "end_date": "2026-10-24T16:00:18Z",
+      "url": "https://polymarket.com/event/of-views-of-next-mrbeast-video-on-week-1-higher-brackets-20261017",
+      "snapshot": {
+        "time": "2026-10-21T01:28:53Z",
+        "crowd": 0.07,
+        "best_bid": 0.06,
+        "best_ask": 0.08,
+        "volume": 11211,
+        "liquidity": 3346,
+        "fee_rate": 0.0
+      },
+      "news": [
+        {
+          "title": "MrBeast contestants speak after spending 202 days inside of Greenville grocery store",
+          "source": "WITN",
+          "published": "2026-10-09",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPN3BtWkpReF9RY3lKRnVmNUd1TFNWS3hDa0M2Yml5TW54Xzc0OTdVUExQOWdsSjBBUmoxcXdETlMxSEs0MEp0anhsSXRhUFlWUEJGTTlHNzBQNWgtSWVNUTFDbGJtaEo5UWNxNmVjY2VSX1dBQVpiLTJLSTl5Q3RGU04xWXFGVnFnaklkbkRXXzk0WUVnN0dhVzA1RVBmNEtuS29GMmdDcEd0bkludjZ1NWVHdkvSAcgBQVVfeXFMTzhYemxWOWxvajN1aEhrajREZXFCM19PNFdYdVFLRnZxc3UtUTBsUXRSd1htZ0J1VGUzb3M1cTF6azJwMTlWdlBlTXlWbkY5Z3ZPQ2ZSX2g5WlZCSjF6Tm04SDA5U1cxYkZHMWVoZnRvd05obVY2cXFXZVBpQTdrVlF1WnBDREhxeVcxOWNYd2VBcnZ2Z2JpQWhMRWlENnZlMnlmNzU0MWZucWVzNHJ5cFFIYUdrNHkzaUlBellGYXlRV3dGNXlqUXg?oc=5"
+        },
+        {
+          "title": "MrBeast",
+          "source": "Britannica",
+          "published": "2026-10-07",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5WMVZIQlFoNjFFZkx6T09vYkVwVXJ6TFEzcjNwdE5hUEdLMUlTZXVtRnIybW1OX2tMbW42WEVXelZBaUlUdFFFbnRyNnFnWFd6LWtPVmc3WQ?oc=5"
+        },
+        {
+          "title": "Is MrBeast Appropriate for Kids? Here’s What Parents Should Know Before They Say Yes",
+          "source": "Parents",
+          "published": "2026-10-10",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1KV2h0Szh3aVg5QVZqY2owRzVGVEpzRHhNbkNqN25RdFZJT0xKTTkxT0tsS2F5UUJlNnRZZnpmY0RvdElCZmRvMFRSMGFmSmNwYWVFZm9DeURMS01xUnljRWpsdlVZUVhSSl9WWTliZ3k?oc=5"
+        },
+        {
+          "title": "Mr. Beast MrBeast",
+          "source": "YouTube",
+          "published": "2026-10-12",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE8yOWhSLUhFTUpSS0w1NF9yM3Z0R19sRmc5dUd3UEhCNWJDOTlYWE93dldCWDMtV1k0SDM2b3B1ZUROaHc2eUhGc0FmUnMyWi1V?oc=5"
+        },
+        {
+          "title": "MrBeast Surprises Indian Woman With Rs 9.5 Lakh After Her 365-Day Challenge",
+          "source": "NDTV",
+          "published": "2026-10-15",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZmc0UkxsVnJtRTVOckVPb2laV3BObFFrSjUxS1BMRkd0ZHIyQUp6UzIxUGVLU1NtdGE2ZHBoWmtIVWp1N0EwRkJCOTFEd3BOTUVRUGdiTkNNRVhJSTY3MmN3WmVxc2JRT1Q2T1NuSk03QWZZVnBIYlcyT29Tb2ZjZjhnQmNzcXNkb0dBWFh6d0hDVnVseHhBdkJGVV9HMEZMVERsSHAwemYtTWUyTXpyYWY2RdIBuwFBVV95cUxNZDFhX1d4WmNRaXVITjBXNFJqUGlQYmx1SGJuMWpTMDZHQkk4cWs4a0VTSUcwNWtMbk5IN1doUDZFV1VTUVEyaHVWWnhadXhWbkFBM0lkYXIwQTdmUEc1MW4wZXEyYm1rVzgxcUxTU1E4WTdsTUJINnFZekJUNnBoY3RZU0ZhOGYtVlhjdHo1Tm8wX242bVFKazEyZi1fNlVnX1RJOHplUVRxSXJSQjJqaUZxRVc3T3NvV1VR?oc=5"
+        },
+        {
+          "title": "MrBeast asks Elon Musk to lend him Tesla’s flying Roadster for a video | Trending",
+          "source": "Hindustan Times",
+          "published": "2026-10-18",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNc0NicllYUGhtdlE4OGRzNHFiYnhhdEtmREczQ0JybVV1aFNKUUxUWXRZQ21UM05mbjlJUjRENFVERTBvNlVMVTN1RVdjNnhEbnowd25ZNFJsekl3akwzcDRmaURXRi01QUN4QzIwY3A0OE1yZG1XaXI4U2hZc3pPcXIwNUU2V2ZqTUsxVGhlTUdKSW5ya2dlSGhqdFlITnpmRzBhMnQzY1FiRDhtNVZpTWRvZEJpc01xZm9zRi0yTTdQMTFwUlhmbG83TdIB0AFBVV95cUxNS01iMDE5aURfcjhiUkExMzlkWG5NaWlYcEtZUEpIS3VCRllKSkcyZl9PSm92R3gwYXREbGxPMWIzZks4VTl3NUF2RlBZdEk2WTJ5RFNQcGtPTm8zZkJ2Y0NNODQ1aE1leDdsNklWcnZoM3RaWFlydU5NcUxhZGNSbTRhbk9EMExjRXI3VTAtNU1OWV96enZNTGF3X3daQjZQQ1E1dU9xNl9Vekx4V0g0dVg3ZUExd3BJb2x6NjEycDlTUW9YcmVRLWxfc2dLeG14?oc=5"
+        }
+      ],
+      "news_query": "MrBeast video views",
+      "forecast": {
+        "probability": 0.18,
+        "reasoning": "This is a narrow 10-million-view window close to the likely centre of the outcome range. A window that size typically captures something under a fifth of the probability."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-21T01:30:28Z",
+        "crowd": 0.07,
+        "best_bid": 0.06,
+        "best_ask": 0.08,
+        "volume": 11211,
+        "liquidity": 3568,
+        "fee_rate": 0.0
+      },
+      "bet_note": "No cash left for new bets; it's all in open bets."
+    },
+    {
+      "market_id": "3388092",
+      "event_id": "807644",
+      "event_title": "Bank of Mexico Decision in November?",
+      "option": "25 bps decrease",
+      "question": "Bank of Mexico decreases interest rates by 25 bps after November 2026 meeting?",
+      "rules": "This market will resolve according to the change in basis points in the target for the overnight interbank interest rate resulting from the November 2026 meeting of the Bank of Mexico, relative to the level it was prior to this meeting.\n\nThe resolution source will be official information from the Bank of Mexico, including the statement or release from its November 2026 meeting, scheduled for November 5, 2026, as listed on the official Bank of Mexico calendar (https://www.banxico.org.mx/viewers2/JSP/calendarioDifusion_es.jsp). This market may resolve as soon as the statement or release of the Bank of Mexico resulting from its November 2026 meeting with relevant data is issued. \n\nIf the specified rate is defined by an upper and lower bound, the relevant change will be the change to the upper bound. \n\nIf the specified rate is changed to a level not expressed in the displayed options, the change will be rounded according to the following guidelines. Increases or decreases of less than 25 bps will be rounded to 25 bps (e.g. an increase or decrease of 10 bps would be considered to be an increase or decrease of 25 bps). Increases or decreases of greater than 25 bps will be rounded to the nearest 25 bps and will be rounded away from 0 in cases of equidistance (e.g., an increase or decrease of 37.5 bps would be considered to be an increase or decrease of 50 bps). Displayed options of “Increase” or “Decrease” will include policy rate increases or decreases of any size.\n\nIf the specified meeting is postponed to a date and time before the start of the next scheduled meeting, this market will resolve based on the outcome of that postponed meeting.  If the specified meeting is cancelled, or postponed such that no decision is announced by the start of the next scheduled meeting, this market will resolve to the “No Change” bracket. Emergency changes to the specified rate not resulting from the specified meeting will not be considered.",
+      "topic": "Economy",
+      "end_date": "2026-11-05T23:59:00Z",
+      "url": "https://polymarket.com/event/bank-of-mexico-decision-in-november",
+      "snapshot": {
+        "time": "2026-10-21T01:28:53Z",
+        "crowd": 0.4,
+        "best_bid": 0.378,
+        "best_ask": 0.422,
+        "volume": 16476,
+        "liquidity": 3379,
+        "fee_rate": 0.0
+      },
+      "news": [],
+      "news_query": "Bank Mexico decreases interest rates bps meeting | Bank Mexico Decision bps decrease",
+      "forecast": {
+        "probability": 0.3,
+        "reasoning": "Banxico had been easing gradually but signalled a pause. A 2026 diesel and oil price shock would push up inflation risks, which argues for holding rates. A 25 bp cut is possible but less likely than no change."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-21T01:30:28Z",
+        "crowd": 0.3995,
+        "best_bid": 0.377,
+        "best_ask": 0.422,
+        "volume": 16476,
+        "liquidity": 3267,
+        "fee_rate": 0.0
+      },
+      "bet_note": "Gap vs. the price we'd pay is 7.7 points, under the 10-point minimum."
+    },
+    {
+      "market_id": "5219281",
+      "event_id": "1121366",
+      "event_title": "EU emergency diesel stocks end of October 2026?",
+      "option": "32M+",
+      "question": "Will EU emergency diesel stocks be at least 32M tonnes at end of October 2026?",
+      "rules": "On October 1, 2026, Reuters reported that the United States had told France and Germany to release emergency diesel stocks or face a potential US diesel export ban, as Washington presses European countries to draw down their reserves to ease surging diesel prices. You can read more about that here: https://www.reuters.com/business/energy/us-tells-france-germany-release-diesel-stocks-or-face-us-export-ban-sources-say-2026-10-01/\n\nThis market will resolve to “Yes” if Eurostat publishes a figure for the European Union’s closing stock of EU emergency stocks of gas oil and diesel oil for the month of October 2026 that is greater than or equal to the specified value. Otherwise, this market will resolve to “No”.\n\nThe relevant figure is the value in Eurostat’s “Oil products stock levels - monthly data” dataset (nrg_stk_oilm) for: Geopolitical entity “European Union - 27 countries (from 2020)”; Standard international energy product classification “Gas oil and diesel oil”; Stock or flow “Closing stock - EU emergency”; Unit “Thousand tonnes”; Time “2026-10”.\n\nThis market will resolve as soon as Eurostat first publishes a figure for October 2026. Revisions to that figure published afterward will not be considered unless in the case of obvious data integrity issues.\n\nIn case of obvious data integrity issues (i.e., erroneous data), the market may remain open until the end of the third calendar day (ET) after the date on which such data is first released to allow for corrections. Data integrity issues refer only to clerical or other similar errors in the underlying data.\n\nValues will count regardless of any status flag (e.g. estimated, provisional). The figure will be used as published, without rounding.\n\nIf Eurostat becomes permanently unavailable or has not published a qualifying figure for October 2026 by April 30, 2027, 11:59 PM ET, this market will resolve based on the latest data available.\n\nThe primary resolution source for this market will be Eurostat, specifically the nrg_stk_oilm dataset at https://ec.europa.eu/eurostat/databrowser/view/nrg_stk_oilm__custom_22993801/default/table. If the dataset is discontinued or restructured, the equivalent successor series published by Eurostat will be used.\n\nNote: this market’s resolution source publishes values in thousands of tonnes (e.g. 35M tonnes = 35,000 thousand tonnes). Thus, this will be the level of specificity used to resolve this market.\n\nNote: Eurostat publishes monthly emergency oil stock data with a delay. The European Union aggregate is generally published approximately three months after the end of the reference month, once all Member States have reported (for example, data for June 2026 was the latest available as of October 1, 2026). Data for October 2026 is therefore expected to be published around late January or February 2027, and this market will remain unresolved until the publication of qualifying data.",
+      "topic": "Economy",
+      "end_date": "2026-11-01T03:59:00Z",
+      "url": "https://polymarket.com/event/eu-emergency-diesel-stocks-end-of-october-2026",
+      "snapshot": {
+        "time": "2026-10-21T01:28:53Z",
+        "crowd": 0.885,
+        "best_bid": 0.88,
+        "best_ask": 0.89,
+        "volume": 10531,
+        "liquidity": 17599,
+        "fee_rate": 0.0
+      },
+      "news": [
+        {
+          "title": "Speed of Europe's diesel stock release in focus as IEA meets",
+          "source": "Reuters",
+          "published": "2026-10-14",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPSURXUFJMVjlqbThsWm5sbEtVQXpJVzc5VnpZWVN1OGR4Nm04UkU3V0c5azZLQ2N3X2ZkeE1PYWFHalRJY1JoamRrZjdVdHF5OVRnVEMyMzk0cENCWVF3WUktbmxraEdJMDdIMmlWMTNzUU83UlpNZ1FBUm1GRmtidEl3SmxVaEVYUWJDRXk0eWlOM0VvQVVpemdSWE4wVTZPZDQ1aw?oc=5"
+        },
+        {
+          "title": "Why is US turning to Russia for diesel despite sanctions?",
+          "source": "Al Jazeera",
+          "published": "2026-10-10",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSGNTbVgyVC14ZDVBOEs3Mm1rTW16emtnYzdRZm1OWi1SQ0xod09CRWZaajVkbEVmanlDdUxDRGd4NXNJOFdJYUYwUmV2UW00VXl2a2p4M0ZxNVc2NGlNdFIyN1R4UEFwTzN4aFdDcFNSM3ZKdnpIN3Bqek1wT25UUkhZUVV4UlJ0YjNROFc3TEgwQ25hZWlmZmJMVVJ1ZUnSAaQBQVVfeXFMT1R5NE0yR3F1TTRkZHZCb1h4M2lvd1JTMklBT05BUWY5SGRsSVFSbG9LTlNNeDJVNFpnMk9ZcVVpNnBLOUxPQmdacjA2VTdCeWVSei1lbmVJYUw1MFBnN1RRV2VjNENoQmhDck5EbkpXaFpoUW0wQ1ktbG54Z2l2LTVyN2dDc3BERTZzYTlOVGdyNDItSnh3UnFRc2RlbWktbWtKVXI?oc=5"
+        },
+        {
+          "title": "Trump–Putin fuel agreement sends 40,000 tonnes of Russian diesel towards Morocco as Europe questions the deal",
+          "source": "Business Insider Africa",
+          "published": "2026-10-16",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPR2gtMHVvOFYwZUxTNHJyaUNYWDYtX1lTZkpaWlJ2NEN5Z1VQOTdHYzhrdkVUeUw1UTdDRUNBUXJVUzNxTDZKY0pFcTZqM0lVa0xWUUpiOTUzSlBidjc5dnJmS0E1a0cya21FRWpycU1zY1Jmd1FIczhsUk5hUk14ZWVfcWZpOGNoSDRaVW4wZ2VYU0VCOHhFWjl1ZTFjdjUzVEJpa3RvcW92aldzWWJISEtrTGR2VVNIVVg1MXRPRmJQS1QwM2VWaDNrcHhpVHEybnZHeg?oc=5"
+        },
+        {
+          "title": "Goldman sees Europe reserve release cutting diesel by $11 but shrugs off Russian supply",
+          "source": "investingLive",
+          "published": "2026-10-20",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVTBmZmRzbTdPa1V4RS11cnB6bERxaWpGTWFYQU1xWjdjQUFPR01sbk5FR3gxbTlBNzlTTWwxVVh0aUFKZjZWbGxMRS1sMFMtUURYUFJWdnMtb1NORDEyaktYY0JhVWFZWWJ4blJBVjZDNmZfUVkweTAyYzExdG9ZQ2NQb3lmaV95aml1anJlTWN1c3Z2c0pHLWk3cUFKTkp0ajEwbFIyTUxqcDdQSWVidWdaZ2E4bGdpTkpIQ0xLazJOTU0?oc=5"
+        },
+        {
+          "title": "Who Holds the Keys to Europe’s Emergency Oil Reserves in a Crisis?",
+          "source": "POLITIS - To the point",
+          "published": "2026-10-12",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWksyeHJ6aDg5dGtWUFJEeGRQYU1yc19NZzVDZnhkbjhBNUZ1THI2bGFBNWNGekdWMlNzU2c3Rmpfc1NhczZVNlpfRUR5WDJFTEFVb2ZZQjU3eFRFNmhYOXhYTkFFOU5nWTQwNDVrS1ZxQUFRWjJiaHg2UklJeERpRWN5Vnc1M0w3TURjekwyV21FWF9iRzgxQnJhTFlPQW1pRDNyRkZB?oc=5"
+        },
+        {
+          "title": "Russian diesel cleared by US to 2027",
+          "source": "Oil & Gas Middle East",
+          "published": "2026-10-12",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE45M1ZadVJPZ1JJalJZRTdqNU5XZEZ1TnJSY3BuUW9NdzZQeGtQNjN0ZmZhT1pRQktVdFpSUlowZ1ZPTUFHMV9UQnhyTUV5RWZiLTBkZ1ZQWHktUmdZbC1CTlI5WVA0U29LRUxSOHF6WE9zVHgt?oc=5"
+        }
+      ],
+      "news_query": "EU emergency diesel stocks tonnes",
+      "forecast": {
+        "probability": 0.4,
+        "reasoning": "The 32 million tonne threshold appears to be set near recent EU emergency diesel stock levels. The US is pressing Europe to release reserves, and the IEA is coordinating a drawdown during October. That makes a dip below the threshold somewhat more likely than not, though releases may be slow or partly reported."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-21T01:30:28Z",
+        "crowd": 0.885,
+        "best_bid": 0.88,
+        "best_ask": 0.89,
+        "volume": 10531,
+        "liquidity": 17599,
+        "fee_rate": 0.0
+      },
+      "bet_note": "No cash left for new bets; it's all in open bets."
+    }
+  ],
+  "batch_id": "msgbatch_01XRxJvzHkG29vYZh98FMKYp",
+  "forecast_at": "2026-10-21T01:30:27Z",
+  "usage": {
+    "input_tokens": 6283,
+    "output_tokens": 1462
+  },
+  "cost_usd": 0.0272,
+  "budget": 0.0
+}
