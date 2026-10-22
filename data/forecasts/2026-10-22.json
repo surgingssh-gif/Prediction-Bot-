@@ -1,0 +1,435 @@
+{
+  "run_id": "2026-10-22",
+  "date": "2026-10-22",
+  "created_at": "2026-10-22T01:26:31Z",
+  "model": "claude-opus-5-5",
+  "effort": "medium",
+  "phase": "1.1",
+  "pick_stats": {
+    "eligible": {
+      "Economy": 6,
+      "Politics": 182,
+      "Tech": 1
+    },
+    "picked": 5
+  },
+  "questions": [
+    {
+      "market_id": "5167211",
+      "event_id": "1111240",
+      "event_title": "Saudi Arabia military action against Yemen on...?",
+      "option": "October 30",
+      "question": "Saudi Arabia military action against Yemen on October 30?",
+      "rules": "This market will resolve to “Yes” if Saudi Arabia takes a qualifying military action against Yemen on the specified date, Yemen Standard Time. Otherwise this market will resolve to “No.”\n\nA qualifying military action refers to an air strike or a surface-to-surface missile strike, initiated by Saudi Arabia, that directly impacts Yemen. An air strike includes bombs, air-to-surface missiles, and air-launched drones. A surface-to-surface missile strike includes one-way attack drones and surface-to-surface missiles such as cruise or ballistic missiles.\n\nThe qualifying military action must be carried out by the armed forces of Saudi Arabia. Actions carried out by private military contractors, mercenaries, or proxy forces will not qualify. Where a qualifying action is carried out in the course of a coalition or multinational operation, it will qualify only if the armed forces of Saudi Arabia directly conducted the strike.\n\nThe following actions do not constitute a qualifying military action:\nMunitions destroyed or intercepted before impact;\nSurface-to-air missile strikes;\nSmall-arms fire;\nGround incursions;\nCyber operations;\nNaval gunfire and artillery fire;\nHowitzers, artillery pieces, mortars, and rocket artillery (e.g. MLRS systems);\nMinor surface-to-surface strikes, including short range loitering munitions, FPV drones, and ATGM strikes;\nAny threat, authorization, or announcement of force that has not been executed.\n\nAny munition that is intercepted or destroyed before impact does not constitute a qualifying military action. Debris, fragments, or any wreckage from intercepted munitions that land on Yemen do not constitute a military action regardless of any damage incurred.\n\n“Yemen” refers to the terrestrial territory of Yemen, including its internal waters. Yemen’s maritime territory and airspace are not encompassed. Where territorial borders are disputed, all territory claimed by and under the de facto control of Yemen as of market creation will qualify.\n\nThe occurrence, attribution, and timing of a qualifying military action will be primarily determined based on a consensus of information available from the resolution sources. Where multiple sources conflict regarding the occurrence, attribution, or timing of a relevant military action, this market will remain open until the earlier of: i) the confirmation of the occurrence, attribution, and timing of the action based on a consensus of information available from the resolution sources or ii) 3 full calendar days (Yemen Standard Time) from the date of the first credibly reported evidence of the action. If this period would extend past the end date, this market will remain open to allow for 3 full calendar days to pass. At the end of the third calendar day, if conflicting reports remain, the incident will be adjudicated based on the totality of information available from the resolution sources at that time. No single statement, denial, or presentation of evidence will govern where it is contradicted by the totality of information.\n\nThe resolution sources for this market will be official information from the governments and militaries of Saudi Arabia and Yemen, the Houthis, and a consensus of credible reporting.",
+      "topic": "Politics",
+      "end_date": "2026-10-31T03:59:00Z",
+      "url": "https://polymarket.com/event/saudi-arabia-military-action-against-yemen-on-october-2026",
+      "snapshot": {
+        "time": "2026-10-22T01:26:29Z",
+        "crowd": 0.635,
+        "best_bid": 0.62,
+        "best_ask": 0.65,
+        "volume": 66692,
+        "liquidity": 40207,
+        "fee_rate": 0.0
+      },
+      "news": [
+        {
+          "title": "Avoiding Another Long War in Yemen",
+          "source": "CSIS | Center for Strategic and International Studies",
+          "published": "2026-10-15",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE43RFVrNXdtQUxib1N5Vld3Tkwtb1RqR0R2QndYd21xaXU5ejZjSUxJY2FvaUN4cmp4dTBDMjJUakF0UW5FTkNmbkxGMjZLY01GMmpzcDRGdjFOTG5XY3RBekhLYVVCVlJzcVpFWnh3?oc=5"
+        },
+        {
+          "title": "Egypt's top security body agrees to help Saudi Arabia defend itself against Houthi attacks",
+          "source": "PBS",
+          "published": "2026-10-18",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQSExWUWxPbDZ3eVc3aWhxcTkzM2pMMGh3WmtudnlJaGtCMTVFZ09hVUJ4NnU1TVYyVUMzQ25uRG1VcURqb1o1akJRdG5fd0I5Mnd0Yl9YeGZwV1RXejgzUGtDQnJXaTlOUnRYcXZlMTh3NkRRWjBROFU3OWRFREE3WWRtNmpLbTdLZ2ZlSEFOMkp4ZHhnRGRWTnV1c3p3UzNuQnd3cTNvVFcwaWNvdlNBSUM0SUdiTHhldG5xaXlWVEx5QdIBxwFBVV95cUxNdkx4dC1JQTBBTlVIaHVsUGZkeWQzdE1uRWpMWEcycFQ5R0JjRkx5Z25GQ1duTzF2VVYwT2dPMDR5RzhVNThvZ1FBbmh3SURFNDlaR0pjVHk2SmRtanBNUlZnbXViSDJqZmEzSmlxVE1QX3ZEQjNRaUdGSzZ4Z1AzSUMyY3ZIbmYtYk50XzFIUmR0UHFoUVE2ZXRMOU9xMDlWSE1aOVJyak52RzZXZDQ1V3NkQUhpbndRRkVET29VZVZmNExkdXlv?oc=5"
+        },
+        {
+          "title": "Egypt says ready to back Saudi Arabia in war against Iran-allied Houthis",
+          "source": "Reuters",
+          "published": "2026-10-18",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNaUsxbVVqQ0FFUl81U25IbG1NaXhrNzFqZzIzaFpRUVhKbF9rYlZoMXg1Z3NzYjR1TEtkeHNCU1BrOWs4ZXR5VHFqMTBoX3VjSV9FRV9neGVDSkdUNWIxMlNhZWRJbldocDM5Q2hiMXYxUXpHVUJqWkkyOEF5OGNBNWduQXFPMXp6VXhYRjUyNmsxaV9pbXJhS29uVGh6Tm51emp4S3YtdmI5c21HZE9HeFkycENlNGxHRUlJd29YWkxwRF85eXc?oc=5"
+        },
+        {
+          "title": "Why Saudi Arabia has struggled to defend itself against the Houthis’ recent attacks",
+          "source": "AP News",
+          "published": "2026-10-13",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQS0tLX1FqSV84dmlSbmFFRlFIa2hLVXowbkNhWkg5alRncU1qNFdJVC1QbW5JRGEycFQ0SGh2d3NKUDF0RlMtU1NISTE1WnFnQU1OTjE1N1BZdHJnQ29oOHdkNUhhZV9SVGlSTVRHYS1jV2MyMGNTUlhrUW5iNFVfUHRmSVVKNUdvT3A4?oc=5"
+        },
+        {
+          "title": "Saudi airport struck again a day after deadly attack",
+          "source": "NBC News",
+          "published": "2026-10-11",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPd3M5MTVOZmhBYU5OT0RNMHd6dmN0RWgzb2hNRnRaYmRlbFZnQzB3TTVZWUZucDZXekNkSlFxS21TS2JhNUxJSElTNms1Q0hGOGYzUk9vWndFWHVoVlQ2emF1bFhMOWFZOGdGVDQ5Q0NsMHlUa1NIQ2t2SmpNTmcwWkFBSGE2aTRkanoyUF9iWk5xMUxqVGE5bFhmeFl0bFA5cWpV?oc=5"
+        },
+        {
+          "title": "How the Iran war is ruining Saudi Arabia’s plans",
+          "source": "Vox",
+          "published": "2026-10-19",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNd2I2bWZkUTFFRDVvUHYwU0dLS2otVkN3QUVsV3dOMXVvcm42azIzemxjTExOd0ZxTDdTVGN4NVN1bGRrelk5OVo2Tzc4T3lqTUdtalBGX1ZvQmlMUWNTdjV4WjlsQWNCNE40ejRZQThTWUhiNXBoQnhJVzVtUVBtM2NzcjZnZw?oc=5"
+        }
+      ],
+      "news_query": "Saudi Arabia military action against Yemen",
+      "forecast": {
+        "probability": 0.5,
+        "reasoning": "Headlines describe an active Saudi–Houthi conflict, with repeated Houthi strikes on Saudi airports and Egypt offering to back Saudi Arabia in the war. That suggests Saudi air strikes on Yemen are plausible on any given day. However, the coverage stresses Saudi defensive struggles rather than a steady daily bombing campaign, and the question covers just one specific date. That leaves it close to a coin flip."
+      },
+      "bet": {
+        "side": "NO",
+        "price": 0.3828,
+        "top_price": 0.38,
+        "shares": 8.27,
+        "stake": 3.17,
+        "fee": 0.0,
+        "cost": 3.17,
+        "gap_pts": 12.0,
+        "kelly_full": 0.1935,
+        "fill": "order book",
+        "levels": 2,
+        "scaled": 0.0811
+      },
+      "trade_snapshot": {
+        "time": "2026-10-22T01:29:03Z",
+        "crowd": 0.635,
+        "best_bid": 0.62,
+        "best_ask": 0.65,
+        "volume": 66692,
+        "liquidity": 39988,
+        "fee_rate": 0.0
+      },
+      "bet_note": "Bought NO (12.0-point gap). Scaled to 8% to fit the daily budget of $12.43."
+    },
+    {
+      "market_id": "630747",
+      "event_id": "57648",
+      "event_title": "Kansas Senate Election Winner",
+      "option": "Roger Marshall (R)",
+      "question": "Will the Republicans win the Kansas Senate race in 2026?",
+      "rules": "This market will resolve according to the winner of the 2026 midterm Kansas U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
+      "topic": "Politics",
+      "end_date": "2026-11-04T04:59:00Z",
+      "url": "https://polymarket.com/event/kansas-senate-election-winner",
+      "snapshot": {
+        "time": "2026-10-22T01:26:29Z",
+        "crowd": 0.62,
+        "best_bid": 0.61,
+        "best_ask": 0.63,
+        "volume": 593366,
+        "liquidity": 165855,
+        "fee_rate": 0.0
+      },
+      "news": [
+        {
+          "title": "In Kansas, a newly competitive Senate race tests limit of Trump's unpopular policies",
+          "source": "NPR",
+          "published": "2026-10-14",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOb3pIc3lCeGI1SmR0WDN1alc2RXVJcmdTejNGZVdoeXNqdTh4NWFSdmFrem9BSVhHZzQwSVpNMjJXRnk2N1NSWlgwYjA0TjJKd2dTdmd1NlpHRGthRlBtYTNOcW9jMUFrRFBUOHAxeGhwdTN6dG9NdnFISUVyWUpNV3pqZ2M2aXJsbE1RX1ZLRVVvdw?oc=5"
+        },
+        {
+          "title": "The Midterm Senate Fight Spreads to a Surprising New Battleground",
+          "source": "The New York Times",
+          "published": "2026-10-09",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNeW1fcjRjWTFhVnd5QzdKZTVhcHRKYXJLMmcxNktsbk1Bd25ldzN0Ylp5bVphNDk5ODBkV0NIQ0prRHlpRmhGWDNpS1dyd3EtU0phS2VFUU5IbWJfWFRSbVVvbmdzUVBWTm9Kamt3aGQ0cC0xcVZ1anFuTnczMlZzeTNQV3FLeExBdkJHSE5JZDJlSlh2TDBrNUxaclFnSFdP?oc=5"
+        },
+        {
+          "title": "The Senate Race Republicans Never Expected to Sweat",
+          "source": "WSJ",
+          "published": "2026-10-17",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQUndLeFRQdW1oY2ppTF9RcEp3OGp4Zk9IckpsSXlKM1pLUjdOdFJSSHN1YnVaNTlCLVRHMHRHalMwTmhpUU5ZRjd1bnMwSk1LYTh4UllKMXdBQWxTaVJ3ZkRZd0VST1dBczJ2TGIyWnlEUFkyY0J1UkdMQjFaUWZBTFphSEZwcndtNFpOM2Faa1MzREtlRVE?oc=5"
+        },
+        {
+          "title": "Analysis | Here’s what’s making the Kansas Senate race so competitive",
+          "source": "The Washington Post",
+          "published": "2026-10-21",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPUnlyQktfa0NpVVJ2akROb2hCdG5lV0YyT3d0T0k3S25TMGVNaEhlTGktR1QzTVZ6bEFGY0cxZk9fTk5tZE1LenFscl9yVTlSYUswSTRzXzRDY3VjZlVqVUNBNEo5QUtGV3FuV284bl9kcl9weXJXQjBqWndMVmpWUlJpNkdveWVJNW9ISVNkbV9HN2dfZEhCNjd6S2EtdXBBRzNMRkVIWUNCcUE?oc=5"
+        },
+        {
+          "title": "Kansas Democrat’s pitch to voters amid historic Senate bid: ‘I’m gonna just fight like hell’",
+          "source": "The Guardian",
+          "published": "2026-10-20",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNY2p0aDR6czF0VkhTYkZRUWthZ0RZdGV3bVUwMWZZVzVuRUx6cVZjSnVocnRmME40YUd4MFZIY3Vka3dQZDFrcEJ3QVF4c2xmR0xDclc5c0dBQWI3czBxdmNBV2FESGhibGtyNUxRRFZuZ19JUW15OGFYYjNuczg2LW14VWNrRF9hMVZ5MVZwaVVBUnM?oc=5"
+        },
+        {
+          "title": "Could disillusioned Kansas voters send their first Democrat to the US Senate in 94 years?",
+          "source": "Reuters",
+          "published": "2026-10-20",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcEJELWFtUTE0T2VDN01rLWlrOWRYTHN6WVNqQ1JORFVhM0FDd2FpRG8zdWUzbjRJSktYaFhJc2ZUaFFBdHZyaldRZGExdGx2dXEzS0pLeERlWG5EM04xWmhnMWlkLTVjclBWbjRvZjluc3d6ZUVRYTJRSDVhNVRTWjBVc3VaaE53TV9YSjhkNEZEeFp1YTRSbUY2MzJRcnZIZXk0MzdGLThBMEoyRlhsZHFRZkVDQWlsSDJRd1dYRTY?oc=5"
+        }
+      ],
+      "news_query": "Republicans win Kansas Senate race",
+      "forecast": {
+        "probability": 0.74,
+        "reasoning": "Kansas has not elected a Democratic senator in 94 years and is a solidly Republican state. Multiple outlets now describe the race as unexpectedly competitive, amid a poor national environment for Trump. Republicans remain favored, but the upset risk is meaningful."
+      },
+      "bet": {
+        "side": "YES",
+        "price": 0.63,
+        "top_price": 0.63,
+        "shares": 5.19,
+        "stake": 3.27,
+        "fee": 0.0,
+        "cost": 3.27,
+        "gap_pts": 11.0,
+        "kelly_full": 0.2973,
+        "fill": "order book",
+        "levels": 1,
+        "scaled": 0.0811
+      },
+      "trade_snapshot": {
+        "time": "2026-10-22T01:29:03Z",
+        "crowd": 0.62,
+        "best_bid": 0.61,
+        "best_ask": 0.63,
+        "volume": 593366,
+        "liquidity": 166729,
+        "fee_rate": 0.0
+      },
+      "bet_note": "Bought YES (11.0-point gap). Scaled to 8% to fit the daily budget of $12.43."
+    },
+    {
+      "market_id": "629690",
+      "event_id": "57222",
+      "event_title": "Texas Governor Election Winner",
+      "option": "Gina Hinojosa (D) ",
+      "question": "Will the Democrats win the Texas governor race in 2026?",
+      "rules": "This market will resolve according to the winner of the 2026 Texas gubernatorial election.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the \"Democrat\" or \"Republican\" options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven't called the race in this state for the same candidate, this market will resolve based on the official certification.",
+      "topic": "Politics",
+      "end_date": "2026-11-04T04:59:00Z",
+      "url": "https://polymarket.com/event/texas-governor-winner-2026",
+      "snapshot": {
+        "time": "2026-10-22T01:26:29Z",
+        "crowd": 0.325,
+        "best_bid": 0.32,
+        "best_ask": 0.33,
+        "volume": 316731,
+        "liquidity": 126455,
+        "fee_rate": 0.0
+      },
+      "news": [
+        {
+          "title": "Can a Democrat win the Texas governor’s race?",
+          "source": "The Week",
+          "published": "2026-10-14",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOSVFTS1BidEpZZC1ZSXZkSDlDN1RyRVVIYzNuV0Y5MFgzaEhjdEpTQWR2VGFQdmFHbXNjMjVnd3E5bEpBRm5uc28zNld4NUdDQWVFb3V4LVduYTNXNnNvdnd0MTJJd3ZiR0RtSE1Bd1JHU1V5MnVOZVBfQ3dVMlhka3FFbzY1cjZtdkVFY1A4S0lNUEdHWHpEVDVSSGVXNHc?oc=5"
+        },
+        {
+          "title": "Gina Hinojosa gains ground in Texas governor’s race as Democratic leaders push for more campaign funding",
+          "source": "EL PAÍS English",
+          "published": "2026-10-08",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPVDZwS2NzVnNUTS01WFA4WlY2VFRqZGFxcXgwdUxvT3RWd3pFRGpuRmdaeFRBZHpjdkUtaDFzbFR2dl9CV0FxeWRURW5XWXI0c09scmp0d01pVUoxUHg4SWlWUGszcVZWdW5XSTJuZ3h4ckhYcFBzY3VLa0dNdDZsZkZmYXdsWUd0RzE0VXVjVzcxNV9INGRnVk1pWUd1M25hS0oxZVN5amlhOGstdFpIWnpXbW5PQWs3SWhPQzJSREhUQ0RvdWFRQ29IZ3hxMm5Ucl8xN3hORUcxQWNZT3dHdnlJb2zSAfgBQVVfeXFMTlk3WU5TZTlwUDhLZEJrOHhpX1BLNFlXR0VKM3dFdTJiQWp2LVRrZXRwRXdjMEUzUE9LQ0lDWTRGYWRpbURVS2lNdVFpN2NDdGpiVllxQmlrY2VOZ2FIWlROWUtsbWlsOWdSY3hfaXFFTEtRRHRNR25rbFJCMGNuTnJXTlgyaHhRTlVBbGw2ZG1hMjFyazlvbkJXWGJieWM0ZVkycnBwQjB3cWxEMVFQdWhUTnowZmdQd1JMeVpZNS1FTGQ1TlZkdGxQdmZhTWFkMVlCckpPU0lYRm4wSW9jQ1RkSzdOYnhyTURETkFDSFdBLThOQkpZa0w?oc=5"
+        },
+        {
+          "title": "New Texas poll shows Democrats leading nearly all statewide races",
+          "source": "WFAA",
+          "published": "2026-10-14",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxObEEtbDh2Y2NGWktiZkVPUlBuRUJDd0Z3cTZIbXQzZ3lCaFFFNk9nbWFJOGNKVzBJdzBzQjV6NGdqY0lOd3EwazJQc20yWlpXcGhNNVhLM1RGbEVwYkV3T2JEN1M3TzJJbXFqc21WNGtybnZ6UFlBc3o3b040NGZYV2pGVHlGcmQxYWxOSG9hRzl2Q19zUnpEeTZWNzdQOUZxelB0SGR2X1BuaEhJQVhtYzlYY0QwUmd2NmhIYjIxVjJEX1YyWHpPT1Rfa0hzemZaVm9TbHFkMHBreGVOT1Rva1JaMjJEVmxvTDVDWmpFTFRKV0lOeWcyZ0lBYkt3d285QXYxTGZWcUJKUQ?oc=5"
+        },
+        {
+          "title": "Polling numbers show Democrats neck and neck with Republicans in several key races",
+          "source": "Texas Standard",
+          "published": "2026-10-14",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWXBUbURJcTN1VDg4V1ZXQ3ctZlpLVFZTR2xDTlp1UkJXbVZXVmZvYnBVNVphU0htZVlYMEhDQUZFZjFTQUZTSVRILVJRYzdTek80ZzhJQ1VSVTA0YmdScVhRM3ZTUktWR19YUlRvaUgtdGZiY2tNZ0c2NzVWT3hKQVBR?oc=5"
+        },
+        {
+          "title": "Texas governor race still tight weeks ahead of Election Day | What's Your Point?",
+          "source": "FOX 26 Houston",
+          "published": "2026-10-21",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQcmJOVE4xZHpaNWNQNC1JakF3a0xtdzdISktESWpvWnZCWmpaNWxueFhqeFZoVzl2UTJaZE5Ral9mOVYtN090ekNOZDRlZVU5bnNjdzlYYnduUDlfZTFuc2lGU1JZY1dzalNHWmhzd0xMdmhjYWMwY2NFRDhJOXBYakhFc0hSeFFINnRoUE1vQ0k1NUNlX3pWZDFyNUprMDJ0VzAzYmdoVmTSAa4BQVVfeXFMTkZHdG9yLUtjVU5XRHUtT2kwdVhVbVo1dDNQaVk3V2ZBTzdCdld1aVY0VGlHY0ZEWkEyay1BZ0xBb0lVeEFpaWtOR3FwMWhiMDlLMjZ4eWtVVjJzakZ3TUdLTzI5cnNxcTNPUXJVMExTUTFjSHF2T19LUmQ3eVk2aU9abUczVU9maFp1NV9qNXRpeVJ1Ml9QNjBwaFZ3MUw5NzlWQlNEdDZaUWhNcTlR?oc=5"
+        },
+        {
+          "title": "Texas poll: Paxton, Talarico tied in U.S. Senate race",
+          "source": "UMass Lowell",
+          "published": "2026-10-08",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE84a0dmWEZoMTJaMGVHdTkzd0VWTmxJRjVOUHNiaW45eVZiVXFackhWX3RheDl4QVF1b3VSMVF5Z3pKMUMzY3dMUlNqTmFoV3A4dzZVMC1MVGt3MkxuZ053VERjTGFBQnNCaS1HYlZHYm54dk9vNGpBbQ?oc=5"
+        }
+      ],
+      "news_query": "Democrats win Texas governor race",
+      "forecast": {
+        "probability": 0.25,
+        "reasoning": "Texas has not elected a Democratic governor since 1990, and Abbott is a well-funded incumbent. Some recent polls show Democrats leading or tied statewide, and coverage calls the race tight, which raises Hinojosa's chances. Abbott still remains the favorite."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-22T01:29:03Z",
+        "crowd": 0.325,
+        "best_bid": 0.32,
+        "best_ask": 0.33,
+        "volume": 316731,
+        "liquidity": 121615,
+        "fee_rate": 0.0
+      },
+      "bet_note": "Gap vs. the price we'd pay is 7.0 points, under the 10-point minimum."
+    },
+    {
+      "market_id": "5219283",
+      "event_id": "1121366",
+      "event_title": "EU emergency diesel stocks end of October 2026?",
+      "option": "34M+",
+      "question": "Will EU emergency diesel stocks be at least 34M tonnes at end of October 2026?",
+      "rules": "On October 1, 2026, Reuters reported that the United States had told France and Germany to release emergency diesel stocks or face a potential US diesel export ban, as Washington presses European countries to draw down their reserves to ease surging diesel prices. You can read more about that here: https://www.reuters.com/business/energy/us-tells-france-germany-release-diesel-stocks-or-face-us-export-ban-sources-say-2026-10-01/\n\nThis market will resolve to “Yes” if Eurostat publishes a figure for the European Union’s closing stock of EU emergency stocks of gas oil and diesel oil for the month of October 2026 that is greater than or equal to the specified value. Otherwise, this market will resolve to “No”.\n\nThe relevant figure is the value in Eurostat’s “Oil products stock levels - monthly data” dataset (nrg_stk_oilm) for: Geopolitical entity “European Union - 27 countries (from 2020)”; Standard international energy product classification “Gas oil and diesel oil”; Stock or flow “Closing stock - EU emergency”; Unit “Thousand tonnes”; Time “2026-10”.\n\nThis market will resolve as soon as Eurostat first publishes a figure for October 2026. Revisions to that figure published afterward will not be considered unless in the case of obvious data integrity issues.\n\nIn case of obvious data integrity issues (i.e., erroneous data), the market may remain open until the end of the third calendar day (ET) after the date on which such data is first released to allow for corrections. Data integrity issues refer only to clerical or other similar errors in the underlying data.\n\nValues will count regardless of any status flag (e.g. estimated, provisional). The figure will be used as published, without rounding.\n\nIf Eurostat becomes permanently unavailable or has not published a qualifying figure for October 2026 by April 30, 2027, 11:59 PM ET, this market will resolve based on the latest data available.\n\nThe primary resolution source for this market will be Eurostat, specifically the nrg_stk_oilm dataset at https://ec.europa.eu/eurostat/databrowser/view/nrg_stk_oilm__custom_22993801/default/table. If the dataset is discontinued or restructured, the equivalent successor series published by Eurostat will be used.\n\nNote: this market’s resolution source publishes values in thousands of tonnes (e.g. 35M tonnes = 35,000 thousand tonnes). Thus, this will be the level of specificity used to resolve this market.\n\nNote: Eurostat publishes monthly emergency oil stock data with a delay. The European Union aggregate is generally published approximately three months after the end of the reference month, once all Member States have reported (for example, data for June 2026 was the latest available as of October 1, 2026). Data for October 2026 is therefore expected to be published around late January or February 2027, and this market will remain unresolved until the publication of qualifying data.",
+      "topic": "Economy",
+      "end_date": "2026-11-01T03:59:00Z",
+      "url": "https://polymarket.com/event/eu-emergency-diesel-stocks-end-of-october-2026",
+      "snapshot": {
+        "time": "2026-10-22T01:26:29Z",
+        "crowd": 0.79,
+        "best_bid": 0.78,
+        "best_ask": 0.8,
+        "volume": 10013,
+        "liquidity": 18983,
+        "fee_rate": 0.0
+      },
+      "news": [
+        {
+          "title": "Speed of Europe's diesel stock release in focus as IEA meets",
+          "source": "Reuters",
+          "published": "2026-10-14",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPSURXUFJMVjlqbThsWm5sbEtVQXpJVzc5VnpZWVN1OGR4Nm04UkU3V0c5azZLQ2N3X2ZkeE1PYWFHalRJY1JoamRrZjdVdHF5OVRnVEMyMzk0cENCWVF3WUktbmxraEdJMDdIMmlWMTNzUU83UlpNZ1FBUm1GRmtidEl3SmxVaEVYUWJDRXk0eWlOM0VvQVVpemdSWE4wVTZPZDQ1aw?oc=5"
+        },
+        {
+          "title": "Why is US turning to Russia for diesel despite sanctions?",
+          "source": "Al Jazeera",
+          "published": "2026-10-10",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSGNTbVgyVC14ZDVBOEs3Mm1rTW16emtnYzdRZm1OWi1SQ0xod09CRWZaajVkbEVmanlDdUxDRGd4NXNJOFdJYUYwUmV2UW00VXl2a2p4M0ZxNVc2NGlNdFIyN1R4UEFwTzN4aFdDcFNSM3ZKdnpIN3Bqek1wT25UUkhZUVV4UlJ0YjNROFc3TEgwQ25hZWlmZmJMVVJ1ZUnSAaQBQVVfeXFMT1R5NE0yR3F1TTRkZHZCb1h4M2lvd1JTMklBT05BUWY5SGRsSVFSbG9LTlNNeDJVNFpnMk9ZcVVpNnBLOUxPQmdacjA2VTdCeWVSei1lbmVJYUw1MFBnN1RRV2VjNENoQmhDck5EbkpXaFpoUW0wQ1ktbG54Z2l2LTVyN2dDc3BERTZzYTlOVGdyNDItSnh3UnFRc2RlbWktbWtKVXI?oc=5"
+        },
+        {
+          "title": "Trump–Putin fuel agreement sends 40,000 tonnes of Russian diesel towards Morocco as Europe questions the deal",
+          "source": "Business Insider Africa",
+          "published": "2026-10-16",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPR2gtMHVvOFYwZUxTNHJyaUNYWDYtX1lTZkpaWlJ2NEN5Z1VQOTdHYzhrdkVUeUw1UTdDRUNBUXJVUzNxTDZKY0pFcTZqM0lVa0xWUUpiOTUzSlBidjc5dnJmS0E1a0cya21FRWpycU1zY1Jmd1FIczhsUk5hUk14ZWVfcWZpOGNoSDRaVW4wZ2VYU0VCOHhFWjl1ZTFjdjUzVEJpa3RvcW92aldzWWJISEtrTGR2VVNIVVg1MXRPRmJQS1QwM2VWaDNrcHhpVHEybnZHeg?oc=5"
+        },
+        {
+          "title": "Goldman sees Europe reserve release cutting diesel by $11 but shrugs off Russian supply",
+          "source": "investingLive",
+          "published": "2026-10-21",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVTBmZmRzbTdPa1V4RS11cnB6bERxaWpGTWFYQU1xWjdjQUFPR01sbk5FR3gxbTlBNzlTTWwxVVh0aUFKZjZWbGxMRS1sMFMtUURYUFJWdnMtb1NORDEyaktYY0JhVWFZWWJ4blJBVjZDNmZfUVkweTAyYzExdG9ZQ2NQb3lmaV95aml1anJlTWN1c3Z2c0pHLWk3cUFKTkp0ajEwbFIyTUxqcDdQSWVidWdaZ2E4bGdpTkpIQ0xLazJOTU0?oc=5"
+        },
+        {
+          "title": "Russian diesel cleared by US to 2027",
+          "source": "Oil & Gas Middle East",
+          "published": "2026-10-12",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE45M1ZadVJPZ1JJalJZRTdqNU5XZEZ1TnJSY3BuUW9NdzZQeGtQNjN0ZmZhT1pRQktVdFpSUlowZ1ZPTUFHMV9UQnhyTUV5RWZiLTBkZ1ZQWHktUmdZbC1CTlI5WVA0U29LRUxSOHF6WE9zVHgt?oc=5"
+        },
+        {
+          "title": "Who Holds the Keys to Europe’s Emergency Oil Reserves in a Crisis?",
+          "source": "POLITIS - To the point",
+          "published": "2026-10-12",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWksyeHJ6aDg5dGtWUFJEeGRQYU1yc19NZzVDZnhkbjhBNUZ1THI2bGFBNWNGekdWMlNzU2c3Rmpfc1NhczZVNlpfRUR5WDJFTEFVb2ZZQjU3eFRFNmhYOXhYTkFFOU5nWTQwNDVrS1ZxQUFRWjJiaHg2UklJeERpRWN5Vnc1M0w3TURjekwyV21FWF9iRzgxQnJhTFlPQW1pRDNyRkZB?oc=5"
+        }
+      ],
+      "news_query": "EU emergency diesel stocks tonnes",
+      "forecast": {
+        "probability": 0.42,
+        "reasoning": "The US is pressing France and Germany to release emergency diesel stocks, and the IEA has discussed a coordinated release, so stocks are likely being drawn down from prior levels. The 34M-tonne threshold appears to sit near recent levels. The size and speed of the October drawdown are uncertain, so this is slightly below even odds."
+      },
+      "bet": {
+        "side": "NO",
+        "price": 0.22,
+        "top_price": 0.22,
+        "shares": 14.86,
+        "stake": 3.27,
+        "fee": 0.0,
+        "cost": 3.27,
+        "gap_pts": 36.0,
+        "kelly_full": 0.4615,
+        "fill": "order book",
+        "levels": 1,
+        "scaled": 0.0811
+      },
+      "trade_snapshot": {
+        "time": "2026-10-22T01:29:04Z",
+        "crowd": 0.79,
+        "best_bid": 0.78,
+        "best_ask": 0.8,
+        "volume": 10013,
+        "liquidity": 20945,
+        "fee_rate": 0.0
+      },
+      "bet_note": "Bought NO (36.0-point gap). Scaled to 8% to fit the daily budget of $12.43."
+    },
+    {
+      "market_id": "5166884",
+      "event_id": "1111193",
+      "event_title": "USD x Iranian rials End of October?",
+      "option": "2.8M+",
+      "question": "Will USD be at least 2.8M Iranian rials on October 31?",
+      "rules": "This market will resolve according to the finalized USD exchange rate on Bonbast for October 31, 2026.\n\nIf the recorded data falls exactly between two brackets, this market will resolve to the higher bracket.\n\nThis market will resolve according to the finalized free-market USD exchange rate for the specified date as displayed on Bonbast (https://www.bonbast.com/graph/usd), which publishes prices in Iranian toman, where 1 Iranian toman equals 10 Iranian rials (IRR).\n\nA daily figure will be considered finalized once the following day’s figure is released.\n\nResolution will occur once the specified exchange rate data point is finalized. If the relevant data is not finalized by the end of the 7th calendar day after the specified date (ET), this market will resolve according to the latest data available at that time. Revisions made after the relevant figure has been finalized will not be considered.\n\nIf Iran redenominates the rial, or Bonbast changes the unit in which it displays the USD exchange rate, before the relevant figure has been finalized, the displayed figure will be converted into current Iranian rials at the official conversion ratio between the new unit and the current rial (for example, 1 new rial equals 10,000 current rials), and the converted figure will be used for resolution.\n\nThe resolution source for this market will be Bonbast (https://www.bonbast.com/graph/usd). If the resolution source becomes permanently unavailable, another resolution source will be chosen.",
+      "topic": "Economy",
+      "end_date": "2026-11-01T03:59:00Z",
+      "url": "https://polymarket.com/event/usd-x-iranian-rials-end-of-october",
+      "snapshot": {
+        "time": "2026-10-22T01:26:29Z",
+        "crowd": 0.325,
+        "best_bid": 0.31,
+        "best_ask": 0.34,
+        "volume": 34952,
+        "liquidity": 8030,
+        "fee_rate": 0.0
+      },
+      "news": [],
+      "news_query": "USD Iranian rials",
+      "forecast": {
+        "probability": 0.45,
+        "reasoning": "The rial was already around 1.4–1.6 million per dollar in early 2026, and an Iran war since then likely drove heavy further depreciation. No recent data was found, and the 2.8 million threshold probably sits near the current rate, so I put it slightly under 50%."
+      },
+      "bet": {
+        "side": "YES",
+        "price": 0.34,
+        "top_price": 0.34,
+        "shares": 8.01,
+        "stake": 2.72,
+        "fee": 0.0,
+        "cost": 2.72,
+        "gap_pts": 11.0,
+        "kelly_full": 0.1667,
+        "fill": "order book",
+        "levels": 1,
+        "scaled": 0.0811
+      },
+      "trade_snapshot": {
+        "time": "2026-10-22T01:29:04Z",
+        "crowd": 0.325,
+        "best_bid": 0.31,
+        "best_ask": 0.34,
+        "volume": 34952,
+        "liquidity": 8079,
+        "fee_rate": 0.0
+      },
+      "bet_note": "Bought YES (11.0-point gap). Scaled to 8% to fit the daily budget of $12.43."
+    }
+  ],
+  "batch_id": "msgbatch_01BEJo49dusvT6s4Rug1PqP7",
+  "forecast_at": "2026-10-22T01:29:03Z",
+  "usage": {
+    "input_tokens": 5351,
+    "output_tokens": 1470
+  },
+  "cost_usd": 0.0254,
+  "budget": 12.43
+}
