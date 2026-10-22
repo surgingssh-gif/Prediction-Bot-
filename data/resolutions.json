@@ -198,5 +198,20 @@
     "outcome": 0,
     "resolved_at": "2026-10-21T15:03:45Z",
     "question": "Will the Bank of Israel decrease the Bank of Israel Interest Rate after the October decision?"
+  },
+  "3940926": {
+    "outcome": 0,
+    "resolved_at": "2026-10-22T03:31:45Z",
+    "question": "Will the Bank of Korea hike by 25 bps at the October 2026 meeting?"
+  },
+  "5732709": {
+    "outcome": 0,
+    "resolved_at": "2026-10-22T16:02:15Z",
+    "question": "Will \"Grand Theft Auto VI Launch Trailer\" get between 40 and 60 million views on week 1?"
+  },
+  "5732710": {
+    "outcome": 1,
+    "resolved_at": "2026-10-22T16:02:15Z",
+    "question": "Will \"Grand Theft Auto VI Launch Trailer\" get between 60 and 80 million views on week 1?"
   }
 }
