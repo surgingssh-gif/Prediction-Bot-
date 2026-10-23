@@ -50,21 +50,45 @@ STOPWORDS = {
     "million", "billion", "day", "week", "month", "year", "its", "this", "that",
     "who", "what", "which", "when", "how", "no", "not", "yes", "new", "from",
     "make", "makes", "officially", "itself",
+}
+MONTHS = {
     "january", "february", "march", "april", "may", "june", "july", "august",
     "september", "october", "november", "december", "jan", "feb", "mar", "apr",
     "jun", "jul", "aug", "sep", "sept", "oct", "nov", "dec",
 }
+STOPWORDS |= MONTHS
 
 MAX_PER_SOURCE = 2   # so one site can't fill the whole list
 MIN_GOOD_RESULTS = 3  # try the next search if the first finds fewer than this
 
+# Questions about economic data (inflation, jobs, GDP...) get an extra search
+# for what economists forecast, because the latest numbers and forecasts are
+# what decide them. Added 2026-10-23 (Phase 1.2): the AI kept writing things
+# like "without recent CPI data". Economists' forecasts are not market odds,
+# so this keeps the forecasts blind (the odds filter still applies).
+ECONOMIC_WORDS = re.compile(
+    r"\b(cpi|inflation|gdp|payrolls?|jobs report|unemployment|jobless|pce|retail sales|"
+    r"interest rates?|rate (cut|hike|decision)|fed|ecb|bank of (england|japan|canada)|"
+    r"basis points|bps|recession|consumer prices?|producer prices?|ppi)\b",
+    re.IGNORECASE,
+)
+ECONOMIC_SLOTS = 2   # headlines kept free for the economists' forecast search
 
-def _keywords(text, limit=7):
-    """The useful words in a bit of text: no dates, numbers or filler."""
+
+def is_economic(question):
+    """True for questions about economic data or central bank decisions."""
+    return question.get("topic") == "Economy" or bool(ECONOMIC_WORDS.search(question["question"]))
+
+
+def _keywords(text, limit=7, keep_months=False):
+    """The useful words in a bit of text: no dates, numbers or filler.
+    keep_months keeps month names (useful for "September inflation")."""
     words = []
     for word in re.findall(r"[A-Za-zÀ-ÿ][\w'&.-]*", text):
         word = re.sub(r"'s$", "", word).strip(".-")
-        if len(word) < 2 or word.lower() in STOPWORDS or any(c.isdigit() for c in word):
+        if keep_months and word.lower() in MONTHS and len(word) > 3:
+            pass
+        elif len(word) < 2 or word.lower() in STOPWORDS or any(c.isdigit() for c in word):
             continue
         if word.lower() not in (w.lower() for w in words):
             words.append(word)
@@ -81,6 +105,8 @@ def build_queries(question):
     candidate's name) is the backup search.
     """
     queries = [" ".join(_keywords(question["question"]))]
+    if is_economic(question):
+        queries.append(" ".join(_keywords(question["question"], limit=6, keep_months=True)) + " economists forecast")
     if question.get("event_title"):
         backup = " ".join(_keywords(f"{question['event_title']} {question.get('option') or ''}"))
         if backup and backup not in queries:
@@ -177,11 +203,22 @@ def fetch_news(question, limit=None):
     "query": "the search used"}. Raises an exception if every search failed.
     """
     limit = limit or config.HEADLINES_PER_QUESTION
-    found, used, per_source = [], [], {}
-    for query in build_queries(question):
+    economic = is_economic(question)
+    found, used, per_source, failed = [], [], {}, []
+    for i, query in enumerate(build_queries(question)):
         used.append(query)
-        for h in _search(query):
-            if len(found) == limit:
+        # For economic questions, the first search leaves room for the
+        # economists' forecast search that comes next.
+        room = limit - ECONOMIC_SLOTS if economic and i == 0 else limit
+        try:
+            results = _search(query)
+        except Exception as e:
+            # One failed search shouldn't lose what the others found; only
+            # give up if every search failed.
+            failed.append(e)
+            continue
+        for h in results:
+            if len(found) >= room:
                 break
             if any(h["title"] == f["title"] for f in found) or not is_relevant(h, question):
                 continue
@@ -189,6 +226,8 @@ def fetch_news(question, limit=None):
                 continue
             per_source[h["source"]] = per_source.get(h["source"], 0) + 1
             found.append(h)
-        if len(found) >= MIN_GOOD_RESULTS:
+        if len(found) >= MIN_GOOD_RESULTS and not (economic and i == 0):
             break
+    if failed and len(failed) == len(used):
+        raise failed[0]
     return {"headlines": found, "query": " | ".join(used)}

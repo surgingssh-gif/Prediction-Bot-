@@ -65,6 +65,20 @@ spread across the whole month of questions instead of the first few days.
 And there are never more than 2 open bets on the same real-world story (for
 example, the Brazil election), so one surprise can't sink several bets at once.
 
+Since Phase 1.2, bets are **cautious**: they're based on a probability only
+halfway from the market's price to the AI's forecast, so the AI must disagree
+by about 20 points before it bets, and bets are smaller. (The AI's own
+forecast is still what gets scored.) Phase 1.2 also bets from a **fresh
+$1,000 paper account**; the original account keeps its open bets until they
+settle, and the website shows each account separately.
+
+**The "Learning AI"** (since Phase 1.2): before each day's forecasts, the AI
+is shown its own track record in this experiment: how often things happened
+when it said "under 10%", "10-30%" and so on, whether it has been too high or
+too low overall, and its biggest misses. Only its own forecasts and the real
+results are used, never market prices, so the forecasts stay blind. The exact
+text it saw is saved in each day's forecast file (`track_record`).
+
 **Extra measures on the website:**
 - **Live prices:** what each open market trades at now, and what the open paper bets are worth at today's prices.
 - **Did the crowd move toward the AI?** If market prices keep drifting toward the AI's forecasts after it makes them, that's an early sign it's spotting something, weeks before questions settle.
@@ -82,7 +96,8 @@ example, the Brazil election), so one surprise can't sink several bets at once.
 | `markets.py` | Reads questions, prices and results from Polymarket, and filters them. |
 | `news.py` | Searches Google News for each question and drops headlines that leak market odds. |
 | `forecaster.py` | Builds the prompt and sends it to Claude through the Batches API. |
-| `trading.py` | Paper betting: fees, the Kelly formula, the daily budget and the bankroll. |
+| `trading.py` | Paper betting: fees, the Kelly formula, cautious sizing, the daily budget and the paper accounts. |
+| `learning.py` | The AI's track record of its own past forecasts, shown to it each day ("Learning AI"). |
 | `groups.py` | Spots questions about the same real-world story, so bets don't pile onto one outcome. |
 | `resolver.py` | Checks which questions have settled. |
 | `scoring.py` | Brier scores, calibration, and the AI-vs-crowd comparison. |
@@ -174,8 +189,9 @@ computer until you push them.
 
 Polymarket, Google News, Discord and GitHub are free for this. Claude is the
 only paid part: **one request a day**, sent through the Message Batches API at
-half price. Expect roughly **$2-3 a month on `claude-opus-5-5`**, or
-**$1-1.50 on `claude-sonnet-5-5`**. Each day's exact cost is saved in its
+half price. The first three weeks (medium effort) cost about **$1 a month**.
+Since Phase 1.2 the AI thinks harder (high effort), which should land around
+**$2-3 a month**. Each day's exact cost is saved in its
 forecast file and shown on the website's Methodology page. You can also check
 https://console.anthropic.com > **Usage**.
 
@@ -213,16 +229,4 @@ https://console.anthropic.com > **Usage**.
 | 2026-10-05 | Added a daily betting budget: at most 10% of available cash goes into new bets each day, with all of that day's bets scaled down equally if needed. Before this, the full $1,000 was tied up in open bets within 4 days, leaving nothing for later questions. Bets placed before this date are unchanged. |
 | 2026-10-05 | Added a limit of 2 open bets per real-world story (questions sharing a name like "Brazil" or "Gemini", see `groups.py`). Polymarket splits one story into many events, and 5 bets had piled onto the Brazil election. When the AI wants more, the biggest disagreements get priority. Every question is still forecast and scored; only betting is limited. |
 | 2026-10-09 | **Phase 1.1**, starting with the Oct 10 forecasts (Oct 2-9 is Phase 1.0; the Oct 9 forecasts ran before these changes went live). Changes after a full review: (1) A wider filter for headlines that hint at market odds. Some got through before: "Fed officials wash away market bets on October rate increase" and "Dollar Jumps to 8-Week High on Fed Rate-Hike Bets" (questions 2589812 and 2589813, Oct 2), "Options Traders Give Nvidia a 50% Chance of Hitting $6 Trillion This Month" (5180413, Oct 9) and "...with hike priced in" (3940926, Oct 9). Those forecasts stay in the record, unchanged. (2) Better news searches: dates and filler words are removed from the search, a backup search uses the event title, headlines must name the question's subject, and at most 2 come from one site. The prompt also says when the search failed. (3) Resolution rules can be up to 8,000 characters (was 1,500; `MAX_RULES_CHARS`, FROZEN), and any cut is marked. (4) Paper bets are filled from the real order book instead of assuming every share costs the best price. (5) An exact 10-point gap now counts (a rounding error skipped it). (6) Events where Anthropic is one of the options are skipped: 3554659 (Oct 2), 5178290 (Oct 7) and 3554549 (Oct 9) slipped through before. They stay in the record but shouldn't have been picked. (7) Questions that resolve on betting odds, and derivatives and gaming/streamer markets, are skipped. (8) The daily budget is shared by every run on the same calendar day (UTC), so a late batch can't double it. Scoring: questions count only after their deadline, and the 95% range treats each story as one test (needs 5+ stories). |
-
----
-
-## Troubleshooting
-
-| Problem | What to check |
-|---|---|
-| `ANTHROPIC_API_KEY is not set` | Is the secret named exactly `ANTHROPIC_API_KEY`? Locally, is the file named `.env` (not `.env.txt`)? |
-| `... credit balance is too low` | Add credit at console.anthropic.com > **Billing**. |
-| Run fails at "Save forecasts and website" | Step 2: set **Read and write permissions**. |
-| `No questions passed today's filters` | Rare; Polymarket may be quiet. Tomorrow's run tries again. |
-| "Claude is still working on..." on the site | The batch took longer than 50 minutes. The next scheduled run collects it. |
-| Website not updating | Settings > Pages should show branch `main`, folder `/docs`. |
+| 2026-10-23 | **Phase 1.2**, starting with the Oct 24 forecasts (the Oct 23 forecasts had already run under Phase 1.1). Why: after 40 settled questions (19 stories) the AI trailed the market (Brier 0.275 vs 0.211); when it disagreed it was usually wrong (when it said lower than the market, events happened 56% of the time; it averaged 26%, the market 46%); 3 of its 5 "under 10%" calls happened; and it leaned toward "won't happen" (average forecast 36%, 45% happened). The original account was down about 50% at market prices. Changes: (1) Effort raised from medium to high (`EFFORT`, FROZEN), with `MAX_TOKENS` 16,000 → 32,000 so a longer think can't cut answers off. (2) The "Learning AI": the prompt now starts with the AI's own track record (calibration by range, overall lean, biggest misses; never market prices), built by `learning.py` and saved in each day file. (3) Four new forecasting rules in the prompt: finding no news is weak evidence; ask who controls the outcome; stay between 5% and 95% unless it's already decided; start from how often such things happen. (4) Economic-data questions get an extra news search for economists' forecasts (2 of the 6 headline slots kept for it; the odds filter still applies). (5) Cautious bet sizing: bets use a probability halfway between the market's midpoint and the AI's forecast (`SIZING_SHRINK = 0.5`), so about a 20-point disagreement is needed. (6) A fresh $1,000 paper account for Phase 1.2 (`ACCOUNTS`); the original account (Phases 1.0-1.1) gets no new bets and keeps its open ones until they settle. Its results stay on the record and on the website. |

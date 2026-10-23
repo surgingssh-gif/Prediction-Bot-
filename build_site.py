@@ -64,6 +64,7 @@ def _row(day, q, resolutions, pnl_by_id, prices=None):
         "note": q.get("bet_note"),
         "spark": _spark(day, q, history),
         "phase": day.get("phase", "1.0"),
+        "account": trading.account_for(day.get("phase", "1.0")),
     }
     # The latest price we saw while the market was still open (a market is
     # never picked twice, so a same-day price is a real update too).
@@ -216,6 +217,7 @@ def _short(row):
 PHASE_NAMES = {
     "1.0": "Original rules",
     "1.1": "New rules (after the Oct 9 review)",
+    "1.2": "Learning AI, high effort, cautious bets",
 }
 
 
@@ -255,13 +257,56 @@ def phase_report(all_rows, scored_rows):
     return report
 
 
+def account_book(account_id, name, days, resolutions, prices, all_rows):
+    """
+    Everything the scorecard shows for ONE paper account: the money
+    figures, the value-over-time chart, the bet breakdowns and the weekly
+    report cards. Each account starts with its own STARTING_BANKROLL.
+    """
+    days = trading.account_days(days, account_id)
+    rows = [r for r in all_rows if r["account"] == account_id]
+    portfolio = trading.replay(days, resolutions)
+    open_bets = [r["bet"] for r in rows if r.get("bet") and "outcome" not in r and not r.get("excluded")]
+    open_value = sum(b.get("value", b["cost"]) for b in open_bets)
+    settled_bet_rows = [{**r["bet"], "topic": r.get("topic"), "pnl": r["pnl"]}
+                        for r in rows if r.get("bet") and "pnl" in r]
+    all_bets = [r["bet"] for r in rows if r.get("bet")]
+    settled = portfolio["settled"]
+    first = min((d.get("created_at") or "" for d in days), default=None)
+    return {
+        "id": account_id,
+        "name": name,
+        "phases": sorted({d.get("phase", "1.0") for d in days}),
+        "first": first[:10] if first else None,
+        "portfolio": {
+            "start": config.STARTING_BANKROLL,
+            "equity": portfolio["equity"],
+            "cash": portfolio["cash"],
+            "open_cost": portfolio["open_cost"],
+            "open_bets": len(portfolio["open"]),
+            "bets": len(all_bets),
+            "settled_bets": len(settled),
+            "wins": sum(1 for b in settled if b["pnl"] > 0),
+            "pnl": round(sum(b["pnl"] for b in settled), 2),
+            "staked": round(sum(b["cost"] for b in settled_bet_rows), 2),
+            "fees": round(sum(b["fee"] for b in all_bets), 2),
+            "unrealized": round(open_value - sum(b["cost"] for b in open_bets), 2),
+            "marked_equity": round(portfolio["cash"] + open_value, 2),
+        },
+        "bets": scoring.bet_breakdown(settled_bet_rows),
+        "bankroll": daily_bankroll(portfolio["history"], days),
+        "account": account_history(days, resolutions, prices),
+        "weeks": weekly_report(rows),
+    }
+
+
 def build_data(days, resolutions, pending=None, prices=None, now=None):
     """Everything the website needs, as one dict."""
     pending = pending or []
     now = now or datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     rows = scoring.scored_questions(days, resolutions, now=now)
-    portfolio = trading.replay(days, resolutions)
-    pnl_by_id = {s["market_id"]: s["pnl"] for s in portfolio["settled"]}
+    # Each settled bet's profit (the same whichever account it's in).
+    pnl_by_id = {s["market_id"]: s["pnl"] for s in trading.replay(days, resolutions)["settled"]}
 
     all_rows = [_row(d, q, resolutions, pnl_by_id, prices) for d in days for q in d.get("questions", [])]
     # Questions Claude didn't answer still show (marked "no AI forecast").
@@ -272,22 +317,18 @@ def build_data(days, resolutions, pending=None, prices=None, now=None):
             r["early"] = True  # settled before its deadline: joins the score then
     settled_rows.sort(key=lambda r: r["settled"], reverse=True)
 
-    settled_bets = portfolio["settled"]
-    wins = sum(1 for s in settled_bets if s["pnl"] > 0)
-    staked = sum(r["bet"]["cost"] for r in settled_rows if r.get("bet"))
-    all_bets = [q["bet"] for d in days for q in d.get("questions", []) if q.get("bet")]
     costs = [d.get("cost_usd") for d in days if d.get("cost_usd") is not None]
 
-    # Open bets valued at today's prices (bets without a newer price count at cost).
-    open_bets = [r["bet"] for r in open_rows if r.get("bet")]
-    open_value = sum(b.get("value", b["cost"]) for b in open_bets)
-    unrealized = round(open_value - sum(b["cost"] for b in open_bets), 2)
+    # One scorecard per paper account. The current phase's account is the
+    # main one on the site (and in "portfolio", "account", "bets"...).
+    current = trading.account_for(config.PHASE)
+    accounts = [account_book(account_id, name, days, resolutions, prices, all_rows)
+                for account_id, name, _first in config.ACCOUNTS]
+    accounts = [a for a in accounts if a["id"] == current or a["portfolio"]["bets"]]
+    main = next(a for a in accounts if a["id"] == current)
 
     scored_rows = [r for r in all_rows if "ai_brier" in r and not r.get("early")]
     best, worst = scoring.best_and_worst(scored_rows)
-    settled_bet_rows = [
-        {**r["bet"], "topic": r.get("topic"), "pnl": r["pnl"]} for r in settled_rows if r.get("bet") and "pnl" in r
-    ]
     moving = [r for r in open_rows if r["ai"] is not None]  # open questions only
     latest_run = days[-1]["run_id"] if days else None
 
@@ -313,6 +354,7 @@ def build_data(days, resolutions, pending=None, prices=None, now=None):
             "max_bet": config.MAX_BET_FRACTION,
             "daily_budget": config.DAILY_BUDGET_FRACTION,
             "per_story": config.MAX_BETS_PER_STORY,
+            "shrink": config.SIZING_SHRINK,
         },
         "stats": scoring.summary(rows),
         "phase": config.PHASE,
@@ -323,32 +365,20 @@ def build_data(days, resolutions, pending=None, prices=None, now=None):
         "calibration": {"ai": scoring.calibration(rows, "ai"), "crowd": scoring.calibration(rows, "crowd")},
         "topics": scoring.by_topic(rows),
         "running": scoring.running_scores(rows),
-        "portfolio": {
-            "start": config.STARTING_BANKROLL,
-            "equity": portfolio["equity"],
-            "cash": portfolio["cash"],
-            "open_cost": portfolio["open_cost"],
-            "open_bets": len(portfolio["open"]),
-            "bets": len(all_bets),
-            "settled_bets": len(settled_bets),
-            "wins": wins,
-            "pnl": round(sum(s["pnl"] for s in settled_bets), 2),
-            "staked": round(staked, 2),
-            "fees": round(sum(b["fee"] for b in all_bets), 2),
-            "unrealized": unrealized,
-            "marked_equity": round(portfolio["cash"] + open_value, 2),
-        },
+        "portfolio": main["portfolio"],
+        "current_account": current,
+        "accounts": accounts,
         "movement": scoring.movement(moving),
-        "bets": scoring.bet_breakdown(settled_bet_rows),
+        "bets": main["bets"],
         "best": [_short(r) for r in best],
         "worst": [_short(r) for r in worst],
         "latest_run": latest_run,
         # The newest run's questions that have already settled (rare, but
         # the "Latest forecasts" section should still list them).
         "latest_settled": [r for r in settled_rows if r["run"] == latest_run and latest_run],
-        "bankroll": daily_bankroll(portfolio["history"], days),
-        "account": account_history(days, resolutions, prices),
-        "weeks": weekly_report(all_rows),
+        "bankroll": main["bankroll"],
+        "account": main["account"],
+        "weeks": main["weeks"],
         "open": sorted(open_rows, key=lambda r: r["end"]),
         "settled": settled_rows[: config.MAX_SETTLED_ON_PAGE],
         "settled_total": len(settled_rows),

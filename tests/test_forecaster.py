@@ -21,6 +21,7 @@ import config
 import discord_notify
 import forecaster
 import groups
+import learning
 import main
 import markets
 import news
@@ -270,7 +271,7 @@ def test_kelly():
 
 
 def test_bet_yes_when_ai_is_higher():
-    bet, note = trading.decide_bet(0.70, 0.48, 0.50, 0.04, equity=1000, cash=1000)
+    bet, note = trading.decide_bet(0.70, 0.48, 0.50, 0.04, equity=1000, cash=1000, shrink=1)
     assert bet["side"] == "YES" and bet["price"] == 0.50
     assert bet["cost"] <= 1000 * config.MAX_BET_FRACTION + 0.01   # capped at 5%
     assert bet["cost"] == pytest.approx(bet["stake"] + bet["fee"], abs=0.02)
@@ -278,7 +279,7 @@ def test_bet_yes_when_ai_is_higher():
 
 
 def test_bet_no_when_ai_is_lower():
-    bet, _ = trading.decide_bet(0.20, 0.40, 0.42, 0.0, equity=1000, cash=1000)
+    bet, _ = trading.decide_bet(0.20, 0.40, 0.42, 0.0, equity=1000, cash=1000, shrink=1)
     assert bet["side"] == "NO" and bet["price"] == pytest.approx(0.60)
 
 
@@ -490,7 +491,8 @@ def test_site_data_is_compact_and_complete(tmp_path):
     assert data["stats"]["n"] == 1
     assert [r["id"] for r in data["open"]] == ["b"]
     assert data["settled"][0]["pnl"] == 28.5
-    assert data["portfolio"]["equity"] == 1028.5
+    original = next(a for a in data["accounts"] if a["id"] == "original")   # fake days have no phase
+    assert original["portfolio"]["equity"] == 1028.5
     path = tmp_path / "data.js"
     build_site.write_data(data, path=str(path))
     text = path.read_text()
@@ -570,7 +572,8 @@ def test_site_shows_live_value_blend_and_sparkline():
     assert open_row["latest"] == 0.55
     assert open_row["spark"] == [["2026-10-02", 0.40], ["2026-10-03", 0.50], ["2026-10-04", 0.55]]
     assert open_row["bet"]["value"] == 55.0              # 100 YES shares at 55 cents
-    assert data["portfolio"]["unrealized"] == 12.0
+    original = next(a for a in data["accounts"] if a["id"] == "original")
+    assert original["portfolio"]["unrealized"] == 12.0
     assert data["stats"]["blend_brier"] == pytest.approx(0.09, abs=1e-4)   # (0.7 - 1)^2
     assert data["movement"]["toward"] == 1
     assert [r["id"] for r in data["best"]] == ["b"]      # AI 90% beat crowd 50% on a YES
@@ -764,7 +767,7 @@ def test_prompt_says_when_the_news_search_failed():
 
 def test_exactly_ten_point_gap_counts():
     # 0.60 - 0.50 is 0.0999... in computer maths; it must still count as 10.
-    bet, note = trading.decide_bet(0.50, 0.60, 0.602, 0.0, 1000, 1000)
+    bet, note = trading.decide_bet(0.50, 0.60, 0.602, 0.0, 1000, 1000, shrink=1)
     assert bet and bet["side"] == "NO" and bet["gap_pts"] == 10.0
 
 
@@ -856,7 +859,7 @@ def test_daily_budget_is_shared_by_every_run_on_the_same_day(workspace, monkeypa
     old = fake_question("x")
     old["forecast"] = {"probability": 0.9, "reasoning": "R"}
     old["bet"] = {"side": "YES", "price": 0.42, "shares": 200, "stake": 84, "fee": 16, "cost": 100, "gap_pts": 48}
-    storage.save_forecast(fake_day("2026-10-01", [old], forecast_at=f"{today}T01:00:00Z"))
+    storage.save_forecast({**fake_day("2026-10-01", [old], forecast_at=f"{today}T01:00:00Z"), "phase": config.PHASE})
     q = fake_question("1")
     day = main.place_bets({"questions": [q]}, {"1": {"probability": 0.9, "reasoning": "R"}})
     assert day["budget"] == pytest.approx(0.0)   # 10% of $1,000 was already used today
@@ -876,3 +879,126 @@ def test_results_are_split_by_phase():
     assert phases["1.0"]["bets"] == 1 and phases["1.0"]["pnl"] == 28.5
     assert phases["1.0"]["accuracy"]["n"] == 1
     assert phases["1.1"]["bets"] == 0 and phases["1.1"]["questions"] == 1 and phases["1.1"]["pnl"] == 0
+
+
+# ---------------------------------------------------------------------------
+# Phase 1.2 changes (2026-10-23)
+# ---------------------------------------------------------------------------
+
+def test_cautious_sizing_counts_half_the_disagreement():
+    # Market 40-42 (midpoint 41%), AI says 70%: bets are based on 55.5%.
+    assert trading.cautious_prob(0.70, 0.40, 0.42, shrink=0.5) == pytest.approx(0.555)
+    bet, note = trading.decide_bet(0.70, 0.40, 0.42, 0.0, 1000, 1000, shrink=0.5)
+    assert bet["side"] == "YES" and bet["gap_pts"] == 28.0 and bet["edge_pts"] == 13.5
+    assert bet["sized_on"] == 0.555 and "cautious" in note
+    full, _ = trading.decide_bet(0.70, 0.40, 0.42, 0.0, 1000, 1000, shrink=1)
+    assert bet["kelly_full"] < full["kelly_full"] / 2       # sized much smaller (before the 5% cap)
+    # A 15-point disagreement is only 7.5 after halving: no bet.
+    none, note = trading.decide_bet(0.57, 0.40, 0.42, 0.0, 1000, 1000, shrink=0.5)
+    assert none is None and "cautious sizing" in note
+
+
+def test_phases_use_their_own_paper_account():
+    assert trading.account_for("1.0") == "original" and trading.account_for("1.1") == "original"
+    assert trading.account_for("1.2") == "phase-1.2" and trading.account_for("1.10") == "phase-1.2"
+    old = {"phase": "1.1", "questions": []}
+    new = {"phase": "1.2", "questions": []}
+    assert trading.account_days([old, new], "phase-1.2") == [new]
+
+
+def test_new_phase_bets_from_a_fresh_account(workspace, monkeypatch):
+    # The original account has spent everything; the new phase still has $1,000.
+    spent = fake_question("x")
+    spent["forecast"] = {"probability": 0.9, "reasoning": "R"}
+    spent["bet"] = {"side": "YES", "price": 0.42, "shares": 2380, "stake": 1000, "fee": 0, "cost": 1000, "gap_pts": 48}
+    storage.save_forecast({**fake_day("2026-10-01", [spent]), "phase": "1.1"})
+    q = fake_question("1")
+    day = main.place_bets({"phase": "1.2", "questions": [q]}, {"1": {"probability": 0.9, "reasoning": "R"}})
+    assert day["account"] == "phase-1.2" and day["budget"] == pytest.approx(100.0)
+    assert q["bet"] is not None
+
+
+def test_site_shows_each_account_separately():
+    old, new = fake_question("a"), fake_question("b")
+    for q in (old, new):
+        q["forecast"] = {"probability": 0.8, "reasoning": "R"}
+        q["bet"] = {"side": "YES", "price": 0.42, "shares": 50, "stake": 21, "fee": 0.5, "cost": 21.5, "gap_pts": 38}
+    days = [fake_day("2026-10-02", [old]), {**fake_day("2026-10-23", [new]), "phase": "1.2"}]
+    resolutions = {"a": {"outcome": 1, "resolved_at": "2026-10-05T00:00:00Z"}}
+    data = build_site.build_data(days, resolutions, now="2026-12-01T00:00:00Z")
+    accounts = {a["id"]: a for a in data["accounts"]}
+    assert data["current_account"] == "phase-1.2" and data["portfolio"] == accounts["phase-1.2"]["portfolio"]
+    assert accounts["original"]["portfolio"]["equity"] == 1028.5
+    assert accounts["phase-1.2"]["portfolio"]["cash"] == 978.5 and accounts["phase-1.2"]["portfolio"]["open_bets"] == 1
+    assert {r["id"]: r["account"] for r in data["open"] + data["settled"]} == {"a": "original", "b": "phase-1.2"}
+
+
+def past_forecasts(results):
+    """Fake settled forecasts: a list of (AI probability, outcome)."""
+    questions, resolutions = [], {}
+    for i, (prob, outcome) in enumerate(results):
+        q = fake_question(f"m{i}")
+        q["question"] = f"Will thing {i} happen?"
+        q["end_date"] = "2026-10-10T00:00:00Z"
+        q["forecast"] = {"probability": prob, "reasoning": "R"}
+        questions.append(q)
+        resolutions[f"m{i}"] = {"outcome": outcome, "resolved_at": "2026-10-10T00:00:00Z"}
+    return [fake_day("2026-10-02", questions)], resolutions
+
+
+def test_track_record_shows_the_ais_own_results_but_no_prices():
+    days, resolutions = past_forecasts([(0.05, 1)] * 3 + [(0.05, 0)] * 2 + [(0.6, 1)] * 5 + [(0.8, 0)] * 2)
+    for q in days[0]["questions"]:
+        q["snapshot"]["crowd"] = 0.4321                    # a market price that must never appear
+    text = learning.track_record(days, resolutions, now="2026-11-01T00:00:00Z")
+    assert "under 10%: it happened 3 times out of 5" in text
+    assert "70-90%: it happened 0 times out of 2" in text
+    assert "too low" in text                               # said 31% on average, 67% happened
+    assert "You said 5%; it happened." in text             # a biggest miss
+    assert "43" not in text and "market price" not in text.lower()
+    # Too few settled questions: nothing to learn from yet.
+    few_days, few_res = past_forecasts([(0.5, 1)] * 3)
+    assert learning.track_record(few_days, few_res, now="2026-11-01T00:00:00Z") is None
+
+
+def test_track_record_waits_for_the_deadline():
+    days, resolutions = past_forecasts([(0.5, 1)] * 12)
+    assert learning.track_record(days, resolutions, now="2026-10-05T00:00:00Z") is None
+
+
+def test_track_record_goes_into_the_prompt_and_the_record(workspace, monkeypatch):
+    monkeypatch.setattr(learning, "track_record", lambda days, res: "=== Your track record so far ===\nTEST")
+    client = fake_client(answer=ANSWER)
+    run_main(monkeypatch, client)
+    prompt = client.messages.batches.created[0][0]["params"]["messages"][0]["content"]
+    assert "Your track record so far" in prompt and prompt.index("TEST") < prompt.index("=== Q1 ===")
+    day = json.loads(next((workspace / "data" / "forecasts").glob("*.json")).read_text())
+    assert day["track_record"].endswith("TEST") and day["phase"] == config.PHASE
+
+
+def test_economic_questions_also_search_for_economists_forecasts(monkeypatch):
+    q = {"question": "Will monthly inflation increase by 0.3% in October?", "topic": "Economy", "option": "", "event_title": ""}
+    queries = news.build_queries(q)
+    assert queries[1] == "monthly inflation increase October economists forecast"
+    results = {
+        queries[0]: [{"title": f"Inflation story {i}", "source": f"Site {i}"} for i in range(6)],
+        queries[1]: [{"title": "Economists see inflation steady", "source": "Reuters"}],
+    }
+    monkeypatch.setattr(news, "_search", lambda query: results[query])
+    found = news.fetch_news(q, limit=6)
+    titles = [h["title"] for h in found["headlines"]]
+    assert len(titles) == 5 and titles[-1] == "Economists see inflation steady"   # 4 + room kept for it
+    assert not news.is_economic({"question": "Will Lula win?", "topic": "Politics"})
+
+
+def test_one_failed_search_keeps_the_other_headlines(monkeypatch):
+    q = {"question": "Will Lula win?", "option": "Lula", "event_title": "Brazil Presidential Election"}
+    def search(query):
+        if query == "Lula win":
+            raise RuntimeError("Google hiccup")
+        return [{"title": "Lula campaign rally", "source": "AP"}]
+    monkeypatch.setattr(news, "_search", search)
+    assert [h["title"] for h in news.fetch_news(q)["headlines"]] == ["Lula campaign rally"]
+    monkeypatch.setattr(news, "_search", lambda query: (_ for _ in ()).throw(RuntimeError("down")))
+    with pytest.raises(RuntimeError):
+        news.fetch_news(q)

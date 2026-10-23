@@ -43,7 +43,18 @@ can happen.
 not try to guess them. Give your own independent judgment.
 - The headlines come from a short news search, so they can miss things. A \
 missing headline usually reflects the search's limits, not proof that \
-nothing happened.
+nothing happened. Finding no news is weak evidence either way.
+- Ask who controls the outcome. If one person or company can make it happen \
+whenever they choose (a rename, an announcement, a product launch), judge \
+their stated plans and track record, not just the lack of news.
+- Avoid going below 5% or above 95% unless the outcome is essentially \
+decided already (for example, the result has been officially announced).
+- Before adjusting for the news, think about how often this kind of thing \
+happens in general, and say so in your reasoning.
+- You may be shown your own track record from earlier questions in this \
+experiment. Use it to correct any pattern of mistakes (for example, being \
+too sure things won't happen), but judge each new question on its own \
+evidence.
 
 Return exactly one forecast for every question, using its id, with your \
 probability as a whole-number percent from 1 to 99 and 2-4 plain-English \
@@ -95,13 +106,17 @@ class ForecastFailed(RuntimeError):
     first attempt any more, so the day is recorded as failed instead."""
 
 
-def build_prompt(questions, today):
+def build_prompt(questions, today, track_record=None):
     """
     Writes the one message that holds all of today's questions. Each gets a
     short id (Q1, Q2...) so the answers can be matched back up.
     Note: no prices, volumes or links to the market are included.
+    track_record - optional text about the AI's own past forecasts (see learning.py)
     """
-    parts = [f"Today's date is {today}. Here are today's questions.\n"]
+    parts = [f"Today's date is {today}."]
+    if track_record:
+        parts.append(track_record)
+    parts.append("Here are today's questions.\n")
     for i, q in enumerate(questions, start=1):
         rules = trim_rules(q["rules"])
         lines = [
@@ -125,15 +140,15 @@ def build_prompt(questions, today):
     return "\n\n".join(parts)
 
 
-def make_request(questions, today, custom_id):
+def make_request(questions, today, custom_id, track_record=None):
     """The batch request for today's questions (one request in the batch)."""
     return Request(
         custom_id=custom_id,
         params=MessageCreateParamsNonStreaming(
             model=config.MODEL,
-            max_tokens=16000,
+            max_tokens=config.MAX_TOKENS,
             system=SYSTEM_PROMPT,
-            messages=[{"role": "user", "content": build_prompt(questions, today)}],
+            messages=[{"role": "user", "content": build_prompt(questions, today, track_record)}],
             output_config={
                 "effort": config.EFFORT,
                 "format": {"type": "json_schema", "schema": OUTPUT_SCHEMA},
@@ -142,9 +157,9 @@ def make_request(questions, today, custom_id):
     )
 
 
-def submit_batch(client, questions, today, custom_id):
+def submit_batch(client, questions, today, custom_id, track_record=None):
     """Sends the batch to Anthropic. Returns the batch id."""
-    batch = client.messages.batches.create(requests=[make_request(questions, today, custom_id)])
+    batch = client.messages.batches.create(requests=[make_request(questions, today, custom_id, track_record)])
     return batch.id
 
 

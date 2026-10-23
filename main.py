@@ -30,6 +30,7 @@ from dotenv import load_dotenv
 import config
 import forecaster
 import groups
+import learning
 import markets
 import news
 import storage
@@ -53,7 +54,10 @@ def place_bets(day, forecasts, fetch=None, asks_for=None):
     """
     fetch = fetch or markets.fetch_market
     asks_for = asks_for or markets.fetch_asks
-    past_days = storage.read_forecasts()
+    # Only this phase's paper account counts: its cash, open bets and
+    # today's spending. (Phase 1.2 started a fresh account; see config.py.)
+    account = trading.account_for(day.get("phase", config.PHASE))
+    past_days = trading.account_days(storage.read_forecasts(), account)
     portfolio = trading.replay(past_days, storage.read_resolutions())
     equity, cash = portfolio["equity"], portfolio["cash"]
     # Today's spending limit, by the calendar day the bets are actually
@@ -121,6 +125,7 @@ def place_bets(day, forecasts, fetch=None, asks_for=None):
         elif bet and "scaled" in bet:
             q["bet_note"] += f" Scaled to {bet['scaled'] * 100:.0f}% to fit the daily budget of ${budget:,.2f}."
     day["budget"] = round(budget, 2)
+    day["account"] = account
     return day
 
 
@@ -178,9 +183,17 @@ def start_new_run(client, date_str, problems, dry_run=False):
     if news_failures:
         problems.append(f"News search failed for {news_failures} of {len(questions)} questions.")
 
+    # The AI's own track record so far (forecasts and results only, never
+    # market prices), so it can learn from its past mistakes.
+    track_record = None
+    try:
+        track_record = learning.track_record(storage.read_forecasts(), storage.read_resolutions())
+    except Exception as e:
+        problems.append(f"Couldn't build the AI's track record ({type(e).__name__}); forecasting without it.")
+
     if dry_run:
         print("\n----- DRY RUN: this is what Claude would see (nothing sent or saved) -----\n")
-        print(forecaster.build_prompt(questions, date_str))
+        print(forecaster.build_prompt(questions, date_str, track_record))
         print("\n----- Crowd prices (hidden from Claude) -----")
         for q in questions:
             print(f"{q['snapshot']['crowd'] * 100:5.1f}%  [{q['topic']}] {q['question']}")
@@ -194,9 +207,12 @@ def start_new_run(client, date_str, problems, dry_run=False):
         "effort": config.EFFORT,
         "phase": config.PHASE,
         "pick_stats": pick_stats,
+        # Saved so the record shows exactly what the AI was told about itself.
+        "track_record": track_record,
         "questions": questions,
     }
-    day["batch_id"] = forecaster.submit_batch(client, questions, date_str, custom_id=day["run_id"])
+    day["batch_id"] = forecaster.submit_batch(client, questions, date_str, custom_id=day["run_id"],
+                                              track_record=track_record)
     # Saved straight away, so a crash can't lose the batch.
     storage.save_pending(day)
     print(f"Sent {len(questions)} questions to Claude (batch {day['batch_id']}). Waiting...")

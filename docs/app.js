@@ -13,6 +13,17 @@
   var DATA = window.FORECAST_DATA || {};
   var stats = DATA.stats || { n: 0 };
   var portfolio = DATA.portfolio || { start: 1000, equity: 1000 };
+
+  // Paper accounts. Phase 1.2 started a fresh $1,000 account; the original
+  // one keeps its open bets until they settle. The Portfolio tab shows one
+  // account at a time (the current one first).
+  var ACCOUNTS = DATA.accounts && DATA.accounts.length ? DATA.accounts
+    : [{ id: "original", name: "Paper account", portfolio: portfolio, account: DATA.account, bets: DATA.bets, weeks: DATA.weeks }];
+  var accountId = DATA.current_account || ACCOUNTS[0].id;
+  function currentAccount() {
+    return ACCOUNTS.filter(function (a) { return a.id === accountId; })[0] || ACCOUNTS[0];
+  }
+  function inAccount(r) { return !r.account || r.account === accountId; }
   var SVG_NS = "http://www.w3.org/2000/svg";
   var AI_COLOR = "var(--series-1)";
   var MARKET_COLOR = "var(--series-2)";
@@ -524,7 +535,29 @@
     }));
   }
 
+  function renderAccountPicker() {
+    var box = clear(document.getElementById("account-pick"));
+    var note = document.getElementById("account-note");
+    if (ACCOUNTS.length < 2) { box.hidden = true; note.hidden = true; return; }
+    ACCOUNTS.forEach(function (a) {
+      var isCurrent = a.id === DATA.current_account;
+      var b = el("button", { class: "chip", type: "button", "aria-pressed": String(a.id === accountId),
+        text: a.name + (isCurrent ? " (current)" : "") });
+      b.addEventListener("click", function () { accountId = a.id; renderAccountPicker(); renderPortfolio(); });
+      box.appendChild(b);
+    });
+    var A = currentAccount();
+    var phases = (A.phases || []).length ? "Phase " + A.phases.join(" and ") : "";
+    note.hidden = false;
+    note.textContent = A.id === DATA.current_account
+      ? "New bets go into this account. It started with a fresh " + money(A.portfolio.start || 1000) + " when Phase 1.2 began" +
+        (A.first ? " (" + shortDate(A.first) + ")" : "") + ", so the new rules aren't weighed down by the original account's losses."
+      : "Bets from " + phases + ". No new bets go in here; its open bets stay until they settle. All its results stay on the record.";
+  }
+
   function renderPortfolio() {
+    var A = currentAccount();
+    var portfolio = A.portfolio || DATA.portfolio;
     var start = portfolio.start || 1000;
     var value = portfolio.marked_equity !== undefined ? portfolio.marked_equity : portfolio.equity;
     var total = value - start;
@@ -536,9 +569,11 @@
     var hero = document.getElementById("hero-pnl");
     hero.className = "hero-figure " + (upDown(total) || "");
     countUp(hero, total, function (v) { return money(v, true); }, 100);
-    document.getElementById("hero-sub").textContent = (total >= 0 ? "Up " : "Down ") +
-      Math.abs(total / start * 100).toFixed(1) + "% on " + money(start) + " of paper money: " +
-      money(realized, true) + " from settled bets and " + money(unreal, true) + " on open bets at today's market prices.";
+    document.getElementById("hero-sub").textContent = !portfolio.bets
+      ? "No bets yet in this account. It starts with " + money(start) + " of paper money; bets begin once the AI finds a big enough disagreement."
+      : (total >= 0 ? "Up " : "Down ") +
+        Math.abs(total / start * 100).toFixed(1) + "% on " + money(start) + " of paper money: " +
+        money(realized, true) + " from settled bets and " + money(unreal, true) + " on open bets at today's market prices.";
     if (DATA.generated_at) {
       document.getElementById("sc-sub").textContent = "Paper money · prices as of " +
         new Date(DATA.generated_at).toLocaleString("en-US", { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" });
@@ -556,7 +591,7 @@
     ]);
 
     // Column 3: what's working, as meters.
-    var bets = DATA.bets || {};
+    var bets = A.bets || {};
     var bd = clear(document.getElementById("breakdowns"));
     if (!(bets.by_side || []).length) {
       bd.appendChild(el("p", { class: "empty", text: "Breakdowns appear once paper bets settle." }));
@@ -570,17 +605,17 @@
     }
 
     // Account value: summary on the left, chart on the right.
-    var acct = DATA.account || [];
+    var acct = A.account || [];
     var first = acct.length ? acct[0].date : null;
     append(clear(document.getElementById("pf-side")), [
-      el("p", { class: "pf-label" }, el("span", { class: "pf-swatch", style: { background: AI_COLOR } }), "The AI's paper account"),
+      el("p", { class: "pf-label" }, el("span", { class: "pf-swatch", style: { background: AI_COLOR } }), A.name || "The AI's paper account"),
       el("div", { class: "pf-value", id: "pf-value", text: money(value) }),
       pill(total, money(total, true) + " (" + (total >= 0 ? "+" : "−") + Math.abs(total / start * 100).toFixed(1) + "%)"),
       el("p", { class: "pf-verdict", text: first ? (total >= 0 ? "Up " : "Down ") + money(Math.abs(total)) + " since " + shortDate(first) + "." : "No bets yet." }),
       el("p", { class: "pf-legend", text: "Each day: cash plus every open bet valued at that day's market price. Settled bets count at what they paid out. Paper money only." }),
     ]);
     countUp(document.getElementById("pf-value"), value, function (v) { return money(v); }, 100);
-    var ac = document.getElementById("account-chart");
+    var ac = clear(document.getElementById("account-chart"));
     if (acct.length > 1) {
       lineChart(ac, {
         label: "Paper account value over time",
@@ -596,7 +631,7 @@
 
     // Weekly report cards.
     var wc = clear(document.getElementById("weeks"));
-    var weeks = (DATA.weeks || []).slice(0, 6);
+    var weeks = (A.weeks || []).slice(0, 6);
     if (!weeks.length) wc.appendChild(el("p", { class: "empty", text: "No bets yet." }));
     weeks.forEach(function (w) {
       var g = w.grade;
@@ -617,15 +652,15 @@
 
     // Every bet, scored: settled at their result, open at today's price.
     var all = [];
-    (DATA.settled || []).forEach(function (r) {
+    (DATA.settled || []).filter(inAccount).forEach(function (r) {
       if (r.bet && r.pnl !== undefined) all.push({ r: r, pnl: r.pnl, status: "settled" });
     });
-    (DATA.open || []).forEach(function (r) {
+    (DATA.open || []).filter(inAccount).forEach(function (r) {
       if (r.bet) all.push({ r: r, pnl: (r.bet.value !== undefined ? r.bet.value : r.bet.cost) - r.bet.cost, status: "open" });
     });
     all.forEach(function (b) { b.ret = b.pnl / b.r.bet.cost * 100; });
     all.sort(function (a, b) { return b.ret - a.ret; });
-    var eb = document.getElementById("every-bet");
+    var eb = clear(document.getElementById("every-bet"));
     if (!all.length) {
       append(clear(eb), el("p", { class: "empty", text: "No bets yet." }));
     } else {
@@ -650,7 +685,7 @@
     for (var i = 1; i < acct.length; i++) {
       days.push({ label: shortDate(acct[i].date), short: shortDate(acct[i].date).replace(/, \d{4}$/, ""), value: acct[i].value - acct[i - 1].value });
     }
-    var dc = document.getElementById("daily");
+    var dc = clear(document.getElementById("daily"));
     if (days.length) {
       var lastDay = days[days.length - 1];
       document.getElementById("daily-sub").textContent = "How much the account value changed each day. Latest (" + lastDay.short + "): " + money(lastDay.value, true) + ".";
@@ -660,7 +695,7 @@
     }
 
     // Open positions, soonest to close first.
-    var open = (DATA.open || []).filter(function (r) { return r.bet; });
+    var open = (DATA.open || []).filter(function (r) { return r.bet && inAccount(r); });
     document.getElementById("positions-sub").textContent = open.length + " open · " + money(portfolio.open_cost || 0) + " invested · soonest to close first";
     var pc = clear(document.getElementById("positions-table"));
     if (!open.length) {
@@ -691,7 +726,7 @@
     }
 
     // Recently closed bets.
-    var closed = (DATA.settled || []).filter(function (r) { return r.bet && r.pnl !== undefined; }).slice(0, 10);
+    var closed = (DATA.settled || []).filter(function (r) { return r.bet && r.pnl !== undefined && inAccount(r); }).slice(0, 10);
     var cc = clear(document.getElementById("recent-closed"));
     if (!closed.length) {
       cc.appendChild(el("p", { class: "empty", text: "No bets have settled yet." }));
@@ -728,9 +763,10 @@
       var accText = acc.n ? "AI " + brier(acc.ai_brier) + " · market " + brier(acc.crowd_brier) : "None scored yet";
       var note = null;
       if (!p.bets && current) {
-        note = "No bets yet under these rules. All the cash is still tied up in bets from the original rules, " +
-          "so the daily budget is $0. New bets start as those settle (most by early November). " +
-          "The AI is still forecasting every day, and those forecasts are scored in this card.";
+        note = "No bets yet under these rules. This phase bets from its own fresh $1,000 paper account " +
+          "(switch accounts at the top of this page). Its forecasts are scored in this card.";
+      } else if (p.phase === "1.1") {
+        note = "Phase 1.1 bet from the original account, which had little cash left, so its bets were small.";
       }
       box.appendChild(el("div", { class: "wk" },
         el("div", { class: "wk-head" },
@@ -1059,10 +1095,13 @@
           "Sports, esports, gaming streams, crypto price bets, questions that resolve on betting odds, and any event involving Anthropic " +
           "(the AI's maker) or Claude in any of its options are skipped. No more than 3 per topic per day."),
         li("For each question, up to " + s.headlines + " Google News headlines from the last " + s.lookback.replace("d", " days") +
-          " are collected (at most 2 per news site, and only ones that name the question's subject). Headlines that report what " +
+          " are collected (at most 2 per news site, and only ones that name the question's subject). Questions about economic data " +
+          "also get a search for what economists forecast (not market odds). Headlines that report what " +
           "markets or traders expect (odds, bets, \u201cpriced in\u201d, \u201ca 50% chance\u201d) are thrown out, so the AI can't see the market's view."),
         li("All the questions go to Claude (" + DATA.model + ", " + DATA.effort + " effort) in one request. It sees each question, its " +
-          "full resolution rules and its news, but never the market price. It answers with a probability and a short explanation. " +
+          "full resolution rules and its news, but never the market price. Since Phase 1.2 it also sees its own track record: how its " +
+          "earlier forecasts in this experiment turned out (what it said and what happened, never market prices), so it can correct " +
+          "patterns in its mistakes. It answers with a probability and a short explanation. " +
           "Each question is forecast once, and the same model is used for the whole experiment."),
         li("The forecasts are saved and committed to GitHub straight away, with a timestamp, before any result is known. " +
           "The files are never edited afterwards: the bot refuses to save if an existing forecast file would change, and " +
@@ -1087,7 +1126,13 @@
         li("Open bets are also valued at today's market midpoint (\u201cAt today's prices\u201d). That figure isn't profit until the question settles."),
       ]),
       h("Paper trading (fake money)"),
-      p("The AI starts with $" + (s.start || 1000).toLocaleString() + " of pretend money. It bets only when its probability " +
+      p("Each paper account starts with $" + (s.start || 1000).toLocaleString() + " of pretend money. Phase 1.2 started a fresh account " +
+        "(the original one keeps its open bets until they settle; switch between them at the top of the Portfolio tab). " +
+        (s.shrink && s.shrink < 1
+          ? "Bets are cautious: they're based on a probability only " + Math.round(s.shrink * 100) + "% of the way from the market's midpoint " +
+            "to the AI's forecast, so the AI has to disagree by about " + Math.round(s.min_edge * 100 / s.shrink) + " points before it bets. "
+          : "") +
+        "It bets only when that probability " +
         "is at least " + Math.round(s.min_edge * 100) + " points away from the price it would actually pay. It buys at the current " +
         "asking price (not the midpoint), filling the order from the shares actually on offer in Polymarket's order book " +
         "(cheapest first, and only at prices that still keep the full gap), and pays Polymarket's real taker fee, so the results aren't flattered. " +
@@ -1113,6 +1158,10 @@
         "headlines had reached the AI), better news searches, full resolution rules, realistic order-book fills, a fix so an exact " +
         "10-point gap always counts, and stricter filters for Anthropic-related and odds-based questions. Old forecasts are kept " +
         "exactly as they were; every card shows its phase, and the Accuracy tab splits the score by phase."),
+      p("Phase 1.2 started with the Oct 24 forecasts, after the AI had trailed the market for three weeks: the AI thinks harder " +
+        "(high effort), sees its own track record, has new forecasting rules (finding no news is weak evidence, think about who " +
+        "controls the outcome, stay between 5% and 95% unless it's decided, start from how often such things happen), gets economists' " +
+        "forecasts for data questions, and bets cautiously from a fresh $1,000 paper account."),
       h("Cost"),
       p("One request a day through Anthropic's Message Batches API, which is half price. Total so far: $" +
         (DATA.total_cost || 0).toFixed(2) + "."),
@@ -1149,7 +1198,7 @@
   function safely(fn) {
     try { fn(); } catch (e) { if (window.console) console.error(fn.name + " failed:", e); }
   }
-  [setupTheme, setupMasthead, renderPortfolio, renderPhases, renderAccuracy, renderOpen, renderSettled, renderMethod].forEach(safely);
+  [setupTheme, setupMasthead, renderAccountPicker, renderPortfolio, renderPhases, renderAccuracy, renderOpen, renderSettled, renderMethod].forEach(safely);
   document.querySelectorAll("[data-filter]").forEach(function (b) {
     b.addEventListener("click", function () { openFilter = b.getAttribute("data-filter"); renderOpen(); });
   });

@@ -60,12 +60,15 @@ def build_message(finished_days, newly_settled, resolutions, problems):
     days = storage.read_forecasts()
     stats = scoring.summary(scoring.scored_questions(days, resolutions))
     # Profit/loss counts open bets at today's market prices, like the website.
-    portfolio = build_site.build_data(days, resolutions, prices=storage.read_prices())["portfolio"]
-    total = portfolio["marked_equity"] - config.STARTING_BANKROLL
-    lines.append(
-        f"**Paper P&L: {_money(total)}** (account ${portfolio['marked_equity']:,.2f}; "
-        f"{_money(portfolio['pnl'])} settled, {_money(portfolio['unrealized'])} on open bets)"
-    )
+    # One line per paper account (Phase 1.2 started a fresh one).
+    data = build_site.build_data(days, resolutions, prices=storage.read_prices())
+    for account in data["accounts"]:
+        portfolio = account["portfolio"]
+        total = portfolio["marked_equity"] - config.STARTING_BANKROLL
+        lines.append(
+            f"**{account['name']} P&L: {_money(total)}** (worth ${portfolio['marked_equity']:,.2f}; "
+            f"{_money(portfolio['pnl'])} settled, {_money(portfolio['unrealized'])} on open bets)"
+        )
     if stats["n"]:
         lines.append(
             f"AI vs market ({stats['n']} settled): Brier {stats['ai_brier']:.3f} vs "

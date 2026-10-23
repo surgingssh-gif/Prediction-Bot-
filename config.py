@@ -17,8 +17,15 @@ down the date and the reason in the README's "Experiment log".
 MODEL = "claude-opus-5-5"
 
 # How hard Claude thinks before answering ("low", "medium", "high").
-# "medium" is a good balance of quality and cost for this job. (FROZEN)
-EFFORT = "medium"
+# Raised from "medium" to "high" on 2026-10-23 (Phase 1.2): the AI was
+# trailing the market, and the whole run cost only about $1 a month, so
+# there was room to let it think harder. (FROZEN)
+EFFORT = "high"
+
+# The most Claude may write in one answer, thinking included. Raised with
+# the effort level so a long think can't cut the answer off. Batches have
+# no time limit per request, so a big number is safe here.
+MAX_TOKENS = 32000
 
 # Price per million tokens for each model, used to log what each day cost.
 # The Message Batches API charges half of these.
@@ -59,10 +66,14 @@ MAX_RULES_CHARS = 8000
 # Which version of the experiment's rules made a forecast. Every forecast
 # file records it, so results can be split before/after a logged change.
 #   1.0 - Oct 2-9, 2026: the original setup
-#   1.1 - from Oct 9, 2026: wider odds filter, better news searches, full
+#   1.1 - Oct 10-23, 2026: wider odds filter, better news searches, full
 #         rules, realistic fills, exact-10-point fix, conflict/odds-market
 #         filters (see the README's experiment log)
-PHASE = "1.1"
+#   1.2 - from Oct 24, 2026: high effort, a track record of its own past
+#         forecasts in the prompt ("learning"), new forecasting rules,
+#         searches for economists' forecasts, cautious bet sizing and a
+#         fresh $1,000 paper account
+PHASE = "1.2"
 
 # ---------------------------------------------------------------------------
 # Paper trading (FROZEN) - no real money, ever
@@ -79,6 +90,22 @@ DAILY_BUDGET_FRACTION = 0.10
 # At most this many open bets on the same real-world story (questions that
 # share a name like "Brazil" or "Gemini"; see groups.py). Added 2026-10-05.
 MAX_BETS_PER_STORY = 2
+
+# Cautious sizing (added 2026-10-23, Phase 1.2). Bets are decided and sized
+# as if the AI's forecast were only this far from the market's midpoint
+# toward its own number: 0.5 = halfway. So the AI must disagree by about
+# 20 points before a bet is made (10 points after halving), and bets are
+# smaller. The AI's own forecast is still what gets scored.
+SIZING_SHRINK = 0.5
+
+# Separate paper accounts. Each starts with STARTING_BANKROLL, and bets
+# made under a phase use that phase's account. Phase 1.2 got a fresh
+# account so the new rules aren't stuck with the old account's losses.
+ACCOUNTS = [
+    # (account id, name shown on the site, first phase in it)
+    ("original", "Original account", "1.0"),
+    ("phase-1.2", "Phase 1.2 account", "1.2"),
+]
 
 # ---------------------------------------------------------------------------
 # Running the job

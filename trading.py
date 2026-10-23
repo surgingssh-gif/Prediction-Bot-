@@ -63,7 +63,19 @@ def fill_order(spend, asks, fee_rate, limit_price):
     return shares, stake, fees, levels
 
 
-def decide_bet(ai_prob, best_bid, best_ask, fee_rate, equity, cash, asks=None):
+def cautious_prob(ai_prob, best_bid, best_ask, shrink=None):
+    """
+    The probability bets are based on: the AI's forecast pulled part of the
+    way back toward the market's midpoint (see SIZING_SHRINK in config.py).
+    With shrink = 0.5 and a market at 40%, an AI forecast of 70% counts as
+    55%. This only affects betting; the AI's own number is what's scored.
+    """
+    shrink = config.SIZING_SHRINK if shrink is None else shrink
+    mid = (best_bid + best_ask) / 2
+    return round(mid + shrink * (ai_prob - mid), 6)
+
+
+def decide_bet(ai_prob, best_bid, best_ask, fee_rate, equity, cash, asks=None, shrink=None):
     """
     Decides whether to make a paper bet, and how big.
 
@@ -76,11 +88,16 @@ def decide_bet(ai_prob, best_bid, best_ask, fee_rate, equity, cash, asks=None):
                (from the order book). If given, the bet is filled level by
                level like a real order. If None (the book couldn't be read),
                every share is assumed to cost the best price.
+    shrink   - how much of the AI's disagreement to trust (1 = all of it;
+               default SIZING_SHRINK). See cautious_prob().
 
     Returns (bet, note): bet is a dict, or None with a note saying why not.
     """
     if best_bid is None or best_ask is None:
         return None, "No live prices to trade at."
+    raw_prob = ai_prob
+    ai_prob = cautious_prob(raw_prob, best_bid, best_ask, shrink)
+    raw_gap = max(raw_prob - best_ask, best_bid - raw_prob)
 
     # Buying "Yes" costs the ask. Buying "No" costs 1 - bid
     # (selling "Yes" at the bid is the same as buying "No").
@@ -94,6 +111,10 @@ def decide_bet(ai_prob, best_bid, best_ask, fee_rate, equity, cash, asks=None):
         side, price, win_prob, gap = "NO", round(1 - best_bid, 6), round(1 - ai_prob, 6), no_gap
     else:
         biggest = max(yes_gap, no_gap)
+        if ai_prob != raw_prob:
+            return None, (f"Gap vs. the price we'd pay is {raw_gap * 100:.1f} points; counting only part of it "
+                          f"(cautious sizing) leaves {biggest * 100:.1f}, under the "
+                          f"{config.MIN_EDGE * 100:.0f}-point minimum.")
         return None, (f"Gap vs. the price we'd pay is {biggest * 100:.1f} points, "
                       f"under the {config.MIN_EDGE * 100:.0f}-point minimum.")
 
@@ -129,11 +150,14 @@ def decide_bet(ai_prob, best_bid, best_ask, fee_rate, equity, cash, asks=None):
         "stake": round(stake, 2),           # money for the shares
         "fee": round(fees, 2),              # Polymarket's fee
         "cost": round(stake + fees, 2),     # stake + fee
-        "gap_pts": round(gap * 100, 1),
+        "gap_pts": round((raw_prob - price if side == "YES" else best_bid - raw_prob) * 100, 1),
+        "edge_pts": round(gap * 100, 1),      # the gap after cautious sizing
+        "sized_on": round(ai_prob, 4),        # the probability the bet was sized on
         "kelly_full": round(full_kelly, 4),
         "fill": fill,
         "levels": levels,
-    }, f"Bought {side} ({gap * 100:.1f}-point gap)."
+    }, (f"Bought {side} ({gap * 100:.1f}-point gap)." if ai_prob == raw_prob else
+        f"Bought {side} (AI's gap {raw_gap * 100:.1f} points; {gap * 100:.1f} after cautious sizing).")
 
 
 def payout(bet, outcome):
@@ -149,6 +173,25 @@ def payout(bet, outcome):
 
 def _when(text):
     return datetime.fromisoformat(text.replace("Z", "+00:00"))
+
+
+def _phase_key(phase):
+    """"1.10" -> (1, 10), so phases sort as numbers ("1.10" comes after "1.2")."""
+    return tuple(int(part) for part in str(phase or "1.0").split("."))
+
+
+def account_for(phase):
+    """Which paper account a phase's bets use (see ACCOUNTS in config.py)."""
+    chosen = config.ACCOUNTS[0][0]
+    for account_id, _name, first_phase in config.ACCOUNTS:
+        if _phase_key(phase) >= _phase_key(first_phase):
+            chosen = account_id
+    return chosen
+
+
+def account_days(forecast_files, account_id):
+    """The forecast files whose bets belong to one paper account."""
+    return [d for d in forecast_files if account_for(d.get("phase", "1.0")) == account_id]
 
 
 def replay(forecast_files, resolutions, starting=None):
