@@ -1,0 +1,506 @@
+{
+  "run_id": "2026-10-24",
+  "date": "2026-10-24",
+  "created_at": "2026-10-24T01:30:01Z",
+  "model": "claude-opus-5-5",
+  "effort": "high",
+  "phase": "1.2",
+  "pick_stats": {
+    "eligible": {
+      "Economy": 11,
+      "Entertainment": 2,
+      "Politics": 155,
+      "Tech": 2
+    },
+    "picked": 9
+  },
+  "track_record": "=== Your track record so far ===\nThese are your own earlier forecasts in this experiment that have settled (40 questions). They show only what you said and what happened (no market information).\n- On average you said 36%, and 45% of these events happened. So far you have been too low: events happened more often than you said.\n- Your average Brier score is 0.270 (0 is perfect; always saying 50% scores 0.250).\n- When you said...\n    under 10%: it happened 3 times out of 5.\n    10-30%: it happened 3 times out of 13.\n    30-70%: it happened 8 times out of 16.\n    70-90%: it happened 4 times out of 6.\n- Your biggest misses:\n    \"Will SpaceXAI officially rename itself to SpaceXSI by October 15?\" You said 3%; it happened.\n    \"Will the Tesla Roadster fly for 1s+?\" You said 4%; it happened.\n    \"Will monthly inflation increase by 0.6% in September?\" You said 7%; it happened.\n    \"Will Flavio Bolsonaro win the most votes in the first round of the 2026 Brazil presidential election?\" You said 12%; it happened.\n    \"Will Flávio Bolsonaro finish in second place in the first round of the 2026 Brazilian presidential election?\" You said 86%; it did not happen.",
+  "questions": [
+    {
+      "market_id": "1194657",
+      "event_id": "166780",
+      "event_title": "Bulgaria Presidential Election",
+      "option": "Аndrey Gyurov",
+      "question": "Will Аndrey Gyurov win the next Bulgarian presidential election?",
+      "rules": "Presidential elections in Bulgaria are expected to be held in the Fall of 2026.\n\nThis market will resolve according to the listed candidate who wins the next presidential election in Bulgaria. \n\nThis market includes any potential second round. If the result of this election isn't known by December 31, 2027, 11:59 PM ET, the market will resolve to \"Other\".\n\nThis market will resolve based on the result of the election, as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the Bulgarian government, specifically the Central Election Commission (Centralna izbiratelna komisia, CEC) (www.cik.bg/).",
+      "topic": "Politics",
+      "end_date": "2026-10-26T03:59:00Z",
+      "url": "https://polymarket.com/event/bulgaria-presidential-election",
+      "snapshot": {
+        "time": "2026-10-24T01:29:55Z",
+        "crowd": 0.12,
+        "best_bid": 0.11,
+        "best_ask": 0.13,
+        "volume": 449601,
+        "liquidity": 409408,
+        "fee_rate": 0.0
+      },
+      "news": [
+        {
+          "title": "Bulgaria: Concerns about security in the Black Sea dominate presidential election campaign",
+          "source": "DW.com",
+          "published": "2026-10-22",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQeWxJaG1VSlJ0Qi10ZzZnZW9VY2xXVEdYdENaR29HRU1OMHJDWFA3ekxGbll5RjJKZ3NTZFFPbHd2RzBZTjFqTklRR0s5R2I3TFZQLU1wRXh5YXdpU012YTMyTDlxblQyWkZxa3A3WUZNUGQxSVZIdENmN0RDeWtRVWNrUDNBc3k2TllpTmh1ZURxUk9qdDBwTUpBbnZMdmt3dDM1Mk0wc0JzX0J3Q2hlYVVuTEQ5VWpScDBzTEVWc9IBvwFBVV95cUxQdlh6WDl4M2k2SjZaSVZLZmZPdHBOTlpZR0pqUlFJd0xOVFR6YjV6S2VwSVVVclNtMjZzTDdYS0Y5V3lmYWFHdGh5NlU4akdyVklhQ2VhRFNDR2FtaGp5MnhmdXR1alR6TzJkNTczbHNWbUR4bHZJSUFBc0RVT1lDUzVqSjBlQWdIRXVfM2xLc05BMXR1eXpRNm1IMThERTA5TU40Q0xHNnM5MzBUTjJTRGxLY1l3NHI0d3I1UjJzMA?oc=5"
+        },
+        {
+          "title": "Bulgaria: presidential elections in the shadow of war",
+          "source": "Osservatorio Balcani Caucaso Transeuropa",
+          "published": "2026-10-20",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcl9TS2RORHYwbVBqUF9pVFNsV3NYQ21SbjMtZXRSa3JfOXlrMDlxX3ZEajN0d09QUEoyU3gxRmJzU3FVY2UzSnN3Szg4enhDdTVSNjF5eEphX3d0X2E4MFZCazJST2JUTjdQYTdKYUxsSDQwTjdRekJvQ3ZMZWxIelNGTFc0MU16di1OMEprXzhFS09JeklseHlyTVhpQnM?oc=5"
+        },
+        {
+          "title": "Bulgaria will vote for president as Ukraine and Black Sea drone attacks dominate campaign",
+          "source": "Bozeman Daily Chronicle",
+          "published": "2026-10-23",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiogJBVV95cUxPT1V5LWt3TnpGR2hhWlYwd3hZZUdCWDdtMHVGX3BpOHhJQ3hvUFJMcXJhZlBaUHo2cjN3VUFUV1FXZzlmOE9Tc19MdnhaZVR3NWszWTdqNlJla09fakw4OGdLelJHUWUyQzY4aEpnLUdIYjJxQXJQeS1RRFNOel9ibVZ0dDFzSUlMdnFxS2w3MjVQTWh3S0FEdVJtSjc1S0VtZ0RJWWdLdzEyTEtQQ2pRRTlnQk5OLTdOXzVUcFJaeDNNbnJXNmFuNWNOajUwXzNCZ2NZY2hNVjJCNEpRbkJFdjJ4UUY5ZHhXcWZ2allFbVlpbkJwVVl2TUJJT2docjg5V0gwNE1mczBTYVZaWWVCY3puS3lvNFRsaDFGRzd2aWVJdw?oc=5"
+        },
+        {
+          "title": "How Bulgaria’s pro-Russian PM could gain his own president and why it matters",
+          "source": "Європейська правда",
+          "published": "2026-10-14",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9OdUxFN005WmVTdUxHRU1aeGpmNmZvYWxKU0d3V0tLWWZVV2hMcXJOMGJjVGJRaXdDOTZwaTRNWXdkYlVJMWNDNDVDc0dSaVVVS0xLYXZyb2xuOE9Ibk1jT0hVbUUwVmZKRzN5VlBXQU4?oc=5"
+        },
+        {
+          "title": "Presidential Candidate Andrey Gyurov: The Balance",
+          "source": "Novinite.com",
+          "published": "2026-10-20",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQazI0RVFZbHhwR1hETkgtMmYwZWdfa24yejZQX2dWYXBKRzFBV1RtcmdKaWVlSWY4ZzhvOFROMHREa3R0Q2k1cDhSSl9Md3VielRhTHBwWGViaW56R3hERVhZUHBKd0JPUnNwa2hCalE1d0RpWDVkd3FfaXJZZXg4SFdwTGc5b3JycDZVTVRnajR6NEdDNnpZ?oc=5"
+        },
+        {
+          "title": "Bulgaria: Presidential elections amid rising tensions in the Black Sea",
+          "source": "Veridica.ro",
+          "published": "2026-10-23",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOcktYRVl0dUYzZkVDNm44NXZJV1NtV3pRbVRqckxURXBRU1JZQzNfYzdzQldIRFZQT0RkSmpJZXdvaE1WOWtqT3N6X2s5cnJVUHB3eWZiMTNlWG5SUk1kbGZCVFBGLWNqVldRUW9fZl83bWpNQVFqa0NOQV9kaS0yVDU3QUZITEwxR182N0FjU2xPdGdmT3ZuRGtSbmdOeGFYNDFxRjU0ZFk?oc=5"
+        }
+      ],
+      "news_query": "ndrey Gyurov win Bulgarian presidential election"
+    },
+    {
+      "market_id": "629691",
+      "event_id": "57222",
+      "event_title": "Texas Governor Election Winner",
+      "option": "Greg Abbott (R)",
+      "question": "Will the Republicans win the Texas governor race in 2026?",
+      "rules": "This market will resolve according to the winner of the 2026 Texas gubernatorial election.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the \"Democrat\" or \"Republican\" options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven't called the race in this state for the same candidate, this market will resolve based on the official certification.",
+      "topic": "Politics",
+      "end_date": "2026-11-04T04:59:00Z",
+      "url": "https://polymarket.com/event/texas-governor-winner-2026",
+      "snapshot": {
+        "time": "2026-10-24T01:29:55Z",
+        "crowd": 0.7215,
+        "best_bid": 0.717,
+        "best_ask": 0.726,
+        "volume": 466192,
+        "liquidity": 169955,
+        "fee_rate": 0.0
+      },
+      "news": [
+        {
+          "title": "Republicans stay bullish on Texas governor’s race, but two key groups present challenges",
+          "source": "NBC News",
+          "published": "2026-10-11",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNdUhHWTN0RmFEOXhER3VOTEhaSXJNc1dJRjVYb0pqR00zNVBYdERmOUdJNHFjYU1ldXd2cTFEd245Q1BnM2UxZlZlYmRBdWpjcjVZVUthdTdWN1hFUXlGTGVIc2prOUFZWW1LdmtHcmZFZTBCSVlEV1VKaDB0S3VDVGI4TUo1ano4QW5EYmhiMXY3RjhUc0VwcVRsdjlxdEVlalY5YS0wUXVSVmk3LWpWeHNMQURmY1BveHppX1pn?oc=5"
+        },
+        {
+          "title": "Texas Midterms: Who’s Winning the Battle for Voters?",
+          "source": "Houston Public Media",
+          "published": "2026-10-23",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQOWRreDRTVHd4VjhzUnFJSXBuX3djcjZSaE5xRWJBQ0U1Qmp1Z1FNZmgwQ09pWTZTbXJkTGxuUHZKRm1jSmF3U1hiem1RVzZwUEgwdlFPQkl5ZFNkck5rU3M2TXI2SWRCR2ppUVppUWgwcFVOejBYTU1FLVQxcV9mdnIwR1BES1NsYTE1Q1BzQ3hTdWRhMlJzdW1hU19yb21mWUhIQzZScEY2NnlnRk1HZ3hyTnljaUsxR1HSAcIBQVVfeXFMTV8zay1hTVJLTUNlRF9XSVNmU25YMVF4WmQxN1VYYkFYeHIyYTNNekFaY3RXRFJzVW4yQ3hqRUNrRWRzR0VKVXJHTFBaU3lqT3M5V29Ba0QxWXNzMDRJa2xzUE1qeHhFYlMwR3Nhc2VUTzNteXVYLXYyMHpIS1hpX2tkSmM2eU16NTg5dGx1S1pQdlFsdFV2QjQyajJNMmZyUGs2U1IwUEl6M3EtLWFMb0JqMzkxRmFnQUlpRHRWcV9CSXc?oc=5"
+        },
+        {
+          "title": "Democrats hold narrow leads or trail by small margins in Texas midterm elections",
+          "source": "The Texas Tribune",
+          "published": "2026-10-14",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQQWY4aXhLOG9zNFdBUnVIUDhONEZrd014cXk1Nk9FVF8xaFptZXBpcGV4T2R5bXl3NGQ0b09HTU10b0NNZkdrRkRYdm5JWjQzRk9WdHNyWURhY3ZEUEZxOTc4NkNGV3J5OFFTdXZLTHdpazJZVzQxeXJobk9aRkMydlRZelRoVFNnQU40NC15VWs2ZmdiZ0E?oc=5"
+        },
+        {
+          "title": "New polls show Republicans in Texas losing ground in races",
+          "source": "The Center Square",
+          "published": "2026-10-12",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOQ2hXQXpjWjl0Z2NoeTBHQVNubC1iY1dPTTJveWlyTHNscHFoRGcwbG9jb20xampjYWV2QWZ2M21lY3JzNXFHU1V5Vjgzc0JGU042OXJJRkdiTW81TzY2VS1yU1VCdHFxU0J0RFAzUGduUEtpVkcwTEpoZTdZRGg1Um1PanBQbllMX29iRzJkWW7SAZYBQVVfeXFMUE1UYjR2Q2huaXl3dFhDYVYyZ0E0VGs4MjUzLUx2emJ0X2ktQzVocUh6dDZqZ1lQTDRmWnZtYU82NVB1OUlmdThESDg1ZDF5UWhmRUt5N2luMTJjVjJCUGFZQkFVVXRtanNNZ3dQOE5jbFVkaVlZTWJ1ZjY0elcxMGZvYUpJUmx3WXFSamJLYkVDZ2duX3pB?oc=5"
+        },
+        {
+          "title": "Polling numbers show Democrats neck and neck with Republicans in several key races",
+          "source": "Texas Standard",
+          "published": "2026-10-14",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWXBUbURJcTN1VDg4V1ZXQ3ctZlpLVFZTR2xDTlp1UkJXbVZXVmZvYnBVNVphU0htZVlYMEhDQUZFZjFTQUZTSVRILVJRYzdTek80ZzhJQ1VSVTA0YmdScVhRM3ZTUktWR19YUlRvaUgtdGZiY2tNZ0c2NzVWT3hKQVBR?oc=5"
+        },
+        {
+          "title": "The 7 Key Governor Races to Watch in the Midterm Elections",
+          "source": "Time Magazine",
+          "published": "2026-10-21",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPTDVtU1JJR1l5emYyWVZXTDJLNXZjS0JmTG1DcjRqcmRFcVIyRHBWWmxQN0hJMXd2NDl4VmxlWjQtb1VlQnNGMWlXZDVVVmZuNTdBZ3Q1MzVHZzR0ZXlMQnQ5Q01BdlhzdDBTSkdfNDFPZ09JRF9nWW9zek9HRU5Id0t3?oc=5"
+        }
+      ],
+      "news_query": "Republicans win Texas governor race"
+    },
+    {
+      "market_id": "1812608",
+      "event_id": "330634",
+      "event_title": "Toronto Mayoral Election Winner",
+      "option": "Brad Bradford",
+      "question": "Will Brad Bradford win the 2026 Toronto mayoral election?",
+      "rules": "The 2026 Toronto mayoral election is currently scheduled to be held on October 26, 2026.\n\nThis market will resolve according to the candidate who becomes the next mayor of Toronto as a result of this election.\n\nTemporary, interim, or placeholder mayors appointed before the election will not be considered.\n\nIf the result of this election isn't known by June 30, 2027, 11:59 PM ET, the market will resolve to \"Other\".\n\nThe primary resolution source for this market will be a consensus of credible reporting; however, if there is any ambiguity in the results, this market will resolve according to official information from Toronto.",
+      "topic": "Politics",
+      "end_date": "2026-10-27T03:59:00Z",
+      "url": "https://polymarket.com/event/toronto-mayoral-election-winner-545",
+      "snapshot": {
+        "time": "2026-10-24T01:29:55Z",
+        "crowd": 0.325,
+        "best_bid": 0.31,
+        "best_ask": 0.34,
+        "volume": 244185,
+        "liquidity": 88016,
+        "fee_rate": 0.0
+      },
+      "news": [
+        {
+          "title": "Chow and Bradford neck-and-neck with days left in Toronto mayoral election campaign",
+          "source": "Global News",
+          "published": "2026-10-20",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPUWFlOVVIRi1GODBDSk1yc1JUbXZUd3RGZ1BVSlFTRHhMaldTMGNQWGtmTVItaVE5aDJ5cEN4Q3JLVmt5ZW16ei0zY1pWeW45SWIyZkN4XzNCQWJGekFhZngxb0NKeENuMXFIek0zOEJRMXcySVYwUDBQaXFrdHpVR2FwNWJwS0R5YW9ISkJwYklQQzdBZFdzWFl2QWRFeUdVaU8tZ3ZabEdiU3R6dzVFOVFn?oc=5"
+        },
+        {
+          "title": "Toronto's mayoral race a 'statistical dead heat,' new poll suggests",
+          "source": "CBC",
+          "published": "2026-10-21",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOazcwYzg4OGZ0aXBDdzN0b0ZzSEVqWmpDd2RDbDRKRkNpSHlMejAxbjliVE1pa21jb3ZSN2ZEdVJEQTBVeFpBLVJnV2RUXzRMN0pRVHRRa2d3d1g3RVplaEgyemV4NllyOFZHRU5UWjVERUh3MUlDRjVYUVgxU1hWMFlRV3pnZw?oc=5"
+        },
+        {
+          "title": "Why a Brad Bradford victory could have a different look than any other Toronto mayoral race",
+          "source": "Toronto Star",
+          "published": "2026-10-23",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNd2RLNFhVM1ZBVHBvbmFFdGFhdGZoQXItYXRnQWRjR2JueUFXMXFqNEtTdmItWHUza2JIN1RrVHV1ZEdUVUVOejJjWC1DSFZ5c21RTk9pa19tTWJid2dJVUJlTlhRZXltQW1HWi1Nd0VYT3BEb2FRanFlLVBCZFlIOGpGMV9WejJNWXhFVXA3RVJRalBTX05GbXpWSVJZRlBCd1RvTGN2M2JubHRlZW1sVURJOVh2ZkRkdEhrOGVINXhLNV9TQWlMZTEzdGxkMURxb0lILXZDLUp0QU9UeURVVWFlaUUzaGFjdk5jZTdwRWh1SVBnbkV1NmtGRmlVaVl5R1ow?oc=5"
+        },
+        {
+          "title": "Scott Stinson: Olivia Chow was a heavy favourite to be re-elected as Toronto mayor. Not anymore",
+          "source": "National Post",
+          "published": "2026-10-23",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFB0Q0dwclpTTDFhMlRRQlhBUkhHVjFzQUhleEE1alAxMjFRdldDWEZ4clZyTlN0Rm1xdmYtX0hzXzNBRDF4QU9uNWRjYVdwMHBxd3JnNmJXTjVodXFrZERKYnlTblF1MHk4bG5zeHhFRTZJeVRzSVhzLVEycDM?oc=5"
+        },
+        {
+          "title": "LILLEY: Advance poll surge could spell trouble for Olivia Chow in mayoral race",
+          "source": "Toronto Sun",
+          "published": "2026-10-13",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNa1kySU5CaTRmVnJZaGdfd1NLcmt4VDZ2UnQ1TTU3UFVZQ1AyWU9Edl96N2oxelNiRU9sdG85VDdhWGc0ZXZkTEZFeDlLck1IaWsyN29jTTNYMGFpNDU5YWJHMXlDZFV5MFQ2LTVHWXhFRkoxejE5a1NxQS1sNUx6NExOS1VuMkY5bGxvUHZR?oc=5"
+        },
+        {
+          "title": "Bradford takes narrow lead over Chow in Toronto mayoral race: poll",
+          "source": "CityNews Toronto",
+          "published": "2026-10-20",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQZGxPaDFMRlU4WjJGTFJjZG56eDRZTXFrQkNob1locXRxY2R6amF2X3JBQW9FUkV2VUJyb0pZQWZVTDF0eU0zZThiV2VYdmY4akN1T2t6SWd5QWtmVnU5RXhjYU1FeFFBYXhvVjNFTlFjNU1VWnNyS0czNDlQNmU1VFFHNkpHRUlNMDFQa3R5MjBTdw?oc=5"
+        }
+      ],
+      "news_query": "Brad Bradford win Toronto mayoral election"
+    },
+    {
+      "market_id": "5951056",
+      "event_id": "1220614",
+      "event_title": "\"Clayface\" Opening Weekend Box Office",
+      "option": "<22m",
+      "question": "Will \"Clayface\" Opening Weekend Box Office be less than 22m?",
+      "rules": "This market will resolve according to how much \"Clayface\" Opening Weekend Box Office will gross domestically on its opening weekend. The \"Daily Box Office Performance\" figures found on the \"Box Office\" tab on this movie's The Numbers (https://www.the-numbers.com/) page will be used to resolve this market once the values for the 3-day opening weekend (October 23 - 25) are final (i.e., not studio estimates).\n\nIf the reported value falls exactly between two brackets, then this market will resolve to the higher range bracket.\n\nPlease note, this market will resolve according to the The Numbers figures provided under Weekend Box Office Performance for the 3-day weekend (which typically includes Thursday's previews), regardless of whether domestic refers to only the USA, or to USA and Canada, etc.\n\nIf there is ambiguity as to whether the resolution source's figures are final, this market will remain open until both https://www.boxofficemojo.com/ and https://www.the-numbers.com/ have confirmed their finalized figures.\n\nIf there is no final data available by October 30, 2026, 11:59 PM ET, another credible resolution source will be chosen.",
+      "topic": "Entertainment",
+      "end_date": "2026-10-25T12:00:00Z",
+      "url": "https://polymarket.com/event/clayface-opening-weekend-box-office",
+      "snapshot": {
+        "time": "2026-10-24T01:29:55Z",
+        "crowd": 0.555,
+        "best_bid": 0.53,
+        "best_ask": 0.58,
+        "volume": 26557,
+        "liquidity": 2413,
+        "fee_rate": 0.0
+      },
+      "news": [
+        {
+          "title": "Box Office: 'Clayface' No 1 With $23M, 'You Can See Everything' At $19M",
+          "source": "Deadline",
+          "published": "2026-10-23",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQbG5Sa2dXU2ZuR0FodkdzeGtLbENPa1lHNkhEcUEtVHpSZXdWTktjY2R5TmhMTm53RnJoTzdqS0wtNlZBWGRxeFVBX1BWWWdxSk5BVXU1TDc4d1d0UzQzQU0zMjk5X3A1N0RVQVRFa2NSWEFGSm1FeUlZQ1RHQnJ2SG9yQy1vaFB1bHZn?oc=5"
+        },
+        {
+          "title": "Will ‘You Can See Everything’ Beat DC’s ‘Clayface’ at the Box Office?",
+          "source": "Variety",
+          "published": "2026-10-21",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPXzk2ODRNLUdEbjd0MThYcmR6YU1yQVNsYl9GUl9ha2U3S2VNbURJbDRoSlktNHpicWVBY0NqVV9qZk8tRTJwcTlySUFuUlBsMzdnWVJrVUM3RWtfcmFPOXIxQndfVUFhSXIxN20teHE4YzB4bmppVThfX3pIX1ZWMll0bUN3OTVIMFVSSWF3ZHhmT0FBQTU0Wi1IOVBBbHZyRnAxMldadHFtdw?oc=5"
+        },
+        {
+          "title": "Weekend Preview: CLAYFACE Faces Off Against YOU CAN SEE EVERYTHING Expansion",
+          "source": "Boxoffice Pro",
+          "published": "2026-10-21",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQTEc2MkFrU3JSY1lnUm5zdlJILUNJODVaUE9EVDhnV21vS3BVWTZISWhjTE5uZS1PaGVEampvZ0VLZEcwN3pra2xXSmt0OEdubS1xYXdqdVcyNjZQUW1tNmZzbWxOcnhnT2ZRaGlGNVg0TlJ3by1XenZlM1l2UmF6cDZyWi1MUnJBRUljLU9KRDVKcXQyeFZ6eGdfeW5KRFc5WHFVNk52VkwzWTA3?oc=5"
+        },
+        {
+          "title": "‘Clayface’ Aims to Give DC Studios a Box Office Win as ‘You Can See Everything’ Stays Strong",
+          "source": "The Hollywood Reporter",
+          "published": "2026-10-23",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOaDhtNzE2UHJoRVVnYkF1M3M0cl81V1ZTdE8zVk9LZ1Rsel9KaUVYQ1RSbjhnSlFuQ2xhek5hNW4wWlpQWmRWcV83R2NhU1ByZEZ5aGpYdzZrTktwNWNnZjhhR2J6TWI3cFE5WlhONFBhTzJ6ZzZuVE5kUVAxU3ZGMml5Zm1DX21hUllDazJTOHNqSDJ3UklrQlczU0x0UHJma0E4Wkw5dGhTSkJLT3pxMTU0YW9PQ2V0VjdFbVJB?oc=5"
+        },
+        {
+          "title": "‘Clayface’ Box Office Alarm: Disastrous Presales Put Skydance On Notice",
+          "source": "Cosmic Book News",
+          "published": "2026-10-12",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5sbHVzWkdSWWtwT3U5clJ5WlVyZUh1a1QyTDBpUW5OQXR0cVliQU1ZbTJYWk5aM0R4VFBKVDg1TmhmQnhwd2RWQkstaG53VjQwTFFJ?oc=5"
+        },
+        {
+          "title": "‘Clayface’ and ‘You Can See Everything’ face off for No. 1 at the box office",
+          "source": "Gold Derby",
+          "published": "2026-10-22",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQVXg0cWV2QnBFRGEtUHJhU2JuUXF5RWN2RFdkWF9qb3MxVWUxdlVZQXhBRDN5eF9NYVVad0RiVGR6aGlVRjZTbXJnampCTFN0Znc1WF9pREFSOE5CalVLanZ3NGRFa2NLVkd6UWVJN1RoTHdWRzVUNlI1WlFXOUpJR2NoQ0sxLVh0WDdTc2ZLSmVBUVE?oc=5"
+        }
+      ],
+      "news_query": "Clayface Opening Weekend Box Office"
+    },
+    {
+      "market_id": "5713521",
+      "event_id": "1191140",
+      "event_title": "\"Wildwood\" Opening Weekend Box Office",
+      "option": "14m-16m",
+      "question": "Will \"Wildwood\" Opening Weekend Box Office be between 14m and 16m?",
+      "rules": "This market will resolve according to how much \"Wildwood\" Opening Weekend Box Office will gross domestically on its opening weekend. The \"Daily Box Office Performance\" figures found on the \"Box Office\" tab on this movie's The Numbers (https://www.the-numbers.com/) page will be used to resolve this market once the values for the 3-day opening weekend (October 23 - 25) are final (i.e., not studio estimates).\n\nIf the reported value falls exactly between two brackets, then this market will resolve to the higher range bracket.\n\nPlease note, this market will resolve according to the The Numbers figures provided under Weekend Box Office Performance for the 3-day weekend (which typically includes Thursday's previews), regardless of whether domestic refers to only the USA, or to USA and Canada, etc.\n\nIf there is ambiguity as to whether the resolution source's figures are final, this market will remain open until both https://www.boxofficemojo.com/ and https://www.the-numbers.com/ have confirmed their finalized figures.\n\nIf there is no final data available by October 30, 2026, 11:59 PM ET, another credible resolution source will be chosen.",
+      "topic": "Entertainment",
+      "end_date": "2026-10-25T12:00:00Z",
+      "url": "https://polymarket.com/event/wildwood-opening-weekend-box-office",
+      "snapshot": {
+        "time": "2026-10-24T01:29:55Z",
+        "crowd": 0.06,
+        "best_bid": 0.04,
+        "best_ask": 0.08,
+        "volume": 10793,
+        "liquidity": 3643,
+        "fee_rate": 0.0
+      },
+      "news": [
+        {
+          "title": "Box Office: 'Clayface' No 1 With $23M, 'You Can See Everything' At $19M",
+          "source": "Deadline",
+          "published": "2026-10-23",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQbG5Sa2dXU2ZuR0FodkdzeGtLbENPa1lHNkhEcUEtVHpSZXdWTktjY2R5TmhMTm53RnJoTzdqS0wtNlZBWGRxeFVBX1BWWWdxSk5BVXU1TDc4d1d0UzQzQU0zMjk5X3A1N0RVQVRFa2NSWEFGSm1FeUlZQ1RHQnJ2SG9yQy1vaFB1bHZn?oc=5"
+        },
+        {
+          "title": "Wildwood box office: Laika’s new movie is tracking for $6M to $10M",
+          "source": "IMDb",
+          "published": "2026-10-11",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBYbDZ5amNSbDhSM0pWYlNaTURJMXN4NndoSE1URzhEUmkyWXpycVVZNzFoMGtNTWN3R0xMWV9wTXVDWVhmQzVWaDhYZlVjY1ZnYzVrSTF6OW5OeDV3OGRCa3FZRi1fbGc?oc=5"
+        },
+        {
+          "title": "‘Wildwood’ Is Nike Founder Son’s Latest Unprofitable Masterpiece",
+          "source": "Bloomberg.com",
+          "published": "2026-10-23",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVVdKd1B3eHR3M3M1VG43bTRJRF9QdjUxZVlyUW10azhiYmpfcmJTWEpXZld4bDhXUEtTNmJieVFjWkRFLUNqNDZVNnhKTm5qa3FWOFlnRF9XX0xSOG93QmpCY2tMa1BrbVlQbEdPMlNJcUhENVVCMjh6bWlaSlJNWHlPc3hZM282ZjhvVHZFcE9oZkVJTmlmN3l6dWl4M2NXam1DaDJSMlE0aHV4UFVOTEI5aXQ?oc=5"
+        },
+        {
+          "title": "Can adult animation sell? Laika’s ‘Wildwood’ will be the latest test",
+          "source": "Los Angeles Times",
+          "published": "2026-10-21",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQSGRUUmhrSU52OEIwREtPNFQ2RktFYmktT19ZVGVlRDdibjBXbzBwb1JmOWtzbmlkbUxZMmpTQ1N2Zm1OWkNjX0dMMVRReWtSd2Q3eGttRkppUFh0R21zZU50cFN4U203QV9yTVQta3BsQ1QyQ0pub1VVeTlEYjM1djhoU0lSc1JnTE9OSEd3VVF2M2hGYW5rN1FJazRlWl9PYWtLZ3J2TlMwOWl1b25WMy11VXRwZw?oc=5"
+        },
+        {
+          "title": "'Wildwood' is a critical darling and yet a potential box office bomb — what gives?",
+          "source": "The Business Journals",
+          "published": "2026-10-22",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPdWxtdnNqWWZlTm5UNFB3YVN1MzBzYzItd3MzYWRJS2E0VlNFanl5TV9NNGg0UVoyQkI4MzdKcUdscVBPei16X0ZTOU5lWEVfRlRHMmhrLU5zUjlONTluMHpXWmN3U1dqQzB6aWF3ak5qcmh3NFl6SlV1MU1tYjlPRzczV09oUDd2eFhlbHVrSmhUUW5idEJtcFB3RnpwaWxKMUZoUDBtOXU?oc=5"
+        },
+        {
+          "title": "Can Wildwood Overcome Its Big Budget And Become A Box Office Hit?",
+          "source": "SlashFilm",
+          "published": "2026-10-15",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1UR1lPYk1IQkwyS2tMdk83N25rczN3cXlzZGczX3VHZnVEdUVzMzhDN2piMUZVTl8xLTdSUEMzbGFDWk9RWGdoTWRZQ3d5Nm03NE50UHlaM1Qyc1FSeUowWUozXzRXSThnMmUxamxmck1WdHdaX0xWZjFqYUMyeTQ?oc=5"
+        }
+      ],
+      "news_query": "Wildwood Opening Weekend Box Office"
+    },
+    {
+      "market_id": "5154295",
+      "event_id": "1108501",
+      "event_title": "Longest GitHub critical incident in October?",
+      "option": "3-6 hours",
+      "question": "Will GitHub's longest critical incident in October 2026 be between 3 and 6 hours?",
+      "rules": "This market will resolve according to the duration of the longest qualifying incident that begins between October 1, 2026, 12:00 AM ET and October 31, 2026, 11:59 PM ET. \n\nIf no qualifying incident begins during this period, this market will resolve to the lowest bracket (“<1 hour”).\n\nAn incident will qualify if the official GitHub Status Page (githubstatus.com) or the official GitHub Status API (githubstatus.com/api) classifies the incident's impact as \"critical,\" unless its affected components, once the incident is marked \"Resolved,\" consist solely of Copilot and/or Copilot AI Model Providers. Incidents listing no affected components will qualify. GitHub classifies incident impact as None, Minor, Major, or Critical; only Critical will qualify. Component status labels (e.g. \"Degraded Performance,\" \"Partial Outage,\" or \"Major Outage\") will have no bearing on this market absent a qualifying critical incident.\n\nRevisions published after an incident is marked “Resolved” will not be considered.\n\nAn incident's duration is the time between its official start timestamp and the time the incident is marked “Resolved,” as published by the GitHub Status Page or the GitHub Status API. An incident will be attributed to the month in which it begins, based on its official start timestamp converted to Eastern Time (ET); an incident that begins during the period and is resolved after the period ends will count in full.\n\nIf the determined value falls exactly on the boundary between two brackets, this market will resolve to the higher bracket.\n\nIf an incident that began during the period remains unresolved at the end of the period, this market will remain open and resolve at the earlier of: (i) when the incident is officially resolved, or (ii) the end of the seventh calendar day (ET) after the end of the period, at which point the market will resolve based on the official information available at that time, with any unresolved incident's duration measured from its official start timestamp to that time.\n\nIncidents whose affected components, once the incident is marked \"Resolved,\" consist solely of Copilot and/or Copilot AI Model Providers will not qualify. Scheduled maintenance will not qualify.\n\nThe primary resolution source for this market will be official GitHub system-status information published at https://www.githubstatus.com/, including the official GitHub Status API (https://www.githubstatus.com/api); however, a consensus of credible reporting may also be used.",
+      "topic": "Tech",
+      "end_date": "2026-11-01T03:59:00Z",
+      "url": "https://polymarket.com/event/longest-github-critical-incident-in-october",
+      "snapshot": {
+        "time": "2026-10-24T01:29:55Z",
+        "crowd": 0.85,
+        "best_bid": 0.84,
+        "best_ask": 0.86,
+        "volume": 14687,
+        "liquidity": 3350,
+        "fee_rate": 0.0
+      },
+      "news": [],
+      "news_query": "GitHub longest critical incident hours | Longest GitHub critical incident hours"
+    },
+    {
+      "market_id": "5166953",
+      "event_id": "1111220",
+      "event_title": "Avg. # of ships transiting Strait of Hormuz end of October?",
+      "option": "0-5",
+      "question": "Will there be between 0 and 5 average daily transits of the Strait of Hormuz on October 31?",
+      "rules": "This market will resolve according to the finalized 7-day moving average of transit calls (“Arrivals of Ships”) for the Strait of Hormuz that IMF Portwatch reports for October 31, 2026.\n\nIf the reported value falls exactly between two brackets, this market will resolve to the higher range bracket.\n\nTransit calls include container, dry bulk, roll-on/roll-off, general cargo, and tanker ships. Ships not reported by IMF Portwatch will not be considered.\n\nData for a specific date must be finalized before it is considered for this market (namely, once the next date's data point is available, the previous one is finalized).\n\nThis market will resolve as soon as the relevant data has been finalized. If the data for the specified date has not been finalized by the end of the third calendar day (ET) after the day on which such data is released, this market will resolve based on data published up to that point. Additionally, if the relevant data is not released and finalized within 14 calendar days of the specified date, this market will resolve based on the most recent data published up to that point.\n\nIn case of obvious data integrity issues (i.e., erroneous data), the market may remain open until the end of the third calendar day (ET) after the date on which such data is first released to allow for corrections. Data integrity issues refer only to clerical or other similar errors in the underlying data, and do not include cases where IMF Portwatch differs from alternative sources.\n\nOnly revisions to previously published data points made before the applicable resolution time will be considered.\n\nThe resolution source for this market will be IMF Portwatch, specifically the transit calls data published for the Strait of Hormuz at https://portwatch.imf.org/pages/cb5856222a5b4105adc6ee7e880a1730, both in the chart and through downloadable files. Where an unrounded and rounded value provided by the resolution source differ with respect to the resolution of this market, the unrounded value will be used.",
+      "topic": "Economy",
+      "end_date": "2026-11-01T03:59:00Z",
+      "url": "https://polymarket.com/event/avgpt-of-ships-transiting-strait-of-hormuz-end-of-october",
+      "snapshot": {
+        "time": "2026-10-24T01:29:55Z",
+        "crowd": 0.945,
+        "best_bid": 0.93,
+        "best_ask": 0.96,
+        "volume": 13888,
+        "liquidity": 16067,
+        "fee_rate": 0.0
+      },
+      "news": [
+        {
+          "title": "Oil flow through Strait of Hormuz hits 12M barrels a day — defying increasing attacks from Iran",
+          "source": "New York Post",
+          "published": "2026-10-15",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQQ2VVSXprZWZkSjNMV1dVZVRGTzhPU01UUlptMkFKS2VxWXlfWHdfVnVocTJpQzYxZ1d2Nm9IWWF2c0ZsQVBBMTV1bFJUeTBENjRRQzdMUzlWSnFhcWJtS09HWlhyb01sWTl0N0U5SUt5dmhUT3o4WUZQTU8tVi1ORnhVRE9sOXlXeDhoZDAzRWtDSGNyMlVFYUh4X2tqbVZ4WF9zWVM5QmkycFhWOTlPVDlBUElDVWVQdUR2SnFEZmF5UQ?oc=5"
+        },
+        {
+          "title": "Traffic Through Strait of Hormuz Slows After Attack on Ship",
+          "source": "EnergyNow.com",
+          "published": "2026-10-17",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxONWR0R0hybmFjZ2x4SW1UckVLcVBYNGdSd0ItU2lTekxSTDBDNG5DWTJVX2RaZTl5SXF5YzRUYzlZaTdSanJDSXpoLXdEZGI0TFBYU3FqeXhDOVh4ZF9GbHB5YjF2bUFsOU1aRTNGUE9tS3U3eVo2QWg3YnZ5dHJ3NWctdFVwdHF2V2o1dWlEMmgzNjhS?oc=5"
+        },
+        {
+          "title": "How War Is Choking Global Oil Tanker Traffic in the Strait of Hormuz and Beyond",
+          "source": "The National Interest",
+          "published": "2026-10-15",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNOVN4QVVnNmdmblhUQkpqZHlaampHdTBLOHcyWEstMmNQbGpmTThLMTNrTnpfSWpNVmVPN0trSmxLdUhrUnUyNzdHd0RKVEdoQm5KNjJSX3FucDNvNk9EemZ6ZmNyRnlBeUVjUm91TXQ4b0d4SUc0RHY3eHpDVGRCeklhUmNZOUF6bGlGWjhqb2ktQ2E3dWxBVXVzWUFOeDB3TV85T2Y1STVka0s2MlpnUnl2MXhnSUpTN0VIVE53RWVxazZ4?oc=5"
+        },
+        {
+          "title": "Ships in Hormuz strait hit by worst spate of attacks since start of war",
+          "source": "Financial Times",
+          "published": "2026-10-13",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNeHJIZzZsc1Vfa1A1UEZRMkVhVkNWQlVjZXpxYUZ6OUdBSUFFRmVodlA5dFRqUHhENkx4YzVJUUlkTzVuU25yeTE3bVhlVnJUcVFPd3kwQXNWaElWdlg2anVnSWtaMWpqeU5RRHRGQTdvWkJsWndUbnZjZ2l0WG02ZDh3elo?oc=5"
+        }
+      ],
+      "news_query": "average daily transits Strait Hormuz | average daily transits Strait Hormuz October economists forecast"
+    },
+    {
+      "market_id": "4386085",
+      "event_id": "990713",
+      "event_title": "How many dissent at the October Fed meeting?",
+      "option": "0",
+      "question": "Will no one dissent the October Fed decision?",
+      "rules": "The October Federal Open Market Committee (FOMC) meeting is scheduled for October 27 to 28, 2026. The policy decision will be announced at 2:00 PM Eastern Time on October 28, followed by the Fed Chair’s press conference at around 2:30 PM ET.\n\nThis market will resolve according to the number of dissenting votes recorded at the October Federal Open Market Committee monetary policy meeting, specifically those dissenting on the Fed Funds Rate decision.\n\nThe resolution source for this market is the FOMC’s statement after its meeting scheduled for October 27 to 28, 2026, according to the official calendar: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm.\n\nThis market may resolve as soon as the FOMC’s statement for their October meeting with relevant data is issued; however, a consensus of credible reporting will also be used.",
+      "topic": "Economy",
+      "end_date": "2026-10-28T15:59:00Z",
+      "url": "https://polymarket.com/event/how-many-dissent-at-the-october-fed-meeting",
+      "snapshot": {
+        "time": "2026-10-24T01:29:55Z",
+        "crowd": 0.265,
+        "best_bid": 0.25,
+        "best_ask": 0.28,
+        "volume": 15738,
+        "liquidity": 2013,
+        "fee_rate": 0.0
+      },
+      "news": [],
+      "news_query": "one dissent Fed decision | one dissent October Fed decision economists forecast | many dissent Fed meeting"
+    },
+    {
+      "market_id": "3212218",
+      "event_id": "770107",
+      "event_title": "Reserve Bank of New Zealand decision in October?",
+      "option": "25 bps increase",
+      "question": "Reserve Bank of New Zealand increases interest rates by 25 bps at the October 2026 meeting?",
+      "rules": "This market will resolve according to the change in basis points in the official cash rate (OCR) resulting from the October 2026 meeting of the Reserve Bank of New Zealand, relative to the level it was prior to this meeting. \n\nThe resolution source will be official information from the Reserve Bank of New Zealand, including the statement or release from its October 2026 meeting, scheduled for October 28, 2026, as listed on the official RBNZ calendar (https://www.rbnz.govt.nz/news-and-events/events). This market may resolve as soon as the statement or release of the Reserve Bank of New Zealand resulting from its October 2026 meeting with relevant data is issued.\n\nIf the specified rate is defined by an upper and lower bound, the relevant change will be the change to the upper bound.\n\nIf the specified rate is changed to a level not expressed in the displayed options, the change will be rounded according to the following guidelines. Increases or decreases of less than 25 bps will be rounded to 25 bps (e.g. an increase or decrease of 10 bps would be considered to be an increase or decrease of 25 bps). Increases or decreases of greater than 25 bps will be rounded to the nearest 25 bps and will be rounded away from 0 in cases of equidistance (e.g., an increase or decrease of 37.5 bps would be considered to be an increase or decrease of 50 bps). Displayed options of \"Increase\" or \"Decrease\" will include policy rate increases or decreases of any size.\n\nIf the specified meeting is postponed to a date and time before the start of the next scheduled meeting, this market will resolve based on the outcome of that postponed meeting.\n\nIf the specified meeting is cancelled, or postponed such that no decision is announced by the start of the next scheduled meeting, this market will resolve to the \"No Change\" bracket. Emergency changes to the specified rate not resulting from the specified meeting will not be considered.",
+      "topic": "Economy",
+      "end_date": "2026-10-28T00:00:00Z",
+      "url": "https://polymarket.com/event/reserve-bank-of-new-zealand-decision-in-october-20260729164521631",
+      "snapshot": {
+        "time": "2026-10-24T01:29:55Z",
+        "crowd": 0.885,
+        "best_bid": 0.87,
+        "best_ask": 0.9,
+        "volume": 41957,
+        "liquidity": 2065,
+        "fee_rate": 0.0
+      },
+      "news": [
+        {
+          "title": "New Zealand Dollar drifts higher above 0.5600, all eyes on US CPI inflation data",
+          "source": "www.tmgm.com",
+          "published": "2026-10-14",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPa0xycENsaUpPTTBtSWkxd0FMelVhZHIzRDhmZWlDdWxfdUVIa2VnRFQycWpGWGlkRktVOTMxbFp3X05GTFNic293WlhyUW0xOVdWaFlMRWZFTl9sNXU3YUxJdG0zUE1SQTBTTW55TW0xVF9TdjdkOVFwRjQyb2txcDVidGh1ZzNCSnVLdGRHSXFuMEhVUnlXVGUxb1BkVmVid082QnV4T0d0aVJBTmtUYS1JUWVDdDJ0eG9RRjNyQXBCODZuTWx6VFI5eEV0UEVGU2lvSUp5YVN6Vk5Z?oc=5"
+        },
+        {
+          "title": "New Zealand Dollar rises to near 0.5650 as Fed's Warsh gives no hint on October decision",
+          "source": "FXStreet",
+          "published": "2026-10-16",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPUVFMLXJZeFZ4dEhRX25uLTFtaWYwb2U2VGZ0VTgtRkQ1WHlCZmtseFVYMllTLXQ2c1pHQWZNVWxKVFEyUXpQMzd3NlIzVXZGZXZoVmVWYzYtZ0dwQW16NF9HUlNWbHhHdmowSlV1ZFVOX3RzVEVoT1ZUN09XWG1fMzdsSHNfcURGMFladHVEeG4yR2JZS0Z6My1vTU5aemhWT2xiY3RqUEJHbkRUNVFDUnZ4OXJZeC1CRk5HUU5DZEx1V3pQZVJ0WA?oc=5"
+        },
+        {
+          "title": "New Zealand Dollar trims gains near 0.5700 after softer CPI inflation data",
+          "source": "FXStreet",
+          "published": "2026-10-22",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxORXlQdElJOWJNT3A5aHYtU3NncTdaa1dkSkdGU0ZUY2VqWmtTX0MyWFhYWDRpY3lkYkJSOFVxV2dkNVhRdVlMZUlHcXVGMUhBQUlyX2tvT2xURTFGRkhuZG40UkluVWZNRk9wSnhqaWZ4YTBqSGtUT1oxYTFoUFJYNWgxblRUbEtKSkJZSDNlS1VkMVM1aUliSzFCTVJER3RYLUFGeFpzY3VicDV5NTBQMDh3TXA5ajA?oc=5"
+        },
+        {
+          "title": "New Zealand Dollar pares gains near 0.5700 following softer CPI inflation figures",
+          "source": "www.tmgm.com",
+          "published": "2026-10-22",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQSlF3UmdKOW1sZnRkam45SmFZc3pmYkViMFZLZEMwQXcyRGV4Qm1DX0V0cWlBZG9zdU1ZWXVNcUNXY1NfZzVSd19zQ0VjaWl6OUVHU1pnZzlXNjNwMnh1Z2VBSVduZEplOGZPOW5yem5ndnlVYVZMZkhuNUh5clZ5TjNqRktUbmVReDcxOGVrYXEtb2Zxam94YnZyX3N6R2pFWVA5Y245eXRIZ0d4SlhGcldwSTZfQnhOb1VCczhoTkNNLURidy0zYlRPMXE5YnRQeUNvVEZvenBTdw?oc=5"
+        },
+        {
+          "title": "New Zealand third-quarter inflation slows to 3.7% but expectations remain of a hike next week",
+          "source": "Reuters",
+          "published": "2026-10-21",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPRmNQWHdjLTZPMlVicExwRHVtbUh3VlhRLVQwdW9sSFJyRG5Ga2pfMG1jelljOFkwSWNVQU10d2ZFLWtyQUxlRWt3NVpLNm55ekd6WGZ5SEYwYzNEQ2trZ2s3U3E2bEtsUmdHd0JXOFQwYkNMVDc0aVljUFRSRWhYampBXzVvaFZabjJkSjZncjVGeDFDYW1FbUZYYmc4aFhFZUpTLVdnSmM?oc=5"
+        },
+        {
+          "title": "New Zealand inflation report puts spotlight on hawkish RBNZ pricing",
+          "source": "FOREX.com",
+          "published": "2026-10-21",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPMjVpWGF3QzRyM205MFVHYjRDaVdWSnNHYTczMm9fQ3ZDdk1hMElFeXdqOEx0YmV3TUhwR050U0VNSElTTkwzbExwUTY1NTlTYkdvZGVqOGxGRVZWX3IyMnllbkF4Nk5paUFUa0hlSWtaS1ZGMlU0aFI4QXAwZnZjaVRCbmVUYV91TjlUbWM2bG1Cdk1oVF9FWGJtWkhTY3NWMGRpSEtGY0I2VnoyeXY0bGpObV8yZHpuRV9ZV1VLeHPSAcABQVVfeXFMTzI1aVhhd0M0cjNtOTBVR2I0Q2lXVkpzR2E3MzJvX0N2Q3ZNYTBJRXl3ajhMdGJld01IcEdOdFNFTUhJU05MM2xMcFE2NTU5U2JHb2RlajhsRkVWVl9yMjJ5ZW5BeDZOaWlBVGtIZUlrWktWRjJVNGhSOEFwMGZ2Y2lUQm5lVGFfdU45VG1jNmxtQnZNaFRfRVhibVpIU2NzVjBkaUhLRmNCNlZ6Mnl2NGxqTm1fMmR6bkVfWVdVS3hz?oc=5"
+        }
+      ],
+      "news_query": "Reserve Bank Zealand increases interest rates bps | Reserve Bank Zealand increases interest rates economists forecast"
+    }
+  ],
+  "batch_id": "msgbatch_01WXpqUHPUYyLk42bm491Aoa"
+}
