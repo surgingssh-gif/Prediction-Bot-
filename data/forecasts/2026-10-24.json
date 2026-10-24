@@ -79,7 +79,22 @@
           "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOcktYRVl0dUYzZkVDNm44NXZJV1NtV3pRbVRqckxURXBRU1JZQzNfYzdzQldIRFZQT0RkSmpJZXdvaE1WOWtqT3N6X2s5cnJVUHB3eWZiMTNlWG5SUk1kbGZCVFBGLWNqVldRUW9fZl83bWpNQVFqa0NOQV9kaS0yVDU3QUZITEwxR182N0FjU2xPdGdmT3ZuRGtSbmdOeGFYNDFxRjU0ZFk?oc=5"
         }
       ],
-      "news_query": "ndrey Gyurov win Bulgarian presidential election"
+      "news_query": "ndrey Gyurov win Bulgarian presidential election",
+      "forecast": {
+        "probability": 0.18,
+        "reasoning": "Gyurov, a former caretaker PM and central banker, appears to be running as a reform-camp candidate. Coverage suggests the pro-Russian PM's camp, likely behind a candidate such as Iliana Iotova, has the stronger electoral base after its recent parliamentary win. Gyurov could make a runoff, but winning it looks less likely than not."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-24T16:32:08Z",
+        "crowd": 0.125,
+        "best_bid": 0.12,
+        "best_ask": 0.13,
+        "volume": 470059,
+        "liquidity": 360282,
+        "fee_rate": 0.0
+      },
+      "bet_note": "Gap vs. the price we'd pay is 5.0 points; counting only part of it (cautious sizing) leaves 2.2, under the 10-point minimum."
     },
     {
       "market_id": "629691",
@@ -144,7 +159,22 @@
           "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPTDVtU1JJR1l5emYyWVZXTDJLNXZjS0JmTG1DcjRqcmRFcVIyRHBWWmxQN0hJMXd2NDl4VmxlWjQtb1VlQnNGMWlXZDVVVmZuNTdBZ3Q1MzVHZzR0ZXlMQnQ5Q01BdlhzdDBTSkdfNDFPZ09JRF9nWW9zek9HRU5Id0t3?oc=5"
         }
       ],
-      "news_query": "Republicans win Texas governor race"
+      "news_query": "Republicans win Texas governor race",
+      "forecast": {
+        "probability": 0.8,
+        "reasoning": "Republicans have won every Texas governor race since 1994, and Abbott is a well-funded incumbent. Polls show tighter races in a Democratic-leaning year, which keeps a real upset possibility alive. Still, Texas usually breaks Republican in the end."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-24T16:32:08Z",
+        "crowd": 0.708,
+        "best_bid": 0.706,
+        "best_ask": 0.71,
+        "volume": 479727,
+        "liquidity": 170751,
+        "fee_rate": 0.0
+      },
+      "bet_note": "Gap vs. the price we'd pay is 9.0 points; counting only part of it (cautious sizing) leaves 4.4, under the 10-point minimum."
     },
     {
       "market_id": "1812608",
@@ -209,7 +239,22 @@
           "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQZGxPaDFMRlU4WjJGTFJjZG56eDRZTXFrQkNob1locXRxY2R6amF2X3JBQW9FUkV2VUJyb0pZQWZVTDF0eU0zZThiV2VYdmY4akN1T2t6SWd5QWtmVnU5RXhjYU1FeFFBYXhvVjNFTlFjNU1VWnNyS0czNDlQNmU1VFFHNkpHRUlNMDFQa3R5MjBTdw?oc=5"
         }
       ],
-      "news_query": "Brad Bradford win Toronto mayoral election"
+      "news_query": "Brad Bradford win Toronto mayoral election",
+      "forecast": {
+        "probability": 0.52,
+        "reasoning": "Several polls call the race a statistical dead heat, and some show Bradford narrowly ahead. Commentary points to his momentum and a strong advance-poll turnout. That makes this roughly a coin flip with a slight lean to Bradford."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-24T16:32:08Z",
+        "crowd": 0.34,
+        "best_bid": 0.33,
+        "best_ask": 0.35,
+        "volume": 254955,
+        "liquidity": 138753,
+        "fee_rate": 0.0
+      },
+      "bet_note": "Gap vs. the price we'd pay is 17.0 points; counting only part of it (cautious sizing) leaves 8.0, under the 10-point minimum."
     },
     {
       "market_id": "5951056",
@@ -274,7 +319,22 @@
           "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQVXg0cWV2QnBFRGEtUHJhU2JuUXF5RWN2RFdkWF9qb3MxVWUxdlVZQXhBRDN5eF9NYVVad0RiVGR6aGlVRjZTbXJnampCTFN0Znc1WF9pREFSOE5CalVLanZ3NGRFa2NLVkd6UWVJN1RoTHdWRzVUNlI1WlFXOUpJR2NoQ0sxLVh0WDdTc2ZLSmVBUVE?oc=5"
         }
       ],
-      "news_query": "Clayface Opening Weekend Box Office"
+      "news_query": "Clayface Opening Weekend Box Office",
+      "forecast": {
+        "probability": 0.35,
+        "reasoning": "Deadline's early weekend projection has Clayface at about $23M, just above the $22M line. Weak presales and the usual drift between early projections and final numbers leave a meaningful chance it finishes under $22M. The central estimate is still above the threshold."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-24T16:32:09Z",
+        "crowd": 0.42,
+        "best_bid": 0.37,
+        "best_ask": 0.47,
+        "volume": 31955,
+        "liquidity": 2206,
+        "fee_rate": 0.0
+      },
+      "bet_note": "Gap vs. the price we'd pay is 2.0 points; counting only part of it (cautious sizing) leaves -1.5, under the 10-point minimum."
     },
     {
       "market_id": "5713521",
@@ -339,7 +399,22 @@
           "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1UR1lPYk1IQkwyS2tMdk83N25rczN3cXlzZGczX3VHZnVEdUVzMzhDN2piMUZVTl8xLTdSUEMzbGFDWk9RWGdoTWRZQ3d5Nm03NE50UHlaM1Qyc1FSeUowWUozXzRXSThnMmUxamxmck1WdHdaX0xWZjFqYUMyeTQ?oc=5"
         }
       ],
-      "news_query": "Wildwood Opening Weekend Box Office"
+      "news_query": "Wildwood Opening Weekend Box Office",
+      "forecast": {
+        "probability": 0.06,
+        "reasoning": "Tracking put Wildwood at $6-10M, and coverage frames it as a potential box office bomb. The early weekend report names only Clayface and You Can See Everything at the top. A $14-16M opening would need a large overperformance."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-24T16:32:09Z",
+        "crowd": 0.0005,
+        "best_bid": null,
+        "best_ask": 0.001,
+        "volume": 17207,
+        "liquidity": 1585,
+        "fee_rate": 0.0
+      },
+      "bet_note": "No live prices to trade at."
     },
     {
       "market_id": "5154295",
@@ -361,7 +436,36 @@
         "fee_rate": 0.0
       },
       "news": [],
-      "news_query": "GitHub longest critical incident hours | Longest GitHub critical incident hours"
+      "news_query": "GitHub longest critical incident hours | Longest GitHub critical incident hours",
+      "forecast": {
+        "probability": 0.2,
+        "reasoning": "GitHub labels relatively few incidents 'critical', and many months have none or only short ones. If no qualifying incident occurs, the market resolves to the lowest bracket, which pulls probability away from this one. The 3-6 hour bracket is plausible but just one of several outcomes."
+      },
+      "bet": {
+        "side": "NO",
+        "price": 0.3132,
+        "top_price": 0.26,
+        "shares": 95.0,
+        "stake": 29.75,
+        "fee": 0.0,
+        "cost": 29.75,
+        "gap_pts": 54.0,
+        "edge_pts": 26.0,
+        "sized_on": 0.48,
+        "kelly_full": 0.3514,
+        "fill": "order book",
+        "levels": 3
+      },
+      "trade_snapshot": {
+        "time": "2026-10-24T16:32:09Z",
+        "crowd": 0.76,
+        "best_bid": 0.74,
+        "best_ask": 0.78,
+        "volume": 14688,
+        "liquidity": 1205,
+        "fee_rate": 0.0
+      },
+      "bet_note": "Bought NO (AI's gap 54.0 points; 26.0 after cautious sizing)."
     },
     {
       "market_id": "5166953",
@@ -412,7 +516,36 @@
           "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNeHJIZzZsc1Vfa1A1UEZRMkVhVkNWQlVjZXpxYUZ6OUdBSUFFRmVodlA5dFRqUHhENkx4YzVJUUlkTzVuU25yeTE3bVhlVnJUcVFPd3kwQXNWaElWdlg2anVnSWtaMWpqeU5RRHRGQTdvWkJsWndUbnZjZ2l0WG02ZDh3elo?oc=5"
         }
       ],
-      "news_query": "average daily transits Strait Hormuz | average daily transits Strait Hormuz October economists forecast"
+      "news_query": "average daily transits Strait Hormuz | average daily transits Strait Hormuz October economists forecast",
+      "forecast": {
+        "probability": 0.07,
+        "reasoning": "Despite attacks, reports in mid-October show oil flows of about 12 million barrels a day through Hormuz. That implies dozens of ship transits a day, far above 5. Only a near-total closure in the final week of October would bring the 7-day average that low."
+      },
+      "bet": {
+        "side": "NO",
+        "price": 0.1292,
+        "top_price": 0.07,
+        "shares": 197.53,
+        "stake": 25.52,
+        "fee": 0.0,
+        "cost": 25.52,
+        "gap_pts": 86.0,
+        "edge_pts": 42.2,
+        "sized_on": 0.5075,
+        "kelly_full": 0.4543,
+        "fill": "order book",
+        "levels": 5
+      },
+      "trade_snapshot": {
+        "time": "2026-10-24T16:32:09Z",
+        "crowd": 0.945,
+        "best_bid": 0.93,
+        "best_ask": 0.96,
+        "volume": 13973,
+        "liquidity": 15943,
+        "fee_rate": 0.0
+      },
+      "bet_note": "Bought NO (AI's gap 86.0 points; 42.2 after cautious sizing)."
     },
     {
       "market_id": "4386085",
@@ -434,7 +567,22 @@
         "fee_rate": 0.0
       },
       "news": [],
-      "news_query": "one dissent Fed decision | one dissent October Fed decision economists forecast | many dissent Fed meeting"
+      "news_query": "one dissent Fed decision | one dissent October Fed decision economists forecast | many dissent Fed meeting",
+      "forecast": {
+        "probability": 0.27,
+        "reasoning": "Recent FOMC meetings have frequently drawn dissents amid sharp divisions over the rate path. A new chair, Warsh, makes unanimity less certain. Unanimous decisions still happen, but the recent pattern favors at least one dissent."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-24T16:32:10Z",
+        "crowd": 0.255,
+        "best_bid": 0.24,
+        "best_ask": 0.27,
+        "volume": 16638,
+        "liquidity": 2170,
+        "fee_rate": 0.0
+      },
+      "bet_note": "Gap vs. the price we'd pay is 0.0 points; counting only part of it (cautious sizing) leaves -0.8, under the 10-point minimum."
     },
     {
       "market_id": "3212218",
@@ -499,8 +647,31 @@
           "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPMjVpWGF3QzRyM205MFVHYjRDaVdWSnNHYTczMm9fQ3ZDdk1hMElFeXdqOEx0YmV3TUhwR050U0VNSElTTkwzbExwUTY1NTlTYkdvZGVqOGxGRVZWX3IyMnllbkF4Nk5paUFUa0hlSWtaS1ZGMlU0aFI4QXAwZnZjaVRCbmVUYV91TjlUbWM2bG1Cdk1oVF9FWGJtWkhTY3NWMGRpSEtGY0I2VnoyeXY0bGpObV8yZHpuRV9ZV1VLeHPSAcABQVVfeXFMTzI1aVhhd0M0cjNtOTBVR2I0Q2lXVkpzR2E3MzJvX0N2Q3ZNYTBJRXl3ajhMdGJld01IcEdOdFNFTUhJU05MM2xMcFE2NTU5U2JHb2RlajhsRkVWVl9yMjJ5ZW5BeDZOaWlBVGtIZUlrWktWRjJVNGhSOEFwMGZ2Y2lUQm5lVGFfdU45VG1jNmxtQnZNaFRfRVhibVpIU2NzVjBkaUhLRmNCNlZ6Mnl2NGxqTm1fMmR6bkVfWVdVS3hz?oc=5"
         }
       ],
-      "news_query": "Reserve Bank Zealand increases interest rates bps | Reserve Bank Zealand increases interest rates economists forecast"
+      "news_query": "Reserve Bank Zealand increases interest rates bps | Reserve Bank Zealand increases interest rates economists forecast",
+      "forecast": {
+        "probability": 0.7,
+        "reasoning": "Reuters reports that markets still expect a hike next week even though third-quarter inflation slowed to 3.7%. RBNZ pricing is described as hawkish. A 25bp move is the most likely hike size, though a pause after the softer data or a larger move remains possible."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-24T16:32:10Z",
+        "crowd": 0.91,
+        "best_bid": 0.9,
+        "best_ask": 0.92,
+        "volume": 42297,
+        "liquidity": 2213,
+        "fee_rate": 0.0
+      },
+      "bet_note": "Gap vs. the price we'd pay is 20.0 points; counting only part of it (cautious sizing) leaves 9.5, under the 10-point minimum."
     }
   ],
-  "batch_id": "msgbatch_01WXpqUHPUYyLk42bm491Aoa"
+  "batch_id": "msgbatch_01WXpqUHPUYyLk42bm491Aoa",
+  "forecast_at": "2026-10-24T16:32:08Z",
+  "usage": {
+    "input_tokens": 7841,
+    "output_tokens": 2405
+  },
+  "cost_usd": 0.0397,
+  "budget": 100.0,
+  "account": "phase-1.2"
 }

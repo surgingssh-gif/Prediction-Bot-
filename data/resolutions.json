@@ -223,5 +223,15 @@
     "outcome": 1,
     "resolved_at": "2026-10-23T12:31:44Z",
     "question": "Will the Bank of Russia make no change to the key rate after the October Meeting?"
+  },
+  "5568259": {
+    "outcome": 1,
+    "resolved_at": "2026-10-24T06:02:14Z",
+    "question": "Will there be no Hormuz agreement?"
+  },
+  "5568258": {
+    "outcome": 0,
+    "resolved_at": "2026-10-24T06:04:44Z",
+    "question": "Will there be a Hormuz agreement and the Democrats win the Senate?"
   }
 }
