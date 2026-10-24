@@ -233,5 +233,15 @@
     "outcome": 0,
     "resolved_at": "2026-10-24T06:04:44Z",
     "question": "Will there be a Hormuz agreement and the Democrats win the Senate?"
+  },
+  "5887861": {
+    "outcome": 1,
+    "resolved_at": "2026-10-24T18:03:02Z",
+    "question": "Will MrBeast's next video get less than 150 million views on week 1?"
+  },
+  "5887862": {
+    "outcome": 0,
+    "resolved_at": "2026-10-24T18:02:50Z",
+    "question": "Will MrBeast's next video get between 150 and 160 million views on week 1?"
   }
 }
