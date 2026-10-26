@@ -248,5 +248,60 @@
     "outcome": 1,
     "resolved_at": "2026-10-26T00:42:06Z",
     "question": "Will Russia and Ukraine hold any diplomatic meeting by October 31, 2026?"
+  },
+  "601819": {
+    "outcome": 1,
+    "resolved_at": "2026-10-26T03:12:22Z",
+    "question": "Will Luiz Inácio Lula da Silva win the 2026 Brazilian presidential election?"
+  },
+  "601826": {
+    "outcome": 0,
+    "resolved_at": "2026-10-26T03:17:16Z",
+    "question": "Will Flávio Bolsonaro win the 2026 Brazilian presidential election?"
+  },
+  "3685378": {
+    "outcome": 0,
+    "resolved_at": "2026-10-26T06:01:46Z",
+    "question": "Will the next Google Gemini Pro model be released between October 19 and October 25, 2026?"
+  },
+  "4824600": {
+    "outcome": 0,
+    "resolved_at": "2026-10-26T05:19:22Z",
+    "question": "Will Aleksandar Vučić – United Serbia win the most seats in the 2026 Serbian parliamentary election?"
+  },
+  "5340071": {
+    "outcome": 0,
+    "resolved_at": "2026-10-26T05:29:46Z",
+    "question": "Will Flávio Bolsonaro win the second round of the 2026 Brazilian presidential election by less than 4%?"
+  },
+  "4824602": {
+    "outcome": 1,
+    "resolved_at": "2026-10-26T05:18:37Z",
+    "question": "Will Student List – Students Win win the most seats in the 2026 Serbian parliamentary election?"
+  },
+  "5340070": {
+    "outcome": 0,
+    "resolved_at": "2026-10-26T03:22:43Z",
+    "question": "Will Flávio Bolsonaro win the second round of the 2026 Brazilian presidential election by 4–8%?"
+  },
+  "5336146": {
+    "outcome": 0,
+    "resolved_at": "2026-10-26T04:45:16Z",
+    "question": "Will Flávio Bolsonaro win Brazil, Gadi Eizenkot become Israeli PM, and Democrats win the US Senate?"
+  },
+  "5329576": {
+    "outcome": 0,
+    "resolved_at": "2026-10-26T04:59:51Z",
+    "question": "Will Flavio Bolsonaro win the most votes in the second round of the Brazil presidential election from Amapá?"
+  },
+  "5329577": {
+    "outcome": 1,
+    "resolved_at": "2026-10-26T05:00:51Z",
+    "question": "Will Lula win the most votes in the second round of the Brazil presidential election from Amapá?"
+  },
+  "5713521": {
+    "outcome": 0,
+    "resolved_at": "2026-10-26T18:34:46Z",
+    "question": "Will \"Wildwood\" Opening Weekend Box Office be between 14m and 16m?"
   }
 }
