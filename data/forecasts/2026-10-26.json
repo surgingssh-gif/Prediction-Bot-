@@ -1,0 +1,349 @@
+{
+  "run_id": "2026-10-26",
+  "date": "2026-10-26",
+  "created_at": "2026-10-26T01:06:13Z",
+  "model": "claude-opus-5-5",
+  "effort": "high",
+  "phase": "1.2",
+  "pick_stats": {
+    "eligible": {
+      "Economy": 7,
+      "Entertainment": 1,
+      "Politics": 121,
+      "Tech": 1
+    },
+    "picked": 4
+  },
+  "track_record": "=== Your track record so far ===\nThese are your own earlier forecasts in this experiment that have settled (44 questions). They show only what you said and what happened (no market information).\n- On average you said 37%, and 45% of these events happened. So far you have been too low: events happened more often than you said.\n- Your average Brier score is 0.269 (0 is perfect; always saying 50% scores 0.250).\n- When you said...\n    under 10%: it happened 3 times out of 5.\n    10-30%: it happened 3 times out of 14.\n    30-70%: it happened 10 times out of 19.\n    70-90%: it happened 4 times out of 6.\n- Your biggest misses:\n    \"Will SpaceXAI officially rename itself to SpaceXSI by October 15?\" You said 3%; it happened.\n    \"Will the Tesla Roadster fly for 1s+?\" You said 4%; it happened.\n    \"Will monthly inflation increase by 0.6% in September?\" You said 7%; it happened.\n    \"Will Flavio Bolsonaro win the most votes in the first round of the 2026 Brazil presidential election?\" You said 12%; it happened.\n    \"Will Flávio Bolsonaro finish in second place in the first round of the 2026 Brazilian presidential election?\" You said 86%; it did not happen.",
+  "questions": [
+    {
+      "market_id": "648383",
+      "event_id": "64731",
+      "event_title": "Billionaire one-time wealth tax passes in California election 2026?",
+      "option": "",
+      "question": "Billionaire one-time wealth tax passes in California election 2026?",
+      "rules": "A one-time wealth tax on billionaires has been proposed to potentially appear on California's ballot for the November 3, 2026 general election. You can read more about that here: https://6abc.com/post/california-union-proposes-taxing-billionaires-offset-medicaid-cuts-low-income-people/18066430/\n\nThis market will resolve to \"Yes\" if any proposition containing a one-time tax targeting individuals, households, or family units with wealth, assets, or net worth of at least $1 billion (USD or equivalent) passes in the named election. Otherwise, this market will resolve to \"No\".\n\nIf no qualifying ballot initiative is certified to appear on the official statewide California ballot as a proposition to be voted on in the stated election by June 25, 2026, 11:59 PM ET (the official cutoff date for new initiatives to be approved), or if all qualifying propositions/initiatives are removed from the ballot or amended before the election such that the main threshold drops below $1 billion, this market will resolve \"No\".\n\nThe primary resolution source for this market will be official information from the Government of the State of California, however a consensus of credible reporting may also be used.",
+      "topic": "Politics",
+      "end_date": "2026-11-04T04:59:00Z",
+      "url": "https://polymarket.com/event/billionaire-one-time-wealth-tax-passes-in-california-election-2026",
+      "snapshot": {
+        "time": "2026-10-26T01:06:11Z",
+        "crowd": 0.245,
+        "best_bid": 0.24,
+        "best_ask": 0.25,
+        "volume": 4203352,
+        "liquidity": 95562,
+        "fee_rate": 0.0
+      },
+      "news": [
+        {
+          "title": "Opinion | Why the fate of California's wealth tax could be decided well after the election",
+          "source": "CalMatters",
+          "published": "2026-10-22",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNUG1kb2J4djAyY0l2dEFyeVpGLUVSN29ycGdzZ2NTNjhkSm5PdTBaNHgxLTJEM0lNLXRoLVYxYnVuU0pGWGhSLWtaaEJqdnFLWm9nWmpwdERNUDNFNU9CdU5PU2Q4SjloLV9DUkFIbW9hbTRTRzU0NTYydXpheF9tNFF0SG5DYXNZX2c?oc=5"
+        },
+        {
+          "title": "California's Proposition 40: What voters need to know about billionaire wealth tax battle",
+          "source": "CNBC",
+          "published": "2026-10-22",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPYzZCc3dXeDlTbTRES0Rhc1lpQVk0dE1lWmVzc05pNjU0SzZDdEMtZXR3cEVWbVpEZnkzV2Y1b0FZWl8xdnVMWVNSRm9MZmQ3X21KZG15dEpCNF9pOFZ5YWY4b2RkNGRPS1dFdTFFd0c4QzJqYi13RTdETmNXMG9NMEk1U0NUZlVCV3A1V1pn0gGTAUFVX3lxTFBvenlpNFQyQnNFVktXRzV1N3VaR2JwVmFTNUNoVHc5aEh4NG44Yk5PSkZRY0tLeDlQbEpQWGs2anBnTDNBRlNMN3d1Q2JCUUhTNjRSSDRYbFJya1FudmVyb0RlTEdESU5DVDRiZ25HR1BVQ1kxTFhrZ2JjVFRybUhLRndzdzVtVTV6Z2p2elo0TVlGUQ?oc=5"
+        },
+        {
+          "title": "Are California voters about to impose 'world's first' tax on billionaires?",
+          "source": "BBC",
+          "published": "2026-10-23",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5lR05oeWZFUmxCYXBJRGF4V0RnX3QxemVvN29ZZkItSUJyY0otcWVnUGJ2Smo2YXktMG1ueHFscV9UOGdYcFBwQTlIdGpPekY5TTRfRUd4OE9IcVE?oc=5"
+        },
+        {
+          "title": "California Billionaire Wealth Tax: What Proposition 40 Would Do",
+          "source": "Forbes",
+          "published": "2026-10-21",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOck5EbUoxN3dET1FwMFpuUnNPOEswRkVzUWZKbmhERV93M2QwZkQ2dlM0dmY2MkswbUhacjd6VmRTdExTZDVuUFNQaGItODZaNENyUy1yM0c2TjVLZmUtRXQzbE1vZkdVWVIyTmtFUGxKSVlHRGhLVTBGR2RPR2xEc19jalZXWENiZnE2Sl9Jc3RMQlJrQVR2SDBkY1JRLWk3aVpRWUoyVXBYcHZaUks3dDRld1BYODQtVnpKd0w4Nl9LQQ?oc=5"
+        },
+        {
+          "title": "The ultra-rich are spending one million dollars a day fighting California’s proposed billionaire tax",
+          "source": "The Guardian",
+          "published": "2026-10-16",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOUzdYTDdvNEFyUU82RExlZjlHNWd3NXlacjJUWGh5SnpLa0w5TXZMMU8yalNvNWlCM04xS3pfakpKa0hjNDVrak1vWTM0V0lKT0xzN2FvVXRjVVYtUXVDenY2bjRwRXo0R1J3dzIyT1l6THYtcjZmSU9OcTh0N1ZpYzhKNi1jM2gxR1ozUFZUTUtwaXItcEo5S01qRnZLZw?oc=5"
+        },
+        {
+          "title": "How California’s Ultrarich Are Trying to Stop the World’s First Billionaire Tax",
+          "source": "The New York Times",
+          "published": "2026-10-21",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQZzBPaVBBcFl4b01UWUdyakhmM2k4U0phM0JkUVRsNXJaaV92c05YSXNrZnZZOThfazZDMzBmM2pjak9xSzBLVWhkRHJmTnNiVjR1QmdJSFhSUVI4bFFZVmRXT3psZFVBa0I5OXNLNmVtOHM2eWtZdWdaYk9qbUlxV3FB?oc=5"
+        }
+      ],
+      "news_query": "Billionaire one-time wealth tax passes California election",
+      "forecast": {
+        "probability": 0.35,
+        "reasoning": "Proposition 40 qualified for the ballot, so the question is whether voters approve it. Opponents are spending about $1 million a day, Governor Newsom opposes it, and California voters rejected the similar Prop 30 tax on millionaires in 2022. Heavily opposed tax measures usually lose support late in the campaign, though a favorable Democratic environment and an anti-billionaire mood keep it competitive."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-26T01:09:16Z",
+        "crowd": 0.245,
+        "best_bid": 0.24,
+        "best_ask": 0.25,
+        "volume": 4203352,
+        "liquidity": 96386,
+        "fee_rate": 0.0
+      },
+      "bet_note": "Gap vs. the price we'd pay is 10.0 points; counting only part of it (cautious sizing) leaves 4.8, under the 10-point minimum."
+    },
+    {
+      "market_id": "1284082",
+      "event_id": "191540",
+      "event_title": "NC-13 House Election Winner",
+      "option": "Paul Barringer (D)",
+      "question": "Will the Democratic Party win the NC-13 House seat?",
+      "rules": "This market will resolve according to the party of the candidate who wins the NC-13 congressional district seat in the U.S. House of Representatives in the 2026 midterm elections. The midterm elections will take place on November 3, 2026.\n\n​A candidate's party will be determined by their ballot-listed or otherwise identifiable affiliation with that party at the time all of the 2026 House elections are conclusively called by this market's resolution sources. A candidate without a ballot-listed affiliation to either the Democrat or Republican parties will be considered a member of one of these parties based on the party with which they most recently expressed their intent to caucus at the time all of the House elections are conclusively called by this market's resolution sources.\n\nThis market will resolve based on the result of the election as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the United States government, specifically the Federal Election Commission (https://www.fec.gov/).",
+      "topic": "Politics",
+      "end_date": "2026-11-04T04:59:00Z",
+      "url": "https://polymarket.com/event/nc-13-house-election-winner",
+      "snapshot": {
+        "time": "2026-10-26T01:06:11Z",
+        "crowd": 0.335,
+        "best_bid": 0.33,
+        "best_ask": 0.34,
+        "volume": 111138,
+        "liquidity": 99435,
+        "fee_rate": 0.0
+      },
+      "news": [
+        {
+          "title": "Election 2026: How Democrats could win the House, how Republicans could hold on",
+          "source": "NBC News",
+          "published": "2026-10-24",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNbXc0cHY0LWFXVjdaalpUUHlZUmlzYUdGbzZvSm1VUG15T2l5Q3VxOUlZUC13eEtnQTVXcy16RHRhNWQ3U3FMV2luc1dqbE5uVUZ0eW9xb0NlTXhDSnVwUjZpakNXTEQ5cUt4VU5TRTRyS1NhbmhMSUl1dF9JQnpGWk54MUJMTHVMam9BeV9TRzRDbjZxakVKaDNoSWt0U1F3RW1zeUdYNUpsTzItX1FqSDVRNA?oc=5"
+        },
+        {
+          "title": "Democrats Have a Wide Lead in Our New Poll as Trump Slides",
+          "source": "The New York Times",
+          "published": "2026-10-21",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSjlRVzRCNFM3NFMwM05YV1ZpQ2hoSXRKb01WUERQMllIaUhoRVZkcGJrQWEwUlpGY1M0S3dMVnMyT0lfZFpOdHkzT1JlWEpYNENUdzQ1Y0Nacnk5WThtUTlaSmFGRHZLZVo0LXR2X0RpMUR0Ml94ZUxUd2dqSFJwSk9Sczg?oc=5"
+        },
+        {
+          "title": "What Happens if Democrats Win Control of the House, Senate or Both? | National News | U.S. News",
+          "source": "U.S. News & World Report",
+          "published": "2026-10-14",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPTjBmUDllWmhqZk1tZjEtdGZZWmgwb3FyM3lld0o1d1ZhUUdUdmJGYlF0NnktUHNETDB5cDFDeTNWMXk4OGZpTkVfUjg3c01qdjBtcmp1TFlFNnhIOUM1bHdzdTVreXlvWW1CVWU4Vlh4WEFBQTVWaWZiRmxwTXZGeTFiM1ZSTzZVOTNNMHItQXhzSkdJVGdrQ0FVQTRzSnhZbDB5bnVOdUY4M2VMZGdnSjlMTzVxQUVOUk5rRWtSQk9RYVFoYVE?oc=5"
+        },
+        {
+          "title": "Democrats plan investigations, affordability efforts if they reclaim Congress",
+          "source": "The Christian Science Monitor",
+          "published": "2026-10-15",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQXzVoWmJ1Ri1fTnZpVU1rcTJTUFZySHZ2Q2ZoODE1SVB4TGdpZXJEN3BFRzktMWpiWHFya1h2LTViTFRFWFdoeUhaYlhEazkwRG5qTVV1Nm00STN3VFVCY2tkaUhtb1F5RHpiekdtN0FZN0xfYzV5dnAtX0VMQmhycW5KSkFQS3JUVVN5QVhR?oc=5"
+        },
+        {
+          "title": "Democrats, Republicans seek 'trifectas' in the 2026 midterms",
+          "source": "ABC News - Breaking News, Latest News and Videos",
+          "published": "2026-10-19",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOcEdpb1JuRzhvcVZKa3RobHViS1AwRTZ4dUwzT2JJeHBmbmdCN1Jma0dNeGN6dG9nYVQ5b0NJaXRzNnR1RDgyOG5LUXZQaUh4bVpzdG05Q1RXN0Z3bDRHc1JNdlZDaE1VVmRvLTlFbnI0UW5XZWI0bkd5alNEZzdVVTcwME54aHVpSHg5X0g5N1JGOVdJWHNwekJudlA2SFnSAaQBQVVfeXFMTXpuNHRTMVNNTDQySDBKcWxYQ1BHYk1XWTBZN21rbUF5b2dwN3E4NWhlczBpdjE2Q0s3MkVqSXl6SWRwcXNnMWpCMkxnYzRnWXdiWXBFd2lleTd0QVlwTTRNS0hRMjB1d29vVzJzcjJ1ekFhUnByM3doelk4ZVhGcS1wSmRneVBqOGR6dk5ZaVc0NjJ5WUZiTkJqYUxNNURFYkxGWno?oc=5"
+        },
+        {
+          "title": "House battleground map tightens as GOP scrambles to shore up red seats",
+          "source": "Politico",
+          "published": "2026-10-23",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQd0tvTDlCMndodnFwWmN0R0xLZS1nT3lrMW5fWVVZc0hselBSTERTamVqOFAxd3VaWTdLQmc2Z3Jod0U3TjZQbTZyRmI3QjdFNXZ3MDRpZGZYVGZRWWFiTkxIazZCemVrV0lTUjE4TmlfR3BBdmNVQnNPVnNiTVJsRnl0dTFhNElOM1V6NFVoX0wzUDYwUWc?oc=5"
+        }
+      ],
+      "news_query": "Democratic Party win House seat",
+      "forecast": {
+        "probability": 0.25,
+        "reasoning": "NC-13 is held by Republican Brad Knott and leans Republican by roughly double digits under current lines. National polls show a wide Democratic lead, and Politico reports the GOP is scrambling to shore up red seats, so a flip is possible in a wave. Even so, a seat this red normally needs an exceptional wave to change hands."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-26T01:09:16Z",
+        "crowd": 0.335,
+        "best_bid": 0.33,
+        "best_ask": 0.34,
+        "volume": 111143,
+        "liquidity": 97723,
+        "fee_rate": 0.0
+      },
+      "bet_note": "Gap vs. the price we'd pay is 8.0 points; counting only part of it (cautious sizing) leaves 3.8, under the 10-point minimum."
+    },
+    {
+      "market_id": "631057",
+      "event_id": "57682",
+      "event_title": "Ohio Senate Election Winner",
+      "option": "Sherrod Brown (D)",
+      "question": "Will the Democrats win the Ohio Senate race in 2026?",
+      "rules": "This market will resolve according to the winner of the 2026 Ohio U.S. Senate special election currently scheduled for November 3, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
+      "topic": "Politics",
+      "end_date": "2026-11-04T04:59:00Z",
+      "url": "https://polymarket.com/event/ohio-senate-election-winner",
+      "snapshot": {
+        "time": "2026-10-26T01:06:11Z",
+        "crowd": 0.665,
+        "best_bid": 0.66,
+        "best_ask": 0.67,
+        "volume": 1005157,
+        "liquidity": 147341,
+        "fee_rate": 0.0
+      },
+      "news": [
+        {
+          "title": "Ohio could decide control of the Senate. Its rural voters might decide the winner",
+          "source": "NPR",
+          "published": "2026-10-23",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSEJtcTl3amNqd1lreVhOZWNHSUNuV3dmQmhtcFNhZmVxUGxEZ2hNTTJQc1p0SjNiajJBcVJiSTNRN1RKcHZITlY5Q2Y2R3lKM2hoVUJUeUF5ZzMtZFdnaHdjeXdGeFZBdjQ1VmdyU3VUcndjb2dMMk0xSXREWURXdGNGd09KSFZuSmswREdERm8?oc=5"
+        },
+        {
+          "title": "Hottest 2026 Midterm Races—Democrats Brown, Cooper Ahead In Ohio, North Carolina Senate Races (Updated Daily)",
+          "source": "Forbes",
+          "published": "2026-10-20",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNNVlTWGdfaldrX1NGS05aWjJiTjJtbnpGbHJHYmFEZ1ZwcnNNNFpXMzNBQmR6MTRYdkxBa3R0QnBNODdPTGwtRzBtOWFjOEpsUERIenVzSUtXSHI1MVZQVGJiZGlnbWlZcEcwVW4xN19RSkNMQ3Q5SkVnOVhJblcyN0M0SVJkXzRJU3VuT3U4S0pzZ1hOelZoS0stYXFZeHY2bnFtaFJpcUFMUU8zb0MtVGlmX05NQ1hKVE4zcUQwZ0tGSDVibllrS2VWenROVHk2eDFDb2FoWjVkenMxYXB1a1g3WFdJZGZ2bi1F?oc=5"
+        },
+        {
+          "title": "Will Democrats win back a Senate seat in Ohio?",
+          "source": "NBC News",
+          "published": "2026-10-22",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQaEMxdmxrSlZYVUJxUk13RnhLYlBkb1NuOUtjNGtLMDNrM1I1NnRIbnlMVm8xUWRldVYtZnRUUWluVzBKOE9HSmtHQld6cWJFVm1HcG83SEdSaGdSakFuN0pIc29xWXhhZDBZZzNiTGZCejY5RzZTLW9QZUJzSGhTM2tLYm82WUtjVGdya1c0VS1uQkhXRVI1X3pOMXZLMXkxVkdKSQ?oc=5"
+        },
+        {
+          "title": "Two new polls give insight into Ohio Senate, governor races as midterms near",
+          "source": "WLWT",
+          "published": "2026-10-22",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNOTZrSDZZMTdTSnVEZ09lQ1czUWFuZXBUQnA5enFiNERXWV9qR3Vrb19lTTFZb0VOY2o5SWgwaExURUUxZzRnOW9FelVCeHhqRVFsbW5mTG15VTJTWDYwZk16Z1hRVndLWVNwcjlIbWM5QVd3NXJ1TWhCYUlMaUxPZEtadlFYMnNwV0hqSU9lU1dPUFNYYzk0?oc=5"
+        },
+        {
+          "title": "Two Ohio polls put Amy Acton, Sherrod Brown ahead in Ohio’s Senate, governor’s races",
+          "source": "NBC4 WCMH-TV",
+          "published": "2026-10-23",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNcng1eHN6LVpDd09obWdZWUhHcUlKZ2xWQV94WFBLbnJqVEx0OE1xcFAtZXE2cXVRZnJ4TDByekJrazFNSlhKV1pHREVpQmNMeDRVOG94TnRkcEJ4anZ1UmVQeV9uc1lEb2UyenFJMzk3WUxMak5mUDhVVmtTaFM5V2RjNWp1VHdfTzNUenNmd1hXSWNYMk8tcFdqY0IyTzJwMEdOSGlMaVNDRnoxUjVySjRCblE3SUxqSkFNc2VucnU1QVRQMmY5LUo4QdIB0AFBVV95cUxOS3h3LThKSE9RR0VnMW4wNjYwM2RZOU5LSWszWF9SUGFjNVI0TTB3S2F5WU9QTHJuQUg2elBpSUVhWlRUckdVRldkYV9UXzhGOElCY2R3cV9PU1VlU0FvTWdQM05PamFGSXJWM19rZm9oZW8taVRrZXdqcGplbTRtVVhmd3J1ZzJ6QTN4NWZmVmVVZ0pHTUF2czFfYTJUcEFBNnRCSmI0Y3FaV3l4ZHNCdmE0NmRiQ09oOUZORjZPMVkwVTJhYzlRZVVVU1BjcEhB?oc=5"
+        },
+        {
+          "title": "Democrats lead in key Ohio races, poll shows",
+          "source": "10TV",
+          "published": "2026-10-21",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxOREFmVGd3RXBQRGVNUGo1SEdiQzYyTzdxOVd1OTlDZ1pkcEIzZlZMakxnUmtEdHZkV1ZkdklzYVVoOWxUWkhvcTNzamtHd2tocnFES0xtZG5lSEdFVkhPWTN3UWdfMkZDZ1VVcjRsUVJ1Q285Z1V5QUFFODQ4amloMXd5dVV3TFhSSlh6R19SaHZWWWpfUlk2bHdrRGppS1NlbVI2V2pKdHNSQ1QySXhhWEN3Wm5YbkpGUXdTbHFkeUFCNGlTMTBDV0Q5Z0dqbGp3bEkwYnoyRFRqTTFUZzBJc044QzlBcW1hSXFfaXE3VWRId3JrN1lJV3lOOUg4Z21QOVFFY1ZFMlg2Zy1PSWVLSmpkdFBzT19DOVE?oc=5"
+        }
+      ],
+      "news_query": "Democrats win Ohio Senate race",
+      "forecast": {
+        "probability": 0.52,
+        "reasoning": "Multiple October polls show Sherrod Brown leading Jon Husted, and the national environment favors Democrats with Trump's numbers sliding. However, Ohio's Republican lean and its history of polls overstating Democrats make this close to a coin flip, with a slight Democratic edge."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-26T01:09:16Z",
+        "crowd": 0.665,
+        "best_bid": 0.66,
+        "best_ask": 0.67,
+        "volume": 1005188,
+        "liquidity": 140445,
+        "fee_rate": 0.0
+      },
+      "bet_note": "Gap vs. the price we'd pay is 14.0 points; counting only part of it (cautious sizing) leaves 6.8, under the 10-point minimum."
+    },
+    {
+      "market_id": "5837107",
+      "event_id": "1207509",
+      "event_title": "Billboard Hot 100 #2 Song Week of October 31",
+      "option": "Choosin' Texas - Ella Langley",
+      "question": "Will \"Choosin' Texas - Ella Langley\" be the Billboard Hot 100 #2 song for the week of October 31?",
+      "rules": "Billboard updates its Hot 100 songs chart each Tuesday (with adjusted release schedules on some holiday weeks), reflecting data from the previous week (Friday-Thursday). Each Billboard chart is then titled “Week of (date of the upcoming Saturday)”.\n\nThis market will resolve according to the number 2 song on the Billboard Hot 100 chart titled “Week of October 31, 2026”. Songs will be primarily ranked by order on the specified chart. If two or more songs are tied for any position, ties will be broken by alphabetical order of the songs' listed titles. This market will resolve to the song that occupies the second-highest finishing position after applying this ranking.\n\nThis market will resolve as soon as the relevant chart is published. If the Billboard Hot 100 chart for the specified week is not published within 14 calendar days of the expected release date, this market will resolve to “Other”.\n\nThe resolution source for this market will be the official Billboard Hot 100 chart, published on the Billboard website (https://www.billboard.com/charts/hot-100/) or through other official Billboard channels.",
+      "topic": "Entertainment",
+      "end_date": "2026-10-27T23:59:00Z",
+      "url": "https://polymarket.com/event/billboard-hot-100-2-song-week-of-october-31",
+      "snapshot": {
+        "time": "2026-10-26T01:06:11Z",
+        "crowd": 0.092,
+        "best_bid": 0.077,
+        "best_ask": 0.107,
+        "volume": 10063,
+        "liquidity": 2228,
+        "fee_rate": 0.0
+      },
+      "news": [
+        {
+          "title": "Ella Langley Chart Records: 10 Set by 'Choosin Texas' & 'Dandelion'",
+          "source": "Billboard",
+          "published": "2026-10-14",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE0tazgxWUYxU0VfbUloa1NoOUc1UE5JWkFLRE05ZVJQSlJCUlN6TFpwRGR0Qi0yaEdHdHdXZl93NGw5eld0bW9UYl90UXV3U2d1bF9HbzNZZEJGXzR5eEJvSmxlbFlrVXhWejg0SDRiNVl3UkZsMmVuMm85RHlkZw?oc=5"
+        },
+        {
+          "title": "‘Choosin’ Texas’ Is the Biggest No. 1 Song Ever—and You Might Have Never Heard It",
+          "source": "WSJ",
+          "published": "2026-10-26",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPODNZTE5mQjdUeS15bGNNSXBxUmFQZE9HbEx1UlpNVVI1UnpIUmRuZERZbWJCaGxRaHlnN1VPZXo0QUVlZnhVbk5HYllsdDA3aW9QUkpqN2JBQW4teTVGRDZwMVFxVlRXZFJVNVhWNUkydHhQV1l4blRoTjVlNEdNTG5aRnNoUlA0?oc=5"
+        },
+        {
+          "title": "How Ella Langley two-stepped to the top of the charts",
+          "source": "The Economist",
+          "published": "2026-10-22",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTHJMVGprUjFDN1JJVG55RmxPdDVqbERKci1tZW1wVzZMVkNfZ3JUSjU4MnRhMlpxeUt6bjAzZlFEbkttbmRMRU9MaWRWVFJzUGF0OWlmZk9WME93NDZJdmd1QkdnbGh6NUYyR20xSlplclowN3pfZDlkblBOMVFuNE0xYzkyTWx3cDBIZnE2VEx6T0ltcmJaZVBtMFYzd28?oc=5"
+        },
+        {
+          "title": "Ella Langley’s “Choosin’ Texas” dethrones the queen of Christmas",
+          "source": "The Arrow",
+          "published": "2026-10-13",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNQTNmZFhKeUpRdmpObllzclNJTnhBVW9LclRMVHdkTUlfcU1NLTR3SXF2cVMtX2JVazRFVmZiaUE3MXE0cVZGVURIWVdWelJZNDVSV0c2d3NhUXU1SlBycm9kUDFjVlgzc2JnYjFqUlhSWnRzb1VIX0ZwNEhUWWNrN2tNc2FidW5Mam5hSDFSdzhKTUJrY1I0cWRQbVpWWnpLWUdaQXpla2JWbVZ2UDln?oc=5"
+        },
+        {
+          "title": "One Year Later, Ella Langley Is Still ‘Constantly & Consistently Amazed’ by ‘Choosin’ Texas’",
+          "source": "Backstage Country",
+          "published": "2026-10-19",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPTksyMHBaYl9pVHZmMHNEWHFUR3oyZkZ2Y0Z4ZzJKY0x2LTc5UzMwd2J6eFhoSTlGb3ZrVk92TDliZTk2TUtxSlpnWldTU04wSUxZalBOdVV6RWdyOGhMbm54OGYwekF1RWNmejM3UFI1UW1kaGVYN0ItTk1FeXB5bEtPa0MtZHZRNGNrZ0RwWjNaYkd0OGJSZE11clI1WWdFeTdKUVVaNlhTbmVUcC1SeXRCbll2TlJoYTA4UzZlTk9Hckk?oc=5"
+        },
+        {
+          "title": "Drake Interpolates “Choosin’ Texas” for New Version of Hit Song",
+          "source": "- Saving Country Music",
+          "published": "2026-10-13",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNQkxrX3NRbmRvZ1BFeGdSRXNobGFYeEotVWszVXI5Y1J2WG05ZzlJMm1aRW8tVk1FOEtEeGxCNGRSTnY3NFNpOWxUckVaYjVZOVJGOTZaNHpJTklzX0pmS2hRc1BMZEI4MkROQUhYS0xtci1jZG9IdU10VXprN293dWZHQktWS3dDWl9tNUl1U0ZtelpQTWxz?oc=5"
+        }
+      ],
+      "news_query": "Choosin' Texas Ella Langley Billboard Hot song",
+      "forecast": {
+        "probability": 0.22,
+        "reasoning": "A WSJ piece from Oct 26 calls 'Choosin' Texas' the biggest No. 1 song ever, which suggests it was still No. 1 on the latest chart. If it stays on top it cannot be No. 2, so a Yes mostly requires a big new release debuting at No. 1 and pushing it down one spot. I see no specific evidence of such a debut this week."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-26T01:09:16Z",
+        "crowd": 0.092,
+        "best_bid": 0.077,
+        "best_ask": 0.107,
+        "volume": 10063,
+        "liquidity": 1887,
+        "fee_rate": 0.0
+      },
+      "bet_note": "Gap vs. the price we'd pay is 11.3 points; counting only part of it (cautious sizing) leaves 4.9, under the 10-point minimum."
+    }
+  ],
+  "batch_id": "msgbatch_01SRSrFXXoGwv9eShDhQjsb8",
+  "forecast_at": "2026-10-26T01:09:15Z",
+  "usage": {
+    "input_tokens": 4279,
+    "output_tokens": 1540
+  },
+  "cost_usd": 0.024,
+  "budget": 94.47,
+  "account": "phase-1.2"
+}
