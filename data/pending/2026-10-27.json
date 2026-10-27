@@ -1,0 +1,337 @@
+{
+  "run_id": "2026-10-27",
+  "date": "2026-10-27",
+  "created_at": "2026-10-27T02:00:09Z",
+  "model": "claude-opus-5-5",
+  "effort": "high",
+  "phase": "1.2",
+  "pick_stats": {
+    "eligible": {
+      "Economy": 6,
+      "Politics": 140
+    },
+    "picked": 5
+  },
+  "track_record": "=== Your track record so far ===\nThese are your own earlier forecasts in this experiment that have settled (55 questions). They show only what you said and what happened (no market information).\n- On average you said 37%, and 42% of these events happened. So far you have been too low: events happened more often than you said.\n- Your average Brier score is 0.266 (0 is perfect; always saying 50% scores 0.250).\n- When you said...\n    under 10%: it happened 3 times out of 7.\n    10-30%: it happened 3 times out of 15.\n    30-70%: it happened 13 times out of 25.\n    70-90%: it happened 4 times out of 8.\n- Your biggest misses:\n    \"Will SpaceXAI officially rename itself to SpaceXSI by October 15?\" You said 3%; it happened.\n    \"Will the Tesla Roadster fly for 1s+?\" You said 4%; it happened.\n    \"Will monthly inflation increase by 0.6% in September?\" You said 7%; it happened.\n    \"Will Flavio Bolsonaro win the most votes in the first round of the 2026 Brazil presidential election?\" You said 12%; it happened.\n    \"Will Flávio Bolsonaro finish in second place in the first round of the 2026 Brazilian presidential election?\" You said 86%; it did not happen.",
+  "questions": [
+    {
+      "market_id": "629184",
+      "event_id": "57141",
+      "event_title": "Arizona Governor Election Winner",
+      "option": "Andy Biggs (R)",
+      "question": "Will the Republicans win the Arizona governor race in 2026?",
+      "rules": "This market will resolve according to the winner of the 2026 Arizona gubernatorial election.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
+      "topic": "Politics",
+      "end_date": "2026-11-04T04:59:00Z",
+      "url": "https://polymarket.com/event/arizona-governor-winner-2026",
+      "snapshot": {
+        "time": "2026-10-27T02:00:06Z",
+        "crowd": 0.105,
+        "best_bid": 0.1,
+        "best_ask": 0.11,
+        "volume": 173596,
+        "liquidity": 71486,
+        "fee_rate": 0.0
+      },
+      "news": [
+        {
+          "title": "Arizona Governor Race 2026: Hobbs vs. Biggs",
+          "source": "MultiState",
+          "published": "2026-10-19",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBybThKRkVvS3haZ2JkMHVFQmFWUHBRS3pQX2dMNjQ2ZlJFUmlkOWZWWlVWYXNTaGpLSGY1aDktQ3lfcEZYeGdxRzhCVElqbk4wdGNoYWRkTmRaYjdpMDk4OUFLZl9ISi1vMDZ1cV9pSQ?oc=5"
+        },
+        {
+          "title": "New Arizona poll shows Democrats leading in several key races",
+          "source": "AZ Family",
+          "published": "2026-10-13",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQYlpPSExlS2ItWERUS1RLOG01aDR0NDJTUDRUWE10RzRTRzc5NkhrOE1fZXd2MjBRSjBWbkFqb0tFTFFrZURjNjNVZGNoVUZwMlJDUF9BcTRYRng4bUg2cVBqVUpIVDFUcEROOVJ3QUtMUHUxdVRKM0dtaXdybVFodXVSSXA2eFB2VW50WEZOdnhuZUJRajlJNG91c9IBrwFBVV95cUxOd3FqOUFWQVVxZzJmbG1hTThRMkh4YklFb1BVRXRTeGpLNUFoNVZ1aHhjQmI4Sk9DZ1Z5TzZqYjZleTYzSmxjWTMzZWpZZ2YzOENrVEFlSC1CTy05ZXdEaUZpSlFLa2RHY0VIeFIwVTZzY2tXZmF1Sm5rNVJiaFpNaGN2Zmh6VUJMUWNCbDlydEViWGhJX1JYQUljYnJ1ZGozakU0WHVPSTRodTFmeEFF?oc=5"
+        },
+        {
+          "title": "New Arizona poll shows Democrats leading every statewide race",
+          "source": "KTAR News 92.3 FM",
+          "published": "2026-10-13",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQUS1ya2hwYkV0NjdGbVBrWFVvcVdZSEFGU1lGMW1EWTZPbS1LMmpjZUN2NGRDdm9WRy1rSHgyUkZpTWdneWx2MmJvUlNnY2l4MHoweTMzdC1DdEFkSm0yNlpSY2haMEE2dWFEb1NxRFVWaVF4YldXNUlRdDhvbWhSR2pMSzJySmY0?oc=5"
+        },
+        {
+          "title": "Latter-day Saint split shapes Arizona governor race",
+          "source": "Deseret News",
+          "published": "2026-10-20",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOcTdTWnlVQnRJVDl4b2ZnVHcxM2dwdXhTcnlPc0oxazZ6SnZyaWhVbURQamhMRFBoblY0TmlMbVJyWWoweFA1Y1NUaE14NHJsYmdXOEVjSkVQamlqWFZQQjllV2tpWEdlekxNZklkUXBKWmFBMHBYNnhYcnd2Y1RMS0JJOHVxQW9QVTZ3RVNpNUZDNUlmSWZiaEJwSVFpTXBUX2NKcmRGdThlLXFvQWU3eXpCWHJlNXJXZ29XMjgyanotX2Jlclg5UmUzMTJRV25iWFQweVQzWVF4MEpKYWhKdTJBbm1JZlpFU1JUd3p1OHg?oc=5"
+        },
+        {
+          "title": "Arizona Midterm Elections 2026: Key Races, Candidates and Past Results",
+          "source": "NBC News",
+          "published": "2026-10-26",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE01dkVCZGVncXlQblhmYnY1RnJxSk81OTNSSzY4aEhudUt1c2ZtenE0UGp1aURBTXJucVFOZEZ6R0FrOHpWcmpxTGh2OEdQVDdFZzNLdGl0dUpXYlRUVVh5ajZ3bHRLU0pSUm9wOWo1Y0s?oc=5"
+        },
+        {
+          "title": "2026 Governor Elections Map",
+          "source": "270toWin.com",
+          "published": "2026-10-23",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA4OGl1RXF6U1RwZEYwcjNaQXE3NmpwaFpUQWlGa0ttbTdVQ2tSbm1ta3cxZGtNb2RRQmd6eXlOeEZMU3FrMks1OG9oS1MtOV80TTdwTjhJOWlkbHpN?oc=5"
+        }
+      ],
+      "news_query": "Republicans win Arizona governor race"
+    },
+    {
+      "market_id": "629325",
+      "event_id": "57160",
+      "event_title": "Florida Governor Election Winner",
+      "option": "Byron Donalds (R) ",
+      "question": "Will the Republicans win the Florida governor race in 2026?",
+      "rules": "This market will resolve according to the winner of the 2026 Florida gubernatorial election.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
+      "topic": "Politics",
+      "end_date": "2026-11-04T04:59:00Z",
+      "url": "https://polymarket.com/event/florida-governor-winner-2026",
+      "snapshot": {
+        "time": "2026-10-27T02:00:06Z",
+        "crowd": 0.805,
+        "best_bid": 0.8,
+        "best_ask": 0.81,
+        "volume": 276881,
+        "liquidity": 143435,
+        "fee_rate": 0.0
+      },
+      "news": [
+        {
+          "title": "Stetson Poll: Donalds, Moody Maintain Double-Digit Leads in 2026 Elections",
+          "source": "Stetson University",
+          "published": "2026-10-13",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZGJfVGZBbEVMSm9WbHp5XzV0WUNFVy1UbDlwUEU4eHhUeDQ5Y1YteFp4ZUEzLVJNZldXNjlMdW9XR2VadXh3RnBFV0wxeGxTaTZwbldCWVZPWmVWTlBucUtUTjcxOWhDLUZobm9SazFzNW5ieEhZVzd4RUtDdVNuMHRLelRqX1lmSFFVYlFfemxYaXUwWHFfRkFR?oc=5"
+        },
+        {
+          "title": "Donalds vs. Jolly: Guide to the Florida Governor’s race",
+          "source": "firstcoastnews.com",
+          "published": "2026-10-20",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNRmtVVHUzSFpyc3VzVU5BTUZ0VVJZb3RraHhoQXF4MlNrLU5PaHRNelF0Yk9qSjFDeURtY08tVEpDUlhSOUstN3BpVXlPSHhsWTNwUllUdjFnYnNkNnV4SFdGOEltZ0FnVDFhUnROamR2YlNWMGg5ajc4dWc4X3A0M3gtYjBLVDFXU3M1cERDWDg0ZnNyejFFZmhNazN1SDlLZ1g0b2lXV3p6X3psWTVoY1h5QjVhLXF4TWhaUXNnRHhsZEpXTjRYTHB3RG5TeEd6WG1mM0pHLUdWTy1HcXp6VUFxQQ?oc=5"
+        },
+        {
+          "title": "Florida Governor Race 2026: Donalds vs. Jolly",
+          "source": "MultiState",
+          "published": "2026-10-27",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFAwdEt0NDV3NDhtNFJ1cHgwZXBWNFcwcTZfMXZiSDYySGZLeWFNamo4NVVGSjFoSGlGQy1MV3pXbzRBZGlQb04yRk1tYnMtM3pzQzFNWDVHZENBTFhfVWlZUHFFLW1RME5YdmtmOUlNcw?oc=5"
+        },
+        {
+          "title": "New poll shows Florida governor race 'too close to call'",
+          "source": "Tallahassee Democrat",
+          "published": "2026-10-21",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNOGY2TVJRRTNFU1dWSXptOWl2czlFVnY2eW1HeEstUlhhSzRyNVRudmthNHlycmpzc0JMMnFtYUpmSFBQb0JpcjFTT1BreFlZdlJXQVF6WGFkT24zRi1OakVDTzBFTHV3Z3liajROVi1hdmxoMk9IN2xuYTZ2RDJ3UDhfN2lBUlhQTzFuVU55Yzl1OXltcHByZXNzR1RubTBvOXFUbmp1YkVyNDVfMnllRExMRDBTaWZKOGNiVWpyc2k4SEtZYUowQXBjU3NWbVdKa0E?oc=5"
+        },
+        {
+          "title": "Republicans Donalds, Moody hold slim leads in tightening governor, US Senate races, UNF polls finds",
+          "source": "WLRN",
+          "published": "2026-10-21",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPN1dLQzBONXhnQzRYZ19PYUdlU0pZdXR1YmFXbmgwY3JVZ0xpQTVtaFNiYkVlc3EwbW5uT202d2dvY0RFX0QtdGc1MmlKSE5TUFpaQ2Nqbm5PUmVBX0YydVpiR1VrSFVBUThTUXgxRjZKVDE1NmNIRVJaMjVqVnpCLVNCWUQ1Q1YwQ0hXalNWOXc1cHM4dGNUV0w4eVBRdzlKcmlmTjM2Uml0b3F5cnFGTi1Hdk1kSkthTXRWcDZNQ19uWDhJd1FocHo2eFBNODlsMmJUNDlzdDJlZ013VEJQa2l3?oc=5"
+        },
+        {
+          "title": "‘Too close to call’: New poll shows tight Florida governor race ahead of general election",
+          "source": "WCTV",
+          "published": "2026-10-21",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQb2NGZHpSdGp2YXhaTmUzV21waVdxQXJ3MU9RNmZ6RW9rWFlid3ZLRHNzaDd6YmNUMGZCVFc4T0w3WlR2OWxBZlo2XzJqdWxWMWxiQnVXRXF3ZkRpSnZjX0gtZm5zS2lWTVZaWURzcXhfNDl0M2VYcFZyaVhVZmxYeG0xSmZtdzE0R09sZGZuZTg5eGZDUlNrV2RfQzUwa3pMZDhUQ0x5aVVNUHAtVEV5V2930gHGAUFVX3lxTE9DeEhzYkowOUZyUFNVVW5DNUw2WWpSTERHMWVQQTdKMXZpb3dSSXEwYWRDbGpkQUxVbFl0c3VHWHdJRUdiZ3dUUzVPTnBDUXJjSklXMzhaS0lidFEwNkNwLVI5VldKME9uRDRVSm9HbUV4MEx3VFM0eVVGNjVkbndKbDRaVFYtbXpUR015ak5wZzloQUUtTDluekxfaWNBZFBYdFVNcGJ4TDZwX25GQ0c3eW9OQnlMeERiOG16N3dxNnVyRVpNdw?oc=5"
+        }
+      ],
+      "news_query": "Republicans win Florida governor race"
+    },
+    {
+      "market_id": "1283128",
+      "event_id": "191421",
+      "event_title": "FL-25 House Election Winner",
+      "option": "Scott Singer (R)",
+      "question": "Will the Republican Party win the FL-25 House seat?",
+      "rules": "This market will resolve according to the party of the candidate who wins the FL-25 congressional district seat in the U.S. House of Representatives in the 2026 midterm elections. The midterm elections will take place on November 3, 2026.\n\n​A candidate's party will be determined by their ballot-listed or otherwise identifiable affiliation with that party at the time all of the 2026 House elections are conclusively called by this market's resolution sources. A candidate without a ballot-listed affiliation to either the Democrat or Republican parties will be considered a member of one of these parties based on the party with which they most recently expressed their intent to caucus at the time all of the House elections are conclusively called by this market's resolution sources.\n\nThis market will resolve based on the result of the election as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the United States government, specifically the Federal Election Commission (https://www.fec.gov/).",
+      "topic": "Politics",
+      "end_date": "2026-11-04T04:59:00Z",
+      "url": "https://polymarket.com/event/fl-25-house-election-winner",
+      "snapshot": {
+        "time": "2026-10-27T02:00:06Z",
+        "crowd": 0.235,
+        "best_bid": 0.23,
+        "best_ask": 0.24,
+        "volume": 67153,
+        "liquidity": 73710,
+        "fee_rate": 0.0
+      },
+      "news": [
+        {
+          "title": "Election 2026: How Democrats could win the House, how Republicans could hold on",
+          "source": "NBC News",
+          "published": "2026-10-24",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNbXc0cHY0LWFXVjdaalpUUHlZUmlzYUdGbzZvSm1VUG15T2l5Q3VxOUlZUC13eEtnQTVXcy16RHRhNWQ3U3FMV2luc1dqbE5uVUZ0eW9xb0NlTXhDSnVwUjZpakNXTEQ5cUt4VU5TRTRyS1NhbmhMSUl1dF9JQnpGWk54MUJMTHVMam9BeV9TRzRDbjZxakVKaDNoSWt0U1F3RW1zeUdYNUpsTzItX1FqSDVRNA?oc=5"
+        },
+        {
+          "title": "Midterms 2026: Will Republicans or Democrats win control of the House? These are the key races to watch.",
+          "source": "Yahoo",
+          "published": "2026-10-23",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNcUs0SDBpU0pLV2txMzZONkdmWERFN01LZVo4MEZxTWVlNU1mNDF3SWplOUN5bzF2amJfVDRWcXQ4REFtcEMwYUxsY1BIekZ2UTNPUG1LUUZ3eW5GR3h4LUxlQXVjMEtSVFU3Z0JJU29PUGd1SXBMeEZGaWVvSUxaajBZV1BmUHg5Y3dpb3ZrN1VBbkxBVlkxbjYwTVF6YmFYaEdUSUpTQ1RmTmE2XzQ5bDNjQVlRZmcxVkhhRVRjTFNoZEYzS1NsQnlnN0JoQUZUdVlOMk0xN2JwOWk1ejcyRzVRVUlEcVlNZkNCTWdRTHdzUQ?oc=5"
+        },
+        {
+          "title": "CBS News poll finds Democrats still boosted by voters' economic concerns, but many don't think either party has a plan",
+          "source": "CBS News",
+          "published": "2026-10-25",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE14LVR6WWVqbDRibVZUZU05MHY2RFhYdmQ2bHhRa1A3QUdTT21WWWZRQTdtR29GM1RHMDRwM3JHTW96ckxYTWMyTnFocFo1VkRSVXNaekxScWNvdjhzNkZfa3FKRnZGaTNkMjUwZ2FKZlBFWHRJTDNyaXRyNmc?oc=5"
+        },
+        {
+          "title": "Republicans are spending millions and still may not win districts drawn to favor them",
+          "source": "NPR",
+          "published": "2026-10-26",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOcEZyUUpUNFNMRjZlZFlNcEk3Sk5uWFNEY2ZFLWZ4akQ1aml6US1iQjE3blZGd3IwNmtyZEY0Y1VVUGc5T2JFeWFXeC00T0FYOC10cGFMY2gtXzRxZGljUTV4OFVYSDdtQmVFMXFUSUQ4VTZJUWJjQTc2VEN2YjRzT1hEd05qSHFSZ19uMmdfWjVJcjFidHFla3d3?oc=5"
+        },
+        {
+          "title": "Missouri Democrats aim to break Republicans’ streak of House supermajorities",
+          "source": "Missouri Independent",
+          "published": "2026-10-15",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOVFJRMklMaUVsWjR6R3ZWMmtjQzRMOWFOX2hGcHY2WFpWLUFMSnliS2NIekpMUlhlUXF2bC1TVTRCT3o3ejJBN0dCa3Z3SHJ6ZE5Ea2FSVEk5aGtpR0hZOUhYaVk2WENDSlZrckRoSHJQbGNQd3F2eG1zQXVJc25WcGNCcTd1Q1IzeTM1MmlVQ094cjZhUlFkbEtrbkFRV29neVU3Q0VDT1pEUm5GNll6Y0M5OUxCd09VVkdB?oc=5"
+        },
+        {
+          "title": "US House races to watch in the 2026 elections",
+          "source": "Reuters",
+          "published": "2026-10-19",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPX0RkSmFENHNDU3hleGF0ZllkeVY1ZXNhS3BUYTlWQ3l5TlRQYjJTYWVXa21RVGlZU094c2pGeGMwS0dnQ3JUcWFlSjBzRjA3cDJmY3ZDOVRSNGtLYTBxYVg3WG02YS1wT1BLXy16UklRZGpqZE1LRklZWlFpVGl0VUpWUG1EbjgyNUxZaGV5NVBlQQ?oc=5"
+        }
+      ],
+      "news_query": "Republican Party win House seat"
+    },
+    {
+      "market_id": "5567025",
+      "event_id": "1171684",
+      "event_title": "Republicans win the Senate pending oil above or below $80?",
+      "option": "Oil ≥ $80; R Senate",
+      "question": "Will oil be at least $80 on November 2 and the Republicans win the Senate?",
+      "rules": "This market will resolve to \"Yes\" if oil is greater than or equal to $80 at the close of trading on November 2, 2026, and the Republican Party wins control of the United States Senate in the 2026 United States midterm election. Otherwise, this market will resolve to \"No\".\n\nOil price: This market will resolve based on the Close price for the Active Month of ICE Futures Europe WTI Crude Futures (denoted by Pyth as \"CLL\") for the November 2, 2026 trading day.\n\nFor a standard full trading session, the closing price refers to the Pyth \"Close\" value of the 1-minute candle corresponding to the final minute of regular trading hours on the primary exchange. Closing prices will be used exactly as published by Pyth, without rounding.\n\nIf the Active Month contract does not trade at all during the relevant trading session, or if the listed date is not a trading day under the applicable trading-hours schedule, the market will resolve 50-50.\n\nFor the purposes of this market, trading days will be determined according to the applicable trading hours schedule for the underlying market (See: \"Trading Hours\" at https://www.ice.com/products/213/WTI-Crude-Futures). The trading session for a given business day typically begins at 8:00 PM ET on the prior calendar date, except for the session dated Monday, which begins at 6:00 PM ET on the preceding Sunday, and where modified by holiday or other special hours (See: https://www.ice.com/holiday-hours).\n\nThe Active Month is the nearest listed contract, except during that contract's final three trading sessions. At the open of the third-to-last trading session, the next listed contract becomes the Active Month.\n\nEach contract's last trading day will be determined by ICE Futures Europe per the WTI Crude Futures contract specification (generally the 4th US business day prior to the 25th calendar day of the month preceding the contract month, or five US business days prior if the 25th calendar day is not a US business day). The last trading day for each contract is posted at https://www.ice.com/products/213/WTI-Crude-Futures/expiry.\n\nFor example, if the last trading session for the nearest listed contract is the session for Monday the 20th, the next listed contract would become the Active Month at the start of the trading session for Thursday the 16th (8:00 PM ET on Wednesday), assuming a standard trading calendar.\n\nIf the specified day has no valid Pyth Close value for the 1-minute candle corresponding to the end of regular trading hours on the primary exchange, the market will use the last valid Pyth price achieved during the regular trading hours of the primary exchange as the effective closing price. If no valid Pyth price exists for that trading day due to a system outage, data failure, or other disruption, the official close price published for the Active Month WTI Crude Oil Futures contract by ICE Futures Europe will be used to determine the closing price for that day (See: https://www.ice.com/report/10 with \"T-West Texas Intermediate Light Sweet Crude Future\" selected).\n\nIn the event of a contract specification change, feed change, or similar structural modification affecting the underlying market during the listed time frame, this market will resolve based on adjusted prices as displayed on Pyth.\n\nThe resolution source for this market will be Pyth, specifically the \"Close\" value for the relevant 1-minute candle for the Active Month WTI Crude Oil Futures contract by ICE Futures Europe available at https://app.pyth.com/explore?search=CLL. Historical 1-minute candles may be accessed by appending a Unix timestamp (seconds) to the Pyth chart URL using the \"t=\" parameter.\n\nSenate: A party wins control of the United States Senate if it wins a majority of the chamber’s voting seats. If no party wins a majority of voting seats, the party that wins control of the chamber is the party that wins half of the voting seats and holds the Vice Presidency. If the outcome remains ambiguous after applying the above criteria, the chamber will be deemed controlled by the party with which the first selected President Pro Tempore of the Congress that convenes after the specified election is affiliated.\n\nThe following rules govern the counting of seats for determining which party wins control of the chamber.\n\nAll regular and special Senate elections that determine representation in the upcoming 120th Congress and are scheduled to take place in November 2026 as of October 31, 2026 are included. Runoffs for qualifying elections will determine attribution of the relevant seat, even if they take place after November 2026. Vacant seats for which no election or special election to fill the seat is scheduled to take place in November 2026 as of October 31, 2026 will be treated as held by the party affiliation of the most recent member to hold that seat.\n\nFor seats contested in the specified election, seats are attributed to the party under which the member was elected. If a member-elect changes party affiliation, or vacates their seat, between election day and the formal organization of Congress, the seat is attributed to the party under which the member was elected.\n\nFor seats not contested in the specified election, seats are attributed to the party that holds the seat as of the date of the election. If a current sitting member of the U.S. Senate who is not up for election changes party affiliation or vacates their seat after the date of the election, the seat is attributed to the party under which the member was affiliated at the time of the election.\n\nSenate members elected as independents who formally caucus with, or, for newly elected members, who announce their intent to caucus with, a party are included in that party’s count. If the caucus decisions of members of the Senate elected as independents cannot be determined on the date of the election, this market may remain open until the earlier of (i) an announcement from the relevant members of their intents to caucus, or (ii) January 4th, 11:59 PM ET of the following calendar year. If no such announcement is made by January 4th, 11:59 PM ET of the following calendar year, the member will not count towards the seat count of any party.\n\nThe resolution sources for the Senate component will be official information from relevant state electoral authorities, the United States Congress, and a consensus of credible reporting.",
+      "topic": "Economy",
+      "end_date": "2026-11-04T04:59:00Z",
+      "url": "https://polymarket.com/event/republicans-win-the-senate-pending-oil-above-or-below-80",
+      "snapshot": {
+        "time": "2026-10-27T02:00:06Z",
+        "crowd": 0.343,
+        "best_bid": 0.324,
+        "best_ask": 0.362,
+        "volume": 12265,
+        "liquidity": 30608,
+        "fee_rate": 0.0
+      },
+      "news": [
+        {
+          "title": "Alaska’s Mary Peltola is making Republicans nervous with Senate control at stake",
+          "source": "The Guardian",
+          "published": "2026-10-23",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNZnE3T1RxYmlrS29NaFlycWRsNE1XdUVUNlJ0TTlrNHEwZGhFWXBfZkJyc2tqal9RTWtzZXFvVy1UM3pvTjdoRmRYM0x2RVk4V2xPVUJKOE5DdVJiakZrQkdkbW9ab3ZCN3hFNHN3ZzREWW90ZFp1MzFpcnFvZjFTb0ZPVDdERTFhYzd3?oc=5"
+        },
+        {
+          "title": "Reuters: As Winter Nears, Heating Oil Emerges as Hurdle for Republicans in U.S. Senate Races",
+          "source": "Chris Pappas for Senate",
+          "published": "2026-10-24",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOUVFXN2RJdzZ3eUJ6VndEZlFfNG5LUFhZM214U0EzMFJybWFncmJRMlpsZkFhVzFqSWdGaXZBZC14cFlPby1xa09jTHRJQ056dmk3UEU5M2FENlVLZG8zTFNXRnVKc0Q1THlOa3JISHA2dEtKT3E1VnFfZlJuOHBnRjRzR3B6MWNtMDFfX0p0SGpwaGdKQjlJcDJ6dHI0WEFyVDk3NTFfR1JNSmJYbHdteXBDa2hQR3pwMUNjdGNYRQ?oc=5"
+        },
+        {
+          "title": "As winter nears, heating oil emerges as hurdle for Republicans in US Senate races",
+          "source": "Reuters",
+          "published": "2026-10-24",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPWk5FamNJdG52SWx6b2FvaS1zcEFZZUJkbl9Kdl9DS2g2bGZadUJTcUZoMy03VWNrRlMtVFNnc2Q5clJJNVZ5eldDendydEU5b1lndTQ5TXViQW9uN2tTN185S1FkWnV3UHZxZkwtZE5zb0hZYm43ZG5sMHpIYWNGejQ3OWFNSjBjYUZfeEVoN1FvNk9zMmNDdEFrczJ1OEpadEM2U2RmdmtMMy1xUl9DWTkwVWd1ZFNIZjZ2Wg?oc=5"
+        },
+        {
+          "title": "Alaska’s final U.S. Senate debate devolves into mudslinging between Peltola, Sullivan",
+          "source": "Alaska Beacon",
+          "published": "2026-10-16",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQlR0VUVWbTYxN3p4bW9yYUNtcTVVNW9jY25NWTZGRHRCMjUzTDdlX2JvVkxCcjU5N0hBa1BtaFd5bUFtaHB4V3lHRDlvT09ta3dyeWd5cERUdGlOTHFSQ1IxbmFGa2UtRnk0OGxOQmNodmVoMVV0OFE5aFROUjlxNUhBbFJKZmxmdzNkeTJNNVllclpXenhZb2w0TlRKaWlvenhTOG9KYUhFcUV5b0lNQXNoMHFDUGxtbFZn?oc=5"
+        },
+        {
+          "title": "High gas prices sway Alaska Senate race as Peltola gains support",
+          "source": "Crypto Briefing",
+          "published": "2026-10-25",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNc29XR2Zmc2k3TXVEZnhGZFB2dV9CMjJBTmExX2s0Q3lTTDF2dnpCOGI5dktmUEJ4Z3pJWFJ5OFR1eTc3Rzl0aG1hdUNIdUVVanNNWTRZclcwTjhwdEJidWVUamRaZ0xqQXAzemVQTlAxV2hxekJKM2FoZjlaYUd6SUZSOVVEU0Yzd0trUmVCdkFZdGNDTjRz?oc=5"
+        }
+      ],
+      "news_query": "oil Republicans win Senate | oil November Republicans win Senate economists forecast"
+    },
+    {
+      "market_id": "5691088",
+      "event_id": "1189074",
+      "event_title": "October Inflation US - Annual",
+      "option": "3.7%",
+      "question": "Will annual inflation be 3.7% in October?",
+      "rules": "This is a market about inflation over the 12-month period ending October 2026, before seasonal adjustment, as reported by the Bureau of Labor Statistics.\n\nThis market will resolve to the percentage change in the Consumer Price Index (CPI) over the 12-month period ending in October 2026 according to the monthly Bureau of Labor Statistics (BLS) report.\n\nThe resolution source for this market will be the BLS Consumer Price Index report released for October 2026 (https://www.bls.gov/bls/news-release/cpi.htm), currently scheduled to be released on November 10, 2026, at 8:30 AM ET. Resolution of this market will take place upon release of the aforementioned data.\n\nNote: the resolution source for this market will be the official monthly BLS CPI news release, which reports inflation over 12-month periods to only one decimal point (e.g., 2.9%). Thus, this is the level of precision that will be used when resolving the market.\n\nIf the BLS does not release the relevant figures on the scheduled date, this market may remain open up until the scheduled release time of the next CPI report (https://www.bls.gov/schedule). If the information is not released by that time, this market will resolve according to the figures of the most recent previous month with available data.",
+      "topic": "Economy",
+      "end_date": "2026-11-11T04:59:00Z",
+      "url": "https://polymarket.com/event/october-inflation-us-annual",
+      "snapshot": {
+        "time": "2026-10-27T02:00:06Z",
+        "crowd": 0.92,
+        "best_bid": 0.9,
+        "best_ask": 0.94,
+        "volume": 12177,
+        "liquidity": 10463,
+        "fee_rate": 0.0
+      },
+      "news": [
+        {
+          "title": "Canada's annual inflation rate rose to 3.1% in September",
+          "source": "Reuters",
+          "published": "2026-10-19",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQc3VaLWlSejhHR19OQW1GMmZqTzFTZEktcUVDQXpLOW1GcjdiLUNqN3VUOHB1b0FaZFBhaUtzOVhqMWRLVkhmZl9HbHVtbXA2aVJ3bHRGR0pUdkt6b0JwQndsR01IMWdoVlZhV0hqSGpxS0pLY1NsLVh3ZVRQTmJMRzVPSmEwM0RtRUZSNkY3ajE2MGVWQWRkYkV0UHVtUDg?oc=5"
+        },
+        {
+          "title": "Inflation in the euro area",
+          "source": "European Commission",
+          "published": "2026-10-16",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNNEZ4YnBQSE85eXotRjZFUTJJS3IwcGduU190Vlc0bGR5Q0xwYmkzU25mQlNuRHB6NnZPMlNIX3dvQmhTWndRLXpIZ1JNZ0RYOUpUcXlia0pSekxNbVdaZk9nTnc0NVZBQzVUa3kxY0NDbzYtaFJKZURZVWF0aTFRSkVMc3haVl92bUU3cU84ZENBdzY3STl4OA?oc=5"
+        },
+        {
+          "title": "Annual Inflation Rate Rose To 3.7% In September—High Energy Costs Push Prices Up",
+          "source": "Forbes",
+          "published": "2026-10-14",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQTUo5MF83TzByS1RMMnBmSlEydWRGcnVCQnpXTlM3M1RUSWFxdGllR3RRTVNYRXdiMGNQQ1ZvWGVkOUcwUWFMRmtSa1R6aVlHdV8zMEVKWVMyZDZPckgyYU9BMFZYU2d1cGtaVFdmdS1TSnRlNWpnZXZnY2k4UGt4OEI1UG01WG9ELWI0NHNramlQemlwOHZUV2ZQTUh6NHFPLVBxcEwtSk9UazNQYnFJSkpyS3M0OGhySE9zaTNPMkVWUQ?oc=5"
+        },
+        {
+          "title": "Consumer prices rose 3.7% annually in September as gas prices skyrocket",
+          "source": "CNBC",
+          "published": "2026-10-14",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1IZEUyWDE5aTVyU1VTMEhhNW9LV3pZdUkwcFI4WVlIOEhHUzBmUTZGbUlWTDVfN05zdzhFTlR4RERqUHROMDJ2T3dCN2I0UDI2dmZhOTBVTVRIYVlIYjRKQ2RZcjdNQWdWTTkyV0owQU1Xekt4U2ZHUFc4NnPSAYIBQVVfeXFMT3U1UnZTdHN4U2tIM1lZcHlGRGZLUXNaYjhDTHl4bllqdzY3ek9XYl9ZdzNBaUdJQjNndF9HSm1yci15X3ZnMEdaazNzMjVTZ204TzJ1cFJEOE81bUF0RFBJWTR6RWF2YU9BWm1PMnhTVGNWVnc5bkxNWlRpT0RuU2t2Zw?oc=5"
+        },
+        {
+          "title": "New Zealand third-quarter inflation slows to 3.7% but expectations remain of a hike next week",
+          "source": "Reuters",
+          "published": "2026-10-21",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPRmNQWHdjLTZPMlVicExwRHVtbUh3VlhRLVQwdW9sSFJyRG5Ga2pfMG1jelljOFkwSWNVQU10d2ZFLWtyQUxlRWt3NVpLNm55ekd6WGZ5SEYwYzNEQ2trZ2s3U3E2bEtsUmdHd0JXOFQwYkNMVDc0aVljUFRSRWhYampBXzVvaFZabjJkSjZncjVGeDFDYW1FbUZYYmc4aFhFZUpTLVdnSmM?oc=5"
+        },
+        {
+          "title": "Press Briefing Transcript: World Economic Outlook, Annual Meetings 2026",
+          "source": "International Monetary Fund | IMF",
+          "published": "2026-10-13",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNZFBadkZtWldsMk15ajhLTDAydlhoelRVWVdoNmVpUmVseExiT2sxWllmZnc5MkNlYnFqTXd5SGZsNGQ3ZDR4V09MRU5fZDRvVjBoelV2cUpqbWlwMWRVLVJCOTRWN0NYOW15d0xUVVNjMk9zNnJfc0lMN2RvSGR1b3JDazFWTVZxT2cyU2g3VzhFdlM3eTJXVmR3QzNjR0FlZnBUbGR3V2s4ZjRPeDlXSE50a3A3Y1Z4Y050QTI2UmZoVVZXN2c?oc=5"
+        }
+      ],
+      "news_query": "annual inflation | annual inflation October economists forecast"
+    }
+  ],
+  "batch_id": "msgbatch_01MSUJrthQ9xUT2CQC52imTW"
+}
