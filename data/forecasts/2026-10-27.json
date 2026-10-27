@@ -77,7 +77,22 @@
           "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA4OGl1RXF6U1RwZEYwcjNaQXE3NmpwaFpUQWlGa0ttbTdVQ2tSbm1ta3cxZGtNb2RRQmd6eXlOeEZMU3FrMks1OG9oS1MtOV80TTdwTjhJOWlkbHpN?oc=5"
         }
       ],
-      "news_query": "Republicans win Arizona governor race"
+      "news_query": "Republicans win Arizona governor race",
+      "forecast": {
+        "probability": 0.3,
+        "reasoning": "Democrat Katie Hobbs is the incumbent, and a mid-October poll showed Democrats leading every statewide race in Arizona. The national mood looks unfavourable for Republicans, with high gas prices and 3.7% inflation. Arizona remains a swing state, so Andy Biggs keeps a real chance."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-27T18:38:52Z",
+        "crowd": 0.09,
+        "best_bid": 0.08,
+        "best_ask": 0.1,
+        "volume": 182202,
+        "liquidity": 127076,
+        "fee_rate": 0.0
+      },
+      "bet_note": "Gap vs. the price we'd pay is 20.0 points; counting only part of it (cautious sizing) leaves 9.5, under the 10-point minimum."
     },
     {
       "market_id": "629325",
@@ -142,7 +157,22 @@
           "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQb2NGZHpSdGp2YXhaTmUzV21waVdxQXJ3MU9RNmZ6RW9rWFlid3ZLRHNzaDd6YmNUMGZCVFc4T0w3WlR2OWxBZlo2XzJqdWxWMWxiQnVXRXF3ZkRpSnZjX0gtZm5zS2lWTVZaWURzcXhfNDl0M2VYcFZyaVhVZmxYeG0xSmZtdzE0R09sZGZuZTg5eGZDUlNrV2RfQzUwa3pMZDhUQ0x5aVVNUHAtVEV5V2930gHGAUFVX3lxTE9DeEhzYkowOUZyUFNVVW5DNUw2WWpSTERHMWVQQTdKMXZpb3dSSXEwYWRDbGpkQUxVbFl0c3VHWHdJRUdiZ3dUUzVPTnBDUXJjSklXMzhaS0lidFEwNkNwLVI5VldKME9uRDRVSm9HbUV4MEx3VFM0eVVGNjVkbndKbDRaVFYtbXpUR015ak5wZzloQUUtTDluekxfaWNBZFBYdFVNcGJ4TDZwX25GQ0c3eW9OQnlMeERiOG16N3dxNnVyRVpNdw?oc=5"
         }
       ],
-      "news_query": "Republicans win Florida governor race"
+      "news_query": "Republicans win Florida governor race",
+      "forecast": {
+        "probability": 0.85,
+        "reasoning": "Florida has moved strongly Republican, and Trump carried it by about 13 points in 2024. The Stetson poll shows Byron Donalds with a double-digit lead, while the UNF poll shows a tighter race that Donalds still leads. A Democratic-leaning year narrows the gap but probably not enough to flip the state."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-27T18:38:52Z",
+        "crowd": 0.795,
+        "best_bid": 0.79,
+        "best_ask": 0.8,
+        "volume": 300678,
+        "liquidity": 147731,
+        "fee_rate": 0.0
+      },
+      "bet_note": "Gap vs. the price we'd pay is 5.0 points; counting only part of it (cautious sizing) leaves 2.2, under the 10-point minimum."
     },
     {
       "market_id": "1283128",
@@ -207,7 +237,22 @@
           "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPX0RkSmFENHNDU3hleGF0ZllkeVY1ZXNhS3BUYTlWQ3l5TlRQYjJTYWVXa21RVGlZU094c2pGeGMwS0dnQ3JUcWFlSjBzRjA3cDJmY3ZDOVRSNGtLYTBxYVg3WG02YS1wT1BLXy16UklRZGpqZE1LRklZWlFpVGl0VUpWUG1EbjgyNUxZaGV5NVBlQQ?oc=5"
         }
       ],
-      "news_query": "Republican Party win House seat"
+      "news_query": "Republican Party win House seat",
+      "forecast": {
+        "probability": 0.3,
+        "reasoning": "FL-25 has been held by Democrat Debbie Wasserman Schultz. It shifted right in 2024, and Florida's mid-decade redistricting may have targeted South Florida Democratic seats like this one. With the national environment leaning Democratic and reports that Republicans may not win districts drawn to favor them, I lean toward a Democratic hold, though the map details are uncertain."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-27T18:38:52Z",
+        "crowd": 0.265,
+        "best_bid": 0.26,
+        "best_ask": 0.27,
+        "volume": 68216,
+        "liquidity": 69164,
+        "fee_rate": 0.0
+      },
+      "bet_note": "Gap vs. the price we'd pay is 3.0 points; counting only part of it (cautious sizing) leaves 1.2, under the 10-point minimum."
     },
     {
       "market_id": "5567025",
@@ -265,7 +310,22 @@
           "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNc29XR2Zmc2k3TXVEZnhGZFB2dV9CMjJBTmExX2s0Q3lTTDF2dnpCOGI5dktmUEJ4Z3pJWFJ5OFR1eTc3Rzl0aG1hdUNIdUVVanNNWTRZclcwTjhwdEJidWVUamRaZ0xqQXAzemVQTlAxV2hxekJKM2FoZjlaYUd6SUZSOVVEU0Yzd0trUmVCdkFZdGNDTjRz?oc=5"
         }
       ],
-      "news_query": "oil Republicans win Senate | oil November Republicans win Senate economists forecast"
+      "news_query": "oil Republicans win Senate | oil November Republicans win Senate economists forecast",
+      "forecast": {
+        "probability": 0.33,
+        "reasoning": "This needs both oil at or above $80 and a Republican Senate. Gas and heating oil prices are reported as very high, which makes $80 WTI plausible, maybe 55-65%. Republicans start at 53-47, so Democrats need a net gain of four seats, which leaves Republicans around 60% to hold. High energy prices also hurt Republicans, so the two conditions partly work against each other."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-27T18:38:52Z",
+        "crowd": 0.3515,
+        "best_bid": 0.332,
+        "best_ask": 0.371,
+        "volume": 12265,
+        "liquidity": 28960,
+        "fee_rate": 0.0
+      },
+      "bet_note": "Gap vs. the price we'd pay is 0.2 points; counting only part of it (cautious sizing) leaves -0.9, under the 10-point minimum."
     },
     {
       "market_id": "5691088",
@@ -330,8 +390,45 @@
           "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNZFBadkZtWldsMk15ajhLTDAydlhoelRVWVdoNmVpUmVseExiT2sxWllmZnc5MkNlYnFqTXd5SGZsNGQ3ZDR4V09MRU5fZDRvVjBoelV2cUpqbWlwMWRVLVJCOTRWN0NYOW15d0xUVVNjMk9zNnJfc0lMN2RvSGR1b3JDazFWTVZxT2cyU2g3VzhFdlM3eTJXVmR3QzNjR0FlZnBUbGR3V2s4ZjRPeDlXSE50a3A3Y1Z4Y050QTI2UmZoVVZXN2c?oc=5"
         }
       ],
-      "news_query": "annual inflation | annual inflation October economists forecast"
+      "news_query": "annual inflation | annual inflation October economists forecast",
+      "forecast": {
+        "probability": 0.25,
+        "reasoning": "September's annual CPI was 3.7%, so repeating it is the single most likely outcome, but exact-value questions usually land around 25-35%. Energy prices in October and base effects add uncertainty. The missing October 2025 data from the government shutdown could complicate how the 12-month figure is computed."
+      },
+      "bet": {
+        "side": "NO",
+        "price": 0.1,
+        "top_price": 0.1,
+        "shares": 500.0,
+        "stake": 50.0,
+        "fee": 0.0,
+        "cost": 50.0,
+        "gap_pts": 65.0,
+        "edge_pts": 31.5,
+        "sized_on": 0.585,
+        "kelly_full": 0.35,
+        "fill": "order book",
+        "levels": 1
+      },
+      "trade_snapshot": {
+        "time": "2026-10-27T18:38:52Z",
+        "crowd": 0.92,
+        "best_bid": 0.9,
+        "best_ask": 0.94,
+        "volume": 12187,
+        "liquidity": 8287,
+        "fee_rate": 0.0
+      },
+      "bet_note": "Bought NO (AI's gap 65.0 points; 31.5 after cautious sizing)."
     }
   ],
-  "batch_id": "msgbatch_01MSUJrthQ9xUT2CQC52imTW"
+  "batch_id": "msgbatch_01MSUJrthQ9xUT2CQC52imTW",
+  "forecast_at": "2026-10-27T18:38:52Z",
+  "usage": {
+    "input_tokens": 6367,
+    "output_tokens": 1667
+  },
+  "cost_usd": 0.0294,
+  "budget": 94.47,
+  "account": "phase-1.2"
 }

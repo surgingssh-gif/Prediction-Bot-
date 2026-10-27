@@ -313,5 +313,20 @@
     "outcome": 0,
     "resolved_at": "2026-10-26T23:51:10Z",
     "question": "Will \"Clayface\" Opening Weekend Box Office be less than 22m?"
+  },
+  "4890262": {
+    "outcome": 0,
+    "resolved_at": "2026-10-27T04:21:10Z",
+    "question": "Will Iliana Iotova win the 2026 Bulgarian presidential first round by at least 40%?"
+  },
+  "1812607": {
+    "outcome": 1,
+    "resolved_at": "2026-10-27T04:03:57Z",
+    "question": "Will Olivia Chow win the 2026 Toronto mayoral election?"
+  },
+  "1812608": {
+    "outcome": 0,
+    "resolved_at": "2026-10-27T04:03:57Z",
+    "question": "Will Brad Bradford win the 2026 Toronto mayoral election?"
   }
 }
