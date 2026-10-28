@@ -348,5 +348,20 @@
     "outcome": 0,
     "resolved_at": "2026-10-28T03:03:37Z",
     "question": "Reserve Bank of New Zealand increases interest rates by 25 bps at the October 2026 meeting?"
+  },
+  "2589812": {
+    "outcome": 1,
+    "resolved_at": "2026-10-28T20:01:40Z",
+    "question": "Will there be no change in Fed interest rates after the October 2026 meeting?"
+  },
+  "2589813": {
+    "outcome": 0,
+    "resolved_at": "2026-10-28T20:01:40Z",
+    "question": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?"
+  },
+  "4386085": {
+    "outcome": 0,
+    "resolved_at": "2026-10-28T20:05:22Z",
+    "question": "Will no one dissent the October Fed decision?"
   }
 }
