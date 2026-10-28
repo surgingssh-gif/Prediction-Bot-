@@ -328,5 +328,25 @@
     "outcome": 0,
     "resolved_at": "2026-10-27T04:03:57Z",
     "question": "Will Brad Bradford win the 2026 Toronto mayoral election?"
+  },
+  "2941850": {
+    "outcome": 0,
+    "resolved_at": "2026-10-28T15:47:38Z",
+    "question": "Will the Bank of Canada make no change to the target for the overnight rate at the October interest rate announcement?"
+  },
+  "2941849": {
+    "outcome": 1,
+    "resolved_at": "2026-10-28T15:47:38Z",
+    "question": "Will the Bank of Canada increase the target for the overnight rate by 25 bps at the October interest rate announcement?"
+  },
+  "3212217": {
+    "outcome": 1,
+    "resolved_at": "2026-10-28T03:03:37Z",
+    "question": "No change in Reserve Bank of New Zealand's interest rates at the October 2026 meeting?"
+  },
+  "3212218": {
+    "outcome": 0,
+    "resolved_at": "2026-10-28T03:03:37Z",
+    "question": "Reserve Bank of New Zealand increases interest rates by 25 bps at the October 2026 meeting?"
   }
 }
