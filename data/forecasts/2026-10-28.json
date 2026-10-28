@@ -1,0 +1,371 @@
+{
+  "run_id": "2026-10-28",
+  "date": "2026-10-28",
+  "created_at": "2026-10-28T02:07:48Z",
+  "model": "claude-opus-5-5",
+  "effort": "high",
+  "phase": "1.2",
+  "pick_stats": {
+    "eligible": {
+      "Economy": 5,
+      "Politics": 132,
+      "Tech": 2
+    },
+    "picked": 4
+  },
+  "track_record": "=== Your track record so far ===\nThese are your own earlier forecasts in this experiment that have settled (59 questions). They show only what you said and what happened (no market information).\n- On average you said 36%, and 41% of these events happened. Overall, your average is close to how often things happened.\n- Your average Brier score is 0.259 (0 is perfect; always saying 50% scores 0.250).\n- When you said...\n    under 10%: it happened 3 times out of 7.\n    10-30%: it happened 3 times out of 17.\n    30-70%: it happened 14 times out of 27.\n    70-90%: it happened 4 times out of 8.\n- Your biggest misses:\n    \"Will SpaceXAI officially rename itself to SpaceXSI by October 15?\" You said 3%; it happened.\n    \"Will the Tesla Roadster fly for 1s+?\" You said 4%; it happened.\n    \"Will monthly inflation increase by 0.6% in September?\" You said 7%; it happened.\n    \"Will Flavio Bolsonaro win the most votes in the first round of the 2026 Brazil presidential election?\" You said 12%; it happened.\n    \"Will Flávio Bolsonaro finish in second place in the first round of the 2026 Brazilian presidential election?\" You said 86%; it did not happen.",
+  "questions": [
+    {
+      "market_id": "1284130",
+      "event_id": "191546",
+      "event_title": "NJ-02 House Election Winner",
+      "option": "Zack Mullock (D)",
+      "question": "Will the Democratic Party win the NJ-02 House seat?",
+      "rules": "This market will resolve according to the party of the candidate who wins the NJ-02 congressional district seat in the U.S. House of Representatives in the 2026 midterm elections. The midterm elections will take place on November 3, 2026.\n\n​A candidate's party will be determined by their ballot-listed or otherwise identifiable affiliation with that party at the time all of the 2026 House elections are conclusively called by this market's resolution sources. A candidate without a ballot-listed affiliation to either the Democrat or Republican parties will be considered a member of one of these parties based on the party with which they most recently expressed their intent to caucus at the time all of the House elections are conclusively called by this market's resolution sources.\n\nThis market will resolve based on the result of the election as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the United States government, specifically the Federal Election Commission (https://www.fec.gov/).",
+      "topic": "Politics",
+      "end_date": "2026-11-04T04:59:00Z",
+      "url": "https://polymarket.com/event/nj-02-house-election-winner",
+      "snapshot": {
+        "time": "2026-10-28T02:07:46Z",
+        "crowd": 0.32,
+        "best_bid": 0.31,
+        "best_ask": 0.33,
+        "volume": 125675,
+        "liquidity": 80643,
+        "fee_rate": 0.0
+      },
+      "news": [
+        {
+          "title": "Election 2026: How Democrats could win the House, how Republicans could hold on",
+          "source": "NBC News",
+          "published": "2026-10-24",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNbXc0cHY0LWFXVjdaalpUUHlZUmlzYUdGbzZvSm1VUG15T2l5Q3VxOUlZUC13eEtnQTVXcy16RHRhNWQ3U3FMV2luc1dqbE5uVUZ0eW9xb0NlTXhDSnVwUjZpakNXTEQ5cUt4VU5TRTRyS1NhbmhMSUl1dF9JQnpGWk54MUJMTHVMam9BeV9TRzRDbjZxakVKaDNoSWt0U1F3RW1zeUdYNUpsTzItX1FqSDVRNA?oc=5"
+        },
+        {
+          "title": "Democrats still poised to make gains, but poll shows warning signs for just how many",
+          "source": "NPR",
+          "published": "2026-10-27",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPakl0OXhmQ1hYbC1oQ0RRSV9CRXdHdlVCYlhVVTNZQW9lVzdqdjM4YTZvRW1FdHdWLWtWNjdHZkN5RS1QUTBFa3BPT2Y2NlFjak9CcWtHdmxCeElMWFVQWWxxUk1Lc293NE1XOWNkVWtPbzA3TXVCT3lWRUtZR0JiWVdsODctWFNkcTdQZEVzWW9UYURQVGNj?oc=5"
+        },
+        {
+          "title": "CBS News poll finds Democrats still boosted by voters' economic concerns, but many don't think either party has a plan",
+          "source": "CBS News",
+          "published": "2026-10-25",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE14LVR6WWVqbDRibVZUZU05MHY2RFhYdmQ2bHhRa1A3QUdTT21WWWZRQTdtR29GM1RHMDRwM3JHTW96ckxYTWMyTnFocFo1VkRSVXNaekxScWNvdjhzNkZfa3FKRnZGaTNkMjUwZ2FKZlBFWHRJTDNyaXRyNmc?oc=5"
+        },
+        {
+          "title": "If Democrats Win Congress, Could the G.O.P. Refuse to Seat Them?",
+          "source": "The New York Times",
+          "published": "2026-10-23",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNSWtGeVVjeVVvVGNtOW5MQ1diajhuVktKbktlWmwtWGVPWnBXMmpScTAyZGNkS0NfWkxtU3prVFF1em5BQWh3NzFKUEhTcm00c1RIaW9BUEhqZTRlRFhxaXl4ZVBXUEt5OE1RaXFBRmN3RXNsekZRUXpUbDFhbWtUdGY5SjlIZWdoQVJhSWRiZnY4V2ZzdEtfOXNPQi1QSV84MEE?oc=5"
+        },
+        {
+          "title": "Ten key US House races that could decide the 2026 midterms",
+          "source": "Reuters",
+          "published": "2026-10-26",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQUFNNdVpMdWcwdmdpQjBnN0M1dmE4VkJBbTN0UmtDdmdGcjFEc3lCMThxSFN2VDZVSHRieHFBX0xaTlhUUzRjR2x2WEZaQVd2RkxoREtEXzNCZ2laRGJ5TGxld0FpWVpoX3ZnVS1uMFFWRUxpSlliTnlpcTA5cWN5UGVURHgzNGFYQkR0SFZLaXpfdw?oc=5"
+        },
+        {
+          "title": "What Happens if Democrats Win Control of the House, Senate or Both? | National News | U.S. News",
+          "source": "U.S. News & World Report",
+          "published": "2026-10-14",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPTjBmUDllWmhqZk1tZjEtdGZZWmgwb3FyM3lld0o1d1ZhUUdUdmJGYlF0NnktUHNETDB5cDFDeTNWMXk4OGZpTkVfUjg3c01qdjBtcmp1TFlFNnhIOUM1bHdzdTVreXlvWW1CVWU4Vlh4WEFBQTVWaWZiRmxwTXZGeTFiM1ZSTzZVOTNNMHItQXhzSkdJVGdrQ0FVQTRzSnhZbDB5bnVOdUY4M2VMZGdnSjlMTzVxQUVOUk5rRWtSQk9RYVFoYVE?oc=5"
+        }
+      ],
+      "news_query": "Democratic Party win House seat",
+      "forecast": {
+        "probability": 0.1,
+        "reasoning": "NJ-02 is held by Republican Jeff Van Drew, and Trump won it by a wide margin in 2024. The national environment clearly favors Democrats. Still, seats this red rarely flip even in wave years, and none of the headlines single this district out as a top battleground."
+      },
+      "bet": {
+        "side": "NO",
+        "price": 0.69,
+        "top_price": 0.69,
+        "shares": 64.83,
+        "stake": 44.73,
+        "fee": 0.0,
+        "cost": 44.74,
+        "gap_pts": 21.0,
+        "edge_pts": 10.0,
+        "sized_on": 0.21,
+        "kelly_full": 0.3226,
+        "fill": "order book",
+        "levels": 1,
+        "scaled": 0.8947
+      },
+      "trade_snapshot": {
+        "time": "2026-10-28T02:10:21Z",
+        "crowd": 0.32,
+        "best_bid": 0.31,
+        "best_ask": 0.33,
+        "volume": 125675,
+        "liquidity": 79720,
+        "fee_rate": 0.0
+      },
+      "bet_note": "Bought NO (AI's gap 21.0 points; 10.0 after cautious sizing). Scaled to 89% to fit the daily budget of $89.47."
+    },
+    {
+      "market_id": "630746",
+      "event_id": "57648",
+      "event_title": "Kansas Senate Election Winner",
+      "option": "Adam Hamilton (D)",
+      "question": "Will the Democrats win the Kansas Senate race in 2026?",
+      "rules": "This market will resolve according to the winner of the 2026 midterm Kansas U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
+      "topic": "Politics",
+      "end_date": "2026-11-04T04:59:00Z",
+      "url": "https://polymarket.com/event/kansas-senate-election-winner",
+      "snapshot": {
+        "time": "2026-10-28T02:07:46Z",
+        "crowd": 0.385,
+        "best_bid": 0.38,
+        "best_ask": 0.39,
+        "volume": 609877,
+        "liquidity": 224029,
+        "fee_rate": 0.0
+      },
+      "news": [
+        {
+          "title": "Kansas Democrat’s pitch to voters amid historic Senate bid: ‘I’m gonna just fight like hell’",
+          "source": "The Guardian",
+          "published": "2026-10-20",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNY2p0aDR6czF0VkhTYkZRUWthZ0RZdGV3bVUwMWZZVzVuRUx6cVZjSnVocnRmME40YUd4MFZIY3Vka3dQZDFrcEJ3QVF4c2xmR0xDclc5c0dBQWI3czBxdmNBV2FESGhibGtyNUxRRFZuZ19JUW15OGFYYjNuczg2LW14VWNrRF9hMVZ5MVZwaVVBUnM?oc=5"
+        },
+        {
+          "title": "Analysis | Here’s what’s making the Kansas Senate race so competitive",
+          "source": "The Washington Post",
+          "published": "2026-10-21",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPUnlyQktfa0NpVVJ2akROb2hCdG5lV0YyT3d0T0k3S25TMGVNaEhlTGktR1QzTVZ6bEFGY0cxZk9fTk5tZE1LenFscl9yVTlSYUswSTRzXzRDY3VjZlVqVUNBNEo5QUtGV3FuV284bl9kcl9weXJXQjBqWndMVmpWUlJpNkdveWVJNW9ISVNkbV9HN2dfZEhCNjd6S2EtdXBBRzNMRkVIWUNCcUE?oc=5"
+        },
+        {
+          "title": "In Kansas, a newly competitive Senate race tests limit of Trump's unpopular policies",
+          "source": "NPR",
+          "published": "2026-10-14",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOb3pIc3lCeGI1SmR0WDN1alc2RXVJcmdTejNGZVdoeXNqdTh4NWFSdmFrem9BSVhHZzQwSVpNMjJXRnk2N1NSWlgwYjA0TjJKd2dTdmd1NlpHRGthRlBtYTNOcW9jMUFrRFBUOHAxeGhwdTN6dG9NdnFISUVyWUpNV3pqZ2M2aXJsbE1RX1ZLRVVvdw?oc=5"
+        },
+        {
+          "title": "Could disillusioned Kansas voters send their first Democrat to the US Senate in 94 years?",
+          "source": "Reuters",
+          "published": "2026-10-20",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcEJELWFtUTE0T2VDN01rLWlrOWRYTHN6WVNqQ1JORFVhM0FDd2FpRG8zdWUzbjRJSktYaFhJc2ZUaFFBdHZyaldRZGExdGx2dXEzS0pLeERlWG5EM04xWmhnMWlkLTVjclBWbjRvZjluc3d6ZUVRYTJRSDVhNVRTWjBVc3VaaE53TV9YSjhkNEZEeFp1YTRSbUY2MzJRcnZIZXk0MzdGLThBMEoyRlhsZHFRZkVDQWlsSDJRd1dYRTY?oc=5"
+        },
+        {
+          "title": "Hamilton could be the first Democrat to win a US Senate seat in Kansas in 94 years",
+          "source": "KSN-TV",
+          "published": "2026-10-19",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPTkZ3dWUxTVJ2bTF1RXJxLWNLWTNLMkYwOWtRWUJqQUJxVW5RX01vd2VBOVB2MURVamNsWGxoejhPenFxc1dKYUhSVWxBRXdfSlNyNEM1bDhXYjFsZzZFZkhOek9idVlPT2lqNVZYLW5MeUFSRktjRWpINmRZM2FfbVdDdUpuUGVIa01DNU5nU19WOFNjbGtDSnQ5SDVvU3Y3TFotbWZ0cXRCaHdqMmh0MXZhZ2gyTjFVc3FWX2Qyd053cnJEbjZiTWVza9IB0AFBVV95cUxObTl4eVlWdHRON2hURktlcG9BUkJYYktCQlI1LU9jUm5WU2FhaTMxZWlFN1gta3J2ZnVIZTg4eG1LN0dlc25iLW5Ha1dZM2s2aVVMbHZoWlY3ZXR3QjRneEh6bkJMT09QcHRxcDF4eWZ1eHBub0xqZ0hWbVQzcEJuTjczM0FZUkVvSDlpZS1pcFZIZndwNG8zZHJUcnZIcHVsREhwZXcyX01yWFJKRVNudWIzQ2xxeXA2TjFteTd4WEs5QkhBQndSTUF3M28yb25a?oc=5"
+        },
+        {
+          "title": "As Kansas Senate race tightens, Marshall argues opponent is just another Democrat, while Hamilton says he's \"independent-minded\"",
+          "source": "CBS News",
+          "published": "2026-10-22",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQNHBMVlhibGN2cVpCVVltMlpQMWxqd29sU3ZMNVF2RnBRVGY1Wlh5eU8zcTJ0dHk4SG5MV1BZWDliZVRCNW1sOXhnTUtCeTRERklEekZwZXB6elJ5emNxMUZmYkE1dmx6WmRFb2xTdUMzdEZSUkFneGpJNkRYWkxNTE5RTzFnN19kZURsUA?oc=5"
+        }
+      ],
+      "news_query": "Democrats win Kansas Senate race",
+      "forecast": {
+        "probability": 0.2,
+        "reasoning": "Kansas has not elected a Democratic senator in 94 years. Coverage describes the race between Hamilton and incumbent Marshall as newly competitive and tightening. But competitive-looking races in deep-red states usually end in Republican wins; the 2014 independent challenge in Kansas fell well short. A strong Democratic environment gives Hamilton a real but minority chance."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-28T02:10:21Z",
+        "crowd": 0.385,
+        "best_bid": 0.38,
+        "best_ask": 0.39,
+        "volume": 609326,
+        "liquidity": 223945,
+        "fee_rate": 0.0
+      },
+      "bet_note": "Gap vs. the price we'd pay is 18.0 points; counting only part of it (cautious sizing) leaves 8.8, under the 10-point minimum."
+    },
+    {
+      "market_id": "1284081",
+      "event_id": "191540",
+      "event_title": "NC-13 House Election Winner",
+      "option": "Brad Knott (R)",
+      "question": "Will the Republican Party win the NC-13 House seat?",
+      "rules": "This market will resolve according to the party of the candidate who wins the NC-13 congressional district seat in the U.S. House of Representatives in the 2026 midterm elections. The midterm elections will take place on November 3, 2026.\n\n​A candidate's party will be determined by their ballot-listed or otherwise identifiable affiliation with that party at the time all of the 2026 House elections are conclusively called by this market's resolution sources. A candidate without a ballot-listed affiliation to either the Democrat or Republican parties will be considered a member of one of these parties based on the party with which they most recently expressed their intent to caucus at the time all of the House elections are conclusively called by this market's resolution sources.\n\nThis market will resolve based on the result of the election as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the United States government, specifically the Federal Election Commission (https://www.fec.gov/).",
+      "topic": "Politics",
+      "end_date": "2026-11-04T04:59:00Z",
+      "url": "https://polymarket.com/event/nc-13-house-election-winner",
+      "snapshot": {
+        "time": "2026-10-28T02:07:46Z",
+        "crowd": 0.625,
+        "best_bid": 0.62,
+        "best_ask": 0.63,
+        "volume": 83688,
+        "liquidity": 77881,
+        "fee_rate": 0.0
+      },
+      "news": [
+        {
+          "title": "Democrats’ Projected Majority Grows as 19 More House Races Shift Away From the GOP",
+          "source": "Cook Political Report",
+          "published": "2026-10-23",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQTNXNFMyUm9PcWg3NUtZM21oajJBRkotTlNjRWlIbzhNMmowa0JtQjE4aEVIdUhRUi1ycE55X1Q3THN0UzFuTGp1djNmNENkbzV4T2w3VW45VUVXMndzSEJfTDFyTE10MXNVZWF2XzJDTXFIc21LRGhuSkpvdU5QdFhwMms1YjhNRmZ3Qnl6anBITkhGUktRMVFsdFVEQQ?oc=5"
+        },
+        {
+          "title": "Election 2026: How Democrats could win the House, how Republicans could hold on",
+          "source": "NBC News",
+          "published": "2026-10-24",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNbXc0cHY0LWFXVjdaalpUUHlZUmlzYUdGbzZvSm1VUG15T2l5Q3VxOUlZUC13eEtnQTVXcy16RHRhNWQ3U3FMV2luc1dqbE5uVUZ0eW9xb0NlTXhDSnVwUjZpakNXTEQ5cUt4VU5TRTRyS1NhbmhMSUl1dF9JQnpGWk54MUJMTHVMam9BeV9TRzRDbjZxakVKaDNoSWt0U1F3RW1zeUdYNUpsTzItX1FqSDVRNA?oc=5"
+        },
+        {
+          "title": "Republicans are spending millions and still may not win districts drawn to favor them",
+          "source": "NPR",
+          "published": "2026-10-26",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOcEZyUUpUNFNMRjZlZFlNcEk3Sk5uWFNEY2ZFLWZ4akQ1aml6US1iQjE3blZGd3IwNmtyZEY0Y1VVUGc5T2JFeWFXeC00T0FYOC10cGFMY2gtXzRxZGljUTV4OFVYSDdtQmVFMXFUSUQ4VTZJUWJjQTc2VEN2YjRzT1hEd05qSHFSZ19uMmdfWjVJcjFidHFla3d3?oc=5"
+        },
+        {
+          "title": "CBS News poll finds Democrats still boosted by voters' economic concerns, but many don't think either party has a plan",
+          "source": "CBS News",
+          "published": "2026-10-25",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE14LVR6WWVqbDRibVZUZU05MHY2RFhYdmQ2bHhRa1A3QUdTT21WWWZRQTdtR29GM1RHMDRwM3JHTW96ckxYTWMyTnFocFo1VkRSVXNaekxScWNvdjhzNkZfa3FKRnZGaTNkMjUwZ2FKZlBFWHRJTDNyaXRyNmc?oc=5"
+        },
+        {
+          "title": "Could House Republicans refuse to seat Democrats? Trump might try",
+          "source": "Democracy Docket",
+          "published": "2026-10-21",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNeG9wUktEVzFOMFZVTGhUNjJFNERpaHJwT0pGNUhIVHhERHBURFZKaDdoVHZZcFJQc3JJZ18ydk1rQjdUajhZR2xCU3NRS0g1OS1aNjA4a2tDbllJTV9MUll6TWloYnZYaW1XZWRsanowQ0VJclVYaDBVVEE4MHlYQ3JFcVNoazZSUVhicjEySEZvZlZnSXk0LS11ZkpoMDhUVVd5ZWdLOHJLR2Zuc2c?oc=5"
+        },
+        {
+          "title": "Democrats look to take back the House and Senate",
+          "source": "LiveNOW from FOX",
+          "published": "2026-10-21",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPekdqaV9aczU1T0ZBQlBGekJ6WFYxRVVoUFVDem9TMWlVbkJrUEFVVEx4OGdQcGxYN00ycmZZV0dhZER6azd6X0R5Nm5zNElHYVU3ZzExNUhoMVNkTkluTjRfWmFxbUVBWmpGaThHWmxuVjBNX2pORDFoekNWLXZCNXhhRdIBiAFBVV95cUxQWlpqVE9rZnlQUUVBWDZNc2lTbjRCV1gwY3ctRlB5Zzk4Z0g5ZldsM1JodFBad0JkYzNiLVloS1dEYjZoaWNQaWFvVDdjSGVScEl5ejJxaV9HdDB6ZTRSS0g2UHBvV1N1bDNQbVl2U2x5ZS1GX25qLTRZUGpxclllSDBPT005R1pi?oc=5"
+        }
+      ],
+      "news_query": "Republican Party win House seat",
+      "forecast": {
+        "probability": 0.84,
+        "reasoning": "NC-13, held by Republican Brad Knott, was drawn to favor Republicans, and Trump carried it comfortably. Cook shifting many races toward Democrats and NPR noting GOP spending to defend friendly districts suggest some danger. Even so, Republicans remain clear favorites here."
+      },
+      "bet": {
+        "side": "YES",
+        "price": 0.63,
+        "top_price": 0.63,
+        "shares": 71.01,
+        "stake": 44.74,
+        "fee": 0.0,
+        "cost": 44.73,
+        "gap_pts": 21.0,
+        "edge_pts": 10.2,
+        "sized_on": 0.7325,
+        "kelly_full": 0.277,
+        "fill": "order book",
+        "levels": 1,
+        "scaled": 0.8947
+      },
+      "trade_snapshot": {
+        "time": "2026-10-28T02:10:21Z",
+        "crowd": 0.625,
+        "best_bid": 0.62,
+        "best_ask": 0.63,
+        "volume": 83688,
+        "liquidity": 77881,
+        "fee_rate": 0.0
+      },
+      "bet_note": "Bought YES (AI's gap 21.0 points; 10.2 after cautious sizing). Scaled to 89% to fit the daily budget of $89.47."
+    },
+    {
+      "market_id": "668591",
+      "event_id": "74872",
+      "event_title": "GTA 6 launch postponed again?",
+      "option": "",
+      "question": "GTA 6 launch postponed again?",
+      "rules": "On November 6, 2025, Take-Two Interactive, the parent company of Rockstar Games, announced that the launch of Grand Theft Auto VI (GTA VI) would be postponed from its previously scheduled release date of May 26, 2026, to a new release date of November 19, 2026.\n\nThis market will resolve to \"Yes\" if by November 19, 2026, 11:59 PM ET, Rockstar Games or its parent company, Take-Two Interactive, officially announces that Grand Theft Auto VI will not be released by November 19, 2026, or if Grand Theft Auto VI is otherwise not released in the US by November 19, 2026, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nFor the purposes of this market, \"release\" refers to the game becoming publicly available for purchase or download in the US. Early access, beta versions, other forms of pre-release availability, or leaks will not count as an official release. If the release is only for certain consoles (e.g. Xbox Series X/S) it will count.\n\nThe resolution source will be official information from Rockstar Games or its parent company, Take-Two Interactive; however a consensus of credible reporting may also be used.",
+      "topic": "Tech",
+      "end_date": "2026-11-20T04:59:00Z",
+      "url": "https://polymarket.com/event/gta-6-launch-postponed-again",
+      "snapshot": {
+        "time": "2026-10-28T02:07:46Z",
+        "crowd": 0.0715,
+        "best_bid": 0.061,
+        "best_ask": 0.082,
+        "volume": 894864,
+        "liquidity": 20310,
+        "fee_rate": 0.0
+      },
+      "news": [
+        {
+          "title": "When Rockstar Needed To Delay GTA 6 Again, Take-Two's CEO Replied: 'Please Tell Me You're Kidding'",
+          "source": "Kotaku",
+          "published": "2026-10-14",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTUZBaUVkTktOZENKTVljRkhpQjBRSVJHRVMxQUdWUl9Vc1BBd19pclRRa3lWeG9scnVwbUNWR3RMUWVNOXpyZjhLM3hucThjUHFyQ3AweDVOUnV0QUtqRGVfUERSXzdRR2dBSmdHckI5dDRRaXR5MzFQdDFFTnVKbzh3cWp0QTEzZXZJT2JLYWRHLWZXdEVnUW8xM05JWmtnZlhJeVFSdy1kbjZBa0J5MDdldkZFX3ZhQUJhM3BJUQ?oc=5"
+        },
+        {
+          "title": "GTA 6: Release date, how much it is and everything you need to know",
+          "source": "BBC",
+          "published": "2026-10-15",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBYbkYzQnhnZzRGZTZEQjFIX0t0MEc3eTFCaUtGdjQ5MGFNd1lpU09MamlMSUVwa25WeVdmSXcwSzl3a0N2YjdZU3dYblR0ZDlhR2RIZ05IQTRoQQ?oc=5"
+        },
+        {
+          "title": "GTA 6 was delayed partially because the amount of NPCs was 'horrifying' and required a dedicated studio full of writers to handle",
+          "source": "PC Gamer",
+          "published": "2026-10-14",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQcU5Ta1Q4MFV6ZjUwUk1jeDZ1eEFhUVZTaHl6R2p4VzVQNWtmX21tajJVbkRfOFZIZ0hQWUVBVHRDbzBSWkIxeHFRbU1BNnBOOGRpTDhFM0duX2lkT3dBWkdkRTlfRS1lRFZNTW5VMW5IeGRrclZFMEdveWMxajMxOURxNXJYekZoVGhFQXpWZnRRblNsbzZvdjBsbF9SY1ZwalBLTDltNUd0dXJCNmIzU1ZXeG1JS29KSFBvMXZOTGpsUy10RU5lbU9qUWhqTEp6cWxHYjJFRWNjZHhOVWIyWUF5RWxWX0JiejhTVlJNVDJ1cGtDbDZubw?oc=5"
+        },
+        {
+          "title": "Rockstar Games Originally Planned to Develop GTA 6 Alongside Red Dead Redemption 2, But Plans Changed",
+          "source": "IGN",
+          "published": "2026-10-14",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNYm1kd1hjclRGeGFCWFdQR012elZnOEVLSmV0ZFh1Vzh1enN5d095YzNOVTFKYlktQUVNU2JQZ2FXWGluajdHZUY4Vm1ZY0diREwzdXlDRUpVWUFTcUI2X0dZSVk3RFFuQ3k2aU9qVjhoMUctRXNQdXhHYllyMG9TZUVFN3RyMTlvNmJ5eFJmb1VVUnZoTWNfN00tQQ?oc=5"
+        },
+        {
+          "title": "GTA 6 Gets Official Release Date Update From Rockstar Games",
+          "source": "ScreenRant",
+          "published": "2026-10-14",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE54a2VpbndZSEFYWHlwM2RCYS1HOVd2QnVsOUd3YUJqUWpqZkJINlBrNXBpLUw0UHlfOW41bFJadm5oNXZ4bUZOQmxYdVp3Y3lQRzc1TjVGREowQTl0NXk0MkpCSUZBRHhSbmV3SWNOLVFqcWJoWkFoUlktOGtsdw?oc=5"
+        }
+      ],
+      "news_query": "GTA launch postponed again",
+      "forecast": {
+        "probability": 0.07,
+        "reasoning": "With about three weeks to the November 19 release, mid-October coverage still treats that date as current. The delay stories refer to past postponements, and a new delay would have produced major headlines. Delays this close to launch are rare once marketing is in full swing."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-28T02:10:21Z",
+        "crowd": 0.0715,
+        "best_bid": 0.061,
+        "best_ask": 0.082,
+        "volume": 894864,
+        "liquidity": 19698,
+        "fee_rate": 0.0
+      },
+      "bet_note": "Gap vs. the price we'd pay is -0.9 points; counting only part of it (cautious sizing) leaves -1.0, under the 10-point minimum."
+    }
+  ],
+  "batch_id": "msgbatch_018otX3SxaiFin1ajoQJ6fVG",
+  "forecast_at": "2026-10-28T02:10:21Z",
+  "usage": {
+    "input_tokens": 4174,
+    "output_tokens": 1259
+  },
+  "cost_usd": 0.0209,
+  "budget": 89.47,
+  "account": "phase-1.2"
+}
