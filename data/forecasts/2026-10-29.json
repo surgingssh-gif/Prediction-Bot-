@@ -1,0 +1,460 @@
+{
+  "run_id": "2026-10-29",
+  "date": "2026-10-29",
+  "created_at": "2026-10-29T02:21:14Z",
+  "model": "claude-opus-5-5",
+  "effort": "high",
+  "phase": "1.2",
+  "pick_stats": {
+    "eligible": {
+      "Economy": 7,
+      "Entertainment": 1,
+      "Politics": 170,
+      "Tech": 1
+    },
+    "picked": 6
+  },
+  "track_record": "=== Your track record so far ===\nThese are your own earlier forecasts in this experiment that have settled (64 questions). They show only what you said and what happened (no market information).\n- On average you said 37%, and 41% of these events happened. Overall, your average is close to how often things happened.\n- Your average Brier score is 0.261 (0 is perfect; always saying 50% scores 0.250).\n- When you said...\n    under 10%: it happened 3 times out of 7.\n    10-30%: it happened 3 times out of 18.\n    30-70%: it happened 16 times out of 30.\n    70-90%: it happened 4 times out of 9.\n- Your biggest misses:\n    \"Will SpaceXAI officially rename itself to SpaceXSI by October 15?\" You said 3%; it happened.\n    \"Will the Tesla Roadster fly for 1s+?\" You said 4%; it happened.\n    \"Will monthly inflation increase by 0.6% in September?\" You said 7%; it happened.\n    \"Will Flavio Bolsonaro win the most votes in the first round of the 2026 Brazil presidential election?\" You said 12%; it happened.\n    \"Will Flávio Bolsonaro finish in second place in the first round of the 2026 Brazilian presidential election?\" You said 86%; it did not happen.",
+  "questions": [
+    {
+      "market_id": "630925",
+      "event_id": "57669",
+      "event_title": "South Carolina Senate Election Winner",
+      "option": "Darline Graham Nordone (R)",
+      "question": "Will the Republicans win the South Carolina Senate race in 2026?",
+      "rules": "This market will resolve according to the winner of the 2026 midterm South Carolina U.S. Senate election, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
+      "topic": "Politics",
+      "end_date": "2026-11-04T04:59:00Z",
+      "url": "https://polymarket.com/event/south-carolina-senate-election-winner",
+      "snapshot": {
+        "time": "2026-10-29T02:21:12Z",
+        "crowd": 0.715,
+        "best_bid": 0.71,
+        "best_ask": 0.72,
+        "volume": 607598,
+        "liquidity": 194209,
+        "fee_rate": 0.0
+      },
+      "news": [
+        {
+          "title": "The Senate Race in Heavily Republican South Carolina is a Tossup, Poll Finds",
+          "source": "The New York Times",
+          "published": "2026-10-28",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOTkc5RE1yWGYyOHR2SlE0dC1kS2pIb2FjOGtCRFZXT1QxYndhTTEzRzAzdmFRYzVwNUYySldpdVo0MTFSRk5LNFJWdHlRMWxtTzhwNjZkaHRxYkpkNjQ0dnFUV1psSlpGei1CZDlrRXhzVVVSRWNNTTZwaFFkejNYRDBLaThCdU0?oc=5"
+        },
+        {
+          "title": "Trump campaigns in South Carolina to support Senate candidate Graham",
+          "source": "Reuters",
+          "published": "2026-10-21",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMHk5a3JmU3lLWWtaN3RQRDVPRUdfWVA5czZfWk5WQlBNcnFmdndzTnZQV2RZRFBrOGdXU3ByMHMtS0EtQXNSaDc1OXZ6UTl2UDZrYk8wcFlPc1FaYlFFUVVTVUd6RG5uaDZhYk55elN4TGRXNFFGeklyUzJkXzQtUzBBTzJUS0YxNGJhdF9HOE9zRzVJc1VTcE5HUEg1OVpMYS1UTGVYLWhvSXlEMU1yZW1HMA?oc=5"
+        },
+        {
+          "title": "Republicans retreat from North Carolina as Trump admits Democrats are likely to win the Senate seat",
+          "source": "NBC News",
+          "published": "2026-10-22",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNWWN4Sm1oU1NrZ0h5QlMyMG9nZnJyRGhnaDc4OGNKd0JfMWJXWENEZUh2MHJucG9tbFozNGUxQ2MzVzFCeXMxbUVfZXF1bGdKdF9lMHNtUFViNmhOWEJiYWZmNFc5aGpta1loY0NmQWxzc2xhS1pCNHlsWVhLdFlvbG1sZWtYRWE5TGhUbGlocERXWmxoWTN3S0J0QnpNTW1YNFlEQk9KNA?oc=5"
+        },
+        {
+          "title": "New poll shows neck-and-neck Senate race, double-digit lead for governor in SC midterms",
+          "source": "FOX Carolina News",
+          "published": "2026-10-26",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOc0VrOWpYRUJUczFFemJMNlZHRnFJdEtxd0ExcVNVdWdLY0VpcXNNNkxUaXM3N1Y4a1B5SFNReEdwSkRjTmhhczNhWFp6YzVEU2dWTFl2RV85UV9XNHhDRTluRFJFN2ZFOTlucXRUY3R0OVVWeVFPQzA3TWstU1dMaE1ieW9od1M3cTE5aEg1QWd5dlhveXRpMGZtbXhZZmRXd0Ewa3VhR1dSUWgzV09PNW52bmFCRmpTbVl30gHPAUFVX3lxTE5mWEVrSVdoaXpyQUJuUjlsUTNhZjF3UXFRSFZOUTFrN1BPRTV3QWN6SmdnZXhiWkMySFRSRTlDRlNiZUxWclNZYWlYV2kxRjhtVkJTS2JhR3I1OVkwS05vWWRPNjg3V1JGdFZySnFXby10aWtUWFpGT05DMmZxVU5QbVB3N2lEYzE2aERyWXVMVWt2NUpKc0o2dko3Uzh0TW1Fa2U1LU54WDdRT1ZneVAyZFJhUjRwMUF1QUJ4ZGNmVHpsclktSVE2Z29jZEVXdw?oc=5"
+        },
+        {
+          "title": "Ex-South Carolina governors endorse Democrat Annie Andrews in Senate race",
+          "source": "The Guardian",
+          "published": "2026-10-27",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNd3EtMUszUldVRUU5N2lsMVl5MW1Yeml6ZmFYUzBFNEZ6TmdQVGJPelNmdEwyWGlVRjZKVnZ0QzNrVGFhRWItQWhFbG94S2Z5cnpjbFpNcXY5VnJpT3RFb2tVV0IzM3R6QlI2VUk0LU0xMTRGREZ4NzJVbzFQWUQyOUVicEQyM0hIWHlZYzJ1REdBaFdEWWVXMA?oc=5"
+        },
+        {
+          "title": "New polls show SC Senate race between Graham and Andrews still remains tight",
+          "source": "Queen City News",
+          "published": "2026-10-19",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOcEpfVWVDRG1PTFA2czVFYld3bUtJMmpwaHBUQWxIdFk2ejZGTkVkUHRuNmpLbDhHak9sSWlUcGpoa192VXJrMkpYcHo0STlJTlVNY3p2ZV9yT25qWkg1ZFFwaUVrOHN6MlpwUUZlcXJDOU1QWGVORnhha2hBYWY1Z3p0OVY3c3QzRnJldDF3U0hBaFlxdkxnRTB5dU5JOGlnWkNHMG5ucnZXSUFZekU1SUgyUHpRaHBTM0JIZFVB?oc=5"
+        }
+      ],
+      "news_query": "Republicans win South Carolina Senate race",
+      "forecast": {
+        "probability": 0.8,
+        "reasoning": "South Carolina is a deeply Republican state, and Graham has beaten tight-looking polls before: in 2020 polls showed a tie and he won by about 10 points. The current polls showing a tossup, plus endorsements of Andrews by former governors, point to real Democratic strength in a favorable year. Still, the state's lean makes Graham a clear favorite."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-29T02:23:16Z",
+        "crowd": 0.715,
+        "best_bid": 0.71,
+        "best_ask": 0.72,
+        "volume": 607598,
+        "liquidity": 199680,
+        "fee_rate": 0.0
+      },
+      "bet_note": "Gap vs. the price we'd pay is 8.0 points; counting only part of it (cautious sizing) leaves 3.8, under the 10-point minimum."
+    },
+    {
+      "market_id": "1284058",
+      "event_id": "191537",
+      "event_title": "NC-09 House Election Winner",
+      "option": "Richard Ojeda (D)",
+      "question": "Will the Democratic Party win the NC-09 House seat?",
+      "rules": "This market will resolve according to the party of the candidate who wins the NC-09 congressional district seat in the U.S. House of Representatives in the 2026 midterm elections. The midterm elections will take place on November 3, 2026.\n\n​A candidate's party will be determined by their ballot-listed or otherwise identifiable affiliation with that party at the time all of the 2026 House elections are conclusively called by this market's resolution sources. A candidate without a ballot-listed affiliation to either the Democrat or Republican parties will be considered a member of one of these parties based on the party with which they most recently expressed their intent to caucus at the time all of the House elections are conclusively called by this market's resolution sources.\n\nThis market will resolve based on the result of the election as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the United States government, specifically the Federal Election Commission (https://www.fec.gov/).",
+      "topic": "Politics",
+      "end_date": "2026-11-04T04:59:00Z",
+      "url": "https://polymarket.com/event/nc-09-house-election-winner",
+      "snapshot": {
+        "time": "2026-10-29T02:21:12Z",
+        "crowd": 0.315,
+        "best_bid": 0.31,
+        "best_ask": 0.32,
+        "volume": 181055,
+        "liquidity": 223949,
+        "fee_rate": 0.0
+      },
+      "news": [
+        {
+          "title": "Election 2026: How Democrats could win the House, how Republicans could hold on",
+          "source": "NBC News",
+          "published": "2026-10-24",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNbXc0cHY0LWFXVjdaalpUUHlZUmlzYUdGbzZvSm1VUG15T2l5Q3VxOUlZUC13eEtnQTVXcy16RHRhNWQ3U3FMV2luc1dqbE5uVUZ0eW9xb0NlTXhDSnVwUjZpakNXTEQ5cUt4VU5TRTRyS1NhbmhMSUl1dF9JQnpGWk54MUJMTHVMam9BeV9TRzRDbjZxakVKaDNoSWt0U1F3RW1zeUdYNUpsTzItX1FqSDVRNA?oc=5"
+        },
+        {
+          "title": "Democrats still poised to make gains, but poll shows warning signs for just how many",
+          "source": "NPR",
+          "published": "2026-10-27",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPakl0OXhmQ1hYbC1oQ0RRSV9CRXdHdlVCYlhVVTNZQW9lVzdqdjM4YTZvRW1FdHdWLWtWNjdHZkN5RS1QUTBFa3BPT2Y2NlFjak9CcWtHdmxCeElMWFVQWWxxUk1Lc293NE1XOWNkVWtPbzA3TXVCT3lWRUtZR0JiWVdsODctWFNkcTdQZEVzWW9UYURQVGNj?oc=5"
+        },
+        {
+          "title": "CBS News poll finds Democrats still boosted by voters' economic concerns, but many don't think either party has a plan",
+          "source": "CBS News",
+          "published": "2026-10-25",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE14LVR6WWVqbDRibVZUZU05MHY2RFhYdmQ2bHhRa1A3QUdTT21WWWZRQTdtR29GM1RHMDRwM3JHTW96ckxYTWMyTnFocFo1VkRSVXNaekxScWNvdjhzNkZfa3FKRnZGaTNkMjUwZ2FKZlBFWHRJTDNyaXRyNmc?oc=5"
+        },
+        {
+          "title": "With 2 weeks until midterms, analysts say Dems still on track to win US House majority",
+          "source": "News From The States",
+          "published": "2026-10-19",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOSHZ3ZXhvQkp3ZUpMUGZGSW9GNjVpVE5MNld1T0pIV2JpRXlkcEJ2dHNVZnhhQzFiZGhyMDdvaGRwamFvS1NGS1ExQVlvYzJROUVYc3VKcVJwbUtSYUtsLWNOMENQaS1rVVF1VkdsVkFtWHdpbXl3TDVyem5GYmZKa0hZNm1YYnZBMlFwemVYZktvT0tTU091ZjRwMEpqcGgzeXRZb2U3eDBST3Z6cTlYeWdDRXgxSnM?oc=5"
+        },
+        {
+          "title": "Missouri Democrats gain ground in polls, but congressional races remain uphill battles",
+          "source": "Missouri Independent",
+          "published": "2026-10-19",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPTGZiWHBaOWJmVEFGSnhCUy1aTEVsSU9tMUgtUUxxdm01djEzTXdrUFNYcVQ3Sy1NWFhraXBrQ0JiU1V0ekVyU0FJRHhaTUxadG5rS3JpTHZXbFBzLWZqODk0aGFzbm9Ud0ZZLTRiQ1l3MF9MTFNPeV9GUlRyYjNCQV9xWk9KNl9sU3IzRzR0c0hPZ3ZrTjJKMzZPYlZLdVRSVWtoYjE1SVNWVjlqbzFIVGRoUUZVbXVQWWV3YUhMU1VudXNLaENBWQ?oc=5"
+        },
+        {
+          "title": "The 2026 midterms are just 11 days away. Which party has a better chance of winning? Here's what the latest polls say.",
+          "source": "Yahoo",
+          "published": "2026-10-23",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNdHhTNlV5cVdhM1dsVkxJcGpWSE5DMERzYWYwYnpPV1YzM0hBS3lEVWpoeVc1Y3R4aUdKOHlBdDZ2Zkw2eTN3dlBST3ZKdHZvTmsxQ2V3bjlaNUtOMFVlLWdGbDAtMmNRQV91bUxnWDZXQWFLbldLd05HUXo0UUFKdXVaYU9TaUt4Z1hJQmozTGxjcndHSVpTR0Fqc05yZFVrTXIwWXNYc3ZxOEktNWFCQ1laTDVkRXJHeEs0cEV4b2JPUG5wMjhkUHhaZWlLc2ZaOHZlZEQ1TGZ4UXJsY2tHa3IzdlZ3dnNSMlVBd3J0MjhjVU9VWTR0aDhpQWQ5azR3SHBKM3RyVGJfUQ?oc=5"
+        }
+      ],
+      "news_query": "Democratic Party win House seat",
+      "forecast": {
+        "probability": 0.22,
+        "reasoning": "NC-09 is held by Republican Richard Hudson in a district Trump carried comfortably, by roughly double digits. The national environment favors Democrats, and Republicans are reportedly pulling back on the North Carolina Senate race, which raises the chance of an upset. Even so, flipping a seat this red would require a large wave."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-29T02:23:16Z",
+        "crowd": 0.315,
+        "best_bid": 0.31,
+        "best_ask": 0.32,
+        "volume": 181055,
+        "liquidity": 223949,
+        "fee_rate": 0.0
+      },
+      "bet_note": "Gap vs. the price we'd pay is 9.0 points; counting only part of it (cautious sizing) leaves 4.2, under the 10-point minimum."
+    },
+    {
+      "market_id": "629324",
+      "event_id": "57160",
+      "event_title": "Florida Governor Election Winner",
+      "option": "David Jolly (D)",
+      "question": "Will the Democrats win the Florida governor race in 2026?",
+      "rules": "This market will resolve according to the winner of the 2026 Florida gubernatorial election.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
+      "topic": "Politics",
+      "end_date": "2026-11-04T04:59:00Z",
+      "url": "https://polymarket.com/event/florida-governor-winner-2026",
+      "snapshot": {
+        "time": "2026-10-29T02:21:12Z",
+        "crowd": 0.275,
+        "best_bid": 0.27,
+        "best_ask": 0.28,
+        "volume": 275304,
+        "liquidity": 162445,
+        "fee_rate": 0.0
+      },
+      "news": [
+        {
+          "title": "Donalds vs. Jolly: Guide to the Florida Governor’s race",
+          "source": "firstcoastnews.com",
+          "published": "2026-10-20",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNRmtVVHUzSFpyc3VzVU5BTUZ0VVJZb3RraHhoQXF4MlNrLU5PaHRNelF0Yk9qSjFDeURtY08tVEpDUlhSOUstN3BpVXlPSHhsWTNwUllUdjFnYnNkNnV4SFdGOEltZ0FnVDFhUnROamR2YlNWMGg5ajc4dWc4X3A0M3gtYjBLVDFXU3M1cERDWDg0ZnNyejFFZmhNazN1SDlLZ1g0b2lXV3p6X3psWTVoY1h5QjVhLXF4TWhaUXNnRHhsZEpXTjRYTHB3RG5TeEd6WG1mM0pHLUdWTy1HcXp6VUFxQQ?oc=5"
+        },
+        {
+          "title": "Bill Clinton campaigns for David Jolly in Broward as Florida governor's race intensifies",
+          "source": "NBC 6 South Florida",
+          "published": "2026-10-20",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQaUFDdFo4RTNvWWFXeWxnLUNCZjE3eGQ1N3Q4SmFKWFZBQS1QYm1Vc19UZGJrc0RPaE1hQjhPUVdtYWVHRG1FazBHQkhiN2hHM012U0dJWW44bUtMTHlZcjVMN2c0RFhxX3loOU5vTi1DLUczNnJNT2h0NVk3ZjNzeEIzUTM2R3hJNDNqSUtWSDIwSHNlMWJUZFVwYWg2cFBJ0gGoAUFVX3lxTFBVMWMtdXRfdVVYU1hGRkNQZnZWSlN0VGpRcTFpNEgzOENSd01hU2RNS3J5T3pxNENVVFY5NW9qZGtZbW5ZNkxfVjJIbVJmYmRELVBOVU12QjhWMUlzN2Z0TE81T0lqeHNSRHZjYXY2QnZ2RklMVXYwRTNRT2QtV3RpUDZHRnNBSDlTWldkakdPYXlaZFhIa241RXlBZnRrNTZwT3pkaFVqaQ?oc=5"
+        },
+        {
+          "title": "New poll shows Florida governor race 'too close to call'",
+          "source": "Tallahassee Democrat",
+          "published": "2026-10-21",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNOGY2TVJRRTNFU1dWSXptOWl2czlFVnY2eW1HeEstUlhhSzRyNVRudmthNHlycmpzc0JMMnFtYUpmSFBQb0JpcjFTT1BreFlZdlJXQVF6WGFkT24zRi1OakVDTzBFTHV3Z3liajROVi1hdmxoMk9IN2xuYTZ2RDJ3UDhfN2lBUlhQTzFuVU55Yzl1OXltcHByZXNzR1RubTBvOXFUbmp1YkVyNDVfMnllRExMRDBTaWZKOGNiVWpyc2k4SEtZYUowQXBjU3NWbVdKa0E?oc=5"
+        },
+        {
+          "title": "Florida Governor Race 2026: Donalds vs. Jolly",
+          "source": "MultiState",
+          "published": "2026-10-28",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFAwdEt0NDV3NDhtNFJ1cHgwZXBWNFcwcTZfMXZiSDYySGZLeWFNamo4NVVGSjFoSGlGQy1MV3pXbzRBZGlQb04yRk1tYnMtM3pzQzFNWDVHZENBTFhfVWlZUHFFLW1RME5YdmtmOUlNcw?oc=5"
+        },
+        {
+          "title": "Donalds Leads Jolly in Florida Governor Race",
+          "source": "ActiVote",
+          "published": "2026-10-19",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA4UExMd3JFcGhDaWRtN0J1N3Y4Y3VNU2NPblh2YUJBcHNFNjJTVnVfdzFxYU40SDczT3VCS2xfbFFrYzgwd2thYUZoSmd6UFFZM001ekNOV2gyV2hG?oc=5"
+        },
+        {
+          "title": "Donalds and Jolly are neck and neck in Florida governor’s race, new poll shows",
+          "source": "WFLA",
+          "published": "2026-10-21",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQdGc2eWs5RmJMVHRQbnVHbzhiQmlBQUE4Yy1INmZLT0E5WkxRRmNPSWNkMllkdHRZa0h6clMzTzduQ1NLTFdWUVp4QmVlRVVwMzBzWlVjSGpZVGFEZW5pRE92ZkNKQ2d3VVptQ0lLVFExVDE4NHdvU2cxak5odkhNTzBnQ3E0UllrVWtwYTJ3R2Q2Uk5OUTIxM1JsY1J2OUNBRkNHRm1XTktpcENpMGtCSm1mb0pDX2Y0dlRWMkk1TnVTUdIBxwFBVV95cUxQTVJXSnQtaHB3dTM1MFNNUmFJY0pNRG1yVWktZ0pWdTFPcXItbjVxQTdINDBkbVpZejNWenZ0ai1OUFdpNEZLNDVDVUotVGt1cm5uVjA1NzI5WENxS05xaU5zZERDempGVGVUZzlIZGxzaWZKSGpuRXNXLUF1TVZfbG4tZkdwa3c5ZHJuelMyMzRDR0pvOXZCcE9zV3h5NE5QVjY4TlZwazlyX0FSNDlXS2lTMFVZN043cmViX09lczdUR0xBOWdr?oc=5"
+        }
+      ],
+      "news_query": "Democrats win Florida governor race",
+      "forecast": {
+        "probability": 0.2,
+        "reasoning": "Florida has shifted strongly Republican, with Trump winning it by about 13 points in 2024. Polls show Donalds and Jolly close, but Florida polls have tended to underestimate Republicans in recent cycles. A Jolly win is possible in a Democratic-leaning year but unlikely."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-29T02:23:16Z",
+        "crowd": 0.275,
+        "best_bid": 0.27,
+        "best_ask": 0.28,
+        "volume": 275304,
+        "liquidity": 159971,
+        "fee_rate": 0.0
+      },
+      "bet_note": "Gap vs. the price we'd pay is 7.0 points; counting only part of it (cautious sizing) leaves 3.2, under the 10-point minimum."
+    },
+    {
+      "market_id": "5777915",
+      "event_id": "1200388",
+      "event_title": "Will any contestant beat Luke Littler?",
+      "option": "",
+      "question": "Will any contestant beat Luke Littler?",
+      "rules": "\"Beat Luke Littler\" is a live Netflix special scheduled for October 30, 2026, at 7:00 PM GMT (3:00 PM ET). On the show, amateur challengers each play a single leg of 501 against Luke Littler for a £501,000 prize.\n\nThis market will resolve to \"Yes\" if any contestant beats Luke Littler on the live broadcast of \"Beat Luke Littler\". Otherwise, this market will resolve to \"No\".\n\nA contestant beats Luke Littler if they win a leg of darts against him and the show officially declares the contestant the winner of that leg on its live broadcast. The leg is judged under the format the show uses, including any handicap, head start, or modified rules the show applies. Any person other than Luke Littler who plays a leg against him on the official broadcast counts as a contestant.\n\nLegs played in qualifying tournaments, practice, warm-ups, or any other setting outside the official live broadcast will not count. A leg that the show voids or orders replayed before a winner is declared will not count. Retractions, disqualifications, or prize forfeitures made after a contestant has been officially declared the winner of a leg will not be considered, and whether the contestant receives the prize money will not be considered.\n\nIf \"Beat Luke Littler\" is cancelled or postponed beyond November 30, 2026, 11:59 PM ET, or if Luke Littler does not play a leg on the broadcast, this market will resolve to \"No\".\n\nThe primary resolution source for this market will be the official live broadcast of \"Beat Luke Littler\" on Netflix; however, a consensus of credible reporting may also be used.",
+      "topic": "Entertainment",
+      "end_date": "2026-10-31T03:59:00Z",
+      "url": "https://polymarket.com/event/will-any-contestant-beat-luke-littler",
+      "snapshot": {
+        "time": "2026-10-29T02:21:12Z",
+        "crowd": 0.715,
+        "best_bid": 0.7,
+        "best_ask": 0.73,
+        "volume": 12797,
+        "liquidity": 2680,
+        "fee_rate": 0.0
+      },
+      "news": [
+        {
+          "title": "Beat Luke Littler: UK Darts Event Gives Amateurs a Chance at Life-Changing Money",
+          "source": "Netflix",
+          "published": "2026-10-22",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE54V3RtNTlraEpxaEVyTUhreEJRdnFyRlp6TkhKdHBlNTdrUHE4ajFFd09IZnk0bmhnZDJxN0hkNjVzeVpvanlYUWR3TkVGRkV4V3drNW1rSVZUN3AzWmpSeWRER1hKNjNISmVCYWc2aDlDLUli?oc=5"
+        },
+        {
+          "title": "Luke Littler: Fallon Sherrock one of 24 'amateurs' to face world champion in Netflix show",
+          "source": "BBC",
+          "published": "2026-10-22",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9hT2lHcWhzcmtZZ0JQRlVtMVllMm9tWlVtUXpEaVZFMUZrUWJhUWRJQjBxMHFGd3pkUTdYelJTek02dWU3QVpoTjF0c2lKalBsWllfOUg1QTlsM0hGM2FHMUpZblc?oc=5"
+        },
+        {
+          "title": "'Beat Luke Littler' Backlash: Netflix’s “Amateur” Darts Event Features 12 Ranked PDC Players",
+          "source": "What's on Netflix",
+          "published": "2026-10-23",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPUnhCMl82eXJUbXpSSVZGWFhOV3NYVWtuMFNndTVocVdpNnp4Zl8ydXE3QWZ1N18xaXBfVURiN1FDbWE2Q3JLNHJEUmZlSTBQdmhDWTFEQWRUNjV4NEw0c0RFT1FuZTR1bUtWblVpRXRCa05iMUtHNUdWUE9qUGFvRXk5cHhOYV91VldMYg?oc=5"
+        },
+        {
+          "title": "Beat Luke Littler: His opponents, how it works, prize money, how to watch, how can he lose? More",
+          "source": "ESPN",
+          "published": "2026-10-28",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPS2xFNkRyTl9ydHVaVUZuZU4yNFZKTjBRdFNEbjd4MTF0MVZhcHBDdUlLNzQ5Qnp2ZlNXeV9SbjRBWG9EaHdfNmFVRjhjV0FRZ0YyeGRhMkpvb1dpODdPZS1oYkp5MXhsYWdvd3RfbmZjN3JVa0pxdDZvQ0ZSbE5ORmVwR0NGUjFINThaNXhVVFQ0WnlTTFNxT3NZQVItdWQzSnRJRFF2a3BMNHpGdVh2RWcwUjc5bVVVSWxMdXlaZThEdXFacXpiU2pB?oc=5"
+        },
+        {
+          "title": "Netflix's 'Beat Luke Littler' Line-Up Draws Fire Over a Not-So-Amateur Field",
+          "source": "Around Prague",
+          "published": "2026-10-23",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOWlB3ejdIYjlxRzlUZkZGZVhqOXpXSzVKYVp5b1g2NElxb1hzWVVDRVlpTGx6Rm4xaDRDQXpNaUFuMkdHbVIxTmQ2dGtuNnNMdmw4OTE0MTNybU1aNFV3YW04TTI0dUlrd1ZkNWdmZmZ3bmhseGZvNEIwWmtpV1UxODcwZHF2ZEFWcmVEMWFYcUY4Mm8ydjBlVjhvS2x4TEE4NjdqVlFSd3c0VGQ0R3BBYTRwN2Q?oc=5"
+        },
+        {
+          "title": "Luke Littler's 20 opponents for £501,000 Netflix event revealed including Fallon Sherrock and 'next Luke Littler'",
+          "source": "The Sun",
+          "published": "2026-10-22",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPSm1XN2JUUERmMXB3bzctVVpVcUhCUGdOVzNCM1dGZ0loa1h1NEZiZ0NlTGpuQ0J3WkhLWkh6ZWJxdXJaQzNxenZoNmFjTkRYMkh0NWt4V2k0bmFiWG1kZTdoRkwwVjBJWUdvRnFFcy1Qbjd6WTV5eUxSX0NvblBrbndIeGJqU3BGa1VteERjaTJYQUIzbVVrVGFwTlI0MkRpa0RZNA?oc=5"
+        }
+      ],
+      "news_query": "contestant beat Luke Littler",
+      "forecast": {
+        "probability": 0.75,
+        "reasoning": "About 24 challengers are reportedly set to play single legs against Littler, including Fallon Sherrock and a dozen ranked PDC professionals. Single legs of darts are fairly random, so even if Littler wins 85-90% of them, his chance of sweeping all 24 is low. The main uncertainty is the format: if fewer challengers actually face him live, his odds of going unbeaten rise."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-29T02:23:16Z",
+        "crowd": 0.715,
+        "best_bid": 0.7,
+        "best_ask": 0.73,
+        "volume": 12797,
+        "liquidity": 2680,
+        "fee_rate": 0.0
+      },
+      "bet_note": "Gap vs. the price we'd pay is 2.0 points; counting only part of it (cautious sizing) leaves 0.2, under the 10-point minimum."
+    },
+    {
+      "market_id": "5194745",
+      "event_id": "1116450",
+      "event_title": "ISM Manufacturing PMI - October 2026",
+      "option": "56.0 to 56.9",
+      "question": "Will ISM Manufacturing PMI be between 56.0 and 56.9 in October?",
+      "rules": "This is a market about the ISM Manufacturing Purchasing Managers' Index (PMI) for October 2026, as reported by the Institute for Supply Management (ISM). A reading above 50 indicates expansion in the manufacturing sector relative to the previous month; a reading below 50 indicates contraction.\n\nThis market will resolve to the bracket containing the ISM Manufacturing PMI for October 2026 according to the monthly ISM Manufacturing PMI Report On Business.\n\nThe resolution source for this market will be the ISM Manufacturing PMI Report On Business released for October 2026 (https://www.ismworld.org/supply-management-news-and-reports/reports/ism-report-on-business/), currently scheduled to be released on November 2, 2026, at 10:00 AM ET. Resolution of this market will take place upon release of the aforementioned data.\n\nNote: although ISM describes the PMI reading using the term \"percent\" in its official release (e.g., \"The Manufacturing PMI registered 52.7 percent\"), the PMI is a diffusion index, not a true percentage. For the purposes of this market, the PMI reading will be treated as a plain numerical value, consistent with how the index is universally quoted in financial markets.\n\nNote: The ISM Manufacturing PMI is reported to one decimal point. Thus, this is the level of precision that will be used when resolving this market.\n\nIf ISM does not release the relevant figures on the scheduled date, this market may remain open until the scheduled release time of the next ISM Manufacturing PMI report (https://www.ismworld.org/supply-management-news-and-reports/reports/rob-report-calendar/). If the information is not released by that time, this market will resolve according to the figures of the most recent previous month with available data.",
+      "topic": "Economy",
+      "end_date": "2026-11-02T06:00:00Z",
+      "url": "https://polymarket.com/event/ism-manufacturing-pmi-october-2026",
+      "snapshot": {
+        "time": "2026-10-29T02:21:12Z",
+        "crowd": 0.1225,
+        "best_bid": 0.108,
+        "best_ask": 0.137,
+        "volume": 12774,
+        "liquidity": 2867,
+        "fee_rate": 0.0
+      },
+      "news": [
+        {
+          "title": "ISM PMI Holds as Production Slips, Prices Jump",
+          "source": "National Association of Wholesaler-Distributors",
+          "published": "2026-10-25",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOTDhpYjM3cXk1MTBlV2c3Z0Foc3lJaDk1OU1CSW9FSDZ5VXRxNGVtXzlFejhYalh6d25vMFRlQWd4SkkyYkxoMHl6dDVsdjhjQV9aWlRsZ1lhNUtiQy1nbUZySmY0SDhCaGxSV0dpc212ZnFjbEhJYmtMOExXdW5QbQ?oc=5"
+        },
+        {
+          "title": "Robust manufacturing PMI to boost USD?",
+          "source": "JD Supra",
+          "published": "2026-10-16",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOVHRFNzNZQUUyeWUtOXpETkRlV3d5M1Y5b1JBLWJJcUttdW5mUHJRYmVoQkUxUG5jVTJQYm9DMlF3cXZBUUVlOWFFQVBZcmVOVnVNTmZsNHpVd1g2QkF2V1F1RWhfM2N2eTZvbmhrWjFUV09RTWZmZmlnUjVBbmF1TkpSUURMMzQ?oc=5"
+        },
+        {
+          "title": "ISM PMI Accelerates to 4-Year High",
+          "source": "National Association of Wholesaler-Distributors",
+          "published": "2026-10-23",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE8tU2lCWW93MUxOa2JSWnRVcTFpZGduczFFcTFXYTlJNTVfU2RmWjJaUGdsRUpVVGlLT081SDBDY2RNZzhSWDdMYnR3bWJCOGNBUDJXQTNzMDVaRG9qbm1lNEVnbVgxUmhNRFZsdHZ3NW5oQQ?oc=5"
+        }
+      ],
+      "news_query": "ISM Manufacturing PMI | ISM Manufacturing PMI October economists forecast",
+      "forecast": {
+        "probability": 0.12,
+        "reasoning": "Recent coverage describes the ISM index at a four-year high, then holding steady, which suggests a reading somewhere in the low-to-mid 50s. A reading of 56.0-56.9 would need a further jump into territory last seen in 2022. A one-point bracket like this usually has low odds unless it is centered on the current level."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-29T02:23:16Z",
+        "crowd": 0.1225,
+        "best_bid": 0.108,
+        "best_ask": 0.137,
+        "volume": 12774,
+        "liquidity": 2867,
+        "fee_rate": 0.0
+      },
+      "bet_note": "Gap vs. the price we'd pay is -1.2 points; counting only part of it (cautious sizing) leaves -1.3, under the 10-point minimum."
+    },
+    {
+      "market_id": "5166882",
+      "event_id": "1111193",
+      "event_title": "USD x Iranian rials End of October?",
+      "option": "2.6-2.7M",
+      "question": "Will USD be between 2.6M and 2.7M Iranian rials on October 31?",
+      "rules": "This market will resolve according to the finalized USD exchange rate on Bonbast for October 31, 2026.\n\nIf the recorded data falls exactly between two brackets, this market will resolve to the higher bracket.\n\nThis market will resolve according to the finalized free-market USD exchange rate for the specified date as displayed on Bonbast (https://www.bonbast.com/graph/usd), which publishes prices in Iranian toman, where 1 Iranian toman equals 10 Iranian rials (IRR).\n\nA daily figure will be considered finalized once the following day’s figure is released.\n\nResolution will occur once the specified exchange rate data point is finalized. If the relevant data is not finalized by the end of the 7th calendar day after the specified date (ET), this market will resolve according to the latest data available at that time. Revisions made after the relevant figure has been finalized will not be considered.\n\nIf Iran redenominates the rial, or Bonbast changes the unit in which it displays the USD exchange rate, before the relevant figure has been finalized, the displayed figure will be converted into current Iranian rials at the official conversion ratio between the new unit and the current rial (for example, 1 new rial equals 10,000 current rials), and the converted figure will be used for resolution.\n\nThe resolution source for this market will be Bonbast (https://www.bonbast.com/graph/usd). If the resolution source becomes permanently unavailable, another resolution source will be chosen.",
+      "topic": "Economy",
+      "end_date": "2026-11-01T03:59:00Z",
+      "url": "https://polymarket.com/event/usd-x-iranian-rials-end-of-october",
+      "snapshot": {
+        "time": "2026-10-29T02:21:12Z",
+        "crowd": 0.394,
+        "best_bid": 0.372,
+        "best_ask": 0.416,
+        "volume": 14635,
+        "liquidity": 2074,
+        "fee_rate": 0.0
+      },
+      "news": [
+        {
+          "title": "Shafaq News..Iranian toman weakens against US dollar",
+          "source": "شفق نيوز",
+          "published": "2026-10-22",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE8tWEdOWXNaVkZ1NXk5TGRPRnB1VUQ2VzhJenBCWG9SY1JlUWIxMTlNS3YteEs1T21GS2FBQkdxWU5CT0VOV0dFTXZDMGFna01hcll4V3FJQXFhX2FhRUVMZDRMOUhac3dEX1dvaXVNSXprRVA5VXAwWk5waw?oc=5"
+        },
+        {
+          "title": "Every Day We 'Wake Up Poorer': Iranians Battle Economic Woes",
+          "source": "India's News.Net",
+          "published": "2026-10-23",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdWM2Zk9jRmNOWnFuc0Y4b18zMWVvTmtrRXlUMkt5NTZwc0IxdmpiNG0xRkFTQ2Y2dFIyRTBlOVA5ZkRBUGZ6NHFwS2FEbEJtM1A4M1hHS3hYTXJibFhlY1VYN3I1dHRWcDhiM1lRalh4V190ZjZuUW93NDlpVzFodThGVWxLNTdnMl9rcDVtdmxMMFpFa1loQ2pDdWRqeGhf?oc=5"
+        }
+      ],
+      "news_query": "USD Iranian rials | USD Iranian rials October economists forecast",
+      "forecast": {
+        "probability": 0.2,
+        "reasoning": "The rial has been steadily weakening, and recent news describes ongoing depreciation and economic hardship. I lack the current Bonbast level, and a 100,000-rial bracket is narrow relative to the rial's recent volatility. So I give it a moderate-to-low probability, on the assumption that it sits near the expected range."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-29T02:23:16Z",
+        "crowd": 0.394,
+        "best_bid": 0.372,
+        "best_ask": 0.416,
+        "volume": 14635,
+        "liquidity": 2074,
+        "fee_rate": 0.0
+      },
+      "bet_note": "Gap vs. the price we'd pay is 17.2 points; counting only part of it (cautious sizing) leaves 7.5, under the 10-point minimum."
+    }
+  ],
+  "batch_id": "msgbatch_01NTvXspbmNrARj3WGhasrX9",
+  "forecast_at": "2026-10-29T02:23:16Z",
+  "usage": {
+    "input_tokens": 5777,
+    "output_tokens": 2266
+  },
+  "cost_usd": 0.0342,
+  "budget": 80.53,
+  "account": "phase-1.2"
+}
