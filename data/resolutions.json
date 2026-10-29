@@ -363,5 +363,25 @@
     "outcome": 0,
     "resolved_at": "2026-10-28T20:05:22Z",
     "question": "Will no one dissent the October Fed decision?"
+  },
+  "3081965": {
+    "outcome": 1,
+    "resolved_at": "2026-10-29T15:18:39Z",
+    "question": "Will the ECB announce no change at the October 2026 meeting?"
+  },
+  "3081966": {
+    "outcome": 0,
+    "resolved_at": "2026-10-29T15:18:39Z",
+    "question": "Will the ECB announce a 25 bps increase at the October 2026 meeting?"
+  },
+  "3247818": {
+    "outcome": 1,
+    "resolved_at": "2026-10-29T14:33:39Z",
+    "question": "Will US GDP growth in Q3 2026 be greater than 3.0%?"
+  },
+  "5194704": {
+    "outcome": 0,
+    "resolved_at": "2026-10-29T14:31:52Z",
+    "question": "Will Core PCE YoY be 3.0% in September?"
   }
 }
