@@ -1,0 +1,523 @@
+{
+  "run_id": "2026-10-30",
+  "date": "2026-10-30",
+  "created_at": "2026-10-30T02:32:58Z",
+  "model": "claude-opus-5-5",
+  "effort": "high",
+  "phase": "1.2",
+  "pick_stats": {
+    "eligible": {
+      "Economy": 6,
+      "Entertainment": 2,
+      "Politics": 165,
+      "Tech": 1
+    },
+    "picked": 6
+  },
+  "track_record": "=== Your track record so far ===\nThese are your own earlier forecasts in this experiment that have settled (67 questions). They show only what you said and what happened (no market information).\n- On average you said 37%, and 40% of these events happened. Overall, your average is close to how often things happened.\n- Your average Brier score is 0.251 (0 is perfect; always saying 50% scores 0.250).\n- When you said...\n    under 10%: it happened 3 times out of 7.\n    10-30%: it happened 3 times out of 20.\n    30-70%: it happened 16 times out of 30.\n    70-90%: it happened 5 times out of 10.\n- Your biggest misses:\n    \"Will SpaceXAI officially rename itself to SpaceXSI by October 15?\" You said 3%; it happened.\n    \"Will the Tesla Roadster fly for 1s+?\" You said 4%; it happened.\n    \"Will monthly inflation increase by 0.6% in September?\" You said 7%; it happened.\n    \"Will Flavio Bolsonaro win the most votes in the first round of the 2026 Brazil presidential election?\" You said 12%; it happened.\n    \"Will Flávio Bolsonaro finish in second place in the first round of the 2026 Brazilian presidential election?\" You said 86%; it did not happen.",
+  "questions": [
+    {
+      "market_id": "943539",
+      "event_id": "106177",
+      "event_title": "NC-11 House Election Winner",
+      "option": "Jennifer Balkcom (R)",
+      "question": "Will the Republican Party win the NC-11 House seat?",
+      "rules": "This market will resolve according to the party of the candidate who wins the NC-11 congressional district seat in the U.S. House of Representatives in the 2026 midterm elections. The midterm elections will take place on November 3, 2026.\n\n​​A candidate's party will be determined by their ballot-listed or otherwise identifiable affiliation with that party at the time all of the 2026 House elections are conclusively called by this market's resolution sources. A candidate without a ballot-listed affiliation to either the Democrat or Republican parties will be considered a member of one of these parties based on the party with which they most recently expressed their intent to caucus at the time all of the House elections are conclusively called by this market's resolution sources.\n\nThis market will resolve based on the result of the election as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the United States government, specifically the Federal Election Commission (https://www.fec.gov/).",
+      "topic": "Politics",
+      "end_date": "2026-11-04T04:59:00Z",
+      "url": "https://polymarket.com/event/nc-11-house-election-winner",
+      "snapshot": {
+        "time": "2026-10-30T02:32:55Z",
+        "crowd": 0.125,
+        "best_bid": 0.12,
+        "best_ask": 0.13,
+        "volume": 170660,
+        "liquidity": 94110,
+        "fee_rate": 0.0
+      },
+      "news": [
+        {
+          "title": "Election 2026: How Democrats could win the House, how Republicans could hold on",
+          "source": "NBC News",
+          "published": "2026-10-24",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNbXc0cHY0LWFXVjdaalpUUHlZUmlzYUdGbzZvSm1VUG15T2l5Q3VxOUlZUC13eEtnQTVXcy16RHRhNWQ3U3FMV2luc1dqbE5uVUZ0eW9xb0NlTXhDSnVwUjZpakNXTEQ5cUt4VU5TRTRyS1NhbmhMSUl1dF9JQnpGWk54MUJMTHVMam9BeV9TRzRDbjZxakVKaDNoSWt0U1F3RW1zeUdYNUpsTzItX1FqSDVRNA?oc=5"
+        },
+        {
+          "title": "These are the House races to watch in the 2026 midterm election on Nov. 3",
+          "source": "NPR",
+          "published": "2026-10-29",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxONHhuUTlfWTZEWmR2REVvZnJQcEJFX2dpLWFqV0t1WnJUVjZIN1BXUGJNMW5zbGVxQXhUaXY3MWlya1lCNlhkYTFEY2Y3bGxTVVBoOXRERmh0WlAtcWZvTWtQcWNlV1VKVFo2SGt4aXhtTjN2SlZhWnVJT0VmRmpjSzZITGZaSTNtUlNzc1lUaThNRlVSckhRREo3UHdVUkpGcnc?oc=5"
+        },
+        {
+          "title": "Republicans are throwing money at this tossup California district. Should the Democrat worry?",
+          "source": "CalMatters",
+          "published": "2026-10-16",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQalJtTkJUUk0xbUw2RDczNklrNHc5V1gzcHV4RkdjZjVTSVBOVlo1MklsOS12OTlMak5PaFpoa0I1ZUFScjRhWUJRRUlhS08zbHozSFplSjBMSWNXamRXWExORHZNWUVlUXdwOGZQeWVXbWZJN2N1NGRvYW1TblIxRU5rVThJTFk1aUhjNWJDZU5xMHVIUFE?oc=5"
+        },
+        {
+          "title": "Why Republicans are on the back foot ahead of US midterm elections",
+          "source": "The Conversation",
+          "published": "2026-10-27",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOUXNiNWJoNlR6SFY4eTFmNHl4SWlJZjNXbExSY3ZoVzU5eVdpVnl3dlpsQ1NjbXczeGZVaHZYSDk2dTBfeVNrLVVuTTVRVFItamNFZHc3TDIwVEZ6eUJiTFNod1BNMjkyMTRrU2xWa2JGWmQ2eVZObFhWdFI5R3g2WmgzenU2cDYxMjZxSXNNTXd3VHlqX0FuMlhObmw0enZ5d1Ew?oc=5"
+        },
+        {
+          "title": "With 2 weeks until midterms, analysts say Dems still on track to win US House majority",
+          "source": "News From The States",
+          "published": "2026-10-19",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOSHZ3ZXhvQkp3ZUpMUGZGSW9GNjVpVE5MNld1T0pIV2JpRXlkcEJ2dHNVZnhhQzFiZGhyMDdvaGRwamFvS1NGS1ExQVlvYzJROUVYc3VKcVJwbUtSYUtsLWNOMENQaS1rVVF1VkdsVkFtWHdpbXl3TDVyem5GYmZKa0hZNm1YYnZBMlFwemVYZktvT0tTU091ZjRwMEpqcGgzeXRZb2U3eDBST3Z6cTlYeWdDRXgxSnM?oc=5"
+        },
+        {
+          "title": "Democrats, Republicans seek 'trifectas' in the 2026 midterms",
+          "source": "ABC News - Breaking News, Latest News and Videos",
+          "published": "2026-10-19",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOcEdpb1JuRzhvcVZKa3RobHViS1AwRTZ4dUwzT2JJeHBmbmdCN1Jma0dNeGN6dG9nYVQ5b0NJaXRzNnR1RDgyOG5LUXZQaUh4bVpzdG05Q1RXN0Z3bDRHc1JNdlZDaE1VVmRvLTlFbnI0UW5XZWI0bkd5alNEZzdVVTcwME54aHVpSHg5X0g5N1JGOVdJWHNwekJudlA2SFnSAaQBQVVfeXFMTXpuNHRTMVNNTDQySDBKcWxYQ1BHYk1XWTBZN21rbUF5b2dwN3E4NWhlczBpdjE2Q0s3MkVqSXl6SWRwcXNnMWpCMkxnYzRnWXdiWXBFd2lleTd0QVlwTTRNS0hRMjB1d29vVzJzcjJ1ekFhUnByM3doelk4ZVhGcS1wSmRneVBqOGR6dk5ZaVc0NjJ5WUZiTkJqYUxNNURFYkxGWno?oc=5"
+        }
+      ],
+      "news_query": "Republican Party win House seat",
+      "forecast": {
+        "probability": 0.82,
+        "reasoning": "NC-11 in western North Carolina is held by Republican Chuck Edwards, and Trump carried it by roughly 10 or more points in 2024. A Democratic-leaning national environment makes it somewhat more competitive, but districts this red usually stay Republican even in wave years. Republicans remain clear favorites."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-30T02:35:00Z",
+        "crowd": 0.125,
+        "best_bid": 0.12,
+        "best_ask": 0.13,
+        "volume": 170660,
+        "liquidity": 94675,
+        "fee_rate": 0.0
+      },
+      "bet_note": "Skipped: already 2 open bets on the same story (limit 2)."
+    },
+    {
+      "market_id": "943542",
+      "event_id": "106177",
+      "event_title": "NC-11 House Election Winner",
+      "option": "Jamie Ager (D)",
+      "question": "Will the Democratic Party win the NC-11 House seat?",
+      "rules": "This market will resolve according to the party of the candidate who wins the NC-11 congressional district seat in the U.S. House of Representatives in the 2026 midterm elections. The midterm elections will take place on November 3, 2026.\n\n​​A candidate's party will be determined by their ballot-listed or otherwise identifiable affiliation with that party at the time all of the 2026 House elections are conclusively called by this market's resolution sources. A candidate without a ballot-listed affiliation to either the Democrat or Republican parties will be considered a member of one of these parties based on the party with which they most recently expressed their intent to caucus at the time all of the House elections are conclusively called by this market's resolution sources.\n\nThis market will resolve based on the result of the election as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the United States government, specifically the Federal Election Commission (https://www.fec.gov/).",
+      "topic": "Politics",
+      "end_date": "2026-11-04T04:59:00Z",
+      "url": "https://polymarket.com/event/nc-11-house-election-winner",
+      "snapshot": {
+        "time": "2026-10-30T02:32:55Z",
+        "crowd": 0.86,
+        "best_bid": 0.85,
+        "best_ask": 0.87,
+        "volume": 110999,
+        "liquidity": 62618,
+        "fee_rate": 0.0
+      },
+      "news": [
+        {
+          "title": "Election 2026: How Democrats could win the House, how Republicans could hold on",
+          "source": "NBC News",
+          "published": "2026-10-24",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNbXc0cHY0LWFXVjdaalpUUHlZUmlzYUdGbzZvSm1VUG15T2l5Q3VxOUlZUC13eEtnQTVXcy16RHRhNWQ3U3FMV2luc1dqbE5uVUZ0eW9xb0NlTXhDSnVwUjZpakNXTEQ5cUt4VU5TRTRyS1NhbmhMSUl1dF9JQnpGWk54MUJMTHVMam9BeV9TRzRDbjZxakVKaDNoSWt0U1F3RW1zeUdYNUpsTzItX1FqSDVRNA?oc=5"
+        },
+        {
+          "title": "These are the House races to watch in the 2026 midterm election on Nov. 3",
+          "source": "NPR",
+          "published": "2026-10-29",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxONHhuUTlfWTZEWmR2REVvZnJQcEJFX2dpLWFqV0t1WnJUVjZIN1BXUGJNMW5zbGVxQXhUaXY3MWlya1lCNlhkYTFEY2Y3bGxTVVBoOXRERmh0WlAtcWZvTWtQcWNlV1VKVFo2SGt4aXhtTjN2SlZhWnVJT0VmRmpjSzZITGZaSTNtUlNzc1lUaThNRlVSckhRREo3UHdVUkpGcnc?oc=5"
+        },
+        {
+          "title": "CBS News poll finds Democrats still boosted by voters' economic concerns, but many don't think either party has a plan",
+          "source": "CBS News",
+          "published": "2026-10-25",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE14LVR6WWVqbDRibVZUZU05MHY2RFhYdmQ2bHhRa1A3QUdTT21WWWZRQTdtR29GM1RHMDRwM3JHTW96ckxYTWMyTnFocFo1VkRSVXNaekxScWNvdjhzNkZfa3FKRnZGaTNkMjUwZ2FKZlBFWHRJTDNyaXRyNmc?oc=5"
+        },
+        {
+          "title": "If Democrats Win Congress, Could the G.O.P. Refuse to Seat Them?",
+          "source": "The New York Times",
+          "published": "2026-10-23",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNSWtGeVVjeVVvVGNtOW5MQ1diajhuVktKbktlWmwtWGVPWnBXMmpScTAyZGNkS0NfWkxtU3prVFF1em5BQWh3NzFKUEhTcm00c1RIaW9BUEhqZTRlRFhxaXl4ZVBXUEt5OE1RaXFBRmN3RXNsekZRUXpUbDFhbWtUdGY5SjlIZWdoQVJhSWRiZnY4V2ZzdEtfOXNPQi1QSV84MEE?oc=5"
+        },
+        {
+          "title": "Missouri Democrats gain ground in polls, but congressional races remain uphill battles",
+          "source": "Missouri Independent",
+          "published": "2026-10-19",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPTGZiWHBaOWJmVEFGSnhCUy1aTEVsSU9tMUgtUUxxdm01djEzTXdrUFNYcVQ3Sy1NWFhraXBrQ0JiU1V0ekVyU0FJRHhaTUxadG5rS3JpTHZXbFBzLWZqODk0aGFzbm9Ud0ZZLTRiQ1l3MF9MTFNPeV9GUlRyYjNCQV9xWk9KNl9sU3IzRzR0c0hPZ3ZrTjJKMzZPYlZLdVRSVWtoYjE1SVNWVjlqbzFIVGRoUUZVbXVQWWV3YUhMU1VudXNLaENBWQ?oc=5"
+        },
+        {
+          "title": "With 2 weeks until midterms, analysts say Dems still on track to win US House majority",
+          "source": "News From The States",
+          "published": "2026-10-19",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOSHZ3ZXhvQkp3ZUpMUGZGSW9GNjVpVE5MNld1T0pIV2JpRXlkcEJ2dHNVZnhhQzFiZGhyMDdvaGRwamFvS1NGS1ExQVlvYzJROUVYc3VKcVJwbUtSYUtsLWNOMENQaS1rVVF1VkdsVkFtWHdpbXl3TDVyem5GYmZKa0hZNm1YYnZBMlFwemVYZktvT0tTU091ZjRwMEpqcGgzeXRZb2U3eDBST3Z6cTlYeWdDRXgxSnM?oc=5"
+        }
+      ],
+      "news_query": "Democratic Party win House seat",
+      "forecast": {
+        "probability": 0.18,
+        "reasoning": "This is the complement of the Republican question. A Democratic win would need a large wave plus local factors such as fallout from Hurricane Helene. That is possible but unlikely in a district Trump won comfortably."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-30T02:35:00Z",
+        "crowd": 0.86,
+        "best_bid": 0.85,
+        "best_ask": 0.87,
+        "volume": 110999,
+        "liquidity": 65706,
+        "fee_rate": 0.0
+      },
+      "bet_note": "Skipped: already 2 open bets on the same story (limit 2)."
+    },
+    {
+      "market_id": "631045",
+      "event_id": "57681",
+      "event_title": "Florida Senate Election Winner",
+      "option": "Ashley Moody (R)",
+      "question": "Will the Republicans win the Florida Senate race in 2026?",
+      "rules": "This market will resolve according to the winner of the 2026 Florida U.S. Senate special election currently scheduled for November 3, inclusive of any run-offs.\n\nA candidate shall be considered to represent a party in the event that he or she is the nominee of the party in question. Candidates other than the Democratic or Republican nominee (e.g., Greens, Libertarian, independent) may be added at a later date.\n\nCandidates who run as independents will not be encompassed by the “Democrat” or “Republican” options regardless of any affiliation they may have with the party.\n\nThe candidates may be named in the contract for the convenience of traders. In the event that any named candidate is replaced as the nominee of their respective party prior to election day, the name in the contract will be updated and the market will resolve based on the replacement nominee of the party.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources call the race for the same candidate. If all three sources haven’t called the race in this state for the same candidate, this market will resolve based on the official certification.",
+      "topic": "Politics",
+      "end_date": "2026-11-04T04:59:00Z",
+      "url": "https://polymarket.com/event/florida-senate-election-winner",
+      "snapshot": {
+        "time": "2026-10-30T02:32:55Z",
+        "crowd": 0.895,
+        "best_bid": 0.89,
+        "best_ask": 0.9,
+        "volume": 261423,
+        "liquidity": 94427,
+        "fee_rate": 0.0
+      },
+      "news": [
+        {
+          "title": "The Senate Race in Heavily Republican South Carolina Is a Tossup, Poll Finds",
+          "source": "The New York Times",
+          "published": "2026-10-29",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOTkc5RE1yWGYyOHR2SlE0dC1kS2pIb2FjOGtCRFZXT1QxYndhTTEzRzAzdmFRYzVwNUYySldpdVo0MTFSRk5LNFJWdHlRMWxtTzhwNjZkaHRxYkpkNjQ0dnFUV1psSlpGei1CZDlrRXhzVVVSRWNNTTZwaFFkejNYRDBLaThCdU0?oc=5"
+        },
+        {
+          "title": "Republicans Donalds, Moody hold slim leads in tightening governor, US Senate races, UNF polls finds",
+          "source": "WLRN",
+          "published": "2026-10-21",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPN1dLQzBONXhnQzRYZ19PYUdlU0pZdXR1YmFXbmgwY3JVZ0xpQTVtaFNiYkVlc3EwbW5uT202d2dvY0RFX0QtdGc1MmlKSE5TUFpaQ2Nqbm5PUmVBX0YydVpiR1VrSFVBUThTUXgxRjZKVDE1NmNIRVJaMjVqVnpCLVNCWUQ1Q1YwQ0hXalNWOXc1cHM4dGNUV0w4eVBRdzlKcmlmTjM2Uml0b3F5cnFGTi1Hdk1kSkthTXRWcDZNQ19uWDhJd1FocHo2eFBNODlsMmJUNDlzdDJlZ013VEJQa2l3?oc=5"
+        },
+        {
+          "title": "What Our New Senate Polls Tell Us About the State of the Midterms",
+          "source": "The New York Times",
+          "published": "2026-10-28",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOMTZiUi1uZWd4dXhCSS12NktrOWJyTGZxdk10VjUtb1d0Yjk1TzhoOVRjeTVTQTRXNGswd1ZiU3BwcE1weGxpX2daQUlCOUMwNU9sUE1mbm9fdEV0c1ZkRUtTNmx3czI5a1NJUWRtQmJTa1BjMC11ZjBuWTA4NDBEQ2JXNlRZLXBKZW5EbzBn?oc=5"
+        },
+        {
+          "title": "2026 Senate Election Interactive Map",
+          "source": "270toWin.com",
+          "published": "2026-10-23",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1MQVFrRE5uYXFVbmZiV2Z4anhmRFdoQm1XNlRBS1FlbXlBSmE0STJ3bTFuZ25laGtXVk1tcjc1eWhGbjdOcjBQQnItRWxPMEI4NnFkYWFkNjlsQQ?oc=5"
+        },
+        {
+          "title": "NYT poll shows Ashley Moody crossing 50% line, Byron Donalds with narrow lead",
+          "source": "Florida Politics",
+          "published": "2026-10-28",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQNjhSeTNucDdoNmtGUlZMV1ZJcTRJZGs1dHFXNmNnazBBNkx5MUtCam5wZk4tNkRDSTVqU1Zib1ZqWXgtNE9uTzFvWklpZThtMGRhaEw5OEhySVF4RzdWNjVmT1NSVW9zNXBteTBEdWlkS0xtY2V4NFVvNGE4YTlaRHAzVTJEc1NESnV5cy1wNElIVjVJRTRWZnNERDZQb3I0dGZHXzhWcWZlSzItaDhaUzY4dkVzUEpyRFpiQg?oc=5"
+        },
+        {
+          "title": "Moody vs. Nixon | Guide to Florida's U.S. Senate special election",
+          "source": "firstcoastnews.com",
+          "published": "2026-10-21",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNcUcxakVIWEJycFpfMXI0cURDUVgtSkUyajJLbmJZeFd1OG0ySl9yOV9wWk9ueGpUaS1PYmFMU0RxMnFaN3QwZzVQaVlLOUlpajUwZVRPMlV2cWc2cmoyWTVuRmtBQ3M0TDJJR21qRllJQ0prWEtqWnBTQlhZOFp2emVETUhlQW1Tby1zRjI2OWNKOWpyYmZOYW1obm54cUFwZ3FVZjFlSjduckxMaDdidFNvenkxMzZObzB5T3FwaXhVeGFLdkttZjhrM1RBRHR6eHdjNUIxbE9zNDhFeW4wNXdRbS1wN3VBTXc?oc=5"
+        }
+      ],
+      "news_query": "Republicans win Florida Senate race",
+      "forecast": {
+        "probability": 0.89,
+        "reasoning": "Florida has shifted strongly Republican, winning statewide races by double digits in 2022 and 2024. Recent polls show Ashley Moody ahead, with the NYT poll putting her above 50%. A UNF poll shows a tighter race, but Republicans remain heavy favorites."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-30T02:35:01Z",
+        "crowd": 0.895,
+        "best_bid": 0.89,
+        "best_ask": 0.9,
+        "volume": 261423,
+        "liquidity": 94806,
+        "fee_rate": 0.0
+      },
+      "bet_note": "Gap vs. the price we'd pay is 0.0 points; counting only part of it (cautious sizing) leaves -0.2, under the 10-point minimum."
+    },
+    {
+      "market_id": "5713557",
+      "event_id": "1191150",
+      "event_title": "\"The Hunger Games: Sunrise on the Reaping\" Opening Weekend Box Office",
+      "option": "105m+",
+      "question": "Will \"The Hunger Games: Sunrise on the Reaping\" Opening Weekend Box Office be at least 105m?",
+      "rules": "This market will resolve according to how much \"The Hunger Games: Sunrise on the Reaping\" Opening Weekend Box Office will gross domestically on its opening weekend. The \"Daily Box Office Performance\" figures found on the \"Box Office\" tab on this movie's The Numbers (https://www.the-numbers.com/) page will be used to resolve this market once the values for the 3-day opening weekend (November 20 - 22) are final (i.e., not studio estimates).\n\nIf the reported value falls exactly between two brackets, then this market will resolve to the higher range bracket.\n\nPlease note, this market will resolve according to the The Numbers figures provided under Weekend Box Office Performance for the 3-day weekend (which typically includes Thursday's previews), regardless of whether domestic refers to only the USA, or to USA and Canada, etc.\n\nIf there is ambiguity as to whether the resolution source's figures are final, this market will remain open until both https://www.boxofficemojo.com/ and https://www.the-numbers.com/ have confirmed their finalized figures.\n\nIf there is no final data available by November 27, 2026, 11:59 PM ET, another credible resolution source will be chosen.",
+      "topic": "Entertainment",
+      "end_date": "2026-11-22T12:00:00Z",
+      "url": "https://polymarket.com/event/the-hunger-games-sunrise-on-the-reaping-opening-weekend-box-office",
+      "snapshot": {
+        "time": "2026-10-30T02:32:55Z",
+        "crowd": 0.8125,
+        "best_bid": 0.81,
+        "best_ask": 0.815,
+        "volume": 12310,
+        "liquidity": 3161,
+        "fee_rate": 0.0
+      },
+      "news": [
+        {
+          "title": "‘Hunger Games: Sunrise On The Reaping’ Looks Sunny On Tracking With Opening Forecasts Starting At $60M+",
+          "source": "Deadline",
+          "published": "2026-10-29",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUENMaEZzVVpYQlhZMmVVZW15VUlCSkwwTDRtRDVRLTBBbWxkWjNZWVljS0h0Qm02bXFya253NENQTXU3QVFaejVCQkVfczVUZ0I5RWJxM09weTZuSWh2ejBNWGZLU1ZpSWFhR2NGM3BReXRUaE5JQ1R4WUtwVFRPNFJsbkg2N3hUNEZpRGpnUm5fZWk1bXFQYU94MjNkdw?oc=5"
+        },
+        {
+          "title": "Long Range Forecast: THE HUNGER GAMES: SUNRISE ON THE REAPING Poised to Out-Open Predecessor BALLAD OF SONGBIRDS AND SNAKES",
+          "source": "Boxoffice Pro",
+          "published": "2026-10-23",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPLWlfNlhoNVprNVdVZmQwVGE3aU9PUXFFRjZOTnU5WDhyMXVLZzdWbE9KLU9oaDJGeWw1eU5mTEdnZlowSnJ0N1pId3B4NzVsSTlfRU5Vcld2bGVwbmVLT2RxUUw3QVpNNlhEdkd1QUtKS3hoUjc3bkU5VGRXWFV1TW5MUjFIcmRROG9LWmdXQXlwU3M?oc=5"
+        },
+        {
+          "title": "‘Hunger Games: Sunrise on the Reaping’ Presales Suggest $100M+ Opening Weekend",
+          "source": "World of Reel",
+          "published": "2026-10-28",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNYXBnRnE5WDZZRTlIUXZmSjBZZTJFbnh5cWhMVlNJOVJiN1kzbUZEZkZ1cndrU2dLSUFQc1NBZDA1VHVEdkVXNWxuZTZNNlpXYzVtX25vMDBPQ3oxTWRQSkdzWjllQ1dobjJHZmJORFpxb3FrYUE2Vm4tM3hBZ3NJbzNGV3ZfbFkydEZBSXQyUXY1T05md1NIeGczQVJhMk1fUFpTN3Azd1pUSHBuU0htTDFxeVBYeGVk?oc=5"
+        },
+        {
+          "title": "5-Week Box Office Forecasts: THE HUNGER GAMES: SUNRISE ON THE REAPING ($60-70M+) Hopes to Capitalize on Gen Z and Millennial Trends; Could EBENEZER Turn Into the Next Holiday Staple? – Box Office Theory",
+          "source": "Box Office Theory",
+          "published": "2026-10-16",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPUmVuU1lQVXBURnFrWU55YnMwZDBTaG54VVdhNVNWaDNDR1kxcUVRcENwLXNaSFcxV3pGZ0ZMTGpRaHJNRG5vZ0g4YzRkNHBRclBTMzBXYlFzTHBKNXM0QmRaTi1DQWJCbUo5b05fOF9NNkdmRlBtRFNScDMtZ1N5U09EY2Zxd3E3c2pOUC1HWEM5TTlqVG55TFczSTI4WUVPSVpPTi1nYmhTOExKWTNla0xnVQ?oc=5"
+        },
+        {
+          "title": "The Hunger Games: Sunrise On The Reaping North America Box Office: Eyes A Strong Opening, But Can It Beat Its Predecessor?",
+          "source": "IMDb",
+          "published": "2026-10-26",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBKdllodldqSEhaOExQY3BPTTNpTkVkQ2J0aGNuMlo1QlBCQld1dE5aVGJkVjVKUW1kVnlTNTl3LUEwa1hWQ1N3TVI2LWM1TXdVVXhCV1BZSnZGZUhyd0ltRHg1ekQ?oc=5"
+        },
+        {
+          "title": "Jennifer Lawrence Finally Confirms ‘Hunger Games’ Return, Reunites With Two Former Co-Stars",
+          "source": "The Hollywood Reporter",
+          "published": "2026-10-28",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPU19IMUVtYllVWEF0ZjVKZGFlOEctMzcxNjduMk9fbzVJN3J6a1E4Q3plTWxsS1B0b19sS0NlYzdhOFcxSmdKWFR4VDZIUjcxVVlZNk02aHRTaElNY1lOSVgtSXQ0b21WQXRGbDk3X2U4NlpyR1NFaFIzZ3hUVzRUQUhmYk5zYUZBVU9ManExeTFDSGZucTYzM2poY0QyR2d5elBLQ1oxS0x0a3hGempES3VkN2xJZjZ5?oc=5"
+        }
+      ],
+      "news_query": "Hunger Games Sunrise Reaping Opening Weekend Box",
+      "forecast": {
+        "probability": 0.22,
+        "reasoning": "Deadline's tracking starts at $60M+ and other long-range forecasts sit around $60-70M+. Only a less established outlet cites presales pointing to $100M+. The previous prequel opened at about $45M, so even with Jennifer Lawrence's return and a hugely popular book, $105M would mean far beating the mainstream forecasts."
+      },
+      "bet": {
+        "side": "NO",
+        "price": 0.1924,
+        "top_price": 0.19,
+        "shares": 259.9,
+        "stake": 50.0,
+        "fee": 0.0,
+        "cost": 50.0,
+        "gap_pts": 59.0,
+        "edge_pts": 29.4,
+        "sized_on": 0.5162,
+        "kelly_full": 0.3627,
+        "fill": "order book",
+        "levels": 2
+      },
+      "trade_snapshot": {
+        "time": "2026-10-30T02:35:01Z",
+        "crowd": 0.8125,
+        "best_bid": 0.81,
+        "best_ask": 0.815,
+        "volume": 12310,
+        "liquidity": 3217,
+        "fee_rate": 0.0
+      },
+      "bet_note": "Bought NO (AI's gap 59.0 points; 29.4 after cautious sizing)."
+    },
+    {
+      "market_id": "6096385",
+      "event_id": "1242692",
+      "event_title": "Billboard 200 #1 Album Week of November 7",
+      "option": "You Seem Pretty Sad for a Girl So in Love - Olivia Rodrigo",
+      "question": "Will \"You Seem Pretty Sad for a Girl So in Love - Olivia Rodrigo\" be the Billboard 200 #1 album for the week of November 7?",
+      "rules": "Billboard updates the Billboard 200 albums chart each Tuesday (with adjusted release schedules on some holiday weeks), reflecting data from the previous week (Friday-Thursday). Each Billboard chart is then dated “Week of (date of the upcoming Saturday)”.\n\nThis market will resolve according to the number 1 album on the Billboard 200 chart dated “Week of November 7, 2026”. Albums will be primarily ranked by order on the specified chart. If two or more albums are tied for any position, ties will be broken by alphabetical order of the albums' listed titles. This market will resolve to the album that occupies the highest finishing position after applying this ranking.\n\nThis market will resolve as soon as the relevant chart is published. If the Billboard 200 chart for the specified week is not published within 14 calendar days of the expected release date, this market will resolve to “Other”.\n\nThe resolution source for this market will be the Billboard 200 chart for the specified week, published on the Billboard website (https://www.billboard.com/charts/billboard-200/) or through other official Billboard channels.",
+      "topic": "Entertainment",
+      "end_date": "2026-11-04T04:59:00Z",
+      "url": "https://polymarket.com/event/billboard-200-1-album-week-of-november-7",
+      "snapshot": {
+        "time": "2026-10-30T02:32:55Z",
+        "crowd": 0.255,
+        "best_bid": 0.25,
+        "best_ask": 0.26,
+        "volume": 19430,
+        "liquidity": 2039,
+        "fee_rate": 0.0
+      },
+      "news": [
+        {
+          "title": "Olivia Rodrigo’s ‘You Seem Pretty Sad for a Girl So in Love’ Returns to No. 1 on Billboard 200",
+          "source": "Billboard",
+          "published": "2026-10-25",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQ2hEaFZ3bWxtQTl3UDhwRklnZjMzek5PSkZKS3Fscmgyb3UwZG9JSWZIajc4anhjUmhSYW9QNmQtc1g5R2xBLUlZRmx6NHVNcUsyem1nSEE4R2JWQUc2ZHBGaVBhZTRYTnB0aUptS20xSFVqaXJ4OUN0Q0xBZjJfQzFQTjV1VVY2bTQwTGk5a0FDOWR6VVVTRHRWa3VxQmNQY2VXQ1dnUVBOTC1ia1dsakloZzI?oc=5"
+        },
+        {
+          "title": "Olivia Rodrigo's 'You Seem Pretty Sad' Returns to No. 1 on Album Chart",
+          "source": "Variety",
+          "published": "2026-10-25",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOcEw2eXVBUHE1VjZJOFphZ000QTlUZ3NkQ1NvaTRKT3h2Q1NsaEV6VGlNNE1xSThhMlp2TVdEQTJjWlZIdl95aVFkWGVjMWZCLWQtM2w0MEphWmV3N3FWQkVfVk9oSE8xR0VqOEVqZHFnQXFPbFpnY1VDLTZPd2ZOTDk5d0hRWGNxS0pKVzctc09BeWpnZENmYlp4V0VNNXlXbW1na3ZKMA?oc=5"
+        },
+        {
+          "title": "Olivia Rodrigo’s you seem pretty sad for a girl so in love tops Billboard 200 chart again",
+          "source": "Paste Magazine",
+          "published": "2026-10-26",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNRGlNN2JkOGM2ZVNzLWk2aVVPLU9La3gzdnZFeWJvdm1UVW1xanhUdWhPSFJzQnpzWGN5eU93dmJ2bEFycHZnbVBwLWd3QTBZM0E0MmNicGZPbVZGWlFHbzdtaG4zOHJOZk1xYlRueEltYVVjbUt3VXRCcy1vbHFRWGVSemI4ZVAxWHlBMmJhS1RRWl9iQlB2ZTlVYm5wa1RqeUY2S0tpTG83UzNyNE92OGZEQzRINF9oQmV1Vm5uNjhndWEyRGFFSFBLXzBWUjlaOC13SjBR?oc=5"
+        },
+        {
+          "title": "Olivia Rodrigo x Chappell Roan – expectations",
+          "source": "EUPHORIA. Magazine",
+          "published": "2026-10-20",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUWhxYms3VjV6MnBySUJEQ2lQYzBmZjVsSUVjS3JRemgyd2JIaExaS1dfTkpKQmo2c3VaWFF3RURmSmM0Y09nd0xPai1Oa29BaXE2MXFPSHM2N0pISUM2VnBybHdhbXMzWWtmQkJPUFRxY2hjRndrSzN3OV9xSVBzX3BIZ09BVjlwdEotbjFpaVJBdUR1WjU1SUlySEZWVk9j?oc=5"
+        },
+        {
+          "title": "you seem pretty stoked for a midweek chart preview",
+          "source": "Hits Daily Double",
+          "published": "2026-10-20",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPa19Lb1dRYjRfV1B1em96N2tBMDlWRkNQTjBJdWFlUWpPcUIyZmdvY2VUV2xaQ1lkaUQxRVBEOXZQcU5uMl9ibFdIUEVfb3JTX21KUVp0QkVqaW5WTFltYUxNcmRnUXI1UmhvdHFPajVlSEZiMmg1ZjFTckFBRXIxS05VZk5zdG8tMmp2anMxWHlBTGpDYTZvWUZxbUI?oc=5"
+        },
+        {
+          "title": "October singles track the highs and lows of love",
+          "source": "Brown Daily Herald",
+          "published": "2026-10-26",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOWnRVNmpvNU9nSVAxcW5XcE03VVdRYW95V3pqQkt2U1VqRmpVQjNuckJpazVjbDhNZlgyZnlBcHFIRkc1SkpScTR4MGJ0QmNFcFZhNXBycERpTWNDOGRMcW9vWEhDdEtLR0E0X0E4MHV3OXJoTG04NWF0TzFKSmcyQU90T1g0Z1l0eGNNTm5oa1RTcmptY0p1X1NnZF9fYlk?oc=5"
+        }
+      ],
+      "news_query": "You Seem Pretty Sad Girl So Love",
+      "forecast": {
+        "probability": 0.42,
+        "reasoning": "Rodrigo's album just climbed back to No. 1, which shows strong ongoing sales. However, the album it displaced, or new releases in the Oct 23-29 tracking week, could take the top spot. Without clear knowledge of the competing releases, this is close to a coin flip, leaning slightly against."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-30T02:35:01Z",
+        "crowd": 0.255,
+        "best_bid": 0.25,
+        "best_ask": 0.26,
+        "volume": 19430,
+        "liquidity": 2027,
+        "fee_rate": 0.0
+      },
+      "bet_note": "Gap vs. the price we'd pay is 16.0 points; counting only part of it (cautious sizing) leaves 7.8, under the 10-point minimum."
+    },
+    {
+      "market_id": "5211634",
+      "event_id": "1120075",
+      "event_title": "October Unemployment Rate",
+      "option": "4.1%",
+      "question": "Will the October 2026 unemployment rate be 4.1%?",
+      "rules": "This market will resolve according to the seasonally adjusted unemployment rate (total unemployed, as a percent of the civilian labor force, official unemployment rate denoted as U-3) reported by the Bureau of Labor Statistics in the Employment Situation Report for October 2026.\n\nThe resolution source for this market is the Monthly Employment Situation Report, published by the BLS every month at https://www.bls.gov/bls/news-release/empsit.htm, specifically the U-3 measure in Table A-15 for the month in question.\n\nThe relevant data release is scheduled for November 6, 2026, at 8:30 AM ET. This market will resolve as soon as the relevant data is issued. Any revisions to the data after the first release will not count toward this market's resolution.\n\nIf no data for the specified month is released by the date the next month's data is scheduled to be released, this market will resolve based on data from the last available month.\n\nNote: the resolution source for this market reports unemployment to one decimal point. Thus, this is the level of precision that will be used when resolving the market.",
+      "topic": "Economy",
+      "end_date": "2026-11-06T13:30:00Z",
+      "url": "https://polymarket.com/event/october-unemployment-rate-2026",
+      "snapshot": {
+        "time": "2026-10-30T02:32:55Z",
+        "crowd": 0.31,
+        "best_bid": 0.3,
+        "best_ask": 0.32,
+        "volume": 11136,
+        "liquidity": 2643,
+        "fee_rate": 0.0
+      },
+      "news": [
+        {
+          "title": "Montana’s Unemployment Rate Falls to 3.1%",
+          "source": "State of Montana Newsroom (.gov)",
+          "published": "2026-10-20",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNN19VZnJlZ0pjWmJTZXA2Rk5yNUlkVTJidy05VnZMdzI2cHNqMVI0SWVfOHAzcENqRlV4SlJBVzNTZVVSWjF6MXZWb1o4SUN0STNuQU5XdnI4X3V4VkExNVFSNS1oWDhaV1VvXzZsLWh1ZUFjck81NllkdkYwQUxPRk56NDk1WDFMamhF?oc=5"
+        },
+        {
+          "title": "Vermont's unemployment rate remains low, but its aging population is leaving the workforce",
+          "source": "Vermont Public",
+          "published": "2026-10-23",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOUUlBNE4wQ0xkdkxjWDBNZDhKUE14OW9naG1FQlNwUjlPb1JOZVZZLUY4ai1fR19fNVRscTNtZW9YczFCS241M1VhNjRJUFNhNkJCSDBDTzdvLWlrZDRfRW9VRlZzSm5tbXg4UElpUUJPUmdOQ0lOYlFtQjhNVVdtRHZTbTk3U2t2aVZKWXpGaVhRVENYdlJCZzRrSkQxcFd4V21lYjZ5cEdDUFZlZzJsdFMxVUkwQzg?oc=5"
+        },
+        {
+          "title": "Black Unemployment Hints at a Job Market in Worse Shape Than It Seems",
+          "source": "The New York Times",
+          "published": "2026-10-19",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZ1JDbDZpdWxtaktwbWVRY0FIZ2M3Z2FCUndFLUd0c3F3Vm9GeDU1Y2x0MFZMcW5idFR1ZXdZaXYtd1N2ZHNQVEV2VWJ1TDgyNkZEeEVTWmNjaDlYRzdWY2plSnMwTnJIQjFtRXZjS1k3N1dtbS1wRFNjZHZSS1BWcWJLT1k?oc=5"
+        },
+        {
+          "title": "Mentor Unemployment Rate Rises to 1.7% in September",
+          "source": "City of Mentor, Ohio",
+          "published": "2026-10-23",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNZXYzbG5uanZHY281eEpnTnBYcnBTaHo4cFRqTTJyR3pxaVpPYnZKWkh6RkRlU2kxTmxVUXlKNks5UmJ2emlLMFJMMUhPQjFLLUdWNjdFS1lWUjh0WHB3NmlYMzhUbTN0QVlPc0FqUDQ3RnBtanNzQlAxaGt4N3NYa0h3?oc=5"
+        },
+        {
+          "title": "Unemployment Worries Are Rising Among Americans—Why Economists Still See Job Market Stability",
+          "source": "Investopedia",
+          "published": "2026-10-26",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPMnhlRUFLRTE0TTZzVU94UTF4N3loZkVEQzFGRUtBaENNejB3eXRZR0lfUUg2cTBlcTU4b0padEM5RTJnbjFiRWxrT0t0X1hNTG90MlBtNnFDaDhQUG1COGw0TmYwZ3EtZEZUSXpuZ3F5Z2Fqc3J0amMzYUJINTVEbVVueHhxQks1MHZWbHQwTGlEZjlYWENFSWFaWmpiVzBWMDdvaHNFdWkwb2lKdllmNzdqbFZ1X3M?oc=5"
+        },
+        {
+          "title": "U.S. economy adds 29,000 jobs as unemployment rate rises to 4.2%",
+          "source": "ASBN Small Business Network",
+          "published": "2026-10-26",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBaUHZpZEdiclJWejV3SVp1dEg4N1ZXWGdVLXpveEZCNVVkRENZbklUT0Z3dWRkalBaajM0VzlUSkR2a3R0MW9XaTRlbXNBTzhJVDlXOUl0RXNGYzlPOWVuYjBOcXF1S2pLVkE?oc=5"
+        }
+      ],
+      "news_query": "unemployment rate | October unemployment rate economists forecast",
+      "forecast": {
+        "probability": 0.23,
+        "reasoning": "September unemployment rose to 4.2% on weak job growth of 29,000. The most likely October reading is 4.2%, with 4.3% also plausible. A tick back down to 4.1% happens often enough from normal month-to-month noise to be a real possibility, but it is not the base case."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-10-30T02:35:01Z",
+        "crowd": 0.31,
+        "best_bid": 0.3,
+        "best_ask": 0.32,
+        "volume": 11136,
+        "liquidity": 2570,
+        "fee_rate": 0.0
+      },
+      "bet_note": "Gap vs. the price we'd pay is 7.0 points; counting only part of it (cautious sizing) leaves 3.0, under the 10-point minimum."
+    }
+  ],
+  "batch_id": "msgbatch_01GAPWb4k4jVBDJHyfrmZrc6",
+  "forecast_at": "2026-10-30T02:35:00Z",
+  "usage": {
+    "input_tokens": 5828,
+    "output_tokens": 1591
+  },
+  "cost_usd": 0.0276,
+  "budget": 80.53,
+  "account": "phase-1.2"
+}
