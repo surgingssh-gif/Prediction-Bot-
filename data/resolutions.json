@@ -398,5 +398,15 @@
     "outcome": 0,
     "resolved_at": "2026-10-30T14:03:38Z",
     "question": "Will Mexico GDP growth in Q3 2026 be between 2.0% and 2.5%?"
+  },
+  "4470027": {
+    "outcome": 1,
+    "resolved_at": "2026-10-30T20:31:49Z",
+    "question": "Will the Central Bank of Colombia make no change to the monetary policy interest rate at the October meeting?"
+  },
+  "4470028": {
+    "outcome": 0,
+    "resolved_at": "2026-10-30T20:31:49Z",
+    "question": "Will the Central Bank of Colombia increase the monetary policy interest rate by 25 bps at the October meeting?"
   }
 }
