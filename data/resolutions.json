@@ -488,5 +488,15 @@
     "outcome": 0,
     "resolved_at": "2026-10-31T18:02:16Z",
     "question": "Will The Weeknd have the second-greatest number of monthly Spotify listeners this month?"
+  },
+  "5240812": {
+    "outcome": 0,
+    "resolved_at": "2026-10-31T23:03:40Z",
+    "question": "Will a new pneumonic plague case be confirmed in Russia by October 31?"
+  },
+  "2110578": {
+    "outcome": 1,
+    "resolved_at": "2026-10-31T23:04:28Z",
+    "question": "Will Likud win 25-29 seats in the 2026 Israeli legislative election?"
   }
 }
