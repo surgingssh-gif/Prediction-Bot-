@@ -408,5 +408,55 @@
     "outcome": 0,
     "resolved_at": "2026-10-30T20:31:49Z",
     "question": "Will the Central Bank of Colombia increase the monetary policy interest rate by 25 bps at the October meeting?"
+  },
+  "5180406": {
+    "outcome": 0,
+    "resolved_at": "2026-10-31T11:01:28Z",
+    "question": "Will Apple be the second-largest company in the world by market cap on October 31, 2026?"
+  },
+  "5166967": {
+    "outcome": 1,
+    "resolved_at": "2026-10-31T11:01:25Z",
+    "question": "Will Microsoft be the third-largest company in the world by market cap on October 31?"
+  },
+  "5180413": {
+    "outcome": 0,
+    "resolved_at": "2026-10-31T03:33:55Z",
+    "question": "Will NVIDIA be the largest company in the world by market cap on October 31, 2026?"
+  },
+  "5180417": {
+    "outcome": 1,
+    "resolved_at": "2026-10-31T11:01:28Z",
+    "question": "Will Apple be the largest company in the world by market cap on October 31, 2026?"
+  },
+  "5166969": {
+    "outcome": 0,
+    "resolved_at": "2026-10-31T03:33:55Z",
+    "question": "Will Alphabet be the third-largest company in the world by market cap on October 31?"
+  },
+  "2100984": {
+    "outcome": 0,
+    "resolved_at": "2026-10-31T17:35:22Z",
+    "question": "Will Yashar win the most seats in the 2026 Israeli legislative election?"
+  },
+  "2100981": {
+    "outcome": 1,
+    "resolved_at": "2026-10-31T17:19:27Z",
+    "question": "Will Likud win the most seats in the 2026 Israeli legislative election?"
+  },
+  "5180403": {
+    "outcome": 1,
+    "resolved_at": "2026-10-31T11:09:21Z",
+    "question": "Will NVIDIA be the second-largest company in the world by market cap on October 31, 2026?"
+  },
+  "5167211": {
+    "outcome": 1,
+    "resolved_at": "2026-10-31T13:03:05Z",
+    "question": "Saudi Arabia military action against Yemen on October 30?"
+  },
+  "5777915": {
+    "outcome": 1,
+    "resolved_at": "2026-10-31T05:22:19Z",
+    "question": "Will any contestant beat Luke Littler?"
   }
 }
