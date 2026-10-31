@@ -458,5 +458,35 @@
     "outcome": 1,
     "resolved_at": "2026-10-31T05:22:19Z",
     "question": "Will any contestant beat Luke Littler?"
+  },
+  "3554659": {
+    "outcome": 1,
+    "resolved_at": "2026-10-31T18:01:27Z",
+    "question": "Will Google have the best AI model at the end of October 2026?"
+  },
+  "4418916": {
+    "outcome": 1,
+    "resolved_at": "2026-10-31T18:03:42Z",
+    "question": "Will OpenAI have the best Image Edit AI at the end of October 2026?"
+  },
+  "3554475": {
+    "outcome": 1,
+    "resolved_at": "2026-10-31T18:52:56Z",
+    "question": "Will Xiaomi have the best Chinese AI model at the end of October 2026?"
+  },
+  "3554471": {
+    "outcome": 0,
+    "resolved_at": "2026-10-31T18:06:28Z",
+    "question": "Will Alibaba have the best Chinese AI model at the end of October 2026?"
+  },
+  "3554549": {
+    "outcome": 0,
+    "resolved_at": "2026-10-31T18:01:45Z",
+    "question": "Will OpenAI have the best Code Arena | WebDev AI at the end of October 2026?"
+  },
+  "5219954": {
+    "outcome": 0,
+    "resolved_at": "2026-10-31T18:02:16Z",
+    "question": "Will The Weeknd have the second-greatest number of monthly Spotify listeners this month?"
   }
 }
