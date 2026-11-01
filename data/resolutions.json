@@ -518,5 +518,65 @@
     "outcome": 0,
     "resolved_at": "2026-10-31T23:34:52Z",
     "question": "Will Likud win 30-34 seats in the 2026 Israeli legislative election?"
+  },
+  "5164765": {
+    "outcome": 0,
+    "resolved_at": "2026-11-01T06:10:34Z",
+    "question": "Israel accuses Iran/proxies of plane stabbing incident by Oct 31?"
+  },
+  "4346270": {
+    "outcome": 0,
+    "resolved_at": "2026-11-01T06:27:32Z",
+    "question": "US reissues Iran oil sanction relief by October 31?"
+  },
+  "4853905": {
+    "outcome": 1,
+    "resolved_at": "2026-11-01T06:01:46Z",
+    "question": "Will there be no next Google Gemini Pro model release by October 31, 2026?"
+  },
+  "3667937": {
+    "outcome": 0,
+    "resolved_at": "2026-11-01T06:01:36Z",
+    "question": "Will the next Google Gemini Pro model be released by October 31, 2026?"
+  },
+  "3491787": {
+    "outcome": 0,
+    "resolved_at": "2026-11-01T02:02:22Z",
+    "question": "Will the Danube River return to normal levels between October 1 and October 31, 2026?"
+  },
+  "3491788": {
+    "outcome": 1,
+    "resolved_at": "2026-11-01T02:02:22Z",
+    "question": "Will the Danube River fail to return to normal levels by November 1, 2026?"
+  },
+  "4893334": {
+    "outcome": 0,
+    "resolved_at": "2026-11-01T16:02:06Z",
+    "question": "Will Taylor Swift's monthly listeners figure hit 110m by October 31?"
+  },
+  "5476380": {
+    "outcome": 0,
+    "resolved_at": "2026-11-01T06:08:56Z",
+    "question": "US imports Russian diesel by October 31?"
+  },
+  "3954617": {
+    "outcome": 0,
+    "resolved_at": "2026-11-01T06:29:56Z",
+    "question": "Iran-Oman Hormuz Agreement by October 31?"
+  },
+  "3900397": {
+    "outcome": 0,
+    "resolved_at": "2026-11-01T10:34:50Z",
+    "question": "Situational Awareness raises new capital by October 31?"
+  },
+  "4869280": {
+    "outcome": 1,
+    "resolved_at": "2026-11-01T06:03:42Z",
+    "question": "Will there be no next Meta Muse Spark model release by October 31, 2026?"
+  },
+  "5154295": {
+    "outcome": 1,
+    "resolved_at": "2026-11-01T08:15:26Z",
+    "question": "Will GitHub's longest critical incident in October 2026 be between 3 and 6 hours?"
   }
 }
