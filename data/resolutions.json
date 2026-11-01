@@ -498,5 +498,25 @@
     "outcome": 1,
     "resolved_at": "2026-10-31T23:04:28Z",
     "question": "Will Likud win 25-29 seats in the 2026 Israeli legislative election?"
+  },
+  "4294627": {
+    "outcome": 0,
+    "resolved_at": "2026-11-01T02:03:22Z",
+    "question": "Will the Rhine River return to normal levels between October 1 and October 31, 2026?"
+  },
+  "4294628": {
+    "outcome": 1,
+    "resolved_at": "2026-11-01T02:03:22Z",
+    "question": "Will the Rhine River fail to return to normal levels before November 1, 2026?"
+  },
+  "4761462": {
+    "outcome": 1,
+    "resolved_at": "2026-10-31T23:36:38Z",
+    "question": "US x Yemen ceasefire continues through October 31?"
+  },
+  "2110579": {
+    "outcome": 0,
+    "resolved_at": "2026-10-31T23:34:52Z",
+    "question": "Will Likud win 30-34 seats in the 2026 Israeli legislative election?"
   }
 }
