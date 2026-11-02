@@ -578,5 +578,65 @@
     "outcome": 1,
     "resolved_at": "2026-11-01T08:15:26Z",
     "question": "Will GitHub's longest critical incident in October 2026 be between 3 and 6 hours?"
+  },
+  "1194643": {
+    "outcome": 1,
+    "resolved_at": "2026-11-02T05:25:00Z",
+    "question": "Will Iliana Iotova win the next Bulgarian presidential election?"
+  },
+  "3685385": {
+    "outcome": 1,
+    "resolved_at": "2026-11-02T07:02:22Z",
+    "question": "Will there be no next Google Gemini Pro model release by November 1, 2026?"
+  },
+  "5178290": {
+    "outcome": 1,
+    "resolved_at": "2026-11-02T21:40:50Z",
+    "question": "Will ByteDance have the third highest private market valuation at the end of October?"
+  },
+  "3529058": {
+    "outcome": 0,
+    "resolved_at": "2026-11-02T10:59:28Z",
+    "question": "Will the Ornn H200 Index be between $4.50 and $5.00 on October 31, 2026?"
+  },
+  "3529059": {
+    "outcome": 0,
+    "resolved_at": "2026-11-02T10:59:28Z",
+    "question": "Will the Ornn H200 Index be between $5.00 and $5.50 on October 31, 2026?"
+  },
+  "3528499": {
+    "outcome": 1,
+    "resolved_at": "2026-11-02T10:59:28Z",
+    "question": "Will the Ornn RTX 5090 Index be at least $0.60 on October 31, 2026?"
+  },
+  "3528498": {
+    "outcome": 0,
+    "resolved_at": "2026-11-02T10:59:28Z",
+    "question": "Will the Ornn RTX 5090 Index be between $0.55 and $0.60 on October 31, 2026?"
+  },
+  "5166884": {
+    "outcome": 0,
+    "resolved_at": "2026-11-02T02:30:52Z",
+    "question": "Will USD be at least 2.8M Iranian rials on October 31?"
+  },
+  "1194657": {
+    "outcome": 0,
+    "resolved_at": "2026-11-02T05:25:00Z",
+    "question": "Will Аndrey Gyurov win the next Bulgarian presidential election?"
+  },
+  "5194745": {
+    "outcome": 0,
+    "resolved_at": "2026-11-02T17:02:56Z",
+    "question": "Will ISM Manufacturing PMI be between 56.0 and 56.9 in October?"
+  },
+  "5166882": {
+    "outcome": 0,
+    "resolved_at": "2026-11-02T02:30:52Z",
+    "question": "Will USD be between 2.6M and 2.7M Iranian rials on October 31?"
+  },
+  "6096385": {
+    "outcome": 0,
+    "resolved_at": "2026-11-02T19:04:22Z",
+    "question": "Will \"You Seem Pretty Sad for a Girl So in Love - Olivia Rodrigo\" be the Billboard 200 #1 album for the week of November 7?"
   }
 }
