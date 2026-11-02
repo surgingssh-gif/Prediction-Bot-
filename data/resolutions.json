@@ -638,5 +638,20 @@
     "outcome": 0,
     "resolved_at": "2026-11-02T19:04:22Z",
     "question": "Will \"You Seem Pretty Sad for a Girl So in Love - Olivia Rodrigo\" be the Billboard 200 #1 album for the week of November 7?"
+  },
+  "4893302": {
+    "outcome": 0,
+    "resolved_at": "2026-11-02T23:39:58Z",
+    "question": "Will the total domestic gross for Resident Evil be less than 150m by October 31?"
+  },
+  "4893275": {
+    "outcome": 1,
+    "resolved_at": "2026-11-02T23:45:50Z",
+    "question": "Will the total domestic gross for Spider-Man: Brand New Day be less than 970m by October 31?"
+  },
+  "4893303": {
+    "outcome": 1,
+    "resolved_at": "2026-11-02T23:39:58Z",
+    "question": "Will the total domestic gross for Resident Evil be between 150m and 160m by October 31?"
   }
 }
