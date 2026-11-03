@@ -658,5 +658,25 @@
     "outcome": 0,
     "resolved_at": "2026-11-03T03:47:28Z",
     "question": "US-Iran ceasefire continues through the midterms?"
+  },
+  "3499789": {
+    "outcome": 0,
+    "resolved_at": "2026-11-03T05:31:49Z",
+    "question": "No change in Reserve Bank of Australia's interest rates at the November 2026 meeting?"
+  },
+  "3499790": {
+    "outcome": 1,
+    "resolved_at": "2026-11-03T05:31:49Z",
+    "question": "Reserve Bank of Australia increases interest rates by 25 bps at the November 2026 meeting?"
+  },
+  "5572739": {
+    "outcome": 1,
+    "resolved_at": "2026-11-03T08:30:50Z",
+    "question": "Will there be no Hormuz agreement?"
+  },
+  "5572738": {
+    "outcome": 0,
+    "resolved_at": "2026-11-03T08:30:21Z",
+    "question": "Will there be a Hormuz agreement and the Democrats win the Senate?"
   }
 }
