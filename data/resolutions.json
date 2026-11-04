@@ -678,5 +678,215 @@
     "outcome": 0,
     "resolved_at": "2026-11-03T08:30:21Z",
     "question": "Will there be a Hormuz agreement and the Democrats win the Senate?"
+  },
+  "562831": {
+    "outcome": 0,
+    "resolved_at": "2026-11-04T17:14:49Z",
+    "question": "2026 Balance of Power: R Senate, R House"
+  },
+  "630964": {
+    "outcome": 0,
+    "resolved_at": "2026-11-04T07:11:00Z",
+    "question": "Will the Republicans win the Texas Senate race in 2026?"
+  },
+  "629505": {
+    "outcome": 1,
+    "resolved_at": "2026-11-04T13:37:30Z",
+    "question": "Will the Democrats win the Nevada governor race in 2026?"
+  },
+  "562803": {
+    "outcome": 0,
+    "resolved_at": "2026-11-04T09:57:30Z",
+    "question": "Will the Republican Party control the House after the 2026 Midterm elections?"
+  },
+  "562802": {
+    "outcome": 1,
+    "resolved_at": "2026-11-04T13:06:30Z",
+    "question": "Will the Democratic Party control the House after the 2026 Midterm elections?"
+  },
+  "630963": {
+    "outcome": 1,
+    "resolved_at": "2026-11-04T07:11:00Z",
+    "question": "Will the Democrats win the Texas Senate race in 2026?"
+  },
+  "562830": {
+    "outcome": 0,
+    "resolved_at": "2026-11-04T17:46:50Z",
+    "question": "2026 Balance of Power: R Senate, D House"
+  },
+  "630924": {
+    "outcome": 1,
+    "resolved_at": "2026-11-04T06:44:30Z",
+    "question": "Will the Democrats win the South Carolina Senate race in 2026?"
+  },
+  "562793": {
+    "outcome": 1,
+    "resolved_at": "2026-11-04T10:53:59Z",
+    "question": "Will the Democratic Party control the Senate after the 2026 Midterm elections?"
+  },
+  "562794": {
+    "outcome": 0,
+    "resolved_at": "2026-11-04T07:47:59Z",
+    "question": "Will the Republican Party control the Senate after the 2026 Midterm elections?"
+  },
+  "630805": {
+    "outcome": 1,
+    "resolved_at": "2026-11-04T10:33:30Z",
+    "question": "Will the Democrats win the Michigan Senate race in 2026?"
+  },
+  "5611043": {
+    "outcome": 0,
+    "resolved_at": "2026-11-04T19:11:13Z",
+    "question": "Will oil be below $80 on November 2 and the Democrats win the Senate?"
+  },
+  "5611042": {
+    "outcome": 0,
+    "resolved_at": "2026-11-04T11:29:50Z",
+    "question": "Will oil be below $80 on November 2 and the Republicans win the Senate?"
+  },
+  "5611879": {
+    "outcome": 0,
+    "resolved_at": "2026-11-04T13:39:50Z",
+    "question": "Will oil be below $85 on November 2 and the Republicans win the Senate?"
+  },
+  "629557": {
+    "outcome": 1,
+    "resolved_at": "2026-11-04T06:54:59Z",
+    "question": "Will the Democrats win the Ohio governor race in 2026?"
+  },
+  "629545": {
+    "outcome": 0,
+    "resolved_at": "2026-11-04T05:04:30Z",
+    "question": "Will the Republicans win the New York governor race in 2026?"
+  },
+  "629544": {
+    "outcome": 1,
+    "resolved_at": "2026-11-04T05:04:30Z",
+    "question": "Will the Democrats win the New York governor race in 2026?"
+  },
+  "631058": {
+    "outcome": 0,
+    "resolved_at": "2026-11-04T07:16:30Z",
+    "question": "Will the Republicans win the Ohio Senate race in 2026?"
+  },
+  "630806": {
+    "outcome": 0,
+    "resolved_at": "2026-11-04T10:33:30Z",
+    "question": "Will the Republicans win the Michigan Senate race in 2026?"
+  },
+  "629183": {
+    "outcome": 1,
+    "resolved_at": "2026-11-04T11:24:30Z",
+    "question": "Will the Democrats win the Arizona governor race in 2026?"
+  },
+  "630773": {
+    "outcome": 0,
+    "resolved_at": "2026-11-04T09:05:59Z",
+    "question": "Will the Republicans win the Maine Senate race in 2026?"
+  },
+  "629506": {
+    "outcome": 0,
+    "resolved_at": "2026-11-04T13:37:30Z",
+    "question": "Will the Republicans win the Nevada governor race in 2026?"
+  },
+  "634892": {
+    "outcome": 1,
+    "resolved_at": "2026-11-04T11:35:00Z",
+    "question": "Will the Republicans win the Nebraska Senate race in 2026?"
+  },
+  "634893": {
+    "outcome": 0,
+    "resolved_at": "2026-11-04T11:35:53Z",
+    "question": "Will an independent win the Nebraska Senate race in 2026?"
+  },
+  "629558": {
+    "outcome": 0,
+    "resolved_at": "2026-11-04T06:54:59Z",
+    "question": "Will the Republicans win the Ohio governor race in 2026?"
+  },
+  "630747": {
+    "outcome": 0,
+    "resolved_at": "2026-11-04T07:26:59Z",
+    "question": "Will the Republicans win the Kansas Senate race in 2026?"
+  },
+  "629690": {
+    "outcome": 1,
+    "resolved_at": "2026-11-04T07:21:29Z",
+    "question": "Will the Democrats win the Texas governor race in 2026?"
+  },
+  "629691": {
+    "outcome": 0,
+    "resolved_at": "2026-11-04T07:21:29Z",
+    "question": "Will the Republicans win the Texas governor race in 2026?"
+  },
+  "630772": {
+    "outcome": 1,
+    "resolved_at": "2026-11-04T09:05:59Z",
+    "question": "Will the Democrats win the Maine Senate race in 2026?"
+  },
+  "631057": {
+    "outcome": 1,
+    "resolved_at": "2026-11-04T07:21:54Z",
+    "question": "Will the Democrats win the Ohio Senate race in 2026?"
+  },
+  "629184": {
+    "outcome": 0,
+    "resolved_at": "2026-11-04T11:24:30Z",
+    "question": "Will the Republicans win the Arizona governor race in 2026?"
+  },
+  "629325": {
+    "outcome": 1,
+    "resolved_at": "2026-11-04T05:14:59Z",
+    "question": "Will the Republicans win the Florida governor race in 2026?"
+  },
+  "1283128": {
+    "outcome": 0,
+    "resolved_at": "2026-11-04T04:15:22Z",
+    "question": "Will the Republican Party win the FL-25 House seat?"
+  },
+  "5567025": {
+    "outcome": 0,
+    "resolved_at": "2026-11-04T19:04:04Z",
+    "question": "Will oil be at least $80 on November 2 and the Republicans win the Senate?"
+  },
+  "630746": {
+    "outcome": 1,
+    "resolved_at": "2026-11-04T07:26:59Z",
+    "question": "Will the Democrats win the Kansas Senate race in 2026?"
+  },
+  "630925": {
+    "outcome": 0,
+    "resolved_at": "2026-11-04T06:44:30Z",
+    "question": "Will the Republicans win the South Carolina Senate race in 2026?"
+  },
+  "629324": {
+    "outcome": 0,
+    "resolved_at": "2026-11-04T05:18:55Z",
+    "question": "Will the Democrats win the Florida governor race in 2026?"
+  },
+  "943539": {
+    "outcome": 0,
+    "resolved_at": "2026-11-04T04:59:02Z",
+    "question": "Will the Republican Party win the NC-11 House seat?"
+  },
+  "943542": {
+    "outcome": 1,
+    "resolved_at": "2026-11-04T05:00:28Z",
+    "question": "Will the Democratic Party win the NC-11 House seat?"
+  },
+  "631045": {
+    "outcome": 1,
+    "resolved_at": "2026-11-04T04:37:35Z",
+    "question": "Will the Republicans win the Florida Senate race in 2026?"
+  },
+  "630734": {
+    "outcome": 0,
+    "resolved_at": "2026-11-04T07:42:29Z",
+    "question": "Will the Republicans win the Iowa Senate race in 2026?"
+  },
+  "630733": {
+    "outcome": 1,
+    "resolved_at": "2026-11-04T07:42:29Z",
+    "question": "Will the Democrats win the Iowa Senate race in 2026?"
   }
 }
