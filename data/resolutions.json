@@ -893,5 +893,25 @@
     "outcome": 0,
     "resolved_at": "2026-11-04T22:14:13Z",
     "question": "Will oil be below $85 on November 2 and the Democrats win the Senate?"
+  },
+  "3347919": {
+    "outcome": 0,
+    "resolved_at": "2026-11-04T23:33:36Z",
+    "question": "Will the Bank of Brazil decrease the target for the Selic rate by 25 bps at the November meeting?"
+  },
+  "3347918": {
+    "outcome": 1,
+    "resolved_at": "2026-11-04T23:33:36Z",
+    "question": "Will the Bank of Brazil make no change to the target for the Selic rate at the November meeting?"
+  },
+  "6274077": {
+    "outcome": 0,
+    "resolved_at": "2026-11-04T23:07:12Z",
+    "question": "Will Republicans win Iowa and Kansas, and lose Alaska, Maine, Michigan, Ohio, and Texas?"
+  },
+  "6274182": {
+    "outcome": 0,
+    "resolved_at": "2026-11-04T23:06:42Z",
+    "question": "Will Republicans win Iowa, and lose Alaska, Kansas, Maine, Michigan, Ohio, and Texas?"
   }
 }
