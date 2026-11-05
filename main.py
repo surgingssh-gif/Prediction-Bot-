@@ -39,6 +39,20 @@ from discord_notify import build_message, send_to_discord
 from resolver import check_resolutions
 
 
+# Problems that mean the bot couldn't do its main job (reach Claude, or
+# check results). If any happen, the run ends with an error so GitHub shows
+# a red X (and emails you) instead of a green check. The other steps, like
+# saving and rebuilding the website, still run first. Added 2026-11-05 after
+# a broken API key went unnoticed for four days.
+SERIOUS_PROBLEMS = (
+    "ANTHROPIC_API_KEY is not set",
+    "Checking Claude's batch",
+    "Couldn't finish the waiting batch",
+    "Making today's forecasts failed",
+    "Checking results failed",
+)
+
+
 def now_iso():
     return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
@@ -284,18 +298,23 @@ def main():
     # --- Step 4: tell Discord -------------------------------------------------
     for p in problems:
         print(f"Problem: {p}")
-    if not (finished or newly_settled or problems):
-        return  # nothing new to say
-    message = build_message(finished, newly_settled, resolutions, problems)
-    if not webhook_url:
-        print("\n(DISCORD_WEBHOOK_URL not set, so here's the summary instead.)\n" + message)
-        return
-    try:
-        send_to_discord(webhook_url, message)
-    except Exception as e:
-        # Only the error type: the full error text can contain the secret webhook link.
-        status = getattr(getattr(e, "response", None), "status_code", None)
-        print(f"Sending to Discord failed ({status or type(e).__name__}).\n{message}")
+    if finished or newly_settled or problems:
+        message = build_message(finished, newly_settled, resolutions, problems)
+        if not webhook_url:
+            print("\n(DISCORD_WEBHOOK_URL not set, so here's the summary instead.)\n" + message)
+        else:
+            try:
+                send_to_discord(webhook_url, message)
+            except Exception as e:
+                # Only the error type: the full error text can contain the secret webhook link.
+                status = getattr(getattr(e, "response", None), "status_code", None)
+                print(f"Sending to Discord failed ({status or type(e).__name__}).\n{message}")
+
+    # --- Step 5: a red X on GitHub if the main job failed ---------------------
+    serious = [p for p in problems if p.startswith(SERIOUS_PROBLEMS)]
+    if serious:
+        print(f"::error::{serious[0]}")
+        sys.exit(1)
 
 
 if __name__ == "__main__":

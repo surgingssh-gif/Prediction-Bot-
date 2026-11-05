@@ -657,7 +657,7 @@ def test_bets_capped_per_story(workspace, monkeypatch):
     by_id = {m["id"]: m for e in events for m in e["markets"]}
     monkeypatch.setattr(markets, "fetch_market", lambda market_id: by_id[market_id])
     answer = {"forecasts": [{"id": f"Q{i}", "probability_pct": p, "reasoning": "R"}
-                            for i, p in ((1, 70), (2, 90), (3, 80))]}
+                            for i, p in ((1, 66), (2, 76), (3, 72))]}
     run_main(monkeypatch, fake_client(answer=answer))
     day = json.loads(next((workspace / "data" / "forecasts").glob("*.json")).read_text())
     bets = {q["market_id"]: q["bet"] for q in day["questions"]}
@@ -784,13 +784,13 @@ def test_order_book_fill_walks_up_and_stops_at_the_limit():
 
 def test_bet_is_filled_from_the_order_book():
     asks = [(0.42, 20), (0.45, 1000)]
-    bet, _ = trading.decide_bet(0.80, 0.40, 0.42, 0.0, 1000, 1000, asks=asks)
+    bet, _ = trading.decide_bet(0.75, 0.40, 0.42, 0.0, 1000, 1000, asks=asks)
     assert bet["fill"] == "order book" and bet["levels"] == 2
     assert 0.42 < bet["price"] < 0.45 and bet["top_price"] == 0.42
 
 
 def test_no_bet_when_the_book_is_too_thin():
-    bet, note = trading.decide_bet(0.80, 0.40, 0.42, 0.0, 1000, 1000, asks=[(0.75, 1000)])
+    bet, note = trading.decide_bet(0.75, 0.40, 0.42, 0.0, 1000, 1000, asks=[(0.75, 1000)])
     assert bet is None and "Not enough shares" in note
 
 
@@ -913,7 +913,7 @@ def test_new_phase_bets_from_a_fresh_account(workspace, monkeypatch):
     spent["bet"] = {"side": "YES", "price": 0.42, "shares": 2380, "stake": 1000, "fee": 0, "cost": 1000, "gap_pts": 48}
     storage.save_forecast({**fake_day("2026-10-01", [spent]), "phase": "1.1"})
     q = fake_question("1")
-    day = main.place_bets({"phase": "1.2", "questions": [q]}, {"1": {"probability": 0.9, "reasoning": "R"}})
+    day = main.place_bets({"phase": "1.2", "questions": [q]}, {"1": {"probability": 0.75, "reasoning": "R"}})
     assert day["account"] == "phase-1.2" and day["budget"] == pytest.approx(100.0)
     assert q["bet"] is not None
 
@@ -1002,3 +1002,39 @@ def test_one_failed_search_keeps_the_other_headlines(monkeypatch):
     monkeypatch.setattr(news, "_search", lambda query: (_ for _ in ()).throw(RuntimeError("down")))
     with pytest.raises(RuntimeError):
         news.fetch_news(q)
+
+
+# ---------------------------------------------------------------------------
+# Phase 1.3 changes (2026-11-05)
+# ---------------------------------------------------------------------------
+
+def test_no_bet_when_the_disagreement_is_huge():
+    # Market 40-42: the AI saying 80% is a 38-point gap, over the 35-point limit.
+    bet, note = trading.decide_bet(0.80, 0.40, 0.42, 0.0, 1000, 1000)
+    assert bet is None and "over the 35-point limit" in note
+    bet, _ = trading.decide_bet(0.77, 0.40, 0.42, 0.0, 1000, 1000)   # 35 points exactly: still allowed
+    assert bet is not None
+    bet, note = trading.decide_bet(0.05, 0.45, 0.47, 0.0, 1000, 1000)  # 40 points the other way
+    assert bet is None and "limit" in note
+
+
+def test_phase_1_3_still_uses_the_phase_1_2_account():
+    assert trading.account_for("1.3") == "phase-1.2"
+
+
+def test_run_shows_a_red_x_when_claude_cannot_be_reached(workspace, monkeypatch):
+    client = fake_client(answer=ANSWER)
+    def broken(**kwargs):
+        raise RuntimeError("Error code: 401 - invalid x-api-key")
+    client.messages.batches.create = broken
+    with pytest.raises(SystemExit) as stop:
+        run_main(monkeypatch, client)
+    assert stop.value.code == 1
+    # Nothing was forecast, and the run ended with an error (a red X on GitHub).
+    assert not list((workspace / "data" / "forecasts").glob("*.json"))
+
+
+def test_run_is_green_when_only_minor_things_fail(workspace, monkeypatch):
+    monkeypatch.setattr(news, "fetch_news", lambda q: (_ for _ in ()).throw(RuntimeError("Google down")))
+    run_main(monkeypatch, fake_client(answer=ANSWER))   # no SystemExit: news is optional
+    assert len(list((workspace / "data" / "forecasts").glob("*.json"))) == 1

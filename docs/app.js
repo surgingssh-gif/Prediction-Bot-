@@ -1132,6 +1132,8 @@
           ? "Bets are cautious: they're based on a probability only " + Math.round(s.shrink * 100) + "% of the way from the market's midpoint " +
             "to the AI's forecast, so the AI has to disagree by about " + Math.round(s.min_edge * 100 / s.shrink) + " points before it bets. "
           : "") +
+        (s.max_edge ? "It doesn't bet when the AI disagrees with the price by more than " + Math.round(s.max_edge * 100) +
+          " points: gaps that big have usually meant the AI missed something. " : "") +
         "It bets only when that probability " +
         "is at least " + Math.round(s.min_edge * 100) + " points away from the price it would actually pay. It buys at the current " +
         "asking price (not the midpoint), filling the order from the shares actually on offer in Polymarket's order book " +
@@ -1162,6 +1164,9 @@
         "(high effort), sees its own track record, has new forecasting rules (finding no news is weak evidence, think about who " +
         "controls the outcome, stay between 5% and 95% unless it's decided, start from how often such things happen), gets economists' " +
         "forecasts for data questions, and bets cautiously from a fresh $1,000 paper account."),
+      p("Phase 1.3 started with the Nov 6 forecasts: no bets when the AI disagrees with the price by more than 35 points. " +
+        "Over the first 177 settled questions, when the AI was 40+ points away from the market it was on the right side only 4 times " +
+        "in 16. Those forecasts are still made and scored; only the betting is skipped. It keeps using the Phase 1.2+ account."),
       h("Cost"),
       p("One request a day through Anthropic's Message Batches API, which is half price. Total so far: $" +
         (DATA.total_cost || 0).toFixed(2) + "."),

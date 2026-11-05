@@ -98,6 +98,11 @@ def decide_bet(ai_prob, best_bid, best_ask, fee_rate, equity, cash, asks=None, s
     raw_prob = ai_prob
     ai_prob = cautious_prob(raw_prob, best_bid, best_ask, shrink)
     raw_gap = max(raw_prob - best_ask, best_bid - raw_prob)
+    if round(raw_gap, 6) > config.MAX_EDGE:
+        # Gaps this big have usually meant the AI missed something.
+        return None, (f"Gap vs. the price we'd pay is {raw_gap * 100:.1f} points, over the "
+                      f"{config.MAX_EDGE * 100:.0f}-point limit: disagreements this big have usually "
+                      f"meant the AI missed something, so no bet.")
 
     # Buying "Yes" costs the ask. Buying "No" costs 1 - bid
     # (selling "Yes" at the bid is the same as buying "No").

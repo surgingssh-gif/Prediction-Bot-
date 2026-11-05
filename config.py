@@ -73,7 +73,9 @@ MAX_RULES_CHARS = 8000
 #         forecasts in the prompt ("learning"), new forecasting rules,
 #         searches for economists' forecasts, cautious bet sizing and a
 #         fresh $1,000 paper account
-PHASE = "1.2"
+#   1.3 - from Nov 6, 2026: no bets when the AI disagrees by more than
+#         35 points (MAX_EDGE); still the Phase 1.2 paper account
+PHASE = "1.3"
 
 # ---------------------------------------------------------------------------
 # Paper trading (FROZEN) - no real money, ever
@@ -98,13 +100,20 @@ MAX_BETS_PER_STORY = 2
 # smaller. The AI's own forecast is still what gets scored.
 SIZING_SHRINK = 0.5
 
+# No bet when the AI disagrees with the price we'd pay by more than this
+# (added 2026-11-05, Phase 1.3). Over the first 177 settled questions, when
+# the AI was 40+ points away from the market it was on the right side only
+# 4 times in 16: a huge gap usually meant it had missed or misread
+# something. The forecast is still made and scored; only betting is skipped.
+MAX_EDGE = 0.35
+
 # Separate paper accounts. Each starts with STARTING_BANKROLL, and bets
 # made under a phase use that phase's account. Phase 1.2 got a fresh
 # account so the new rules aren't stuck with the old account's losses.
 ACCOUNTS = [
     # (account id, name shown on the site, first phase in it)
     ("original", "Original account", "1.0"),
-    ("phase-1.2", "Phase 1.2 account", "1.2"),
+    ("phase-1.2", "Phase 1.2+ account", "1.2"),
 ]
 
 # ---------------------------------------------------------------------------

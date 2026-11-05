@@ -218,6 +218,7 @@ PHASE_NAMES = {
     "1.0": "Original rules",
     "1.1": "New rules (after the Oct 9 review)",
     "1.2": "Learning AI, high effort, cautious bets",
+    "1.3": "No bets on huge disagreements",
 }
 
 
@@ -355,6 +356,7 @@ def build_data(days, resolutions, pending=None, prices=None, now=None):
             "daily_budget": config.DAILY_BUDGET_FRACTION,
             "per_story": config.MAX_BETS_PER_STORY,
             "shrink": config.SIZING_SHRINK,
+            "max_edge": config.MAX_EDGE,
         },
         "stats": scoring.summary(rows),
         "phase": config.PHASE,
