@@ -918,5 +918,15 @@
     "outcome": 1,
     "resolved_at": "2026-11-05T01:02:33Z",
     "question": "Will Vivek Ramaswamy pull the Amy Acton mother ad?"
+  },
+  "3247826": {
+    "outcome": 1,
+    "resolved_at": "2026-11-05T14:01:35Z",
+    "question": "Bank of England increases interest rates by 25 bps after November 2026 meeting?"
+  },
+  "3247825": {
+    "outcome": 0,
+    "resolved_at": "2026-11-05T14:01:35Z",
+    "question": "No change in Bank of England’s interest rates after November 2026 meeting?"
   }
 }
