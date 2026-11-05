@@ -928,5 +928,15 @@
     "outcome": 0,
     "resolved_at": "2026-11-05T14:01:35Z",
     "question": "No change in Bank of England’s interest rates after November 2026 meeting?"
+  },
+  "1284082": {
+    "outcome": 1,
+    "resolved_at": "2026-11-05T20:07:44Z",
+    "question": "Will the Democratic Party win the NC-13 House seat?"
+  },
+  "1284081": {
+    "outcome": 0,
+    "resolved_at": "2026-11-05T20:04:44Z",
+    "question": "Will the Republican Party win the NC-13 House seat?"
   }
 }
