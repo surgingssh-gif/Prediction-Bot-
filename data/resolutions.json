@@ -938,5 +938,15 @@
     "outcome": 0,
     "resolved_at": "2026-11-05T20:04:44Z",
     "question": "Will the Republican Party win the NC-13 House seat?"
+  },
+  "3388093": {
+    "outcome": 0,
+    "resolved_at": "2026-11-05T21:02:05Z",
+    "question": "No change in Bank of Mexico’s interest rates after November 2026 meeting?"
+  },
+  "3388092": {
+    "outcome": 1,
+    "resolved_at": "2026-11-05T21:02:05Z",
+    "question": "Bank of Mexico decreases interest rates by 25 bps after November 2026 meeting?"
   }
 }
