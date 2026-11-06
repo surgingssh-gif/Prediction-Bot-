@@ -958,5 +958,10 @@
     "outcome": 1,
     "resolved_at": "2026-11-05T22:54:08Z",
     "question": "Will the Democratic Party win the NC-09 House seat?"
+  },
+  "5211634": {
+    "outcome": 1,
+    "resolved_at": "2026-11-06T15:31:40Z",
+    "question": "Will the October 2026 unemployment rate be 4.1%?"
   }
 }
