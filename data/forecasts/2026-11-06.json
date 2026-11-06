@@ -1,0 +1,671 @@
+{
+  "run_id": "2026-11-06",
+  "date": "2026-11-06",
+  "created_at": "2026-11-06T00:55:42Z",
+  "model": "claude-opus-5-5",
+  "effort": "high",
+  "phase": "1.3",
+  "pick_stats": {
+    "eligible": {
+      "Economy": 5,
+      "Entertainment": 1,
+      "Politics": 36,
+      "Tech": 1
+    },
+    "picked": 8
+  },
+  "track_record": "=== Your track record so far ===\nThese are your own earlier forecasts in this experiment that have settled (185 questions). They show only what you said and what happened (no market information).\n- On average you said 39%, and 43% of these events happened. Overall, your average is close to how often things happened.\n- Your average Brier score is 0.254 (0 is perfect; always saying 50% scores 0.250).\n- When you said...\n    under 10%: it happened 4 times out of 18.\n    10-30%: it happened 18 times out of 54.\n    30-70%: it happened 40 times out of 81.\n    70-90%: it happened 16 times out of 30.\n    over 90%: it happened 2 times out of 2.\n- Your biggest misses:\n    \"Will SpaceXAI officially rename itself to SpaceXSI by October 15?\" You said 3%; it happened.\n    \"Will the Tesla Roadster fly for 1s+?\" You said 4%; it happened.\n    \"Will Xiaomi have the best Chinese AI model at the end of October 2026?\" You said 6%; it happened.\n    \"Will monthly inflation increase by 0.6% in September?\" You said 7%; it happened.\n    \"Will the Democratic Party win the NJ-02 House seat?\" You said 10%; it happened.",
+  "questions": [
+    {
+      "market_id": "2116493",
+      "event_id": "431450",
+      "event_title": "New Zealand legislative election winner?",
+      "option": "National Party",
+      "question": "Will National Party win the most seats in the New Zealand House of Representatives in the 2026 New Zealand legislative election?",
+      "rules": "A general election is scheduled to be held in New Zealand on November 7, 2026.\n\nThis market will resolve according to the political party that wins the greatest number of seats in the New Zealand House of Representatives as a result of this election.\n\nIf the results of this election are not known definitively by October 31, 2027, 11:59 PM ET, this market will resolve to \"Other\".\n\nIn the event of a tie between multiple parties for the most seats won, this market will resolve in favor of the party that received a greater number of valid party list votes. In the event that results in a tie, this market will resolve in favor of the party whose listed name appears first in alphabetical order.\n\nThis market's resolution will be based solely on the number of seats won by the named party in the New Zealand House of Representatives in this election.\n\nThis market will resolve based on the results of this election as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results reported by New Zealand government sources such as the New Zealand Electoral Commission (https://elections.nz/).",
+      "topic": "Politics",
+      "end_date": "2026-11-08T04:59:00Z",
+      "url": "https://polymarket.com/event/new-zealand-legislative-election-winner",
+      "snapshot": {
+        "time": "2026-11-06T00:55:38Z",
+        "crowd": 0.67,
+        "best_bid": 0.66,
+        "best_ask": 0.68,
+        "volume": 99013,
+        "liquidity": 69011,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "Democrats win House and Senate in landslide midterm election seen as Trump rebuke",
+          "source": "OSV News",
+          "published": "2026-11-04",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdXM3RkhyOU9FMWlTUmZmelotR1M2ZlBDZVJTVFJTX0pEMWZ1QWxEVWN4SGctejd3YW5vVWtlZk9IYlB4OElUU3llZnhaM3MtZkxteEJTUUc2c245cFRfTHkyRWc4a1EybkluU2xucVVDWnk2WHF5M193cl94VTJRbzc3a2NkN1p6RFJfREVXUFI3SThEc1NKRFo5cEJLS0dFeFM2b0JacUJBOVpoUXBtN3R1eGpQb0pL?oc=5"
+        },
+        {
+          "title": "How redrawn House districts voted in the midterms",
+          "source": "Roll Call",
+          "published": "2026-11-04",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQM0NTakJGRHVqejk3d3NfaTA5dVpVVnYtRG5lTXI4ZkZzc21Db1RUbE0zWGFMcjR2M2xHVFhJcDBpZDdlc3VKY2xQc2dZOElvTHJfRTJDZThENjJINHJNaXVGQTJXcFJpc0NVb1RtMXVKSkc3bjJxUlRvNmQxYm13SmgzdGhvVVpVN2xqY3F4MA?oc=5"
+        },
+        {
+          "title": "Democratic Party gains US House majority in 2026 midterm elections",
+          "source": "Al Jazeera",
+          "published": "2026-11-04",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNazl2M1JncGVST0pqejB0bm43aWFVOHU4a09JZmtFcFFVLVZ5eGJqdlRMSkl0ckFOOE1Lczk2cWhuUWRqOUtkSlUwZDdROUhrcnpyZ1NiZ2JYQzJScmtPOUoyNlUxRVBPVW1RdGxwNnQ0T2w3NUdRQnl1TjRkaUU0bE4zZFJzdkNVX25ZcHI1TlpvcmdUU3lTNm1DcXA3RzhoTHNON2YxTFpSMGvSAbABQVVfeXFMT1JxM1NtODViWVVQcXd2YVROdGZOM3VBUkZ3cWkzWFVRTXBvS25STEZUXzFiRzJqaGJnaEN3ZEc5Z2dwZmZaVkxtbWd6eFhEMHJpek5zdExwMFlOa3AxV242NG5HekcwbzhDMUhkbGxmUXdNbXdzbnZqTmFvOVpHaDZuci02YmRoZ3NzQXFFR3pEcm42TXBjdUFHcmhZQWwtbU5Od0RuVGt4UFlPRXVBMTM?oc=5"
+        },
+        {
+          "title": "New Zealand election 2026: What you need to know",
+          "source": "BBC",
+          "published": "2026-10-27",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBabi1HVlVvcjh6c0gtZzU1cDVMSmZEdEJTVXlCbXpaVERMbGhiT2loNUN5NVBlM2pnV3V6REVqY09PS1ZHd0cxckRIaW5MWm9DNzN5NmVwakpmeU9JTkE?oc=5"
+        },
+        {
+          "title": "Factbox-Ten key US House races that could decide the 2026 midterms",
+          "source": "Yahoo",
+          "published": "2026-11-02",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQeHlwOXNGZE1NUVluZXJLUDUtdlZ0QzlJOHlVNkFPYW56dWFIZzlXTjJBR2Jpd292bTFUc21ZTXlsRkZiSlpFODNTclZvMFNpRHAzNmtuOTRyRzhBZ2pib2VUOHVhb29KRDl3ZjVKUEFFU0NfaTF3VkxVdWdWVVNLOFVyYnRVRW95TlV3X1g1TGVEZw?oc=5"
+        },
+        {
+          "title": "New Zealand votes with economy, cost of living in focus",
+          "source": "Bangkok Post",
+          "published": "2026-11-04",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSUt2UTNhakZCZUpUeV9PajQ2RWxiemliQ0RiNWxwUWFaOVRHLW81YnJDTVNaRV9Gc1YyYUZnajBQMThDcGVHeE4xSVFzRGV4dmJZYVRhbmJ6bTg0SnROQW80MHFNelVSX3pBdUxJRkhlbUVfc240cXJJVl9RQmpIWHRvbzIxY2ZjS1dlV09mRXh2R3VPeFN6bW9BSFlUclIyWEJVU3VnSnlLeUk?oc=5"
+        }
+      ],
+      "news_query": "National Party win seats Zealand House Representatives",
+      "forecast": {
+        "probability": 0.5,
+        "reasoning": "Through 2025-2026, polls showed National and Labour running neck and neck as the two largest parties. With no recent polling visible to me and the vote happening tomorrow, I treat this as close to a coin flip. A tie on seats falls back to party vote, which roughly tracks seats anyway."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-06T00:58:15Z",
+        "crowd": 0.67,
+        "best_bid": 0.66,
+        "best_ask": 0.68,
+        "volume": 99013,
+        "liquidity": 68852,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Gap vs. the price we'd pay is 16.0 points; counting only part of it (cautious sizing) leaves 7.5, under the 10-point minimum."
+    },
+    {
+      "market_id": "2695686",
+      "event_id": "637442",
+      "event_title": "Next Prime Minister of Spain?",
+      "option": "Alberto Núñez Feijóo",
+      "question": "Will Alberto Núñez Feijóo be the next Prime Minister of Spain?",
+      "rules": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Spain by March 31, 2028, 11:59 PM ET.\n\nTo count for resolution, the individual must receive a vote of confidence from the Congress of Deputies and be formally sworn-in, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by March 31, 2028, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Spain; however, a consensus of credible reporting may also be used.",
+      "topic": "Politics",
+      "end_date": "2026-11-30T04:59:00Z",
+      "url": "https://polymarket.com/event/next-prime-minister-of-spain-20260625005215443",
+      "snapshot": {
+        "time": "2026-11-06T00:55:38Z",
+        "crowd": 0.905,
+        "best_bid": 0.9,
+        "best_ask": 0.91,
+        "volume": 603883,
+        "liquidity": 135551,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "Feijóo vows conservative overhaul if he wins Spain’s Nov. 29 election",
+          "source": "POLITICO.eu",
+          "published": "2026-10-23",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxObmpWRk05RHhFbkMtWHJSTXdiZjhZcWtFdXhkWlVVQ3JpR1RJdExmMXdEamg4aG10cU0wUmdFUC1JV05fTUVSZUxvZEdXQkktUlU2VXk0TUxHQTI4a3M5SS14UVFJVTI4SWhJaGVSSDl4UkJXM2Ntcms0OFQyWHBKbnhSd1RsWnQwNUwtdC1UMEpvQUFBcld1LW1jRGJiV0FFQ2Z1VTEzbnpwaTRvQzNVTkV2Y0x3Zmc1NDZKdVpyQmQ?oc=5"
+        },
+        {
+          "title": "Spain’s deadly train crash redraws electoral battle lines",
+          "source": "Al Jazeera",
+          "published": "2026-10-30",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNYjZzNzdWUHkyZDVESnpMWWR4YkxsMDVwdXVwdWFUV052WGYxUjA2czQ4c1dkTEtudC0wUmRTcGNoY2hLX1dXM2VIZkpVclR6VXNxNlZmNElGWTI5TXB4Nl9nSTk5OERHSDA4RW1NdE53OE1aeW5maHNnM0RlV3FTSGYtYXFxUFBPUThwNkhkZXR2YTBLNk5rbXR3YWdWamZqWmNad0t1SjJTZjFuRDg0R3dB0gG3AUFVX3lxTE0tTmY2U2tWUmRSY0pKUVYxVl9TOVNYU2NVcWg4LXphWTJrblF4Vjdqdks2NmdCRDBOUmppQmExLTdUdl9wdkpuOGhna19mTGVGWU13RnpRVnhMS2ZEcFgyZ3ZkQ0l1Um5MX01feThrWDZTYVFGMXFFZmpWVGc3Q1hQU3JTeC1lLTlTWDAyNDd1OTZPR3NUQlA5OUsya0pmZDQzXzdGSDVXb2VOUXRZcUFCbzg1eWg3OA?oc=5"
+        },
+        {
+          "title": "Spain reckons with second deadly train crash of the year ahead of national election",
+          "source": "KSAT",
+          "published": "2026-10-29",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNUlg4VGF0WmwtWVpqM3VmbDJXM19mV3Q0d2lJQ0dkRlNwMWE1dDJxUXVGeW9WUGVBaFFTUm5halM1SjNRTWpRajRON3Znd2RsUUtLRG9KWllwSV9Kc21XUEp4ZHBhb0Z5c1ZvcWVYLTZscEIzVmhSLUYxM1VQMVRJWGUtdU1NS2U3OVpFVjZIaENkcUNNdDZoeklaQWcwdW41WkdvZU1TMmk5Z0ZYVUVjVmNCR1FGSWxfdkFfQ3ItTUp0eURoZ2c?oc=5"
+        },
+        {
+          "title": "Feijóo vows to review Spain’s abortion law — Politico Europe",
+          "source": "UA.NEWS",
+          "published": "2026-10-23",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxONUZNRGh4OWEtN2xIbTN3cWpaSUtkZThGbFJEbEt1Q3prVERKLTVlVnlQWU01QmVHcjc1cHJ6N0IxaXRJVHNfYnA4RkpWOUpLUlFkSTNTZGpURzRqNU1GWmoxbXVVMk5hMFNDUTI3Nk1uLUlYUnVLMDFLRy1YWFpFWGF6dV9MWW5ldFYwWlBtN3dGeVdtMzVaX3NqWU1tNUpVdXc?oc=5"
+        },
+        {
+          "title": "Spain election poll tracker: Who will be the next prime minister?",
+          "source": "The Economist",
+          "published": "2026-11-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9aTy1leVltUDQ1SlNWWXVtSXR0b3lKLUthM2hTd3dBZ0dxVFR2c0pJam9IX0pfRFdOSjVKcGNhWEI4MTVMbFRiM0JISzVDNEpTRXBZX25nb2lvdTVvUlNKQkEzNlJ0a2VfRTFPbkhtU2Yzb0U?oc=5"
+        },
+        {
+          "title": "Spain’s People’s Party leader softens tone toward Morocco, calls for good-neighbourly ties",
+          "source": "Yabiladi.com",
+          "published": "2026-11-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQSVpkSk9qTVdjUDN4TjB1VS0yY1hXSlhSM2dEVEUxNThvZ1VwMGZZRGwyd0ZWSGFST3gwN2x3aGhQOVFEbXYwUE90cWdGWHBySHJUWVBIM29xUjR3Y0xMYThmNktjQXptYTVEZzlKVmt1VXl4ekZfZUlPTGJyRTdBSlYwcmxaNmlWakRUbmJhT2lITERw?oc=5"
+        }
+      ],
+      "news_query": "Alberto Núñez Feijóo Prime Minister Spain",
+      "forecast": {
+        "probability": 0.68,
+        "reasoning": "Coverage describes Sánchez as the election underdog, further hurt by a deadly train crash and a minister's resignation. Feijóo's PP is widely expected to win the most seats and could govern with Vox support. The main risks are a hung parliament, a repeat election, or a failed investiture, and the deadline runs to 2028, so those are partly absorbed."
+      },
+      "bet": {
+        "side": "NO",
+        "price": 0.1,
+        "top_price": 0.1,
+        "shares": 139.08,
+        "stake": 13.91,
+        "fee": 0.5,
+        "cost": 14.41,
+        "gap_pts": 22.0,
+        "edge_pts": 10.8,
+        "sized_on": 0.7925,
+        "kelly_full": 0.1159,
+        "fill": "order book",
+        "levels": 1,
+        "scaled": 0.5646
+      },
+      "trade_snapshot": {
+        "time": "2026-11-06T00:58:15Z",
+        "crowd": 0.905,
+        "best_bid": 0.9,
+        "best_ask": 0.91,
+        "volume": 603883,
+        "liquidity": 129971,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Bought NO (AI's gap 22.0 points; 10.8 after cautious sizing). Scaled to 56% to fit the daily budget of $61.18."
+    },
+    {
+      "market_id": "2695678",
+      "event_id": "637442",
+      "event_title": "Next Prime Minister of Spain?",
+      "option": "Pedro Sánchez",
+      "question": "Will Pedro Sánchez be the next Prime Minister of Spain?",
+      "rules": "This market will resolve to the next individual who officially assumes the office of Prime Minister of Spain by March 31, 2028, 11:59 PM ET.\n\nTo count for resolution, the individual must receive a vote of confidence from the Congress of Deputies and be formally sworn-in, resulting in the official formation of a new government. Any interim or caretaker Prime Minister who does not receive a parliamentary vote of confidence will not count toward the resolution of this market.\n\nIf no such Prime Minister takes office by March 31, 2028, 11:59 PM ET, this market will resolve to “Other”.\n\nThe primary resolution source for this market will be official information from the Government of Spain; however, a consensus of credible reporting may also be used.",
+      "topic": "Politics",
+      "end_date": "2026-11-30T04:59:00Z",
+      "url": "https://polymarket.com/event/next-prime-minister-of-spain-20260625005215443",
+      "snapshot": {
+        "time": "2026-11-06T00:55:38Z",
+        "crowd": 0.0815,
+        "best_bid": 0.076,
+        "best_ask": 0.087,
+        "volume": 888380,
+        "liquidity": 202287,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "Is This the Last Dance for Spain’s Prime Minister, Pedro Sánchez?",
+          "source": "Vanity Fair",
+          "published": "2026-10-31",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9zWmZ0NU1oSTU5ZUVxYm5Pa0FSbk9wSkxqMHNReTI1aVlXNWE3ZU9ldnI2TjF3WUhuN3FnT1FjRmpKd212cnhULWQ0bHl4R3dnQl9BcmR2TkZtQjBaUlpPTGpSQ19uRFhO?oc=5"
+        },
+        {
+          "title": "Pedro Sánchez",
+          "source": "Britannica",
+          "published": "2026-11-02",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE94OFF2V2ZjbkFJZVpFZHdHdFAyLXZZbTExTEYwWnJJS2RVSXREb3MxX1lnbXkxOG91aTcwXzdjRU9ROWpqa3pDWlg5ZmRsQTRXaWswaXoyMUVOSzEtV0NOeC1fVUpfTnRLSXl5TzJB?oc=5"
+        },
+        {
+          "title": "Pedro Sánchez: ‘These elections can be summed up in a very simple idea: either the past moves forward, or Spain moves forward’",
+          "source": "EL PAÍS English",
+          "published": "2026-10-26",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQSWFhcWdPdmgwVmdfSUF0TXY0NE1HWnFOeFU0Wml1eEdSY01mTVZ3MWo1Z3hLU21PZzBIdjVRS0pOZ2ZuZHR6ek5veHNNMXlaMFhhREpwR0kyN2g1Rm1GTkU4b0hSV2JVVVkxMlRhT0NpYjE1S3Z5Tk9rY3BTTTdsd1IwUG9ZMWo4SVhxMkFxOHR4ZV9ycXdpWW1xUjRCb2lqdzdxa2pEUDRSZnYwOHhiVFlJMUpMeGY4bW93a2JLeGVoenBPdldoSXVQQndiaTlfMi1seS11TUROSTRLb0tPNHpfVWw3UlNRVTMwNGI4WW15bnBITi1nenFqdjg2LXPSAZMCQVVfeXFMUDk4dXowQ3h3bkkzMEJvVmMyWnB0WWxqb29VeDB3OHd1TUcyS0t2ZEJWRnFtX3hkQ0NSYUcwOWNmUW96ZGYybXI5b1k1Z1d2SXBSRFFmNHFjMzNIVFJ2NEt6cWlRcnN4ckRUN0lJRk9YR3VMeHlLTEs1VEI0MXIwNnM4QVdoclBNZUxZUmtrdWwyWklqc2FnUFgzRHdhclNXNHQzQnVXWEpFbWpvbU5ob21ybWdrZTVTT2hCd05STkxvS1lXZlZ1WDViUGFmTXV6dEZaYTZHNktUbk9IVjVmdXJFczJYR1dSNEtnV0NnRFVrQVVGS0hOemlDV09XV2w3TjZfNjM0cllnRWY1WU1XSFE1TkU?oc=5"
+        },
+        {
+          "title": "Train Disaster Is Blow to Spain’s Leader, Already Election Underdog",
+          "source": "The New York Times",
+          "published": "2026-10-31",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNN0JoZ0xNdHFLZEpfTElzbEEzdk9UcjdtNUZPbmkyaFhwMWI1cGplaFVWTEhOQkJDMjJpaFZ0X0I4SC1oRHlKc29wdGFyWUJfRkJzQmQtcExIRmpvbm5NZ245VVk0VlE4S2NlMXQySURCQVJZQXo5bGpUOTFRTWt3U2J4TlNhQQ?oc=5"
+        },
+        {
+          "title": "Spain PM at the scene of the train crash",
+          "source": "CNN",
+          "published": "2026-10-28",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBwTmlRZktFbXh6RmpqWDJCUGdTdWNOMTItVzVVSEx0a1VNb1E3bUhKQnFxSWVCNWcyN19RcWlsQzBxOVdfdlJRdG55MnNpTjM1a09PSmRXUWtJQmdjbVR5SUlBUlltTE5lc0lzaGZON0VCa0kxWk40U1VZSUV0QQ?oc=5"
+        },
+        {
+          "title": "Spain's Sanchez reshuffles cabinet after transport minister quits over train crashes",
+          "source": "Reuters",
+          "published": "2026-11-04",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOcUhTSktnbWYyTlVkeXJLXzVfVzJkM2tJOVFOeURkZ1pOX2JDbEJtOVN1MW9PblduSm9nMS1NbFBfeVBkc3ZEREFFYmR3OTR3d3NoQjU3ZnpqQmRQOElyZWhqZnQ2TlFLekl2U1MzellHLUU3RGhhRlpHeFpaYnlGQURpeE9LUzd4V0t1eFdmUkVMRFR5UmlaYU9DVm9SN2NrOENmTjgwNW8waVpwTjV5SGpNazVMUQ?oc=5"
+        }
+      ],
+      "news_query": "Pedro Sánchez Prime Minister Spain",
+      "forecast": {
+        "probability": 0.2,
+        "reasoning": "Sánchez trails in the polls, and the train disasters damaged his government weeks before the November 29 vote. He has survived unfavourable arithmetic before by assembling broad coalitions, so a comeback via fragmented-parliament deals is possible but not likely."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-06T00:58:15Z",
+        "crowd": 0.0815,
+        "best_bid": 0.076,
+        "best_ask": 0.087,
+        "volume": 888380,
+        "liquidity": 206607,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Gap vs. the price we'd pay is 11.3 points; counting only part of it (cautious sizing) leaves 5.4, under the 10-point minimum."
+    },
+    {
+      "market_id": "5699280",
+      "event_id": "1189689",
+      "event_title": "Core CPI YoY - October 2026",
+      "option": "2.6%",
+      "question": "Will Core CPI YoY be 2.6% in October?",
+      "rules": "This is a market about core inflation (excluding food and energy) over the 12-month period ending October 2026, before seasonal adjustment, as reported by the Bureau of Labor Statistics.\n\nThis market will resolve to the percentage change in the Consumer Price Index for All Urban Consumers excluding food and energy (Core CPI-U) over the 12-month period ending in October 2026 according to the monthly Bureau of Labor Statistics (BLS) report.\n\nThe resolution source for this market will be the BLS Consumer Price Index report released for October 2026 (https://www.bls.gov/bls/news-release/cpi.htm), currently scheduled to be released on November 10, 2026, at 8:30 AM ET. Resolution of this market will take place upon release of the aforementioned data.\n\nNote: the resolution source for this market will be the official monthly BLS CPI news release, which reports core inflation (all items less food and energy) over 12-month periods to only one decimal point (e.g., 2.8%). Thus, this is the level of precision that will be used when resolving the market. For the avoidance of doubt, this market resolves on the core CPI figure (the all items index excluding food and energy), not the headline all items CPI figure.\n\nIf the BLS does not release the relevant figures on the scheduled date, this market may remain open up until the scheduled release time of the next CPI report (https://www.bls.gov/schedule). If the information is not released by that time, this market will resolve according to the figures of the most recent previous month with available data.",
+      "topic": "Economy",
+      "end_date": "2026-11-11T04:59:00Z",
+      "url": "https://polymarket.com/event/core-cpi-yoy-october-2026",
+      "snapshot": {
+        "time": "2026-11-06T00:55:38Z",
+        "crowd": 0.9,
+        "best_bid": 0.89,
+        "best_ask": 0.91,
+        "volume": 17929,
+        "liquidity": 2582,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "Polish inflation falls more than expected as core pressures weaken",
+          "source": "ing think",
+          "published": "2026-10-30",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQVDBkUkxESGdRaW5aclo4ajhpNEJHT2lxUDhHVWJOUkhKbm5RRlJ5RDVTT3ZhUVJSWllHMXU2Z1lFS1RMS3U5UmoxZjNSS2doUDZfdXY1SmVyVF9GZWpCcVNsaEtIQTVnRmZOR01JVk5lMFkyNzREYzFzajNQTG9MNXpDWmRRaTlmWlByRjJmWWJEeWJ4SGFOZUJiTmd6aEZYNTJ5VmM4MmNNamFU?oc=5"
+        },
+        {
+          "title": "Australia’s CPI inflation rises to 4.3% YoY in September, vs. 4.2% expected",
+          "source": "FXStreet",
+          "published": "2026-10-28",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOVkgwRVZiamNSUmJ4Rm9GLTFieE5rbUIwd2pYUjFZeXYwYjk1RUQ4dnZvdHRVTjNOZHZ3VlJYMUtnMG44dFdoaS1rVzJoWjlvZnJoVVk1UWVLM2ZFZkNCR0dpWUJnZDE1amEtWjRhc215LWhOeXhsbkQxZ1VYR19Wb0YxTWpKQ09jNXFXZDN2R2ZhWEtfczJv?oc=5"
+        },
+        {
+          "title": "Eurozone CPI Hits 4.0% as Energy Inflation Surges, But Core Holds at 2.5%",
+          "source": "Action Forex",
+          "published": "2026-11-04",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSFZXTWVmM29hbmotVDBtdW5HSnJCT2RWbXRJYW5CU1l1eVhBZ3plRTU4OVFhUm9adHl5aUZRNnA1ZVMzdTA0SnNMUy10RU1uMHU5NEhuOE9DeU9Pb0lpS0xsc3RFSXhvZFVjSTk0WEJ6ZlBEaU5Vb0FxelN2N1FoWHdLbmtfaGJNb3E4Uldzb3hwamVBdXNBTE1oSXlLbVBWR0RyQjlQcjVsbzR3SnlWNUIzVFdUWmxBQkVMTA?oc=5"
+        },
+        {
+          "title": "US CPI Forecast: Inflation Data and Fed Rate Decision",
+          "source": "Equiti Global",
+          "published": "2026-10-30",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQcEp2OEo3NHZPUmZEdVNidXdfbjZTbDlKaWkzTlQwQ21FTnhhYWpxcDM5RVJKN2VudHpVUU5JMkZFa3BEMFEyamtqVFd4MTdfS3JhYWNfNzl6Q2hvUnQ5bVZ2N1NOZ3U0enBnTUM0cVRNR3YzUFBGWW9Bc2lRNUdyX1dVTXd3WW1NZlpVSkpwZmFGSHQzb29MdVhIdkMwNEpGMFRScw?oc=5"
+        },
+        {
+          "title": "Breaking: Japan’s Tokyo CPI inflation climbs 2.8% in October",
+          "source": "FXStreet",
+          "published": "2026-10-29",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNNzdEOWZBcTJGM0pORlRMVW1SUVpiSWdFYkZJMW5yYlZxTk5GUk5Zblp3Y2lCTERBTjBoSDhicW02YzZaOXRYRmhlc1hhUDNWSnA4MG01bzdtTExhMDZJdl83bW9SbXp6Z1kxdlp5SXJzTmVnd0ZDZ0pOTllJU08tZHJDZXBpTUhJVXdjYTFBcDFHbmU0YjJscHRkOTUzc2Mx?oc=5"
+        },
+        {
+          "title": "Japan's core inflation hits 2.1%, BOJ opens door to rate hike",
+          "source": "IDNFinancials",
+          "published": "2026-10-23",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZHR0cHFCUjRFZnRvQlFsdnYwdTlsakNMb3NscndxUkFXakVmaHFjRldHckFyWnNCYTl1d3pqd3JON2FJWDVoZFVwYng4M0dpZEVDSl92SzZuZWRwVDRtWW92Y0NHSXJOZlU5Ni1ldXFIdUNVYjBGSm5OZG1RMW80cE1KbWp4SHZFdEpSeTgwbGl1U1E3QTBDNUlmMHFPcWRp?oc=5"
+        }
+      ],
+      "news_query": "Core CPI YoY | Core CPI YoY October economists forecast",
+      "forecast": {
+        "probability": 0.2,
+        "reasoning": "This is a single 0.1-point bucket for US core inflation, and I lack the recent monthly core readings needed to pin it down. Distortions in the October 2025 base month from the government shutdown add more uncertainty. With several plausible values in the 2.4-3.0% range, any one bucket gets roughly 15-25%."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-06T00:58:15Z",
+        "crowd": 0.9,
+        "best_bid": 0.89,
+        "best_ask": 0.91,
+        "volume": 17929,
+        "liquidity": 2456,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Gap vs. the price we'd pay is 69.0 points, over the 35-point limit: disagreements this big have usually meant the AI missed something, so no bet."
+    },
+    {
+      "market_id": "5401796",
+      "event_id": "1147445",
+      "event_title": "Military action against Saudi Oil Pipeline (East-West) by...?",
+      "option": "November 30",
+      "question": "Military action against Saudi Oil Pipeline (East-West) by November 30?",
+      "rules": "This market will resolve to “Yes” if the East-West oil pipeline is targeted by a qualifying military action between market creation and the specified date, 11:59 PM Riyadh Time. Otherwise this market will resolve to “No.”\n\nThe East-West oil pipeline refers to Saudi Arabia’s East-West crude oil pipeline (also known as Petroline), which carries crude oil from Saudi Arabia’s Eastern Province to the Red Sea port of Yanbu, including its pumping stations.\n\nA qualifying military action refers to an air strike or a surface-to-surface missile strike that impacts the East-West oil pipeline. An air strike includes bombs, air-to-surface missiles, and air-launched drones. A surface-to-surface missile strike includes one-way attack drones and surface-to-surface missiles such as cruise or ballistic missiles.\n\nThe following actions do not constitute a qualifying military action: \nMunitions destroyed or intercepted before impact;\nSurface-to-air missile strikes;\nSmall-arms fire;\nGround incursions;\nCyber operations;\nNaval gunfire and artillery fire;\nHowitzers, artillery pieces, mortars, and rocket artillery (e.g. MLRS systems);\nMinor surface-to-surface strikes, including short range loitering munitions, FPV drones, and ATGM strikes;\nAny threat, authorization, or announcement of force that has not been executed.\n\nAny munition that is intercepted or destroyed before impact does not constitute a qualifying military action. Debris, fragments, or any wreckage from intercepted munitions that land on the East-West oil pipeline do not constitute a military action regardless of any damage incurred.\n\nA military action will be considered to impact the East-West oil pipeline if it directly impacts the pipeline or any of its pumping stations.\n\nThe occurrence and timing of a qualifying military action will be primarily determined based on a consensus of information available from the resolution sources. Where multiple sources conflict regarding the occurrence or timing of a relevant military action, this market will remain open until the earlier of:  i) the confirmation of the occurrence and timing of the action based on a consensus of information available from the resolution sources or ii) 3 full calendar days (Riyadh Time) from the date of the first credibly reported evidence of the action. If this period would extend past the end date, this market will remain open to allow for 3 full calendar days to pass. If, at the end of the third calendar day, conflicting reports remain as to the occurrence or timing of the action, this market will resolve based on the totality of information available from the resolution sources at that time. No single statement, denial, or presentation of evidence will govern where it is contradicted by the totality of information.\n\nThe resolution sources for this market will be official information from the government of Saudi Arabia and a consensus of credible reporting.",
+      "topic": "Economy",
+      "end_date": "2026-11-30T20:59:00Z",
+      "url": "https://polymarket.com/event/military-action-against-saudi-oil-pipeline-east-west-byptptpt",
+      "snapshot": {
+        "time": "2026-11-06T00:55:38Z",
+        "crowd": 0.28,
+        "best_bid": 0.27,
+        "best_ask": 0.29,
+        "volume": 293401,
+        "liquidity": 30354,
+        "fee_rate": 0.0
+      },
+      "news": [
+        {
+          "title": "Houthis say they attacked Saudi oil pumping stations, Riyadh airport as fighting intensifies",
+          "source": "Reuters",
+          "published": "2026-10-26",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxORlYwOVl3Z1hlOFdacWVmeXZVNnVhejFlWDVOR0toczJ2MWNjT1FMRWZjVU0xd1hGaGtzNU9VcGdYSnR1Z2NVQjFfRVpKallEcEVuTzNweldmeEdYOE05UXFOejl1ekR1ZjlxUlhHT1NLa3J0cmZYWUxhSEs2eXNGb2xNNUJycVNWci1ZVzZUOXBSNGc0bzRJNWVTTnVlWHhXRlBrLWRTOV9HbmlJTmVfZk95N0FIQnBLQTlTa3N3eFBaVDJMWGptVU1VN3A?oc=5"
+        },
+        {
+          "title": "Saudi Arabia wants to send 10 million barrels of oil a day around Hormuz. A former Treasury official says it may barely move prices",
+          "source": "Fortune",
+          "published": "2026-10-23",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOaXhjZXk2aEluR1dUZ1Yzc21ISlJmNGV0Y2pDZmZmYURDSHF1NnZJUFo5Sm80Zm0zYlNEbVlpcFFpcXE3M1hwOVhQU1VKdXJSdmxnNHljcFFkcjlfMHNnWVFoVGVaNG1FcC1aVW9CdnNwRGdhQ0NNbmxYemZUUGowcUhvSWdqWjhBTUVyVzJ0SHRIOC14bXo0ZlEzWXZRUTNwcG5CSDRkSQ?oc=5"
+        },
+        {
+          "title": "Attacks Cut Saudi Oil Output and East-West Pipeline Flow, State News Agency Says",
+          "source": "EnergyNow.com",
+          "published": "2026-11-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZVc4TmVyYlFMNUNfM0FiaXgyREtWcUtCQnNmWlVYMEJUYWZoVXBGMVMxS2lkZmNnN2d3NUp4VW9HUlZTTmlKUmpacFZmNzE3YmFqV21aeEtPQVVocTMxZGtQdnlJOEowZjdKQVFlTHdxckJHM3FZenRUTXN0Q0p0ZG1fR2N2eTAtN0pWTk0zbnhCeHAzZjhVWGQxd0hUWDBwaTlWaVQxRVlSRm9jY0RV?oc=5"
+        },
+        {
+          "title": "Besieged by war, Saudi Aramco continues to gush profits",
+          "source": "The Economist",
+          "published": "2026-11-03",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQS0RxYURrempZYmJJLXlkSnJwS2F4Vk42X2hBYVVTbHhYQV91OFdiWDZZbE5uTU9VOGtWYW9sT0Y3dkFYdkx4eGVWVkRhMF9wdXI0ZWk4aXlib0dvRWNiMzRMVFFhOElfYkFESTlGamZuc0RTdWFZaE1pTGQ0RFBrcGEwZUFSbFBEZlREZTBENUhrM2hXRjQ3TlNYOGw1c2RKM1E?oc=5"
+        },
+        {
+          "title": "Iran war impact on global oil markets",
+          "source": "Oil & Gas Journal",
+          "published": "2026-10-23",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE1UVDNzMnV4NzBqQXJ4NUM4OTBKQlJSdnlOQjdGbXlSZkJSMDBvQkJITkgydndPR1ZPZTZPeEpmTjI?oc=5"
+        },
+        {
+          "title": "COMMENTARY: Oil Markets Survived the Iran War Sprint. Now Comes the Marathon: Bousso",
+          "source": "EnergyNow.com",
+          "published": "2026-11-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaGRxVzJMUGFPeTZJb19RSzdxcEdiTjZPMGhleXFLZ3R6eTRzSkd4eTlvSVJ4NHhHTmhTX0tCR2ZDb1o5QUVnOHg2TG5vc0N0dUZTZ3ZzZ0Jvc2V6MFJUZFlpYUZyU051NUEtLW1LcG9mcXZvYUhBejBmbzJPMTZTWjRXUkkwZ2F2RDM2bG81SEdqMWljQjRDM3Q1Uy1jLVJraVo2QzZZR3pLT3BlOUk4YUFn?oc=5"
+        }
+      ],
+      "news_query": "Military action against Saudi Oil Pipeline East-West | Military action against Saudi Oil Pipeline economists forecast",
+      "forecast": {
+        "probability": 0.62,
+        "reasoning": "There is an active war: the Houthis claimed strikes on Saudi pumping stations on October 26, and Saudi state media on November 5 reported attacks cutting pipeline flow. The pipeline matters more than ever as Saudi Arabia reroutes exports around Hormuz, which makes it a prime target over the next three-plus weeks. Interceptions and disputed claims could still prevent a confirmed impact."
+      },
+      "bet": {
+        "side": "YES",
+        "price": 0.29,
+        "top_price": 0.29,
+        "shares": 85.73,
+        "stake": 24.86,
+        "fee": 0.0,
+        "cost": 24.86,
+        "gap_pts": 33.0,
+        "edge_pts": 16.0,
+        "sized_on": 0.45,
+        "kelly_full": 0.2254,
+        "fill": "order book",
+        "levels": 1,
+        "scaled": 0.5646
+      },
+      "trade_snapshot": {
+        "time": "2026-11-06T00:58:15Z",
+        "crowd": 0.28,
+        "best_bid": 0.27,
+        "best_ask": 0.29,
+        "volume": 293401,
+        "liquidity": 30365,
+        "fee_rate": 0.0
+      },
+      "bet_note": "Bought YES (AI's gap 33.0 points; 16.0 after cautious sizing). Scaled to 56% to fit the daily budget of $61.18."
+    },
+    {
+      "market_id": "3940931",
+      "event_id": "923209",
+      "event_title": "Bank of Korea decision in November?",
+      "option": "25 bps hike",
+      "question": "Will the Bank of Korea hike by 25 bps at the November 2026 meeting?",
+      "rules": "This market will resolve according to the change in basis points in the base rate resulting from the November 2026 meeting of the Bank of Korea's Monetary Policy Board, relative to the level it was prior to this meeting.\n\nThe resolution source will be official information from the Bank of Korea's Monetary Policy Board, including the statement or release from its November 2026 meeting, scheduled for November 26, 2026, as listed on the official Bank of Korea calendar (https://www.bok.or.kr/eng/bbs/E0000627/view.do?nttId=10094301&searchCnd=1&searchKwd=&depth2=400417&depth3=400022&depth=400022&pageUnit=10&pageIndex=1&programType=newsDataEng&menuNo=400022&oldMenuNo=400022). This market may resolve as soon as the statement or release of the Bank of Korea's Monetary Policy Board resulting from its November 2026 meeting with relevant data is issued.\n\nIf the specified rate is defined by an upper and lower bound, the relevant change will be the change to the upper bound.\n\nIf the specified rate is changed to a level not expressed in the displayed options, the change will be rounded according to the following guidelines. Increases or decreases of less than 25 bps will be rounded to 25 bps (e.g. an increase or decrease of 10 bps would be considered to be an increase or decrease of 25 bps). Increases or decreases of greater than 25 bps will be rounded to the nearest 25 bps and will be rounded away from 0 in cases of equidistance (e.g., an increase or decrease of 37.5 bps would be considered to be an increase or decrease of 50 bps). Displayed options of \"Increase\" or \"Decrease\" will include policy rate increases or decreases of any size.",
+      "topic": "Economy",
+      "end_date": "2026-11-26T00:00:00Z",
+      "url": "https://polymarket.com/event/bank-of-korea-decision-in-november",
+      "snapshot": {
+        "time": "2026-11-06T00:55:38Z",
+        "crowd": 0.885,
+        "best_bid": 0.87,
+        "best_ask": 0.9,
+        "volume": 17549,
+        "liquidity": 2527,
+        "fee_rate": 0.05
+      },
+      "news": [],
+      "news_query": "Bank Korea hike bps meeting | Bank Korea hike bps November meeting economists forecast | Bank Korea decision bps hike",
+      "forecast": {
+        "probability": 0.28,
+        "reasoning": "The global energy shock from the Iran war is pushing inflation up elsewhere, with Australia at 4.3% and the eurozone at 4.0%, and the Bank of Japan is moving toward hikes, which raises the chance of tightening in Korea. However, the Bank of Korea was in an easing or holding stance through 2025 and usually moves cautiously, so a hold remains the more likely outcome."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-06T00:58:16Z",
+        "crowd": 0.885,
+        "best_bid": 0.87,
+        "best_ask": 0.9,
+        "volume": 17549,
+        "liquidity": 2538,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Gap vs. the price we'd pay is 59.0 points, over the 35-point limit: disagreements this big have usually meant the AI missed something, so no bet."
+    },
+    {
+      "market_id": "4664499",
+      "event_id": "1040602",
+      "event_title": "Best Chinese AI Company end of November?",
+      "option": "Xiaomi",
+      "question": "Will Xiaomi have the best Chinese AI model at the end of November 2026?",
+      "rules": "This market will resolve according to the company that owns the model that has the highest arena rank among primarily Chinese companies, based on the arena.ai Text Arena (Overall) when the table under the \"Leaderboard\" tab is checked on November 30, 2026, 12:00 PM ET.\n\nChinese Companies include but are not limited to Alibaba, Moonshot, Baidu, Z.ai, Xiaomi, DeepSeek, ByteDance, MiniMax, Meituan, Tencent, and StepFun. Companies not headquartered in China or not primarily owned or operating within the Chinese technology ecosystem are not considered primarily Chinese.\n\nResults from the \"Rank\" column under the \"Text Arena | Overall\" Leaderboard tab at https://arena.ai/leaderboard/text/overall-no-style-control with style control off (Adjustments: None) and filtered for \"Models\" will be used to resolve this market.\n\nNote: Models marked “AutoEval” at the applicable check time will not be considered, regardless of whether they display a rank or score.\n\nQualifying Chinese Models will be ordered primarily by their leaderboard rank at the market’s check time. If two or more models are tied on rank, they will be ordered by their Arena score, including any underlying, unrounded, granular values reflected in the data below the leaderboard. If a tie still remains, alphabetical order of company names as listed in this market group will be used as a final tiebreaker (e.g., if the two models are tied by exact arena score, “Meituan” would be ranked ahead of “Xiaomi”). This market will resolve based on the company that occupies first place under this ranking.\n\nThe resolution source for this market is the arena.ai Text Arena (Overall). If this resolution source is unavailable at check time, this market will remain open until the leaderboard comes back online and will resolve based on the first check after it becomes available. If it becomes permanently unavailable, this market will resolve to \"Other\".",
+      "topic": "Tech",
+      "end_date": "2026-12-01T04:59:00Z",
+      "url": "https://polymarket.com/event/best-chinese-ai-company-end-of-november",
+      "snapshot": {
+        "time": "2026-11-06T00:55:38Z",
+        "crowd": 0.374,
+        "best_bid": 0.359,
+        "best_ask": 0.389,
+        "volume": 10468,
+        "liquidity": 5342,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "Chinese 'AI genius girl' reportedly offered $1.5M salary rises to Xiaomi's top rank in 10 months",
+          "source": "VnExpress International",
+          "published": "2026-10-25",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNVGFSSkg5YTMxdHBvemVhZ0hHdzBGUnZCdjRabDhtOWl4MmMwTWxlS0hlMWZGc2pXLXAwbUZGbFE5b1B3X1U3X1hnS3V3bGt5cXRhbjUzcEZTb0FZaGJYNVZSR2lpbFlhNGtsZGJYcDVjanpOQ1pyTGdRbW0zeWEzMVR6RmRXNm9NRWVpSmlUekF3Y3hONkJHbTlSSGN5V09qQjR1MVZQOEU0cUhSbDdEbUdVRzBZcE9SSnhHdFNpOTd2ZGowYlNlWjFIaVppZTNYa0l4OFVnZlE4OWN2ZG1aTzNmTG1XbXFORnc?oc=5"
+        },
+        {
+          "title": "Xiaomi's October EV deliveries top 50,000, hit 2026 monthly high",
+          "source": "Yahoo Finance",
+          "published": "2026-11-01",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPSmNLNTJnbzI3NDdVQ0NJdlNYV1NTU0FNVDdhbEF2V0swdFJXdFBGOG50OV9wWG04NUZEMVVyUTlUejdVdXNSVDktbEh0RlpZMzRuRWM3LU4ycGp2MTl2QkhnYkJLcDRZYW91djRsLXNJZXFuNEdUTldsb29uZVNFbEJDQldCT0g0ZWtJQXc5eUgwaTVnX0NKTG1B?oc=5"
+        },
+        {
+          "title": "Xiaomi EV Deliveries Top 50,000 in October, Its Best Month of 2026",
+          "source": "Technology Org",
+          "published": "2026-11-02",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNMTJjekVicHNjdi1yMFJIUU5HMDhyX1hfMzdYeGtsN3RwUkhoekcySEUxT1JSZ2tka3hHc0VLWDhEeVFvNEtDaVpLNzhUdW1sdUhHYUFBS2M2RUhMU0V6bnZZS25QNFc1N19hNERtYmZORlRNVEJ6Y3hoR1pZcm9FX0xrdUg5MEZmdE05V1N3?oc=5"
+        },
+        {
+          "title": "Xiaomi Hits 50,000+ EV Deliveries in October [2026]",
+          "source": "https://tech-insider.org/",
+          "published": "2026-11-01",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOV1huUkxsMWRMZS1ISkxKZjF5azBRbmtROTljSENjdEdkMVN1MTNoSndPMzRacHZLbnZxaHN0dlhRVTFCREdCWEU4dEZBVS1jZ1V1MGM1WjNXUkNCNHZhblA0Wm1MSlJKSklYeVpkeEpPdkpranhHZ1JvMi0xTnMzZUZPYnhHU1g1QlE?oc=5"
+        },
+        {
+          "title": "Xiaomi shares climb as October EV deliveries top 50,000",
+          "source": "Yahoo Finance",
+          "published": "2026-11-02",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOT292MzFrMFpGNksxeGVxZ1JYVm9HZThSSzRSaTVGN2Z5cTlqUjBiM29hY0hUcDUxS2ZwQ3dJeTEwZHFjaEpaRkRNY0xUaWdLdTIwRU5tLUViVTJEV09MdEJtaFk2MGZGRnNhWEtVUUU3UUphRVctWWdhejJpWlBoNFlQbS1kbm1fN3VUYVItRERGYkpTTHF2R3Y4cw?oc=5"
+        },
+        {
+          "title": "Xiaomi unveils Xiaomi-OCR-0, a 0.8B open source OCR model for documents",
+          "source": "Pasquale Pillitteri",
+          "published": "2026-10-30",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPWFRsNEo5NnRsMUxjZWpfTENFR0t6aFk4M3FzXzRPbFpqTDJOcl9IRGExbTNFOEJFTWNhWUE1bWp3SUFUOVUxRVcwdGc1NVhGaGxCdDlfbk1oOEJDcE9VS0FkX2NpYVlxOHBtRDhlakN3TFBFVFp3bGpVNXR3Q2ZiRkRIdWVyLV9fdEJCMmRFYml4UQ?oc=5"
+        }
+      ],
+      "news_query": "Xiaomi best Chinese AI model",
+      "forecast": {
+        "probability": 0.45,
+        "reasoning": "Xiaomi apparently held the top Chinese spot on the leaderboard at the end of October, so the status quo favours it. Over a month, rivals such as DeepSeek, Alibaba, Moonshot, or Z.ai could release a model that overtakes it, as frequently happens on this leaderboard."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-06T00:58:16Z",
+        "crowd": 0.374,
+        "best_bid": 0.359,
+        "best_ask": 0.389,
+        "volume": 10468,
+        "liquidity": 5433,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Gap vs. the price we'd pay is 6.1 points; counting only part of it (cautious sizing) leaves 2.3, under the 10-point minimum."
+    },
+    {
+      "market_id": "6279780",
+      "event_id": "1262365",
+      "event_title": "Trump declassifies new UFO files by...?",
+      "option": "November 15",
+      "question": "Trump declassifies new UFO files by November 15?",
+      "rules": "This market will resolve to \"Yes\" if the Trump administration declassifies any files pertaining to extraterrestrial life and/or unexplained aerial phenomena which were not previously publicly available between market creation and the specified date, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nFor purposes of this market, the “Trump administration” includes the Executive Office of the President and all executive branch departments, agencies, and subordinate offices under presidential authority during the Trump presidency, including the Department of Defense and its components.\n\nAnnouncements of declassifications that are not implemented within this market’s timeframe will not count.\n\nThe primary resolution source for declassification will be official information from the government of the United States; however, a consensus of credible reporting will also be used.",
+      "topic": "Entertainment",
+      "end_date": "2026-11-16T04:59:00Z",
+      "url": "https://polymarket.com/event/trump-declassifies-new-ufo-files-byptptpt-20261026",
+      "snapshot": {
+        "time": "2026-11-06T00:55:38Z",
+        "crowd": 0.055,
+        "best_bid": 0.05,
+        "best_ask": 0.06,
+        "volume": 35407,
+        "liquidity": 9594,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "Pentagon's UFO files reveal black triangles over military sites",
+          "source": "USA Today",
+          "published": "2026-10-26",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOeHdfVE5jbmVSejdNbEtqdl9xSE02RWJJTWowNUFhWXk1dDJkTHp2QlNjWVJqX1MzaExBYlFETVZ6MElLUzJralptbl9Jc1ZMMnBpcEE5QTNNcUJTRFlnSGlGbjY5WEYxRmRvejZkMlUxS1gzZUI1UklNZmE5Q09KUGVnOTdib2ZtbUZNTEU3eU9vVXdwS1hicEtsNDR6ZjVYYXk3T2ZKajYyQVBWWlE?oc=5"
+        },
+        {
+          "title": "Latest Pentagon UFO files include reports of triangular craft over military sites",
+          "source": "NewsNation",
+          "published": "2026-10-24",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFB1eXpOZmU5SGE4WkczMzdLekVteFN6UnRTUG00dENoRkRTWWZfalhqaml2alNPSWdvOFRxUmh4OXZZSXpQYnVrclZFclJpbmEwSHZOMVA0aE8tbzR5UFJpRm9zODB6VE54QTJpU19acllGd9IBd0FVX3lxTE5KQnJJbWp6Q3llRFY5azBVZ0F2d2tsZUpNRXZWeEhDNzE1RXJYV2V0dUZsV1NJdEdOV0dnaHlpc1BaWnVTV1VlUmZUMnlyWW9YZzBKODdNSmNhV3RWel9xSHhQVlQzdWItdUVWLTFBSlRsSnJVVWl3?oc=5"
+        },
+        {
+          "title": "Mysterious black triangles spotted going 1,800 mph over secret US military bases, latest UFO file dump reveals",
+          "source": "New York Post",
+          "published": "2026-10-23",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQQjRrN2h3YTZxamhJcFBqNTNJLTNhSDZadlVKYW5tV3ladERncEJSTkNxbXRXWkpmSXVSajlwQTQ2czFMS0x2Sm1yVUdLbmFzMHFucEdUXzlqU2hjQWk5MEhuQUVIY0tfM1EwU0ROTUxubXJDcVdpVWRzU3J0UDZvVW5NNGE2MGxBYVVRV0N5aDlSdzU5Qm1DTUVvNV93QWotdHV3UFY3ZWtRMmlxYVhjZUc3c2pubTNia2NTd3JJOHRuUnJNOTl2S05UR2Y?oc=5"
+        },
+        {
+          "title": "Federal agents reported seeing silent black triangle in latest UFO file release",
+          "source": "WPDE",
+          "published": "2026-10-23",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMivwJBVV95cUxQYTFqWkVFWGszSTlpekxHVV9xTUJwWE5qaVZLVmpPUF9NeHNSUEdHeUx5R295ZUNlWmVPbjg3eXRHT1BOS1NUNVlPUnFpREYxeE5QbWFyNWx3ZjhEcmVOTjljVVJDc3dvQTRCTkNKTmRCOTBGMG4ycmIxTjZ4djNiYWFQeDRLTURLV0dCUXBubDV4OVAzRFczMHFIMkxCS0M2VWFiRUlGYkluSkJKZEp6ZXVsck1jS2JaYlBURW1MYU1HYUtUejFlcjRnLUZGWU9DRFJoX3F1QWNyTkE5T1ZHNlZ0RXFzN043Nmcza3NiQldLaWFaOU9hUDFwM3lJZ3RxSDZLQmp3T0Y0ZlQ5Tm9kTnpmT1BTaGhHYTUyV0V3eUpnRUZ1QVRrU2dWMjRpWXpXb1ZlSWdTc29pSkV0UFpB?oc=5"
+        },
+        {
+          "title": "Trump Administration Releases Declassified Files On Black Triangles Flying 1,800 Mph Over US Military Bases",
+          "source": "NewsCord",
+          "published": "2026-10-24",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNVk80RXBnSEdxeTVVNFhXWlhXekFubnFJdDEzeWt0dWJmcktQNkZLbXdLSHhuSHFuWllJa1d1eUFjdmY3d0NKYW53UVJSZ2RYc2JiNmhISTRJZHl6UW16Mk9BajB1TlhXNUE2WTZsa3VISWIyeHU3UlFOQVpqWWEwaFQ5RC0wOTBsS3ZTOGhMNFV2LW12TGwzNG9TV29SNkI5R0c2WExRMGNmRkduNGljT1pRcVZQNXduSjhxQXB6VHFmZDM3elF2Ty1nU3Qxc1FWV1E3NTJqc1Nyc1BvMWhGVlVXQkJlVHhW?oc=5"
+        },
+        {
+          "title": "Pentagon Releases 162 Declassified UFO Files Spanning 1942 to 2025",
+          "source": "The SOFX Report",
+          "published": "2026-10-24",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOZ005Smw1U1RRWW1Rc1ppWEM5OC1lT2ZfTXhHV1VIaVhKdklyNFlndVhNSjdiOEFXeHpacjV5TDlIdUdRcWFGTGtUTDJtSHFORlJoMFVSSzBrOXQ4WVNMb3NxZ1VQT2x0UXFqdDNwV21SQTBSODJIVjh6QWZRLXh2b2Vyd1RpX2htS1Nkb3Nld1Q5UQ?oc=5"
+        }
+      ],
+      "news_query": "Trump declassifies UFO files",
+      "forecast": {
+        "probability": 0.4,
+        "reasoning": "The Pentagon released 162 declassified UFO files around October 23 in what looks like an ongoing series of releases. Whether another batch lands before November 15 depends on a cadence I can't see. Rolling releases make it plausible, but a three-week gap after a big drop is also common."
+      },
+      "bet": {
+        "side": "YES",
+        "price": 0.06,
+        "top_price": 0.06,
+        "shares": 351.86,
+        "stake": 21.11,
+        "fee": 0.8,
+        "cost": 21.9,
+        "gap_pts": 34.0,
+        "edge_pts": 16.8,
+        "sized_on": 0.2275,
+        "kelly_full": 0.1762,
+        "fill": "order book",
+        "levels": 1,
+        "scaled": 0.5646
+      },
+      "trade_snapshot": {
+        "time": "2026-11-06T00:58:16Z",
+        "crowd": 0.055,
+        "best_bid": 0.05,
+        "best_ask": 0.06,
+        "volume": 35407,
+        "liquidity": 9537,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Bought YES (AI's gap 34.0 points; 16.8 after cautious sizing). Scaled to 56% to fit the daily budget of $61.18."
+    }
+  ],
+  "batch_id": "msgbatch_012fYbbjALFKtQN19DBvbCRj",
+  "forecast_at": "2026-11-06T00:58:14Z",
+  "usage": {
+    "input_tokens": 7624,
+    "output_tokens": 2455
+  },
+  "cost_usd": 0.0398,
+  "budget": 61.18,
+  "account": "phase-1.2"
+}

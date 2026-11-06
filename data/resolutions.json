@@ -948,5 +948,15 @@
     "outcome": 1,
     "resolved_at": "2026-11-05T21:02:05Z",
     "question": "Bank of Mexico decreases interest rates by 25 bps after November 2026 meeting?"
+  },
+  "1284130": {
+    "outcome": 1,
+    "resolved_at": "2026-11-06T00:37:04Z",
+    "question": "Will the Democratic Party win the NJ-02 House seat?"
+  },
+  "1284058": {
+    "outcome": 1,
+    "resolved_at": "2026-11-05T22:54:08Z",
+    "question": "Will the Democratic Party win the NC-09 House seat?"
   }
 }
