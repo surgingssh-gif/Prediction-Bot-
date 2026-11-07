@@ -1,0 +1,801 @@
+{
+  "run_id": "2026-11-07",
+  "date": "2026-11-07",
+  "created_at": "2026-11-07T00:02:31Z",
+  "model": "claude-opus-5-5",
+  "effort": "high",
+  "phase": "1.3",
+  "pick_stats": {
+    "eligible": {
+      "Economy": 5,
+      "Entertainment": 2,
+      "Politics": 39,
+      "Tech": 3
+    },
+    "picked": 10
+  },
+  "track_record": "=== Your track record so far ===\nThese are your own earlier forecasts in this experiment that have settled (186 questions). They show only what you said and what happened (no market information).\n- On average you said 39%, and 44% of these events happened. Overall, your average is close to how often things happened.\n- Your average Brier score is 0.256 (0 is perfect; always saying 50% scores 0.250).\n- When you said...\n    under 10%: it happened 4 times out of 18.\n    10-30%: it happened 19 times out of 55.\n    30-70%: it happened 40 times out of 81.\n    70-90%: it happened 16 times out of 30.\n    over 90%: it happened 2 times out of 2.\n- Your biggest misses:\n    \"Will SpaceXAI officially rename itself to SpaceXSI by October 15?\" You said 3%; it happened.\n    \"Will the Tesla Roadster fly for 1s+?\" You said 4%; it happened.\n    \"Will Xiaomi have the best Chinese AI model at the end of October 2026?\" You said 6%; it happened.\n    \"Will monthly inflation increase by 0.6% in September?\" You said 7%; it happened.\n    \"Will the Democratic Party win the NJ-02 House seat?\" You said 10%; it happened.",
+  "questions": [
+    {
+      "market_id": "6440141",
+      "event_id": "1285996",
+      "event_title": "Who will Trump speak to by November 30?",
+      "option": "Emmanuel Macron",
+      "question": "Will Trump speak to Emmanuel Macron by November 30?",
+      "rules": "This market will resolve to \"Yes\" if the listed individual speaks with Donald Trump between market creation and November 30, 2026, 11:59 PM ET. Otherwise, it will resolve to \"No\".\n\nSpeaking is defined as any verbal interaction between the listed individual and Donald Trump, occurring either in person or through verbal communication by phone or video call.\n\nThe resolution source will be credible media reporting. However, in the absence of definitive or in the case of contradictory media reporting, statements by either of the specified individuals or their official representatives will also be considered.\n\nStatements by the specified individuals or their official representatives will only be considered conclusive if the claims explicitly, or in context unambiguously, indicate that a qualifying talk occurred within the specified timeframe and took place via verbal communication, and provided that such claims are not contradicted by the other specified individual, their representatives, or credible media reporting by the end of the third calendar date (ET) following the statement in question.\n\nThis market will resolve at the earlier of i) a qualifying verbal interaction being confirmed under the above rules or ii) 11:59 PM ET on the third calendar day following this market's above-specified timeframe.\n\nIf the date and time of a qualifying talk cannot be confirmed by a consensus of credible reporting by 11:59 PM ET on the third calendar day following this market's above-specified timeframe, it will resolve to \"No\" regardless of whether it was later confirmed to have taken place.",
+      "topic": "Politics",
+      "end_date": "2026-12-01T04:59:00Z",
+      "url": "https://polymarket.com/event/who-will-trump-speak-to-by-november-30-2026",
+      "snapshot": {
+        "time": "2026-11-07T00:02:27Z",
+        "crowd": 0.565,
+        "best_bid": 0.56,
+        "best_ask": 0.57,
+        "volume": 49332,
+        "liquidity": 48736,
+        "fee_rate": 0.0
+      },
+      "news": [
+        {
+          "title": "Kid Rock reveals what he told French President Macron after Trump unexpectedly handed him phone on golf course",
+          "source": "New York Post",
+          "published": "2026-11-01",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQek1ZV3FOQU1wT3dBZXdqckhOcWZRdjF5bWZOWDRKanFYUmpseEM3QmtmNXRQSGgzNVhkc0s5VVRFTml0Z0szTWpWelBTeG1zZTVfZUVRWlBZc1k2TW5IaHFla2JpdEoxUmxyQnl5WFdJRWowOW14bm9YTDhIeEVvY19PSlJRdHpLc3BvMVN5SnNqWnljWUM4TDA4NlV5bmJUNzVBa18xT0E2VnVLZUUwdXpzNWlhTHAwOFBKUXlLSWpsVjFkNVlUVE5JX3M?oc=5"
+        },
+        {
+          "title": "Trump's Campaign Blitz Ahead of Midterm Elections",
+          "source": "GV Wire",
+          "published": "2026-10-24",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxORGN4UXlYOE53VndMNTFlYmVrNFpvWk05R2tWLVF1bDVpcHVIazVLYnQtWTdyeGJ6QkgybU1hZWVkZTYxVmRUTUdmdjdMNGlRTDJ4aXU4aGI4dGpDeGhyLWUzRGtSV0NMc1VMM1FyQXZSWm00Wk5KaE1BUWdMVi03WDVGeDNObjFsX2c?oc=5"
+        },
+        {
+          "title": "Kid Rock Told French President Emmanuel Macron ‘I’m From the Paris of the Midwest’ When Donald Trump Unexpectedly Handed Him the Phone During Call",
+          "source": "AOL.com",
+          "published": "2026-11-02",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5vR3FVWHhBaGVPTnAyNEM0YTRjRG43T2dtT0tKUkJmaEZ1V2FLTTZZWF96UGt6MlZwNi1ORGZOdjZIbkNPWHFqbHByRE91ZnhYUF9rdzZ6QVRNTk1FVzFwS1cycGRnbUxIX0FzSTZnZGFHbFBMRDFGOXBBcGo2SEU?oc=5"
+        },
+        {
+          "title": "Trump blasts Norway over Nobel Peace Prize snub",
+          "source": "France 24",
+          "published": "2026-10-26",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQc0tXV0tmTmR0WkdOcmlsWTFuN1VlcThyVWtjZXNSUk1XLWNadW1TdVlYNE0zdTRmdkEwNTJmeFZIckdtVzJmLVdiWVZ5RWV4bXRIWUNSSXRaaU93VEU1bmctRFNXbGxzQzZVNXVQb0U3eXd5S203UTQ5dmp3RXNKVlY1amhLQl9BZGZSUG9vRFk1NFB4cXdRUkdR?oc=5"
+        },
+        {
+          "title": "Europe Today: Trump weighs Iran strikes as Ukraine talks head to Abu Dhabi",
+          "source": "Euronews.com",
+          "published": "2026-11-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWEpzM094T3F6Y09NMXVUSDVyU2s4XzI3MjV5WTBCYUlQZWxFQjRBa3gyelh1d1lYd2hDQkF4b1ZiQ2NrZ092QjItUWtHWnVDbkQ1Qlg3Q0pDNW1ENDBoNTBWa1FJRjhNbmNqQmRsWEstNjZEZHZBblFXRllJc2ttamF4NDdlTkRxMFZmR0FNN3lBcUFyMXRUbGFxOWV5TGRLdVVPTDVydkU3NFRrZ2c?oc=5"
+        },
+        {
+          "title": "$5,000 checks, political attacks and winding remarks: Takeaways from Trump’s Michigan rally",
+          "source": "MLive.com",
+          "published": "2026-10-26",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNaDA3TVdEam5ldTVXT3UzcHdVbl9WSWlzWllxa0Vva3p1dW15Snl1b25VTGhLSkhjYjdHZ1ZpQTBBRjl4QlB4bGZzbjVGWm1Kc3Q1ZlhXX1dKd0hfZEZSV3ZDS20xMVNsT1ZXcVFiWGdWMXFHMF9XVDhIcnExTDVvMkM1c2xPOWFzWVRLa0J5eWZqRktpMHNlUENpT2xtbUNrenlOUGJaaXBKZ19jd1RnQ2p6RE82aHJNRUdqTDVCYlU4WE5SaDkybUhR?oc=5"
+        }
+      ],
+      "news_query": "Trump speak Emmanuel Macron",
+      "forecast": {
+        "probability": 0.72,
+        "reasoning": "Trump and Macron talk often; the Kid Rock anecdote shows a recent call, though it may predate the market window. Ongoing Iran tensions and Ukraine talks make another call over the next three weeks likely. The G20 in the US is not until December, so this rests on phone calls being reported."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-07T00:04:33Z",
+        "crowd": 0.565,
+        "best_bid": 0.56,
+        "best_ask": 0.57,
+        "volume": 49332,
+        "liquidity": 50387,
+        "fee_rate": 0.0
+      },
+      "bet_note": "Gap vs. the price we'd pay is 15.0 points; counting only part of it (cautious sizing) leaves 7.2, under the 10-point minimum."
+    },
+    {
+      "market_id": "2116494",
+      "event_id": "431450",
+      "event_title": "New Zealand legislative election winner?",
+      "option": "Labour Party",
+      "question": "Will Labour Party win the most seats in the New Zealand House of Representatives in the 2026 New Zealand legislative election?",
+      "rules": "A general election is scheduled to be held in New Zealand on November 7, 2026.\n\nThis market will resolve according to the political party that wins the greatest number of seats in the New Zealand House of Representatives as a result of this election.\n\nIf the results of this election are not known definitively by October 31, 2027, 11:59 PM ET, this market will resolve to \"Other\".\n\nIn the event of a tie between multiple parties for the most seats won, this market will resolve in favor of the party that received a greater number of valid party list votes. In the event that results in a tie, this market will resolve in favor of the party whose listed name appears first in alphabetical order.\n\nThis market's resolution will be based solely on the number of seats won by the named party in the New Zealand House of Representatives in this election.\n\nThis market will resolve based on the results of this election as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results reported by New Zealand government sources such as the New Zealand Electoral Commission (https://elections.nz/).",
+      "topic": "Politics",
+      "end_date": "2026-11-08T04:59:00Z",
+      "url": "https://polymarket.com/event/new-zealand-legislative-election-winner",
+      "snapshot": {
+        "time": "2026-11-07T00:02:27Z",
+        "crowd": 0.41,
+        "best_bid": 0.4,
+        "best_ask": 0.42,
+        "volume": 98627,
+        "liquidity": 62990,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "New Zealand braces for knife-edge election: What you need to know",
+          "source": "Al Jazeera",
+          "published": "2026-11-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPckhkbW1OTFpBT0tMVGQtOVRUQmhWMkN1cWg4Q0VVMG5ieWY3NkVMWldBTUd1NnFvYXp1RXNnWlBJVHpUODAtaHA0SHgtT3RQeFZhb1VFZ1dCQ1NGTnFnOHFMY1c5ZGVfdXFoQ1ljcTIxaWtFSnpCbFU0WTl1TEhNUDZRWDBTNXhuN1pvSElRUE5PVFp5TnY4V3o2OXllbTBlSHMwWXNHYVPSAa4BQVVfeXFMTXIyQml1SURUb192dmlkOXNHN2djVTB5QXlqVlRMVHpRMlZXa1JBQk9neUtuQm9NbTZYWE9Ram1oNjZaY0lxMU9FeF9fdzBEY24tU3lCbDFwWl85RFpGOUEyVHFhU2EtSzBkeFpfRmtCR0hFWXo0bGdvamx2elJGY3VlUEVld05wb0tEeXBCbzQxMWtpS2lxY0k1V1MtZ3hPdkZ2aWp1Vk9BemUzZWt3?oc=5"
+        },
+        {
+          "title": "New Zealand votes with economy, cost of living in focus",
+          "source": "France 24",
+          "published": "2026-11-04",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNTlBPcEloU3RBU0lRejRPanB3U3dHQ3djUmV1TEo3LWxTc2Vwd3VZWGhCSEg5WGJtQ2w3a2xmdzNwczNzZjNZa0ZpNVlWT3RzSGFpZTh2VjhhQ3dPbDB0QTcxRnVWWkw2S2toTUFxU2hSWGJVSi1obFEya2tYdWsxQ01GNVgwOS10YkVHdngyMXB2RGp1MUE4TEdsTmhpTHktM1I0?oc=5"
+        },
+        {
+          "title": "EXPLAINER - What to know about New Zealand’s general election",
+          "source": "Anadolu Ajansı",
+          "published": "2026-11-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOTzc2dHNjdEJuUVkyZTZrbjV5ZHVFc3ZyNXZ3VE1NdUxWcklSUXBsSUhiN3BWSS04N2kyVEdfZXdaVTRuZy0yM0F6RENxYWF1Q3B3eGZmR2J5Tk5PME5Tcy1FVU5YWFJmRjUtRHpIV3NoVEM1ZkpFRTdTY3IwR1QyUjQ0enF6NkJ5WTY5NklNNElmTnBVSEo4RDlUSndWRDNBbWlRWi1oYlk?oc=5"
+        },
+        {
+          "title": "New Zealand Election: Who Could Form the Next Government and What Is at Stake?",
+          "source": "Modern Diplomacy",
+          "published": "2026-11-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWVc4NG9wcWxWUTlGaHlycElkN1FnYWlycVpkWUVHY1gyTk9PQmZTUC1jYW9FbEhLTU9Lei1NYmt3Zjl1ZGs0YUg3cVBtQ0NHWWNtS1l1TGtoeFVzeTFicmlJVzF6MmhwQl9oS3k5T2JiOGp2ZTYwYmVCbXpyVWRsQWdCckpQdXV6cmtGUkE5YlF4ckhOdjdUcll4OTdDZFhxdEpPeURNTkQxTDU4M1lLWnBsNTBBdw?oc=5"
+        },
+        {
+          "title": "Democrats win control of the House of Representatives with a vow to combat Trump",
+          "source": "Yahoo",
+          "published": "2026-11-04",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNYWNxTThqOVpnd2xQaklFeEdLNjMyZW44SHVCQmhTdFhzNjhJTTBZVXRBa3VUM05vdVlUY2l5bzJnVkk2Qm5sRU51MC1lZlBiWUxXSUMzNkRxWUZBQXBQS2tBbjVNYWtSUDRhdnpoR3Q1TVgzd2dhZzFWc1NZSGJYQ3dkOXlSZkVFS1puYXAwVlhRczBXSzdDU3U5XzVxM0UxRVRVTklB?oc=5"
+        },
+        {
+          "title": "New Zealand election 2026: What you need to know",
+          "source": "BBC",
+          "published": "2026-10-27",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBabi1HVlVvcjh6c0gtZzU1cDVMSmZEdEJTVXlCbXpaVERMbGhiT2loNUN5NVBlM2pnV3V6REVqY09PS1ZHd0cxckRIaW5MWm9DNzN5NmVwakpmeU9JTkE?oc=5"
+        }
+      ],
+      "news_query": "Labour Party win seats Zealand House Representatives",
+      "forecast": {
+        "probability": 0.45,
+        "reasoning": "Coverage calls the race knife-edge, and Labour and National have polled close to each other. National has historically been slightly more resilient on election night. This is roughly a coin flip with a slight edge to National."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-07T00:04:33Z",
+        "crowd": 0.41,
+        "best_bid": 0.4,
+        "best_ask": 0.42,
+        "volume": 98627,
+        "liquidity": 62990,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Gap vs. the price we'd pay is 3.0 points; counting only part of it (cautious sizing) leaves 1.0, under the 10-point minimum."
+    },
+    {
+      "market_id": "814613",
+      "event_id": "96786",
+      "event_title": "2026 Taiwanese Local Elections: Party Winner",
+      "option": "Democratic Progressive Party (DPP)",
+      "question": "Will the Democratic Progressive Party (DPP) win the most head of local government elections in the 2026 Taiwan local elections?",
+      "rules": "Taiwanese local elections are scheduled to be held on November 28, 2026. \n\nThis market will resolve according to the party whose official candidates win the most head of local government (mayor or magistrate) elections for Taiwan’s major special municipalities, counties, and cities during these elections.\n\nA candidate will be considered an official candidate of a party if they are officially nominated by that party and are registered for the relevant election in affiliation with that party. Independent candidates will not count for any party.\n\nTaiwan’s local governments include the following cities, special municipalities, and counties:\n\nCities/special municipalities (mayoral elections): Taipei City, New Taipei City, Taoyuan City, Taichung City, Tainan City, Kaohsiung City, Keelung City, Hsinchu City, Chiayi City\n\nCounties (magistrate elections): Yilan County, Hsinchu County, Miaoli County, Changhua County, Nantou County, Yunlin County, Chiayi County, Pingtung County, Taitung County, Hualien County, Penghu County, Lienchiang County, Kinmen County\n\nOnly elections for the listed cities, special municipalities or counties will be counted for this market. A party will have won as soon as it becomes mathematically impossible for any other party to equal or surpass its number of wins in these elections.\n\nIn the case of a tie between two or more parties for the greatest number of relevant head of local government elections won, this market will resolve in favor of the party whose English name comes first in alphabetical order, as listed in this market group.\n\nResolution of this market will be based on the results of the relevant elections, once those results are official. This market will remain open until a party has won or until the results of all of the relevant elections are made official. If the results of any of the relevant 2026 Taiwanese local elections aren’t known by June 30, 2027 11:59 PM ET, the winning party will be determined based on the available results up to that point. If none of the results of the relevant 2026 Taiwanese local elections are known by that time, this market will resolve to “Other”.\n\nThis market will resolve based on the results of the elections as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the Taiwanese government, specifically the Central Election Commission (https://db.cec.gov.tw/).",
+      "topic": "Politics",
+      "end_date": "2026-11-29T04:59:00Z",
+      "url": "https://polymarket.com/event/2026-taiwanese-local-elections-party-winner",
+      "snapshot": {
+        "time": "2026-11-07T00:02:27Z",
+        "crowd": 0.2555,
+        "best_bid": 0.255,
+        "best_ask": 0.256,
+        "volume": 186026,
+        "liquidity": 82164,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "Taipei mayor election is a victory for democracy over China whoever wins, says candidate",
+          "source": "Reuters",
+          "published": "2026-11-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRW5XalRkamVpa3ZpbjZneDktVzZXeHlkVV91TVdMcFRQZ0VpOURMSy1fM0t5UmVrNTVMNlk2b0d0YXF4cFBhc0VOenVXRlIwdVpkck9VSmZxRWJQRU4zd1gxWjdjMlpCTkloYUh2d2tqS19KTkt5dTVPbXdqWG5PUTZlSXFfdTJkNDNlbkpvT2ZzRWxoWWZTaXdHU21icjQyenVlVmNOMU9Lc2dFdk1XUUtrYVBLa1RpeVlv?oc=5"
+        },
+        {
+          "title": "2026 Elections: DPP aims to widen control as elections heat up",
+          "source": "Taipei Times",
+          "published": "2026-11-01",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBTWmJjVThEb2VWc3ZWVkQxQ1lOaE1EMm1sZHVQMDlFRktKZUVmS1poeDlNdzBSZERYOG1FZXlvM2dpZDF5Q0ZnbHBibWtIYWJXSjdpUWhGaUJUSl9Ba2NlSnpjUHlhX25YMHVzT25qRVMyVjYzM3VEcGRn?oc=5"
+        },
+        {
+          "title": "How Taiwan’s November Local Elections Could Change the World",
+          "source": "The Wire China",
+          "published": "2026-10-25",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQeUNlcG5ZWXdCLUdRU3RjUEt3bnEzZldTNTZNdUotbjM0emh0c0ZyamNLOTNadUtCd1BSNjZHVktPUnlKX3MyU1g4TzF0aUtxTk5TZXByWUEwZkRMOWNXSmV2cllZOTlyZVVJNkl1R1dCQUxhakkwWDNVVDJEempQT3RLTXhQbnFBSTVraHJXelE0dXpkWDRRLW1IbkRkSTA4cFE?oc=5"
+        },
+        {
+          "title": "Will Taiwan’s local elections redraw its Blue-north, Green-south political map? | Lianhe Zaobao",
+          "source": "联合早报",
+          "published": "2026-11-02",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQZldIZ2E4dzltYzRvQUtzU2Z3V0NyZGM0MGpPUG9MaGdKbE5RcFA4dTJDbzM5dmt3b3UyNUpjc3pWYlRoUDEzMENYeTVkdWlVbUVMdVNITmg3TDlhZnhjWVVzY3UyX1EzdDYzeXRtb19rLUd4U1Zsb0U1MC1yMWJOSjlWVDFfWFJ6QzZIbnA4a2M3Y3oxWklUTXBvWlBaaVpmTFdua0FwdUJ4UGdwNEpucmlRanluNEU?oc=5"
+        },
+        {
+          "title": "DPP’s Shen edges KMT’s Chiang in Taipei survey",
+          "source": "Taipei Times",
+          "published": "2026-10-28",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE80VVdDdmpjY1FGUHR6ZTBqYkZjdXlPT3pnWWNFWDlNWGxCNFd5d0Z1ZXM5NEtsenBHQXlUc280TXAtQVpXbzE1bVlqYVhsVVBvX0ZCbGFpTDZqajRuYklpby1IbEZMeThJMXpaYTdCSTlYNXJ0YU9UR1FB?oc=5"
+        }
+      ],
+      "news_query": "Democratic Progressive Party DPP win head local",
+      "forecast": {
+        "probability": 0.2,
+        "reasoning": "The KMT won 13 of 22 races in 2022 and 15 in 2018, and it dominates the north and the outlying counties. The DPP last won the most in 2014, and it only needs a tie because ties go to it alphabetically. Even a strong Taipei result probably leaves it short of the KMT's count."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-07T00:04:33Z",
+        "crowd": 0.2555,
+        "best_bid": 0.255,
+        "best_ask": 0.256,
+        "volume": 186026,
+        "liquidity": 81460,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Gap vs. the price we'd pay is 5.5 points; counting only part of it (cautious sizing) leaves 2.7, under the 10-point minimum."
+    },
+    {
+      "market_id": "6326822",
+      "event_id": "1268803",
+      "event_title": "\"Godzilla Minus Zero\" Opening Weekend Box Office",
+      "option": "<28m",
+      "question": "Will \"Godzilla Minus Zero\" Opening Weekend Box Office be less than 28m?",
+      "rules": "This market will resolve according to how much \"Godzilla Minus Zero\" Opening Weekend Box Office will gross domestically on its opening weekend. The \"Daily Box Office Performance\" figures found on the \"Box Office\" tab on this movie's The Numbers (https://www.the-numbers.com/) page will be used to resolve this market once the values for the 3-day opening weekend (November 6 - 8) are final (i.e., not studio estimates).\n\nIf the reported value falls exactly between two brackets, then this market will resolve to the higher range bracket.\n\nPlease note, this market will resolve according to the The Numbers figures provided under Weekend Box Office Performance for the 3-day weekend (which typically includes Thursday's previews), regardless of whether domestic refers to only the USA, or to USA and Canada, etc.\n\nIf there is ambiguity as to whether the resolution source's figures are final, this market will remain open until both https://www.boxofficemojo.com/ and https://www.the-numbers.com/ have confirmed their finalized figures.\n\nIf there is no final data available by November 13, 2026, 11:59 PM ET, another credible resolution source will be chosen.",
+      "topic": "Entertainment",
+      "end_date": "2026-11-08T12:00:00Z",
+      "url": "https://polymarket.com/event/godzilla-minus-zero-opening-weekend-box-office",
+      "snapshot": {
+        "time": "2026-11-07T00:02:27Z",
+        "crowd": 0.11,
+        "best_bid": 0.1,
+        "best_ask": 0.12,
+        "volume": 35031,
+        "liquidity": 2108,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "Box Office: ‘Godzilla Minus Zero’ to Lead With $30 Million Opening Weekend, ‘Cat in the Hat’ Aims for $20 Million Debut",
+          "source": "Variety",
+          "published": "2026-11-04",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMWoyUFlDeWRrSFpPdjRhbngtTE02MVpfVEc3RW5Hck53N21Kd2I3WDRzOVZtVElOQWlqN1FHeDlrb1Nwa0xHS2dCaFJ0d2VZLUh5QzdBcUMxZHNQZGdfVmNSMml5RHJOb29kcTI2NGtpcE5BQzZNd2I2YUl6cVk5T0NJbHoxWW1oWDRManBaY3FqYkg2T0xiR2xCLWloVG02c25NUDllQ3hOUE9FaWdZVVh5alQtS1FiVjNLbGVsejlOdw?oc=5"
+        },
+        {
+          "title": "Godzilla Minus Zero Sets Record for Japan's Highest Opening Day Gross for a Live-Action Film",
+          "source": "Crunchyroll",
+          "published": "2026-11-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPMVl3aGxlQ3RGRTlGOFhtTHVmdTZzQWxnMlFVUFdFSFVFTEk2ZnRzbWV0U0JtWldLSHQtYjhXOXlHWFhxalJ1WGx0dXJhMXVldm9iR29QQlVuZnFsbDJ1Tkxsal9EdnI0VVlrOTFsUk96RnJoVUhLTXFSdlNUdTA0dm9SVWZqN2Z3SlhiSGZRN2g0cTFfc0FhY2RTNFcwVGROYWtraWwzWmp2a0kzT05LMk9JMVRjclA3T2FVNUlCcGFVVkk?oc=5"
+        },
+        {
+          "title": "'Godzilla Minus Zero' Eyes $60M WW Box Office Opening, 'Ramayana' Huge",
+          "source": "Deadline",
+          "published": "2026-11-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQeG9Vc2U0VTFwajBERVp3RGtSZm85VjlKREFUeUkwTVVVeXY4OHZldmEyd2dNMjB5dVZJODdQUUtQN2ptR2liLTVRWnJqc0ZJUEd0UjB1b2FhV05RbVJURV9TRGpBMHR3YV9WR2JDa1hyaGtTaWxSWU1rWERtNjBzRWVBNjZnbldfYlRJdl90OXdBU2l6a1JWUjVvMA?oc=5"
+        },
+        {
+          "title": "Box Office: ‘Godzilla Minus Zero’ Roars with $6.7 Million in Previews, ‘Ramayana: Rise of a Legend’ Earns $3.5 Million",
+          "source": "IndieWire",
+          "published": "2026-11-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNM1dXRlRySzdrazh4a3F6alNXcnRUdU56M0Y4Wjg5cEpMRGp6NDlZZ0xucG5VT2o0alN2UEw0R3AxRkhucWNVVjZPVGdLbmY3RjREenlOcVRLZHY3SnF6Q0tuQXlRdnBwWnFNLVgzMFNVMnZWQUhXS0l4NmszN0o0V3gwMHNMd3BCY3VSRzg3a2VYTjFhb3lHYnM1QlZTRk1FbHFncQ?oc=5"
+        },
+        {
+          "title": "‘Godzilla Minus Zero’ Roars With $6.7M in Box Office Previews Ahead of Face-Off With ‘Cat in the Hat’",
+          "source": "The Hollywood Reporter",
+          "published": "2026-11-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOa24tdmZ2UW1CNDI0NXNGUkRmbnZaVVFUNzBCUm1HWTlkZUE5MmRGSkpoSFAza0o3X1cxXzdsenJULURhSy1TdW9kbmU0Rm1mM29xNjN4ZmJJSzZuaWUxNi1HQ3BCUmt3OUNleDdhbTctd3lXcFZTSEUzQVJUenZVYlA1WHJvSFR5MXZBVWd2LVFWRkxiTVVUZ1BCRUdvNzU3RkloczFHa3gxWXJfVk5EdTA5S19xV2JZbC05LXZGaw?oc=5"
+        },
+        {
+          "title": "Godzilla Minus Zero Could Make Box Office History For The Franchise",
+          "source": "SlashFilm",
+          "published": "2026-10-28",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB3cVplU3FIZWdMQnRkYnA2UV9oRzROdkZZNkMzYnRuTFpoT3BxcEJ6VmRlcWxNU1RRTVVncVJNNlpvTnEweGFmOXA2dDI4ZWVUbTFtTkhBY3JIZ215Mm04dE4zTGdJS1dQUTVYY2ttXzJObjVCWV9rU2Z0ZzI5QQ?oc=5"
+        }
+      ],
+      "news_query": "Godzilla Minus Zero Opening Weekend Box Office",
+      "forecast": {
+        "probability": 0.5,
+        "reasoning": "Previews of $6.7M are strong, but fan-driven, Japan-origin films tend to be front-loaded. Typical multiples of about 3.5-4.5x the previews give $23-30M, which straddles the $28M line. Pre-release tracking pointed to $30M."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-07T00:04:33Z",
+        "crowd": 0.11,
+        "best_bid": 0.1,
+        "best_ask": 0.12,
+        "volume": 35031,
+        "liquidity": 2111,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Gap vs. the price we'd pay is 38.0 points, over the 35-point limit: disagreements this big have usually meant the AI missed something, so no bet."
+    },
+    {
+      "market_id": "6625225",
+      "event_id": "1305832",
+      "event_title": "GPT Astra 6.1+ released on...?",
+      "option": "No release by November 30",
+      "question": "Will there be no GPT Astra 6.1+ release by November 30, 2026?",
+      "rules": "This market will resolve according to the calendar date (ET) on which OpenAI's next GPT Astra model (6.1+) is made available to the general public.\n\nA qualifying model must be an OpenAI model designated as version 6.1 or higher that includes \"Astra\" in its name or model identifier, regardless of capitalization or surrounding prefixes, suffixes, dates, or descriptors. For example, GPT-6.1 Astra, Astra 6.1, or GPT Astra 7 would all qualify. GPT-6 Astra, including any rollout, promotion, Pro or Fast mode, or snapshot of it, will not qualify. Tier-labeled models such as GPT-5.6 Sol, GPT-5.6 Terra, or GPT-5.6 Luna and their successors, and task-specific or modality lines such as GPT-5.6-Cyber, Daybreak models, Codex, GPT Image, or Realtime models, will not qualify.\n\nA qualifying model must be launched and publicly accessible, including via open beta or open rolling waitlist signups. A closed beta or any form of private access will not suffice. The release must either be clearly defined and publicly announced by OpenAI as accessible to the general public, or otherwise be made publicly accessible and explicitly labeled on the company's official website. Labeling errors, placeholder text, or version names displayed on the website that do not correspond to a model that is actually accessible to the general public will not qualify.\n\nThe primary resolution source for this market will be official information from OpenAI, with additional verification from a consensus of credible reporting.",
+      "topic": "Tech",
+      "end_date": "2026-12-01T04:59:00Z",
+      "url": "https://polymarket.com/event/gpt-astra-6pt1-released-onptptpt",
+      "snapshot": {
+        "time": "2026-11-07T00:02:27Z",
+        "crowd": 0.197,
+        "best_bid": 0.189,
+        "best_ask": 0.205,
+        "volume": 16152,
+        "liquidity": 12316,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
+          "source": "OpenAI",
+          "published": "2026-11-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5tRzhtYk1MeTljUjdBLW5pMUJCVWJYZ0RzUXB3a0VnVlVtTEtCRHhDR1ZGeEZwOXNvdUp3N2hOMklObzBQbHRsV3lna0xiLXNlSHBOS3RyS0M3dFRZMFE?oc=5"
+        },
+        {
+          "title": "OpenAI launches GPT-6 Cyber, an Astra model built to keep vulnerability research in scope",
+          "source": "SiliconANGLE",
+          "published": "2026-11-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPM0Q3Tzkwa2RTa01WLWp6aXNqaXFnUTlmaHpFWEJkMVo5SU1aNW5EcFFiZEJNWGRfTXdmRnJBM0tXU1lWMjJsVmpFdVFpa01KMDN2aW5SMl91NUJabmVNckpHM0xwRlF6ZWdONkUzcl9QbzVGNF9CZWNEZUxDbHdkcFE4N2pxbmFMOUZPNWlQRDNNeFdsVlpqb3pIR2tzN1NueWQ3US03UzY5cUZqd1JuNEJSZmZjbmhoN1BJcTZkNkl1UWRZTzFCYmpR?oc=5"
+        },
+        {
+          "title": "OpenAI Teases GPT-6.1 Astra Amid Relentless Hype Around The Mysterious GPT-6.2 Betelgeuse Model, As Another Evidence Surfaces Showing Kimi K3.1 Pro And GLM-5.3 As Products Of Distillation",
+          "source": "Wccftech",
+          "published": "2026-10-31",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMisgJBVV95cUxQQWNodkI3ZkR6NWhnOU1MTnRjbTBkVHN5T3lyMXRCT2JxU2FRa1Fmc2lkajNteFAyZFNXSlhEd2U0Sm1FVTA1ZDByZldNUUtnZHpPU0dFQThUMi1nUUpXWjV5d3VXSHNFMUpjZE9TLUxZM1R1ZUI4cG9heTZ1TWdtd2JXckZqTThobGZFSTRRS05YaFFZUlU1cUx5dVY4SXowY2lhTTR3OVBBY09SbE5TNDBDbTZiRk5mVllXYUZmUzlxQkRiZEFCVnMxMU5wR09yQlMzUV9RMWEweGxMMjRGT3d4WmpwRHB2VGpsaGg0dTh5TVlfMGJQWWdZaTl3aFZvZjJ3YlE0dEhqamQyOEtKaVlhZk5GUE5QQXQ1ZjVlSnVJbjF4eHhnaGVQSUxqU1hyLVHSAbcCQVVfeXFMUGJURFMtd2N1d040bG5ncWVJYzNLVTFEdC02M2JyUnZIbWI0aWVGa0dTNk5Qd0RNYlNCYWJOUWxMQ1NqUEFpeWRPYzUyRjlnd2F1Ym8wQjZXQkN6eWc4LUNYS2FTQVNaWmdYWEJqYTZhNnQ3UWdLVTBoVDM4NERJOHg4eUFXT0F2Z3NNYTN0clNhc1U3eTJsX3pEUXplYktac3hhZUZ2XzFHNHlXS1BXazdHTEZUN3JDTk9WQWVyeGFPODUzZV9zY05MNGxtV25yR3d2c25TWmxmR2RwRTFITkJ2TW5XV3kyX1JtQnFVYlViY2VfTjUyTXN1TjgyaWVZSlotM2FMQmloU3p6NEdjR3cxZnpJelhnRDR6OXItM0dyUnIzNVF6WDBxdTR2bmoycGw1djJ4Rm8?oc=5"
+        },
+        {
+          "title": "GPT-6.2 Astra Tracker: Screenshot Evidence and Official Status",
+          "source": "Kingy AI",
+          "published": "2026-11-01",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE16SFNIZHcyaElwbS1wTGVIejFGck1wN3JURDlVYy1xTWpRTUZxRU85a29xN0FkS29EZUg4bzhwQURVWHIyVHdkWmw2a1BEUkdzanFOY3dkQ1ZrUjV4U3ZZMm5kLWUxem5ZVWNfYjBubFBGQQ?oc=5"
+        },
+        {
+          "title": "GPT-6.2 Astra Is Coming: Latest Updates From Li Na",
+          "source": "36氪",
+          "published": "2026-11-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1rTkZQeGpXZmN4NmRVZmVQdFI0dnF0cW9Zei1BUFVOaS1sV3dlUlJDNUROM2RjTHlVY1JWNjlHWElxbmZTTUpkTUxDOEVfczI5bFZV?oc=5"
+        },
+        {
+          "title": "Meet ChatGPT-6 Astra: A Supercomputer for Only $20?",
+          "source": "BeInCrypto",
+          "published": "2026-11-03",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9MTDFlVkItN1FUakx1NkRuTGF1N3BpUl9aa1VTRmtZQkJ5c1JadDFiOXNJY1NiZ0NDU3U5VzdPN2NpbEhPb2hmYVhFMkNYUkZLWHAwSThGeGtOS0ZOWUpFWHdjcUxvbXl1?oc=5"
+        }
+      ],
+      "news_query": "GPT Astra release",
+      "forecast": {
+        "probability": 0.45,
+        "reasoning": "OpenAI has reportedly teased GPT-6.1 Astra, and trackers suggest it is coming soon. OpenAI often releases weeks after teasers, but it could also slip past November or skip to a different name. This is roughly even, with a slight lean toward a release."
+      },
+      "bet": {
+        "side": "YES",
+        "price": 0.2045,
+        "top_price": 0.205,
+        "shares": 148.2,
+        "stake": 30.31,
+        "fee": 0.96,
+        "cost": 31.27,
+        "gap_pts": 24.5,
+        "edge_pts": 11.8,
+        "sized_on": 0.3235,
+        "kelly_full": 0.142,
+        "fill": "order book",
+        "levels": 3
+      },
+      "trade_snapshot": {
+        "time": "2026-11-07T00:04:33Z",
+        "crowd": 0.197,
+        "best_bid": 0.189,
+        "best_ask": 0.205,
+        "volume": 16152,
+        "liquidity": 12353,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Bought YES (AI's gap 24.5 points; 11.8 after cautious sizing)."
+    },
+    {
+      "market_id": "6625206",
+      "event_id": "1305832",
+      "event_title": "GPT Astra 6.1+ released on...?",
+      "option": "November 12",
+      "question": "Will GPT Astra 6.1+ be released on November 12, 2026?",
+      "rules": "This market will resolve according to the calendar date (ET) on which OpenAI's next GPT Astra model (6.1+) is made available to the general public.\n\nA qualifying model must be an OpenAI model designated as version 6.1 or higher that includes \"Astra\" in its name or model identifier, regardless of capitalization or surrounding prefixes, suffixes, dates, or descriptors. For example, GPT-6.1 Astra, Astra 6.1, or GPT Astra 7 would all qualify. GPT-6 Astra, including any rollout, promotion, Pro or Fast mode, or snapshot of it, will not qualify. Tier-labeled models such as GPT-5.6 Sol, GPT-5.6 Terra, or GPT-5.6 Luna and their successors, and task-specific or modality lines such as GPT-5.6-Cyber, Daybreak models, Codex, GPT Image, or Realtime models, will not qualify.\n\nA qualifying model must be launched and publicly accessible, including via open beta or open rolling waitlist signups. A closed beta or any form of private access will not suffice. The release must either be clearly defined and publicly announced by OpenAI as accessible to the general public, or otherwise be made publicly accessible and explicitly labeled on the company's official website. Labeling errors, placeholder text, or version names displayed on the website that do not correspond to a model that is actually accessible to the general public will not qualify.\n\nThe primary resolution source for this market will be official information from OpenAI, with additional verification from a consensus of credible reporting.",
+      "topic": "Tech",
+      "end_date": "2026-11-13T04:59:00Z",
+      "url": "https://polymarket.com/event/gpt-astra-6pt1-released-onptptpt",
+      "snapshot": {
+        "time": "2026-11-07T00:02:27Z",
+        "crowd": 0.25,
+        "best_bid": 0.246,
+        "best_ask": 0.254,
+        "volume": 12027,
+        "liquidity": 6027,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
+          "source": "OpenAI",
+          "published": "2026-11-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5tRzhtYk1MeTljUjdBLW5pMUJCVWJYZ0RzUXB3a0VnVlVtTEtCRHhDR1ZGeEZwOXNvdUp3N2hOMklObzBQbHRsV3lna0xiLXNlSHBOS3RyS0M3dFRZMFE?oc=5"
+        },
+        {
+          "title": "DeepSeek, Moonshot used OpenAI's GPT-6 Astra to train latest models, The Information reports",
+          "source": "Reuters",
+          "published": "2026-10-28",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZWxreXdWZGhvNFRiam1WcVA1WGMtNnl3NVpEWjIyVV9IR0xReTYwTFU2Ulhnek5QbVlzc1prUlBwYlVYNmpFaXJLdTNRU3NnbkhWSFlzZllyN1lma0RydHM5bEFab2xIRW5aOUllWGtiMzRaOG1HT1M3Z3ZIN1NwVmFFZ2NlUFo5WUNYaTRZSm9waDl6cE03bE1NMEtIM2VORTVVUDN3Y01ER3drXzFwNkMyNFZ0N3F5MC1idTVR?oc=5"
+        },
+        {
+          "title": "OpenAI launches GPT-6 Cyber, an Astra model built to keep vulnerability research in scope",
+          "source": "SiliconANGLE",
+          "published": "2026-11-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPM0Q3Tzkwa2RTa01WLWp6aXNqaXFnUTlmaHpFWEJkMVo5SU1aNW5EcFFiZEJNWGRfTXdmRnJBM0tXU1lWMjJsVmpFdVFpa01KMDN2aW5SMl91NUJabmVNckpHM0xwRlF6ZWdONkUzcl9QbzVGNF9CZWNEZUxDbHdkcFE4N2pxbmFMOUZPNWlQRDNNeFdsVlpqb3pIR2tzN1NueWQ3US03UzY5cUZqd1JuNEJSZmZjbmhoN1BJcTZkNkl1UWRZTzFCYmpR?oc=5"
+        },
+        {
+          "title": "Meet ChatGPT-6 Astra: A Supercomputer for Only $20?",
+          "source": "BeInCrypto",
+          "published": "2026-11-03",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9MTDFlVkItN1FUakx1NkRuTGF1N3BpUl9aa1VTRmtZQkJ5c1JadDFiOXNJY1NiZ0NDU3U5VzdPN2NpbEhPb2hmYVhFMkNYUkZLWHAwSThGeGtOS0ZOWUpFWHdjcUxvbXl1?oc=5"
+        },
+        {
+          "title": "OpenAI Finds GPT-6 Astra Quietly Holding Back on Internal Red-Teaming, Exploit Tasks",
+          "source": "SecurityWeek",
+          "published": "2026-11-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNdlJ2U0dxOVI0OFdYaXAxeV9EcXBGdFJIU2pETGVvLV9vQmJrXy1TSzVldmwzZTg3cmx2STIyX0VFZXpnVmYxUjF1X056VXNGcldHQ1p3djVUOTZYTTVPUFYxS0tBNWYzdS12U1NacGJaYWdnTmFOZG1UMFpxVGxYdlBMUXA5azVaLUlxM2I5RnFFSGFpWTBjOGdNZ2N4NERhYXI3QWlJNlRVdHBkdXpUSklabw?oc=5"
+        },
+        {
+          "title": "OpenAI releases GPT-6 Cyber, and promises this one stays within 'rules of engagement'",
+          "source": "The Register",
+          "published": "2026-11-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNa0lIUkJzTUlxUElybFRWTlNLdzVBc1RUUFpiRGt3R2NZajZERW14U3RsSFI3OXVVZFY0R3NoRTU0dFpBZnA3WkhJRFB6NmtOLXFVWDZxbjV5U2tueGNJMVNLTjJvanZSZ3lYdkdWSnE3bjdwTDVjOGRWd0FuRGx2NnlhRHpRLTBnX1MwRndxMTFIYkl3V3l2YzB3bHd2bDcwbjZQT0RmNkplUWpKZDhfcGxqSmpFSnBwMktfSzVjV2VueTlfd0FrV0E2MkNVaFpxVGFMQg?oc=5"
+        }
+      ],
+      "news_query": "GPT Astra released",
+      "forecast": {
+        "probability": 0.08,
+        "reasoning": "Hitting one specific day is unlikely even if a release comes this month. November 12 is the anniversary of GPT-5.1's launch and falls on a weekday, which raises the odds a little."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-07T00:04:33Z",
+        "crowd": 0.25,
+        "best_bid": 0.246,
+        "best_ask": 0.254,
+        "volume": 12027,
+        "liquidity": 6027,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Gap vs. the price we'd pay is 16.6 points; counting only part of it (cautious sizing) leaves 8.1, under the 10-point minimum."
+    },
+    {
+      "market_id": "6427837",
+      "event_id": "1111125",
+      "event_title": "US imposes new sanctions on China by...?",
+      "option": "November 30",
+      "question": "US imposes new sanctions on China by November 30, 2026?",
+      "rules": "This market will resolve to \"Yes\" if the United States officially imposes new sanctions of any form against China between market creation and November 30, 2026, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nSanctions are official government measures that restrict economic activity, financial transactions, trade, travel, or diplomatic engagement with China. Qualifying sanctions include comprehensive economic embargoes restricting most trade and financial transactions; sectoral sanctions targeting specific industries (e.g., energy, finance, defense, or technology); asset freezes and blocking of property owned by China or Chinese citizens; trade restrictions including export controls, import bans, or tariffs imposed explicitly as sanctions; financial sanctions including restrictions on banking relationships, access to financial systems, or international lending; travel bans and visa restrictions; and arms embargoes.\n\nSecondary sanctions against third-party countries or entities designated for dealings with China will qualify. The expansion in scope of previously existing sanctions against China will qualify; however, the renewal of existing sanctions without modification will not qualify.\n\nThe following will not qualify: the non-renewal or expiration of licenses or other sanction-exemptions; the designation of new specific entities to be sanctioned under an existing rule absent new sanctions; and enforcement settlements or civil penalties for past conduct.\n\nThe passage of an official act/executive order authorizing sanctions on China within this market's timeframe will qualify for a \"Yes\" resolution, regardless of when the sanctions come into effect.\n\nThe primary resolution source will be official information from the government of the United States, however a consensus of credible reporting may also be used.",
+      "topic": "Economy",
+      "end_date": "2026-12-01T04:59:00Z",
+      "url": "https://polymarket.com/event/us-imposes-new-sanctions-on-china-by-october-31",
+      "snapshot": {
+        "time": "2026-11-07T00:02:27Z",
+        "crowd": 0.05,
+        "best_bid": 0.04,
+        "best_ask": 0.06,
+        "volume": 21957,
+        "liquidity": 2053,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "US-China Relations in the Trump 2.0 Era: A Timeline",
+          "source": "China Briefing",
+          "published": "2026-10-30",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQVl9rOHkwQl9VYldidlJVajgtZzY4VE5TQmt6eEQ2czIxaTk5N3Ywd3diVXdCT3dKVmhUNmxMRjJ0UnJKdGE2TUtuNklrdWx4UTVGZG5kY1pvWnNEWUhkdmZ5WkV3R0plREV6aTlGc1JEUHVQeG02VzRsVE82OERteXhsMGNfTEVPMllnN0p3?oc=5"
+        },
+        {
+          "title": "China defends cooperation with Cuba, rejects US sanctions",
+          "source": "Prensa Latina - Latin American News Agency",
+          "published": "2026-11-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQ04wLTZTWU9wZk9nWXlWeV81UkdMS3ByRXdwaTJ5anI3MWtEWnNRR2hmUVc3dkw5cWRSOUVMMl9EbFZwdTF4VzRzUHJBY0gxMk9mWmhFeXhoUFpBMGlWS09CYXpmMHhuczFPNnI0cmljRUszMFJrNnFwNTFoN1c2cFhPQXY0NEY5WGkwTzBFY2JUTW1YSmZ3Ry1CU2U0MGRD?oc=5"
+        },
+        {
+          "title": "China firmly opposes US sanctions on Chinese firms over Cuba cooperation, vows to protect legitimate rights",
+          "source": "Global Times",
+          "published": "2026-11-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9VejNqTGRxTDFsRjNya3VyNUZ0YThTWlozdG50UVJwVEs3MUxVN0FOTVQ2T2pnYjVLYjZUOVdtLVhYRTdxU3E3MGl4UjdvM0lVYjlfbUtDWHZYS2Q5b3dRRkxn?oc=5"
+        },
+        {
+          "title": "Bessent Says US Will Impose Toughest Ever Sanctions on Iran, Urges China to Cooperate",
+          "source": "EnergyNow.com",
+          "published": "2026-11-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNOE9jNWJTNmd0ZWRZclpWbzJiRng5ZkxjSjJhcnMzUjZ0b18zdXJMLVV3c2pRSVVPX3J3ZTdKbWMxem1ucFhJZVNFMldUUlU5QTdMeHQ1WDJvem9IU1dvbkRBUWRYU1QtNTFvcktxV1BpY3ZIa3F2Mzh5aXRObjJEdUprUFFrb3J5ZGVGMy1pd3ppRWZvazFkbDlnRXc5NC0wUXFaVVk5NEphY2VYd29oMXFENHZpUQ?oc=5"
+        },
+        {
+          "title": "US escalates economic campaign against Cuba and targets China-based suppliers",
+          "source": "ABC News - Breaking News, Latest News and Videos",
+          "published": "2026-11-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNc2xIcVdwS1RXcmhwUmJfV2FJaVhpZmhiSUczelVoNGZ3NE9mdmZZVUw2MEdicDJoWEdXQ1NiUTZyamJaNDdyLTVYMlVMT0ZsUnJrTUFNZjBiNDRtRHpEZmFYVzJnVWdhOTZBTDZnZEtUaXJTLVUweVhqeFVSdFpwVW1TR2dwRW1ybURja3hRZFlRLWVXdzdseWtNd3Zubk16aEpSMFQzY9IBrAFBVV95cUxPQzhzRTh3Yng1MWhNbXBGNmZXNUk5UFAtaWZKc2JOVEtkME82ZkhENUFLQUlZZk1KSXBmZVVVVVByVFZoYmYtTjhTQXA3T01YVEJQZFZqRzkza2hrd0QyOEpYUUQ3bmdrWUlMdFFhV0FwRU1ZbU9yQmEyV3ZCeWU4eHBsNFNkTFpqMkxqNWNZNFR3NThtYmdGc3FJbEVON0JRa1ZwVzIxX2tVUklz?oc=5"
+        }
+      ],
+      "news_query": "US imposes sanctions China | US imposes sanctions China November economists forecast",
+      "forecast": {
+        "probability": 0.55,
+        "reasoning": "The US is actively targeting China-based suppliers over Cuba and has promised its toughest-ever Iran sanctions, which often hit Chinese refiners. However, the rules exclude new designations under existing programs, and some of these actions may predate the market. Even so, new measures of some form within about three weeks are fairly likely."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-07T00:04:33Z",
+        "crowd": 0.05,
+        "best_bid": 0.04,
+        "best_ask": 0.06,
+        "volume": 21957,
+        "liquidity": 2053,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Gap vs. the price we'd pay is 49.0 points, over the 35-point limit: disagreements this big have usually meant the AI missed something, so no bet."
+    },
+    {
+      "market_id": "5154696",
+      "event_id": "1108628",
+      "event_title": "OpenAI’s valuation end of November 2026?",
+      "option": "$1.30T+",
+      "question": "Will OpenAI’s valuation be at least $1.30T at the end of November 2026?",
+      "rules": "This market will resolve according to OpenAI's private market valuation, as measured by the NPM Price reported by Nasdaq Private Market, LLC (NPM) for the last trading day of the specified month.\n\nIf the determined value falls exactly on the boundary between two brackets, this market will resolve to the higher bracket.\n\nNPM Prices are published for trading days only and are updated once daily at 1:00 PM ET on the following calendar day.\n\nIf NPM has not published relevant data for the last trading day of the specified month by 1:00 PM ET on the day following the last trading day of the specified month, this market may remain open until 11:59 PM ET on the third business day following the last trading day of the specified month. If no further data is released by that time, the market will resolve according to the data available.\n\nIf NPM ceases publishing relevant data prior to the end of the specified period, this market will resolve based on the NPM data published for the period prior to the cessation of coverage, as well as any applicable public market capitalization data following an IPO or direct listing.\n\nIf the company completes an IPO or direct listing before the end of the specified period, this market will consider the company’s public market capitalization on the last trading day of the specified month.\n\nPublic market capitalization will be determined through appropriate calculation using the final official regular-hours closing prices published for the company's listed equities on its primary exchange for the last trading day of the specified month, multiplied by the company's total number of shares outstanding at the relevant time. If necessary, to accurately capture the company’s total market capitalization, rather than a stock-class-specific market capitalization, the calculation will include all outstanding share classes and apply any stated conversion ratios to the publicly traded class. Where no conversion right exists, such shares will be counted at their stated outstanding amount without discount, unless official filings explicitly specify differently. The number of outstanding shares will be determined from official company filings or disclosures (e.g., SEC filings).\n\nIf the listed company merges with or acquires another entity and remains the parent company, no change to resolution methodology applies.\n\nIf the listed company is acquired, merges into another entity and is no longer the surviving parent company, or otherwise ceases to exist as an independent entity prior to the end of the period, only NPM valuations and applicable public market capitalizations achieved prior to completion of the transaction will be considered for resolution. No transaction, acquisition, or merger consideration will be considered for resolution.\n\nThe resolution source for this market is NPM data published here: https://fe.secondmarket.com/companies/company-30839e0b-2730-4495-839f-1bf638fa9cca/data. The resolution source for any period following an IPO, direct listing, or relevant corporate action, will be official exchange trading data and publicly reported share counts.\n\nRevisions to previously published NPM data made after their initial release will not be considered, unless made to correct clearly erroneous data.",
+      "topic": "Tech",
+      "end_date": "2026-11-30T17:00:00Z",
+      "url": "https://polymarket.com/event/openais-valuation-end-of-november-2026",
+      "snapshot": {
+        "time": "2026-11-07T00:02:27Z",
+        "crowd": 0.765,
+        "best_bid": 0.76,
+        "best_ask": 0.77,
+        "volume": 22502,
+        "liquidity": 2386,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "OpenAI secures $11 billion funding at $1.25 trillion valuation, Bloomberg News reports",
+          "source": "Reuters",
+          "published": "2026-11-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNdlpNRm5XVy11c3hLY0NRdjh2T3VmOE1LOWQ2LXlvcFhmZlFJYkQya3N3QWxud2UteUZpWVlCTXVHUXZZTjIwRlVQaUhqOGhyM2lDaDJTSGcxMnE5MzhOZ1NHYlJIc1p5bHRxaVZjZDd4MFY2RWMtRkNlYkhSVkdpMlRBWi1PYUNmZGNydXZnOTZFMTFoOHR0azBpUlU1aHpVdFA4dlhCV0dDNm91VE0xSVg0bXZhcF9jaVAzcXYzaldOdw?oc=5"
+        },
+        {
+          "title": "OpenAI IPO Valuation Target Reportedly Trimmed By $150B After Nasdaq 100 Registers Worst Month Since March 2025 Following Brutal Tech Sell-Off",
+          "source": "Yahoo Finance",
+          "published": "2026-10-31",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNOEtJV1h1b1BodkhIN1ByZnZNVFhoU29HRGt5Z1dzNGIyMkZiTlg4ek5VOUxORmx6Q0xuRGt5UnVtemYwOGs5MXFITElwUUI0OTR3YmY3Q3JwUzFHMHhHTnhxbXcyTUl6T0UzUzgyVDJ5V0wyYkx1ck5maUE0THE5ZEE3cFRLQXBlYzlrTElHQmhfc1RaU05HNVV1LVNlVGVZcnpnSkVR?oc=5"
+        },
+        {
+          "title": "OpenAI Completes $11 Billion Portion of Funding at $1.25 Trillion Value",
+          "source": "Bloomberg.com",
+          "published": "2026-11-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOZUs1X0RZcHpSM0pJZVlZOHZrWEppOG5oemNaUHFVUGZYV1ZSQ2lVVVhxZENDQWVDTkVPRkN5XzRxT3JGVDExWFVVQ2VWejZ3a21tb2NCNlFrc29DVW11OC1ZRXdJX1lDNWp6Tk90STljUDdBMmltdEgyTVFJQTI5cEJFRkdHMno0Ni1CU2NFQ2M2dXRBdjFMTl8zZ1dZM1p5R2kyT2lGZmF1OGhoQm9zTDNYeWk2NG44SVlnUQ?oc=5"
+        },
+        {
+          "title": "OpenAI pares fundraising goal, now seeking up to $20 billion in latest round",
+          "source": "CNBC",
+          "published": "2026-10-31",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOb2hwU1RZMjNaMVpkcW13aDRGb3M0UGlMb21CRTI4dDU5STc4eEJkZHNMc2VPQjVnYm80MEEzWm80RDFZdElReXNmbG1sS0xBYjNnNWNOZVJsSUhySmhIUTJfV0tEZjJncTFLSHJFbDVqU2FrdmlSVW1hNzdxZG8tbktn0gGHAUFVX3lxTFBEd2ZuVFNJR09vWjBBWUtDMF80c1luQkFnVWRkN2RWMG1DWmZJd3Z4clZwcjNIeEcwaExPcjc5MWt2MkZ1SW9KUHdZODhtV3NGanVTSVkzdFl0aTQtUmxZa1V6dHpDUkxacTNhTk1PWXFDbnVIR3NraVRJODh3MjFGdUhBNl9rTQ?oc=5"
+        },
+        {
+          "title": "OpenAI Nears $1.25 Trillion Valuation. What That Tells Investors Ahead of a Potential 2027 IPO.",
+          "source": "The Motley Fool",
+          "published": "2026-10-24",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPRmxKd3dXUmU0Qmc3MnJRUjVxVHZVNHgzbGxGYV9GenE4TVNiVFFPOGlhVjd3blhSUHJlSEFVSEdPbC0wZi1fQjlwcDFxZTJUSDFPdkdUR0tMLVViNDNtRUJhOHgyV2dfMnJ1NFNzeXhMUzdTcjJ1b2tHTTVid1IwbWc4dHFURnRrSXZkaUs4MU5OMDh0YmMzT0FlSnlqd3VWeFBsTlJnZnNQZGY2SWtKOUpSU3Njei1ITGxKNjJWd2FDc2g1RXdMNFdDZXV2c00?oc=5"
+        },
+        {
+          "title": "OpenAI Stock IPO: Expected Valuation, Timeline and Investment Options",
+          "source": "SmartAsset",
+          "published": "2026-10-28",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE15OEdhUlNaM0Z5cjB2VFdVbU5kYlU1VXNKcGF6YXpBbVZvTEhSTnFNbWo1LUZPdkxmbG1FcGJSRTI0bkgwTWxLNERtVFQ2S1lvaXpqaC03RWVoa1FJN1E?oc=5"
+        }
+      ],
+      "news_query": "OpenAI valuation",
+      "forecast": {
+        "probability": 0.35,
+        "reasoning": "The latest funding round priced OpenAI at $1.25T, and a recent tech sell-off reportedly trimmed its IPO valuation target. A Nasdaq Private Market secondary price of $1.30T or more would need a premium to that round, which is possible but less likely than not."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-07T00:04:33Z",
+        "crowd": 0.765,
+        "best_bid": 0.76,
+        "best_ask": 0.77,
+        "volume": 22502,
+        "liquidity": 2367,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Gap vs. the price we'd pay is 41.0 points, over the 35-point limit: disagreements this big have usually meant the AI missed something, so no bet."
+    },
+    {
+      "market_id": "5765625",
+      "event_id": "1197595",
+      "event_title": "PPI YoY - October 2026",
+      "option": "6.8%+",
+      "question": "Will PPI YoY be 6.8% or more in October?",
+      "rules": "This is a market about the Producer Price Index (PPI) for final demand over the 12-month period ending October 2026, before seasonal adjustment, as reported by the Bureau of Labor Statistics.\n\nThis market will resolve to the percentage change in the Producer Price Index (PPI) for final demand over the 12-month period ending in October 2026, before seasonal adjustment, according to the monthly Bureau of Labor Statistics (BLS) report.\n\nThe resolution source for this market will be the BLS Producer Price Index report released for October 2026 (https://www.bls.gov/ppi/), currently scheduled to be released on November 13, 2026, at 8:30 AM ET. Resolution of this market will take place upon release of the aforementioned data.\n\nNote: the resolution source for this market will be the official monthly BLS PPI news release, which reports PPI over 12-month periods to only one decimal point (e.g., 6.0%). Thus, this is the level of precision that will be used when resolving the market. This market resolves on the total PPI for final demand figure, not the core PPI figure excluding food and energy.\n\nIf the BLS does not release the relevant figures on the scheduled date, this market may remain open up until the scheduled release time of the next PPI report (https://www.bls.gov/schedule). If the information is not released by that time, this market will resolve according to the figures of the most recent previous month with available data.",
+      "topic": "Economy",
+      "end_date": "2026-11-14T04:59:00Z",
+      "url": "https://polymarket.com/event/ppi-yoy-october-2026",
+      "snapshot": {
+        "time": "2026-11-07T00:02:27Z",
+        "crowd": 0.305,
+        "best_bid": 0.3,
+        "best_ask": 0.31,
+        "volume": 27779,
+        "liquidity": 7612,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "Morning Brief: Post-Midterm Rotation Hits Chips, Boosts China; EZ Wage Growth to Slow; EZ PPI YoY To Surprise Upward; Focus on BOE",
+          "source": "www.christophe-barraud.com",
+          "published": "2026-11-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPa1p1ekxaei02YmdzZzFGSTI0bkxPZXJoRkh2VjZYaFg0WEJybk1Wd0t6YXZWaVYyNG5xOU95ekFQZG5jM2xfcTF1LUJ2WFZEVFpWbi1IbWZ0aEhqRGxSZ2swLWpCVUNWZGluTFFqVVJqdDVhSlo0OXFEanhIcVozR3NrekE3SlJTbUVSN2doV2NEV3NGMEZJY0FhUWs2N2hGVUkyRl9FMWdfa3d0azdraElERmMwSHFzWFNWSUpRazhYdHRPLW9CVnpXVzVyN1VNNDNGY3FqT1RGZEtVZHpRXzdQQ3lLM1pMMHJCR05NRmtDMDA?oc=5"
+        },
+        {
+          "title": "Rwanda PPI Up 21.5% Year on Year in September 2026 - News and Statistics",
+          "source": "IndexBox",
+          "published": "2026-11-04",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQS2FpOElZUmY0VHFZcExlOHFySXZZS3Myd1RYU0VRb2RRVWU2bVRWaDBuOWd6MGVEVU9iaXp4UG93NzNwZlJhd0dOTlpRZWd6UEVUS282MnZGUVd6TTBqZkNVOE5lay1IUkxCa3FZTXRXSjc3ck1Yd0R4SDdNb3FLTEF6OWQ3a3ZtUEctM18xTGZEM0xuUXdYZHdhQTVlTWFBelplWUl5MHNmUQ?oc=5"
+        },
+        {
+          "title": "PPI Vs. CPI: Are Record Profit Margins About to Get Squeezed?",
+          "source": "Investing.com",
+          "published": "2026-11-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPSXU4MHBGODdEUUt0UXBZQTBnMl91SXJhdDVYZ2xLT3JOOFZOdi1OYVpmQmVzQk52TjVscFRUWFBjM0g2eWQ5TEJXRVJxcUpINDFxM1g1eWVLdy1veUVmbXh0a3hXdVJrYzVKcGNIcjhxLXRGTUdyTG5idEpiZjQ1WWgyTWJPc2RVb2xmc2ZieXRkNmJmemg4UlExZmNPbUxBU3ZVemRB?oc=5"
+        },
+        {
+          "title": "Eurozone PPI Hits 11.1% as Energy Drives Inflation, While Non-Energy Prices Barely Rise",
+          "source": "Action Forex",
+          "published": "2026-11-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPYnU2a3FzWmdJTlVCa1NabUZtMTdOeWQ3NVNDZHZGd3ZreUZWVzlKOThmUlh0NnNXNVo4Z3R4UXdydFRubjhKcGZ1SGR6bEpfeW82RHZ4UTJrM0w0cTYyblVoTEIxWTBhVmwwcGxnTkJWOFBfRnlxVjdOZHJmdklxcDZJOWU0VFFPdjdTREE2dEY5Ykg4S0Q0X1NLUXJnWDl3ZHpoX1hVTHNBRnRHOEdYUDFNdHRmY09kVV95dHRCTEMzbldqSFdzY1ZtbUZTOS1u?oc=5"
+        }
+      ],
+      "news_query": "PPI YoY | PPI YoY October economists forecast",
+      "forecast": {
+        "probability": 0.35,
+        "reasoning": "Energy-driven inflation is clearly elevated, with eurozone producer prices up 11.1% year on year, so US PPI is likely high too. Without the September US figure, I can't tell whether 6.8% is above or below the expected value. I treat it as a somewhat-upper threshold."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-07T00:04:33Z",
+        "crowd": 0.305,
+        "best_bid": 0.3,
+        "best_ask": 0.31,
+        "volume": 27779,
+        "liquidity": 7761,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Gap vs. the price we'd pay is 4.0 points; counting only part of it (cautious sizing) leaves 1.8, under the 10-point minimum."
+    },
+    {
+      "market_id": "5699271",
+      "event_id": "1189688",
+      "event_title": "Core CPI MoM - October 2026",
+      "option": "0.2%",
+      "question": "Will Core CPI MoM be 0.2% in October?",
+      "rules": "This is a market about the one-month percent change in the Consumer Price Index for All Urban Consumers excluding food and energy in October 2026 as reported by the Bureau of Labor Statistics.\n\nThis market will resolve to the one-month percentage change in the Consumer Price Index for All Urban Consumers excluding food and energy (Core CPI-U) in October 2026 according to the monthly Bureau of Labor Statistics (BLS) report (seasonally adjusted change from the preceding month).\n\nThe resolution source for this market will be the BLS Consumer Price Index report released for October 2026 (https://www.bls.gov/bls/news-release/cpi.htm), currently scheduled to be released on November 10, 2026, at 8:30 AM ET. Resolution of this market will take place upon release of the aforementioned data.\n\nNote: the resolution source for this market will be the official monthly BLS CPI news release, which reports core inflation (all items less food and energy) over 1-month periods to only one decimal point (e.g., 0.3%). Thus, this is the level of precision that will be used when resolving the market. For the avoidance of doubt, this market resolves on the core CPI figure (the all items index excluding food and energy), not the headline all items CPI figure.\n\nIf the BLS does not release the relevant figures on the scheduled date, this market may remain open up until the scheduled release time of the next CPI report (https://www.bls.gov/schedule). If the information is not released by that time, this market will resolve according to the figures of the most recent previous month with available data.",
+      "topic": "Economy",
+      "end_date": "2026-11-11T04:59:00Z",
+      "url": "https://polymarket.com/event/core-cpi-mom-october-2026",
+      "snapshot": {
+        "time": "2026-11-07T00:02:27Z",
+        "crowd": 0.455,
+        "best_bid": 0.44,
+        "best_ask": 0.47,
+        "volume": 10980,
+        "liquidity": 5402,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "October CPI Inflation Is Likely To Be 'Hot,' But Focus On The AI Bubble Burst",
+          "source": "Seeking Alpha",
+          "published": "2026-11-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPcUNTVms0N1loZ0czSU11MW5JMERuM3hGU1hmWkxIOGJ4SWZwYTZtLWFrZnpPWDM3TGpFSUItcnVGX3B6a1h5SVd6Njl4LVNVa3VHQnJaZ25Sck1oQnlNSk50OHVoUzVsWWlfUmhWUmxQcXFQS1hzcmlpYmduT0xObzkxYjBIRDVuQTdFSmZHeE40ZE1pTGhJTUpuV2NLQ3F1RHFYeEpTQWRFN1R2WFk0eQ?oc=5"
+        },
+        {
+          "title": "Polish inflation falls more than expected as core pressures weaken",
+          "source": "ing think",
+          "published": "2026-10-30",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQVDBkUkxESGdRaW5aclo4ajhpNEJHT2lxUDhHVWJOUkhKbm5RRlJ5RDVTT3ZhUVJSWllHMXU2Z1lFS1RMS3U5UmoxZjNSS2doUDZfdXY1SmVyVF9GZWpCcVNsaEtIQTVnRmZOR01JVk5lMFkyNzREYzFzajNQTG9MNXpDWmRRaTlmWlByRjJmWWJEeWJ4SGFOZUJiTmd6aEZYNTJ5VmM4MmNNamFU?oc=5"
+        },
+        {
+          "title": "Eurozone CPI Hits 4.0% as Energy Inflation Surges, But Core Holds at 2.5%",
+          "source": "Action Forex",
+          "published": "2026-11-04",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSFZXTWVmM29hbmotVDBtdW5HSnJCT2RWbXRJYW5CU1l1eVhBZ3plRTU4OVFhUm9adHl5aUZRNnA1ZVMzdTA0SnNMUy10RU1uMHU5NEhuOE9DeU9Pb0lpS0xsc3RFSXhvZFVjSTk0WEJ6ZlBEaU5Vb0FxelN2N1FoWHdLbmtfaGJNb3E4Uldzb3hwamVBdXNBTE1oSXlLbVBWR0RyQjlQcjVsbzR3SnlWNUIzVFdUWmxBQkVMTA?oc=5"
+        },
+        {
+          "title": "US CPI Forecast: Inflation Data and Fed Rate Decision",
+          "source": "Equiti Global",
+          "published": "2026-10-30",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQcEp2OEo3NHZPUmZEdVNidXdfbjZTbDlKaWkzTlQwQ21FTnhhYWpxcDM5RVJKN2VudHpVUU5JMkZFa3BEMFEyamtqVFd4MTdfS3JhYWNfNzl6Q2hvUnQ5bVZ2N1NOZ3U0enBnTUM0cVRNR3YzUFBGWW9Bc2lRNUdyX1dVTXd3WW1NZlpVSkpwZmFGSHQzb29MdVhIdkMwNEpGMFRScw?oc=5"
+        }
+      ],
+      "news_query": "Core CPI MoM | Core CPI MoM October economists forecast",
+      "forecast": {
+        "probability": 0.25,
+        "reasoning": "Previews call October CPI likely 'hot', which points to core readings of 0.3% or more. An exact 0.2% print is plausible but is not the central expectation."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-07T00:04:34Z",
+        "crowd": 0.455,
+        "best_bid": 0.44,
+        "best_ask": 0.47,
+        "volume": 10980,
+        "liquidity": 5402,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Gap vs. the price we'd pay is 19.0 points; counting only part of it (cautious sizing) leaves 8.8, under the 10-point minimum."
+    }
+  ],
+  "batch_id": "msgbatch_01KX9ZmJb9zpsC8HNEyZJ9yA",
+  "forecast_at": "2026-11-07T00:04:33Z",
+  "usage": {
+    "input_tokens": 10420,
+    "output_tokens": 2586
+  },
+  "cost_usd": 0.0467,
+  "budget": 55.06,
+  "account": "phase-1.2"
+}
