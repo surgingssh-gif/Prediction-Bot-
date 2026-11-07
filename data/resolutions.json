@@ -968,5 +968,15 @@
     "outcome": 1,
     "resolved_at": "2026-11-07T00:42:43Z",
     "question": "US x Iran ceasefire continues through October 31?"
+  },
+  "5166819": {
+    "outcome": 1,
+    "resolved_at": "2026-11-07T21:24:06Z",
+    "question": "Will there be between 25 and 29 average daily transits of the Bab el-Mandeb Strait on October 31?"
+  },
+  "5166818": {
+    "outcome": 0,
+    "resolved_at": "2026-11-07T21:24:06Z",
+    "question": "Will there be between 20 and 24 average daily transits of the Bab el-Mandeb Strait on October 31?"
   }
 }
