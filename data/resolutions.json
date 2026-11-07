@@ -963,5 +963,10 @@
     "outcome": 1,
     "resolved_at": "2026-11-06T15:31:40Z",
     "question": "Will the October 2026 unemployment rate be 4.1%?"
+  },
+  "4641065": {
+    "outcome": 1,
+    "resolved_at": "2026-11-07T00:42:43Z",
+    "question": "US x Iran ceasefire continues through October 31?"
   }
 }
