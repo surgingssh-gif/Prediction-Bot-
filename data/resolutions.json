@@ -978,5 +978,10 @@
     "outcome": 0,
     "resolved_at": "2026-11-07T21:24:06Z",
     "question": "Will there be between 20 and 24 average daily transits of the Bab el-Mandeb Strait on October 31?"
+  },
+  "5166953": {
+    "outcome": 1,
+    "resolved_at": "2026-11-08T02:28:45Z",
+    "question": "Will there be between 0 and 5 average daily transits of the Strait of Hormuz on October 31?"
   }
 }
