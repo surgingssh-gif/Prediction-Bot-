@@ -1,0 +1,794 @@
+{
+  "run_id": "2026-11-08",
+  "date": "2026-11-08",
+  "created_at": "2026-11-08T02:20:19Z",
+  "model": "claude-opus-5-5",
+  "effort": "high",
+  "phase": "1.3",
+  "pick_stats": {
+    "eligible": {
+      "Economy": 3,
+      "Entertainment": 4,
+      "Politics": 31,
+      "Tech": 2
+    },
+    "picked": 10
+  },
+  "track_record": "=== Your track record so far ===\nThese are your own earlier forecasts in this experiment that have settled (189 questions). They show only what you said and what happened (no market information).\n- On average you said 39%, and 44% of these events happened. Overall, your average is close to how often things happened.\n- Your average Brier score is 0.256 (0 is perfect; always saying 50% scores 0.250).\n- When you said...\n    under 10%: it happened 4 times out of 18.\n    10-30%: it happened 20 times out of 57.\n    30-70%: it happened 40 times out of 81.\n    70-90%: it happened 17 times out of 31.\n    over 90%: it happened 2 times out of 2.\n- Your biggest misses:\n    \"Will SpaceXAI officially rename itself to SpaceXSI by October 15?\" You said 3%; it happened.\n    \"Will the Tesla Roadster fly for 1s+?\" You said 4%; it happened.\n    \"Will Xiaomi have the best Chinese AI model at the end of October 2026?\" You said 6%; it happened.\n    \"Will monthly inflation increase by 0.6% in September?\" You said 7%; it happened.\n    \"Will the Democratic Party win the NJ-02 House seat?\" You said 10%; it happened.",
+  "questions": [
+    {
+      "market_id": "5336560",
+      "event_id": "1138701",
+      "event_title": "Spain General Election Winner",
+      "option": "PSOE",
+      "question": "Will PSOE win the most seats in the 2026 Spanish general election?",
+      "rules": "Legislative elections to elect the 350 members of the Congress of Deputies of Spain are scheduled to take place on November 29, 2026.\n\nThis market will resolve according to the political party that wins the greatest number of seats in the Congress of Deputies of Spain as a result of this election.\n\nIf the results of the specified election are not definitively known by November 30, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nParties will be ranked by the number of seats won by their electoral lists (candidaturas) nationwide in this election, attributed as set out below. If two or more parties are tied on seats, ties will be broken by the total number of valid votes received by their lists nationwide, with higher vote totals ranking higher. If parties remain tied, ties will be broken by alphabetical order of the listed party names. This market will resolve to the party that occupies the highest finishing position after applying this ranking.\n\nSeats and votes will be attributed according to the electoral list on which they were obtained, as reported in the official results, regardless of the party membership of individual candidates. Lists will be attributed as follows:\n\nPSOE: lists of the Spanish Socialist Workers’ Party, including the Partit dels Socialistes de Catalunya (PSC) lists in Catalonia.\n\nPP: lists of the People’s Party, including the joint UPN–PP list in Navarre.\n\nBroad Front (FA): all Broad Front lists, including Catalunya en Comú in Catalonia, Compromís–Valencian Front in the Valencian Community, and Canarian People’s Unity (UPC) in the Canary Islands.\n\nERC: Republican Left of Catalonia lists, including the joint ERC–Podem lists in Catalonia.\n\nPodemos: only lists presented by Podemos on its own.\n\nCCa: Canarian Coalition lists, including the joint CCa–1º CAN lists in the Canary Islands.\n\nAny other list will be attributed to the party or coalition that presents it, as named in the official proclamation of candidacies.\n\nElectoral cooperation, endorsements, coalition agreements, or subsequent changes in party affiliation or parliamentary-group membership will not be considered.\n\nThis market will resolve based on the results of the elections, as indicated by a consensus of credible reporting. In the case of ambiguity, this market will resolve solely based on the results as reported by the Spanish Ministry of the Interior (https://infoelectoral.interior.gob.es/).",
+      "topic": "Politics",
+      "end_date": "2026-11-30T04:59:00Z",
+      "url": "https://polymarket.com/event/spain-general-election-winner",
+      "snapshot": {
+        "time": "2026-11-08T02:20:15Z",
+        "crowd": 0.11,
+        "best_bid": 0.1,
+        "best_ask": 0.12,
+        "volume": 180530,
+        "liquidity": 122218,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "Spain election poll tracker: Who will be the next prime minister?",
+          "source": "The Economist",
+          "published": "2026-11-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9aTy1leVltUDQ1SlNWWXVtSXR0b3lKLUthM2hTd3dBZ0dxVFR2c0pJam9IX0pfRFdOSjVKcGNhWEI4MTVMbFRiM0JISzVDNEpTRXBZX25nb2lvdTVvUlNKQkEzNlJ0a2VfRTFPbkhtU2Yzb0U?oc=5"
+        },
+        {
+          "title": "Spain's 2026 general election: A who's who guide to parties and candidates in Catalonia",
+          "source": "Catalan News",
+          "published": "2026-10-30",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPVHlqLUhrcmpnVTlNQTNaQ1B1S19UNWY1N1lhQnFSNUpXVDBYczh2OVBFY19IWGdudEY1RVAyQUx6XzhlbV9xX09NUWtCQmxOM2hmQm91WXZOeXNMSXprOTlRUHpjX2Zyc0NKdld5Rmd3b2xJVzhUeXAzT3F5QkE4UFQ2d0lLSEs1ZzBGRDU3QlFJaldCaXdrMXpRWnNVNkpBWVpsS1dDYm1iRHFmWlZQcUdNS0ZCdEg2Q3lzZmdoN2E2OXUx?oc=5"
+        },
+        {
+          "title": "What do the polls for the general elections say? The PSOE collapses after the tragedy in Toledo",
+          "source": "Diari ARA",
+          "published": "2026-11-03",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQVTQ0TndsSERwSTlmTDRXQlp2bkQ4ZlgyRWlXamVDcHRJdlhXem9OX3dCNUk3VFNSYXplSXphSUpEMmZwWmVBaURWdnlWM2Y4emc0M3hIRFNuZHVtYkZORUJjRlVpaDNvWFh2d2FVNnRiM0ZWY0hVTXZxWE9jSVFYRDRJZy0tZkpMcV9RMHQtVG5lOFZ4R3NWSy1JZDU4bE9FaVk4VHR5Sno?oc=5"
+        },
+        {
+          "title": "Spain's main political parties explained for newcomers",
+          "source": "Idealista",
+          "published": "2026-11-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOaWFsVGRuN2VhZ0lRYUR0QlFndWdPMFdjMFQybmFtWTBsQmNueXN5ZXdhWXFzb2FTd3RlY0ZwNWlmeDUyN1pKeWt2ZWlCWElfcTlucEwwdnJkWVJySVJJUmdKN2hRejgzZ2F3YWtmMExSOXJIZGhrSzlNTFhvS19hZkhxYnV2cldsVjhSVjBDU0hDSHlGa1dCcVNRa1B5dUx3eVVrb0JWZDl4MmJJdWRkU0dRaXd5QXdicERHMUpvdnZpZkE2c2Y40gHMAUFVX3lxTE82S2VGZnRnSGZjS09ET2d0S1hUNVhuZXo4a1JNVU8zektVdEtXV2FfOEFlVTlfV2ZBOUs3eGRZdnNoWTlPYllwOEQ5YWVMdGx0LUtNZDM0QkQxdkZPZ05zOWFxSkU3cjY4WU9xbGVMLWRmbVFYcWdORmxQbTlEWHg4Vi13STJRWGt6X0NsSTd2QzBuWGJ5X1ptS2tZelpaTXZlaHFMZG5Gc19JcUxMbGllS3VhS0RIUEtIZURzc1lvcjhWM045ZVVVQnpldw?oc=5"
+        },
+        {
+          "title": "General election survey: the PSOE holds on after Urda and Vox wins four seats, according to Celeste-Tel",
+          "source": "Demócrata",
+          "published": "2026-11-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxOSmZOSjdsZWhtdVU1WFJqWjRzeWVzMVlma0NhVDJYVFU2R3ExeXVPZTlPVm03LUJuOUZBcmJpSFQ1U1NuRlJRYWUwUkVYOTB4QVVqQUdYZDVSTERwckxDYi1xTEJQMEFyNnpwWjNWM3liR016amdMWlNiX0VfZVNXR2VyZ1RhaWliLUxuX19adVlxVzdiYjVlLTlLV0dTOTZpbk5SbjFnQUZlVWh0UDBVVHVKeURLcHVfck5PU0JUQi1DMk9jeXF1TV9DcTlxMEhXT0tYSHJzUzZPUTVCLUV4SXNCdDMyMGc4MUI2MTNMal9Oc2FZT2pXTGg5RGZiY2RCWDgxcFdjcmZSbENDZ1BOamJDVEvSAZoCQVVfeXFMTkRsaDZraThCZjFadGtGSnVVM2RHQW5IVmhnQmxQdHFEY0hlbU85UEJMM2MwdDNwblp5bXhONzdkYWkyYVhKdHpUQzVXd1VoaFVCQzFvMi14SUhrMkVZWTFyUlpya0RvejNaTDhrbDBQQ3p3NnFINWYzZjFOa2czdFNia2EtZ0dCeFZwYXRBVi12by1ha2NiQ2hybnZib2hnN3g4N0JLVUltbTl4SmZvUUR4REljWkFQMzl3dWFUYkczMEpuT3FTVF9ZcnhRbElDXzBvZXNFSHNSZzNQb01nMk05bXhoMy1aeXl4LS1tY1FGM1lRdGlXQUFGemlCN2pHcWEtUUNrWVdkS1FESjRjaWExSjRmcnptcWln?oc=5"
+        },
+        {
+          "title": "Poll shows Spain's Socialists lost 450,000 votes after Toledo train crash",
+          "source": "The Local Spain",
+          "published": "2026-11-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZVpJcmtCdWVPMTR6a0MtYXZHSlpoX0hjaV9VbFp2dElHU2F1ZEx0Yzh0amdxWVViNHNoMU5kQXJJb0FsMUdVTU93WHUwaHY1a1IzX2pYTEFJYUJhOU5BbXNMTGtsbG1NNHUxNmR0S3FZYXQwY19pOTdyWngzWFNMVzFPdkIwQTNUa0E4YnBkNm9TcHBuemI3WDRzOS03amVvdm5BcG1NTQ?oc=5"
+        }
+      ],
+      "news_query": "PSOE win seats Spanish general election",
+      "forecast": {
+        "probability": 0.09,
+        "reasoning": "The PP has led national polls for most of this parliament. Recent reports say the PSOE has lost support after the Toledo train tragedy, with one poll putting the loss at 450,000 votes. With three weeks to go, a PSOE first-place finish in seats would take a major polling miss or a late swing."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-08T02:21:51Z",
+        "crowd": 0.11,
+        "best_bid": 0.1,
+        "best_ask": 0.12,
+        "volume": 180530,
+        "liquidity": 122768,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Gap vs. the price we'd pay is 1.0 points; counting only part of it (cautious sizing) leaves 0.0, under the 10-point minimum."
+    },
+    {
+      "market_id": "6618428",
+      "event_id": "1305146",
+      "event_title": "Eurovision Asia Winner 2026",
+      "option": "Malaysia",
+      "question": "Will Malaysia win Eurovision Asia 2026?",
+      "rules": "The Grand Final of the Eurovision Song Contest Asia 2026 is scheduled for November 14, 2026.\n\nThis market will resolve to the country ranked first in the Grand Final of the Eurovision Song Contest Asia 2026, according to the ranking below.\n\nCountries will be ranked according to their official competition ranking in the Grand Final. If two or more countries share the same ranking, ties will be broken by the total number of points received. If still tied, ties will be broken by the total number of points received from the national juries. If still tied, ties will be broken by the total number of points received from the public vote. If still tied, ties will be broken alphabetically by English country name. This market will resolve according to the country ranked first under this ranking.\n\nIf the results of the Grand Final of the Eurovision Song Contest Asia 2026 are not announced by January 31, 2027, 11:59 PM ET, this market will resolve to \"Other\".\n\nThe primary resolution source for this market will be official information from Eurovision (https://www.eurovision.com/asia/), including live footage of Eurovision Song Contest Asia 2026, however a consensus of credible reporting will suffice.",
+      "topic": "Entertainment",
+      "end_date": "2026-11-15T04:59:00Z",
+      "url": "https://polymarket.com/event/eurovision-asia-winner-2026",
+      "snapshot": {
+        "time": "2026-11-08T02:20:15Z",
+        "crowd": 0.525,
+        "best_bid": 0.52,
+        "best_ask": 0.53,
+        "volume": 12414,
+        "liquidity": 14246,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "Your Running Order for Eurovision Asia is here",
+          "source": "Eurovision.tv",
+          "published": "2026-10-29",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNelZ5djJBMF9NQWpVSXN5aDN4NGw0blpBZGtsOEZpWjJuQnY3TXFNWXp3NXZzR2hqY0dsblRSaHdRWWhfeXE0ellFQ1lPQmhZa3RqVGstaGE4M0RGSk9xVUtLTkR4ck1hQ0NxVVpwUWVFcGtCQVNjVUpsclZoQjJSVVlZb3ZGUFFZSFE?oc=5"
+        },
+        {
+          "title": "Eurovision Asia 2026: Our public poll results",
+          "source": "Aussievision",
+          "published": "2026-11-01",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOdVpVR2VpT0tlSFVfN2tpWm9xRzB4UklVZGlEWUFEN3BWZ1l3bmVZVFpPZVpqMjg5dGp2djRKLWl4VkRQb1Q2cUNPcHdjZGQxM1YxUEwwbmdxd2dHSHRKZWljYU1yUk9DVzFRbGxwZ0tTNFBQZGFSeUZtTjd0ZXFTUGJhVDM?oc=5"
+        },
+        {
+          "title": "Eurovision is heading to Asia: here’s what to expect",
+          "source": "The Guardian",
+          "published": "2026-11-07",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPWGNlQWJyNG0yOGpSc2lJdDF3dHZYWk1oVkJlWXdZcVh3Ml9xNVV1VzNtRGltbHM1b29NRWgwV0liRXNpckkzM3kyVGVHMWJXNHN1RFFGZDZ0WXF2bTZxdlllNm11U0lFT2hGOHBsd0E4azA0WktWTE13QWtkRTBpVHFWaFlnNkVxM3ZmaDFWZw?oc=5"
+        },
+        {
+          "title": "🇲🇾 Malaysia: Aina Abdul Hints at Her Eurovision Asia Performance",
+          "source": "Eurovoix",
+          "published": "2026-11-07",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNbzd5OFl1enJYWFJtR2IxeTU5dWlLZlZQRmtHbkFseURrLWpNNm5yV3N1eTNhbFhLempkZGFKOEFuQVYtTjlORjhJMjNWVG5fb1BmdDkxTXdyUzFXOFJKS0liQlRDd3FPQ0lLYnlseThxR19ScDlsRXBPTWgzb2dRRlFUaXNhTG1QSS03UU1yWnlyTGJ3?oc=5"
+        },
+        {
+          "title": "🎤 Eurovision Asia 2026 running order revealed",
+          "source": "That Eurovision Site",
+          "published": "2026-10-29",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQTDZFMzVtM0xvbEotaXQ5SFk5LThRRzlqX1NTVEJPY1daWElwWEM1TExNZnk1NF92WEpLOThqRXJ1ZnRwd0RiM1pJZ2dQSEU4UFQ0dDdvVWlKeWV1YUE4UnRRbnRDRTJOMWk2MTMzNUVsdkVNd3NFay1fOXRBbWhkSmVmYmRHZlpkS3NCRC1IUTZSczFn?oc=5"
+        },
+        {
+          "title": "Eurovision Asia 2026: Meet Malaysia's Aina Abdul",
+          "source": "Aussievision",
+          "published": "2026-11-01",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNeC02UkRsR09XdGpRVjJKaVdlR1c1NU5VVmdWdlN0RTdmVGMtSzJXZ05LcEx4VWE5NEYwUDF4eVVIZDQwU3pDMTRydnc4amlvMnZNS3V3dkZPc2dhNjR0VUdRRFhfSGpocU9Hak44Y1V0blI4dDJYdkNKZXVQNlhHZjNrUmd3TERD?oc=5"
+        }
+      ],
+      "news_query": "Malaysia win Eurovision Asia",
+      "forecast": {
+        "probability": 0.12,
+        "reasoning": "This is a brand-new contest with roughly ten or more entrants, so any single country starts with a low chance. Malaysia's Aina Abdul is a strong vocalist, which helps with juries. Larger fanbases, such as the Philippines, may dominate the public vote."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-08T02:21:51Z",
+        "crowd": 0.525,
+        "best_bid": 0.52,
+        "best_ask": 0.53,
+        "volume": 12414,
+        "liquidity": 14266,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Gap vs. the price we'd pay is 40.0 points, over the 35-point limit: disagreements this big have usually meant the AI missed something, so no bet."
+    },
+    {
+      "market_id": "3581626",
+      "event_id": "848435",
+      "event_title": "Hsinchu City Mayor Election Winner",
+      "option": "Ann Kao",
+      "question": "Will Ann Kao win the next Hsinchu City Mayor election?",
+      "rules": "Taiwanese local elections are scheduled to be held on November 28, 2026.\n\nThis market will resolve according to the candidate who becomes the next Mayor of Hsinchu City as a result of this election.\n\nTemporary, interim, or placeholder Mayors appointed before the election will not be considered.\n\nIf the result of this election isn't known, or no candidate has been elected, by June 30, 2027, 11:59 PM ET, the market will resolve to \"Other\".\n\nThis market will resolve based on the results of the elections as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the Taiwanese government, specifically the Central Election Commission (https://db.cec.gov.tw/).",
+      "topic": "Politics",
+      "end_date": "2026-11-29T04:59:00Z",
+      "url": "https://polymarket.com/event/hsinchu-city-mayor-election-winner-20260813135716400",
+      "snapshot": {
+        "time": "2026-11-08T02:20:15Z",
+        "crowd": 0.865,
+        "best_bid": 0.85,
+        "best_ask": 0.88,
+        "volume": 46213,
+        "liquidity": 60250,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "Taipei mayor takes veiled swipe at Puma Shen, says substance beats showmanship",
+          "source": "联合早报",
+          "published": "2026-10-27",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNM253YmY2WFRhTzJsZTdNd3NpSko3Z1M3VTVpM2RIdDE0SDYwcEd1dzB4aUhCVWZyOEtvWnlRRnFvQVBFeEVITHdDNmNSeEZNNXVPZmI4dnMwN2RBYktQeFh4bDhsOXJjckdYNHZTLWMyWjNseU1tMEFOMEhCckJGTTZMU0NqalF5UDZIR1V0Tk0xclI4LUZ2NmQ3c1F3MWVqUER2WGJLSXo5OGdfQUw0NkpXSGs?oc=5"
+        }
+      ],
+      "news_query": "Ann Kao win Hsinchu City Mayor election | Hsinchu City Mayor Election Winner Ann Kao",
+      "forecast": {
+        "probability": 0.5,
+        "reasoning": "Ann Kao is the incumbent, and Hsinchu City leans toward the blue-white (KMT and TPP) camp. Her earlier corruption case and uncertainty over whether the KMT backs her or runs its own candidate leave the race fairly open. I have little current polling to go on."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-08T02:21:51Z",
+        "crowd": 0.865,
+        "best_bid": 0.85,
+        "best_ask": 0.88,
+        "volume": 46213,
+        "liquidity": 57214,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Skipped: already 2 open bets on the same story (limit 2)."
+    },
+    {
+      "market_id": "5336561",
+      "event_id": "1138701",
+      "event_title": "Spain General Election Winner",
+      "option": "PP",
+      "question": "Will PP win the most seats in the 2026 Spanish general election?",
+      "rules": "Legislative elections to elect the 350 members of the Congress of Deputies of Spain are scheduled to take place on November 29, 2026.\n\nThis market will resolve according to the political party that wins the greatest number of seats in the Congress of Deputies of Spain as a result of this election.\n\nIf the results of the specified election are not definitively known by November 30, 2027, 11:59 PM ET, this market will resolve to “Other”.\n\nParties will be ranked by the number of seats won by their electoral lists (candidaturas) nationwide in this election, attributed as set out below. If two or more parties are tied on seats, ties will be broken by the total number of valid votes received by their lists nationwide, with higher vote totals ranking higher. If parties remain tied, ties will be broken by alphabetical order of the listed party names. This market will resolve to the party that occupies the highest finishing position after applying this ranking.\n\nSeats and votes will be attributed according to the electoral list on which they were obtained, as reported in the official results, regardless of the party membership of individual candidates. Lists will be attributed as follows:\n\nPSOE: lists of the Spanish Socialist Workers’ Party, including the Partit dels Socialistes de Catalunya (PSC) lists in Catalonia.\n\nPP: lists of the People’s Party, including the joint UPN–PP list in Navarre.\n\nBroad Front (FA): all Broad Front lists, including Catalunya en Comú in Catalonia, Compromís–Valencian Front in the Valencian Community, and Canarian People’s Unity (UPC) in the Canary Islands.\n\nERC: Republican Left of Catalonia lists, including the joint ERC–Podem lists in Catalonia.\n\nPodemos: only lists presented by Podemos on its own.\n\nCCa: Canarian Coalition lists, including the joint CCa–1º CAN lists in the Canary Islands.\n\nAny other list will be attributed to the party or coalition that presents it, as named in the official proclamation of candidacies.\n\nElectoral cooperation, endorsements, coalition agreements, or subsequent changes in party affiliation or parliamentary-group membership will not be considered.\n\nThis market will resolve based on the results of the elections, as indicated by a consensus of credible reporting. In the case of ambiguity, this market will resolve solely based on the results as reported by the Spanish Ministry of the Interior (https://infoelectoral.interior.gob.es/).",
+      "topic": "Politics",
+      "end_date": "2026-11-30T04:59:00Z",
+      "url": "https://polymarket.com/event/spain-general-election-winner",
+      "snapshot": {
+        "time": "2026-11-08T02:20:15Z",
+        "crowd": 0.895,
+        "best_bid": 0.89,
+        "best_ask": 0.9,
+        "volume": 137270,
+        "liquidity": 73993,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "Spain election poll tracker: Who will be the next prime minister?",
+          "source": "The Economist",
+          "published": "2026-11-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9aTy1leVltUDQ1SlNWWXVtSXR0b3lKLUthM2hTd3dBZ0dxVFR2c0pJam9IX0pfRFdOSjVKcGNhWEI4MTVMbFRiM0JISzVDNEpTRXBZX25nb2lvdTVvUlNKQkEzNlJ0a2VfRTFPbkhtU2Yzb0U?oc=5"
+        },
+        {
+          "title": "Spain's 2026 general election: A who's who guide to parties and candidates in Catalonia",
+          "source": "Catalan News",
+          "published": "2026-10-30",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPVHlqLUhrcmpnVTlNQTNaQ1B1S19UNWY1N1lhQnFSNUpXVDBYczh2OVBFY19IWGdudEY1RVAyQUx6XzhlbV9xX09NUWtCQmxOM2hmQm91WXZOeXNMSXprOTlRUHpjX2Zyc0NKdld5Rmd3b2xJVzhUeXAzT3F5QkE4UFQ2d0lLSEs1ZzBGRDU3QlFJaldCaXdrMXpRWnNVNkpBWVpsS1dDYm1iRHFmWlZQcUdNS0ZCdEg2Q3lzZmdoN2E2OXUx?oc=5"
+        },
+        {
+          "title": "Spain’s Long Ignored Senate Is Suddenly A Key Election Prize",
+          "source": "Bloomberg.com",
+          "published": "2026-10-27",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNY0lmck5PUElpSHJlVVQ1SWtQNjl4b2E5RGVLUmY2NXRnNzl0eW9ZZzJxZUVSU3YzMzRyekg5RDktUXpIMzFwbUlCc2gtNjFJVVFPLXgxWnFBdnJERFFwSmE4Mk84cXZjV05XNzlLQnRVXzdnemJuWlV5UkZuQVY2VTVoOWd6RXE4OGZJandGc09FSUotTnlhbkhBSnJfcERlMV9ZVi1YMWxRX3F5aVhSWA?oc=5"
+        },
+        {
+          "title": "No clear winner after tight New Zealand general election",
+          "source": "BBC",
+          "published": "2026-11-07",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8tSWpkMnVfajZmTi1ZUnpLZ25icjhPYzRhZTVBYWR2aHZWaXBTWkVIQjZVODlEN0d0WXJMeFhBQU1XMlBqekpqQXFCR2d1Uk1iMWJfSnJnRkp4Ymc?oc=5"
+        },
+        {
+          "title": "Yolo County General Election: Willowgrove approved by voters; Jones leads Thompson; Vega wins supervisor seat",
+          "source": "The Davis Enterprise",
+          "published": "2026-11-07",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMingJBVV95cUxPU0pFNG0zMXZ5TXlTa2JLQ2RTTWIzcWJ6Mnp1bl9hVndTWEdmZk9ic05tTGU5RXBkdkRmN2M0WU56c3NILWNVQ1c2bnBzYTFPWUZfX1BpMjJxYVlUVF9Na21IYzBlcTNVOVZhSmI1Y3R6QmRBU2YxcmljMVJkdjkzQ0pyd1VBOFMxalpyZ0tZR013Umlxa3FqR3RIMHFtSHg0enRTX1cxRGt1Zkp2bjhoOFlUcHFBdkVia2x2dWNtSHlNNUZXc1U4MVAzWnVFV1dGOHpuTkhER3gzX0hhZndad0VQUENndk9xMHRuTC1QWTlRVXdTaEQ1NjFMemQ5SnVCZ3I3SHFkWDBSRFYyUHVYQXBtV1hGeFAtMGZoNm5R?oc=5"
+        },
+        {
+          "title": "What do the polls for the general elections say? The PSOE collapses after the tragedy in Toledo",
+          "source": "Diari ARA",
+          "published": "2026-11-03",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQVTQ0TndsSERwSTlmTDRXQlp2bkQ4ZlgyRWlXamVDcHRJdlhXem9OX3dCNUk3VFNSYXplSXphSUpEMmZwWmVBaURWdnlWM2Y4emc0M3hIRFNuZHVtYkZORUJjRlVpaDNvWFh2d2FVNnRiM0ZWY0hVTXZxWE9jSVFYRDRJZy0tZkpMcV9RMHQtVG5lOFZ4R3NWSy1JZDU4bE9FaVk4VHR5Sno?oc=5"
+        }
+      ],
+      "news_query": "PP win seats Spanish general election",
+      "forecast": {
+        "probability": 0.89,
+        "reasoning": "The PP has consistently led polls in both votes and projected seats. The PSOE has reportedly fallen further after the Toledo crash. Barring a large late shift, the PP is the clear favourite to win the most seats."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-08T02:21:52Z",
+        "crowd": 0.895,
+        "best_bid": 0.89,
+        "best_ask": 0.9,
+        "volume": 137270,
+        "liquidity": 73059,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Gap vs. the price we'd pay is 0.0 points; counting only part of it (cautious sizing) leaves -0.2, under the 10-point minimum."
+    },
+    {
+      "market_id": "6594195",
+      "event_id": "1302856",
+      "event_title": "2nd Largest Company end of November 2026?",
+      "option": "NVIDIA",
+      "question": "Will NVIDIA be the second-largest company in the world by market cap on November 30, 2026?",
+      "rules": "This market will resolve to the second-largest company in the world by market cap on November 30, 2026, as of market close.\n\nThe resolution source for this market will be a consensus of credible reporting.",
+      "topic": "Economy",
+      "end_date": "2026-12-01T04:59:00Z",
+      "url": "https://polymarket.com/event/2nd-largest-company-end-of-november-2026",
+      "snapshot": {
+        "time": "2026-11-08T02:20:15Z",
+        "crowd": 0.645,
+        "best_bid": 0.63,
+        "best_ask": 0.66,
+        "volume": 11298,
+        "liquidity": 2875,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "Nvidia Is World’s Most Valuable Company Again—After Brief Loss To Apple",
+          "source": "Forbes",
+          "published": "2026-11-03",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQbkMtckNqNEtGTURaekxtSmJUNTlrRk1mallQdXhXakxZMXFrQVFLYmVuN0NxUlpUaXV1N19zM01WWmY4NmpyWnNDdGFQNmpXMmxCdUFmRUVBdG9obkZrQkdmdzI2YlRmOWxWQlBNTDNFYVY2Y0l0YnZWN3RoendOSF80TW8xeHhNekJvZm5lU0drNHUtMnVNZkhLNFpnWE9pdnhHVHltaVJWb2xiSDJfRmczQWtTcV9vbEgxbHdGTFR4TWZE?oc=5"
+        },
+        {
+          "title": "Apple Overtakes Nvidia to Become World’s Most Valuable Company",
+          "source": "Bloomberg.com",
+          "published": "2026-10-30",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQemhEdzVEaEpkYUJtQ2dYN2c3MlQ1N01MR0oxMnNheDZlbXVzaEJJd2k3bksyWGZwR0stcFZUOTNJZFB5dU1jajQ3RVZZYTBodlRJQXR4TG5tbjRibWYtUk9pUVpOWFZ5UGNOQV9sNnUyR3dfZllSSm81U2FjMDJFQTBsOU9XN2ZhRkVoTVBNdWxtVmJzdEVLRElxU2dkdG1HdjU4cGp6WmhjLVVEenJqQU80aw?oc=5"
+        },
+        {
+          "title": "Apple overtakes Nvidia to become world’s most valuable company amid tech selloff",
+          "source": "Yahoo Finance",
+          "published": "2026-10-30",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQaERfb3BqbG1kRV80OHZpNWJtNDZWTlhDZUZ5bTBJRWg0a3hJbmU1MVBmemhhbFBLQVYxbDhkZC14S1pvOWlfQkRURl8zQVJOVmZoR2g2LTczQldSYjlyV1dUVzFubTNtSmFuSUIxNmM4OUJsTFVOaUR6clBwbERNWkxfNHRBUXE1aV85cl9XWjRMTFFUb1lGWUwxU016NUJOdEE?oc=5"
+        },
+        {
+          "title": "Nvidia Took Back the World’s Biggest Company Title From Apple on Election Day",
+          "source": "24/7 Wall St.",
+          "published": "2026-11-04",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZXBCc1d6UVg4ZkhmQXZsbE1xYmhKVFdCME5DYXFHeXVucDhScl9QbmZsUXFFRkR1OExuVGJnY2VLS29pS0hqMHdoRmM1TFpCWmNrZjRPWW5zRUNhUXpFRnVRSkdQcUMxaEstZTF2Q2F5WVZiN1VIR0pLeFR2ZG1aRnliV3RVSmRoMkJldlRSV0hHeUxRQWVmMVRrbVpMdFQxSnhlRkdLNWc1dldocmpuRDZRWkgtYjdLejAzRw?oc=5"
+        },
+        {
+          "title": "98% Of Nvidia Analysts Have \"Buy\" Rating",
+          "source": "24/7 Wall St.",
+          "published": "2026-10-26",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSWlGTjM2X1lYcjlKdURYUDJOV1hIZl80RDk1S3JzZkM2Yi05T1ZGVk1JSUp6MmIzVm8wOUVMRFhKd3BtamYxZWZXYWdKMFAzYmY2YVRCRjUyMjNlTEluTjZnaWc2a09QR3Jya0JtQ1dJcXZtUFBjbFBuNVFmLVJuRmZHelJFeTNf?oc=5"
+        },
+        {
+          "title": "World's Largest Companies by Market Cap (October 2026): Apple Overtakes Nvidia as AI Return Doubts Hit Tech Stocks",
+          "source": "TradingKey",
+          "published": "2026-10-30",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPZi04Z3F6M0hyLVZmR1lxY0ZvZDZQZHR6VHkwVkhJaHRlQUZ2aUlTNHhwMjNLSnU0RElUUkJMTUdmaHpIZFFXc3ZraTZFdks0eF9Dd3VxSXk1MURMTEhwSVAxWHBJdHYxNWlGRzBnb0pOZzZvQ3RPQTVjVTFJWF9pVHhEMnBOd2NUdzNBa2NrUlJLX0JCeWktOXA0SGttYzZSTUdDck1oZ21hUUxOQzFhQ1lnelRRdm1jbVg5bHFRYWJ6RE1tRl9HME8yVVRha0VXOWo1OWI4b0syMU92d01yeUln?oc=5"
+        }
+      ],
+      "news_query": "NVIDIA second-largest company world market cap | NVIDIA second-largest company world market cap economists forecast",
+      "forecast": {
+        "probability": 0.33,
+        "reasoning": "Nvidia and Apple have recently swapped the top spot, and Nvidia reclaimed first place on November 3. Nvidia ends up second mainly if Apple passes it again by November 30, which is plausible given how close they are and how volatile tech stocks have been. Still, the more likely single outcome is that Nvidia stays first."
+      },
+      "bet": {
+        "side": "NO",
+        "price": 0.3794,
+        "top_price": 0.37,
+        "shares": 113.26,
+        "stake": 42.97,
+        "fee": 1.07,
+        "cost": 44.04,
+        "gap_pts": 30.0,
+        "edge_pts": 14.2,
+        "sized_on": 0.4875,
+        "kelly_full": 0.2146,
+        "fill": "order book",
+        "levels": 2
+      },
+      "trade_snapshot": {
+        "time": "2026-11-08T02:21:52Z",
+        "crowd": 0.645,
+        "best_bid": 0.63,
+        "best_ask": 0.66,
+        "volume": 11298,
+        "liquidity": 2875,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Bought NO (AI's gap 30.0 points; 14.2 after cautious sizing)."
+    },
+    {
+      "market_id": "6367323",
+      "event_id": "1274351",
+      "event_title": "#2 Spotify Artist in November?",
+      "option": "Rihanna",
+      "question": "Will Rihanna have the second-greatest number of monthly Spotify listeners this month?",
+      "rules": "This market will resolve according to the listed artist with the second-greatest number of monthly listeners according to Spotify on November 30, 2026, 12:00 PM ET.\n\nThe monthly listener count is listed on each artist's public Spotify profile. Only primary artist profiles will qualify; features or collaborations under another artist profile will not count towards the featured artist's total.\n\nIn the event of an exact tie for the number of monthly listeners, this market will resolve in favor of the listed artist whose name comes first in alphabetical order.\n\nIf Spotify is down at the listed time on the listed date, this market will resolve based on the most recent available data.\n\nThe resolution source for this market will be Spotify.\n\nThis market and these products have not been endorsed by Spotify. Any references to Spotify, Spotify charts, streaming data, or any associated marks are descriptive only and do not indicate an endorsement of this product or any affiliation between Spotify and Polymarket. Spotify and related marks are the property of Spotify AB and its group companies.",
+      "topic": "Entertainment",
+      "end_date": "2026-11-30T17:00:00Z",
+      "url": "https://polymarket.com/event/2-spotify-artist-in-november-20261130",
+      "snapshot": {
+        "time": "2026-11-08T02:20:15Z",
+        "crowd": 0.145,
+        "best_bid": 0.13,
+        "best_ask": 0.16,
+        "volume": 16488,
+        "liquidity": 2280,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "Spotify User Statistics 2026 (By Country & Demographics)",
+          "source": "DemandSage",
+          "published": "2026-11-04",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1BTkxXYlhDTXJCRWdKbkFfUnBsUXlTYnp6S3M2RmxQTWZXRUdJSDlHN1Jqd0p5SmJFX2pDb1hNUzZHNjY4T1VRa2h3OHhZenp5dDNJ?oc=5"
+        },
+        {
+          "title": "Artists with the Highest Monthly Listener Peaks on Spotify",
+          "source": "InMusic Blog",
+          "published": "2026-10-29",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPVnhtajlScWh1NTZ4SHdXSFhyTEVvc0ZMVHlWYjdVclVJV1EtZm1Ic2ZwRlNEeUlZaFpDTV9yOWVMVXhfQUJZTGRGMGJoSDFfY0Z2eWxxVDJicDRZMFpaTGNsWFJYRzlZVFYwd1dHZVpwRWpiZ3ZpZ1d1bzVRX3IxSHNDOW5yZWQ2djdUa0JQdUZkdw?oc=5"
+        },
+        {
+          "title": "How Dancehall Conquered Pop: From Rihanna to Bieber",
+          "source": "DancehallMag",
+          "published": "2026-11-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPbnNQdk5zWUZIYUFsZXZfQThUMGp3TWd3ek43UWtyakp6Vk9wQUxXNFVzRG9NbmE1UmVJd20yNUtxODlSUFVQNVZlSENSNVprajczRkhZY3ZtSEg0a3ZVVi1SUlRBX3dURjZveGJsZ05MRmRpSmY2NHRoTnZyUmxHdDh2SWJCalhSSmlRSTFjRkhRSDdrREdwMXRTOFVjNnJiaUFv?oc=5"
+        },
+        {
+          "title": "Wizkid sets record as first African singer to hit 12 billion Spotify Streams",
+          "source": "Daily Post Nigeria",
+          "published": "2026-10-27",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObmhOOU1YZE5HNGlaVG9aRVZrQzVrTWFhaHRFWE13WWFlQmRlQkVfYkR4TXgxSFNMYk1UZ0FzbWhrZnlVbTZBVEhWM0FSbU1aLWNHUlludmhqOW5wWHY5dkJwZG5heHhUeWtma2t2eENDdGVVWC05Z0VNaXo0TkFjUnBjc0swRURMNmtrTk1wSGNnTGFnMlNwQkd3QXMxV2JVSm5zV3gxOE9Qam1sc0hNQg?oc=5"
+        }
+      ],
+      "news_query": "Rihanna second-greatest number monthly Spotify listeners | Spotify Artist Rihanna",
+      "forecast": {
+        "probability": 0.05,
+        "reasoning": "Rihanna's monthly listener count has typically sat below the top tier of artists such as Bruno Mars, The Weeknd, Taylor Swift and Justin Bieber. Without a major new release, reaching second place by November 30 is unlikely."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-08T02:21:52Z",
+        "crowd": 0.145,
+        "best_bid": 0.13,
+        "best_ask": 0.16,
+        "volume": 16488,
+        "liquidity": 2280,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Gap vs. the price we'd pay is 8.0 points; counting only part of it (cautious sizing) leaves 3.2, under the 10-point minimum."
+    },
+    {
+      "market_id": "6367316",
+      "event_id": "1274351",
+      "event_title": "#2 Spotify Artist in November?",
+      "option": "The Weeknd",
+      "question": "Will The Weeknd have the second-greatest number of monthly Spotify listeners this month?",
+      "rules": "This market will resolve according to the listed artist with the second-greatest number of monthly listeners according to Spotify on November 30, 2026, 12:00 PM ET.\n\nThe monthly listener count is listed on each artist's public Spotify profile. Only primary artist profiles will qualify; features or collaborations under another artist profile will not count towards the featured artist's total.\n\nIn the event of an exact tie for the number of monthly listeners, this market will resolve in favor of the listed artist whose name comes first in alphabetical order.\n\nIf Spotify is down at the listed time on the listed date, this market will resolve based on the most recent available data.\n\nThe resolution source for this market will be Spotify.\n\nThis market and these products have not been endorsed by Spotify. Any references to Spotify, Spotify charts, streaming data, or any associated marks are descriptive only and do not indicate an endorsement of this product or any affiliation between Spotify and Polymarket. Spotify and related marks are the property of Spotify AB and its group companies.",
+      "topic": "Entertainment",
+      "end_date": "2026-11-30T17:00:00Z",
+      "url": "https://polymarket.com/event/2-spotify-artist-in-november-20261130",
+      "snapshot": {
+        "time": "2026-11-08T02:20:15Z",
+        "crowd": 0.85,
+        "best_bid": 0.84,
+        "best_ask": 0.86,
+        "volume": 15549,
+        "liquidity": 2043,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "Spotify User Statistics 2026 (By Country & Demographics)",
+          "source": "DemandSage",
+          "published": "2026-11-04",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1BTkxXYlhDTXJCRWdKbkFfUnBsUXlTYnp6S3M2RmxQTWZXRUdJSDlHN1Jqd0p5SmJFX2pDb1hNUzZHNjY4T1VRa2h3OHhZenp5dDNJ?oc=5"
+        },
+        {
+          "title": "Artists with the Highest Monthly Listener Peaks on Spotify",
+          "source": "InMusic Blog",
+          "published": "2026-10-29",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPVnhtajlScWh1NTZ4SHdXSFhyTEVvc0ZMVHlWYjdVclVJV1EtZm1Ic2ZwRlNEeUlZaFpDTV9yOWVMVXhfQUJZTGRGMGJoSDFfY0Z2eWxxVDJicDRZMFpaTGNsWFJYRzlZVFYwd1dHZVpwRWpiZ3ZpZ1d1bzVRX3IxSHNDOW5yZWQ2djdUa0JQdUZkdw?oc=5"
+        },
+        {
+          "title": "The Weeknd Debuts New Song Hong Kong Sampling Faye Wong’s Seasonal Wind",
+          "source": "RouteNote",
+          "published": "2026-10-27",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQLTNSa3ROV1AtV18tdkhtbjdNekQxbFdRZEhicjJEbHBBaTVQYUh1b0x6RFp2Y2ZOMktmVjMtUk5WQW5nTXA1LXpmS3hacGotSUQxWk51VUx1SHFVUnJYeG1nSkV5UnlJa3NkMWVSMUhWY0loQmJUV2NkVlhNNVNIcm5tSjNGZUN0eFg1V3hFU2Q5aDZoWjJyM3I4VVQ3WU1L?oc=5"
+        },
+        {
+          "title": "The Weeknd drops Asia-exclusive song",
+          "source": "The Music Universe",
+          "published": "2026-10-31",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9OTENZemg5R0l5azNDYzV0eVFwd29aRFE0ZHdwaGZJak5IbzdqdDhUOHBYbUlGRmhUOFNxc2lxZUFUSEU1YVRJVGJEdy13alRQZkI5Y1BXWFlhVnp3SVJzdEEteUN6NjFlaDBSdkVjN1NKYVQ4?oc=5"
+        },
+        {
+          "title": "This singer just beat Elton John for the highest-grossing tour by a male artist",
+          "source": "Detroit Free Press",
+          "published": "2026-11-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUS04TWhDY183WEtObFl5RzQ1eEpaSlJNVG1tNkVVcmpVN1p6WE1oVzd1dmdiR1ZBQXRCVTlVVGxacWhJY1c1MWxNclBrMjVzME5YaUdiaHJoblVzZE5pVFgxNTZoemI4a3oxcmtwbFl1WVlMQ2hDQ3NzemNLQmVrZFZjbTVfUmczelMySnU1MUR5YnJGVmt4TUFQUjM2NVlTekFKUHZEenQ5bnNTanhieFdDRFk?oc=5"
+        },
+        {
+          "title": "The Weeknd makes history with record-breaking $1.3 billion tour by a male artist",
+          "source": "Yahoo",
+          "published": "2026-11-07",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNU2EtN19KeXBlSjV4aVo0S0Q4cVJkYUdDNzRkTzRjUzU4VGNuZEgzRkduTmJ1c2xVSmRzTTVzMERTMzc2d0tsRXp6d0hCYmpJOWhaYkREeWtVTy1tUUZCR21ONkR2LXNaZWs0QUlEdFpPVXNPTmcxb0xseXg4ZWdIR3ZZc1lJdU1jbFMyWVRYQ0NzekZraFFPZndkc1Y4RFNoUDZZYmNBWjVYRDRYZkdsSg?oc=5"
+        }
+      ],
+      "news_query": "Weeknd second-greatest number monthly Spotify listeners | Spotify Artist Weeknd",
+      "forecast": {
+        "probability": 0.22,
+        "reasoning": "The Weeknd is regularly among the top two or three artists by monthly listeners and has new releases and tour buzz. He is competing with Bruno Mars, Taylor Swift and others for the top spots, and holiday-season artists rise in late November, so second place specifically is uncertain."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-08T02:21:52Z",
+        "crowd": 0.85,
+        "best_bid": 0.84,
+        "best_ask": 0.86,
+        "volume": 15549,
+        "liquidity": 2021,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Gap vs. the price we'd pay is 62.0 points, over the 35-point limit: disagreements this big have usually meant the AI missed something, so no bet."
+    },
+    {
+      "market_id": "5166847",
+      "event_id": "1111186",
+      "event_title": "GPU rental prices (H200) end of November?",
+      "option": "$6.50+",
+      "question": "Will the Ornn H200 Index be at least $6.50 on November 30, 2026?",
+      "rules": "This market will resolve according to the finalized Ornn H200 Index price for November 30, 2026.\n\nIf the recorded data falls exactly between two brackets, this market will resolve to the higher bracket.\n\nThe resolution source for this market is Ornnai.com (ornnai.com), specifically, the H200 Index chart data available at https://dashboard.ornnai.com. The specified finalized daily value shown on the chart will be used for resolution. Daily data will be considered finalized once the following day’s data point is published.\n\nResolution will occur once the specified data point is finalized. If the relevant data is not finalized by the end of the 7th calendar day after the specified date (ET), this market will resolve according to the latest data available at that time. Revisions made after the relevant figure has been finalized will not be considered.",
+      "topic": "Tech",
+      "end_date": "2026-12-01T04:59:00Z",
+      "url": "https://polymarket.com/event/gpu-rental-prices-h200-end-of-november",
+      "snapshot": {
+        "time": "2026-11-08T02:20:15Z",
+        "crowd": 0.63,
+        "best_bid": 0.62,
+        "best_ask": 0.64,
+        "volume": 11093,
+        "liquidity": 3529,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "NVDA Stock Ticks Higher Overnight: a16z Data Shows GPU Rental Prices Rising Sharply, Even For Older Chips",
+          "source": "Yahoo Finance",
+          "published": "2026-10-26",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNVzhIbU14cHlhdjlKTUNmTkpxbXBMTXRHb2U5Wk1rMVg0dEhwX216VVJmUEhfT3l5SUtKZVB0ZU91QklIdERHMDRzSXhmcExnMmJxSUxNMUhJNmpYdEN4bUFMTXlwbjY4WjRENmZyR0JfQWMwTWxramtEVi0teDZWOUVMTUVFRjJSTGg2NjJ6eTVXYmFxWllIT1BQeHFGemM?oc=5"
+        },
+        {
+          "title": "Injective Launches SICI Perpetual Futures Tracking Nvidia GPU Rental Prices With Up To 10x Leverage",
+          "source": "NewsCord",
+          "published": "2026-10-26",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNMXBPMU1XU1hEY1o2TDhFZjZnUC1yUXdIODFrWkdjSE9GYjBxM05SQno0V0c1WVU4QV9uQ3AwZEl3VTMxRnl0YXBOVmdvblVhZXU1aTkyR0J4XzNvNGRzTUg1WkJNSm1Mc2txU1JGQ2tMSVNDVXlwVnZMZlNpdnpBMWpSNDR4bk1rbENGazdIN1BJUUJ4RGZiUnhfYl92azZadXNoZ2NUcGcwT2tBTllSUlhwSFYwdEpBaEpGeDh5LWZ6N3FZQnlMSGVJcXBTci1UUC0tTjNMY1M1eW8xdFhyRzhJOFpiYlFkUHc?oc=5"
+        },
+        {
+          "title": "Injective SICI Perp Tracks 5 Nvidia GPUs, 10x [2026]",
+          "source": "shattered.io",
+          "published": "2026-10-28",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPZ3l5Nm5ld1hhSTZOSmllMkhvWEgyak91bHFKWkdSYzA5S0Q0X2ZXOGxkZG05cUNDaktudFB6TUdzQ1BsRkJWM0dmZ3UzTnVSN2JDejNSbXVlTTY1bExtM2F2WWo3WlVDYUFoVW1QMnN0cFBVWmNDNFpfRVF0U2wxTHRUaWRjaUswSHc?oc=5"
+        },
+        {
+          "title": "Injective launches GPU rental index perpetuals with up to 10x leverage",
+          "source": "Crypto News",
+          "published": "2026-10-26",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9WSjJMT3Y1YlpWLVdNS08ycWt4Sy1YeDZvd0lCcEM4NHZ2Rmp2cDExT2pYVjdJWFhEWllKWTVQSXNQVlBYQnBsc1JPdktCTGVhdlFuYjIxU01vV19SRGtNQm15ZDJVOGcyWVF4bi1DNU0?oc=5"
+        },
+        {
+          "title": "GPU rental rates show pricing power for scarce compute, Citadel’s Flight says",
+          "source": "TradingView",
+          "published": "2026-10-30",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNZVZhWDVLRlp1MGtkbkczdzV1VVpvSWJ2am0xQTRnckZWeDRFcVpBZjcyQ292d2NmRGVod18yUjh2TE5WS3dUdmxxVGFwM3ZQQUV6NmJySVFDUmtIOURVc2FLSkNVcU1NcTR0SnkwWjNhNkV3dmJwTEVmTjM1bmNldDBsemhWRm1LQnktb2gzUTVtNlVadG50X1BSaFlnS1UxSFVtRWVqRTVrMW1BLS1hX1lQT2ZWVk16N2ZVcGtNUEFQOGJGSDQ2eVVWMWhUU2lWUGFUYXp3?oc=5"
+        },
+        {
+          "title": "Injective Introduces Onchain Perpetual Futures Tracking Nvidia ($NVDA) GPU Rental Prices",
+          "source": "Crowdfund Insider",
+          "published": "2026-10-29",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNdkR0QndfLV9FamF6NDMzXzFINjhKbVJLVXpTMGp5NC1QcWlkRHczSVloS3VEY1JEenB6QkRteHVLZlVJVWwwTHc0MkU3UUZUNEhqclNEQ2lodUJ2S01hLUJRSVZCeUQ0V1M4TG1Da1VpVXNaeS1iMDZyU21rMXN1X3Fvbm0xTy1HLUx5QVRmaXd1S0pOdklTcGUyYWhCaTYtcWhjb3VHaUZiWDVTQ1dJUm9qWmNYOE1BOE1yeHktU21GUGxrelV0eFROMTVQMTg?oc=5"
+        }
+      ],
+      "news_query": "Ornn Index | GPU rental prices",
+      "forecast": {
+        "probability": 0.04,
+        "reasoning": "H200 rental prices have typically been around $2-3 per hour, as I recall from before my training cutoff. Even with reports of rising GPU rental prices, more than doubling to $6.50 within three weeks would be an extreme jump."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-08T02:21:52Z",
+        "crowd": 0.63,
+        "best_bid": 0.62,
+        "best_ask": 0.64,
+        "volume": 11093,
+        "liquidity": 3529,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Gap vs. the price we'd pay is 58.0 points, over the 35-point limit: disagreements this big have usually meant the AI missed something, so no bet."
+    },
+    {
+      "market_id": "5166856",
+      "event_id": "1111188",
+      "event_title": "GPU rental prices (A100) end of November?",
+      "option": "$0.75-$1.00",
+      "question": "Will the Ornn A100 Index be between $0.75 and $1.00 on November 30, 2026?",
+      "rules": "This market will resolve according to the finalized Ornn A100 Index price for November 30, 2026.\n\nIf the recorded data falls exactly between two brackets, this market will resolve to the higher bracket.\n\nThe resolution source for this market is Ornnai.com (ornnai.com), specifically, the A100 Index chart data available at https://dashboard.ornnai.com. The specified finalized daily value shown on the chart will be used for resolution. Daily data will be considered finalized once the following day’s data point is published.\n\nResolution will occur once the specified data point is finalized. If the relevant data is not finalized by the end of the 7th calendar day after the specified date (ET), this market will resolve according to the latest data available at that time. Revisions made after the relevant figure has been finalized will not be considered.",
+      "topic": "Tech",
+      "end_date": "2026-12-01T04:59:00Z",
+      "url": "https://polymarket.com/event/gpu-rental-prices-a100-end-of-november",
+      "snapshot": {
+        "time": "2026-11-08T02:20:15Z",
+        "crowd": 0.405,
+        "best_bid": 0.39,
+        "best_ask": 0.42,
+        "volume": 21042,
+        "liquidity": 3231,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "NVDA Stock Ticks Higher Overnight: a16z Data Shows GPU Rental Prices Rising Sharply, Even For Older Chips",
+          "source": "Yahoo Finance",
+          "published": "2026-10-26",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNVzhIbU14cHlhdjlKTUNmTkpxbXBMTXRHb2U5Wk1rMVg0dEhwX216VVJmUEhfT3l5SUtKZVB0ZU91QklIdERHMDRzSXhmcExnMmJxSUxNMUhJNmpYdEN4bUFMTXlwbjY4WjRENmZyR0JfQWMwTWxramtEVi0teDZWOUVMTUVFRjJSTGg2NjJ6eTVXYmFxWllIT1BQeHFGemM?oc=5"
+        },
+        {
+          "title": "Injective Launches SICI Perpetual Futures Tracking Nvidia GPU Rental Prices With Up To 10x Leverage",
+          "source": "NewsCord",
+          "published": "2026-10-26",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNMXBPMU1XU1hEY1o2TDhFZjZnUC1yUXdIODFrWkdjSE9GYjBxM05SQno0V0c1WVU4QV9uQ3AwZEl3VTMxRnl0YXBOVmdvblVhZXU1aTkyR0J4XzNvNGRzTUg1WkJNSm1Mc2txU1JGQ2tMSVNDVXlwVnZMZlNpdnpBMWpSNDR4bk1rbENGazdIN1BJUUJ4RGZiUnhfYl92azZadXNoZ2NUcGcwT2tBTllSUlhwSFYwdEpBaEpGeDh5LWZ6N3FZQnlMSGVJcXBTci1UUC0tTjNMY1M1eW8xdFhyRzhJOFpiYlFkUHc?oc=5"
+        },
+        {
+          "title": "Injective SICI Perp Tracks 5 Nvidia GPUs, 10x [2026]",
+          "source": "shattered.io",
+          "published": "2026-10-28",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPZ3l5Nm5ld1hhSTZOSmllMkhvWEgyak91bHFKWkdSYzA5S0Q0X2ZXOGxkZG05cUNDaktudFB6TUdzQ1BsRkJWM0dmZ3UzTnVSN2JDejNSbXVlTTY1bExtM2F2WWo3WlVDYUFoVW1QMnN0cFBVWmNDNFpfRVF0U2wxTHRUaWRjaUswSHc?oc=5"
+        },
+        {
+          "title": "Injective launches GPU rental index perpetuals with up to 10x leverage",
+          "source": "Crypto News",
+          "published": "2026-10-26",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9WSjJMT3Y1YlpWLVdNS08ycWt4Sy1YeDZvd0lCcEM4NHZ2Rmp2cDExT2pYVjdJWFhEWllKWTVQSXNQVlBYQnBsc1JPdktCTGVhdlFuYjIxU01vV19SRGtNQm15ZDJVOGcyWVF4bi1DNU0?oc=5"
+        },
+        {
+          "title": "GPU rental rates show pricing power for scarce compute, Citadel’s Flight says",
+          "source": "TradingView",
+          "published": "2026-10-30",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNZVZhWDVLRlp1MGtkbkczdzV1VVpvSWJ2am0xQTRnckZWeDRFcVpBZjcyQ292d2NmRGVod18yUjh2TE5WS3dUdmxxVGFwM3ZQQUV6NmJySVFDUmtIOURVc2FLSkNVcU1NcTR0SnkwWjNhNkV3dmJwTEVmTjM1bmNldDBsemhWRm1LQnktb2gzUTVtNlVadG50X1BSaFlnS1UxSFVtRWVqRTVrMW1BLS1hX1lQT2ZWVk16N2ZVcGtNUEFQOGJGSDQ2eVVWMWhUU2lWUGFUYXp3?oc=5"
+        },
+        {
+          "title": "Injective Introduces Onchain Perpetual Futures Tracking Nvidia ($NVDA) GPU Rental Prices",
+          "source": "Crowdfund Insider",
+          "published": "2026-10-29",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNdkR0QndfLV9FamF6NDMzXzFINjhKbVJLVXpTMGp5NC1QcWlkRHczSVloS3VEY1JEenB6QkRteHVLZlVJVWwwTHc0MkU3UUZUNEhqclNEQ2lodUJ2S01hLUJRSVZCeUQ0V1M4TG1Da1VpVXNaeS1iMDZyU21rMXN1X3Fvbm0xTy1HLUx5QVRmaXd1S0pOdklTcGUyYWhCaTYtcWhjb3VHaUZiWDVTQ1dJUm9qWmNYOE1BOE1yeHktU21GUGxrelV0eFROMTVQMTg?oc=5"
+        }
+      ],
+      "news_query": "Ornn Index | GPU rental prices",
+      "forecast": {
+        "probability": 0.18,
+        "reasoning": "A100 rental prices have generally been in the $1-1.50 per hour range, and recent reports say prices are rising even for older chips. That makes a reading at or above $1 more likely than one in the $0.75-1.00 band."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-08T02:21:52Z",
+        "crowd": 0.405,
+        "best_bid": 0.39,
+        "best_ask": 0.42,
+        "volume": 21042,
+        "liquidity": 3387,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Gap vs. the price we'd pay is 21.0 points; counting only part of it (cautious sizing) leaves 9.8, under the 10-point minimum."
+    },
+    {
+      "market_id": "5691223",
+      "event_id": "1189083",
+      "event_title": "October Inflation US - Monthly",
+      "option": "≤0.1%",
+      "question": "Will monthly inflation increase by 0.1% or less in October?",
+      "rules": "This is a market about the one-month percent change in the seasonally adjusted Consumer Price Index for All Urban Consumers (CPI-U) published by the Bureau of Labor Statistics (BLS).\n\nThis market will resolve to the one-month percent change in the seasonally adjusted Consumer Price Index for All Urban Consumers (CPI-U) in October 2026 according to the monthly BLS report.\n\nThe resolution source for this market will be the BLS Consumer Price Index report released for October 2026 (https://www.bls.gov/bls/news-release/cpi.htm), currently scheduled to be released on November 10, 2026, at 8:30 AM ET. Resolution of this market will take place upon release of the aforementioned data.\n\nNote: the resolution source for this market will be the official monthly Consumer Price Index for All Urban Consumers (CPI-U) which BLS reports to one decimal point (e.g. 0.4%). Thus, this is the level of precision that will be used when resolving the market.\n\nIf the BLS does not release the relevant figures on the scheduled date, this market may remain open up until the scheduled release time of the next CPI report (https://www.bls.gov/schedule). If the information is not released by that time, this market will resolve according to the figures of the most recent previous month with available data.",
+      "topic": "Economy",
+      "end_date": "2026-11-11T04:59:00Z",
+      "url": "https://polymarket.com/event/october-inflation-us-monthly",
+      "snapshot": {
+        "time": "2026-11-08T02:20:15Z",
+        "crowd": 0.065,
+        "best_bid": 0.06,
+        "best_ask": 0.07,
+        "volume": 11683,
+        "liquidity": 5822,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "Inflation in the euro area",
+          "source": "European Commission",
+          "published": "2026-11-04",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNNEZ4YnBQSE85eXotRjZFUTJJS3IwcGduU190Vlc0bGR5Q0xwYmkzU25mQlNuRHB6NnZPMlNIX3dvQmhTWndRLXpIZ1JNZ0RYOUpUcXlia0pSekxNbVdaZk9nTnc0NVZBQzVUa3kxY0NDbzYtaFJKZURZVWF0aTFRSkVMc3haVl92bUU3cU84ZENBdzY3STl4OA?oc=5"
+        },
+        {
+          "title": "U.S. Inflation Rate Is 3.7%: Why It Matters",
+          "source": "NerdWallet",
+          "published": "2026-10-29",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5Za3phOE0tNW9aSnJBY1BuMVVxTW43ZzhnUWVqUlE0cWxLNnktQjRiZC1nR0VwVnVHaDdxRUIwRGNjMDZuVW5CVFZPV1BtUjJhSlZYV3FnTUU0V2doMzRB?oc=5"
+        },
+        {
+          "title": "PCE Inflation Accelerated Last Month",
+          "source": "WSJ",
+          "published": "2026-10-29",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNN05udWJhTkF2akFvSEhxbUF0TXpBZ25iVWZKMEsxVmhxelQ5X3BZVUFTZE9OMXdsUUc0empSRjBzOEVfalFrbXJiY0ptcDZtREJUamZJb2thX2hLaEhnVzdVUFVLR3pzOU53cVJoQ3ROMFByeXNUcTB6T3RjVnNDU215WlNqQjJWM1NTbmVfbmdZVVE?oc=5"
+        },
+        {
+          "title": "U.S. continues to generate jobs, yet inflation is eroding Americans' spending power",
+          "source": "PBS",
+          "published": "2026-11-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNekNQT2xvcERTaGxJTUxQMk5xRGVWWUxzaUNXM2tvdVNoWklZVElWcGJVdi0wdkZqanNuMzBLaU9rRHB1bVVRZ0w1WlRMWlZKX0xXSFBPcTE2ajJuSlJyVHI5WXNfTnJ0YVdRV01fdjNpTW14dnhtTi0wc1R2aG5VNlFfNjhHSkF6Z3FUVzJGanhJYk9mTkV1ZXVfMjlWWWlLZzFvMmw1WDJ5bnFQbUktckNFMkRGaDl60gG-AUFVX3lxTE1feV9hdDJqZjVsUWtrOU1MVEFYU2VrSWNFQlhQbEpheVg1UUhMdlFCekhRejEzM1VnX19EdEpWOTIxeEtKNzROVS0zVUJsbG5RMF8yMTZRb0ZOVVk4Z0pxZFpSUkU3bVpncG4tMHNNZGtMV1hYdGtLNVo0Xzk2Y00wcXJhSjlXYXNnYUg4Q2hlbHBXYnVDT1JfNV9XeGh3Nk9ScVlEVkZRR3ZKbHNrbmZUX204OFpSSmU1b3pOenc?oc=5"
+        },
+        {
+          "title": "India's October consumer inflation likely nears top of RBI target on food costs",
+          "source": "Reuters",
+          "published": "2026-11-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQcWpEdVVaTkZEWmh5VXJkWXFTQ0FQSW5iVlBFLTVodFJTUlp1VjZ1LVNDZXg2bVJRaHdLM3dJWnFZU1NZeWkxeHpiaHpnSVF2YVk5QXA2WGR3TVduTjYtUHA4WUNtWml1TTI2ZnhxTGNNSzlXdmJuRGRXb3ZVa0dYNy1qcXVtXy1uRzQyak1tMXN5UUNXZVpPX1kxX1FZZ05WbG5hNFJmRDFSOXIyd0hTdTlwTE5Qb1I5UXRSdw?oc=5"
+        },
+        {
+          "title": "US Inflation Set to Simmer Down Some After Recent Pickup",
+          "source": "Bloomberg.com",
+          "published": "2026-11-07",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMHB3c0hUZDUwNkFjQmh3VW9PTGE3dmpzRkUwRWI2d25MZWhOcmRPOHhmaVdBNGp0YTF3WU9IaVQ0NVNtVG1nZDZTbXlYRVNWdmdpcUJ3cVdVcE5mMUltMWdwZE10Q3lmcFdHR2RINEtlcW54RW56ZkY1MnNsell5b3VLanVoTnh1Y0FKUVhZampkZ2xWUHJPOWxhSWVxa0VFRWhPbzdITTdjRzA?oc=5"
+        }
+      ],
+      "news_query": "monthly inflation increase | monthly inflation increase October economists forecast",
+      "forecast": {
+        "probability": 0.14,
+        "reasoning": "Yearly inflation is running at 3.7% after a recent pickup. A Bloomberg preview expects only a modest cooling, which points to a monthly reading around 0.2-0.3%. A reading of 0.1% or lower would require a notable downside surprise."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-08T02:21:52Z",
+        "crowd": 0.065,
+        "best_bid": 0.06,
+        "best_ask": 0.07,
+        "volume": 11683,
+        "liquidity": 5822,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Gap vs. the price we'd pay is 7.0 points; counting only part of it (cautious sizing) leaves 3.2, under the 10-point minimum."
+    }
+  ],
+  "batch_id": "msgbatch_01KmHa2ftBxFWqFEsbJKY4t2",
+  "forecast_at": "2026-11-08T02:21:51Z",
+  "usage": {
+    "input_tokens": 8464,
+    "output_tokens": 2527
+  },
+  "cost_usd": 0.0422,
+  "budget": 51.93,
+  "account": "phase-1.2"
+}
