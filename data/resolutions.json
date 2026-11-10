@@ -988,5 +988,35 @@
     "outcome": 0,
     "resolved_at": "2026-11-09T18:37:36Z",
     "question": "Will \"Godzilla Minus Zero\" Opening Weekend Box Office be less than 28m?"
+  },
+  "648383": {
+    "outcome": 0,
+    "resolved_at": "2026-11-10T08:12:45Z",
+    "question": "Billionaire one-time wealth tax passes in California election 2026?"
+  },
+  "6366825": {
+    "outcome": 1,
+    "resolved_at": "2026-11-10T18:03:54Z",
+    "question": "Will Gemini Carbon be released on November 10, 2026?"
+  },
+  "6366826": {
+    "outcome": 0,
+    "resolved_at": "2026-11-10T18:03:54Z",
+    "question": "Will Gemini Carbon be released on November 11, 2026?"
+  },
+  "5699271": {
+    "outcome": 0,
+    "resolved_at": "2026-11-10T15:31:51Z",
+    "question": "Will Core CPI MoM be 0.2% in October?"
+  },
+  "5691223": {
+    "outcome": 0,
+    "resolved_at": "2026-11-10T15:31:52Z",
+    "question": "Will monthly inflation increase by 0.1% or less in October?"
+  },
+  "5691229": {
+    "outcome": 0,
+    "resolved_at": "2026-11-10T15:31:52Z",
+    "question": "Will monthly inflation increase by 0.3% in October?"
   }
 }
