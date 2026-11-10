@@ -1,0 +1,634 @@
+{
+  "run_id": "2026-11-10",
+  "date": "2026-11-10",
+  "created_at": "2026-11-10T00:39:05Z",
+  "model": "claude-opus-5-5",
+  "effort": "high",
+  "phase": "1.3",
+  "pick_stats": {
+    "eligible": {
+      "Economy": 9,
+      "Entertainment": 1,
+      "Politics": 30,
+      "Tech": 1
+    },
+    "picked": 8
+  },
+  "track_record": "=== Your track record so far ===\nThese are your own earlier forecasts in this experiment that have settled (191 questions). They show only what you said and what happened (no market information).\n- On average you said 39%, and 44% of these events happened. Overall, your average is close to how often things happened.\n- Your average Brier score is 0.259 (0 is perfect; always saying 50% scores 0.250).\n- When you said...\n    under 10%: it happened 5 times out of 19.\n    10-30%: it happened 20 times out of 57.\n    30-70%: it happened 40 times out of 82.\n    70-90%: it happened 17 times out of 31.\n    over 90%: it happened 2 times out of 2.\n- Your biggest misses:\n    \"Will SpaceXAI officially rename itself to SpaceXSI by October 15?\" You said 3%; it happened.\n    \"Will the Tesla Roadster fly for 1s+?\" You said 4%; it happened.\n    \"Will Xiaomi have the best Chinese AI model at the end of October 2026?\" You said 6%; it happened.\n    \"Will monthly inflation increase by 0.6% in September?\" You said 7%; it happened.\n    \"Will there be between 0 and 5 average daily transits of the Strait of Hormuz on October 31?\" You said 7%; it happened.",
+  "questions": [
+    {
+      "market_id": "6880638",
+      "event_id": "1120129",
+      "event_title": "Pete Hegseth out as Secretary of Defense by...?",
+      "option": "November 14",
+      "question": "Pete Hegseth out as Secretary of Defense by November 14?",
+      "rules": "This market will resolve to “Yes” if Pete Hegseth ceases to be U.S. Secretary of Defense for any period of time between market creation and the specified date, 11:59 PM ET. Otherwise, this market will resolve to “No”.\n\nAn announcement of Pete Hegseth's resignation/removal by this market's end date will immediately resolve this market to \"Yes\", regardless of when the announced resignation/removal goes into effect.\n\nThe resolution source for this market will be official information from Pete Hegseth and the U.S. government; however, a consensus of credible reporting may also be used.",
+      "topic": "Politics",
+      "end_date": "2026-11-15T04:59:00Z",
+      "url": "https://polymarket.com/event/pete-hegseth-out-as-secretary-of-defense-by-november-30-20261001003401433",
+      "snapshot": {
+        "time": "2026-11-10T00:39:01Z",
+        "crowd": 0.075,
+        "best_bid": 0.06,
+        "best_ask": 0.09,
+        "volume": 47829,
+        "liquidity": 36010,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "'I'm a hard yes': Hakeem Jeffries announces support for Hegseth impeachment",
+          "source": "ABC News - Breaking News, Latest News and Videos",
+          "published": "2026-11-08",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPb20xbFJrbWwtczFqRGF0cGNhZUpDanZrODU1UURsaktxRnNiVDhBbmhJSnQxTFEycTI0VnFqN2JqTDRIaFdvZnJiel9MaW1CSDNxYUlNM1hzeUluNmFFekl6b1dHWHJqS0FEQVB1elNOSUt3ZHFwelZxOHhkVWxZU0lkUEdxSmxKUXMzMWNoWUk4R1p0M1NyZGwzYWZ0aXFNZ2g4YjZ1UnFpMDB5UkHSAbMBQVVfeXFMTVktNUljS28wMFgwWkJURXJ1YWlrNU4ySTl5dTh1WlV2SXpubHNKeUc3VmhTS3pLdjlLSTVONFRvc0doeWVuOEkzV2Q4SmN1WFBOaGNIeTljNEF4QlQyNHFrNFlBOTh4Tnh6RUtla1BJNGxxWXVTRktyMnhVWENNZVRTbnBiRjVlMXBiV05sbnk1NllOdTJDVFNDbndXalc3V2VjVGZFaUV3elNnT3NmVWlydms?oc=5"
+        },
+        {
+          "title": "Hegseth fires the Pentagon's top military planner even as Trump considers new Iran strikes",
+          "source": "PBS",
+          "published": "2026-10-29",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOdmtqZDlERWUySHdKbDF3cmhHWmF1MVZtNkR1MXFfTndncHhCQVhSS1VUU2xNNnBoMTZRZ1RSenc0ZEl1V0UweGpUYW1WbzlrNnZydzI5bWFZLThqUnplTEY4T1BweTQ1TkpOTjlvZlFPQUZfMlVJRVRtbEw4U2RTRWt2YXVLTmhQS0JubmNZOUN2VE9wMmF5TWNGOUVQXzNEaXVpb0pvbmRlWVlVd2NOR2ZDWS14cG5XQzZxVnJDRXE2YnFKemfSAcsBQVVfeXFMTVFCR2RPZ3RTT1JCY3VHeXBQNHRmbjhuODFjOHM3MTFNaUlZV3Uycldoc0NzdkRMd0pMVXpaU1JTTGZHR29VX2FXTnFVeHJzUHJrdnJsUEFQX3BjWnNTWWd0UlFlbUF1VnNscGFWdk9FTWhxeVhOdHRnVDNSU1A5dU9qUkVpN0RwOXJOcDNFNHp6WkY5RmJMWlo5Z0F4SmlIWlgyWU1Db3RzSnJ4X0ZSS0NYRWo5RW1oajFPWEVKMWl4NmJfOVhTb0hsRzA?oc=5"
+        },
+        {
+          "title": "Washington Post. . Could Secretary of Defense Pete Hegseth face impeachment following the midterms? Dan Balz, The Post’s former chief correspondent, and Freedom Desk host Jason Rezaian discuss what could change if Democrats take back the House a",
+          "source": "Facebook",
+          "published": "2026-10-29",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPcGxLempxc2Z2MWlUaGl0b3ZtN1ZvMmtmUVBBSFBHV05jQWFTeU1WWkV5T1p1cmtXdGwtMDFLbmxiOFluTE1rT3pGaEgzSU1yLWRLSHZPREk2V3JDQWpjNWt4N19nanRZWnRvTnhjd1pxOFlSVmdvamo5clI4bUgyVlFIWkp6bkdZM01zY0hYZHJ6dlgzS3AzQ2NFWjZfN19tX29HZVBiYzFUcUp6Y0E3OFpsd0FLSEVPRFJQLWxxc2RZVW5yeEE?oc=5"
+        },
+        {
+          "title": "Thomas Massie files articles of impeachment against Defense Secretary Pete Hegseth",
+          "source": "NPR",
+          "published": "2026-11-09",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNVEVycllJNF9meEdQNkVKeTZLWjRmX2t1U3luV3otVkhWbkJPYVNQYl93X3FEUGdrYl9vaXBDT2JBWENBRFlwTlczOHdpbURZMk1fTjc1XzlTcTNWZ1RsZkRqMVhkTnZGMzFWanpYS1NvY2Y0RWFBRG1CeHUzMG56M05DMFZBbGlqZDZJ?oc=5"
+        },
+        {
+          "title": "GOP Rep. Thomas Massie unveils impeachment articles against Defense Secretary Pete Hegseth",
+          "source": "NBC News",
+          "published": "2026-11-09",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcVZLUS10dU5IVjRzQlpKeG9pZnJqLTZsNjRzTHk0RTZBN3hRckluYUFNbDJyZVZ5QmU4RUxSdmdvYU9oRExSRDhmTktQa016cXpISi1YY0NtSjJDNy1zRGhDNXB6dGNkT3pEUnE2U0hLR3lDZHA3REVIdTVfNXNydS00YVlQX0QyZEhWbmJQR3RQemk0MHRGWDA1YjZWZ09zM2hoTmIzZzJwbFVmSUJzbVg0X0NJdTI4?oc=5"
+        },
+        {
+          "title": "Republicans quickly turn against Pete Hegseth after midterms rout",
+          "source": "CNN",
+          "published": "2026-11-04",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5wTGgwc1I2REpsU3p0aktpWnd0TnNEbXRDRmREeGZVYjl6TFp4bkFucWdvS2Rqb2NiZXM5Vms0Zk9kT084eEJPeHJEWWliSFE5NjRhTGg2eU5iQ25xVmlCNmhfNjdwc1JYd2Iwdzlob1BNQkR2a2xmZS1n?oc=5"
+        }
+      ],
+      "news_query": "Pete Hegseth out as Secretary Defense",
+      "forecast": {
+        "probability": 0.1,
+        "reasoning": "Pressure on Hegseth is clearly rising: Republicans turned on him after the midterm losses, Massie filed impeachment articles, and Jeffries backs impeachment. Still, only four days remain, Trump has a record of standing by embattled appointees, and impeachment would not remove him in time. A sudden resignation announcement is possible but unlikely in such a short window."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-10T00:42:38Z",
+        "crowd": 0.075,
+        "best_bid": 0.06,
+        "best_ask": 0.09,
+        "volume": 47829,
+        "liquidity": 36230,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Gap vs. the price we'd pay is 1.0 points; counting only part of it (cautious sizing) leaves -0.2, under the 10-point minimum."
+    },
+    {
+      "market_id": "6440148",
+      "event_id": "1285996",
+      "event_title": "Who will Trump speak to by November 30?",
+      "option": "Lula da Silva",
+      "question": "Will Trump speak to Luiz Inácio Lula da Silva by November 30?",
+      "rules": "This market will resolve to \"Yes\" if the listed individual speaks with Donald Trump between market creation and November 30, 2026, 11:59 PM ET. Otherwise, it will resolve to \"No\".\n\nSpeaking is defined as any verbal interaction between the listed individual and Donald Trump, occurring either in person or through verbal communication by phone or video call.\n\nThe resolution source will be credible media reporting. However, in the absence of definitive or in the case of contradictory media reporting, statements by either of the specified individuals or their official representatives will also be considered.\n\nStatements by the specified individuals or their official representatives will only be considered conclusive if the claims explicitly, or in context unambiguously, indicate that a qualifying talk occurred within the specified timeframe and took place via verbal communication, and provided that such claims are not contradicted by the other specified individual, their representatives, or credible media reporting by the end of the third calendar date (ET) following the statement in question.\n\nThis market will resolve at the earlier of i) a qualifying verbal interaction being confirmed under the above rules or ii) 11:59 PM ET on the third calendar day following this market's above-specified timeframe.\n\nIf the date and time of a qualifying talk cannot be confirmed by a consensus of credible reporting by 11:59 PM ET on the third calendar day following this market's above-specified timeframe, it will resolve to \"No\" regardless of whether it was later confirmed to have taken place.",
+      "topic": "Politics",
+      "end_date": "2026-12-01T04:59:00Z",
+      "url": "https://polymarket.com/event/who-will-trump-speak-to-by-november-30-2026",
+      "snapshot": {
+        "time": "2026-11-10T00:39:01Z",
+        "crowd": 0.46,
+        "best_bid": 0.45,
+        "best_ask": 0.47,
+        "volume": 22017,
+        "liquidity": 30560,
+        "fee_rate": 0.0
+      },
+      "news": [
+        {
+          "title": "Trump says Flavio Bolsonaro can stay in US 'as long as he wants'",
+          "source": "Reuters",
+          "published": "2026-10-31",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPSmwzNUwxNEpXRmE1UjRrTlBIeGJQMGJ0N1NxOUlVZENsWFVadHloUlA2MzlWRWU1dGFqYk55aUpWeUVkbDJhczBBUThTZ0p6alRuV245ckRGOTl2S1VXbzJDc2NCU1g3QV9QeE1KYnhaVEY5YVp0RnZjVmtpZkNkNFdhdUZjVi0ySXpJWjdPTHUxNDhmeUdxVkR3aTBiRmIxN0ZmT2F0RVBvNlU?oc=5"
+        },
+        {
+          "title": "Trump says won’t ‘take sides’ in Brazil election, but calls it a ‘disgrace’",
+          "source": "Al Jazeera",
+          "published": "2026-10-29",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQRFlULWQ3WEJrbWdhdC1hbXYwZS1yZXJfM1cwMFA1azZXUnpIMHVrd0xvN2ljUUg5UlZTQ1dndVYtTWNXekxmYXU0YklNUmZFa0w5dzg3eWdycGFzV0trU3RJcEZBcUdYOVVOeW13WDRYQ0JvR0pOOWMxRzJyMno2Z1FwUjUtc2FnSlNjcG13UUVObGFWSWdLWmdyc2NabmRtN20xWUdfQk1WQmluVnJhMdIBtgFBVV95cUxOdk0wX1FIMHhKeVVWaFNTQkFhVmd6b3JIZkZ6ZnFZQllqRVFqYnRDNUI3czEwY21fSGpGbHJoZ00xaTkyTnhHZDRoTGlTY3Y0QVJiWWhjNi1OeFNCaGpjZFhOYzdDY0xncDZnMGtRUVBjSmZNb2gtc0l6Ylg4RmxUWGdxX1EweWx4OExqcGh1X0RfUHVuc01pYnZHMWRNdW5KVGtnY0xnWHpxcHA5ekNMVE9lZTRzZw?oc=5"
+        },
+        {
+          "title": "Trump Shelters Flavio Bolsonaro, Risking Tensions With Brazil",
+          "source": "Bloomberg.com",
+          "published": "2026-10-29",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMzZwaHRMdVBkVkZfMTlfSWVQUzQwaXZuMFhRQmlVWVNZejZ6bkt1LXpEejNzOEluVkhkV2RiVHRXU3lRLThSamxpdVpxVEF4b3VSQXdpYmI4T0Z5WWNOSjJRemN2a08zWXQ4V1cyeVQ0VHExLVVnRzJFam1pSU1TdWFOdFpCTVo0cE5USmlPeVkzMkN1SGVUT2ZWVEtlaUkzcXkwbm5DQ28zYVpudVZMcA?oc=5"
+        },
+        {
+          "title": "Lula’s win in Brazil bucks a regional shift to the right and denies Trump a powerful ally",
+          "source": "WJTV",
+          "published": "2026-10-27",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNUDFnS0FDekhEd0E2WmxzWmZPc191YWJUR09DMXdkdFl0OTJNTzBiYXpzNlZWYllqN2RBcmdLTXVFbEtqbDhKd1dzcFpreXI0VnFFZldzTEYxRWlwbkc2OGFoZUhjNGtMUW50aGNKVkpxbEUzRnBuYVdIYjBjLU5Eel9lZ3hNdVk4RTJvNUNnU2loZzhHYXVORHBMcjQ1bEtxUDlMZ1VIaWtweDJfVmRzd3JsenkyeHRDeFk4ZGd1OUNQR2RXNFpBd0hmekXSAdIBQVVfeXFMT2M3eElEUnUzcTlhUXVwVHg3ekNMSUwwMzBtNDFuQVppVzB3VkN3Q0RtYU9UNUg1RWwtNmU5ZGxDT09WamNvSUZmbWpETEJPc1AxQ2I2VUczX1U2UnQ2TTIzVjB3NVBRTHpJVG9tOFd4eGNxOTBsMVFiblNmUG1iRlc2cTRvRVZUUWVrTk91YXF3aTA3OVhZMzVQVnNVd0xWOFVPYWZuaG5ZYmM0MExWSV9WME1wQnlsNlczZ2g4bXVpMlhfZ0RBa3hHb2YtZnBjOW13?oc=5"
+        },
+        {
+          "title": "Lula limits Trump’s Latin American ambition",
+          "source": "Lowy Institute",
+          "published": "2026-10-28",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQVEhpRWVJMmZyaGpzY25BRnM3NmhSdFZTYm8zZGc0MEVLYUF0clRFTWxmLUdST1JBbVMwbUppQUZLc09VbDdfUlJRbWFseS01aGN5ZnJQVUxrdDV4LVBBdm9MdXRwdXlrZ0ZBcHFzUm1VLVJSdWIycnVqNVdhcVBBRmo1eWRSQUVWQU5PZ0h6RGhaQlE?oc=5"
+        },
+        {
+          "title": "Trump says he approves of Brazil's Flavio Bolsonaro coming to U.S. following election loss",
+          "source": "CNBC",
+          "published": "2026-10-28",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE95REVlYnR6ajVrU1hlMUh4cDNaSGJPa0xqZGNNZkV4VVhyQ2hQeG1rS0hSOGMzZW5pNVcxbFJMUGdqczI4c1o5MERFZnZ1WUlrOGM2X1JLU0hQZlNoU3NEWWdZbzRYSFBXZTZIVGdKSVVnbHJtTi1wRkduONIBgAFBVV95cUxOb3JTeWJPY28tbWtuUHlVcG5NczRnaUR6TWk5bUNDa2tfbFQ2UE9INUNYT2JMUk5YalRjNU5CWXRaY3Qtc0paOXZZaVlXeV9uRWVnd0Y3OHJIWENVOEdiaS1zc2ZrMkpOY3RTczlEOEEwR1lqMDI5ZG91U05oWTBGZg?oc=5"
+        }
+      ],
+      "news_query": "Trump speak Luiz Inácio Lula da Silva",
+      "forecast": {
+        "probability": 0.2,
+        "reasoning": "Lula won reelection, but Trump called the election a 'disgrace' and is sheltering Flavio Bolsonaro, which makes a friendly congratulatory call less likely. No call has been reported in the two weeks since the vote. The G20 summit hosted by the US appears to fall after November 30, so an in-person meeting inside the window is unlikely."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-10T00:42:38Z",
+        "crowd": 0.46,
+        "best_bid": 0.45,
+        "best_ask": 0.47,
+        "volume": 22017,
+        "liquidity": 29786,
+        "fee_rate": 0.0
+      },
+      "bet_note": "Skipped: already 2 open bets on the same story (limit 2)."
+    },
+    {
+      "market_id": "4170752",
+      "event_id": "955999",
+      "event_title": "Fed decisions (Sep–Dec)",
+      "option": "Hike–Pause–Hike",
+      "question": "Will the Fed Hike–Pause–Hike in the next three decisions (Sep–Oct–Dec)?",
+      "rules": "The FED interest rates are defined in this market by the upper bound of the target federal funds rate. The decisions on the target federal funds rate are made by the Federal Open Market Committee (FOMC) meetings.\n\nThis market will resolve according to the decisions made by the next three Federal Open Market Committee (FOMC) meetings: September 15-16; October 27-28; and December 8-9.\n\nA qualifying cut occurs when the new upper bound of the target federal funds rate is lower compared to the level it was prior to the respective meeting.\n\nA qualifying hike occurs when the new upper bound of the target federal funds rate is higher compared to the level it was prior to the respective meeting.\n\nA qualifying pause occurs when the new upper bound of the target federal funds rate is equal to the level it was prior to the respective meeting.\n\nIf the Fed publishes a different combination than any listed, this market will resolve to \"Other\". Any rate cut will be encompassed by \"Other\".\n\nEmergency rate changes outside the regularly scheduled meetings will not be considered.\n\nThe resolution source for this market is the FOMC’s statement after its meetings:\nhttps://www.federalreserve.gov/monetarypolicy/fomccalendars.htm\n\nThe level and change of the target federal funds rate is also published at the official website of the Federal Reserve:\nhttps://www.federalreserve.gov/monetarypolicy/openmarket.htm",
+      "topic": "Economy",
+      "end_date": "2026-12-09T23:59:00Z",
+      "url": "https://polymarket.com/event/fed-decisions-sepdec",
+      "snapshot": {
+        "time": "2026-11-10T00:39:01Z",
+        "crowd": 0.81,
+        "best_bid": 0.8,
+        "best_ask": 0.82,
+        "volume": 205457,
+        "liquidity": 76356,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "Fed leaves rates unchanged as it awaits 'accumulation of more information'",
+          "source": "Reuters",
+          "published": "2026-10-29",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPaU93czlpTHJXMTJGby0yOGppZGVlVkZzZW4tNC11WTcwVk1yQUZHTVMza0dTLURMRi0tTUtYTHhITkI2OVBWN2k0anZCN2liNnlyNFpaTmFTaWlFTHItWmtBXzh1VWhkRjZBNjVDejQxOGNUTW1HWWRBUzNjbGdKUDV0MlFSWXRsaWQwMXpWQXI?oc=5"
+        },
+        {
+          "title": "One Fed Decision, Three Markets to Watch",
+          "source": "Direxion",
+          "published": "2026-10-28",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA3X1pwVnZPa3h3Z3E4QTJXa2czZkwxTnRLZDFzRTgyc2N1cFFOUEZfMlRET0xOdnRRRjRGQS1zVDdkUXhHVWFIRkdYWkNWMEE5SVNFOHpfMnVGU3d0czhsYlZFN3hRNk9hb3dfdUZ3cXZQRm1IVk1renNEOFM?oc=5"
+        },
+        {
+          "title": "WATCH: Warsh holds briefing after Fed leaves key interest rate unchanged",
+          "source": "PBS",
+          "published": "2026-10-28",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOeDRabTk3MGZlX1gzSnlMWEhPLTczT3pUckE2Q3R4cUpHT0lfQnFKRHo1eWdiQ1FiVXBXQlV6RVhpSTROYUZoYlFzRVlxMWlGUFdZcW5jMXpKdlBiZHRJMzNSOGJMTUFMWVdDVS1sbkFNcy12TGlnVE5rclMyREY5SEl6dEEwVE1VdFMyX0V2VWtFLWVVQ05iUWJMT2M1blZPZkNOUi1xLVFCWi1WZGxsZFJhXzDSAboBQVVfeXFMTV9BakhETXRqMkhSSzY5V1hjVHZ2Y1VkVzFMX19ua1BLUTRGQWdLWTI3aEcwMkhROG5tSjlDMHRLbDAtczhuV2djeUl2VHVydUo2NGFxcVk3YmpkdDRNMndOYlRlVzA0X3Y0WWxLU3hTanFreDdqdXA4ZmJPWk1QWU1BbHdocmo4VmVwLXEtTU5GUFhsYkhUN1VmZXB4TnE2SmItLVMtang4Tmd2NDdwanpPVUVpczB5aFZn?oc=5"
+        },
+        {
+          "title": "US Fed expected to hold rates steady ahead of key midterm elections",
+          "source": "AFP.com",
+          "published": "2026-10-28",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNWFBFMUpEUkM5V1Bhd3lvRWpPbEROSmwwRjZObEh5LXB4OEFiOWRjXzhwZU9XS2Y3ZFdZV3dRNmh1dGpBUURrRUVsWTFzTFA2ZnhPZ1k1c0RrOWV1NGFOWnRJc0o5eFVnWXEya2NQMGotbU5tM3BySm1sWERXbFVvdGNQLTlZRkFhV3ZuNw?oc=5"
+        },
+        {
+          "title": "Fed Pauses Rate Hikes in Split Decision",
+          "source": "National Association of Wholesaler-Distributors",
+          "published": "2026-10-28",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9kNE0xU3hiNHZ3aHk5QU8ySG9UaEwxWE1HbjhzU0s2WEtOMlJNVDFUc1ctbjBFb2lwOXhOOVpFYWF5OUdFODdWV05ZeTZtSmJDaWhBRktpdHNya3dwSjBGOWRqdEpVeEFFRy1qcUppSXRnMTJOUWw0WQ?oc=5"
+        },
+        {
+          "title": "Federal Reserve holds interest rates steady even as inflation remains high",
+          "source": "CBS News",
+          "published": "2026-10-29",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPSk1RMm9QTGg5a0ZmU1d1OXRGZlFMZjJwZ0pHczhCR3ZHNjdNT0R6ZnhPRjJfMlY3SFB0RzFUcjJQMWQzM01TREpIRlNaaXRYVTVQRXI3S0tTVUJSWkZuMnRHY3JaeVB0cEQ1RmJUSnZZT2prSFk0Z0Z0eFNvREs4Ti1FcWtjNjZSUEJF?oc=5"
+        }
+      ],
+      "news_query": "Fed Hike Pause three decisions | Fed Hike Pause three decisions economists forecast",
+      "forecast": {
+        "probability": 0.28,
+        "reasoning": "The headline 'Fed Pauses Rate Hikes' suggests September was a hike and October a pause, so this depends on the Fed hiking again in December. The Fed said it was waiting for more information, and the October vote was split. Inflation is still high, but hiking right after a pause is less common than holding again."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-10T00:42:38Z",
+        "crowd": 0.81,
+        "best_bid": 0.8,
+        "best_ask": 0.82,
+        "volume": 205457,
+        "liquidity": 80593,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Gap vs. the price we'd pay is 52.0 points, over the 35-point limit: disagreements this big have usually meant the AI missed something, so no bet."
+    },
+    {
+      "market_id": "3581449",
+      "event_id": "848409",
+      "event_title": "Kaohsiung Mayor Election Winner",
+      "option": "Ko Chih-en",
+      "question": "Will Ko Chih-en win the next Kaohsiung Mayor election?",
+      "rules": "Taiwanese local elections are scheduled to be held on November 28, 2026.\n\nThis market will resolve according to the candidate who becomes the next Mayor of Kaohsiung as a result of this election.\n\nTemporary, interim, or placeholder Mayors appointed before the election will not be considered.\n\nIf the result of this election isn't known, or no candidate has been elected, by June 30, 2027, 11:59 PM ET, the market will resolve to \"Other\".\n\nThis market will resolve based on the results of the elections as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the Taiwanese government, specifically the Central Election Commission (https://db.cec.gov.tw/).",
+      "topic": "Politics",
+      "end_date": "2026-11-29T04:59:00Z",
+      "url": "https://polymarket.com/event/kaohsiung-mayor-election-winner-20260813125857600",
+      "snapshot": {
+        "time": "2026-11-10T00:39:01Z",
+        "crowd": 0.1315,
+        "best_bid": 0.121,
+        "best_ask": 0.142,
+        "volume": 70187,
+        "liquidity": 64556,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "2026 Elections: Kaohsiung debate focuses on 205th Arsenal, donations",
+          "source": "Taipei Times",
+          "published": "2026-10-31",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFAxLWpGNGszYS1KVHdMbG0wOXhGa3plZjJhYVNhd25qcVR0d3g4QTNMRlBYLUlWdXh0LUdFYl9IZVAxU3V4eE55MWlEMExNTjdjbjdwQm54RFc5clZMMVVLaVhQQnRHUkFZd0I4V0FwRUFiUEc4eTBSQkpR?oc=5"
+        },
+        {
+          "title": "Ko Chih-en earns ‘warrior’ nickname after sharp debate performance, but wider appeal remains untested",
+          "source": "联合早报",
+          "published": "2026-11-07",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPUm5fbnZ6b0JvMm4xaXNXMDkwOTMzMzJxaXZIaFFsTGJkMGh2WUtQQ2N4RnFpeTZlWHN0M3JwY1pjNGpsRnp0OVJYWXcyYzdfM2UyelN2dllVZGxQdTJQTzdCTjhlby10Vm5hTmxoTnF4VXJBNDRHS2dla0xQYU9XQXgyRVhmTEFlb0cyWnFMS1Zkc0NPY1VQWWs2ZTI4ck9aUnBfaXRyUkM1VzFnRDAyOXd2TUpGQlljbmc3Wm56amE1Ul9jMmhuZXV1NjRBYW8?oc=5"
+        },
+        {
+          "title": "DPP’s Lai Jui-lung, KMT’s Ko Chih-en debate Kaohsiung mayoral race",
+          "source": "Taiwan News",
+          "published": "2026-10-30",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5jMENTcEtaZ3F0NHV3cm52Qm9fUnRPejZ2ZWRfd3E5WDdMM2FuOFhrNHgwNmpScTlXZFZueTV2UlVZRmtyWEVuMkx6Z2JwOU1fMWFuNA?oc=5"
+        },
+        {
+          "title": "2026 ELECTIONS Kaohsiung mayoral debate focuses on 205th Arsenal redevelopment, political donations",
+          "source": "Focus Taiwan",
+          "published": "2026-10-31",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1FQmEzZmozMk1kRnZFdVJlZDhETHZBUUV6SWFhREtXWXVrM2NVcFlBcmtwdE03RXFXYmxOWWFYSk5DQUEycGlRYnZFU05EckNFZWhFVEpSUQ?oc=5"
+        },
+        {
+          "title": "Ko Chih-en camp targets New Tide faction to split DPP vote, boost KMT turnout in bid for upset",
+          "source": "联合早报",
+          "published": "2026-11-09",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPYVN1bzJkbE1SblVEQVE5UzREelk0QzFRaGllMUEyUmtLWDBpWHJBLUhjejhxb0NERFZUdEtaVm8zMFA5R0xveU92eXlnRmY0RWJfZUlaZGFETmpVNGZHVFBycVFzQ3FXTlAyYnVTdF9OMVItdmtrajk0Q0FqVWFrT3ZUbDl5cnpjVVRVMEw4Zmg4X2JwaGhKZ3JmMWVUOXlEOUhYU2hTdkNMbTJJZ0plR19LaklwdThQRlVfaUp1bk0?oc=5"
+        },
+        {
+          "title": "2026 Elections: Taipei mayoral rivals step up campaigns; back allies in Kaohsiung",
+          "source": "Taipei Times",
+          "published": "2026-11-07",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE56bG93OEtSeENEZUd3TWVvbDl6cmtVblBPYlI0LXJuZWhObzVFWWxqN0VDa2t4c1dkZ01TOHktbmFuS21ZdHJ4S2Ntc3k5aDRkUGdjTFZ5dlJ4N2FzN09oVnp0MEIxbHNIbVc5cjZxdmh3SVlOZk13OHB3?oc=5"
+        }
+      ],
+      "news_query": "Ko Chih-en win Kaohsiung Mayor election",
+      "forecast": {
+        "probability": 0.18,
+        "reasoning": "Kaohsiung is a DPP stronghold, and Ko lost there by about 18 points in 2022. He is getting good press for his debate performance and is trying to exploit DPP factional splits. Even so, the DPP's Lai Jui-lung remains the favorite."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-10T00:42:38Z",
+        "crowd": 0.1315,
+        "best_bid": 0.121,
+        "best_ask": 0.142,
+        "volume": 70187,
+        "liquidity": 64556,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Gap vs. the price we'd pay is 3.8 points; counting only part of it (cautious sizing) leaves 1.4, under the 10-point minimum."
+    },
+    {
+      "market_id": "4713379",
+      "event_id": "1045439",
+      "event_title": "Bank of Brazil decision in December?",
+      "option": "No Change",
+      "question": "Will the Bank of Brazil make no change to the target for the Selic rate at the December meeting?",
+      "rules": "This market will resolve according to the change in basis points in the target for the Selic rate resulting from the December 2026 meeting of the Bank of Brazil’s Monetary Policy Committee (COPOM), relative to the level it was prior to this meeting.\n\nThe resolution source will be official information from the Bank of Brazil, including the statement or release from its December 2026 Monetary Policy Committee meeting, scheduled for December 8-9, 2026, as listed on the official Bank of Brazil calendar (https://www.bcb.gov.br/en/about/bcb-calendar?categoria=Monetary%20Policy%20Committee%20(Copom)). This market may resolve as soon as the statement or release of the Bank of Brazil’s Monetary Policy Committee resulting from its December 2026 meeting with relevant data is issued.\n\nIf the specified rate is defined by an upper and lower bound, the relevant change will be the change to the upper bound.\n\nIf the specified rate is changed to a level not expressed in the displayed options, the change will be rounded according to the following guidelines. Increases or decreases of less than 25 bps will be rounded to 25 bps (e.g. an increase or decrease of 10 bps would be considered to be an increase or decrease of 25 bps). Increases or decreases of greater than 25 bps will be rounded to the nearest 25 bps and will be rounded away from 0 in cases of equidistance (e.g., an increase or decrease of 37.5 bps would be considered to be an increase or decrease of 50 bps). Displayed options of “Increase” or “Decrease” will include policy rate increases or decreases of any size.\n\nIf the specified meeting is postponed to a date and time before the start of the next scheduled meeting, this market will resolve based on the outcome of that postponed meeting. If the specified meeting is cancelled, or postponed such that no decision is announced by the start of the next scheduled meeting, this market will resolve to the “No Change” bracket. Emergency changes to the specified rate not resulting from the specified meeting will not be considered.",
+      "topic": "Economy",
+      "end_date": "2026-12-09T11:59:00Z",
+      "url": "https://polymarket.com/event/bank-of-brazil-decision-in-december-20260918",
+      "snapshot": {
+        "time": "2026-11-10T00:39:01Z",
+        "crowd": 0.89,
+        "best_bid": 0.88,
+        "best_ask": 0.9,
+        "volume": 25088,
+        "liquidity": 2525,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "Brazil's central bank ends run of rate cuts after Lula election win",
+          "source": "Reuters",
+          "published": "2026-11-04",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZEFUME9sYnFseThMNGczNTU1OGwtT1ZzWk5yNXpVWGpfZWpFbjVYcHJ0NS1iRjNVNGcyQnZ4cXp3WkRuVTJ3UF8takxXTnV6ZjZ5RXFsVkVGazQwbkdkZ3czRTZ1QXp6RVo4eVZxRGpJSkN0dXhzSWZ6V0N4RGwzdTVsTF9vYlFHdUlrakdlZGF4bnFPYzlNZ1dUT2FHTnlJZTlYSWlYZ1psV2NQSHB2RExDZUg?oc=5"
+        },
+        {
+          "title": "Brazil Holds Key Rate Steady at 13.75% After Lula’s Election Win",
+          "source": "Bloomberg.com",
+          "published": "2026-11-04",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSTdPTGVjTXpqTmFpREcxMDNyTlIyckZZUFVYczZkN1dZUjk3M0M4elE2c2dXUEtkdXBjTkk4a1VYc1VRbkt5N2VyZXJJY0xQbE8xSVNQSm1GelgtQkowOGptcEVhOEVlYXc2czhzMkdnMjZhbVNfZGpvQ3VPSnpIVG8yejV0MUVZUXE5cGJYYlRqMVdFSV9YeGR0X2ZCUWlLYWdUSjBYODJ0NDFfRS1xd3hENnE?oc=5"
+        },
+        {
+          "title": "Brazil’s market sees rates holding at 13.75% through 2027",
+          "source": "Valor International",
+          "published": "2026-11-09",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOTF9wbGZvNXVBanNHX1VWRzNKZHNLNGFMdDBQT2VZcC1mZjB6Umk5RGVXVHF3dWthVko1bHcyMXFVQ2hMWUhyU3NqRWFOaUhzaUpDb1g1aDd0OFhzUGNURElaczZSbzl4UVVINlhpQVJnRjdrYVBHODNiR1pVaTFuS082b0lma1NnWWRCYi1JVFdJeUxlZVFQd1hkWTJPMUdTOG5zeWVXei1LVzdpbUpGVGZKeVRYSVpJa05EZ1JaNHdjTWNhY1lj0gHWAUFVX3lxTFB0SHlFU1prc2RRQ0h0dmdNamt0eGY4dzlWaDRMWmRSbzdCeGw3Qkh2LVE4QVZuaS1GajBIUEdmM1JTMDB2VHZtX0FJTDJNSGhFSHBIOW9yNGY4WWN3cFdpOWhaR0J0bG4yeGxNV1E2NlR0SmtFRGJXVGpJbjFwUGpUbFNfbHJaR3ZlaGZ0NW5saHhQeUk1VkZaeHJzakxuSTZaUjZTaWNnNHlleTBTOEI2Q0NUWWZTX0pWVzlLcFRvc0hWd3V0SHdNM2VJZmlheWJ2Tm8xWkE?oc=5"
+        },
+        {
+          "title": "Brazil's Central Bank Holds Selic at 13.75%, Pausing Rate Cuts",
+          "source": "Briefs Finance",
+          "published": "2026-11-04",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPdWdTMHNtZ3N1NmxJU0cyVnFrOUdLX2tsMjdBOGdUaHowRHRqZU9kUG1pT3hnQ1hjN0sxejE4YjVCU3Ntb1UzdU1vWUw2aUR5VmlFYS1ocWJ0QXNWdVlrWi1VNE1NOGJUekpSaWI4TDFhWDR4enFQZzRYTFFWS0dpZlZMNzdBSlVtcEEtdm80ZUpMZw?oc=5"
+        },
+        {
+          "title": "Brazil Economists Lift Key Rate Forecasts Again After Lula’s Win",
+          "source": "Bloomberg.com",
+          "published": "2026-11-09",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxON2RjWGN6WWtBMk15VW02YTNYYm9LNUZrX29tU0VObEluNUJwaHJFWFluYmNzMHM1cGlENGtJd292N1FlaDJRQm9PM2FIR0ljdXdXZUNxRnRlWDhEVGJuRXZyUUpOZjhzVEl6N2dUcTZoNFRYVUhpQlBmNERwT2Ftc0trS0Q0U3VESGZVRjVncm5pVTUyUkRUSW5tSm1iak9RZ2FjdUFqLTVEX0ZPU05lelVLelphdw?oc=5"
+        },
+        {
+          "title": "Brazil economists raise inflation, rate forecasts after Lula reelection",
+          "source": "AOL.com",
+          "published": "2026-11-03",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNaFlNVnhUSEZvdTBLTkt0SDYwejZERXIxWWR1dGpFNXZGUUZzc0F6OXBINU85SDNMTTNIVGd2NWc0TjhPR3MtMGxUM1dLOTRMZ2dqMjhqTlYxcXRkTElyUEZyWE1ocEVDWXFFVThkbGg3M255NEJPTExPNXdVSVlYcnQzNjhKbU54cnc?oc=5"
+        }
+      ],
+      "news_query": "Bank Brazil change target Selic rate meeting | Bank Brazil change target Selic rate economists forecast",
+      "forecast": {
+        "probability": 0.85,
+        "reasoning": "Copom just ended its run of cuts and held at 13.75%, and market surveys see rates holding at that level through 2027. Economists raising their forecasts after Lula's win adds some chance of a hike, but a hold in December is the clear base case."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-10T00:42:38Z",
+        "crowd": 0.89,
+        "best_bid": 0.88,
+        "best_ask": 0.9,
+        "volume": 25088,
+        "liquidity": 2525,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Gap vs. the price we'd pay is 3.0 points; counting only part of it (cautious sizing) leaves 1.0, under the 10-point minimum."
+    },
+    {
+      "market_id": "4393418",
+      "event_id": "991303",
+      "event_title": "Bank of Canada Decision in December?",
+      "option": "25 bps increase",
+      "question": "Will the Bank of Canada increase the target for the overnight rate by 25 bps at the December interest rate announcement?",
+      "rules": "This market will resolve according to the change in basis points in the target for the overnight rate resulting from the December 2026 interest rate announcement of the Bank of Canada, relative to the level it was prior to this announcement.\n\nThe resolution source will be official information from the Bank of Canada, including the statement or release from its December 2026 interest rate announcement, scheduled for December 9, 2026, as listed on the official Bank of Canada calendar (https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/#target-dates). This market may resolve as soon as the statement or release of the Bank of Canada resulting from its December 2026 interest rate decision with relevant data is issued.\n\nIf the specified rate is defined by an upper and lower bound, the relevant change will be the change to the upper bound.\n\nIf the specified rate is changed to a level not expressed in the displayed options, the change will be rounded according to the following guidelines. Increases or decreases of less than 25 bps will be rounded to 25 bps (e.g. an increase or decrease of 10 bps would be considered to be an increase or decrease of 25 bps). Increases or decreases of greater than 25 bps will be rounded to the nearest 25 bps and will be rounded away from 0 in cases of equidistance (e.g., an increase or decrease of 37.5 bps would be considered to be an increase or decrease of 50 bps). Displayed options of “Increase” or “Decrease” will include policy rate increases or decreases of any size.\n\nIf the specified announcement is postponed to a date and time before the start of the next scheduled announcement, this market will resolve based on the outcome of that postponed announcement. If the specified announcement is cancelled, or postponed such that no decision is announced by the start of the next scheduled announcement, this market will resolve to the “No Change” bracket. Emergency changes to the specified rate not resulting from the specified announcement will not be considered.",
+      "topic": "Economy",
+      "end_date": "2026-12-09T00:00:00Z",
+      "url": "https://polymarket.com/event/bank-of-canada-decision-in-december-20260908230600011",
+      "snapshot": {
+        "time": "2026-11-10T00:39:01Z",
+        "crowd": 0.3,
+        "best_bid": 0.29,
+        "best_ask": 0.31,
+        "volume": 82556,
+        "liquidity": 6835,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "Bank of Canada raises key rate by 25 bps to 2.5%",
+          "source": "Breakingthenews.net",
+          "published": "2026-10-28",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQa0lMXzZyMDRoSnVkWlhITTdLbHlWQ2cwSm0wTGhLX1Q4ekVMOG82a0pjUG1NQWV6Q2gzS0ZHY3B5YjFBZUY5NTJNM3ZQbjN1ajlGaTBSSDVoeGxlN3JNR3R3NEhTdE12bjI0Smd2V0Z3OGRsXzdGaDVjUjc0Z3JKSXBkTHBWeDA5bVd5WDZuaWh1OXc?oc=5"
+        },
+        {
+          "title": "Bank of Canada Interest Rate Announcement (October 28, 2026)",
+          "source": "TD Economics",
+          "published": "2026-10-28",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9uYk53dUVxeDE2U1JyTlFRdFFONTJSWGdIOGYtZUMwM25zbmZ0Ny1GNXJtSkM4MmYwdjNkdXFaS3FwTzdvSGFUeEpqbmc0QmlLV1RfbDRxVTFSLWdBTDVYUk54WGlQUUhXRXc?oc=5"
+        },
+        {
+          "title": "Gold price at CAD$5,684/oz after Bank of Canada raises 25 bps, sees growth slowing in Q4 before rebounding in 2028",
+          "source": "Kitco",
+          "published": "2026-10-28",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSGxPSDR3YmNvd0xKLTg2UnU0VHJpd3hfUHFiejFvNDVQdGw4ZjF2Nl9WVkdFdUFjT0oxbHRxRnRoYmZQRG5hbzdIbGY5c0Y1NkdRZEo2aWlEQ2dQR1E5LVVVb3AwcE9GRjVJWmpvZ2xUb1NBR2JsTkFLOElMMVl3TGc2REZfVzRsblNxZi16aGlac2c0cndYVkF6X0didlVnV0tQTlJLTi1jdXhfb3phamZ4ZjA2VzQyZ1dtVnVR?oc=5"
+        },
+        {
+          "title": "Mortgage Rates Forecast Canada 2026-2030",
+          "source": "nesto.ca",
+          "published": "2026-11-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE12LW9MRGhnV0thQk5NbFJibFFESWRpOTBSM3p3dGVXSWY3UGRiem1ZQzdwX2U0MVFTTDYwdWZ6Qm1rUmZITnFfNW92SDNad0pjT3RhOHNoYzRSSkhZM1F6Yi12TjNnb0gteXR2dFJOeWJJZXlVUndv?oc=5"
+        },
+        {
+          "title": "Bank of Canada poised to hike key rate for first time in three years",
+          "source": "Reuters",
+          "published": "2026-10-28",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPSkxiNlN6Z0ZGZHlEdXc2R09fa1ZTZGxBTTl4WUVUcFN1MTdYeEVfVE0xcFpOcUxaZ0U2VVdOVXRsdE0tSzdQcDFuOElWeE1IRjcyM1ZUd0VqcnJVdHIyaUdObEptUkQwT3NPTXBQWkx4VE5QbF9XRzBkWWhEVzFDM2lDQnpmVlhCcV9DQ3FxZVE0Qmd0bVlUS1A2azQ4Z0lUd0w2VnVWYjJzZw?oc=5"
+        },
+        {
+          "title": "Bank of Canada Hikes to 2.5%, Says More Could Be Needed",
+          "source": "Bloomberg.com",
+          "published": "2026-10-28",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNS1pJV3EyMEt0Z1NKR1pQMXB3ZHI3QkptV0Y5Qk1UWEJ2U3Y5Nk9nLVA0WGQxTG5ZUjZRWDItd29HTWs1LXJRUUc1b3FtcFlSdXR1c3Nncnk3MHYxTUNnY0psVG5SMUpDOEJCSTlBWWdRTno0UHZCV0liX0FGcXF2MzJ4czB2eWcxMDRpY0ktRktEZjI5Nll4OW5hNkFENENGSkFHLXc0RQ?oc=5"
+        }
+      ],
+      "news_query": "Bank Canada increase target overnight rate bps | Bank Canada increase target overnight rate economists forecast",
+      "forecast": {
+        "probability": 0.35,
+        "reasoning": "The Bank of Canada hiked to 2.5% in October and said more could be needed, which leaves a December follow-up open. However, it also expects growth to slow in Q4, and central banks often pause after the first hike in a cycle to assess its effect."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-10T00:42:38Z",
+        "crowd": 0.3,
+        "best_bid": 0.29,
+        "best_ask": 0.31,
+        "volume": 82556,
+        "liquidity": 6835,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Gap vs. the price we'd pay is 4.0 points; counting only part of it (cautious sizing) leaves 1.5, under the 10-point minimum."
+    },
+    {
+      "market_id": "5713556",
+      "event_id": "1191150",
+      "event_title": "\"The Hunger Games: Sunrise on the Reaping\" Opening Weekend Box Office",
+      "option": "95m-105m",
+      "question": "Will \"The Hunger Games: Sunrise on the Reaping\" Opening Weekend Box Office be between 95m and 105m?",
+      "rules": "This market will resolve according to how much \"The Hunger Games: Sunrise on the Reaping\" Opening Weekend Box Office will gross domestically on its opening weekend. The \"Daily Box Office Performance\" figures found on the \"Box Office\" tab on this movie's The Numbers (https://www.the-numbers.com/) page will be used to resolve this market once the values for the 3-day opening weekend (November 20 - 22) are final (i.e., not studio estimates).\n\nIf the reported value falls exactly between two brackets, then this market will resolve to the higher range bracket.\n\nPlease note, this market will resolve according to the The Numbers figures provided under Weekend Box Office Performance for the 3-day weekend (which typically includes Thursday's previews), regardless of whether domestic refers to only the USA, or to USA and Canada, etc.\n\nIf there is ambiguity as to whether the resolution source's figures are final, this market will remain open until both https://www.boxofficemojo.com/ and https://www.the-numbers.com/ have confirmed their finalized figures.\n\nIf there is no final data available by November 27, 2026, 11:59 PM ET, another credible resolution source will be chosen.",
+      "topic": "Entertainment",
+      "end_date": "2026-11-22T12:00:00Z",
+      "url": "https://polymarket.com/event/the-hunger-games-sunrise-on-the-reaping-opening-weekend-box-office",
+      "snapshot": {
+        "time": "2026-11-10T00:39:01Z",
+        "crowd": 0.0755,
+        "best_bid": 0.059,
+        "best_ask": 0.092,
+        "volume": 11170,
+        "liquidity": 3097,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "‘Hunger Games: Sunrise On The Reaping’ Looks Sunny On Tracking With Opening Forecasts Starting At $60M+",
+          "source": "Deadline",
+          "published": "2026-10-29",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUENMaEZzVVpYQlhZMmVVZW15VUlCSkwwTDRtRDVRLTBBbWxkWjNZWVljS0h0Qm02bXFya253NENQTXU3QVFaejVCQkVfczVUZ0I5RWJxM09weTZuSWh2ejBNWGZLU1ZpSWFhR2NGM3BReXRUaE5JQ1R4WUtwVFRPNFJsbkg2N3hUNEZpRGpnUm5fZWk1bXFQYU94MjNkdw?oc=5"
+        },
+        {
+          "title": "5-Week Box Office Forecasts: Could HUNGER GAMES: SUNRISE ON THE REAPING Return the Franchise to the $100M+ Club?; Early Expectations for VIOLENT NIGHT 2 and More Updates – Box Office Theory",
+          "source": "Box Office Theory",
+          "published": "2026-10-29",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQelVibzRLdnBuZFFNYS05ek1uQ29RRlZPSS1JVlp5RG1GN1FwS1JEVE9vNmJ2TEQ1UGNYTDhBMlBGWkZ3d0RFejhua2dBMk5FRUUtWW0xczFOMy0tTzZvdGRObm1mY00yLW8yd3hXRWE1SjN3N3UtYWFNSWVvUy1fT3B0X2RZQURCSFJiaUNhR01URVUxb21FbVRZRGxpU1AzNkg5cm5SOWVGWGFVVVVz?oc=5"
+        },
+        {
+          "title": "‘Hunger Games: Sunrise on the Reaping’ Presales Suggest $100M+ Opening Weekend",
+          "source": "World of Reel",
+          "published": "2026-10-28",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNYXBnRnE5WDZZRTlIUXZmSjBZZTJFbnh5cWhMVlNJOVJiN1kzbUZEZkZ1cndrU2dLSUFQc1NBZDA1VHVEdkVXNWxuZTZNNlpXYzVtX25vMDBPQ3oxTWRQSkdzWjllQ1dobjJHZmJORFpxb3FrYUE2Vm4tM3hBZ3NJbzNGV3ZfbFkydEZBSXQyUXY1T05md1NIeGczQVJhMk1fUFpTN3Azd1pUSHBuU0htTDFxeVBYeGVk?oc=5"
+        },
+        {
+          "title": "'Hunger Games: Sunrise on Reaping' Presales Best 'Wicked', $80M Opening Eyed",
+          "source": "Deadline",
+          "published": "2026-11-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNNUs0UVJXUzZBSkR1WWl0bzQwbWFyRTZSS3pYeUJWQWE1eWpkTmFvRFd4cDFSckxOUDNBdl9tRmV6S1o2eko0ZUg3NEFGbmgwWmU3a21fNjVvUElrYjVFX0VSQWtjbXJjTlJFc080MkQ3SjFRZkpySnZRZkxrMUxUcHVBSk5Veng1X0trUE1xNVNoOUNwaEkxMEU1VzI?oc=5"
+        },
+        {
+          "title": "Hunger Games Prequel's Advance Sales Pass Wicked, Lifting Opening Forecast to $80 Million or More",
+          "source": "Northeast Times",
+          "published": "2026-11-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbldkV0VFR1EwWFdLbHBmODJ0WGpqbTZ1N1laSFdBQ0htV2J4a0tfcjJWbk9ocEFzUWxuU2x1cXZTSFFvYlJweTFWT0drUnJtXzdzM2RKMXh1YS1lMEZndVkyMlVnNnV5VTZhOVRpSTYzWXBpbWgwU3FEZXhTc0NlV2dVM0dFMzFjZXQyME02T2dqUFdkbzhLVHdaMXpnMTlOd0hBZDNERm5ESmpEclV3a0Y1Ujd1am5PWXc?oc=5"
+        },
+        {
+          "title": "Hunger Games: Sunrise on the Reaping On Track to Beat The Odyssey With Debut Box Office",
+          "source": "IMDb",
+          "published": "2026-11-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE54TGIwVmJoRWhqcXNpcVZtY3FEM3QtdXJJWG1yQmNUeGxTRUZzRFdQNGhzVm1CMjF0ZGlUcGlJOEkxdnUwM2NiSWNiQXJkUkVjTFNrTWhVX0Nfd1V3Z180eHpB?oc=5"
+        }
+      ],
+      "news_query": "Hunger Games Sunrise Reaping Opening Weekend Box",
+      "forecast": {
+        "probability": 0.22,
+        "reasoning": "Tracking has moved up from $60M+ to $80M+, and presales reportedly beat Wicked, which opened at about $112M. That makes a $95–105M debut quite plausible. The outcome range is still wide, so any single $10M bracket captures only about a fifth of the probability."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-10T00:42:38Z",
+        "crowd": 0.0755,
+        "best_bid": 0.059,
+        "best_ask": 0.092,
+        "volume": 11170,
+        "liquidity": 3097,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Gap vs. the price we'd pay is 12.8 points; counting only part of it (cautious sizing) leaves 5.6, under the 10-point minimum."
+    },
+    {
+      "market_id": "5959787",
+      "event_id": "1222025",
+      "event_title": "Which company has the best Image-to-Video AI end of November?",
+      "option": "MiniMax",
+      "question": "Will MiniMax have the best Image-to-Video AI at the end of November 2026?",
+      "rules": "This market will resolve according to the company that owns the model that has the highest rank based on the arena.ai Image-to-Video Leaderboard when the table under \"Image-to-Video Arena\" filtered for \"Models\" is checked on November 30, 2026, 12:00 PM ET.\n\nResults from the \"Rank\" column under the \"Image-to-Video Arena\" Leaderboard tab at https://arena.ai/leaderboard/image-to-video filtered for \"Models\" will be used to resolve this market.\n\nNote: Models marked “AutoEval” at the applicable check time will not be considered, regardless of whether they display a rank or score. Models marked “Preliminary” at the applicable check time will be considered.\n\nModels will be ordered primarily by their leaderboard rank at the market’s check time. If two or more models are tied on rank, they will be ordered by which model is listed higher on the leaderboard. If a tie still remains, alphabetical order of company names as listed in this market group will be used as a final tiebreaker (e.g., “Google” would be ranked ahead of “SpaceXAI”). This market will resolve based on the company that occupies first place under this ranking.\n\nThe resolution source for this market is the arena.ai Image-to-Video Arena Leaderboard. If this resolution source is unavailable at check time, this market will remain open until the leaderboard comes back online and will resolve based on the first check after it becomes available. If it becomes permanently unavailable, this market will resolve to \"Other\".",
+      "topic": "Tech",
+      "end_date": "2026-12-01T04:59:00Z",
+      "url": "https://polymarket.com/event/which-company-has-the-best-image-to-video-ai-end-of-november",
+      "snapshot": {
+        "time": "2026-11-10T00:39:01Z",
+        "crowd": 0.105,
+        "best_bid": 0.08,
+        "best_ask": 0.13,
+        "volume": 11762,
+        "liquidity": 2542,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "Inside Viggle Remake: LoRA-Based Video Editing With MiniMax-H3",
+          "source": "HackerNoon",
+          "published": "2026-11-08",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPV255Y3RIdzJiY2VfV2RrLUlUVkRNb2plZERPZU9LQjBrTkhfZWlVNXFvaWY4Y0tMN1lYVXphbUpSOGQ4MDR5MXlhamVTbGZMdDN1cHV3TWc3VnNIM0pGVlNGXzJmVkJSYjY1WTBBY1RNV0JFczRhY2ItQ2d3V0s4QXlIZlpBM2ZzS2ZmVg?oc=5"
+        }
+      ],
+      "news_query": "MiniMax best Image-to-Video AI | company best Image-to-Video AI MiniMax",
+      "forecast": {
+        "probability": 0.12,
+        "reasoning": "Image-to-video leaderboards are crowded, with Google, Kling, ByteDance and others usually near the top. MiniMax's Hailuo models have ranked well at times, and a new MiniMax model is mentioned in the news, but there is no evidence it currently holds the number one spot."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-10T00:42:38Z",
+        "crowd": 0.105,
+        "best_bid": 0.08,
+        "best_ask": 0.13,
+        "volume": 11762,
+        "liquidity": 2542,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Gap vs. the price we'd pay is -1.0 points; counting only part of it (cautious sizing) leaves -1.8, under the 10-point minimum."
+    }
+  ],
+  "batch_id": "msgbatch_01DRPnUsJX3Easq5tqup61RN",
+  "forecast_at": "2026-11-10T00:42:38Z",
+  "usage": {
+    "input_tokens": 7828,
+    "output_tokens": 2074
+  },
+  "cost_usd": 0.0364,
+  "budget": 47.53,
+  "account": "phase-1.2"
+}
