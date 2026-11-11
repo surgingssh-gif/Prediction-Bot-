@@ -1,0 +1,707 @@
+{
+  "run_id": "2026-11-11",
+  "date": "2026-11-11",
+  "created_at": "2026-11-11T00:33:46Z",
+  "model": "claude-opus-5-5",
+  "effort": "high",
+  "phase": "1.3",
+  "pick_stats": {
+    "eligible": {
+      "Economy": 11,
+      "Entertainment": 1,
+      "Politics": 16,
+      "Tech": 3
+    },
+    "picked": 9
+  },
+  "track_record": "=== Your track record so far ===\nThese are your own earlier forecasts in this experiment that have settled (192 questions). They show only what you said and what happened (no market information).\n- On average you said 39%, and 44% of these events happened. Overall, your average is close to how often things happened.\n- Your average Brier score is 0.259 (0 is perfect; always saying 50% scores 0.250).\n- When you said...\n    under 10%: it happened 5 times out of 19.\n    10-30%: it happened 20 times out of 57.\n    30-70%: it happened 40 times out of 83.\n    70-90%: it happened 17 times out of 31.\n    over 90%: it happened 2 times out of 2.\n- Your biggest misses:\n    \"Will SpaceXAI officially rename itself to SpaceXSI by October 15?\" You said 3%; it happened.\n    \"Will the Tesla Roadster fly for 1s+?\" You said 4%; it happened.\n    \"Will Xiaomi have the best Chinese AI model at the end of October 2026?\" You said 6%; it happened.\n    \"Will monthly inflation increase by 0.6% in September?\" You said 7%; it happened.\n    \"Will there be between 0 and 5 average daily transits of the Strait of Hormuz on October 31?\" You said 7%; it happened.",
+  "questions": [
+    {
+      "market_id": "3215009",
+      "event_id": "770450",
+      "event_title": "Fed Decision in December?",
+      "option": "50+ bps increase",
+      "question": "Will the Fed increase interest rates by 50+ bps after the December 2026 meeting?",
+      "rules": "The FED interest rates are defined in this market by the upper bound of the target federal funds range. The decisions on the target federal funds range are made by the Federal Open Market Committee (FOMC) meetings.\n\nThis market will resolve to the amount of basis points the upper bound of the target federal funds rate is changed by versus the level it was prior to the Federal Reserve's December 2026 meeting.\n\nIf the target federal funds rate is changed to a level not expressed in the displayed options, the change will be rounded up to the nearest 25 and will resolve to the relevant bracket. (e.g. if there's a cut/increase of 12.5 bps it will be considered to be 25 bps)\n\nThe resolution source for this market is the FOMC’s statement after its meeting scheduled for December 8-9, 2026 according to the official calendar: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm.\n\nThe level and change of the target federal funds rate is also published at the official website of the Federal Reserve at https://www.federalreserve.gov/monetarypolicy/openmarket.htm.\n\nThis market may resolve as soon as the FOMC’s statement for their December meeting with relevant data is issued. If no statement is released by the end date of the next scheduled meeting, this market will resolve to the \"No change\" bracket.",
+      "topic": "Economy",
+      "end_date": "2026-12-09T23:59:00Z",
+      "url": "https://polymarket.com/event/fed-decision-in-december-20260729232808632",
+      "snapshot": {
+        "time": "2026-11-11T00:33:43Z",
+        "crowd": 0.1075,
+        "best_bid": 0.107,
+        "best_ask": 0.108,
+        "volume": 4062089,
+        "liquidity": 341873,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "Federal Funds Rate History 1990 to 2026",
+          "source": "Forbes",
+          "published": "2026-10-28",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBsNEtLYjBNb05hZjBmRkV5NDctYTNrTTF1a0FwQzlpdG42Y3ROZmNVdmROTHRMbTBobHFhTnBzUVVDZEwxdGk5cm9HRWlWMTBCYk5EM0doODFNNnFPb0JfRDR1VVFwSzlsYnV0MUVfeldlTGpw?oc=5"
+        },
+        {
+          "title": "Fed's Waller plans to support at least a quarter-point rate hike in December",
+          "source": "Reuters",
+          "published": "2026-11-10",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNR3RjbDlfcXFBbHp0SVRSeHIzZHFTTnY5bjBuWGszTTMzUmxLUXNzRTFid29sbXV1emJSZWMwTEo4V2dWYjJ3TGlESmRlRzdFcDdQU3RxWi1QVEZrRlNBU0N3NG50WUNBWVdXbnZFS0RuVDNyRVdGWm1aRjFjWGRlRFRoTFhlbFMwQ1NjbTZMd2x0cnlHR0F4d2JNV3dKcHFOOE5TRFVsSlc5ekxoQ0E?oc=5"
+        },
+        {
+          "title": "Interest-Rate Hike Debate Sparked by Fed's Waller, Logan After Hot Inflation",
+          "source": "Bloomberg.com",
+          "published": "2026-11-10",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZkZoTlZOa05oRHYwaUNCM1pDVHdhNnF3ajlxMzBBd1R0Z3plbEVKbm4xemxmbm1penlwS1hrY09URU4zbDZoZFlWV213ZnZkWVlseUE1U0JyeE8zQWpqcU9YVUlKbUJldG9NT21UVkpmN2F6eFlWZWtiZlhrZUZGLUFpUTRlcmdWYnduUDB5MTNOY0xFQW5TSDZfaDNac0N5VVpuUE43WTJYeEZIZTBDbFRKdw?oc=5"
+        },
+        {
+          "title": "What smart people are saying after the Fed held rates steady",
+          "source": "Business Insider",
+          "published": "2026-10-28",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQaUhhSVlOdDVKRUhhaXpoWGxuMjltYjRzeFZnc0JDUGpkQmxpazMwOVBieHhSS2NCbXloMVl3U2ptT0tINFNjNTZsaHlDTk1HekpSQncwRGg2ci0tOVRYLTlsODdTaWd0X2VpOXpVMTZDVWpuTWR4ZVdGWHhDMWtqOFoxbnNKa0lPUFZEclNlMTRkMmkybTlxOA?oc=5"
+        },
+        {
+          "title": "A 50-Basis-Point Fed Hike Was Unthinkable – After CPI, Economists Can't Rule It Out",
+          "source": "Yahoo Finance",
+          "published": "2026-11-10",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQdVZIT0NWQzVJNEhIOEttUmg2MHdOOU04bl94SDFvdnBPUkRBbTZjU1VoX2RjbndUU0REdzlTaklBUUJsM19JY0dUZXI0clZzdkZhMUZ2QU5jUjlXQ1ljX2xYanVCWk0zVGpPNEZTWkNHbUlnSlV1dGFmcnBPQVdQdWxIcmZxWUtGWVBiV0JvOXVyUQ?oc=5"
+        },
+        {
+          "title": "25 basis points is the unanimous call for December Fed hike – Reuters poll",
+          "source": "FXStreet",
+          "published": "2026-11-10",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNYjFXZmw5WjRNR3YtSWJ5WTNhNVF0YTdGNk95Y09BQU1rU2FFaXdvQTJOT2M2YUh0QlVwbDlOMGFobXFBcFpzNHpYSVVNRTdoTkc1aWFPTWw5OS15bEROM0llRlJ4ekpJcEtVcWt4anZJTmx3T0ZrNHB2cFF5SHk0WDJaMlpmbURZdEdDd1hqQ3JzRUhhVkhybmE3ckZhb2VNaUpnOFRlM0wtNjZvNnRKQUtyOFlKQQ?oc=5"
+        }
+      ],
+      "news_query": "Fed increase interest rates bps meeting | Fed increase interest rates bps December economists forecast",
+      "forecast": {
+        "probability": 0.1,
+        "reasoning": "A Reuters poll shows economists unanimously expect a 25 bp hike in December, and Waller backs 'at least' a quarter point. Some commentary says a 50 bp move can't be ruled out after hot CPI. Still, the Fed rarely jumps to a half-point hike when the consensus and Fed signalling point to 25 bp."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-11T00:36:19Z",
+        "crowd": 0.1075,
+        "best_bid": 0.107,
+        "best_ask": 0.108,
+        "volume": 4062089,
+        "liquidity": 341873,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Gap vs. the price we'd pay is 0.7 points; counting only part of it (cautious sizing) leaves 0.3, under the 10-point minimum."
+    },
+    {
+      "market_id": "3215008",
+      "event_id": "770450",
+      "event_title": "Fed Decision in December?",
+      "option": "25 bps increase",
+      "question": "Will the Fed increase interest rates by 25 bps after the December 2026 meeting?",
+      "rules": "The FED interest rates are defined in this market by the upper bound of the target federal funds range. The decisions on the target federal funds range are made by the Federal Open Market Committee (FOMC) meetings.\n\nThis market will resolve to the amount of basis points the upper bound of the target federal funds rate is changed by versus the level it was prior to the Federal Reserve's December 2026 meeting.\n\nIf the target federal funds rate is changed to a level not expressed in the displayed options, the change will be rounded up to the nearest 25 and will resolve to the relevant bracket. (e.g. if there's a cut/increase of 12.5 bps it will be considered to be 25 bps)\n\nThe resolution source for this market is the FOMC’s statement after its meeting scheduled for December 8-9, 2026 according to the official calendar: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm.\n\nThe level and change of the target federal funds rate is also published at the official website of the Federal Reserve at https://www.federalreserve.gov/monetarypolicy/openmarket.htm.\n\nThis market may resolve as soon as the FOMC’s statement for their December meeting with relevant data is issued. If no statement is released by the end date of the next scheduled meeting, this market will resolve to the \"No change\" bracket.",
+      "topic": "Economy",
+      "end_date": "2026-12-09T23:59:00Z",
+      "url": "https://polymarket.com/event/fed-decision-in-december-20260729232808632",
+      "snapshot": {
+        "time": "2026-11-11T00:33:43Z",
+        "crowd": 0.855,
+        "best_bid": 0.85,
+        "best_ask": 0.86,
+        "volume": 6783696,
+        "liquidity": 317274,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "Federal Funds Rate History 1990 to 2026",
+          "source": "Forbes",
+          "published": "2026-10-28",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBsNEtLYjBNb05hZjBmRkV5NDctYTNrTTF1a0FwQzlpdG42Y3ROZmNVdmROTHRMbTBobHFhTnBzUVVDZEwxdGk5cm9HRWlWMTBCYk5EM0doODFNNnFPb0JfRDR1VVFwSzlsYnV0MUVfeldlTGpw?oc=5"
+        },
+        {
+          "title": "Fed's Waller plans to support at least a quarter-point rate hike in December",
+          "source": "Reuters",
+          "published": "2026-11-10",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNR3RjbDlfcXFBbHp0SVRSeHIzZHFTTnY5bjBuWGszTTMzUmxLUXNzRTFid29sbXV1emJSZWMwTEo4V2dWYjJ3TGlESmRlRzdFcDdQU3RxWi1QVEZrRlNBU0N3NG50WUNBWVdXbnZFS0RuVDNyRVdGWm1aRjFjWGRlRFRoTFhlbFMwQ1NjbTZMd2x0cnlHR0F4d2JNV3dKcHFOOE5TRFVsSlc5ekxoQ0E?oc=5"
+        },
+        {
+          "title": "Interest-Rate Hike Debate Sparked by Fed's Waller, Logan After Hot Inflation",
+          "source": "Bloomberg.com",
+          "published": "2026-11-10",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZkZoTlZOa05oRHYwaUNCM1pDVHdhNnF3ajlxMzBBd1R0Z3plbEVKbm4xemxmbm1penlwS1hrY09URU4zbDZoZFlWV213ZnZkWVlseUE1U0JyeE8zQWpqcU9YVUlKbUJldG9NT21UVkpmN2F6eFlWZWtiZlhrZUZGLUFpUTRlcmdWYnduUDB5MTNOY0xFQW5TSDZfaDNac0N5VVpuUE43WTJYeEZIZTBDbFRKdw?oc=5"
+        },
+        {
+          "title": "What smart people are saying after the Fed held rates steady",
+          "source": "Business Insider",
+          "published": "2026-10-28",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQaUhhSVlOdDVKRUhhaXpoWGxuMjltYjRzeFZnc0JDUGpkQmxpazMwOVBieHhSS2NCbXloMVl3U2ptT0tINFNjNTZsaHlDTk1HekpSQncwRGg2ci0tOVRYLTlsODdTaWd0X2VpOXpVMTZDVWpuTWR4ZVdGWHhDMWtqOFoxbnNKa0lPUFZEclNlMTRkMmkybTlxOA?oc=5"
+        },
+        {
+          "title": "A 50-Basis-Point Fed Hike Was Unthinkable – After CPI, Economists Can't Rule It Out",
+          "source": "Yahoo Finance",
+          "published": "2026-11-10",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQdVZIT0NWQzVJNEhIOEttUmg2MHdOOU04bl94SDFvdnBPUkRBbTZjU1VoX2RjbndUU0REdzlTaklBUUJsM19JY0dUZXI0clZzdkZhMUZ2QU5jUjlXQ1ljX2xYanVCWk0zVGpPNEZTWkNHbUlnSlV1dGFmcnBPQVdQdWxIcmZxWUtGWVBiV0JvOXVyUQ?oc=5"
+        },
+        {
+          "title": "25 basis points is the unanimous call for December Fed hike – Reuters poll",
+          "source": "FXStreet",
+          "published": "2026-11-10",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNYjFXZmw5WjRNR3YtSWJ5WTNhNVF0YTdGNk95Y09BQU1rU2FFaXdvQTJOT2M2YUh0QlVwbDlOMGFobXFBcFpzNHpYSVVNRTdoTkc1aWFPTWw5OS15bEROM0llRlJ4ekpJcEtVcWt4anZJTmx3T0ZrNHB2cFF5SHk0WDJaMlpmbURZdEdDd1hqQ3JzRUhhVkhybmE3ckZhb2VNaUpnOFRlM0wtNjZvNnRKQUtyOFlKQQ?oc=5"
+        }
+      ],
+      "news_query": "Fed increase interest rates bps meeting | Fed increase interest rates bps December economists forecast",
+      "forecast": {
+        "probability": 0.68,
+        "reasoning": "Hawkish officials such as Waller and Logan are pushing for a hike, two officials already dissented in favour of a hike in October, and the Reuters poll unanimously calls for 25 bp. The main risks are a hold if data cool over the next month, or a larger 50 bp move."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-11T00:36:19Z",
+        "crowd": 0.855,
+        "best_bid": 0.85,
+        "best_ask": 0.86,
+        "volume": 6783696,
+        "liquidity": 317868,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Gap vs. the price we'd pay is 17.0 points; counting only part of it (cautious sizing) leaves 8.2, under the 10-point minimum."
+    },
+    {
+      "market_id": "814612",
+      "event_id": "96786",
+      "event_title": "2026 Taiwanese Local Elections: Party Winner",
+      "option": "Kuomintang (KMT)",
+      "question": "Will Kuomintang (KMT) win the most head of local government elections in the 2026 Taiwan local elections?",
+      "rules": "Taiwanese local elections are scheduled to be held on November 28, 2026. \n\nThis market will resolve according to the party whose official candidates win the most head of local government (mayor or magistrate) elections for Taiwan’s major special municipalities, counties, and cities during these elections.\n\nA candidate will be considered an official candidate of a party if they are officially nominated by that party and are registered for the relevant election in affiliation with that party. Independent candidates will not count for any party.\n\nTaiwan’s local governments include the following cities, special municipalities, and counties:\n\nCities/special municipalities (mayoral elections): Taipei City, New Taipei City, Taoyuan City, Taichung City, Tainan City, Kaohsiung City, Keelung City, Hsinchu City, Chiayi City\n\nCounties (magistrate elections): Yilan County, Hsinchu County, Miaoli County, Changhua County, Nantou County, Yunlin County, Chiayi County, Pingtung County, Taitung County, Hualien County, Penghu County, Lienchiang County, Kinmen County\n\nOnly elections for the listed cities, special municipalities or counties will be counted for this market. A party will have won as soon as it becomes mathematically impossible for any other party to equal or surpass its number of wins in these elections.\n\nIn the case of a tie between two or more parties for the greatest number of relevant head of local government elections won, this market will resolve in favor of the party whose English name comes first in alphabetical order, as listed in this market group.\n\nResolution of this market will be based on the results of the relevant elections, once those results are official. This market will remain open until a party has won or until the results of all of the relevant elections are made official. If the results of any of the relevant 2026 Taiwanese local elections aren’t known by June 30, 2027 11:59 PM ET, the winning party will be determined based on the available results up to that point. If none of the results of the relevant 2026 Taiwanese local elections are known by that time, this market will resolve to “Other”.\n\nThis market will resolve based on the results of the elections as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the Taiwanese government, specifically the Central Election Commission (https://db.cec.gov.tw/).",
+      "topic": "Politics",
+      "end_date": "2026-11-29T04:59:00Z",
+      "url": "https://polymarket.com/event/2026-taiwanese-local-elections-party-winner",
+      "snapshot": {
+        "time": "2026-11-11T00:33:43Z",
+        "crowd": 0.7,
+        "best_bid": 0.69,
+        "best_ask": 0.71,
+        "volume": 204701,
+        "liquidity": 87680,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "Challenges ahead for Taipei's new mayor (and the Kuomintang)",
+          "source": "AsiaNews",
+          "published": "2026-10-29",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNYXY2VHVPcmgtT1FuR21nOTkwSVNzS2tRa1RRSzZybWJJTTE0cTYxbzhhbEYxX004LWVLSExCMGFkVmxlbkdLUDFXRUg4bGhhcU1mVUlKSW5ydWNEU2lLTHJxdW9iMEpvU1hkMjJGbVZnLVhCcUZlZlNvUkhSY2dBZ3c2bjlmUy1lYzRBR2FlTld2eG1VUXFJelVkOEVjVXI2WGZJaTY1MA?oc=5"
+        },
+        {
+          "title": "Will Taiwan’s local elections redraw its Blue-north, Green-south political map? | Lianhe Zaobao",
+          "source": "联合早报",
+          "published": "2026-11-02",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQZldIZ2E4dzltYzRvQUtzU2Z3V0NyZGM0MGpPUG9MaGdKbE5RcFA4dTJDbzM5dmt3b3UyNUpjc3pWYlRoUDEzMENYeTVkdWlVbUVMdVNITmg3TDlhZnhjWVVzY3UyX1EzdDYzeXRtb19rLUd4U1Zsb0U1MC1yMWJOSjlWVDFfWFJ6QzZIbnA4a2M3Y3oxWklUTXBvWlBaaVpmTFdua0FwdUJ4UGdwNEpucmlRanluNEU?oc=5"
+        },
+        {
+          "title": "Can KMT’s Chiang Wan-an rally supporters in tight mayor race to defend his Taipei seat?",
+          "source": "The Straits Times",
+          "published": "2026-10-28",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOMndla2pMU05uUjd5em9kNlBBZU1US1FVeGc1M0R6VkpVX0dDXy1wOEh3clFMRnBsWTFtUURPd1pvV2dHdmpKT2JKYVloV2hvbFdLck9SWFlMd1hIeDQ4VVk1aENtVFJDbDFWblp0dFJIcW56Smk3dHRraHA5aWs3Q2ZvczlCLXc5ZzlucWhWMjAzUjBxZlY0ZldEald2YzItamloajFicUxxdk96WGszdTVZMGZ6NXl1MmtN?oc=5"
+        },
+        {
+          "title": "Is KMT losing its edge in Taichung mayoral race? Poll point to toss-up",
+          "source": "联合早报",
+          "published": "2026-11-04",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNRDlEbEdsSXIycnFCUXNHbXBqSWljOHh5cVBZTDVUaTFtTURoSjZrc1NYSmNjZ2hmME5zNzFTTDd2X2NqX0MzYUJadjVWWVQ2U20tNHhPTFlObGh5b2JvbDlZcGZ1S3lyZFhYLVhSU3dQVHNtLXg3ak14c0prendvLXg4TGQyV1ZuVGFJUVY5dU5zQmwtTUdiaUo0QzVaZw?oc=5"
+        },
+        {
+          "title": "Exclusive | Taiwan President Says His Party Hasn't Won Taipei Mayor Race",
+          "source": "Newswav",
+          "published": "2026-11-09",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPOWtnVW1CSkZ5SE1YLUdQYjU0Q0ZoQUhzTE92MGRfUkFNbHJaSUN3V2dZeVFRQUxoUUtyZ1Q3TmEyT0RpbExGRm93bUlxeGxmZVVpNVR6ZDBlblpMbzdfRGxoRlhZS251dllLTk5Ldmp4a1hpc2x1RjYwNFU1VnBwMm10VTBLbkZKbjA5Sk1EMldVSGpIZTYxSVFFQXhpRk44b2NlWEtEZm90SjVFODUxWg?oc=5"
+        }
+      ],
+      "news_query": "Kuomintang KMT win head local government elections | Taiwanese Local Elections Party Winner Kuomintang KMT",
+      "forecast": {
+        "probability": 0.82,
+        "reasoning": "The KMT won 13 of 22 races in 2022 and holds most northern, central and eastern counties plus the outlying islands. The DPP's base is concentrated in the south. Even with toss-ups in Taipei and Taichung, the KMT has enough safe seats to likely stay ahead, though a tie would go to the DPP under the alphabetical rule."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-11T00:36:20Z",
+        "crowd": 0.7,
+        "best_bid": 0.69,
+        "best_ask": 0.71,
+        "volume": 204701,
+        "liquidity": 87462,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Gap vs. the price we'd pay is 11.0 points; counting only part of it (cautious sizing) leaves 5.0, under the 10-point minimum."
+    },
+    {
+      "market_id": "3581450",
+      "event_id": "848409",
+      "event_title": "Kaohsiung Mayor Election Winner",
+      "option": "Lai Jui-lung",
+      "question": "Will Lai Jui-lung win the next Kaohsiung Mayor election?",
+      "rules": "Taiwanese local elections are scheduled to be held on November 28, 2026.\n\nThis market will resolve according to the candidate who becomes the next Mayor of Kaohsiung as a result of this election.\n\nTemporary, interim, or placeholder Mayors appointed before the election will not be considered.\n\nIf the result of this election isn't known, or no candidate has been elected, by June 30, 2027, 11:59 PM ET, the market will resolve to \"Other\".\n\nThis market will resolve based on the results of the elections as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the Taiwanese government, specifically the Central Election Commission (https://db.cec.gov.tw/).",
+      "topic": "Politics",
+      "end_date": "2026-11-29T04:59:00Z",
+      "url": "https://polymarket.com/event/kaohsiung-mayor-election-winner-20260813125857600",
+      "snapshot": {
+        "time": "2026-11-11T00:33:43Z",
+        "crowd": 0.835,
+        "best_bid": 0.83,
+        "best_ask": 0.84,
+        "volume": 69411,
+        "liquidity": 47638,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "2026 Elections: Kaohsiung debate focuses on 205th Arsenal, donations",
+          "source": "Taipei Times",
+          "published": "2026-10-31",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFAxLWpGNGszYS1KVHdMbG0wOXhGa3plZjJhYVNhd25qcVR0d3g4QTNMRlBYLUlWdXh0LUdFYl9IZVAxU3V4eE55MWlEMExNTjdjbjdwQm54RFc5clZMMVVLaVhQQnRHUkFZd0I4V0FwRUFiUEc4eTBSQkpR?oc=5"
+        },
+        {
+          "title": "Lai Jui-lung maintains lead over KMT rival in latest Kaohsiung polls",
+          "source": "Taiwan News",
+          "published": "2026-11-02",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1fSXBhbUxJWnBBOXI5XzVLaTNneF9yWUNGS1l4YXFzeHlGc0FzcUpDazlUZlZrUlE4RGZ4d0tibk9kOWJ2S204OTAzcElQSG5UNlh4dQ?oc=5"
+        },
+        {
+          "title": "2026 ELECTIONS Kaohsiung mayoral debate focuses on 205th Arsenal redevelopment, political donations",
+          "source": "Focus Taiwan",
+          "published": "2026-10-31",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1FQmEzZmozMk1kRnZFdVJlZDhETHZBUUV6SWFhREtXWXVrM2NVcFlBcmtwdE03RXFXYmxOWWFYSk5DQUEycGlRYnZFU05EckNFZWhFVEpSUQ?oc=5"
+        },
+        {
+          "title": "Taipei mayoral candidates step up campaigns ahead of elections — Taipei Times",
+          "source": "UA.NEWS",
+          "published": "2026-11-07",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPMnNDbW5KRDdGcGwxaTR0VjRNREE1MVB5NVlWUlRwSDNvbjJTNVdwZGROcUZRZURWbHlvQ09fcFE2ejNwYzZDME9EOGlRcnN1bkxQRUs0TVV3WHdzdU5mMlNDNVZ2UzJGVmtEcmR2dU4wRG53SENFbVJFSjUwdkgzQWgwaWJ1VWhtQkQ3SllKT3o3bTlQTUs4VzBGcDlhb1lkSmpkMmxqR1ROcFB1?oc=5"
+        },
+        {
+          "title": "DPP’s Lai Jui-lung, KMT’s Ko Chih-en debate Kaohsiung mayoral race",
+          "source": "Taiwan News",
+          "published": "2026-10-30",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5jMENTcEtaZ3F0NHV3cm52Qm9fUnRPejZ2ZWRfd3E5WDdMM2FuOFhrNHgwNmpScTlXZFZueTV2UlVZRmtyWEVuMkx6Z2JwOU1fMWFuNA?oc=5"
+        },
+        {
+          "title": "2026 Elections: Taipei mayoral rivals step up campaigns; back allies in Kaohsiung",
+          "source": "Taipei Times",
+          "published": "2026-11-07",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE56bG93OEtSeENEZUd3TWVvbDl6cmtVblBPYlI0LXJuZWhObzVFWWxqN0VDa2t4c1dkZ01TOHktbmFuS21ZdHJ4S2Ntc3k5aDRkUGdjTFZ5dlJ4N2FzN09oVnp0MEIxbHNIbVc5cjZxdmh3SVlOZk13OHB3?oc=5"
+        }
+      ],
+      "news_query": "Lai Jui-lung win Kaohsiung Mayor election",
+      "forecast": {
+        "probability": 0.88,
+        "reasoning": "Kaohsiung is a long-standing DPP stronghold, and recent polls show DPP candidate Lai Jui-lung keeping his lead over KMT rival Ko Chih-en. Upsets are possible but uncommon in Kaohsiung."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-11T00:36:20Z",
+        "crowd": 0.835,
+        "best_bid": 0.83,
+        "best_ask": 0.84,
+        "volume": 69411,
+        "liquidity": 45677,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Gap vs. the price we'd pay is 4.0 points; counting only part of it (cautious sizing) leaves 1.8, under the 10-point minimum."
+    },
+    {
+      "market_id": "6364934",
+      "event_id": "1274169",
+      "event_title": "Next Gemini Flash-Lite Model (3.6+) released on...?",
+      "option": "No release by November 30",
+      "question": "Will there be no next Gemini Flash-Lite model (3.6+) release by November 30, 2026?",
+      "rules": "This market will resolve according to the calendar date (ET) on which Google's next Gemini Flash-Lite model (3.6+) is made available to the general public.\n\nA qualifying model must have a name or model identifier that includes \"Gemini\" and \"Flash-Lite\" and be designated as version 3.6 or higher, regardless of capitalization, hyphenation, or surrounding prefixes, suffixes, dates, or descriptors. For example, a version 3.6 or higher named in the same manner as Gemini 3.1 Flash-Lite or Gemini 3.5 Flash-Lite would qualify, including a new whole-number generation such as Gemini 4 Flash-Lite, while models whose name does not include \"Flash-Lite\" or which retain a version designation below 3.6, such as Gemini 3.6 Flash or Gemini 3.5 Flash-Lite, will not qualify. Specialized modality variants, such as Gemini Flash-Lite Image, will not qualify.\n\nA qualifying model must be launched and publicly accessible, including via open beta or open rolling waitlist signups. A closed beta or any form of private access will not suffice. The release must either be clearly defined and publicly announced by Google as accessible to the general public, or otherwise be made publicly accessible and explicitly labeled on the company's official website. Labeling errors, placeholder text, or version names displayed on the website that do not correspond to a model that is actually accessible to the general public will not qualify.\n\nThe primary resolution source for this market will be official information from Google, with additional verification from a consensus of credible reporting.",
+      "topic": "Tech",
+      "end_date": "2026-12-01T04:59:00Z",
+      "url": "https://polymarket.com/event/next-gemini-flash-lite-model-3pt6-released-onptptpt-20261027",
+      "snapshot": {
+        "time": "2026-11-11T00:33:43Z",
+        "crowd": 0.76,
+        "best_bid": 0.75,
+        "best_ask": 0.77,
+        "volume": 16684,
+        "liquidity": 3322,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "Ultimate Gemini Model Comparison 2026: 2.5 to Gemini 4",
+          "source": "Fello AI",
+          "published": "2026-10-29",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4zcWFFUUNFRmY3ZmJmTXVzMzJLRi1TVlY3LVhNekpjcXdmNWttbGtjOXVOV3VrNnlkWVo0MkhWNU9UeXlySEpKUXNRLV9UYkc5cU1zbVVsRTY4dG5IRUhENHgwTQ?oc=5"
+        },
+        {
+          "title": "Out of all Google's Gemini models, this is the one I can't stop reaching for",
+          "source": "How-To Geek",
+          "published": "2026-11-07",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPOXl6Tl9IM0RqMlIyRkFoNTZ4Mmxud1RqY0FVd25RZFRXV0doUFZzRWZmRFA4c3p0RlBBUl9qZGxZNHB1VzAxdFZLdzFwVzBJdTZ3ampHQzl5QWFLX3JUeExWUzlPT25ydkRqUy12X1B6ZWs4ZnBNV0NYcE5jMmhLVW9zMmo1bWk0RGN6NERhYWo0dDM2WWJrdE10bzRDal9Ca0E?oc=5"
+        },
+        {
+          "title": "Cost per task: Using cheap classifiers to route across Gemini models and thinking levels",
+          "source": "Google for Developers Blog",
+          "published": "2026-11-03",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQRThHSUJSbjRRVi1QWDZmLUgyZEVQNTBJdUdsVEg0VTZ3Ui1NaldrRzdFZi1yR2FRZHc2TlVpQ2xsa2YxN3lTSnpVQU05ZEp2U25RNEVnVmlaVHF3QzBYNHZ5d3BaMGFVYVFiUmlVRjMwOGk3aWptVnhZdHNqaENzUHctaWdaZjFCQ0ZmN3JsLWdzYU4wcEppcDI2ckd0NVpadTVpX0dXeEg3N2hFQjc1djNsQXRydGNUMHROdnIxSQ?oc=5"
+        },
+        {
+          "title": "Google has too many Gemini AI models now; here's which one you should actually use",
+          "source": "Android Police",
+          "published": "2026-10-29",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPNmxwd2t3WXc2NXZ0OWp6N0w5cTdaX3RnVEZyTkNoaEJuQXdRNUV0WWNiVmJyd2pSTTJtTWVfWEJwSXNQZkR2T1NqcnptQmM1TmU3TnZBUXRaZUY5bE5lNDdwM1FHZEZJM1ZweDFTenMwRWJTLUd1SFJHbUp3S1dUOWtiNHZ0Y2IwVC1IVXdlQzdXZkhfMEpOMmcxRVh4TzNlcGo0VDJpRzFvLUpFSnpGMHVGTQ?oc=5"
+        },
+        {
+          "title": "Research Team Trains Gemini 3.1 Flash-Lite for Psychiatric Intake",
+          "source": "TOKENPOST",
+          "published": "2026-10-31",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5uamR0MnBhVzEtTVRfNXJWcUt3SXA2SXJpMEVoTFVKc05tMDAzQWxOMjQxd0F6TEJkd1FOV0YxN3BLMHZZanJjQ05LNGZCOHZvVzlqanRhMU1PdHM?oc=5"
+        },
+        {
+          "title": "ERNIE Light DT 1.0 vs Gemini 3.5 Flash-Lite: Cache or Eyes",
+          "source": "OrcaRouter",
+          "published": "2026-11-10",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBYVEt5U25qdVRiaHZCUkdHeWdqX0tZQXlfdzZlRm9hd0FvWTBLVmhsdHVfTW9vdzJVLWdtNVJLYzJQVXBHRTA3ZjhZWVZFZFJZaFBqZjg1STBndnphR0hfUXFvZVJUNlZEd3YyckN2ZWp3NkRVNlJpVW9uZkVsemc?oc=5"
+        }
+      ],
+      "news_query": "Gemini Flash-Lite model release",
+      "forecast": {
+        "probability": 0.85,
+        "reasoning": "Gemini 3.5 Flash-Lite appears to be the current model and was likely released recently. Google's Flash-Lite versions usually come months apart, so a 3.6+ or Gemini 4 Flash-Lite going public within about three weeks is unlikely, though not impossible given Google's fast release pace."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-11T00:36:20Z",
+        "crowd": 0.76,
+        "best_bid": 0.75,
+        "best_ask": 0.77,
+        "volume": 16684,
+        "liquidity": 3322,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Gap vs. the price we'd pay is 8.0 points; counting only part of it (cautious sizing) leaves 3.5, under the 10-point minimum."
+    },
+    {
+      "market_id": "5420002",
+      "event_id": "1151056",
+      "event_title": "Ljubljana Mayoral Election Winner",
+      "option": "Zoran Janković",
+      "question": "Will Zoran Janković win the 2026 Ljubljana mayoral election?",
+      "rules": "The next Ljubljana mayoral election is scheduled to be held on November 15, 2026, to elect the mayor of the City Municipality of Ljubljana, Slovenia (župan Mestne občine Ljubljana). If no candidate wins a majority of valid votes in the first round, a runoff between the two leading candidates is scheduled for November 29, 2026.\n\nThis market will resolve according to the candidate who becomes the next mayor of Ljubljana as a result of this election.\n\nTemporary, interim, or placeholder mayors will not be considered.\n\nIf the result of this election isn't known by May 31, 2027, 11:59 PM ET, this market will resolve to \"Other\".\n\nThis market will resolve based on the result of the election, as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as declared by the Municipal Election Commission of the City Municipality of Ljubljana (Občinska volilna komisija Mestne občine Ljubljana) and published by the State Election Commission (Državna volilna komisija, DVK) (https://www.dvk-rs.si/).",
+      "topic": "Politics",
+      "end_date": "2026-11-16T04:59:00Z",
+      "url": "https://polymarket.com/event/ljubljana-mayoral-election-winner-2026",
+      "snapshot": {
+        "time": "2026-11-11T00:33:43Z",
+        "crowd": 0.64,
+        "best_bid": 0.63,
+        "best_ask": 0.65,
+        "volume": 62454,
+        "liquidity": 34953,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "A Vote For Janković – A Vote For Dodik? Ljubljana At Crossroads Of Political And Business Networks, Organized Crime And European Democratic Standards - Analysis",
+          "source": "Eurasia Review",
+          "published": "2026-11-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMinwJBVV95cUxObDJfZktpRDNwYzRBSGt6N2wtNS1SVWlrLUZPVm5UQWNaS19uTm1MeFNvZldkYU5JN29aMTZyYUZPVGcwNkdqejZuWWVILTRZYmVNYUdYdkxOa1JzZUxKcTJOMDNUQ2hpbjI1dDlLM2JSd0N4My1lb3lNRXoyRWdycDJpckFDQXduZDNmTlBVYlhQUTJaSUpKR2RhUzlxemoxWWktQUlPek1fNHBxQnhmUHVtdmNibW1FRlE4ZFRVOUdBMEM1WndOR3FYdEFqSGlBZFVmOVltUkpkejBKSkZpVEh1bGRrdDRqTU4yUlFlUm96d1YzczAwdXBsN2hxLVo2SjJvNmxDb24zTS1XSU40SlVlMkR0UEdVNUFWc2dVZw?oc=5"
+        }
+      ],
+      "news_query": "Zoran Janković win Ljubljana mayoral election | Ljubljana Mayoral Election Winner Zoran Janković",
+      "forecast": {
+        "probability": 0.85,
+        "reasoning": "Janković has won every Ljubljana mayoral election since 2006, usually outright in the first round. Critical coverage of his business and political ties has not historically hurt his strong local support. An incumbent this dominant usually holds on."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-11T00:36:20Z",
+        "crowd": 0.64,
+        "best_bid": 0.63,
+        "best_ask": 0.65,
+        "volume": 62454,
+        "liquidity": 34959,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Gap vs. the price we'd pay is 20.0 points; counting only part of it (cautious sizing) leaves 9.5, under the 10-point minimum."
+    },
+    {
+      "market_id": "3215054",
+      "event_id": "770454",
+      "event_title": "How many dissent at the December Fed meeting?",
+      "option": "0",
+      "question": "Will no one dissent the December Fed decision?",
+      "rules": "The December Federal Open Market Committee (FOMC) meeting is scheduled for December 8-9, 2026. The policy decision will be announced at 2:00 PM Eastern Time on December 9, followed by the Fed Chair’s press conference at around 2:30 PM ET.\n\nThis market will resolve according to the number of dissenting votes recorded at the December Federal Open Market Committee monetary policy meeting, specifically those dissenting on the Fed Funds Rate decision.\n\nThe resolution source for this market is the FOMC’s statement after its meeting scheduled for December 8-9, 2026, according to the official calendar: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm.\n\nThis market may resolve as soon as the FOMC’s statement for their December meeting with relevant data is issued; however, a consensus of credible reporting will also be used.",
+      "topic": "Economy",
+      "end_date": "2026-12-10T04:59:00Z",
+      "url": "https://polymarket.com/event/how-many-dissent-at-the-december-fed-meeting-20260730000304473",
+      "snapshot": {
+        "time": "2026-11-11T00:33:43Z",
+        "crowd": 0.62,
+        "best_bid": 0.6,
+        "best_ask": 0.64,
+        "volume": 27888,
+        "liquidity": 3012,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "WATCH: Warsh holds briefing after Fed leaves key interest rate unchanged",
+          "source": "PBS",
+          "published": "2026-10-28",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOeDRabTk3MGZlX1gzSnlMWEhPLTczT3pUckE2Q3R4cUpHT0lfQnFKRHo1eWdiQ1FiVXBXQlV6RVhpSTROYUZoYlFzRVlxMWlGUFdZcW5jMXpKdlBiZHRJMzNSOGJMTUFMWVdDVS1sbkFNcy12TGlnVE5rclMyREY5SEl6dEEwVE1VdFMyX0V2VWtFLWVVQ05iUWJMT2M1blZPZkNOUi1xLVFCWi1WZGxsZFJhXzDSAboBQVVfeXFMTV9BakhETXRqMkhSSzY5V1hjVHZ2Y1VkVzFMX19ua1BLUTRGQWdLWTI3aEcwMkhROG5tSjlDMHRLbDAtczhuV2djeUl2VHVydUo2NGFxcVk3YmpkdDRNMndOYlRlVzA0X3Y0WWxLU3hTanFreDdqdXA4ZmJPWk1QWU1BbHdocmo4VmVwLXEtTU5GUFhsYkhUN1VmZXB4TnE2SmItLVMtang4Tmd2NDdwanpPVUVpczB5aFZn?oc=5"
+        },
+        {
+          "title": "Fed leaves rates unchanged as it awaits 'accumulation of more information'",
+          "source": "Reuters",
+          "published": "2026-10-29",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPaU93czlpTHJXMTJGby0yOGppZGVlVkZzZW4tNC11WTcwVk1yQUZHTVMza0dTLURMRi0tTUtYTHhITkI2OVBWN2k0anZCN2liNnlyNFpaTmFTaWlFTHItWmtBXzh1VWhkRjZBNjVDejQxOGNUTW1HWWRBUzNjbGdKUDV0MlFSWXRsaWQwMXpWQXI?oc=5"
+        },
+        {
+          "title": "Fed holds rates steady as a governor and president dissent together for the first time since 1992",
+          "source": "Fortune",
+          "published": "2026-10-28",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNOFJMUDA1UWY0NlpyWjR4TWVLM0NXTVpPdFNwRUVLWWNUUVpwM2xHU1hmaFdxUHVXYTBEVE9LMnJWRl9leVV0R3ZnVU01Y0hUcTI3V0xfX0pfbVF6aTYwRHEzblloS21hTFRrSHZFdDBSVHdRNmpURGZPR0JsVmtmcFlvdWhJb2xNZFF5YVBHMUIyaThjUnc1RA?oc=5"
+        },
+        {
+          "title": "Fed leaves rates steady as governor Lisa Cook dissents",
+          "source": "Axios",
+          "published": "2026-10-28",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0wSnZBWVpLV3lueUc5bmN2VEZPVzZ2WlN1LWxFaFg3LTV6M3pLTHozaVcxRTAxS3lFak82MHB1R0VoYmY4cUk3cnFzbWJuSHllTk9zcFZwQVlKeXRSbFBXQk54M3Q2Wk9abkg0WkdSMA?oc=5"
+        },
+        {
+          "title": "Fed Says More Data Will Help Next Rate Decision as It Stands Pat",
+          "source": "Bloomberg.com",
+          "published": "2026-10-28",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNYTNINnF3d0YzSWhxXzBuRUxDc2RycVdyV1FFVGFMcFMtdUZxVmx4RGQ5NDdJRmpRdlhMRlN4d1NTV1BFYVFXekxSQUhjRjBKWlNxTzNrb04xTmx5THJ1OVBZem1HWldlb2EzaWFsbmVNYUIxVWtqano5ZFJZanllZVJTYWNuYXVqRzFxMjRRSjVqaXBvWFQ5cTJiSElpWldqbjA5bXl6eEM?oc=5"
+        },
+        {
+          "title": "Fed Holds Rates Steady but Two Officials Sought Another Increase",
+          "source": "WSJ",
+          "published": "2026-10-28",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPazBCeUZ1clQ5WktEdzg0Y0daaUdFLWEtRk9FSklTSnd6ajZUa0hRTzdYREpJZHJ2NlBrWlhGdUkxbjlOUHVYbk9KX1pORklGRzdYMFlHUnB4bjA1X2lndHVHdEVCZGxuN3pYOVIwY1NMMlh2ZlF5YkQtS3lsZ0xpRGZtaUphcThQbllYMVd2RkZkakVrLVE?oc=5"
+        }
+      ],
+      "news_query": "one dissent Fed decision | one dissent December Fed decision economists forecast",
+      "forecast": {
+        "probability": 0.2,
+        "reasoning": "The October meeting had two dissents, a governor and a president together, and the committee is openly split over hiking. Whether the Fed holds or hikes in December, at least one dissent seems likely given the divided committee under Warsh."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-11T00:36:20Z",
+        "crowd": 0.62,
+        "best_bid": 0.6,
+        "best_ask": 0.64,
+        "volume": 27888,
+        "liquidity": 3012,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Gap vs. the price we'd pay is 40.0 points, over the 35-point limit: disagreements this big have usually meant the AI missed something, so no bet."
+    },
+    {
+      "market_id": "5166835",
+      "event_id": "1111184",
+      "event_title": "GPU rental prices (B200) end of November?",
+      "option": "$9.00+",
+      "question": "Will the Ornn B200 Index be at least $9.00 on November 30, 2026?",
+      "rules": "This market will resolve according to the finalized Ornn B200 Index price for November 30, 2026.\n\nIf the recorded data falls exactly between two brackets, this market will resolve to the higher bracket.\n\nThe resolution source for this market is Ornnai.com (ornnai.com), specifically, the B200 Index chart data available at https://dashboard.ornnai.com. The specified finalized daily value shown on the chart will be used for resolution. Daily data will be considered finalized once the following day’s data point is published.\n\nResolution will occur once the specified data point is finalized. If the relevant data is not finalized by the end of the 7th calendar day after the specified date (ET), this market will resolve according to the latest data available at that time. Revisions made after the relevant figure has been finalized will not be considered.",
+      "topic": "Tech",
+      "end_date": "2026-12-01T04:59:00Z",
+      "url": "https://polymarket.com/event/gpu-rental-prices-b200-end-of-november",
+      "snapshot": {
+        "time": "2026-11-11T00:33:43Z",
+        "crowd": 0.89,
+        "best_bid": 0.88,
+        "best_ask": 0.9,
+        "volume": 12223,
+        "liquidity": 3463,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "Setara Announces the Release of its Initial GPU Price Index",
+          "source": "Yahoo Finance",
+          "published": "2026-11-03",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPSmlNaUFoLVMyd3E5bWZEejlORGRjaVA3MkNyU1NJdEpJdHFBNWZvWnIzUXBwOTMxdVdSN0dMX3gwV2k3SmlTd0JpeXhTUDhXeV9SdE9OTXAtdTRBOXZBTVgwbEpsdFoyUExTWjRKd0hPeU9VQUNGZnpuUUlFMUZxT1A4ZjVMb2stLTlSc2xPQnJRWWRES05McFFrTTQwVTFyZ2c?oc=5"
+        },
+        {
+          "title": "Nvidia’s B200 GPU rental rates surge 74% in three months",
+          "source": "Crypto Briefing",
+          "published": "2026-11-09",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE00OU5lSkwwQWxRQnZPT0kxY1VIclg2NGhTbjVUdmhzcHVvRkVhX3NudjVyS2xrSDdvY3RGaHBRQ1ROUXZvdF92Z2dUREVkbVo0T3JUamYzaUprSzlxUko1ZmRqbnNsS0hEOWZ1aFlBQQ?oc=5"
+        },
+        {
+          "title": "GPU rental rates show pricing power for scarce compute, Citadel Securities' Flight says (NVDA:NASDAQ)",
+          "source": "Seeking Alpha",
+          "published": "2026-10-30",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNam11VWpneVU3YWVpb2FfTTNKZVpVWEloSmJPRlZrY2loREwyX25GdXlXbWhlLUI2eWtCMWFfMWZUT1V4MUtkbmw2TUhMNE9mLXR5ZUVEV3NXeHhlOWl3MW9CWmRSV2pfS1hoVmt2S2xrUWY3WUllcWZKZnFKUWhVSDEwVW1CVWJXbldyUk5DaHI4bUJXd1lzRDdPWDhCNWpfRXlZUE1nOU5COTRranhNaXF2VQ?oc=5"
+        },
+        {
+          "title": "Injective SICI Perp Tracks 5 Nvidia GPUs, 10x [2026]",
+          "source": "shattered.io",
+          "published": "2026-10-28",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPZ3l5Nm5ld1hhSTZOSmllMkhvWEgyak91bHFKWkdSYzA5S0Q0X2ZXOGxkZG05cUNDaktudFB6TUdzQ1BsRkJWM0dmZ3UzTnVSN2JDejNSbXVlTTY1bExtM2F2WWo3WlVDYUFoVW1QMnN0cFBVWmNDNFpfRVF0U2wxTHRUaWRjaUswSHc?oc=5"
+        },
+        {
+          "title": "Nvidia's Older-Gen H100 GPU Rental Rates Stay Strong Despite Spo",
+          "source": "GuruFocus",
+          "published": "2026-10-30",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUEt4dlcxVnhuQmdhTk53TE9SYzY2VmJCSnRIVHktYUVMdFZhSmx5UlhYVVJhT1hmMERQeTRLYjJTOUZ6QTZOU01WZTlBQUE0ME5DTkVKWV85M3JScmFZWEFkNUl6UWpzUGZycHZEU3N2Y2p3SkFidDhaVlYyOVBDeGRJVGFSSFQ1MGIzTm0tZ2VOMTctRFIxZDEtT1VPMmtIRTNpaEFSRWQtN3RUcUEySG9TOVI4Q0JodkN6OEg5NA?oc=5"
+        },
+        {
+          "title": "CME's Nvidia GPU rental futures delayed again as CFTC extends review to January",
+          "source": "Startup Fortune",
+          "published": "2026-11-10",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNakVUZHRfTDM0bkQ2ekszRUlHdHdJOXFrWjdCNVFvN0ZzdnNsTDNTMVZpS09aMC1Kemw3aDJ0R3d6MHVEaXlCeV9mTjlNdk56a1FRYnB4R2N6cmlZTWhpbndockNIenJ4QTZuSUNiMmlIRmVTYzFwS2o5ak5tLUx5bHExSmVfN3BJVm1yc1BsXzZYeWlnaXJVcHNSV1ZON1dZMkNZUnBkZVZsQQ?oc=5"
+        }
+      ],
+      "news_query": "Ornn Index | GPU rental prices",
+      "forecast": {
+        "probability": 0.15,
+        "reasoning": "B200 rental rates have risen sharply, reportedly up 74% in three months, but I estimate the index is still likely in the mid-to-high single digits. Reaching $9.00 by November 30 would require continued steep gains, which is possible but not the most likely outcome."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-11T00:36:20Z",
+        "crowd": 0.89,
+        "best_bid": 0.88,
+        "best_ask": 0.9,
+        "volume": 12223,
+        "liquidity": 3460,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Gap vs. the price we'd pay is 73.0 points, over the 35-point limit: disagreements this big have usually meant the AI missed something, so no bet."
+    },
+    {
+      "market_id": "6439144",
+      "event_id": "1285863",
+      "event_title": "\"FRESH\" First Week Album Sales?",
+      "option": "60k+",
+      "question": "Will \"FRESH\" first week sales be at least 60k?",
+      "rules": "\"FRESH\" (Lil Baby / Quality Control, Motown) is expected to release November 6, 2026.\n\nThis market will resolve to \"Yes\" if the debut week sales for \"FRESH\", according to Hits Daily Double, are greater than or equal to the specified amount. Otherwise, this market will resolve to \"No\".\n\nIf the album has not been released by December 6, 2026, 11:59 PM ET, this market will resolve to \"No\".\n\nThe primary resolution source for this market will be the \"HITS TOP 50\" list found at https://hitsdailydouble.com/sales_plus_streaming, specifically the figure in the column titled \"Activity\", once the results are finalized for the album's debut week. If this resolution source becomes permanently unavailable, another credible resolution source may be chosen.",
+      "topic": "Entertainment",
+      "end_date": "2026-11-13T00:00:00Z",
+      "url": "https://polymarket.com/event/fresh-first-week-album-sales",
+      "snapshot": {
+        "time": "2026-11-11T00:33:43Z",
+        "crowd": 0.8755,
+        "best_bid": 0.862,
+        "best_ask": 0.889,
+        "volume": 12297,
+        "liquidity": 2175,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "Freshpet refrigerated pet food sales rose 10% in Q3 2026",
+          "source": "PetfoodIndustry",
+          "published": "2026-11-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNX1E2TjU3MWJtTlp3TE9VYUZ3ZUo5VVEtM0I2eVMtNEttOGdRSGU0Y010cENEeXozRW1DWDhkWHhlR2xveVV5OUtZU25Fd3U3blZlVkpmZXQ1UmgwTG5KcnZld2FlNWNmdHFOWkZBdTFDWnZzamtxenFPazhlQVBvR054cHZHMW5KU1BQYXpmMS1LUHlBRjVJZThOb3o2SUpzRV9RcGk0amhvWVFTbDRYYXlqb0YxZjFZT2F1V3lkTGFQQzhocFZKMUI4Z1VHT1BiUnlNa1VoMFNfUVU?oc=5"
+        },
+        {
+          "title": "Bonduelle reports 1.0% sales growth in first quarter",
+          "source": "FreshPlaza",
+          "published": "2026-11-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOOGdtY0VIa3lUbW9LNXl4cTVoT0RXTktIN2ZyaTc3N054a19TejN0aDhNT3N0al9DSjdzMzRWck9yVFV3MDNLNGNva1ZROHZrRlJ4NDRUT3VVMnNmSkJQLThnRTBFNlVVb3paVFV5Nm5UdzROVVRHMFdES1ZhdXhiS2RWcTJ3X1FQR2NtR01uMXdHbl9HSkhXV2w4cVRiYkQyZXRCaDU0dFhlZFhHRFE?oc=5"
+        },
+        {
+          "title": "Chicago street vendors push for ordinance allowing fresh food sales",
+          "source": "FOX 32 Chicago",
+          "published": "2026-11-04",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE12WFJ6cEJYS2ttc0tmRFhKcXUxeFhhRUl4OWQ5NUlrem1RbTRseUE2WGtMR1g4bFh0OGF0dS0yVGVaLU9NTlp5dmhhTDl0ODh5NWEyWG5qOGxMZmJoTE9aOGE0enlsQdIBa0FVX3lxTE9pa2htWVk5eEdFUEZleXRYMEdhb3JoT0xlM0pDWVVUX1hIWlNhY0kyMnJFRENReXM5dzRsXzM1YkI3MHBYTERsSTNjZHp1WC1zOWJGanUwcHNYMXkxVm9ucm95VUQwN3hDZnRr?oc=5"
+        },
+        {
+          "title": "Lowe’s Black Friday deals are live. See the best early sales",
+          "source": "Bergen Record",
+          "published": "2026-10-29",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPTEFaTDM5aXVjVm9fQWhYUXVFRVpXd3Ita3lWeU1xTllHUDBKOFpYMUdkWXdFcksxUVJVckxrcm55MzVONjRGaDR0QmNDLVQxeHJzckU2S0ItQURuN1hsZUp6RDhoNU94c2VhX3FZcjRJeGJiR0YxLWEwclNRWldiYkxqcFg4NWFBU3Q5bktvYXZ4clN6VGh0OG1jU0RqTlFEbUdDYjcwOA?oc=5"
+        },
+        {
+          "title": "DJ Akademiks Calls Lil Baby’s ‘FRESH’ A Flop Over 60K Sales Projection",
+          "source": "Hip-Hop Wired",
+          "published": "2026-11-10",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPNHpTM3dGV2doRjRiLU1GbXZpMmdfVXEzdTRLd2xzV3BjRnVMLS1EektRQ0czLTV6X05hSndzOUk2OUZKS1BQa1Y1eVg0dDkzNWR0Ny1yN0Y3ckpJTmtyTm9CcTR4RkZjUUt6SlduOGczN2trYUNLYjMyOG9UTVdpZ053SFJJR2tocmgzVy1qRkdndFRYY1RnR082ZHhUTWo5dVE?oc=5"
+        },
+        {
+          "title": "Samsung's Galaxy Z Fold8 sales jump over 20% in Korea after iPhone Duo launch",
+          "source": "The Korea Herald",
+          "published": "2026-11-03",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE90THJzOTRmbEUtSjc2SWJUdUF6MW0waFB1STZGMTRkUjJubmttdkJnLU1JMDJ1aFNtdlJGbE9meXJJTVNoUWZfVFZ2TjNWck9xZnZVQ3ZoTQ?oc=5"
+        }
+      ],
+      "news_query": "FRESH first sales",
+      "forecast": {
+        "probability": 0.42,
+        "reasoning": "Industry projections reportedly put FRESH's first week near 60k, with DJ Akademiks calling it a flop on that basis. With the threshold sitting right at the projection, the outcome is close to a coin flip. Weak buzz tilts it slightly below."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-11T00:36:21Z",
+        "crowd": 0.8755,
+        "best_bid": 0.862,
+        "best_ask": 0.889,
+        "volume": 12297,
+        "liquidity": 2174,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Gap vs. the price we'd pay is 44.2 points, over the 35-point limit: disagreements this big have usually meant the AI missed something, so no bet."
+    }
+  ],
+  "batch_id": "msgbatch_01W9RgaWmCwVHBY3X98KKUKv",
+  "forecast_at": "2026-11-11T00:36:19Z",
+  "usage": {
+    "input_tokens": 7960,
+    "output_tokens": 2413
+  },
+  "cost_usd": 0.0401,
+  "budget": 47.53,
+  "account": "phase-1.2"
+}
