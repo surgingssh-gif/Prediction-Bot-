@@ -1,0 +1,838 @@
+{
+  "run_id": "2026-11-12",
+  "date": "2026-11-12",
+  "created_at": "2026-11-12T01:52:27Z",
+  "model": "claude-opus-5-5",
+  "effort": "high",
+  "phase": "1.3",
+  "pick_stats": {
+    "eligible": {
+      "Economy": 5,
+      "Entertainment": 2,
+      "Politics": 17,
+      "Tech": 4
+    },
+    "picked": 10
+  },
+  "track_record": "=== Your track record so far ===\nThese are your own earlier forecasts in this experiment that have settled (197 questions). They show only what you said and what happened (no market information).\n- On average you said 39%, and 43% of these events happened. Overall, your average is close to how often things happened.\n- Your average Brier score is 0.258 (0 is perfect; always saying 50% scores 0.250).\n- When you said...\n    under 10%: it happened 6 times out of 21.\n    10-30%: it happened 20 times out of 59.\n    30-70%: it happened 40 times out of 84.\n    70-90%: it happened 17 times out of 31.\n    over 90%: it happened 2 times out of 2.\n- Your biggest misses:\n    \"Will SpaceXAI officially rename itself to SpaceXSI by October 15?\" You said 3%; it happened.\n    \"Will the Tesla Roadster fly for 1s+?\" You said 4%; it happened.\n    \"Will Xiaomi have the best Chinese AI model at the end of October 2026?\" You said 6%; it happened.\n    \"Will monthly inflation increase by 0.6% in September?\" You said 7%; it happened.\n    \"Will there be between 0 and 5 average daily transits of the Strait of Hormuz on October 31?\" You said 7%; it happened.",
+  "questions": [
+    {
+      "market_id": "5621387",
+      "event_id": "1178432",
+      "event_title": "Spain General Election: PP + Vox Majority?",
+      "option": "",
+      "question": "Spain General Election: PP + Vox Majority?",
+      "rules": "Legislative elections to elect the 350 members of the Congress of Deputies of Spain are scheduled to take place on November 29, 2026.\n\nThis market will resolve to “Yes” if the People’s Party (PP) and Vox win a combined total of 176 seats or more in the Congress of Deputies of Spain as a result of this election. Otherwise, this market will resolve to “No”.\n\nIf the results of the specified election are not definitively known by November 30, 2027, 11:59 PM ET, this market will resolve to \"No\".\n\nSeats will be counted where they are attributed to the specified party. If a listed party contests the election under a regional designation, all seats and votes attributed to that designation will count toward the listed party. For example, the Partit dels Socialistes de Catalunya (PSC) will be treated as a regional designation of PSOE. If a listed party contests as part of a coalition, only seats won by candidates who were members of the listed party on election day will count toward that party. Except as provided above, seats attributed to another party or electoral designation will not count, regardless of electoral cooperation, endorsements, coalition agreements, or subsequent changes in party affiliation or parliamentary-group membership.\n\nThis market will resolve based on the results of the elections, as indicated by a consensus of credible reporting. In the case of ambiguity, this market will resolve solely based on the results as reported by the Spanish Ministry of the Interior (https://infoelectoral.interior.gob.es/).",
+      "topic": "Politics",
+      "end_date": "2026-11-30T04:59:00Z",
+      "url": "https://polymarket.com/event/spain-general-election-pp-vox-majority",
+      "snapshot": {
+        "time": "2026-11-12T01:52:22Z",
+        "crowd": 0.9,
+        "best_bid": 0.89,
+        "best_ask": 0.91,
+        "volume": 57586,
+        "liquidity": 42852,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "Spain's right well ahead in polls for November 29 election",
+          "source": "Reuters",
+          "published": "2026-11-09",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNWExNMHQzTjJNZWN1dmtSYjlkTDl0dUNJdWlwbmhQQkFNX3BKRTdtWEMwWmdJcVQyN0tYZ0Fpb05lWHRnS3NLOGpnSkZVSmRtRUNWbXM3ME9BRmFCWUVhM2hjUHRGc1gxa1lpZ19vaFBiN2doQ1BQUk1TU2JNOGFIRVRQUjhFN2lSeElPaGVSREliV0tST09j?oc=5"
+        },
+        {
+          "title": "Spain's right holds poll lead over Sanchez's Socialists ahead of November 29 snap election",
+          "source": "France 24",
+          "published": "2026-11-09",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPTVh4UFNzU1BXTzJhS2p0TFNOU0dfQzhNT2hkSWdSSEtwV09DeU1tVTBhZ0hBcWluaThvV1g2RHhqUVNteVkwMV9YYzZWQnFVQnlhcldlcDdnTFZ1RlNDWTEzX3Z4YXhMbFVvelFLdGkyYVRZaVpMZDZZRkhxWURkMHhXcG5qZHlKeC1pdzhjTk4yNUwtVzBJZGluR2R5N1hSSFNsTTZOU3c4VDVBcUdkWmdhMm12RlpkWFM0?oc=5"
+        },
+        {
+          "title": "What the Spanish public are thinking ahead of the 2026 general election",
+          "source": "YouGov",
+          "published": "2026-10-30",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQanl4YW9QY1d3OHRNV0QwSENvYURiNk82UFd5Slh6OTdmZVVWTHpZYjUyYUR6cXJQR3d5bkhBeEhVSFRGVTFIMklwLVhNNzZTaDJqNk11MFBwMTVlNmF3cnpwdXFadTBqaThrUDB3VmVkM1A5WmVYS0JZZXVYOThuZE1sMmVFS0VmUmRUNmJueG5JZUxUYmVTNkt2aXdSc3UwanpkR2dQdlc4VlV5czdwag?oc=5"
+        },
+        {
+          "title": "Parliamentary 2026 Spain",
+          "source": "Fondation Robert Schuman",
+          "published": "2026-11-10",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPbU0wQ3BiZk1lV09TSzZiSTdBa1N0eEgwY1lNZmVQaUl3cTdyaDc4bERLY1UyQW9FVnltS0M4OThyUHYyRWg0a3ZJR1lMNVE4dy1DbExWSVg4TGIxSFVqR3JhMk5ZT3RERDc4aFRBZDN4ZG5YZW0wejkxMDYzb3hkLVl1UVAyRTY4bk1UWFozS0hheWM4U2lsUnV6d1BFaG5EVVZlRGMyLWhtWHlJLXhJM2NhV3BiZjQ?oc=5"
+        },
+        {
+          "title": "Battle lines redrawn in Spain’s snap election after latest train disaster",
+          "source": "The Guardian",
+          "published": "2026-10-30",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQakF0S0tFQ3VyTXZ4MW5HQy1XMFdTM2xJdkFIdGJrdGxZZVNxYm9WS0tkRWVQQkw2bUlCckljNXZpVDBBRkpXZWpXcDFwbmhDeDFDOHl6UXNqUmw5MzhiV1RJcWI0YVlNN2ZyRlUxZlEteUE0QTFZazE3S1Rzc0xqdmxjXzgwM0JPZ0NrZkc1anV1Q1QzLUdlSko3dkVWWUZIaXdRRWlaSXl0bzZqTmpYMDR2Q0x3NDZwYVRQdnJmMlZhZG41aEE?oc=5"
+        },
+        {
+          "title": "Alberto Núñez Feijóo, Spain’s opposition leader: ‘Whether a coalition government with Vox is formed does not depend on me’",
+          "source": "EL PAÍS English",
+          "published": "2026-11-10",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOcWZtMlVqbXFiUHB6VGVnWUExVW1uNVVWcDZubEVaUzJGaVFwVkJlb2lsTnd3dFhvVi12MWlsd3dwWGJHR2d0Q2dlX1dDTnZRTV9jNG56NEYxYm0tN1ZEUjJucUQ0a2gyZzQxNzJ1VDVSb0hsMzFxTWw4NENBME1KV3phVVFOSzRkTWxvaEpkWTJmakhvWW5jcVdnV1JuMnd3aHd0Tlp5VUp2b09aRW43R1BlQXAyYlRIWVlCRUczVElPV0huMVYyTXJSckNFSVU0UkdJNFVHSlRLQ1dOQkl4VjBYc2NKXzlhZU45MXBPZVZvN0NseDN1UkxmTWNuNWxUc2w1OVFRaGMxdEtNRUHSAY4CQVVfeXFMTnFmbTJVam1xYlBwelRlZ1lBMVVtbjVVVnA2bmxFWlMyRmlRcFZCZW9pbE53d3RYb1YtdjFpbHd3cFhiR0dndENnZV9XQ052UU1fYzRuejRGMWJtLTdWRFIybnFENGtoMmc0MTcydVQ1Um9IbDMxcU1sODRDQTBNSld6YVVRTks0ZE1sb2hKZFkyZmpIb1luY3FXZ1dSbjJ3d2h3dE5aeVVKdm9PWkVuN0dQZUFwMmJUSFlZQkVHM1RJT1dIbjFWMk1yUnJDRUlVNFJHSTRVR0pUS0NXTkJJeFYwWHNjSl85YWVOOTFwT2VWbzdDbHgzdVJMZk1jbjVsVHNsNTlRUWhjMXRLTUVB?oc=5"
+        }
+      ],
+      "news_query": "Spain General Election PP Vox Majority",
+      "forecast": {
+        "probability": 0.7,
+        "reasoning": "Polls ahead of the November 29 snap election consistently show the right well ahead. Combined PP and Vox poll shares near or above 50% have usually projected 176+ seats. The main risks are polling error, Vox underperforming, and fragmentation effects in small constituencies."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-12T01:55:30Z",
+        "crowd": 0.9,
+        "best_bid": 0.89,
+        "best_ask": 0.91,
+        "volume": 57586,
+        "liquidity": 44004,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Gap vs. the price we'd pay is 19.0 points; counting only part of it (cautious sizing) leaves 9.0, under the 10-point minimum."
+    },
+    {
+      "market_id": "3581388",
+      "event_id": "848407",
+      "event_title": "Taichung Mayor Election Winner",
+      "option": "Johnny Chiang",
+      "question": "Will Johnny Chiang win the next Taichung Mayor election?",
+      "rules": "Taiwanese local elections are scheduled to be held on November 28, 2026.\n\nThis market will resolve according to the candidate who becomes the next Mayor of Taichung as a result of this election.\n\nTemporary, interim, or placeholder Mayors appointed before the election will not be considered.\n\nIf the result of this election isn't known, or no candidate has been elected, by June 30, 2027, 11:59 PM ET, the market will resolve to \"Other\".\n\nThis market will resolve based on the results of the elections as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the Taiwanese government, specifically the Central Election Commission (https://db.cec.gov.tw/).",
+      "topic": "Politics",
+      "end_date": "2026-11-29T04:59:00Z",
+      "url": "https://polymarket.com/event/taichung-mayor-election-winner-20260813125857400",
+      "snapshot": {
+        "time": "2026-11-12T01:52:22Z",
+        "crowd": 0.815,
+        "best_bid": 0.8,
+        "best_ask": 0.83,
+        "volume": 61842,
+        "liquidity": 41393,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "2026 ELECTIONS Taichung mayoral race polls show conflicting results for Ho, Chiang",
+          "source": "Focus Taiwan",
+          "published": "2026-11-03",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9HM0hEMUNCc1RaMU82NkdjbW54cVZZTGZLX0lYa1R4blI1UHNCazQ4M1BBSU5tSDhtaW1YUWt4WkVJV2V6alZxM2p6LWVYRVhRTElhbzItaw?oc=5"
+        },
+        {
+          "title": "Is KMT losing its edge in Taichung mayoral race? Poll point to toss-up",
+          "source": "联合早报",
+          "published": "2026-11-04",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNRDlEbEdsSXIycnFCUXNHbXBqSWljOHh5cVBZTDVUaTFtTURoSjZrc1NYSmNjZ2hmME5zNzFTTDd2X2NqX0MzYUJadjVWWVQ2U20tNHhPTFlObGh5b2JvbDlZcGZ1S3lyZFhYLVhSU3dQVHNtLXg3ak14c0prendvLXg4TGQyV1ZuVGFJUVY5dU5zQmwtTUdiaUo0QzVaZw?oc=5"
+        },
+        {
+          "title": "Johnny Chiang pledges to complete Taichung metro Blue Line if elected",
+          "source": "Taiwan News",
+          "published": "2026-11-07",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE95V3FuMVpMcGhWYlUzZHFIbHMwcEhOVlROVXZiT2IzTUlMazJ0VktOZUdXV3BvUVdGd2Z1YmxLY19NWDRrVDlUTC1hTExERXAwTHE0UjR3OUo?oc=5"
+        },
+        {
+          "title": "2026 ELECTIONS Taichung mayoral candidates Ho, Chiang attend transit hub opening",
+          "source": "Focus Taiwan",
+          "published": "2026-11-04",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBmeS1OdXRBUTZVY2Zsbnp2U1VrM3EySUk3Z0FaTkZSeXdYcTkxQU1MeUE1RVBBZ3BFVVZtV3RDSURFUFdmZDNpMDBRN294MUc0enppZUZlcw?oc=5"
+        },
+        {
+          "title": "DPP’s Ho leads KMT’s Chiang by 10.7 points in Taichung poll",
+          "source": "Taiwan News",
+          "published": "2026-11-03",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5ZZDRRck1EcHJ5VExMUU14U0VrcEV4YTMxWVMwVDgtbEo4UExSb3ROSmlhc1ROQkM1Yzl4cWo0ZEZib180d2NGTEpOQWV5Qkg0RkRpdg?oc=5"
+        }
+      ],
+      "news_query": "Johnny Chiang win Taichung Mayor election",
+      "forecast": {
+        "probability": 0.48,
+        "reasoning": "Taichung has recently leaned KMT. However, recent polls conflict: one shows DPP's Ho leading by about 11 points, and others describe a toss-up. With so much uncertainty, Chiang is roughly a coin flip, perhaps slightly behind."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-12T01:55:30Z",
+        "crowd": 0.815,
+        "best_bid": 0.8,
+        "best_ask": 0.83,
+        "volume": 61842,
+        "liquidity": 41393,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Skipped: already 2 open bets on the same story (limit 2)."
+    },
+    {
+      "market_id": "6617892",
+      "event_id": "1305076",
+      "event_title": "Mayor Combo: Taipei and New Taipei",
+      "option": "KMT sweep",
+      "question": "Will the KMT win the Taipei and New Taipei mayoral elections?",
+      "rules": "This market will resolve according to the outcome of the Taipei and New Taipei mayoral elections that are currently scheduled for November 28, 2026.\n\nA candidate will be considered to represent a party by their ballot-listed affiliation or if they are the nominee of that party. Candidates who run as independents will not be encompassed by the “KMT” or “DPP” options regardless of any affiliation they may have with the party.\n\nIf the results of one of these elections are not conclusively known by March 31, 2027, 11:59 PM ET, or if an independent or third-party candidate wins one of these elections, this market will resolve to \"Other\".\n\nFor purposes of this market, a \"sweep\" is when a party wins all races.\n\nThis market will resolve based on the results of the elections as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the Taiwanese government, specifically the Central Election Commission (https://db.cec.gov.tw/).",
+      "topic": "Politics",
+      "end_date": "2026-11-29T04:59:00Z",
+      "url": "https://polymarket.com/event/mayor-combo-taipei-and-new-taipei",
+      "snapshot": {
+        "time": "2026-11-12T01:52:22Z",
+        "crowd": 0.255,
+        "best_bid": 0.24,
+        "best_ask": 0.27,
+        "volume": 12866,
+        "liquidity": 28569,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "Battle for the Capital: Inside the 2026 Taipei Mayoral Race, Part 1",
+          "source": "Global Taiwan Institute",
+          "published": "2026-10-30",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPaHFfM01fVzBLWGg0Rm5mVFBFa3k3TjBsakR1YjFjSkg4b0FYX01LNTRpNDRGVHVQT0Flc2tSd0FabVl1STBBbTZ5QWZ0T3pCYnlSRFhsUThLUTBsdGdNVlhfZWFrU2hiYllRYmlxcGR3WUVoZkxVaml1XzVfRm5zakZ3?oc=5"
+        },
+        {
+          "title": "Taipei mayor election is a victory for democracy over China whoever wins, says candidate",
+          "source": "Reuters",
+          "published": "2026-11-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRW5XalRkamVpa3ZpbjZneDktVzZXeHlkVV91TVdMcFRQZ0VpOURMSy1fM0t5UmVrNTVMNlk2b0d0YXF4cFBhc0VOenVXRlIwdVpkck9VSmZxRWJQRU4zd1gxWjdjMlpCTkloYUh2d2tqS19KTkt5dTVPbXdqWG5PUTZlSXFfdTJkNDNlbkpvT2ZzRWxoWWZTaXdHU21icjQyenVlVmNOMU9Lc2dFdk1XUUtrYVBLa1RpeVlv?oc=5"
+        },
+        {
+          "title": "DPP’s Shen edges KMT’s Chiang in Taipei survey",
+          "source": "Taipei Times",
+          "published": "2026-10-29",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE80VVdDdmpjY1FGUHR6ZTBqYkZjdXlPT3pnWWNFWDlNWGxCNFd5d0Z1ZXM5NEtsenBHQXlUc280TXAtQVpXbzE1bVlqYVhsVVBvX0ZCbGFpTDZqajRuYklpby1IbEZMeThJMXpaYTdCSTlYNXJ0YU9UR1FB?oc=5"
+        },
+        {
+          "title": "Taipei’s Voters Aren’t Choosing Independence or Unification",
+          "source": "The Diplomat – Asia-Pacific Current Affairs Magazine",
+          "published": "2026-11-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQb2owQWdPczF4ckxrNEJ1ZXJTcTQ5MUhKcTBvZ1JBM3ptNU5wYVVDNWdYd0l1bVJhdlRjZkNUUXdPMGp1WDRUQWRfV0hKVTJOUG85M25JbUhBYk9VbXZRcFoxb0d6M0ZRWVVrSTU3bXZIRlk0SlhSUVdWd3hFT1lpdDNQYw?oc=5"
+        },
+        {
+          "title": "Could Taipei’s unexpectedly tight mayoral race add to cross-strait tensions?",
+          "source": "South China Morning Post",
+          "published": "2026-11-01",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNRU4yd1dZc3lLb0lpR3liVTBxRDhJS0RvYjRKQjJfOEM0SnNnbk9ZMUE0bUxGNmQyNGkzVEl2Xy1UVGppNWNYMERXNUt6OWtKM1Vwek5OMWhwVjVHZkJ6V0xIM25zbTVRejZneXdCR1dhLTNoVzc0UHJyUGFTaEItMF9JcV9QNTVITV9FZldFZS02Z0NOamh2clEwM0EyaU1veWR6V2VhYy1FdG1UUFgxUGUwSnk4YjluWlFFdUFJUHZVc21FMHlZ0gHHAUFVX3lxTFBhZXl0ZktMYmowMmdSek5ldEFqbVd0dUhITVFqZnM1WG9EVWxzS2hLRnZFd3pGUFJ6Q08tQW9SaDRweUxwOGZvUHFlS0RWb2hlZHU5VVZIMWpPT2c2NzlNbGFsUjJiZHVPWHFPTThyS0FvRGNqbjBHbHpxOHFYMnJvczg5M1BUR3QtRE9NeHhrZThUd09kaGM3MXVRc0JDMkYxaTlSSFVVSmNiaDhPeHpXbU1zeFZOa2dicTg4VERuVFRGU0dfN2s?oc=5"
+        },
+        {
+          "title": "Shen leads Chiang 45% to 41% in Taipei mayoral poll",
+          "source": "Taiwan News",
+          "published": "2026-10-29",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0yYlVRRlFmSFJIdjB5YThPTmkyaXRWODJObVJTakNuWl9vVENCNTdGcDRMbDhzTVpaRUNGZHE0NW1KU290c1lUaWNhQi0wMkMtc2pESQ?oc=5"
+        }
+      ],
+      "news_query": "KMT win Taipei mayoral elections",
+      "forecast": {
+        "probability": 0.33,
+        "reasoning": "This needs the KMT to win both races. Taipei polls show the DPP's Shen narrowly ahead of incumbent Chiang Wan-an, though Taipei's KMT lean and the incumbent's advantage keep it close. New Taipei leans KMT but is not certain, so the joint probability comes out around one in three."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-12T01:55:31Z",
+        "crowd": 0.255,
+        "best_bid": 0.24,
+        "best_ask": 0.27,
+        "volume": 12866,
+        "liquidity": 28410,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Gap vs. the price we'd pay is 6.0 points; counting only part of it (cautious sizing) leaves 2.2, under the 10-point minimum."
+    },
+    {
+      "market_id": "6655565",
+      "event_id": "1310057",
+      "event_title": "Next Muse Spark Model (1.4+) released on...?",
+      "option": "No release by November 30",
+      "question": "Will there be no next Meta Muse Spark model release by November 30, 2026?",
+      "rules": "This market will resolve according to the calendar date (ET) on which Meta's next Muse Spark model (1.4+) is made available to the general public.\n\nA qualifying model must have a name or model identifier that includes \"Muse Spark\" and be designated as version 1.4 or higher, regardless of capitalization, hyphenation, spacing, or surrounding prefixes, suffixes, dates, or descriptors. For example, a version 1.4 or higher named in the same manner as Muse Spark 1.2 or Muse Spark 1.3 would qualify, including a new whole-number generation such as Muse Spark 2, while models whose name does not include \"Muse Spark\" or which retain a version designation below 1.4, such as Muse Spark 1.3 (released September 2, 2026, including any of its reasoning modes, open-weight re-releases, rollouts, promotions, or snapshots), Muse Glimmer, or Muse Image, will not qualify.\n\nA qualifying model must be launched and publicly accessible, including via open beta or open rolling waitlist signups. A closed beta or any form of private access will not suffice. The release must either be clearly defined and publicly announced by Meta as accessible to the general public, or otherwise be made publicly accessible and explicitly labeled on the company's official website. Labeling errors, placeholder text, or version names displayed on the website that do not correspond to a model that is actually accessible to the general public will not qualify.\n\nThe primary resolution source for this market will be official information from Meta, with additional verification from a consensus of credible reporting.",
+      "topic": "Tech",
+      "end_date": "2026-12-01T04:59:00Z",
+      "url": "https://polymarket.com/event/next-muse-spark-model-1pt4-released-onptptpt",
+      "snapshot": {
+        "time": "2026-11-12T01:52:22Z",
+        "crowd": 0.645,
+        "best_bid": 0.64,
+        "best_ask": 0.65,
+        "volume": 23802,
+        "liquidity": 2131,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "Meta Muse AI Agent Launches at $20-$100/Month [2026]",
+          "source": "shattered.io",
+          "published": "2026-11-09",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9LaHJnaEV4Y2ctOWRfZnNjZHNlX1VFUHpWT1JUVFZQTGZxZXNRRXN5QUdTX3hVLXhjS0lZa3JHRldtR2dtRGtpVzlqdUo5MTZ3eldfSXRSeF9NWkhRTi1uTnZR?oc=5"
+        },
+        {
+          "title": "Meta releases Muse Ember, a new lightweight model for agent execution",
+          "source": "TechCrunch",
+          "published": "2026-11-09",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNaXRwOW9rQ1ljTFVFZ1I0eEVvYmJ4ei1waUR1X2ZBcWNwS0VSSWN3eHpXTi1NOHpLelVwdTM0OGlyUUdnUjA1M2w0T19aaGRKN1J1a21VX0tFYnlYRC13bWZwQWxWcHNqTXBIMFdHR21icFdzYVQ1MENmSXMwREFQVmpLcGVmeS1NcXJTclVYT0ZYZVREeUZmQ0U4eXVqbkF3WUtDN1JR?oc=5"
+        },
+        {
+          "title": "Introducing Our Smallest, Most Efficient Model: Muse Ember",
+          "source": "Meta AI",
+          "published": "2026-11-09",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9JYzJpMU5XNkxqWkxuOWliQ0RSQ1lScFBfUGFaTGZWUXZQUkNEcFJNWi1henAyYXVhVG43N3NFVE9JZF80XzZnWXRRT21lazZRa2c?oc=5"
+        },
+        {
+          "title": "Meta Muse Wonder: Benchmarks, Price and the Catch",
+          "source": "Fello AI",
+          "published": "2026-11-10",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1UcXNBdEZwemZCZXQ4SDh6aDJwQ19ueUsxWkNrakpOQVlFNXl0UUkzUXd4RXY0Um9TeVlyeTJIUU9PWW1vMFdn?oc=5"
+        },
+        {
+          "title": "How Meta’s Muse Spark Could Reshape Shopping",
+          "source": "https://www.thekeyword.co/",
+          "published": "2026-10-30",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE81VVVLMjBMQzBZaWNfRnJkSHFFQmZzT1ZodHVHLXczZTlUanZlTE5iQVZ1TUJ3S3ZqWFNtcjBwZW1fNFFIdVl1bHNjRUhENnVpWWZzYTF5cDN4ajRLMmQ0UjBjektOSE44dmJuX1FwV2k0RERqZkdDeHdiMmxXQlE?oc=5"
+        },
+        {
+          "title": "Meta acquires AI coding startup Conductor, whose app runs several coding agents at once",
+          "source": "SiliconANGLE",
+          "published": "2026-11-04",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPT2JfRkE1Z1ZrZ2lfV3lKRlRGWGEtdHFYakEzVGUycWZjQ0NMbmRsTHpIY3RDc3dnSTRFVTNKTDVoLVRPRzFlcEVtRTdmaTlQR2FsZlQ2MnN3T29sWVN6aW0yN1NUOThUN1M5cnAybGY5OV8wRGlScFhxaWc3TTdGcHNZMmtYN2JSX0kwV3g3YmZUaHp6MWF4WUZtei13NkVfRThudFhVWXZIb0ppY29tWDZuUWVZc2pUZVdZb3FiUjk?oc=5"
+        }
+      ],
+      "news_query": "Meta Muse Spark model release",
+      "forecast": {
+        "probability": 0.75,
+        "reasoning": "Muse Spark 1.3 came out only on September 2, and Meta has just launched other models under different names (Muse Ember, Muse Wonder), which do not count. A Spark 1.4 or later within the remaining 18 days is possible, but the status quo is more likely."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-12T01:55:31Z",
+        "crowd": 0.645,
+        "best_bid": 0.64,
+        "best_ask": 0.65,
+        "volume": 23802,
+        "liquidity": 2137,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Gap vs. the price we'd pay is 10.0 points; counting only part of it (cautious sizing) leaves 4.8, under the 10-point minimum."
+    },
+    {
+      "market_id": "4911209",
+      "event_id": "1075157",
+      "event_title": "Swiss National Bank decision in December?",
+      "option": "25 bps increase",
+      "question": "Will the Swiss National Bank increase the SNB policy rate by 25 bps at the December meeting?",
+      "rules": "This market will resolve according to the change in basis points in the SNB policy rate resulting from the December 2026 meeting of the Swiss National Bank, relative to the level it was prior to this meeting.\n\nThe resolution source will be official information from the Swiss National Bank, including the statement or release from its December 2026 monetary policy assessment, scheduled for December 10, 2026, as listed on the official Swiss National Bank calendar (https://www.snb.ch/en/services-events/digital-services/event-schedule). This market may resolve as soon as the statement or release of the Swiss National Bank resulting from its December 2026 meeting with relevant data is issued.\n\nIf the specified rate is defined by an upper and lower bound, the relevant change will be the change to the upper bound.\n\nIf the specified rate is changed to a level not expressed in the displayed options, the change will be rounded according to the following guidelines. Increases or decreases of less than 25 bps will be rounded to 25 bps (e.g. an increase or decrease of 10 bps would be considered to be an increase or decrease of 25 bps). Increases or decreases of greater than 25 bps will be rounded to the nearest 25 bps and will be rounded away from 0 in cases of equidistance (e.g., an increase or decrease of 37.5 bps would be considered to be an increase or decrease of 50 bps). Displayed options of “Increase” or “Decrease” will include policy rate increases or decreases of any size.\n\nIf the specified meeting is postponed to a date and time before the start of the next scheduled meeting, this market will resolve based on the outcome of that postponed meeting. If the specified meeting is cancelled, or postponed such that no decision is announced by the start of the next scheduled meeting, this market will resolve to the “No Change” bracket. Emergency changes to the specified rate not resulting from the specified meeting will not be considered.",
+      "topic": "Economy",
+      "end_date": "2026-12-10T00:00:00Z",
+      "url": "https://polymarket.com/event/swiss-national-bank-decision-in-december-2026",
+      "snapshot": {
+        "time": "2026-11-12T01:52:22Z",
+        "crowd": 0.168,
+        "best_bid": 0.164,
+        "best_ask": 0.172,
+        "volume": 40589,
+        "liquidity": 4675,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "SNB will not hesitate to adjust policy if price stability is threatened, Schlegel says",
+          "source": "www.tmgm.com",
+          "published": "2026-11-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPNFpWQXlfTGhCNHZ2eXZ2SFRDTWtrRTJHdTVqamx3bnEtcS13UTJnblBVQ3ZOZlNfSE0xYWFHVzYwVWwzYUJybjI1dmhTNzhjM0ZxdDAzd24tM0pYTldxVmpZVWZEVGhpemZ6dlpCUm9kN0NRelhpOFFFTzh6ZHdkU1VRb1J3elNjbTlBSS0wN2pSZi1BSDlNYlBPdnpabThseE5wUjlleF9GZjhfbEtEenVyOXpQcUtoRExMcTByNnowRS13LXB1Z185SDFKLVpOaEtrR2YyZjJwWk0xVXpQUTNGZ2FVUE9DVF9B?oc=5"
+        },
+        {
+          "title": "Swiss Franc declines amid divergent Fed-SNB rate outlooks",
+          "source": "FXStreet",
+          "published": "2026-11-11",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxONW0yVjc1RzF3Ml9iOU1JTFJ4ZE1CT05jQVQ0b3Zxb0NrSEE0QTVWNGx3LXZaVTM2bFE0NndmVkRGZ2twZ21FRDIya0JjVjJfYjFhRHB5NWZxLXNjNV8wNENPUHdhZVJqWUwwN3F3cnctdmhZVlNKVlQ5bU5jeXlLRjhBblZySGFSblRERzNoWkhNaXl6dGJKOURULXF1SDctaFE?oc=5"
+        },
+        {
+          "title": "SNB’s Schlegel says will not hesitate to modify policy if price stability is endangered",
+          "source": "www.tmgm.com",
+          "published": "2026-11-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQaVZrbU5aRkd1MEVQbTlpN1lKd25qdWVmZE1jeEk0eUlsWlJ6djBxTUJvZElGcGJ2OUtUR2JiQnE3UWVDbm1SaVRDQy1sNkR4d0tMdlJNWVp0ZGJFcktCRWZCVzZvSGhzQnhCZUNydC01cHVvcnFNTjdFc2gtampWWDZaejV4a3lsWVliZWhOcHJCZTZwX0ZxeXF5OHRyWmhUOGM1YzU1c3hickYtN19pZGhLenFpMEJ6Z05oeGtiQjItLWs1R25mbVNfbHNFWkJfNFhuRndqeWdFb2FLNEpvYVhFaG9nUm8?oc=5"
+        },
+        {
+          "title": "Swiss Franc slides nearly 1% as US Dollar hits fresh yearly high",
+          "source": "FXStreet",
+          "published": "2026-11-11",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMnVSdUJFN1RTNEdwTGtKVENvbVd5RjlpcU45MG5EbkM0dFRhbEdDRU54Y0tZbnk3TW9OS3FwNFVmYlVtWUZXZFdxZUJoMlJRaU5sWUdja2dpTEszV1U1SjBVLVZGRmVrSHpzZkkwRjN3Zk9RR2dSSW9LNjlhQlZQWGlmSi1tUWl1TGhJSzJWU1k4NE1vRE1SRm5YYVhTX2JISDh2bnJOZmtCQQ?oc=5"
+        },
+        {
+          "title": "Swiss Inflation Jumps to Highest Since 2023 as Energy Costs Climb",
+          "source": "WSJ",
+          "published": "2026-11-03",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQMTh1ZHB4cXRqMXNRTG1OLVR3ckMzRGprZnp4d203SEtfU2tVSEtpM1ZsODJXdWpfQXM0NnJtZDB1c216ZUJOR2h2bzN4Zk5CZFQ5NFBzQkZYam5DZnlkUUpzOTJpbWFDVThtcFdoYXhubm4ycmFwbDNaNkNBOHFlbmxsZGNyS0c4TXhrdlhsU1RFdFc4TTRJdnplT1lXb0lTUklCRUIxeDE4WkxwVnN2V2h3?oc=5"
+        },
+        {
+          "title": "Swiss Inflation Accelerates to Highest in Almost Three Years",
+          "source": "Bloomberg.com",
+          "published": "2026-11-03",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNcnFldVNuSHlxdkNMa1hyRVhIX3BaODEyUVpmWG5Zd3NBXzdMandmc2lRV3JhUC0tdTVDSVRNeEtncFJKNHBTclYtMkp1ZUtvb1A0VjlMSWs2S0RNcHVhNmdRZEhpREJ2MlhCOVloRUh3QXd2ZEpUMVBQNVctTzc3VkRZV1FzUWxxOENFRFRIMnV0T2NnRDF4cDlTOGVEeXZjUF8xdWNTbVdESU11ZXh6cw?oc=5"
+        }
+      ],
+      "news_query": "Swiss National Bank increase SNB policy rate | Swiss National Bank increase SNB policy economists forecast",
+      "forecast": {
+        "probability": 0.27,
+        "reasoning": "Swiss inflation has jumped to a near three-year high on energy costs, the franc is weakening, and Chairman Schlegel has signalled readiness to act. Still, the SNB starts at 0% and Swiss inflation remains low by international standards, so a December hike is plausible but not the base case."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-12T01:55:31Z",
+        "crowd": 0.168,
+        "best_bid": 0.164,
+        "best_ask": 0.172,
+        "volume": 40589,
+        "liquidity": 4675,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Gap vs. the price we'd pay is 9.8 points; counting only part of it (cautious sizing) leaves 4.7, under the 10-point minimum."
+    },
+    {
+      "market_id": "5219297",
+      "event_id": "1121370",
+      "event_title": "EU emergency diesel stocks end of November 2026?",
+      "option": "37M+",
+      "question": "Will EU emergency diesel stocks be at least 37M tonnes at end of November 2026?",
+      "rules": "On October 1, 2026, Reuters reported that the United States had told France and Germany to release emergency diesel stocks or face a potential US diesel export ban, as Washington presses European countries to draw down their reserves to ease surging diesel prices. You can read more about that here: https://www.reuters.com/business/energy/us-tells-france-germany-release-diesel-stocks-or-face-us-export-ban-sources-say-2026-10-01/\n\nThis market will resolve to “Yes” if Eurostat publishes a figure for the European Union’s closing stock of EU emergency stocks of gas oil and diesel oil for the month of November 2026 that is greater than or equal to the specified value. Otherwise, this market will resolve to “No”.\n\nThe relevant figure is the value in Eurostat’s “Oil products stock levels - monthly data” dataset (nrg_stk_oilm) for: Geopolitical entity “European Union - 27 countries (from 2020)”; Standard international energy product classification “Gas oil and diesel oil”; Stock or flow “Closing stock - EU emergency”; Unit “Thousand tonnes”; Time “2026-11”.\n\nThis market will resolve as soon as Eurostat first publishes a figure for November 2026. Revisions to that figure published afterward will not be considered unless in the case of obvious data integrity issues.\n\nIn case of obvious data integrity issues (i.e., erroneous data), the market may remain open until the end of the third calendar day (ET) after the date on which such data is first released to allow for corrections. Data integrity issues refer only to clerical or other similar errors in the underlying data.\n\nValues will count regardless of any status flag (e.g. estimated, provisional). The figure will be used as published, without rounding.\n\nIf Eurostat becomes permanently unavailable or has not published a qualifying figure for November 2026 by May 31, 2027, 11:59 PM ET, this market will resolve based on the latest data available.\n\nThe primary resolution source for this market will be Eurostat, specifically the nrg_stk_oilm dataset at https://ec.europa.eu/eurostat/databrowser/view/nrg_stk_oilm__custom_22993801/default/table. If the dataset is discontinued or restructured, the equivalent successor series published by Eurostat will be used.\n\nNote: this market’s resolution source publishes values in thousands of tonnes (e.g. 35M tonnes = 35,000 thousand tonnes). Thus, this will be the level of specificity used to resolve this market.\n\nNote: Eurostat publishes monthly emergency oil stock data with a delay. The European Union aggregate is generally published approximately three months after the end of the reference month, once all Member States have reported (for example, data for June 2026 was the latest available as of October 1, 2026). Data for November 2026 is therefore expected to be published around late February or March 2027, and this market will remain unresolved until the publication of qualifying data.",
+      "topic": "Economy",
+      "end_date": "2026-12-01T04:59:00Z",
+      "url": "https://polymarket.com/event/eu-emergency-diesel-stocks-end-of-november-2026",
+      "snapshot": {
+        "time": "2026-11-12T01:52:22Z",
+        "crowd": 0.081,
+        "best_bid": 0.073,
+        "best_ask": 0.089,
+        "volume": 11834,
+        "liquidity": 2989,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "EXCLUSIVE: First Russian diesel from Putin-Trump deal heading for US, data shows",
+          "source": "Reuters",
+          "published": "2026-10-29",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOb3Zka2dCZ1RzeXJfN1BWOGlIbHpxODVFbTdvdjFuengzUlVHTkpLVGlOa05wUXNvdWpyNl9MTGRVMTJmWFdMTTFyU3pka3FrZ0hzMGhHVEJTRGpVQXV1TEhPYXBsSjU2UllWZHlfVzBCMnBvT01NbVNUdkJiMER4YWhKZDljRUVMY2N1REdxMEpZVkg1RFhOMGFkT3NnNWljS29Jd05ZLXdNMnhmaUlUZXJWY3hGTzN4b3hEM2ExUGxNcDRLMDVr?oc=5"
+        },
+        {
+          "title": "Six oil tankers carrying 268,000 tonnes of Russian diesel sail towards US",
+          "source": "The Guardian",
+          "published": "2026-10-29",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMkdILTNweng5VDdwM0RRNFo3c1M4aWdYbFQ0aVlwRzFXY0RSN1BoNllkWkVFTzlxc2hPWmlUQ1dJQjRKM0hkcFAzeHBQTExjSlo1bzZ6RTFwYXdIUEtnbHkwN2NuNkNkVmw0bU50aGhHcG1fV002RDFFeGNIWG1xSnFxVU9oNy05ZTR2dHVWZmZhTldLdFplcVo3UVlla0NmSXVucDZ4VjAtX0hiZTdTZVpKYkI?oc=5"
+        },
+        {
+          "title": "Belgium agrees to tap strategic fuel stocks after months of resistance",
+          "source": "The Brussels Times",
+          "published": "2026-11-03",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNd1YycnNQVE40OEJ0WGxHMUZsUkZuZU1tV0JRc3lzQmQzektRcWJabmJNX1lZcWtiOFFGaUNjdzhQYnZaaHpmbGxTSVRaQVpuWkZaMGJqaEFIOEJvdHdVdzBhTWktRl8wbTZXWGJKOHBCZzcyZUpxQmhYM01Gdk1aM2NoeFc5T0g3YzR5Q0s0VXlUTEVHOGVFNm9ZOFhJd0k0emhTRC16WHFhQkZk?oc=5"
+        },
+        {
+          "title": "Diesel Crunch Intensifies: Global Shortages Threaten Energy Security",
+          "source": "Egypt Oil & Gas",
+          "published": "2026-11-08",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQSHJ3RW1acnU5NGU3STZwX0dFSUt1NHZaMGFJNTdjaUtqSXNWZ1Vkc09MbGNzejB5dTc5U1RieVk0dWgyNGduMjJYNFdXTE1ZQVJRYnItc19DSExNcF9lQkRhT2U3RHJrRVRybE1LYm5kWDhhaU91eUlzYWt3cHd0MXduR1hTbkZCb3VIWk5iSFpYdjRydHlMRWRvNm5kV1duZmhKdw?oc=5"
+        }
+      ],
+      "news_query": "EU emergency diesel stocks tonnes | EU emergency diesel stocks tonnes November economists forecast",
+      "forecast": {
+        "probability": 0.35,
+        "reasoning": "Strong US pressure and member states like Belgium agreeing to tap fuel reserves point to drawdowns of emergency diesel stocks through the autumn. I don't know the exact recent level relative to 37M tonnes, but active releases make a decline more likely, so I lean No."
+      },
+      "bet": {
+        "side": "YES",
+        "price": 0.0918,
+        "top_price": 0.089,
+        "shares": 199.64,
+        "stake": 18.33,
+        "fee": 0.83,
+        "cost": 19.16,
+        "gap_pts": 26.1,
+        "edge_pts": 12.7,
+        "sized_on": 0.2155,
+        "kelly_full": 0.135,
+        "fill": "order book",
+        "levels": 4,
+        "scaled": 0.6635
+      },
+      "trade_snapshot": {
+        "time": "2026-11-12T01:55:31Z",
+        "crowd": 0.081,
+        "best_bid": 0.073,
+        "best_ask": 0.089,
+        "volume": 11834,
+        "liquidity": 2989,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Bought YES (AI's gap 26.1 points; 12.7 after cautious sizing). Scaled to 66% to fit the daily budget of $47.53."
+    },
+    {
+      "market_id": "4664935",
+      "event_id": "1040647",
+      "event_title": "Which company has the best Text-to-Video AI end of November?",
+      "option": "Google",
+      "question": "Will Google have the best Text-to-Video AI at the end of November 2026?",
+      "rules": "This market will resolve according to the company that owns the model that has the highest rank based on the arena.ai Text-to-Video Leaderboard when the table under \"Text-to-Video Arena\" filtered for \"Models\" is checked on November 30, 2026, 12:00 PM ET.\n\nResults from the \"Rank\" column under the \"Text-to-Video Arena\" Leaderboard tab at https://arena.ai/leaderboard/text-to-video filtered for \"Models\" will be used to resolve this market.\n\nNote: Models marked “AutoEval” at the applicable check time will not be considered, regardless of whether they display a rank or score.\n\nModels will be ordered primarily by their leaderboard rank at the market’s check time. If two or more models are tied on rank, they will be ordered by which model is listed higher on the leaderboard. If a tie still remains, alphabetical order of company names as listed in this market group will be used as a final tiebreaker (e.g., “Google” would be ranked ahead of “SpaceXAI”). This market will resolve based on the company that occupies first place under this ranking.\n\nThe resolution source for this market is the arena.ai Text-to-Video Arena Leaderboard. If this resolution source is unavailable at check time, this market will remain open until the leaderboard comes back online and will resolve based on the first check after it becomes available. If it becomes permanently unavailable, this market will resolve to \"Other\".",
+      "topic": "Tech",
+      "end_date": "2026-12-01T04:59:00Z",
+      "url": "https://polymarket.com/event/which-company-has-the-best-text-to-video-ai-end-of-november",
+      "snapshot": {
+        "time": "2026-11-12T01:52:22Z",
+        "crowd": 0.928,
+        "best_bid": 0.923,
+        "best_ask": 0.933,
+        "volume": 10205,
+        "liquidity": 7294,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "What Google Cloud announced in AI this month – and how it helps you",
+          "source": "Google Cloud",
+          "published": "2026-11-03",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQLTlTcHU4TGF0MU1hc295WDJGYUg1R0ZWelhGUlpCbkpYUmFpeURrMjF6OGQ5NDhQV0RsR3VSSjJtUmkyM00wc25XZ2drM0dJbXJ5RlYxZVMwd1RnTnNuOHRRZU9GZGUxcTU3eXk3M2hHNVRZc2xyRnZOZzNjOGJUUC1SOE9QU2VJVHB6dDUyaHRHenhfei1FV2drUFFELXNhc3pRelp3?oc=5"
+        },
+        {
+          "title": "Gemini Omni Flash: Google’s Talk-to-Edit AI Video Model Explained",
+          "source": "Fello AI",
+          "published": "2026-11-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA2ZjZ6V0pJeWpmeEQwQkZRU1BWdjdvdlBHMDMxaUE2aEl0azhJaHdIZWU0Qjd2RUhnOFFDWFdsd25KZDdGMmJQeldzMGNOY0E?oc=5"
+        },
+        {
+          "title": "Google Summaries Aren't About AI, They're About Lock-In",
+          "source": "Electronic Frontier Foundation",
+          "published": "2026-11-04",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPb2t4OGRxOUQxM2VUVVZ3Q2I5U1oyMUhvV2pZV1lZSnB0NlFUZlMzVHAzWGxaVHF0UUlPaXBRQjNLYUQwN180YzJDUnM3cTZ1OUR1OWlzYmVrZ2FfX1hLMEFmcHlQM00ycUNaMGg3MXJ2SWNMTG1hV2w4WHRhSXlTQVN4QmtfM1RUZ0UtenVRNFk?oc=5"
+        },
+        {
+          "title": "Adobe Firefly Text-to-Video Guide: How to Generate AI Video, Animate Still Images and Extend Clips in Premiere Pro",
+          "source": "PCMag Australia",
+          "published": "2026-11-09",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQNXJIc3lxdThXTWYyN1VuZE14RDh5ZFNUTFBESXpjcEFMT2dwcGx0ZHA2d0tuSjN5dGZvQ3loUTdUd09yS0UwX3BxQ05Bd2d0bDY3emVnLTE1dHNZYS05Mm9yUjVsNmN0TVpKdGk1SkpScVZ5YTNvNnhhSXE0ZXhncVRrQjZKbTAtV3RwTnh6SkMyR0VvSWlvTHMwRTNGV094eWl6MjBETllmaWh4YXdmNU5vaVp4RVdEWGo5bUVSWC1fYnd4YVMwdFMtVXhEVEFVdlRNcGRlV08?oc=5"
+        },
+        {
+          "title": "ChatGPT Plus vs. Google AI Pro: Two $20 plans, very different perks",
+          "source": "ZDNET",
+          "published": "2026-11-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBOUzVUdEtPV2VZQWdOQkhxZVlXdHR1bzZQclFPbENWMGRsVGpUSTVWeTd0eXpaZTRpUDZLM0xUT3I5Z0pLcmFsWVdoUXVBQmRDd0NBQ3NHanlqU3FUc2tzM3phTWpySzJXNGhCb2dNUFk?oc=5"
+        },
+        {
+          "title": "How Text-to-Image AI Generators Work, and 5 Tools That Deliver Good Results",
+          "source": "SitePoint",
+          "published": "2026-11-09",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNVmhXRzZyX3Y3bWtZTzJKaG1xVjI5U21iVUt0WmdHZHIxVmJEeWNzX043WDZJUXlCaUpwejVMT20zZEN2a2hEODVHZ0tvTkUxTHZBaXNkekswZGlBQTV1MUVtN21oNGZvLUFYdHN6QXJuaHhkSGdCWlZ3N2xQQWZjaDBfa1JXRTNXaHVWdElTNXEzaVZWRU04RVVjUUJvR2NweFVn?oc=5"
+        }
+      ],
+      "news_query": "Google best Text-to-Video AI",
+      "forecast": {
+        "probability": 0.45,
+        "reasoning": "Google's Veo models have often topped the video arena, and Google just released Gemini Omni Flash. However, Chinese labs and OpenAI compete intensely and the leaderboard turns over often, so this is near a toss-up."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-12T01:55:32Z",
+        "crowd": 0.928,
+        "best_bid": 0.923,
+        "best_ask": 0.933,
+        "volume": 10205,
+        "liquidity": 7293,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Gap vs. the price we'd pay is 47.3 points, over the 35-point limit: disagreements this big have usually meant the AI missed something, so no bet."
+    },
+    {
+      "market_id": "4393420",
+      "event_id": "991303",
+      "event_title": "Bank of Canada Decision in December?",
+      "option": "No Change",
+      "question": "Will the Bank of Canada make no change to the target for the overnight rate at the December interest rate announcement?",
+      "rules": "This market will resolve according to the change in basis points in the target for the overnight rate resulting from the December 2026 interest rate announcement of the Bank of Canada, relative to the level it was prior to this announcement.\n\nThe resolution source will be official information from the Bank of Canada, including the statement or release from its December 2026 interest rate announcement, scheduled for December 9, 2026, as listed on the official Bank of Canada calendar (https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/#target-dates). This market may resolve as soon as the statement or release of the Bank of Canada resulting from its December 2026 interest rate decision with relevant data is issued.\n\nIf the specified rate is defined by an upper and lower bound, the relevant change will be the change to the upper bound.\n\nIf the specified rate is changed to a level not expressed in the displayed options, the change will be rounded according to the following guidelines. Increases or decreases of less than 25 bps will be rounded to 25 bps (e.g. an increase or decrease of 10 bps would be considered to be an increase or decrease of 25 bps). Increases or decreases of greater than 25 bps will be rounded to the nearest 25 bps and will be rounded away from 0 in cases of equidistance (e.g., an increase or decrease of 37.5 bps would be considered to be an increase or decrease of 50 bps). Displayed options of “Increase” or “Decrease” will include policy rate increases or decreases of any size.\n\nIf the specified announcement is postponed to a date and time before the start of the next scheduled announcement, this market will resolve based on the outcome of that postponed announcement. If the specified announcement is cancelled, or postponed such that no decision is announced by the start of the next scheduled announcement, this market will resolve to the “No Change” bracket. Emergency changes to the specified rate not resulting from the specified announcement will not be considered.",
+      "topic": "Economy",
+      "end_date": "2026-12-09T00:00:00Z",
+      "url": "https://polymarket.com/event/bank-of-canada-decision-in-december-20260908230600011",
+      "snapshot": {
+        "time": "2026-11-12T01:52:22Z",
+        "crowd": 0.62,
+        "best_bid": 0.61,
+        "best_ask": 0.63,
+        "volume": 91240,
+        "liquidity": 11358,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "Mortgage Rates Forecast Canada 2026-2030",
+          "source": "nesto.ca",
+          "published": "2026-11-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE12LW9MRGhnV0thQk5NbFJibFFESWRpOTBSM3p3dGVXSWY3UGRiem1ZQzdwX2U0MVFTTDYwdWZ6Qm1rUmZITnFfNW92SDNad0pjT3RhOHNoYzRSSkhZM1F6Yi12TjNnb0gteXR2dFJOeWJJZXlVUndv?oc=5"
+        },
+        {
+          "title": "The Bank of Canada Just Hiked for the First Time in 3 Years: Here’s What I’d Do With My TFSA",
+          "source": "Yahoo! Finance Canada",
+          "published": "2026-10-29",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUVlacWItOVFrcHNJSEI0WFdVRy1ZN0ZWTkZxZnJzejluT2w0Wkt2QU1KOTNhRnpJZUI1MEgtZ0FMUnVXMTdBZmVOemphbkZoUEN6ZFZkMEpPUU9LbG53YkJwM09EZjQ2eUd5MW54MWlDenRWQm1qZWFWa1Nldjdpd3pfZw?oc=5"
+        },
+        {
+          "title": "Bank of Canada maintains stance on rate hike ahead of Nov. 5 budget release",
+          "source": "Global News",
+          "published": "2026-11-03",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBDYWR1S1NFWEVocERQRFFoanZsMGQ5ajJ4c2RpUzhsMkw3NUNZdGNVX3JVU01ockhNNU40dmRpRnpvaU9UZnZ5aWx6czE5NXRHNWpFaUdmdlh4bzRzVWZnZnc1QXpaSGdUYjlObUlfNGlTWHFvd3Bsd3prUm1OUQ?oc=5"
+        },
+        {
+          "title": "Bank of Canada Announces First Interest Rate Hike Since 2023",
+          "source": "crea.ca",
+          "published": "2026-10-29",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOakw0eU9NN3hiQnNoQjlBcW1EVjRubGMtRzBMLV9GQWZzMmFNRUhzNTVUOVI0THNBdFRrVHRjVXMzbmd1OGdKa2pPamZBcWFTc2JHbm0zcUxIdHdBVTBRZk5EMFdNMWVuOGZ5WnF1ci1IMWJhdUJvWUpIUkRya2E0b0hJWlotWjRWcUJGazA1a3FabTZQbkw3VE85eGc?oc=5"
+        },
+        {
+          "title": "Bank of Canada Interest Rate Decision December 9,...",
+          "source": "arabcanadanews.ca",
+          "published": "2026-11-01",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQbl81R3gxYklocld1WDQ1MkdoRjBPcGY4Wng2eTFmWm9WaDIwdUVmbGF4Y3M4dUNydEhSRWRMdVk2Rk1OV0gtZWYtVld5SUZROThWNVAzekY5eUtxV0NVT3M1VEMtSktFM2lCN1FxeWI2a3NTMmFOWnMwU3NqRjAzN01wNTZTclBQSVJLWUEyY0VGT0N0QWxGcjJ5b0pWZnhHQ3pBOWhibnV2T1lMZG5YZHRXTmYxRVBnNUtzcGhvU2U4dlhuUS1lUTMxWjVRdG93TXdfOVNZRDY3eG1mR0tkajJ4Z2FUaTQ?oc=5"
+        },
+        {
+          "title": "Bank of Canada Rate Hike: Why the 2.5% Policy Rate Matters for Canada’s Economy",
+          "source": "kalkine.ca",
+          "published": "2026-11-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNTc1SGRYbldMaXI5NC05NVRRc3J3aHVVS0ZzUGdzbUF0SlRJekJSQi0yaXZUZ0FXZE1MblFrSG54WV9XT2lOT01vRzVfejB4MmVzczF4VGIzWUZLUUZkNDk5TEstaU81ZEJrTjNVemtEU0Y1QnY2eUQzRkMzQmtsRWFYcXFuTWNibDdUSTZ3aUtuanhxRHFOQ0hDMkM2NzQ2dXBNeXF2QzVXRFZhaFU4OTB5Yw?oc=5"
+        }
+      ],
+      "news_query": "Bank Canada change target overnight rate interest | Bank Canada change target overnight rate economists forecast",
+      "forecast": {
+        "probability": 0.65,
+        "reasoning": "The Bank of Canada just made its first hike since 2023 in late October, taking the rate to 2.5%. Central banks usually pause after an initial move to assess its effects, but the signalled hawkish stance leaves meaningful odds of a follow-up hike."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-12T01:55:32Z",
+        "crowd": 0.62,
+        "best_bid": 0.61,
+        "best_ask": 0.63,
+        "volume": 91240,
+        "liquidity": 11358,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Gap vs. the price we'd pay is 2.0 points; counting only part of it (cautious sizing) leaves 0.5, under the 10-point minimum."
+    },
+    {
+      "market_id": "4662682",
+      "event_id": "1040302",
+      "event_title": "Who will be featured on GTA VI: The Album?",
+      "option": "Drake",
+      "question": "Will Drake be featured on GTA VI: The Album?",
+      "rules": "This market will resolve to \"Yes\" if the listed artist is confirmed as a featured or credited artist on \"Grand Theft Auto VI: The Album\", scheduled for release on November 19, 2026. Otherwise, this market will resolve to \"No\".\n\nTo qualify as \"featured\", the listed artist must be credited on at least one track on the album according to Rockstar Games' official tracklist or artist announcements (https://www.rockstargames.com/VI/music). If this information is unavailable from Rockstar's official sources, official album credits listed on major streaming platforms (e.g., Spotify, Apple Music) may be used instead.\n\nIf the album fails to release by November 26, 2026, 11:59 PM ET, this market will resolve to \"No\".\n\nThe resolution source of this market will be Rockstar Games' official GTA VI: The Album page (https://www.rockstargames.com/VI/music) and associated official Rockstar announcements, or official album credits listed on major streaming platforms (e.g., Spotify, Apple Music).",
+      "topic": "Entertainment",
+      "end_date": "2026-11-26T00:00:00Z",
+      "url": "https://polymarket.com/event/who-will-be-featured-on-gta-vi-the-album",
+      "snapshot": {
+        "time": "2026-11-12T01:52:22Z",
+        "crowd": 0.165,
+        "best_bid": 0.14,
+        "best_ask": 0.19,
+        "volume": 14240,
+        "liquidity": 2416,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "Future, Drake, Travis Scott, and Loe Shimmy connect for a classic posse cut",
+          "source": "The Fader",
+          "published": "2026-11-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNWVZOeEM3eFNFOW5RREoyZ0gyc09LYzh0czdCbmp0X3hYeXliUU9LM0NKeTdkbGpfcktIa0xTbFZka2h2ZE9kRmxGeXBsWjFGYjU0S2UtaVl3VW1JWmE4RW9KQUsxenRJUms4YWFfdzByaW00am9KanN6OXdBSkdkSzNUYUpfZ3M4YWtjWFFiU0JZbmw3NTdDcDNlQTdDN25Ra3oyc19LZzc3akIz?oc=5"
+        },
+        {
+          "title": "Future, Drake, and Travis Scott Join Forces for “Ya Hit”",
+          "source": "Pitchfork",
+          "published": "2026-11-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOM3pUSXNVVGtwSmo5Si1hQUlzXzFjckRKVzBsejFfUll4dzdZUnBSblA3RDZOZHBmalJqbml3ZlJVV3NYdXJMeDdqX2p4NjZOM09WWVJVYTA2TnVHMUI1anhsRjhKb1RIMzR4QWpTdTN4SUg3UDRCUnEwMmdmMFJGTGtLeHNxS1Y0?oc=5"
+        },
+        {
+          "title": "Future Taps Drake, Travis Scott and Loe Shimmy for New Song ‘Ya Hit’",
+          "source": "XXL Mag",
+          "published": "2026-11-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5lUFZlLVpIUEgtVEptUWVfM3NrUklnQjNZb3daVFVjRXlTb3JBQVozQndTRFJBeGRSaVFtcjFHZjdGVS0wcERYcllwNDk2RWQwWWJDX1JpOVJmd3J5UDQ4M04yRlVwRUM0bXUwVjB2VmYzaFVmNnc?oc=5"
+        },
+        {
+          "title": "Future Reunites With Drake & Travis Scott for Supercharged ‘Ya Hit’ Single Featuring Loe Shimmy: Listen",
+          "source": "Billboard",
+          "published": "2026-11-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZGpqZnBQeHhURVlwU1c1a21CQ0VfOGlUMkVCVWlIY3VUTXgxc21aRC1oSnRTX0Q5NHQ5VHhfZmxVY2dvaHIxR1J4QTNJVVhwQTFDcEx4NzdtZWpieElLSFBwWjJLZVV6YnZ3blhXd1Qza0Jpd3dqaFJSemU3QWRvSUJLMnhPMEt3NkMzYzItQWtMWjdyTlBZZll1Mi14Qms?oc=5"
+        },
+        {
+          "title": "Future Drops “Ya Hit” Featuring Drake and Travis Scott: Divisive Fan Reactions and Subliminal Shots",
+          "source": "urbanstreet.com.pe",
+          "published": "2026-11-07",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE05bTRmSjMyOFJlZ2JERGFHTkI5ZHVkbHBmNEtKWXM5cWZKb3g3d09QNnVDVmppUjhKWWdUb1VFOTFvSmRWVnFDdWdubFZsa3B2Vkh6UEIwREtwUXZLNl9UcnJpbkt2M0FtbFFoMHpWMnNjT2QtVW9DMHQzYw?oc=5"
+        },
+        {
+          "title": "Kodak Black Appears to Be Featured in ‘GTA VI,’ Screenshot Shows",
+          "source": "Complex",
+          "published": "2026-11-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPYV9GeU56alJoYXFTY0RJQ3g5NDg2QjQyZmdpaEh6UEk3ZWJBV2prX3gtcVducjJxOGc4ZTRid0FUU2pYU2pmT0lTcGV0eWp0UFJfbVYtWmlNamZFTE9jY0RwUGZiakYtV2VlRzh4MTFsUkVwZjRQYWV1NVJ2ejFCWGZHOExqb0pCSERpbzBham5lVmR1OU5lVFBubXRKRjg?oc=5"
+        }
+      ],
+      "news_query": "Drake featured GTA VI Album",
+      "forecast": {
+        "probability": 0.18,
+        "reasoning": "There is no direct evidence tying Drake to the GTA VI album. His recent activity is a Future single not linked to Rockstar, and other artists like Kodak Black have surfaced instead. A star of his size is possible on such a soundtrack, but unconfirmed."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-12T01:55:32Z",
+        "crowd": 0.165,
+        "best_bid": 0.14,
+        "best_ask": 0.19,
+        "volume": 14240,
+        "liquidity": 2416,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Gap vs. the price we'd pay is -1.0 points; counting only part of it (cautious sizing) leaves -1.8, under the 10-point minimum."
+    },
+    {
+      "market_id": "5166851",
+      "event_id": "1111187",
+      "event_title": "GPU rental prices (RTX 5090) end of November?",
+      "option": "$0.65-$0.70",
+      "question": "Will the Ornn RTX 5090 Index be between $0.65 and $0.70 on November 30, 2026?",
+      "rules": "This market will resolve according to the finalized Ornn RTX 5090 Index price for November 30, 2026.\n\nIf the recorded data falls exactly between two brackets, this market will resolve to the higher bracket.\n\nThe resolution source for this market is Ornnai.com (ornnai.com), specifically, the RTX 5090 Index chart data available at https://dashboard.ornnai.com. The specified finalized daily value shown on the chart will be used for resolution. Daily data will be considered finalized once the following day’s data point is published.\n\nResolution will occur once the specified data point is finalized. If the relevant data is not finalized by the end of the 7th calendar day after the specified date (ET), this market will resolve according to the latest data available at that time. Revisions made after the relevant figure has been finalized will not be considered.",
+      "topic": "Tech",
+      "end_date": "2026-12-01T04:59:00Z",
+      "url": "https://polymarket.com/event/gpu-rental-prices-rtx-5090-end-of-november",
+      "snapshot": {
+        "time": "2026-11-12T01:52:22Z",
+        "crowd": 0.485,
+        "best_bid": 0.48,
+        "best_ask": 0.49,
+        "volume": 10791,
+        "liquidity": 2890,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "Nvidia cracks down on overseas cloud AI GPU rentals for China — partners face 51% non-Chinese quota as black market B300 rack prices surge to $2.8 million",
+          "source": "Tom's Hardware",
+          "published": "2026-11-09",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitgJBVV95cUxQWE9hNC13LWFmTWZFdy1JUlE4YS1kZHhmbVNMbkFIUnJZV0JYaUxwVXhsNUZjdTA2U3kwSVFOMTlUVmhFMjcySlBQVlVBOUxUTXNkOGFEdldmSzFiZG15ZWdPdF9ZWXdQamZPV1FNZEVLMDFaYUYyZGVHbGtvWm92ZHUyMlpZQkN6RXhrcXY4ZmV0cmxBdTNpLUJEQjlVUEZ3WWNHWmdxeFd4dTlIdWVqeVNWS3cxOVZ4WFJNbGt3SmdOQ19TaHQwUm16RGdfc0J3XzhJOVY1ZE51ZE5CR2lxQ19tNzNDUlk0dDdULUJsR1lfSEZpcXhZUi1aM3NLLU5PeUxUTFB4Nm5Ha2JRRlVzUGpkVHBDeDR0ck10dGJ2OVNqZ2o0TnJFR2h5b1NKMXY4VmV6UFpn?oc=5"
+        },
+        {
+          "title": "GPU rental rates show pricing power for scarce compute, Citadel Securities' Flight says (NVDA:NASDAQ)",
+          "source": "Seeking Alpha",
+          "published": "2026-10-30",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNam11VWpneVU3YWVpb2FfTTNKZVpVWEloSmJPRlZrY2loREwyX25GdXlXbWhlLUI2eWtCMWFfMWZUT1V4MUtkbmw2TUhMNE9mLXR5ZUVEV3NXeHhlOWl3MW9CWmRSV2pfS1hoVmt2S2xrUWY3WUllcWZKZnFKUWhVSDEwVW1CVWJXbldyUk5DaHI4bUJXd1lzRDdPWDhCNWpfRXlZUE1nOU5COTRranhNaXF2VQ?oc=5"
+        },
+        {
+          "title": "Top 70+ Cloud GPU Providers",
+          "source": "AIMultiple",
+          "published": "2026-11-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9WX19LTGh0TGpGOEk1YUloUUpzSU9zaEI0OUxNcEtyTWF4bzdxZjVadHkybFJ3dHZjRFZxcW81bzZab09KNHB6bmQ4d2NPaGVyNzlrYQ?oc=5"
+        },
+        {
+          "title": "Ex-Nvidia Tsado Takes GPU Cloud to 6 African Nations [2026]",
+          "source": "shattered.io",
+          "published": "2026-11-08",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNMzNyX1duNFV5MldIdTlaVmRHc1dqcWIwTzdOa3o2X2podXJTeGZGdzlwQVAzaU9GcFV6VkRucHBwRkpfTGFuanBWWld3NzRSZ3pDSWx3R3VlcEtjUGpKOXlXT0JyY1RrQnlhaVRzMkNIb3hLYzUwNlY2TFFsbzdOMUhpT2d1M3JwTElnTWo0bjJFYlFWbExsQ0ZqN0lQY1k?oc=5"
+        },
+        {
+          "title": "Rising GPU prices just might turn Nvidia into a buy",
+          "source": "Yahoo Finance",
+          "published": "2026-11-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNRjIxSWk3UHBZYndCM0w3S1lsWVB4b3lJSTE1eDVDWFhpbjJwdUtLMUlHUExuZ0w4bVdndVpxMHp5aDRHSWtaTFVkYTJuM0k0OGpzejZMV0hST3BhODUyWFpLcFlManNsUHI2Z19WdnBGLTZDLWFxSUljTXhYQ29aMkpLbVBYR3J4QklFdE9lYkg3ZkRxZU9GaEx4WVFtZUE?oc=5"
+        },
+        {
+          "title": "NVIDIA GeForce RTX 50-Series Scheduled for up to $500 Price Hike This Week",
+          "source": "TechPowerUp",
+          "published": "2026-11-03",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUjhwU2hxc1NDZzY4NkNLaTJHU1U4S1hXQVl3Sno5TkJfYmZxbHVnV3ZGM2RmMEQxM3doSVBrVl9Qb1V0dk81bG1xdHBxTEY3MmtKMFl5VnlqSW1UajhHR0xvOFVDMzR2blI3TkJTbVVhc0V3eElZUE93TmZ1TGhQUnNFYlBkSjNPS0QwVDROWmVoODdjVHZiX0hUSHphNGVPbm5rXzVaclNvLS1TcjE0YTBn0gG3AUFVX3lxTE5DcFdjYmRWWTZBUUxXWWg4ZkRkMHdLMkgyVVVQRldGREFyc1FpbV9tS1hNVWd5S19YZDgzTTBkekJDd2dOY1VTV1NJZTJEVXAwNnUyWGwzNW0zVW9zSDlfaWd1X3JwRk9JUmF0R2dicVJsY09JeHZRWXNRZDZPX2hTd3k4YkQtMGZpSHNRQV80MGlzWFVIZnRjblFXMm5fRzBnM0NhV1VFZU5xcUYyZFk0U3dOR1g4bw?oc=5"
+        }
+      ],
+      "news_query": "Ornn RTX Index | GPU rental prices RTX",
+      "forecast": {
+        "probability": 0.2,
+        "reasoning": "This is a narrow 5-cent bracket for an hourly GPU rental index whose current level I can't see. GPU rental prices are rising amid scarcity, which adds uncertainty about direction. A single bracket like this typically warrants around 20%."
+      },
+      "bet": {
+        "side": "NO",
+        "price": 0.52,
+        "top_price": 0.52,
+        "shares": 53.53,
+        "stake": 27.84,
+        "fee": 0.54,
+        "cost": 28.37,
+        "gap_pts": 28.0,
+        "edge_pts": 13.8,
+        "sized_on": 0.3425,
+        "kelly_full": 0.2713,
+        "fill": "order book",
+        "levels": 1,
+        "scaled": 0.6635
+      },
+      "trade_snapshot": {
+        "time": "2026-11-12T01:55:32Z",
+        "crowd": 0.485,
+        "best_bid": 0.48,
+        "best_ask": 0.49,
+        "volume": 10791,
+        "liquidity": 3274,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Bought NO (AI's gap 28.0 points; 13.8 after cautious sizing). Scaled to 66% to fit the daily budget of $47.53."
+    }
+  ],
+  "batch_id": "msgbatch_01Weu8fN2K2gHqNjjD6rHoeT",
+  "forecast_at": "2026-11-12T01:55:30Z",
+  "usage": {
+    "input_tokens": 9770,
+    "output_tokens": 2593
+  },
+  "cost_usd": 0.0455,
+  "budget": 47.53,
+  "account": "phase-1.2"
+}
