@@ -1,0 +1,679 @@
+{
+  "run_id": "2026-11-13",
+  "date": "2026-11-13",
+  "created_at": "2026-11-13T00:59:40Z",
+  "model": "claude-opus-5-5",
+  "effort": "high",
+  "phase": "1.3",
+  "pick_stats": {
+    "eligible": {
+      "Economy": 4,
+      "Entertainment": 2,
+      "Politics": 13,
+      "Tech": 1
+    },
+    "picked": 9
+  },
+  "track_record": "=== Your track record so far ===\nThese are your own earlier forecasts in this experiment that have settled (197 questions). They show only what you said and what happened (no market information).\n- On average you said 39%, and 43% of these events happened. Overall, your average is close to how often things happened.\n- Your average Brier score is 0.258 (0 is perfect; always saying 50% scores 0.250).\n- When you said...\n    under 10%: it happened 6 times out of 21.\n    10-30%: it happened 20 times out of 59.\n    30-70%: it happened 40 times out of 84.\n    70-90%: it happened 17 times out of 31.\n    over 90%: it happened 2 times out of 2.\n- Your biggest misses:\n    \"Will SpaceXAI officially rename itself to SpaceXSI by October 15?\" You said 3%; it happened.\n    \"Will the Tesla Roadster fly for 1s+?\" You said 4%; it happened.\n    \"Will Xiaomi have the best Chinese AI model at the end of October 2026?\" You said 6%; it happened.\n    \"Will monthly inflation increase by 0.6% in September?\" You said 7%; it happened.\n    \"Will there be between 0 and 5 average daily transits of the Strait of Hormuz on October 31?\" You said 7%; it happened.",
+  "questions": [
+    {
+      "market_id": "5420004",
+      "event_id": "1151056",
+      "event_title": "Ljubljana Mayoral Election Winner",
+      "option": "Luka Mesec",
+      "question": "Will Luka Mesec win the 2026 Ljubljana mayoral election?",
+      "rules": "The next Ljubljana mayoral election is scheduled to be held on November 15, 2026, to elect the mayor of the City Municipality of Ljubljana, Slovenia (župan Mestne občine Ljubljana). If no candidate wins a majority of valid votes in the first round, a runoff between the two leading candidates is scheduled for November 29, 2026.\n\nThis market will resolve according to the candidate who becomes the next mayor of Ljubljana as a result of this election.\n\nTemporary, interim, or placeholder mayors will not be considered.\n\nIf the result of this election isn't known by May 31, 2027, 11:59 PM ET, this market will resolve to \"Other\".\n\nThis market will resolve based on the result of the election, as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as declared by the Municipal Election Commission of the City Municipality of Ljubljana (Občinska volilna komisija Mestne občine Ljubljana) and published by the State Election Commission (Državna volilna komisija, DVK) (https://www.dvk-rs.si/).",
+      "topic": "Politics",
+      "end_date": "2026-11-16T04:59:00Z",
+      "url": "https://polymarket.com/event/ljubljana-mayoral-election-winner-2026",
+      "snapshot": {
+        "time": "2026-11-13T00:59:35Z",
+        "crowd": 0.265,
+        "best_bid": 0.26,
+        "best_ask": 0.27,
+        "volume": 71265,
+        "liquidity": 55670,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "Ljubljana mayoral election 2026: can Janković win again?",
+          "source": "had blog",
+          "published": "2026-11-12",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZWUwMloxNnY5ZkxGdXZ3eUoxZ2p5dzFYbHZZYzFXbnduNEltT3Z1WFBhVU1YX09RcU9aUlFKdTJRa29BZDF1d3ZZSDJCRWpabXFGdDVkM0NOdGVrX190UlAxZ1FfNWd3X0R5c2FVOU16bkxraXItOFBKb00zX2FmN0tZTFhmS3VyR1BIYmFsaVhZUkRfcUwtTWh1b0xyU0RSbWwzZThCVV8tMzJvb1E?oc=5"
+        }
+      ],
+      "news_query": "Luka Mesec win Ljubljana mayoral election | Ljubljana Mayoral Election Winner Luka Mesec",
+      "forecast": {
+        "probability": 0.12,
+        "reasoning": "Zoran Janković has won every Ljubljana mayoral race since 2006, usually outright in the first round. The latest headline still frames the race around whether Janković can win again. Mesec is a credible left-wing challenger, but unseating a long-entrenched incumbent is rare."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-13T01:01:42Z",
+        "crowd": 0.265,
+        "best_bid": 0.26,
+        "best_ask": 0.27,
+        "volume": 71265,
+        "liquidity": 60158,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Gap vs. the price we'd pay is 14.0 points; counting only part of it (cautious sizing) leaves 6.8, under the 10-point minimum."
+    },
+    {
+      "market_id": "6919811",
+      "event_id": "1353321",
+      "event_title": "\"How to Rob a Bank\" Opening Weekend Box Office",
+      "option": "<7m",
+      "question": "Will \"How to Rob a Bank\" Opening Weekend Box Office be less than 7m?",
+      "rules": "This market will resolve according to how much \"How to Rob a Bank\" will gross domestically on its 3-day opening weekend (November 13 - 15).\n\nThis market will resolve as soon as a final (i.e., not studio estimates) opening weekend figure is available, and no later than December 15, 2026, 11:59 PM ET. The primary resolution source is the opening weekend figure in the \"Weekend Box Office Performance\" table on the \"Box Office\" tab of this movie's The Numbers (https://www.the-numbers.com/) page. If The Numbers does not have a final figure by December 15, 2026, 11:59 PM ET, this market will resolve according to the \"Weekend\" figure for the movie's first weekend on the \"Domestic Weekend\" tab of this movie's Box Office Mojo (https://www.boxofficemojo.com/) release page.\n\nIf neither source has a final figure by December 15, 2026, 11:59 PM ET, this market will resolve according to the figure The Numbers reports at that time, or, if The Numbers reports none, the figure Box Office Mojo reports at that time. If neither source reports any figure by December 15, 2026, 11:59 PM ET, this market will resolve to the lowest bracket.\n\nIf the reported value falls exactly between two brackets, then this market will resolve to the higher range bracket.\n\nThis market will resolve according to the figure for the 3-day weekend (which typically includes Thursday's previews), regardless of whether domestic refers to only the USA, or to USA and Canada, etc.",
+      "topic": "Entertainment",
+      "end_date": "2026-11-15T12:00:00Z",
+      "url": "https://polymarket.com/event/how-to-rob-a-bank-opening-weekend-box-office-20261108",
+      "snapshot": {
+        "time": "2026-11-13T00:59:35Z",
+        "crowd": 0.92,
+        "best_bid": 0.91,
+        "best_ask": 0.93,
+        "volume": 11971,
+        "liquidity": 5651,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "U.K. and Ireland Forecast: Will HOW TO ROB A BANK Make Bank?",
+          "source": "Boxoffice Pro",
+          "published": "2026-11-12",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPMmhVa2VjWUJPSWotd3ZRMjUxMW5tZjc1d1Z2R2dWNGJ6Y19Xb2dBMjctcUpHVlNSa3V0Sm5wbW5MSU1vU2NUTDZTcDQ0ektJVHNsRW9Cb2EzUzIxZnVrSTBjNkFoblpndHF0ajJxQXZqbGxDR2doOTN5UEppZnhLaU1iZWhRSzR4Umc3QkRNbFo?oc=5"
+        },
+        {
+          "title": "After ‘Whalefall’ Flops, Can Imagine Entertainment Return to Box Office Glory with ‘How to Rob a Bank’?",
+          "source": "IndieWire",
+          "published": "2026-11-12",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOWG1XazdwRDlVemxtQW8tRGZkRHRiZVNPNUNnUWVlZEsxM1pfNUV6SUlRQUdoZ0JEbThJU3BuREY1Z2J2V2RaUmxhRG04SFo5Tk9WU2NVTEk3YkhIb2lRNXpONWY0NTE2VlNxTnNxdHB5OGhGWHhOQ1hyRHBIRXdmYk1YRkNrRHdCX215SlRTU3JRWVNtblI5dnRCczlBZHY0a2Q1WGlJaTU4dnR6UVZqUzlXdDhTTmYtdXlFRw?oc=5"
+        },
+        {
+          "title": "Weekend Box Office: Godzilla Minus Zero Roars to Monster Opening",
+          "source": "Rotten Tomatoes",
+          "published": "2026-11-09",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPR09Mb1c4NjhOc2c3bjVqZDRrU1VpaUJ3S2czQUE1elFWcnlRTlBlV0duRFBTNlR1SFhJUERLTkRrM08ydzhzZHpRZ29RZmVhZU8tTW5ydFZHS1BnLXNmcUl4WmxnLVpkbGtJbEVLaEVzdERIQnZCN2duMlhWVURrWXpOSGRlWkV1WmJyMVZaYWx0NmNnX1E?oc=5"
+        },
+        {
+          "title": "Box Office Weekend Forecast: Johnny Depp and Ti West’s EBENEZER ($20-23M+), GHOST SOLDIER and HOW TO ROB A BANK Hope to Rival GODZILLA MINUS ZERO’s Sophomore Frame – Box Office Theory",
+          "source": "Box Office Theory",
+          "published": "2026-11-12",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPc3ctM3RjR0NhNWpTUDNSb3pna2RzZDh2SFh4ZUVmcElHSVRLWllKV1dmbC1MR1pEMWo3T1gtNUZUZjRkY2NUaG9KbTFDNVpPOUZTaE92Q1VWYS1zMFN0cEZ5YnJaVWU1NEJxX2I5bVFNZTFrUk5ZYVJ6bVFtQ21mUHBOUGxVaHJSUEM1b2diMDVJYnppdUJGWFR2ZGFBejI1cGFTMnBOakI3UFRYTDBjUWpyZUQ0ZjVHWjB0bWlGY2d5X2VIaFRVdw?oc=5"
+        },
+        {
+          "title": "Independent ‘Godzilla’ Stomps Old-Line Movie Studios at the Box Office",
+          "source": "Barron's",
+          "published": "2026-11-09",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQX3k4NVVKTzlQTlp1QVd5LUlMcTBQQVowTUFsV1dnUjhXRFZ5Tnlnd244TlNoQ2xZZFdOR3g5cDdfdERrcVYyOWVWVkN3VXY1ejZINVRwTGpXekViRnBUTHV3VXIxYnF6cWw0Q2ZXeE1WNWlPV1pOblkzUzNnUUhFUkREMXB3OTc3WFUzTnM2ZnM?oc=5"
+        },
+        {
+          "title": "David Leitch’s ‘How to Rob a Bank’: First Reactions",
+          "source": "The Hollywood Reporter",
+          "published": "2026-11-11",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZkRkdU9nZlotVnkzYVoycER3cjFMb0hOcEdxWFVWbmM1bHZGTWRNLW0yQ1J3VmFoR3hxNjBhTE9udEdnREdqLTV1RkcwU1BncE1naXJiQWE1Y0RSVDJod19ITF9kUURSazR6ZDNpajJaZmE5cEFrZE5PRlBpZ2tOUEw2bkRaUVh1eTdQNWhXbGlCLXFkeXFNcjBrbVZub0drWUR3TzBGUEJjcmI5RGRZ?oc=5"
+        }
+      ],
+      "news_query": "Rob Bank Opening Weekend Box Office",
+      "forecast": {
+        "probability": 0.32,
+        "reasoning": "This is an original David Leitch action-comedy opening against Ebenezer, Ghost Soldier and the second weekend of a strong Godzilla film. Box Office Theory groups it with films hoping to rival Godzilla's second weekend, which suggests forecasts above $7M. The IndieWire framing after a recent Imagine flop leaves real downside risk."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-13T01:01:42Z",
+        "crowd": 0.92,
+        "best_bid": 0.91,
+        "best_ask": 0.93,
+        "volume": 11971,
+        "liquidity": 5766,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Gap vs. the price we'd pay is 59.0 points, over the 35-point limit: disagreements this big have usually meant the AI missed something, so no bet."
+    },
+    {
+      "market_id": "3581389",
+      "event_id": "848407",
+      "event_title": "Taichung Mayor Election Winner",
+      "option": "Ho Hsin-chun",
+      "question": "Will Ho Hsin-chun win the next Taichung Mayor election?",
+      "rules": "Taiwanese local elections are scheduled to be held on November 28, 2026.\n\nThis market will resolve according to the candidate who becomes the next Mayor of Taichung as a result of this election.\n\nTemporary, interim, or placeholder Mayors appointed before the election will not be considered.\n\nIf the result of this election isn't known, or no candidate has been elected, by June 30, 2027, 11:59 PM ET, the market will resolve to \"Other\".\n\nThis market will resolve based on the results of the elections as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the Taiwanese government, specifically the Central Election Commission (https://db.cec.gov.tw/).",
+      "topic": "Politics",
+      "end_date": "2026-11-29T04:59:00Z",
+      "url": "https://polymarket.com/event/taichung-mayor-election-winner-20260813125857400",
+      "snapshot": {
+        "time": "2026-11-13T00:59:35Z",
+        "crowd": 0.2075,
+        "best_bid": 0.19,
+        "best_ask": 0.225,
+        "volume": 58397,
+        "liquidity": 42933,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "2026 ELECTIONS Taichung mayoral race polls show conflicting results for Ho, Chiang",
+          "source": "Focus Taiwan",
+          "published": "2026-11-03",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9HM0hEMUNCc1RaMU82NkdjbW54cVZZTGZLX0lYa1R4blI1UHNCazQ4M1BBSU5tSDhtaW1YUWt4WkVJV2V6alZxM2p6LWVYRVhRTElhbzItaw?oc=5"
+        },
+        {
+          "title": "Is KMT losing its edge in Taichung mayoral race? Poll point to toss-up",
+          "source": "联合早报",
+          "published": "2026-11-04",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNRDlEbEdsSXIycnFCUXNHbXBqSWljOHh5cVBZTDVUaTFtTURoSjZrc1NYSmNjZ2hmME5zNzFTTDd2X2NqX0MzYUJadjVWWVQ2U20tNHhPTFlObGh5b2JvbDlZcGZ1S3lyZFhYLVhSU3dQVHNtLXg3ak14c0prendvLXg4TGQyV1ZuVGFJUVY5dU5zQmwtTUdiaUo0QzVaZw?oc=5"
+        },
+        {
+          "title": "DPP’s Ho leads KMT’s Chiang by 10.7 points in Taichung poll",
+          "source": "Taiwan News",
+          "published": "2026-11-03",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5ZZDRRck1EcHJ5VExMUU14U0VrcEV4YTMxWVMwVDgtbEo4UExSb3ROSmlhc1ROQkM1Yzl4cWo0ZEZib180d2NGTEpOQWV5Qkg0RkRpdg?oc=5"
+        },
+        {
+          "title": "2026 ELECTIONS Taichung mayoral candidates Ho, Chiang attend transit hub opening",
+          "source": "Focus Taiwan",
+          "published": "2026-11-04",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBmeS1OdXRBUTZVY2Zsbnp2U1VrM3EySUk3Z0FaTkZSeXdYcTkxQU1MeUE1RVBBZ3BFVVZtV3RDSURFUFdmZDNpMDBRN294MUc0enppZUZlcw?oc=5"
+        },
+        {
+          "title": "Taichung mayoral debate set for Nov 17",
+          "source": "Taiwan News",
+          "published": "2026-11-11",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBBYjZ1MVJvYnF3TUpKTlVrRlRhOHVacDdnbzhQV3VDdVBJdHpFdEJ4b3RwWks4cEJYb0F2dHFfT3VSTmVWU2hXdGdIWXNDbzBUN3V1Ug?oc=5"
+        }
+      ],
+      "news_query": "Ho Hsin-chun win Taichung Mayor election",
+      "forecast": {
+        "probability": 0.42,
+        "reasoning": "Polls conflict: one shows DPP's Ho up about 11 points, while others describe a toss-up. Taichung has been held by the KMT, and local elections during a DPP presidency have tended to favor the KMT. Chiang remains a slight favorite."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-13T01:01:42Z",
+        "crowd": 0.2055,
+        "best_bid": 0.19,
+        "best_ask": 0.221,
+        "volume": 58397,
+        "liquidity": 43188,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Gap vs. the price we'd pay is 19.9 points; counting only part of it (cautious sizing) leaves 9.2, under the 10-point minimum."
+    },
+    {
+      "market_id": "6440117",
+      "event_id": "1285994",
+      "event_title": "Who will Trump meet with by November 30?",
+      "option": "Vladimir Putin",
+      "question": "Will Trump meet with Vladimir Putin by November 30, 2026?",
+      "rules": "This market will resolve to \"Yes\" if the listed individual meets with Donald Trump between market creation and November 30, 2026, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nA meeting is defined as any encounter where both the listed individual and Trump are present and interact with each other in person.\n\nThe resolution source will be a consensus of credible reporting.",
+      "topic": "Politics",
+      "end_date": "2026-12-01T04:59:00Z",
+      "url": "https://polymarket.com/event/who-will-trump-meet-with-by-november-30-2026",
+      "snapshot": {
+        "time": "2026-11-13T00:59:35Z",
+        "crowd": 0.937,
+        "best_bid": 0.933,
+        "best_ask": 0.941,
+        "volume": 32560,
+        "liquidity": 23464,
+        "fee_rate": 0.0
+      },
+      "news": [
+        {
+          "title": "Trump thinks he will meet Xi and Putin at China APEC summit",
+          "source": "Reuters",
+          "published": "2026-11-09",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNY0h5RWRYOHBsak5MVm5FQy1UV09NSk1odWFia1BUV1VJeVE5Z01CU0NqLVc1ckZ0V1FGSndBMUVMSlRyOVpnNktxVmNoZm13Y1FwTUw3QWxGYk5YR0VHX0k5VFlFZDJXWTJBYi03dWJ6c1MxLXZQdDVCWVBDOUJDOW5rLUdFYkZjaVZzRkNzTVd1YnpvV0tHV0p1YlNQbTRzVUE?oc=5"
+        },
+        {
+          "title": "U.S. envoys meet with Putin in the Kremlin after Ukraine talks in Abu Dhabi",
+          "source": "NPR",
+          "published": "2026-11-12",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQR2VSWUphOTlfbGlEUW1pbk55c2FaU3FFN2lYNWx2RllwVlUzTm51TFBSQ1FpaHpBaGx6WDB1cEtxRlBtTC0xWVJrcmhBZ0NWc2o3VUZrdHNCUlBvQ2p1XzA4aWhqdV9KVS1rWjZUQl9zdWNrVWhOQ3N5Vi13c3RobU9sTHFKWG10WVZpX0pBcVQ5aXBO?oc=5"
+        },
+        {
+          "title": "What a Trump-Xi-Putin summit could mean – and what it wouldn’t",
+          "source": "Al Jazeera",
+          "published": "2026-11-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQblMtbzJsWVdqUlNxY3VBbXRmOFRodGdIc3JpQWM1V3ZEazAtYmdOaDdjSHVoZG9OaVlHYlBtQTNKbFdHZzZOdlY5UTJQUjZfSXg3T056M3kwTzlUT01HNklmZEQ5Zy1qSmpobm5rT3VUQ19VanozWWZGcEF4S013MERSM2NrY3dzYmlUeGtvczc4MDFUTm1JU3hraktJS2U0blHSAacBQVVfeXFMTk5MTGF5Wm1tY0VEQ05pZkVOUXlDVFl2UlcwUVQ0X1p2cTZVLVQxWWxwZk5Xb2VQeGZHVlZTRU16am42V0pPV3cyRmNuVEJ0Z3NQbUExTXdzbDdnU05mNlhqLVdvXzYzS0p3R3dxRGtrSnhCR2NfcGJ1ZGxiYnRhcFE2X1NObVlOMDFmRmdPUTlUN21seGlPYzhSRTNYTHVLZ1Z2clpVQ1U?oc=5"
+        },
+        {
+          "title": "Trump says he met with Putin envoy, sees Ukraine deal soon",
+          "source": "NBC News",
+          "published": "2026-11-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNdHdNcHVpc01COUx6aHl0VC11S0NZWF9zNDU2Um9vN19ZdE0zS1dEaTdJdmJwU2pKUEJVeGM3QW5DZUpJLTM3enRqLUlzZEVzdHZ0ODl1YTFaRDBSdVd5V2NVUXBRdU45Qk5iYXFmQTNsUzlfTUhEQkt1ZFZBZHZNZ1NjaUZxM09YMndGWjdLczZLaUJhVmNva3ZWeVJtdw?oc=5"
+        },
+        {
+          "title": "Trump meets with top Putin envoy at the White House — but not visiting Ukrainian officials",
+          "source": "AP News",
+          "published": "2026-11-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQSjNMN3IzWmgzdHJtQzktSjczNDY4QmFyWF9rT21VTnlON0ZCNHpOOXc4b290WDdndUpGR3BGY0pyQndnN3dwdENPM3ZWb3B4UUx4aVE2ZWhjcGtHV1d1clUwNXJsd243QnpJUmh1UHlCV2d6RURIQzdXNGlNMmxSMldaZUpqR1hEcDhBZ014dWhHUHBIUE40U09TUElSNk1oWE05VjhYLUViZzRUVl83bw?oc=5"
+        },
+        {
+          "title": "A Trump-Putin-Xi Summit? That Might Be Awkward for One of Them.",
+          "source": "The New York Times",
+          "published": "2026-11-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPaGxKZlQwYlRxUnZ0RjY2SVJTVU5kRS01Smx0aFU5RDdLT3VzOFliLUNzeTBFYXIzT0JYcnFkNjBOcFl4NFBlb3BtRXFaOUJzamROMk82UlZDTTJva1NOX1d2UE9tYUNyZ3NMVndDdFNNNkVIM0xYNlVVNU9uaEZMNUNVTzM?oc=5"
+        }
+      ],
+      "news_query": "Trump meet Vladimir Putin",
+      "forecast": {
+        "probability": 0.48,
+        "reasoning": "Trump says he expects to meet Xi and Putin at the APEC summit in China this month, and envoy diplomacy on a Ukraine deal is active. Putin is likely to attend an APEC summit hosted by his close ally China. However, he has skipped recent APEC summits, and Trump's travel plans and talk of summits often slip."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-13T01:01:43Z",
+        "crowd": 0.937,
+        "best_bid": 0.933,
+        "best_ask": 0.941,
+        "volume": 32560,
+        "liquidity": 23104,
+        "fee_rate": 0.0
+      },
+      "bet_note": "Gap vs. the price we'd pay is 45.3 points, over the 35-point limit: disagreements this big have usually meant the AI missed something, so no bet."
+    },
+    {
+      "market_id": "3592180",
+      "event_id": "850742",
+      "event_title": "Next Google Gemini Flash-Lite Model (3.6+) released by...?",
+      "option": "November 30",
+      "question": "Next Google Gemini Flash-Lite Model (3.6+) released by November 30, 2026?",
+      "rules": "This market will resolve to \"Yes\" if Google's next Gemini Flash-Lite model (3.6+) is made available to the general public between market creation and the specified date (ET). Otherwise, this market will resolve to \"No\".\n\nA qualifying model must have a name or model identifier that includes \"Gemini\" and \"Flash-Lite\" and be designated as version 3.6 or higher, regardless of capitalization, hyphenation, or surrounding prefixes, suffixes, dates, or descriptors. For example, a version 3.6 or higher named in the same manner as Gemini 3.1 Flash-Lite or Gemini 3.5 Flash-Lite would qualify, including a new whole-number generation such as Gemini 4 Flash-Lite, while models whose name does not include \"Flash-Lite\" or which retain a version designation below 3.6, such as Gemini 3.6 Flash or Gemini 3.5 Flash-Lite, will not qualify. Specialized modality variants, such as Gemini Flash-Lite Image, will not qualify.\n\nA qualifying model must be launched and publicly accessible, including via open beta or open rolling waitlist signups. A closed beta or any form of private access will not suffice. The release must either be clearly defined and publicly announced by Google as accessible to the general public, or otherwise be made publicly accessible and explicitly labeled on the company's official website. Labeling errors, placeholder text, or version names displayed on the website that do not correspond to a model that is actually accessible to the general public will not qualify.\n\nThe primary resolution source for this market will be official information from Google, with additional verification from a consensus of credible reporting.",
+      "topic": "Tech",
+      "end_date": "2026-12-01T04:59:00Z",
+      "url": "https://polymarket.com/event/next-google-gemini-flash-lite-model-3pt6-released-byptptpt",
+      "snapshot": {
+        "time": "2026-11-13T00:59:35Z",
+        "crowd": 0.105,
+        "best_bid": 0.1,
+        "best_ask": 0.11,
+        "volume": 13057,
+        "liquidity": 5222,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "Google rolls out Gemini 4 Hydrogen, finally replacing 3.8 Flash",
+          "source": "Ars Technica",
+          "published": "2026-11-12",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOOEp2eWFfclJZcmNVOHJCU3NPTkN5RkhYb0p0eWY1VF9qZkdDZjF3U3NodEpWbUJ3Uks4UUtYUkdyYkFBX2ZxLXRjUHBnRFBZTGd3NXVzdks1SklWZzFtVlkzNWtKcGd6d1FBRUhKQ3VuNzhuWmlnUjZRX2pPcjFkbl9WTUhVd0h4Rmg1UEdKVjV6Z3B0ZXctNDVqT1BLRnI5d05nTQ?oc=5"
+        },
+        {
+          "title": "What Google Cloud announced in AI this month – and how it helps you",
+          "source": "Google Cloud",
+          "published": "2026-11-03",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQLTlTcHU4TGF0MU1hc295WDJGYUg1R0ZWelhGUlpCbkpYUmFpeURrMjF6OGQ5NDhQV0RsR3VSSjJtUmkyM00wc25XZ2drM0dJbXJ5RlYxZVMwd1RnTnNuOHRRZU9GZGUxcTU3eXk3M2hHNVRZc2xyRnZOZzNjOGJUUC1SOE9QU2VJVHB6dDUyaHRHenhfei1FV2drUFFELXNhc3pRelp3?oc=5"
+        },
+        {
+          "title": "Ultimate Gemini Model Comparison 2026: 2.5 to Gemini 4",
+          "source": "Fello AI",
+          "published": "2026-11-11",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4zcWFFUUNFRmY3ZmJmTXVzMzJLRi1TVlY3LVhNekpjcXdmNWttbGtjOXVOV3VrNnlkWVo0MkhWNU9UeXlySEpKUXNRLV9UYkc5cU1zbVVsRTY4dG5IRUhENHgwTQ?oc=5"
+        },
+        {
+          "title": "Google's New Gemini Model Skips the Writing, Scores 1,000 Answers at a Time for $0.10 a Million Tokens",
+          "source": "BigGo Finance",
+          "published": "2026-11-11",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4ta0g4bk5Xdnhma1JNY0QteXdOejE5QnhwZWpsOHJtRTJGemZRU25STnViNVE4MnpxQnJvOTZYMFdoeHdxdi1wMEhsekZQb1puN3BBa3hJMVpxUnhKYlNCM25rQVYtQWNjLUlwdDVqRHktUnZVMGc?oc=5"
+        },
+        {
+          "title": "Google Unveils Gemini Decision 1: Its First-Ever Decision-Making AI Model That Tops 7 Out of 9 Benchmarks With Up to 92.2% Accuracy",
+          "source": "36Kr",
+          "published": "2026-11-12",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9ucnN5c085VkpralBOeEJWZjZRdmNkaWR3bFFIUDJ6RGNNWFJXeTY2c3h2d0FBOU1fX09jajVmaVpzYmhhV0ZKNjB4YWowb0phM2JF?oc=5"
+        },
+        {
+          "title": "Research Team Trains Gemini 3.1 Flash-Lite for Psychiatric Intake",
+          "source": "TOKENPOST",
+          "published": "2026-10-31",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5uamR0MnBhVzEtTVRfNXJWcUt3SXA2SXJpMEVoTFVKc05tMDAzQWxOMjQxd0F6TEJkd1FOV0YxN3BLMHZZanJjQ05LNGZCOHZvVzlqanRhMU1PdHM?oc=5"
+        }
+      ],
+      "news_query": "Google Gemini Flash-Lite Model released",
+      "forecast": {
+        "probability": 0.14,
+        "reasoning": "Google just launched 'Gemini 4 Hydrogen' to replace 3.8 Flash, which suggests the new generation may use different tier names than 'Flash-Lite'. A 3.6+ model explicitly named Flash-Lite would need to appear publicly within about 17 days. That is possible but not signaled."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-13T01:01:43Z",
+        "crowd": 0.105,
+        "best_bid": 0.1,
+        "best_ask": 0.11,
+        "volume": 13057,
+        "liquidity": 5219,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Gap vs. the price we'd pay is 3.0 points; counting only part of it (cautious sizing) leaves 1.2, under the 10-point minimum."
+    },
+    {
+      "market_id": "6618524",
+      "event_id": "1305149",
+      "event_title": "Eurovision Asia 2026: Jury Winner",
+      "option": "Malaysia",
+      "question": "Will Malaysia be the Jury Winner in the Eurovision Asia 2026 Grand Final?",
+      "rules": "The Grand Final of the Eurovision Song Contest Asia 2026 is scheduled for November 14, 2026.\n\nThis market will resolve to the country ranked first by points received from the national juries in the Grand Final of the Eurovision Song Contest Asia 2026, according to the ranking below.\n\nCountries will be ranked according to the total number of points received from the national juries in the Grand Final. If two or more countries are tied, ties will be broken by the total number of points received from the public vote. If still tied, ties will be broken alphabetically by English country name. This market will resolve according to the country ranked first under this ranking.\n\nIf the results of the Grand Final of the Eurovision Song Contest Asia 2026 are not announced by January 31, 2027, 11:59 PM ET, this market will resolve to \"Other\".\n\nThe primary resolution source for this market will be official information from Eurovision (https://www.eurovision.com/asia/), including live footage of Eurovision Song Contest Asia 2026, however a consensus of credible reporting will suffice.",
+      "topic": "Entertainment",
+      "end_date": "2026-11-15T04:59:00Z",
+      "url": "https://polymarket.com/event/eurovision-asia-2026-jury-winner",
+      "snapshot": {
+        "time": "2026-11-13T00:59:35Z",
+        "crowd": 0.71,
+        "best_bid": 0.7,
+        "best_ask": 0.72,
+        "volume": 11865,
+        "liquidity": 5998,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "First Eurovision Song Contest Asia arrives in Bangkok as artists from 11 countries compete",
+          "source": "EBU",
+          "published": "2026-11-09",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNSHhPdHVTNFNXUHg2dW8zaXpoZmNZQ1ZQalVtblhiVDNuaktmY2NvQURIRVdGMlV3UGJDVWFMSklRQjNKSV9qQWhrUHo3VUdTOTRUaWZpdEJ5dmhJUjZ5UmJvb0NvZXpGU2dsV0g3YTdINl9WVWVYNWV6YjVuc2J3QmpQTXRKMXVHNGNXU2xuZ3hwX0FQVnR2ZEhtdVpKeHBVcHVwdFdRUzN5Y0dETWhnallpV3Zaby1GRm85OU5NQQ?oc=5"
+        },
+        {
+          "title": "Opinion: The Eurovision Asia entries that share traits with Contest favourites",
+          "source": "Aussievision",
+          "published": "2026-11-04",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWkFpX2pUVVQ3N0VwSXpXNmpxUXV5UHFMZ1dYUFRjeEtMRFpoa3VzMF9sSWlIM2J4N0dYRHFMQ1FfR2pqd2NwcGduWmt5T1Bvck9Xdzk5MU1aek5WaWNxWkxsNDRncE9pMHRreGFEbWNCbWVWdzN3cnFnVEhkOHlRS2dJR2ZEN1FCWTAwcHRva0hSVkVFWmFXbGF2dDZzOVpuRThRN0JmUjg4aVFFWVc5dw?oc=5"
+        },
+        {
+          "title": "Eurovision Asia 2026: The Grand Final Rundown! | How long is the show?",
+          "source": "Eurovision News | Music",
+          "published": "2026-11-09",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPb2hOd1NwTndiUWZzUUlPUVlKaFVQdzViX1VzbnZUMnhTaEFXWnFqN0E2WGxGNFZnbVhHODBvVTRRbVpHZU5uelZVYXFfN1lTdlBVTHB6UWp5dVJaeHFZWEI5NlNBVmhPeENJUnJPcF9FVm1qMHFIZ0FFeHBjd01SNVVGT0gxVWItc2p4bTIwRkNWLXpDQktmLVRvZzlUYzdMRENFWlZn?oc=5"
+        },
+        {
+          "title": "Jeff Satur and Dara join Eurovision Song Contest Asia",
+          "source": "Bangkok Post",
+          "published": "2026-11-09",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOaU9EQ1JaVTBkbHEycE5fR1pxQWJjUWFzQ25BTWdTNXUybWdfR1M2aHNNcnF6ak45bG1wR3BiWjdsZVNyTUQ0QTlid0hTVW1uMmJtTXRDdWt0N2lrc3l0aWdKZnVtaVUxX09KZmEyUkc2aWhpYUsyZjl6RHFwQmVfai1FbzRCTTFLLW1mR2xlcFR5dnZ2TzR4eU5MQkx2bFFidFZFM0YtOXVCcFlfS1pwNjR6MEtaSTVG?oc=5"
+        }
+      ],
+      "news_query": "Malaysia Jury Winner Eurovision Asia Grand Final",
+      "forecast": {
+        "probability": 0.09,
+        "reasoning": "Eleven countries compete in this first edition, and I have no evidence marking Malaysia as a jury favorite. I am staying near the roughly 1-in-11 base rate."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-13T01:01:43Z",
+        "crowd": 0.71,
+        "best_bid": 0.7,
+        "best_ask": 0.72,
+        "volume": 11865,
+        "liquidity": 5998,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Gap vs. the price we'd pay is 61.0 points, over the 35-point limit: disagreements this big have usually meant the AI missed something, so no bet."
+    },
+    {
+      "market_id": "5197571",
+      "event_id": "1117417",
+      "event_title": "Reserve Bank of India decision in December",
+      "option": "No Change",
+      "question": "Will the Reserve Bank of India make no change to the policy repo rate at the December meeting?",
+      "rules": "This market will resolve according to the change in basis points in the policy repo rate resulting from the December 2026 meeting of the Reserve Bank of India Monetary Policy Committee, relative to the level it was prior to this meeting.\n\nThe resolution source will be official information from the Reserve Bank of India Monetary Policy Committee, including the statement or release from its December 2026 meeting, with the decision to be announced on December 4, 2026, as listed on the official Reserve Bank of India calendar (https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=62422). This market may resolve as soon as the statement or release of the Reserve Bank of India Monetary Policy Committee resulting from its December 2026 meeting with relevant data is issued.\n\nIf the specified rate is defined by an upper and lower bound, the relevant change will be the change to the upper bound.\n\nIf the specified rate is changed to a level not expressed in the displayed options, the change will be rounded according to the following guidelines. Increases or decreases of less than 25 bps will be rounded to 25 bps (e.g. an increase or decrease of 10 bps would be considered to be an increase or decrease of 25 bps). Increases or decreases of greater than 25 bps will be rounded to the nearest 25 bps and will be rounded away from 0 in cases of equidistance (e.g., an increase or decrease of 37.5 bps would be considered to be an increase or decrease of 50 bps). Displayed options of “Increase” or “Decrease” will include policy rate increases or decreases of any size.\n\nIf the specified meeting is postponed to a date and time before the start of the next scheduled meeting, this market will resolve based on the outcome of that postponed meeting. If the specified meeting is cancelled, or postponed such that no decision is announced by the start of the next scheduled meeting, this market will resolve to the “No Change” bracket. Emergency changes to the specified rate not resulting from the specified meeting will not be considered.",
+      "topic": "Economy",
+      "end_date": "2026-12-04T00:00:00Z",
+      "url": "https://polymarket.com/event/reserve-bank-of-india-decision-in-december-2026",
+      "snapshot": {
+        "time": "2026-11-13T00:59:35Z",
+        "crowd": 0.17,
+        "best_bid": 0.16,
+        "best_ask": 0.18,
+        "volume": 15501,
+        "liquidity": 2439,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "Reserve Bank of India Balances Liquidity With VRR and Bond Sales",
+          "source": "Multibagg AI",
+          "published": "2026-10-30",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQRlhsU25Pa0pheHhMZ3J3Q1J6RzZUbzQ3QnhkWldKdlFDUzR4UmU5SnBJZHFfdkw3Uk9yNkRTeWlLYUxpNHA0MUQzM0pIMk9uVEFtU0Zlci1KbWdzaVBNTk1jeklUbmdxRzM4V0RUbS1tV1dIbndFcmJGcENSNjhWaUhIdmcxVzN2T3VpdkM4QWJ2M0NlWU9lVnNHT0Iyb1hjR1Vr?oc=5"
+        },
+        {
+          "title": "Reserve Bank of India may hike rates by up to 75 bps more: Uday Kotak",
+          "source": "Business Standard",
+          "published": "2026-11-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNY002R2ROa014eXFCOXBFUkJ1WGtoZVBIYmJEek9ERWJKY010bjVZMUM4TU9adFlQT2JycEQxSHQ0NkZDWTZjVVdPbjkzZGpfVzktVEozcEpOYlJuUkdOcXZmSmtBVWxncW5FNWxzSDJzQU1RYVRKS09kM2Q0eXF4bW9NYVdQckF1bm1GRVF1NlRSR2JtdTlDd1RIZ044UHk0cWFPUW9fX3hNZ0haMldXbVpQWU9tSUJXelNCeU8wUDBsTDNvY2Z3d1htTUNWZ3Az0gHWAUFVX3lxTE4zUDY3ZXNGaHlvM0FPblRLNGFod1JWTjdMSmd2eENwLXJXVzhYTXRoSk00LWp3dmJuRE01T0ttNTFkSHBWOEkzcWhlQ3NNbUhpekdkNUk2MEFkeEFaSzFLYVpTZHBXWVZYOWQzeG4tM09MNmJRT2p0WDZGeGlELWZ6T3BGMlg5ZGFvNjZXNVNnbDZJMGR1UGRpcUt4Uy1MQW9jUlZOTUVUUFUzMEFDbzBfT3lodHRfUUc3TURqc21TTDI5ckExMHR0TEZuTUtTeEhvQ0otZGc?oc=5"
+        },
+        {
+          "title": "RBI Repo Rate and Indian Stock Markets: Understanding the Connection",
+          "source": "Kalkine India",
+          "published": "2026-11-07",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZ1FOSzlIN0dRbTZRRU5EOHlBNlJiSzYyTnBwMVVlbEZ0aWE4ZFV3bXFTVFl0WlYtaGVIUm1Ca0FpaGRGWlhpMFI1c21ISkVDUTI0Y253ZWxhVnpIaFRPSHJHWHBSUXhZcEJMM09NYlh2OEt3TXhUS0tDNHpGWnpFVnZGSnZrVXNkbmRTNnJCSVIxR2N5dDI3dkh2UEtOLXUwT3c?oc=5"
+        },
+        {
+          "title": "PNB hikes MCLR by 10 bps across all tenures; Bank of India cuts rates by 10 bps",
+          "source": "Upstox",
+          "published": "2026-11-01",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNbXA3RzYtRXd5eTl1Um1vWXNvM1o0ZFgxTUN0TEdGTjhIeHVfM3JCMGhDbXl1dy1WOVM5SzE3ZjJya2RNWVo3SU5aR1ItcjdJTnBPOTl2X1RKdmFVT0NKTXhWMmlITjhDNHU2c1pkaS04bjNaVWJjbE01VkQ0Z1RNcDM4TjFMVjNoRmdEQTQwb2hSTmRNYmRJMmV1a2s0UDhQcmdsNFM2UUl1UU0zZlRoc3NhVWV1eDlDY1RoQm1Ja2dSWlNyV21FY3djd0NhYlNBRWxDa1lXczV6b0tPUTVNRl9CSEo?oc=5"
+        },
+        {
+          "title": "India’s inflation breaches central bank’s upper tolerance limit",
+          "source": "The Real Economy Blog",
+          "published": "2026-11-12",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNNHlJazQ2Y05GbmpERVlQeDVnSjNoQ2taeWJ0R3FXaHh2MTcyY3lLUkhFMFV5cVFhb21YSnF5OW1LazJXRHJPcy12UTBfVHYtWU9BMjAtcWVGNGE1N1RsdC15VmI5aUk5YVduTHY1N0Z0bTlJTXRxSWI0UDdsT0s1bDBrZDJhU1FoTW1idU9xSUdiSTJLWndV?oc=5"
+        },
+        {
+          "title": "India's October consumer inflation likely nears top of RBI target on food costs",
+          "source": "Reuters",
+          "published": "2026-11-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQcWpEdVVaTkZEWmh5VXJkWXFTQ0FQSW5iVlBFLTVodFJTUlp1VjZ1LVNDZXg2bVJRaHdLM3dJWnFZU1NZeWkxeHpiaHpnSVF2YVk5QXA2WGR3TVduTjYtUHA4WUNtWml1TTI2ZnhxTGNNSzlXdmJuRGRXb3ZVa0dYNy1qcXVtXy1uRzQyak1tMXN5UUNXZVpPX1kxX1FZZ05WbG5hNFJmRDFSOXIyd0hTdTlwTE5Qb1I5UXRSdw?oc=5"
+        }
+      ],
+      "news_query": "Reserve Bank India change policy repo rate | Reserve Bank India change policy repo economists forecast",
+      "forecast": {
+        "probability": 0.38,
+        "reasoning": "Inflation has breached the RBI's upper tolerance limit, and prominent voices like Uday Kotak talk of up to 75 bps more in hikes. That implies a tightening cycle in which a December hike is quite plausible. A hold is still possible if food-driven inflation is seen as temporary."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-13T01:01:43Z",
+        "crowd": 0.17,
+        "best_bid": 0.16,
+        "best_ask": 0.18,
+        "volume": 15501,
+        "liquidity": 2439,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Gap vs. the price we'd pay is 20.0 points; counting only part of it (cautious sizing) leaves 9.5, under the 10-point minimum."
+    },
+    {
+      "market_id": "4713380",
+      "event_id": "1045439",
+      "event_title": "Bank of Brazil decision in December?",
+      "option": "25 bps decrease",
+      "question": "Will the Bank of Brazil decrease the target for the Selic rate by 25 bps at the December meeting?",
+      "rules": "This market will resolve according to the change in basis points in the target for the Selic rate resulting from the December 2026 meeting of the Bank of Brazil’s Monetary Policy Committee (COPOM), relative to the level it was prior to this meeting.\n\nThe resolution source will be official information from the Bank of Brazil, including the statement or release from its December 2026 Monetary Policy Committee meeting, scheduled for December 8-9, 2026, as listed on the official Bank of Brazil calendar (https://www.bcb.gov.br/en/about/bcb-calendar?categoria=Monetary%20Policy%20Committee%20(Copom)). This market may resolve as soon as the statement or release of the Bank of Brazil’s Monetary Policy Committee resulting from its December 2026 meeting with relevant data is issued.\n\nIf the specified rate is defined by an upper and lower bound, the relevant change will be the change to the upper bound.\n\nIf the specified rate is changed to a level not expressed in the displayed options, the change will be rounded according to the following guidelines. Increases or decreases of less than 25 bps will be rounded to 25 bps (e.g. an increase or decrease of 10 bps would be considered to be an increase or decrease of 25 bps). Increases or decreases of greater than 25 bps will be rounded to the nearest 25 bps and will be rounded away from 0 in cases of equidistance (e.g., an increase or decrease of 37.5 bps would be considered to be an increase or decrease of 50 bps). Displayed options of “Increase” or “Decrease” will include policy rate increases or decreases of any size.\n\nIf the specified meeting is postponed to a date and time before the start of the next scheduled meeting, this market will resolve based on the outcome of that postponed meeting. If the specified meeting is cancelled, or postponed such that no decision is announced by the start of the next scheduled meeting, this market will resolve to the “No Change” bracket. Emergency changes to the specified rate not resulting from the specified meeting will not be considered.",
+      "topic": "Economy",
+      "end_date": "2026-12-09T11:59:00Z",
+      "url": "https://polymarket.com/event/bank-of-brazil-decision-in-december-20260918",
+      "snapshot": {
+        "time": "2026-11-13T00:59:35Z",
+        "crowd": 0.0705,
+        "best_bid": 0.058,
+        "best_ask": 0.083,
+        "volume": 20846,
+        "liquidity": 4785,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "Brazil Holds Key Rate Steady at 13.75% After Lula’s Election Win",
+          "source": "Bloomberg.com",
+          "published": "2026-11-04",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSTdPTGVjTXpqTmFpREcxMDNyTlIyckZZUFVYczZkN1dZUjk3M0M4elE2c2dXUEtkdXBjTkk4a1VYc1VRbkt5N2VyZXJJY0xQbE8xSVNQSm1GelgtQkowOGptcEVhOEVlYXc2czhzMkdnMjZhbVNfZGpvQ3VPSnpIVG8yejV0MUVZUXE5cGJYYlRqMVdFSV9YeGR0X2ZCUWlLYWdUSjBYODJ0NDFfRS1xd3hENnE?oc=5"
+        },
+        {
+          "title": "Brazil inflation remains above goal despite softer-than-expected October reading",
+          "source": "WTVB",
+          "published": "2026-11-12",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNeHcyNmFoa25DczMwNlZzcDNObndiYTdDZjN0Ri1PWkl6TU9Da2xVOW1GRDNhMGt3OXFQMU9MM2pDU05IVjhaeEpzNnlWdExGcUwyQTJueWY4SEJYUmtveEhaWWVvcVprTFFnazhZUUZ2cHBtRlpwdE1YX1ZLTlcxQzB4ZWxvVEtFTXY0VURrZjR6cHNRWTlPTExueFJLZGRXNnpnTkIwbno5Uy1RRUtLVQ?oc=5"
+        }
+      ],
+      "news_query": "Bank Brazil decrease target Selic rate bps | Bank Brazil decrease target Selic rate economists forecast | Bank Brazil decision bps decrease",
+      "forecast": {
+        "probability": 0.3,
+        "reasoning": "COPOM held at 13.75% in November around the election, and inflation remains above target despite a softer October reading. December could bring a resumed cut, but it could be 50 bps or another hold. That leaves a 25 bp cut as one plausible outcome among several."
+      },
+      "bet": {
+        "side": "YES",
+        "price": 0.0842,
+        "top_price": 0.085,
+        "shares": 190.95,
+        "stake": 16.08,
+        "fee": 0.74,
+        "cost": 16.81,
+        "gap_pts": 21.5,
+        "edge_pts": 10.1,
+        "sized_on": 0.1857,
+        "kelly_full": 0.1063,
+        "fill": "order book",
+        "levels": 2
+      },
+      "trade_snapshot": {
+        "time": "2026-11-13T01:01:43Z",
+        "crowd": 0.0715,
+        "best_bid": 0.058,
+        "best_ask": 0.085,
+        "volume": 20846,
+        "liquidity": 5735,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Bought YES (AI's gap 21.5 points; 10.1 after cautious sizing)."
+    },
+    {
+      "market_id": "5361551",
+      "event_id": "1140799",
+      "event_title": "Reserve Bank of Australia Decision in December",
+      "option": "25 bps increase",
+      "question": "Reserve Bank of Australia increases interest rates by 25 bps at the December 2026 meeting?",
+      "rules": "This market will resolve according to the change in basis points in the cash rate target resulting from the December 2026 meeting of the Reserve Bank of Australia (RBA) Monetary Policy Board, relative to the level it was prior to this meeting. \n\nThe resolution source will be official information from the Reserve Bank of Australia, including the statement or release from its December 2026 meeting, scheduled for December 7 and December 8, 2026, as listed on the official RBA calendar (https://www.rba.gov.au/schedules-events/calendar/?topics=monetary-policy-board). This market may resolve as soon as the statement or release of the Reserve Bank of Australia Monetary Policy Board resulting from its December 2026 meeting with relevant data is issued.\n\nIf the specified rate is defined by an upper and lower bound, the relevant change will be the change to the upper bound.\n\nIf the specified rate is changed to a level not expressed in the displayed options, the change will be rounded according to the following guidelines. Increases or decreases of less than 25 bps will be rounded to 25 bps (e.g. an increase or decrease of 10 bps would be considered to be an increase or decrease of 25 bps). Increases or decreases of greater than 25 bps will be rounded to the nearest 25 bps and will be rounded away from 0 in cases of equidistance (e.g., an increase or decrease of 37.5 bps would be considered to be an increase or decrease of 50 bps). Displayed options of \"Increase\" or \"Decrease\" will include policy rate increases or decreases of any size.\n\nIf the specified meeting is postponed to a date and time before the start of the next scheduled meeting, this market will resolve based on the outcome of that postponed meeting.\n\nIf the specified meeting is cancelled, or postponed such that no decision is announced by the start of the next scheduled meeting, this market will resolve to the \"No Change\" bracket. Emergency changes to the specified rate not resulting from the specified meeting will not be considered.",
+      "topic": "Economy",
+      "end_date": "2026-12-08T23:59:00Z",
+      "url": "https://polymarket.com/event/reserve-bank-of-australia-decision-in-december-2026",
+      "snapshot": {
+        "time": "2026-11-13T00:59:35Z",
+        "crowd": 0.06,
+        "best_bid": 0.059,
+        "best_ask": 0.061,
+        "volume": 10115,
+        "liquidity": 12725,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "Australia's central bank lifts rates to 18-year high, split vote points to pause ahead",
+          "source": "Reuters",
+          "published": "2026-11-03",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOZnNfcUQ3dmx0aEd4N1BfaUlBRVFScGc4dDdSTUxSRV9lc3N1TTRYd21tV3A3MkVXY3dWOXhmZnFwU2tMSVk1MkpjX0JCU0hyMzdZNlRwdTJJNlNONTFtemVhTjFaY0ZCXzFyV1I1NENweU9qNnM4TWdXZWlpTGlUN3pIaUwxTWpNT21Zc0ZtX3RrSUlvZXlpWnlMaEl4N3dGR1lXcXZrTW9EMF9VS3h2ZnU1VFlMTkZReXdkLVk1dFpNdFFyVTc2djViU0JHQQ?oc=5"
+        },
+        {
+          "title": "Australian Dollar declines after RBA hikes rates by 25 bps to 4.85%",
+          "source": "FXStreet",
+          "published": "2026-11-03",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQZDlKLVVnem8wbjJHQVRYLUxXWU5vWHFDMnktQnB1bkNfTlVYVnFoUXJBaVN1aFk3bGRQbHdlSzF3a01XOElGU3c0ejhIYkVEZVRYMHpxanFFVmk5azk4V3p3dzF5R1RWd0dWZldYUFhwVXFmZURJRDNQQklkMTZfdXNnQVhaTFFOYWdYVnV1YUM0WmdUV3MySHpJQmtqb0tObi1QYzNVOUdMOWNf?oc=5"
+        },
+        {
+          "title": "Australian Dollar falls following RBA’s 25 bps rate rise to 4.85%",
+          "source": "www.tmgm.com",
+          "published": "2026-11-03",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQMnl0aGs3SjBGbEtqUTZ3d2wtR2RoT2VHUmt1aHVYcENFdU42OWt6OUV6cmFnUWJub1Y4TFNZdkt4SjJYTkpuYjVzWmxwQ2JHSVBlY1JxbG9DZTl5ZEYyODFoU09aeEZEX2lUWGF1Z3M4aFZ3QWJFdkZac0lwTngzOGhiWGFpNEJpcUNzcU14cmtsZGF5bmcyRE13Q20wT2hCdjhESmVMUDVVTG12VlJlNkpoSjNoWTNVMW9sNjB0RjdaYjZLM3ZJbFl6bU5HSmM?oc=5"
+        },
+        {
+          "title": "Australian Dollar softens against Japanese Yen as RBA lifts rate to 4.85% in fifth hike this year",
+          "source": "Mitrade",
+          "published": "2026-11-02",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQVXh3WWZRZGRWeG1uZGZQaVFJOUh3RzFMOHE2X1QyaTRhMThkR0hEOHBKem5FTzFBTlo4QWhHbHB6QXBrenN3MVlyUlk1WGtiWV9EMWtvVmVuNG1vcS1JaWJuUDEzMTJKMV91dUpWY1ZfVHY5a2tqa3MxUUtPczFFWG1zdw?oc=5"
+        },
+        {
+          "title": "The Federal Reserve isn't the only central bank to hike rates in 2026: What global tightening means for investors",
+          "source": "Chase Bank",
+          "published": "2026-11-04",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQalh0cEd5MHRBbnVnMm9NSURrbGZWVUJ5OGlTTjlTOHpBSW1zaFdyYjFKSXJ0T1E3WnMzUEJDMkxaWWp3bDIyRk5fcTZQaVBQY2RZNm9mV2xOdHo5RnBWMl9hZFJBZDA2Ni1tcUdHNUpQRmNjZUZBTko3djhENVZJXy1sd3dOZW8wUlVYOFJRREFEcHlndHlnc0lrOXBxQWl1M3NuR05tcy1kc19QLWw2YXJwNGJpR1NiQmJmaGwxUHlQTzFpWW5PUkNrbURvdlM1SW4tVmphTFZObURN?oc=5"
+        },
+        {
+          "title": "Australia’s Home Loans Fall by Record After Rapid RBA Rate Hikes",
+          "source": "Bloomberg.com",
+          "published": "2026-11-11",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNNzdsOG9wbUVwbFNLdFBta0N2NUtpWjFtNVd5bTdrNGs0MEtqWE9mNmY4VFdPS284N3FqY1FTTTlVSmhzNGUyeW5keVc4bjk3YTFfd1RfbC1TWUJmWnBOLWRKNk5LamQzR2c0eGpMazV5RG1jRFBOOG5mYlJGLXNFYjRjTnc5SlBqa2dTQzRGbmJ1SnhGcWt4SWlyaDJVR3YtWWVLR2xxZHVWbk84MFBVRnZab3lHQQ?oc=5"
+        }
+      ],
+      "news_query": "Reserve Bank Australia increases interest rates bps | Reserve Bank Australia increases interest rates economists forecast",
+      "forecast": {
+        "probability": 0.2,
+        "reasoning": "The RBA hiked in November to 4.85%, its fifth hike this year, but the split vote was read as signaling a pause. A record fall in home loans adds to the case for holding. A back-to-back hike in December is possible only if inflation data surprise."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-13T01:01:44Z",
+        "crowd": 0.06,
+        "best_bid": 0.059,
+        "best_ask": 0.061,
+        "volume": 10115,
+        "liquidity": 12779,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Gap vs. the price we'd pay is 13.9 points; counting only part of it (cautious sizing) leaves 6.9, under the 10-point minimum."
+    }
+  ],
+  "batch_id": "msgbatch_01QzWiahGJ7TWMHT8qAjVS8Z",
+  "forecast_at": "2026-11-13T01:01:42Z",
+  "usage": {
+    "input_tokens": 8334,
+    "output_tokens": 2728
+  },
+  "cost_usd": 0.0439,
+  "budget": 42.78,
+  "account": "phase-1.2"
+}
