@@ -1023,5 +1023,20 @@
     "outcome": 0,
     "resolved_at": "2026-11-11T05:22:35Z",
     "question": "Houthis seize an oil tanker by October 31, 2026?"
+  },
+  "5401796": {
+    "outcome": 1,
+    "resolved_at": "2026-11-13T05:55:38Z",
+    "question": "Military action against Saudi Oil Pipeline (East-West) by November 30?"
+  },
+  "6625206": {
+    "outcome": 0,
+    "resolved_at": "2026-11-13T07:01:24Z",
+    "question": "Will GPT Astra 6.1+ be released on November 12, 2026?"
+  },
+  "5765625": {
+    "outcome": 0,
+    "resolved_at": "2026-11-13T15:31:24Z",
+    "question": "Will PPI YoY be 6.8% or more in October?"
   }
 }
