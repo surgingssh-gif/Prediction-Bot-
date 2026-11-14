@@ -1,0 +1,750 @@
+{
+  "run_id": "2026-11-14",
+  "date": "2026-11-14",
+  "created_at": "2026-11-14T00:51:06Z",
+  "model": "claude-opus-5-5",
+  "effort": "high",
+  "phase": "1.3",
+  "pick_stats": {
+    "eligible": {
+      "Economy": 6,
+      "Entertainment": 3,
+      "Politics": 15,
+      "Tech": 3
+    },
+    "picked": 10
+  },
+  "track_record": "=== Your track record so far ===\nThese are your own earlier forecasts in this experiment that have settled (198 questions). They show only what you said and what happened (no market information).\n- On average you said 38%, and 43% of these events happened. Overall, your average is close to how often things happened.\n- Your average Brier score is 0.256 (0 is perfect; always saying 50% scores 0.250).\n- When you said...\n    under 10%: it happened 6 times out of 22.\n    10-30%: it happened 20 times out of 59.\n    30-70%: it happened 40 times out of 84.\n    70-90%: it happened 17 times out of 31.\n    over 90%: it happened 2 times out of 2.\n- Your biggest misses:\n    \"Will SpaceXAI officially rename itself to SpaceXSI by October 15?\" You said 3%; it happened.\n    \"Will the Tesla Roadster fly for 1s+?\" You said 4%; it happened.\n    \"Will Xiaomi have the best Chinese AI model at the end of October 2026?\" You said 6%; it happened.\n    \"Will monthly inflation increase by 0.6% in September?\" You said 7%; it happened.\n    \"Will there be between 0 and 5 average daily transits of the Strait of Hormuz on October 31?\" You said 7%; it happened.",
+  "questions": [
+    {
+      "market_id": "7023303",
+      "event_id": "1382290",
+      "event_title": "Nationwide ground stop lifted by...?",
+      "option": "November 15, 12:00 AM ET",
+      "question": "Will the FAA's nationwide ground stop be lifted by November 15, 12:00 AM ET?",
+      "rules": "The FAA issued a nationwide ground stop for flights departing U.S. airports on November 13, 2026 (see: https://www.cnn.com/2026/11/13/us/faa-nationwide-ground-stop).\n\nThis market will resolve to “Yes” if the FAA, the U.S. Department of Transportation, or their authorized representatives officially announce that this nationwide ground stop is no longer in effect between market creation and the listed date and time (inclusive of the listed minute). Otherwise, this market will resolve to “No”.\n\nA qualifying announcement must communicate that the nationwide (all-airports) ground stop is cancelled or otherwise no longer in effect, including where it is replaced by narrower ground stops or other traffic management initiatives at individual airports or regions. Announcements that the ground stop is lifted for, or does not affect, specific airports, regions, or flights while the nationwide ground stop remains in effect will not count.\n\nAn announcement that the ground stop will end at a future time will not qualify until its effective time.\n\nThe primary resolution source for this market will be official information from the FAA & the Department of Transportation; however, a consensus of credible reporting may also be used.",
+      "topic": "Politics",
+      "end_date": "2026-11-15T04:59:00Z",
+      "url": "https://polymarket.com/event/nationwide-ground-stop-lifted-byptptpt",
+      "snapshot": {
+        "time": "2026-11-14T00:51:01Z",
+        "crowd": 0.9235,
+        "best_bid": 0.919,
+        "best_ask": 0.928,
+        "volume": 56418,
+        "liquidity": 15243,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "FAA issues nationwide ground stop due to \"extraordinary circumstances,\" White House says no indication of \"nefarious act\"",
+          "source": "CBS News",
+          "published": "2026-11-13",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1UWWt5d2haNGYwVGZGMXVYUjhjZjlKbkhYWnNidWhBQ000OFgxbExacDFTY2IwYi1FLS03WkZKS1RTRmJNZDBEOERadEpPTk1jNGxNUkktSmo1TE92VTkxaFJ1YS1QR1ZEYTNMVlFhSnQ?oc=5"
+        },
+        {
+          "title": "FAA grounds departing flights nationwide, citing air traffic communication system outage",
+          "source": "CNBC",
+          "published": "2026-11-13",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBaSWNTSW04MGV3d2hOSXdvNmVnRC1lemI4eE1jMy1KcWdKWlYwUTgtTjhaX1NJb1I4MGxmYXFTeFZlOGxtUlNZaVJpY1B5bEtEb3dsN0VPa1FqVC1vSnlPSEp30gFnQVVfeXFMTnZoYjh6WHJtU0UxdzlLLUpaeHpaQ1N3WHpHRm9NSWRpZWl0RVB1NHhpYzZCUU1feU1iVGp2LTJzSXIzMzZzWm50dTVWQ1J4dXhEQVBqbnZ6QklNLVdwV0NMbGcydFVPOA?oc=5"
+        },
+        {
+          "title": "Ground stop ordered for all airports nationwide for ‘reasons of safety’",
+          "source": "NBC News",
+          "published": "2026-11-13",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOcFpNUWJMU2ppemowM1BHcmRhZTc0YkhQTjl5ZVdTX0VIVlhwOGJESXdjcUhiM1lkbWZHUTJManlCYWRWc3FGWVpIUUNSSWhNeGM1TDN6UnJKSUZUUnlpS2Rac3J0M1RNcTg0WmRGYXlfRjlLTmtwd1FXcmpCU1hBX0sxUW4xbTczY1BOcUt6RkhyMzN5Y2x2TTg3MkJlTzBFLWxmdlNQbnlHVkRPeHg0TEI3VWg?oc=5"
+        },
+        {
+          "title": "Ground stop ordered by FAA at all airports in America due to a 'communication issue'",
+          "source": "FOX Weather",
+          "published": "2026-11-13",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5qc2IteGM3ak96OHdiLUZUUlZDOFJ0SnB2YTljRHV5amtVdVlPRHFRd0tNZTZwS3BzTUI1OFZaRGJObVIybTlIUlB4TXhTSWZpM1ZVM0pKYklvQ0Y3ZV9JcncxZVB2OXRDaWswaUt5Ym0tNU5GNDFYdjdoT3llV2PSAYQBQVVfeXFMTkJhaXNQaFlEamdiTm1zNEt0Z1RqLS13VVRaTUlkamZLRUExRnlMWWtfS0pEbUpoSERFY1lPR05YNXV4NmItQWVhNXBtSmVlb3R1OFRWd1puUkw4bVl4YnVrNXllanhSR0hpMnliV19FbnNZdUwyNHBZMGhaTmU1ajZJNkNi?oc=5"
+        },
+        {
+          "title": "FAA grounded flights nationwide. Here’s the last time it happened and why",
+          "source": "Cleveland.com",
+          "published": "2026-11-13",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQdkdmQTVnY2lPVFdEVFVpSFNJaUx2N1F3TW54M1JpanJEcHpESXpUdnNweVBvdWt3T3hfQU5GSFdIVHFhYk1TSU4yTFNBNGlvajFvRFhQUU0ybmRZNHlDMm1fdEp2b3ZseDJ1LTQwZWlTYWpXZXZTOEwycTZmNWYwbl84SmhmUU1zNXVGd3hQU2F0VDV4MHNRNksySE11VUJPYzFINTRfLUZVRFlCVi1SVnNqSlM0QdIBygFBVV95cUxPQUgyTlZVWW5vZldzUXBSXzVFek9EZ24tSWlBYTl4bW5CdXYzN1VINXh4U3BBSWlHV2NlWlNDOExwbU9YVURKUFZIUzVXZDFaclFMQ0pvLUdiRFF2cE1QbFplRHVuaGkyRXo4Rnk4WWQ2TGFGVTVCYU9NRmFTVXdIQTFXckFvWXFRQUpYZVpkdHlQeWdHOWRnMk1TQ0gyaENoUnhKOHBORE9SSS1YbmpGWkZLcHF0RHRlWC1SbVV4RklNSzB6TkttOVpR?oc=5"
+        },
+        {
+          "title": "FAA ground stop halts departures at California airports. What to know",
+          "source": "The Desert Sun",
+          "published": "2026-11-13",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPeWd5b3BNLTJld0dob243Zm9hU2dtMGJYQ1MzQUtiUC1BS0ZleUNfZ1YtRm1KajdoLXpnWEVyX2RobzB0VzBPXzh6WUswNFVGWVNvc1ZpY1hGYlVQcU0zTVJYSTRldjROek1MZXhkUTZkVFlYSVlaNHVISWhlTTBELUhzMFd2UlVjV04wWXRzUUg1eFJBQlk1eFJ0ZElJSlp1aTAyRDV2MzYtdDVfNDl0UkJKTW1QWjV6UWFjcTluQzlzYWlJSFlVQ1JDUkEydDNKU1U0?oc=5"
+        }
+      ],
+      "news_query": "FAA nationwide ground stop lifted AM ET",
+      "forecast": {
+        "probability": 0.95,
+        "reasoning": "Nationwide FAA ground stops caused by system or communication outages usually last a few hours. The January 2023 NOTAM outage stop, for example, was lifted the same morning. With the White House citing no nefarious act and more than a day of margin, the stop has very likely already been lifted or will be soon."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-14T00:53:08Z",
+        "crowd": 0.9255,
+        "best_bid": 0.919,
+        "best_ask": 0.932,
+        "volume": 58864,
+        "liquidity": 15621,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Gap vs. the price we'd pay is 1.8 points; counting only part of it (cautious sizing) leaves 0.6, under the 10-point minimum."
+    },
+    {
+      "market_id": "7023859",
+      "event_id": "1382398",
+      "event_title": "FAA outage attributed to hack?",
+      "option": "",
+      "question": "FAA outage attributed to hack?",
+      "rules": "This market will resolve to \"Yes\" if the U.S. government officially attributes the November 13, 2026, FAA outage to a hack between market creation and November 30, 2026, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nThe FAA outage refers to the equipment and communications outage that led the Federal Aviation Administration (FAA) to issue a nationwide ground stop on departures from U.S. airports on November 13, 2026.\n\n\"A hack\" encompasses intentional, malicious activity that caused the outage.\n\nA qualifying attribution is a public statement by an authorized representative of the U.S. federal government acting in an official capacity stating that the outage was caused by a hack. Criminal charges filed by U.S. federal prosecutors alleging that the outage was caused by a hack will also qualify.\n\nStatements describing a hack as suspected, likely, probable, or not ruled out, or stating only that the outage bears the hallmarks of or is consistent with a hack, will not qualify. Statements by anonymous or unnamed officials or by governments of other countries will not qualify on their own.\n\nOnce a qualifying attribution is made, this market will resolve to \"Yes\" regardless of any later retraction or the outcome of legal proceedings.\n\nThe primary resolution source for this market will be official statements and publications from the U.S. government; however, a consensus of credible reporting may also be used.",
+      "topic": "Tech",
+      "end_date": "2026-12-01T04:59:00Z",
+      "url": "https://polymarket.com/event/faa-outage-attributed-to-hack",
+      "snapshot": {
+        "time": "2026-11-14T00:51:01Z",
+        "crowd": 0.1,
+        "best_bid": 0.09,
+        "best_ask": 0.11,
+        "volume": 35909,
+        "liquidity": 17069,
+        "fee_rate": 0.0
+      },
+      "news": [],
+      "news_query": "FAA outage attributed hack",
+      "forecast": {
+        "probability": 0.03,
+        "reasoning": "The White House said there was no indication of a nefarious act, and outages like this are usually traced to technical failures. A formal, definitive federal attribution to a hack within about two weeks would be very unusual, even if one were suspected."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-14T00:53:08Z",
+        "crowd": 0.1,
+        "best_bid": 0.09,
+        "best_ask": 0.11,
+        "volume": 42551,
+        "liquidity": 16353,
+        "fee_rate": 0.0
+      },
+      "bet_note": "Gap vs. the price we'd pay is 6.0 points; counting only part of it (cautious sizing) leaves 2.5, under the 10-point minimum."
+    },
+    {
+      "market_id": "6364969",
+      "event_id": "1274171",
+      "event_title": "Next Grok Model (4.8+) released on...?",
+      "option": "No release by November 30",
+      "question": "Will there be no next Grok model (4.8+) release by November 30, 2026?",
+      "rules": "This market will resolve according to the calendar date (ET) on which SpaceXAI's next Grok model (4.8+) is made available to the general public.\n\nA qualifying model must have a name or model identifier that includes \"Grok\" and be designated as version 4.8 or higher, regardless of capitalization or surrounding prefixes, suffixes, dates, or descriptors. For example, a version 4.8 or higher named in the same manner as Grok 4.5, Grok 4.6, or Grok 4.7 would qualify, including reasoning, Fast, Heavy, or similar variants carrying a 4.8 or higher designation and a new whole-number generation such as Grok 5, while models whose name does not include \"Grok\" or which retain a version designation below 4.8, such as Grok 4.7 (released September 21, 2026), including any rollout, promotion, or snapshot of it, will not qualify. Separately numbered product lines that do not carry the core Grok version designation, such as Grok Code Fast or Grok Imagine, will not qualify, and version numbers of the Grok app, website, or other products that do not correspond to a new underlying model will not qualify.\n\nA qualifying model must be launched and publicly accessible, including via open beta or open rolling waitlist signups. A closed beta or any form of private access will not suffice. The release must either be clearly defined and publicly announced by SpaceXAI as accessible to the general public, or otherwise be made publicly accessible and explicitly labeled on the company's official website. Labeling errors, placeholder text, or version names displayed on the website that do not correspond to a model that is actually accessible to the general public will not qualify.\n\nThe primary resolution source for this market will be official information from SpaceXAI, with additional verification from a consensus of credible reporting.",
+      "topic": "Tech",
+      "end_date": "2026-12-01T04:59:00Z",
+      "url": "https://polymarket.com/event/next-grok-model-4pt8-released-onptptpt-20261027",
+      "snapshot": {
+        "time": "2026-11-14T00:51:01Z",
+        "crowd": 0.39,
+        "best_bid": 0.38,
+        "best_ask": 0.4,
+        "volume": 13930,
+        "liquidity": 6278,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "Grok 5 Release Date: Still No Date, Grok 4.8 Comes First",
+          "source": "Fello AI",
+          "published": "2026-11-11",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5PYThxZ1dyVV9HcFpPakRQZ2N0X3Zza1hHM1lxVFJxWjVDZ0RBYUZfTXVjUWtQVHlFR0czTk1BLU1rcmdJbVR3Z290bnpyMWFLQmlwWHA1aUhmdHFFaklCOVRR?oc=5"
+        },
+        {
+          "title": "Elon Musk’s AI Group Guts Grok Video Generation Team",
+          "source": "The Information",
+          "published": "2026-11-13",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNSHVlMmkxWGNtSXFvTWktZzFWV1BfTUo3ZnVTck54QmtjOWRTaVNpQjJKLWF4TmZJN1ZpRjhDNUphTUcydHBJQ29ZWWxvN2dfV1R6eXR0d0NTTWdvNmhwWG1hQThURWcydDVkdURKLWd5bk13d0VNQnMyN2o0OUlldDBKR2JSZ2l6NTAzcmJNQ0k3dDdlaXc?oc=5"
+        },
+        {
+          "title": "Elon Musk Calls Claude Opus 5.5 a 'Masterpiece', Admits Grok 4.8 Won't Match It",
+          "source": "Yahoo Tech",
+          "published": "2026-11-10",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQZVh5dFNhbi13Ukc5a0c5N2UyY1JSY05MX2hPTGIwM1dBRVR6MWdwbVRFcTcxV3NOUVMxX2E4bDdsMl9sWUpRaXYxTXBTcUJ3UjFUeE5CTlJ4a2lmQlNQb1VGVDBYWG1jOVdGa1JQbXBqR0RTNllnOUU0elhtRW1VT0dPS0tfTzhrQnhtYQ?oc=5"
+        },
+        {
+          "title": "Grok comes to Tesla cars, but it's limited",
+          "source": "Mashable",
+          "published": "2026-11-13",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9OV0F5amdmY05mbi15NU5Ic3VDTGtxaHdjTmo1dk9aSmZXQ3V6cDE5Q2NqU1JEVmJHMlVwbTRtblpVZlQwcEtjUHJSa0JDSGd3?oc=5"
+        },
+        {
+          "title": "Tesla update 2026.38.6 goes into wide release, Grok comes out of beta, Latvian language support added",
+          "source": "Tesla Oracle",
+          "published": "2026-11-04",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQUVJjN3g1RlJYMlNQU24za21WQWtjb1lyTG9HMHBQYVRhMVdEVFdxVXBBN0NZR2owTE93RXNZUnBjRXNWRmkwRWNvWkpZcnluT21aTmlxam9FYm1Ya0NMN1B4bkxyRWF4WnVibDg4aURNRFVoRDI4bmdyN0FITXBEQ0N5OUpHc3NLVXNaSTJldGw2MmFZTlUxMzAwM2JMcjFtMUN5bTY1V3dMOVNTRk9DSkd1S0o1S0pjUjJsbDJFYUJ2VXduZXh4OGotOWg1aFhBZF9qVlVR?oc=5"
+        },
+        {
+          "title": "Grok 5 Release Date: Is It Out? What xAI Has Confirmed",
+          "source": "Kingy AI",
+          "published": "2026-11-13",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBrendPVkxxcG1LSzJSUkpscks4b1VGeXlOOGV6N0FXN3hLY3hpRzMwQ1B4eExzM2o1REw5RHdMX0hpVHc?oc=5"
+        }
+      ],
+      "news_query": "Grok model release",
+      "forecast": {
+        "probability": 0.48,
+        "reasoning": "Recent coverage says Grok 4.8 comes before Grok 5, and Musk has publicly discussed Grok 4.8, which suggests it is near. Grok 4.7 came out September 21, and xAI's recent pace makes a late-November release plausible. However, Musk's timelines often slip and only about 16 days remain, so this is roughly a coin flip."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-14T00:53:08Z",
+        "crowd": 0.39,
+        "best_bid": 0.38,
+        "best_ask": 0.4,
+        "volume": 13930,
+        "liquidity": 6278,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Gap vs. the price we'd pay is 8.0 points; counting only part of it (cautious sizing) leaves 3.5, under the 10-point minimum."
+    },
+    {
+      "market_id": "6948156",
+      "event_id": "1360233",
+      "event_title": "When will Trump leave China?",
+      "option": "November 19",
+      "question": "Will Trump leave China on November 19?",
+      "rules": "This market will resolve according to the calendar day, in China Standard Time, on which Donald Trump physically leaves China during his first visit to China that begins between market creation and November 22, 2026, 11:59 PM China Standard Time.\n\nA \"visit\" is defined as Trump physically entering the terrestrial or maritime territory of China. Trump will be considered to leave China once he physically leaves the terrestrial and maritime territory of China. Trump’s presence in Chinese airspace will not be considered as being physically present in China.\n\nIf Donald Trump begins a visit to China before November 22, 2026, 11:59 PM China Standard Time, but does not leave China by that time, this market will resolve to “After November 22”.\n\nIf Donald Trump does not visit China by November 22, 2026, 11:59 PM China Standard Time, this market will resolve to “No visit by November 22”.\n\nThe resolution source for this market will be official information from the government of the United States of America, official information from Trump or released by his verified social media accounts, and a consensus of credible reporting.",
+      "topic": "Politics",
+      "end_date": "2026-11-20T04:59:00Z",
+      "url": "https://polymarket.com/event/when-will-trump-leave-china-20261110",
+      "snapshot": {
+        "time": "2026-11-14T00:51:01Z",
+        "crowd": 0.945,
+        "best_bid": 0.94,
+        "best_ask": 0.95,
+        "volume": 11340,
+        "liquidity": 9380,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "Russia, China may be more aggressive if they feel Trump is on 'his way out': Brookings",
+          "source": "CNBC",
+          "published": "2026-11-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOSTFEN01tZkJ6QXVRcnZEaF9WYTVjaWxuZTNLQXFxUFhJSndfU0psNmxoc2U2bDFZZ3FMZWJCSnAzS1htSEVzZkJoX3pxZ1dpc1NzaUpSTXdjcGZhMXN4NFB6UGxseDF4MTAzN2xMSjhtb01nRFplRWJrcFB0SklyVkRR0gGHAUFVX3lxTE5yeVlFRmFiTGFTSFFwSVpKbWhDel9WazNEZmZLYkNnTmd0NHNvVHJXay1pSHNsaW1mMGxmSzhBXzVPUk1vbkkzYWNtOEo3OHRwb1NUUkxmc3I0ZXIzT0NZVTJqOVd6N0tpUVJhZnpmanpLWTZodUd0TS1ITDdobi1wQmhaOWFCOA?oc=5"
+        },
+        {
+          "title": "Trump heads to China amid Nvidia scandal: Will he get tougher on Beijing?",
+          "source": "Al Jazeera",
+          "published": "2026-11-12",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdnVnYWZSRWdWN1FEckQwbmpSSUhpTm1xaDBjbWppV0F4WVIzcW5MaXFWWFlGWmg4ajRmSVBIandqMHczeUtUTlVNU0xCVV9BYXBUdkpQbXBWY3FpZWw1aTAySm9VamRkLU1KMXc2dEdXbTY0TWUtTXVLSXYtS1c5dUw2MGRUSWZ6MFdRaGE4cXR5anZ2MWpFZ0F2YmczLWVsZEpkeW9VYzI5c1RGd3B0dHZjVdIBuAFBVV95cUxOMEx1N0pDTFNDRGR6cWFjSk9WLVNnbU5zWHctLTdfNjY4VGN2OUpKZENONFlYMXBwWU5RUVJ5VlFVZlFSQTRPTHVpbjVDYWFaR2NnNDFNSS1mS2pRek5pWTVEbmpRZE5SWklXWU03bVJyMU9JNVA2dnplYnRSWE9BUzRDRkFNYUtxWDY4c3JDWWdUTzdlWUhXWjMyUWFCSmc0ajUxQVd5WWctWHRrbW5RVGJGS0Y5VDFT?oc=5"
+        },
+        {
+          "title": "Despite Denial, Trump Was Told on Trip to China About Spying on Nvidia Leader",
+          "source": "The New York Times",
+          "published": "2026-11-10",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNNC1PeXp3dElIZEN0SUdTQ2lnMGZoM2UzOUt4VWZkSnJfNy1nYkJLdW1KRkdtNFQwMUZEWlY0bnJZTFFnSjBnU1pxMWI4d2MwRlk0bmRydTJqbU95dXhEcDZIbDJod1dnMEQyOEZRTUY1Qy1wRGpwc0VYUEQ3NVAwRQ?oc=5"
+        },
+        {
+          "title": "Trump, Xi and Putin plan an un­prece­dented joint meeting on the sidelines of APEC, officials say",
+          "source": "Spectrum News",
+          "published": "2026-11-14",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQXzZLNHFvV2thZDgySlpMN0tpWjBKMWZkRndRcU9fTUh1Qnc0aC1XT3JEZ3hHY3pfelZ0cnhaVXRUOXdpZVluRDdGY0ZhQ1JkZk5pWE9wRC0zbzdoMXJpQm9UeU1hYUtOdmlHY3d2akZZWjVUcVpKb3dONVVaNVZOOG8tVlYtNlp3XzJUWi1lTU1xU0FEN2c?oc=5"
+        },
+        {
+          "title": "Trump left with ‘no good options’ to end Iran war after US midterms defeat",
+          "source": "South China Morning Post",
+          "published": "2026-11-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPcmltNTZnMlo1OGRFV0F5WVlnUDgtN2xkZ1huZjc3NUlEaGVmbDExMHdVenpGUVBKRTUzWW5BTDlEZG9YcDh0clR5SkNHakxYaFVwQ0RGaW5OM3lIM0NTbEtONnZ1V1dKZlVZT01ycUlIMW9GdkFkajVQU3p5TXhsQUhGU2JhY09FVlpoSnROUS1acUZfR3dHUFc2WnRha3FmN200Y2tXNU9FMmZhQXpfN2o1NVpSbXg5cEwybDQyT1o5SzNGaWtaeTBrY3pMTFg00gHQAUFVX3lxTE5HZ3pDNFRhaDl4R29tVUhPQUVIZVVLNE5tR0VkeFpfN0xzc3dDWTg0MUJVT3FpMnVsZFFRU2FYSUtlaGtHdW9DcDc0MVpFV2tYSVdoZWRDMkM2a3o3WG45Sy1QU1VMVTk3eWl1M0dlZnJGYWhLNks3N2ZOMFhuMTQzV280Z2VoZVYwLUZYUmR6T2lvUVRuLTMxb0twdGRTRERfMXgzTjFHYklHN2s2SFhfWHoyeGpwQzd1Z3libEJZaURHT3FDZ1RmRHRnT1BOMHg?oc=5"
+        },
+        {
+          "title": "Trump, Xi, Putin to hold historic meeting in China: White House",
+          "source": "Yahoo",
+          "published": "2026-11-14",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQVkJRYW1laS00eHdsdm44MmpRcVZkQXNweGJjNEdYSDhDZElPdTFzX2t3VDNWNnp4YWJRVW1oRmpkSWM0QTBNNkgta1BpLXMteGhxcnI5ZFBmRHMtSnA4ZnZXcG9pTXVUd1JnUnZ5VUYyTkRUaUo4Ulo0djdLMWc5cmpnc3hZaklQRW5ONVNkdmc3dw?oc=5"
+        }
+      ],
+      "news_query": "Trump leave China",
+      "forecast": {
+        "probability": 0.35,
+        "reasoning": "Trump is expected in China for APEC in Shenzhen, with a planned joint meeting with Xi and Putin, and the leaders' meeting is likely around November 18-19. Trump often leaves on or before a summit's final day, so November 19 is the single most likely departure date. Still, the 18th, 20th or a different itinerary are all plausible."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-14T00:53:08Z",
+        "crowd": 0.945,
+        "best_bid": 0.94,
+        "best_ask": 0.95,
+        "volume": 11340,
+        "liquidity": 9380,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Gap vs. the price we'd pay is 59.0 points, over the 35-point limit: disagreements this big have usually meant the AI missed something, so no bet."
+    },
+    {
+      "market_id": "6618432",
+      "event_id": "1305146",
+      "event_title": "Eurovision Asia Winner 2026",
+      "option": "Philippines",
+      "question": "Will Philippines win Eurovision Asia 2026?",
+      "rules": "The Grand Final of the Eurovision Song Contest Asia 2026 is scheduled for November 14, 2026.\n\nThis market will resolve to the country ranked first in the Grand Final of the Eurovision Song Contest Asia 2026, according to the ranking below.\n\nCountries will be ranked according to their official competition ranking in the Grand Final. If two or more countries share the same ranking, ties will be broken by the total number of points received. If still tied, ties will be broken by the total number of points received from the national juries. If still tied, ties will be broken by the total number of points received from the public vote. If still tied, ties will be broken alphabetically by English country name. This market will resolve according to the country ranked first under this ranking.\n\nIf the results of the Grand Final of the Eurovision Song Contest Asia 2026 are not announced by January 31, 2027, 11:59 PM ET, this market will resolve to \"Other\".\n\nThe primary resolution source for this market will be official information from Eurovision (https://www.eurovision.com/asia/), including live footage of Eurovision Song Contest Asia 2026, however a consensus of credible reporting will suffice.",
+      "topic": "Entertainment",
+      "end_date": "2026-11-15T04:59:00Z",
+      "url": "https://polymarket.com/event/eurovision-asia-winner-2026",
+      "snapshot": {
+        "time": "2026-11-14T00:51:01Z",
+        "crowd": 0.32,
+        "best_bid": 0.3,
+        "best_ask": 0.34,
+        "volume": 10320,
+        "liquidity": 11543,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "Who is CARMELLE? Meet the Philippines’ representative at Eurovision Asia 2026",
+          "source": "Esc+Plus",
+          "published": "2026-11-13",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQQkJDSTNnQlppLWEyVDJtaGpqLXRINU5UWEs4ZmZBc3ZvU1RGcmNnLVN4OFNnazV4QUQxWHJBWFpEVndpUmZIRmNiX2ZsQUJaUXg5VGJzTVk1cURlSTJKSmwzcXZkdE4xY2FFT2JTSDUtakxzYkk5WTJhN2pTbjRfdmtlWXBQTHlickJjXzlURXF1bGRrZXdyVlk3dnRWUQ?oc=5"
+        },
+        {
+          "title": "Eurovision’s Asia experiment gets under way in flamboyant Bangkok",
+          "source": "The Guardian",
+          "published": "2026-11-07",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOMWgzTS1DOS0zUnhxbXBMRW8tOUdIMTNreG1ZUDg5OV9sX2tJUnYtLV8zcThMS0lMNHF5RTBodWM5b2tSV0hjUkk2ajBKT3ZUaFNYQWxIQUR4bVJnYWsxQmh2ZGh2RzlTMWtoOE50Wkc3cmNuUDNqVnBreEsxNTVEZzc1TzFUaVBFMFZNNnQ0ZnpyMjg?oc=5"
+        },
+        {
+          "title": "Eurovision Asia 2026: Meet The Philippines's CARMELLE",
+          "source": "Aussievision",
+          "published": "2026-11-03",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUDJlYk5tcV8tMVFPc0NmWVhDbU02cGZtN2VPVkowVENBU1BDbUozZzJPUy01TkxPTm1CbXJnU2FKaEcwdWtxUEFiS2dlcnZEUzhKZHBPZ0gtd1oxNVlPaGZwZ1ZISVNzRGhYZ0ZTa0NzMWtieUdDTlN0WXIwZG1mdVhYUUo3b05OUnZkMjFycw?oc=5"
+        },
+        {
+          "title": "CARMELLE carries PH flag, eyes first Eurovision Asia win",
+          "source": "ABS-CBN",
+          "published": "2026-11-12",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSWdjelJiMUNuVnlocF96a0hBNEc3ZFBlSFMycnRWdno4MlhfZU1ldlNvSlVIOVJZRWs0T2xDMldWZlQ4Z0d6dk1mcTFjVkdXVXdrbEpETm9Vc3lVNU8zNzN5NTU5dDRORnBDMXlhQlpWbGNZR1pkUVdiU0tmcXpsLS1NRXdmdGVKMnpOUEVacDlxTnhQUllpU0ZHZmJwQ0I4c29kSC1qaGFrSTFz?oc=5"
+        },
+        {
+          "title": "Eurovision is finally coming to Asia - meet the stars gearing up to take the stage",
+          "source": "BBC",
+          "published": "2026-11-13",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9NNUtQMlVtZmFUeWZaM0RKM1lrVEMxbW1iNTVacU5VXzRfaXNHRnRJZVJ2LTJxTWd5cEhfaFJPZzVLajFFUGFSRjVqVF9rbzJpbC1ROTd6MVBPSWxwRlE?oc=5"
+        },
+        {
+          "title": "Eurovision Asia 2026: Philippines’ First Rehearsal!",
+          "source": "Eurovision News | Music",
+          "published": "2026-11-11",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNeEZORUNQNXIya0xIaE5KcHZKRTdoNTlrVHdiZjRnNlYtbXJVUXZ3bmFkWXZtZTNXUzNUZXVvaEFRcGE4aldlYnNqS2FQbGdOZXZCVUF6dnNKQ3JHa0xxc3B2d3ZYSnFCU1dVVXFsTUVzMGdFbDFOdlJ3UVE1THdOVmp0TkpFV3paQWxRdXBwQQ?oc=5"
+        }
+      ],
+      "news_query": "Philippines win Eurovision Asia",
+      "forecast": {
+        "probability": 0.2,
+        "reasoning": "This is the first Eurovision Asia with a field of roughly a dozen or more countries. The Philippines has a strong singing tradition and a large, engaged online fanbase that could help in public voting. Without results, it is a contender but far from a lock."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-14T00:53:08Z",
+        "crowd": 0.32,
+        "best_bid": 0.3,
+        "best_ask": 0.34,
+        "volume": 10320,
+        "liquidity": 11543,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Gap vs. the price we'd pay is 10.0 points; counting only part of it (cautious sizing) leaves 4.0, under the 10-point minimum."
+    },
+    {
+      "market_id": "5238402",
+      "event_id": "1124935",
+      "event_title": "How many US aircraft carriers in CENTCOM on November 30?",
+      "option": "3",
+      "question": "Will there be 3 US aircraft carriers in CENTCOM on November 30, 2026?",
+      "rules": "This market will resolve according to the number of U.S. Navy aircraft carriers physically located within the U.S. Central Command (CENTCOM) area of responsibility at 12:00 PM ET on November 30, 2026.\n\nFor the purposes of this market, “aircraft carriers” refers only to U.S. Navy aircraft carriers designated CVN (e.g., Nimitz-class and Gerald R. Ford-class carriers). Amphibious assault ships (LHA/LHD), other vessels, and ships of any other country will not count.\n\nA carrier will count if it is within the CENTCOM area of responsibility at the specified time, including while making a port call or other stop within the area. A carrier outside the CENTCOM area of responsibility at the specified time (e.g., in transit, or making a port call in the U.S. Indo-Pacific Command or U.S. European Command areas of responsibility) will not count, regardless of whether it is assigned to CENTCOM operations. A carrier that enters the area on November 30, 2026 will count only if it entered at or before 12:00 PM ET; a carrier that departs the area on November 30, 2026 will count only if it departed after 12:00 PM ET.\n\nCarrier locations will be determined by official information from the U.S. Navy, the U.S. Department of Defense, U.S. Central Command, U.S. Indo-Pacific Command, or U.S. European Command, or by a consensus of credible reporting, and may be established by information published after the specified time. In the event of ambiguity as to the number of carriers within the area at the specified time, this market will remain open until the earlier of: (i) confirmation of the relevant carriers' locations at the specified time, or (ii) the end of the seventh calendar day (ET) following November 30, 2026. The market will resolve based on the totality of information available at that time. Any carrier whose presence within the area at the specified time remains materially ambiguous at that point will not be counted.\n\nThe resolution sources for this market will be official information from the United States government and military, including the U.S. Navy, the Department of Defense, U.S. Central Command, U.S. Indo-Pacific Command, and U.S. European Command, and a consensus of credible reporting.",
+      "topic": "Politics",
+      "end_date": "2026-12-01T04:59:00Z",
+      "url": "https://polymarket.com/event/how-many-us-aircraft-carriers-in-centcom-on-november-30",
+      "snapshot": {
+        "time": "2026-11-14T00:51:01Z",
+        "crowd": 0.83,
+        "best_bid": 0.82,
+        "best_ask": 0.84,
+        "volume": 23277,
+        "liquidity": 2714,
+        "fee_rate": 0.0
+      },
+      "news": [
+        {
+          "title": "USS Theodore Roosevelt leaves Singapore for Middle East as CENTCOM prepares for renewed war",
+          "source": "The Week",
+          "published": "2026-11-09",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPdmxOZDBHNmNKYndwSVpYeGpDWjAtOFZ6WE9NQ2RCdW9MdTg2SVZqWlVZcXQyWGpmeVJDaG9xbFBYN18yTDF4anRJR1NUNF9TaFNmX3V0aFBQSzNGWmQ3RUhZWnBjM3pTNGpzUVkza3I2bk5aNEdrVEN6cGZZMEVkM3Rsam5zYktBVXMzZDBub1NMZ0hIWjZPS3B6ZUNOWEQ1M08xSWVwS1owaUFPV0ozVHRrcGhLODZCQ1drdklMaXM5NjR3eG9MRFdXX2tVNHpydVRocFhSaV9WQmRXcFd5TtIB5gFBVV95cUxPOTlSempMWWFscHB6LUtVV0VsTDBJUE1VME1lTTVwVldlVm1nSGVUcEZIdDNSQWxBaGdRMkszNUNNZjlsa3NxTFQ2Q1JuM1lEaF90VVZhamhpUlpGMWgyamhodUZWVXZoOWZydzZVaHNIdzFBM0RSZk9SWDZGOWZQZkRiMWVVQXdaSE0xTUpUNG1hYVJJOU1wWjZKaVlfRHpaNWh5aXRCZTA4bFZPRFFvTmNQcjRRcW9URGFWQTc5VFhQVHhEWDd5NlE4Zlk1a2FCMTVoUk1iOXJmcXJlY1ZDYmowODc2UQ?oc=5"
+        },
+        {
+          "title": "CENTCOM calls Israeli media report of possible Iran war resumption ‘pure speculation’",
+          "source": "Anadolu Ajansı",
+          "published": "2026-11-12",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPUjF6LXZDY2RSWG1xT2xMQ1R6WWowNEJvcTctckR5SGxFZEFoa3RjTUMzMzRrOWJkeXQtbU5mb05oWndIT1VrUVR1dTJBQ2VfbXBVc0RvU3dxUFdOcS1RYmFRMi15OW93a3h2YWVZSm56Q2NmYS04UEVVR3J1SjRFTWs1WV9wM1pDRlFnQjcwS1VkbFFDdExoNlV0cEwxeGhYWGoyOTNZa3hibk4yN2dBMzMzOS03czdTMjk5WDVWa1V6SWtuU1dlTzUyVGw1c1hPS0E?oc=5"
+        },
+        {
+          "title": "Centcom says 144 vessels redirected under 'ironclad' Iran blockade",
+          "source": "Middle East Eye",
+          "published": "2026-11-01",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQcDIza2ZmbEU3V2ZiUDd2WlFSN1AySGF4ZFBabVlBZHF2RzlmVEk5d0JOTXk4RF81Y0dvcEk5NGItSUdfbGtMWm9IeTJMcUgySTZ1azZwX084WWxnWnpPRlBvcERkVzk1cXVYakhMWndmOEhLcm1vS0dQYnh0R05XQzk1VFNUZDVkSFAyX2dIb3BuRXJWVGMxcENxU2JOcEZnT2piWXFVVExvcDlYUGxIbG85c3FRNUp6TDhmSFZn?oc=5"
+        },
+        {
+          "title": "CENTCOM Launches Task Force to Disrupt Iranian Ground Transit Routes Supporting Illegal Shipments - map",
+          "source": "US Central Command (.mil)",
+          "published": "2026-11-09",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE11d1A5cjB6aWdXeFc3Uzd5OE5ZVzZ1Z21sanZNTGlzbUlxTTJ3anVfT0FoWUNrQjJzQUsxa1RzRkZHWWVRdnhmYnpMZlRoalcyR1RGbVNfOERsaklxRFE?oc=5"
+        },
+        {
+          "title": "CENTCOM finalizes plans for potential US strikes on Iran as early as Wednesday",
+          "source": "World Israel News",
+          "published": "2026-11-03",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPd2kzQVloblRQNWdfaHZ0bHpMempYckxXV3pGOXBMazQ4VlJOQmpaMmRHRDBMMzlTaXVUMFhsLVh3Xy1jNmtOWml3VEd0a3dTRDlVV3BSTlRyTW83eVFkTDY2a1BzTjlZek5yMTRjOElqcjV3ZTlScWxtX3Y0R0VJZHY3S1hjandtMEs0b090R0w1RWxhazdLQU5SVGVYc2dmdnJHd29IV0R0WTTSAbABQVVfeXFMUHJPTHJHSTlQaDZESlV5SE8zRmlYTlBrZ2VVSkJ2eDVJV0ZKUEJxdjdGdklMZFlZaXNGdWlBUFAzbklHbk56SkFaM2FUUGMtcndiYmNNZGJYTDVhbW5sV3VsTzhtYTZLbTNCWVp0Mm9nc3lZelNtNGxWZ3FTRjdfZ05yX21BQ01MRjF6ODBhNmUwd1NnS01Vd2YxR1hMZzVoY1pQTWVGLWZqcm5XeWRDd3U?oc=5"
+        },
+        {
+          "title": "USS Theodore Roosevelt: Singapore Visit & CENTCOM Delay",
+          "source": "Daily Beirut",
+          "published": "2026-11-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQSUFXZUVUMU5HV3ZVVHcyYmh5MGlkT1BCOFI1al9mdFlWb19oc1VicGF2VHZHeGppcGoyMlhxeG1vYzNuSmplWk1nRThndjRmeHd3a2FyT0t2SExPR0hQd3VQQ3RrMGVCUU13eWwtNWhDcjRsZENrTGxzaS1MMUtSeFIzaFduUGEtUUNjME1GZTBBb1lBdFVpaFI3dlpyb3pQc3EwenoxeUQ?oc=5"
+        }
+      ],
+      "news_query": "US aircraft carriers CENTCOM",
+      "forecast": {
+        "probability": 0.35,
+        "reasoning": "The USS Theodore Roosevelt is heading to the Middle East amid an Iran blockade and talk of renewed strikes, which could raise the carrier count. It is unclear whether it will add to the carriers already there or replace one, and transit timing matters. Exactly three on November 30 is plausible but uncertain."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-14T00:53:08Z",
+        "crowd": 0.83,
+        "best_bid": 0.82,
+        "best_ask": 0.84,
+        "volume": 23277,
+        "liquidity": 2705,
+        "fee_rate": 0.0
+      },
+      "bet_note": "Gap vs. the price we'd pay is 47.0 points, over the 35-point limit: disagreements this big have usually meant the AI missed something, so no bet."
+    },
+    {
+      "market_id": "6390067",
+      "event_id": "1278384",
+      "event_title": "Core PCE YoY - October 2026",
+      "option": "3.2%",
+      "question": "Will Core PCE YoY be 3.2% in October?",
+      "rules": "This is a market about percentage change in the Personal Consumption Expenditures Price Index excluding food and energy (Core PCE) over the 12-month period ending October 2026, seasonally adjusted, as reported by the Bureau of Economic Analysis.\n\nThis market will resolve to the percentage change in the Personal Consumption Expenditures Price Index excluding food and energy (Core PCE) over the 12-month period ending in October 2026 according to the monthly Bureau of Economic Analysis (BEA) report.\n\nThe resolution source for this market will be the BEA Personal Income and Outlays report for October 2026 (https://www.bea.gov/data/personal-consumption-expenditures-price-index), currently scheduled to be released on November 25, 2026, at 8:30 AM ET. Resolution of this market will take place upon release of the aforementioned data.\n\nNote: the resolution source for this market will be the official monthly BEA Personal Income and Outlays news release, which reports core inflation (all items less food and energy) over 12-month periods to only one decimal point (e.g., 3.7%). Thus, this is the level of precision that will be used when resolving the market. For the avoidance of doubt, this market resolves on the core PCE figure (the PCE price index excluding food and energy), not the headline all-items (total) PCE price index figure.\n\nIf the BEA does not release the relevant figures on the scheduled date, this market may remain open up until the scheduled release time of the next Personal Income and Outlays report (https://www.bea.gov/news/schedule). If the information is not released by that time, this market will resolve according to the figures of the most recent previous month with available data.",
+      "topic": "Economy",
+      "end_date": "2026-11-25T13:30:00Z",
+      "url": "https://polymarket.com/event/core-pce-yoy-october-2026",
+      "snapshot": {
+        "time": "2026-11-14T00:51:01Z",
+        "crowd": 0.615,
+        "best_bid": 0.61,
+        "best_ask": 0.62,
+        "volume": 14029,
+        "liquidity": 3527,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "Price inflation measured by the Cleveland Fed's median PCE index",
+          "source": "Federal Reserve Bank of St. Louis",
+          "published": "2026-11-12",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQampDUjkycFFDOFNpS3VmY2c2N0xJRjJLSTF4azdrLXU1U3d3djh5Zlc5aDFuSWhBRzU2YjBPS3FKdUZFS0JxS1JpVm9YMTFNSFRmblQtMjZQNkxqdGo2bDRWQWR6V0xKUW5Wb1NfdWFKb0xfN2tpbEYxZmlpM21nOTFrajIyUTVaOGNLeGthQktWNEhkV24xdEduQktxbHNxVkRGY2loTQ?oc=5"
+        },
+        {
+          "title": "Headline Producer Prices Cool, but Core Hits Highest Annual Rate Since 2022",
+          "source": "RealMoney Pro",
+          "published": "2026-11-13",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQbWxERFFFYjdmU0lHNS05NFpKa0prVlJIdnhDMEt6S2hZcHUyU3REeGVWTHlqLU5pRS1HOHVGVzgxRHBnQVl0M0tzekhGLWFwTlNLazdVdmo2VFd0UjgzLXNPYXB2MnVMQ2VMR3ltQ3hWU01fay12NUNuM1ZYUTlBVWdtOFp3aDh0S2ExLW01OWZYOVlIQjNncFJGOWwxX2xLTUY5MUdENXkxZjUyNTQ4OEdnV1VFdkdyN3c?oc=5"
+        },
+        {
+          "title": "Fed's Waller Backs December Rate Hike, Floats Half-Point Move If Core Inflation Stays Hot",
+          "source": "BigGo Finance",
+          "published": "2026-11-10",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5oWWlRQXVQOWtpMGpUemUxb0M3cXBqM0NUQjhDb00tbjE1WDBKR0NMUlkyY2VEcEIyWGxxRE5KaHFlWGFROG5rVXV5X3VHa3ZYanhkVjhRTlVfd0QtX3FiYTVlRDVETHZWS0Rua2hzdS16UmV6R2c?oc=5"
+        },
+        {
+          "title": "Fed's Bowman Flags Persistent Inflation, Still Sees Core PCE Near 2% in 2027",
+          "source": "BigGo Finance",
+          "published": "2026-11-10",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9zdzlsRTdUZDBzcU1hQ3lFTjFPdVM0RlYxRDJ0SktnM25ra3U0Uk15NU5zVWxCLXZUbklyczVLcEpyV01fQzNsZ1VZNlYwdExqZVRzd3BPNEtJb3k5bzlIbTVOY2N5MjFaRG1kTFllOWF3SjE4ZVE?oc=5"
+        },
+        {
+          "title": "October U.S. CPI Beats Forecasts as Core Inflation Stays Firm",
+          "source": "Bitcoin Foundation",
+          "published": "2026-11-10",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOdHZLQURGVE1OUXlVUDFUdFNGdzk3UlZTb0hCdlNfV2hLZVhFNFlxbUVpXzJTNFQ1SjJCZHJkcjRRZzNlNlZHU01JOVF4ZHVrLXg2MlhwNFpydVM5SWRQampnLVZ0YTJwUEowRU9vWE9RUmk5a3VuR295Y2pQOEpmRFhob0tHYkRLWThFcVd6em5YVmdLdG5zZA?oc=5"
+        }
+      ],
+      "news_query": "Core PCE YoY | Core PCE YoY October economists forecast",
+      "forecast": {
+        "probability": 0.22,
+        "reasoning": "Inflation is running hot: October core CPI beat forecasts, core PPI hit its highest annual rate since 2022, and Fed officials are discussing hikes. That puts core PCE in the low-to-mid 3% range. Hitting exactly 3.2% at one decimal is one of several nearby outcomes."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-14T00:53:08Z",
+        "crowd": 0.615,
+        "best_bid": 0.61,
+        "best_ask": 0.62,
+        "volume": 14029,
+        "liquidity": 3528,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Gap vs. the price we'd pay is 39.0 points, over the 35-point limit: disagreements this big have usually meant the AI missed something, so no bet."
+    },
+    {
+      "market_id": "4391801",
+      "event_id": "991270",
+      "event_title": "Brazil GDP Growth in Q3 2026 (QoQ)?",
+      "option": "<-0.3%",
+      "question": "Will Brazil's Q3 2026 GDP growth rate (QoQ) be less than -0.3%?",
+      "rules": "This market will resolve according to Brazil’s gross domestic product growth rate compared to the prior quarter (GDP at market prices, %) in the 3rd quarter of 2026, as reported by the Instituto Brasileiro de Geografia e Estatística’s (IBGE) System of Quarterly National Accounts release for Q3 of 2026, scheduled for release on December 2, 2026.\n\nThe GDP release and relevant statistics will be made available here: https://www.ibge.gov.br/en/statistics/economic/national-accounts/17262-quarterly-national-accounts.html\n\nIf the specified release is not published, this market will resolve based on the first published figure for the specified quarter’s GDP growth rate compared to the prior quarter. If no data for the specified quarter is released by the date the next quarter's data is scheduled to be released, this market will resolve based on data from the last available quarter.\n\nNote: the resolution source for this market reports GDP growth rates compared to the prior quarter to only one decimal point (e.g. 0.8%). Thus, this is the level of precision that will be used when resolving the market.\n\nNote: data from the initial release of the referenced GDP report is what will be used to resolve this market. Data may be revised during the following quarter or as a part of the next estimate's publication, however any revisions to GDP report data made after the initial release will not be considered for this market's resolution. For the full release schedule, see: https://www.ibge.gov.br/en/calendar.html",
+      "topic": "Economy",
+      "end_date": "2026-12-02T00:00:00Z",
+      "url": "https://polymarket.com/event/brazil-gdp-growth-in-q3-2026-qoq",
+      "snapshot": {
+        "time": "2026-11-14T00:51:01Z",
+        "crowd": 0.3605,
+        "best_bid": 0.352,
+        "best_ask": 0.369,
+        "volume": 10260,
+        "liquidity": 2854,
+        "fee_rate": 0.05
+      },
+      "news": [],
+      "news_query": "Brazil GDP growth rate QoQ | Brazil GDP growth rate QoQ economists forecast | Brazil GDP Growth QoQ",
+      "forecast": {
+        "probability": 0.12,
+        "reasoning": "Brazil's quarterly growth is rarely worse than -0.3% outside of recessions, though very high interest rates are slowing the economy. A contraction of -0.4% or worse is a tail outcome rather than the base case."
+      },
+      "bet": {
+        "side": "NO",
+        "price": 0.647,
+        "top_price": 0.648,
+        "shares": 69.57,
+        "stake": 45.01,
+        "fee": 0.79,
+        "cost": 45.81,
+        "gap_pts": 23.2,
+        "edge_pts": 11.2,
+        "sized_on": 0.2402,
+        "kelly_full": 0.2946,
+        "fill": "order book",
+        "levels": 1
+      },
+      "trade_snapshot": {
+        "time": "2026-11-14T00:53:08Z",
+        "crowd": 0.3605,
+        "best_bid": 0.352,
+        "best_ask": 0.369,
+        "volume": 10260,
+        "liquidity": 2814,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Bought NO (AI's gap 23.2 points; 11.2 after cautious sizing)."
+    },
+    {
+      "market_id": "5361550",
+      "event_id": "1140799",
+      "event_title": "Reserve Bank of Australia Decision in December",
+      "option": "No change",
+      "question": "No change in Reserve Bank of Australia's interest rates at the December 2026 meeting?",
+      "rules": "This market will resolve according to the change in basis points in the cash rate target resulting from the December 2026 meeting of the Reserve Bank of Australia (RBA) Monetary Policy Board, relative to the level it was prior to this meeting. \n\nThe resolution source will be official information from the Reserve Bank of Australia, including the statement or release from its December 2026 meeting, scheduled for December 7 and December 8, 2026, as listed on the official RBA calendar (https://www.rba.gov.au/schedules-events/calendar/?topics=monetary-policy-board). This market may resolve as soon as the statement or release of the Reserve Bank of Australia Monetary Policy Board resulting from its December 2026 meeting with relevant data is issued.\n\nIf the specified rate is defined by an upper and lower bound, the relevant change will be the change to the upper bound.\n\nIf the specified rate is changed to a level not expressed in the displayed options, the change will be rounded according to the following guidelines. Increases or decreases of less than 25 bps will be rounded to 25 bps (e.g. an increase or decrease of 10 bps would be considered to be an increase or decrease of 25 bps). Increases or decreases of greater than 25 bps will be rounded to the nearest 25 bps and will be rounded away from 0 in cases of equidistance (e.g., an increase or decrease of 37.5 bps would be considered to be an increase or decrease of 50 bps). Displayed options of \"Increase\" or \"Decrease\" will include policy rate increases or decreases of any size.\n\nIf the specified meeting is postponed to a date and time before the start of the next scheduled meeting, this market will resolve based on the outcome of that postponed meeting.\n\nIf the specified meeting is cancelled, or postponed such that no decision is announced by the start of the next scheduled meeting, this market will resolve to the \"No Change\" bracket. Emergency changes to the specified rate not resulting from the specified meeting will not be considered.",
+      "topic": "Economy",
+      "end_date": "2026-12-08T23:59:00Z",
+      "url": "https://polymarket.com/event/reserve-bank-of-australia-decision-in-december-2026",
+      "snapshot": {
+        "time": "2026-11-14T00:51:01Z",
+        "crowd": 0.92,
+        "best_bid": 0.91,
+        "best_ask": 0.93,
+        "volume": 21391,
+        "liquidity": 2796,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "Australia's central bank lifts rates to 18-year high, split vote points to pause ahead",
+          "source": "Reuters",
+          "published": "2026-11-03",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOZnNfcUQ3dmx0aEd4N1BfaUlBRVFScGc4dDdSTUxSRV9lc3N1TTRYd21tV3A3MkVXY3dWOXhmZnFwU2tMSVk1MkpjX0JCU0hyMzdZNlRwdTJJNlNONTFtemVhTjFaY0ZCXzFyV1I1NENweU9qNnM4TWdXZWlpTGlUN3pIaUwxTWpNT21Zc0ZtX3RrSUlvZXlpWnlMaEl4N3dGR1lXcXZrTW9EMF9VS3h2ZnU1VFlMTkZReXdkLVk1dFpNdFFyVTc2djViU0JHQQ?oc=5"
+        },
+        {
+          "title": "The Federal Reserve isn't the only central bank to hike rates in 2026: What global tightening means for investors",
+          "source": "Chase Bank",
+          "published": "2026-11-04",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQalh0cEd5MHRBbnVnMm9NSURrbGZWVUJ5OGlTTjlTOHpBSW1zaFdyYjFKSXJ0T1E3WnMzUEJDMkxaWWp3bDIyRk5fcTZQaVBQY2RZNm9mV2xOdHo5RnBWMl9hZFJBZDA2Ni1tcUdHNUpQRmNjZUZBTko3djhENVZJXy1sd3dOZW8wUlVYOFJRREFEcHlndHlnc0lrOXBxQWl1M3NuR05tcy1kc19QLWw2YXJwNGJpR1NiQmJmaGwxUHlQTzFpWW5PUkNrbURvdlM1SW4tVmphTFZObURN?oc=5"
+        },
+        {
+          "title": "Australia hikes rates to 18-year high to fight inflation",
+          "source": "CNBC",
+          "published": "2026-11-02",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQOVF0RkNGUTNUYmFYajhocUI2NlZIREUwR0NIMWZkQUZKX0JDUzlmVUF5MjVHSXBkRFdTN2ZfNEhFNWZPTlVwOGhsVVdQVXFLWlFucll1eERYV1U1RFAxbDB4TWdSZXluajhFak1Va3RONnhfMlFpTWNXSDc3dUJTYlNITENPQUM3OVHSAY8BQVVfeXFMUGxxTzhhSzZVajEwWVM0VXpjb0ZySmFoS2oyRmtXWl9GcHVsdm0tVXNYQkNVQkdxeU93a2JEQjZ4aHYyeWhMVHdXdHJSR3h5cmZLbnRreHlyUGdwNi0tbDFNdk0yYnoyekJIaVgtSl9kbkdCU2s0VHJIalVvcW5RcWpqdzhwVEVMUVFhRks1OTA?oc=5"
+        },
+        {
+          "title": "BoE joins the rate hike club, Australia may be done already",
+          "source": "Reuters",
+          "published": "2026-11-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZXFXYWhzdHpRY3JzRGtmbUUzUjJreHZPWEpia1B2aDc0ZVo5cUVUcUFQMXNMdWlETWpGNHo0ZE00UzhBN1Q5YWxaeUVMLTdnOU9JQjlCSGdMUVJQcnJkUkxuVEpibVA3emtVTlNGclBWbERaR1ZTRzBDOWJISU9hQlhtSGVHRldjRV90eTVFMUNFYWdNUnc?oc=5"
+        },
+        {
+          "title": "Australia’s Home Loans Fall by Record After Rapid RBA Rate Hikes",
+          "source": "Bloomberg",
+          "published": "2026-11-11",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNNzdsOG9wbUVwbFNLdFBta0N2NUtpWjFtNVd5bTdrNGs0MEtqWE9mNmY4VFdPS284N3FqY1FTTTlVSmhzNGUyeW5keVc4bjk3YTFfd1RfbC1TWUJmWnBOLWRKNk5LamQzR2c0eGpMazV5RG1jRFBOOG5mYlJGLXNFYjRjTnc5SlBqa2dTQzRGbmJ1SnhGcWt4SWlyaDJVR3YtWWVLR2xxZHVWbk84MFBVRnZab3lHQQ?oc=5"
+        },
+        {
+          "title": "‘Sharper, longer slowdown’ predicted for Australian economy as fifth interest rate hike looms",
+          "source": "The Guardian",
+          "published": "2026-11-02",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPbFNfR3JEeWlSSlNXa3hRU3MzUkM2aFM0WWczWUMzWnBhaWZqR1lYNFUyaTMyNE5HTkdfSk5IWGxmYVRvb255SXk4YkpPckRFdnF0akJCVG5EMEFXdnlscGQ2S1R6T2FiQURDZjlCZDNrS0o3V0pyWkdiM1QxVjBJa2dVajVFbnExTmh0aDV1d0RGUzk3aXc0UHlMOWZhbXgyUGFoM3BR?oc=5"
+        }
+      ],
+      "news_query": "change Reserve Bank Australia interest rates meeting | change Reserve Bank Australia interest rates economists forecast",
+      "forecast": {
+        "probability": 0.78,
+        "reasoning": "The RBA hiked to an 18-year high on November 3, but the split vote and commentary that 'Australia may be done already' point to a pause. Home loans also fell by a record, adding to the case for holding in December unless inflation surprises."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-14T00:53:08Z",
+        "crowd": 0.92,
+        "best_bid": 0.91,
+        "best_ask": 0.93,
+        "volume": 21391,
+        "liquidity": 4562,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Gap vs. the price we'd pay is 13.0 points; counting only part of it (cautious sizing) leaves 6.0, under the 10-point minimum."
+    },
+    {
+      "market_id": "5959232",
+      "event_id": "1221980",
+      "event_title": "Which company has the best Image Edit AI end of November?",
+      "option": "OpenAI",
+      "question": "Will OpenAI have the best Image Edit AI at the end of November 2026?",
+      "rules": "This market will resolve according to the company that owns the model that has the highest rank based on the arena.ai Image Edit Leaderboard when the table under \"Image Edit Arena\" filtered for \"Models\" is checked on November 30, 2026, 12:00 PM ET.\n\nResults from the \"Rank\" column under the \"Image Edit Arena\" Leaderboard tab at https://arena.ai/leaderboard/image-edit (Overall) filtered for \"Models\" will be used to resolve this market.\n\nNote: Models marked “AutoEval” at the applicable check time will not be considered, regardless of whether they display a rank or score. Models marked “Preliminary” at the applicable check time will be considered.\n\nModels will be ordered primarily by their leaderboard rank at the market’s check time. If two or more models are tied on rank, they will be ordered by which model is listed higher on the leaderboard. If a tie still remains, alphabetical order of company names as listed in this market group will be used as a final tiebreaker (e.g., “Google” would be ranked ahead of “SpaceXAI”). This market will resolve based on the company that occupies first place under this ranking.\n\nThe resolution source for this market is the arena.ai Image Edit Arena Leaderboard. If this resolution source is unavailable at check time, this market will remain open until the leaderboard comes back online and will resolve based on the first check after it becomes available. If it becomes permanently unavailable, this market will resolve to \"Other\".",
+      "topic": "Tech",
+      "end_date": "2026-12-01T04:59:00Z",
+      "url": "https://polymarket.com/event/which-company-has-the-best-image-edit-ai-end-of-november",
+      "snapshot": {
+        "time": "2026-11-14T00:51:01Z",
+        "crowd": 0.895,
+        "best_bid": 0.89,
+        "best_ask": 0.9,
+        "volume": 11481,
+        "liquidity": 2446,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "OpenAI and Anthropic Drop New AI Tools for Cybersecurity, Images and Finance",
+          "source": "CNET",
+          "published": "2026-11-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNQURicUhYclN6VEZ0VEtFVW5uSVpzZEY2VktKRS11RXhaVTdFbWF3MnBZMTVvOWVtMzlnNW5OLTh4em9waGMxSTF0anNUWnBNSmVBaDlXQTBmQnJsNGZTYUR2UXJJX1NrZVBCaDg2YWtHY0h3b2ZqNlF1UXV2U1ktWGxsanEyNnVXcF9YY0x6d0h6X2tiZGU3Sl8xOGF6RnNMbnc2aWdwc3BNR05Iclc1dw?oc=5"
+        },
+        {
+          "title": "OpenAI Image Generation Reaches 4 Billion Weekly Images as Images 2.6 Arrives",
+          "source": "remio",
+          "published": "2026-11-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNzNaakZUVmZnQVZMMFllZmY2cm1NTURlTF9VYmp2djdncHMydlQ3ZjV4TF9lejZZN1NrdDFuSGRsZVRsYkUxRmVwM1RNbDhqM0s4cWFOMVdrTnVhUDM0YndfeHMwOHM2VUpUUHBmd0lVaUZoS3Bxbk9QUHh4V0cwNEI1U1Vrc3FVYmV4T2JGZjJpREFVcXh2M1Nid3cyWDFFMFlWYlNn?oc=5"
+        },
+        {
+          "title": "OpenAI launches Images 2.6 with GIFs and image reference",
+          "source": "TestingCatalog AI News",
+          "published": "2026-11-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOX3dIb0FWWHhMdTVNVENaWnBKWFV5d1NmYXA5ZU5NN3VjVWJsSnNXRklqcF95alVZaHRHSUhxSWcyRUxDVWthcVVKRk8zOS02OFo0WG94TDhOaENYSkRITFl0eFRDdzFBUHVRMFRDVU9VeVY3LURzY1Rwb0xaSkZ5eFZvc2xwSGZ3MjVXNEwxMmpSQQ?oc=5"
+        },
+        {
+          "title": "Apple Creator Studio gets powerful new AI features using OpenAI models [U: Now available]",
+          "source": "9to5Mac",
+          "published": "2026-11-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQczlQRFVwLWZlSGl6VzR2VW56b1VTbE1jNmxWTTVaLWs1eVlXWF90LU40UnNDNWpSSV9RU3F4UWhXT0xqZndQVy1PX244RndkcUVVZVBhSTFheWpuRC0zNFFGbEtsS3RMenFvdVI0MWN6SjNjZ1Q3b0J2ekI3cVFnOGMwdWRQakp6c1VQdW91OHA4YmpERHRVSWZkaGUzTkFmY0p0TQ?oc=5"
+        },
+        {
+          "title": "OpenAI to Change How It Handles Data Center Efforts After Outcry",
+          "source": "Yahoo Finance",
+          "published": "2026-11-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPektPalR4TVFNSldoVEd6bDdwNnZCWXg0NW1FQk9WemdSdzliSkxKQTJoMXptOWthZnpObXlVcHVBT0wtalprZ3paQ0JycUhrUjBEeGhwcFlIQVBRUXFoQlhZMlkyS09hTk1pQVN4OHZmYTBpd2pSWnh1Z05ENnhaSUhrQzAtazlkTnlteTVGdDc3M2wtVkI3NnRCeDBGZw?oc=5"
+        },
+        {
+          "title": "OpenAI brings GIF maker to Images 2.6 tool",
+          "source": "Deccan Herald",
+          "published": "2026-11-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOd1lKb2Z4Z01QVy1EMENxMjRJVW0xd1RIdHlWT1pycUVvc25Nc0RMS0RSUk9scW52d1c3U0tCYk83a1VPZjhhcG9JUXl6TG1FNDN1WjhkUkZwWmNQdy1Da3RQQUhZME5CUXBBUHhqU29VRnhWRnJDZXBFN254NnJDMk9aX29GOUpxZ28wOUpseHU3V25CcklCUUV3Mm84LUp6VEF4VGI1cjEyNUtUQzZWb0Y5QQ?oc=5"
+        }
+      ],
+      "news_query": "OpenAI best Image Edit AI",
+      "forecast": {
+        "probability": 0.5,
+        "reasoning": "OpenAI just launched Images 2.6, and fresh releases often jump to the top of arena leaderboards. Google's image-editing models remain strong competitors, and other labs could release new models before November 30. That makes this roughly even."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-14T00:53:08Z",
+        "crowd": 0.895,
+        "best_bid": 0.89,
+        "best_ask": 0.9,
+        "volume": 11481,
+        "liquidity": 2446,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Gap vs. the price we'd pay is 39.0 points, over the 35-point limit: disagreements this big have usually meant the AI missed something, so no bet."
+    }
+  ],
+  "batch_id": "msgbatch_01QS8BeYJ1tQi95VzvycdJkT",
+  "forecast_at": "2026-11-14T00:53:08Z",
+  "usage": {
+    "input_tokens": 9394,
+    "output_tokens": 2673
+  },
+  "cost_usd": 0.0455,
+  "budget": 49.67,
+  "account": "phase-1.2"
+}
