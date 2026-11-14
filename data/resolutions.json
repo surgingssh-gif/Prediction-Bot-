@@ -1038,5 +1038,30 @@
     "outcome": 0,
     "resolved_at": "2026-11-13T15:31:24Z",
     "question": "Will PPI YoY be 6.8% or more in October?"
+  },
+  "635012": {
+    "outcome": 0,
+    "resolved_at": "2026-11-14T08:04:50Z",
+    "question": "Will Bernadette Wilson win the 2026 Alaska governor election?"
+  },
+  "6618428": {
+    "outcome": 0,
+    "resolved_at": "2026-11-14T18:02:18Z",
+    "question": "Will Malaysia win Eurovision Asia 2026?"
+  },
+  "6618524": {
+    "outcome": 0,
+    "resolved_at": "2026-11-14T17:50:42Z",
+    "question": "Will Malaysia be the Jury Winner in the Eurovision Asia 2026 Grand Final?"
+  },
+  "7023303": {
+    "outcome": 1,
+    "resolved_at": "2026-11-14T03:45:39Z",
+    "question": "Will the FAA's nationwide ground stop be lifted by November 15, 12:00 AM ET?"
+  },
+  "6618432": {
+    "outcome": 1,
+    "resolved_at": "2026-11-14T18:25:40Z",
+    "question": "Will Philippines win Eurovision Asia 2026?"
   }
 }
