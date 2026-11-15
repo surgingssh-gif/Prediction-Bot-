@@ -1,0 +1,718 @@
+{
+  "run_id": "2026-11-15",
+  "date": "2026-11-15",
+  "created_at": "2026-11-15T02:33:02Z",
+  "model": "claude-opus-5-5",
+  "effort": "high",
+  "phase": "1.3",
+  "pick_stats": {
+    "eligible": {
+      "Economy": 4,
+      "Politics": 14,
+      "Science": 2,
+      "Tech": 2
+    },
+    "picked": 10
+  },
+  "track_record": "=== Your track record so far ===\nThese are your own earlier forecasts in this experiment that have settled (201 questions). They show only what you said and what happened (no market information).\n- On average you said 39%, and 43% of these events happened. Overall, your average is close to how often things happened.\n- Your average Brier score is 0.256 (0 is perfect; always saying 50% scores 0.250).\n- When you said...\n    under 10%: it happened 6 times out of 22.\n    10-30%: it happened 20 times out of 59.\n    30-70%: it happened 41 times out of 87.\n    70-90%: it happened 17 times out of 31.\n    over 90%: it happened 2 times out of 2.\n- Your biggest misses:\n    \"Will SpaceXAI officially rename itself to SpaceXSI by October 15?\" You said 3%; it happened.\n    \"Will the Tesla Roadster fly for 1s+?\" You said 4%; it happened.\n    \"Will Xiaomi have the best Chinese AI model at the end of October 2026?\" You said 6%; it happened.\n    \"Will monthly inflation increase by 0.6% in September?\" You said 7%; it happened.\n    \"Will there be between 0 and 5 average daily transits of the Strait of Hormuz on October 31?\" You said 7%; it happened.",
+  "questions": [
+    {
+      "market_id": "5162929",
+      "event_id": "989745",
+      "event_title": "Will Iran target the United Arab Emirates by...?",
+      "option": "November 30",
+      "question": "Will Iran target the United Arab Emirates by November 30, 2026?",
+      "rules": "This market will resolve to “Yes” if Iran targets the United Arab Emirates through a qualifying military action between market creation and the listed date, Gulf Standard Time (GST). Otherwise, this market will resolve to “No.”\n\nA qualifying military action refers to an air strike or a surface-to-surface missile strike, initiated by Iran, directed at the United Arab Emirates. An air strike includes bombs, air-to-surface missiles, and air-launched drones. A surface-to-surface missile strike includes one-way attack drones and surface-to-surface missiles such as cruise or ballistic missiles.\n\nThe following actions do not constitute a qualifying military action:\nSurface-to-air missile strikes;\nSmall-arms fire;\nGround incursions;\nCyber operations;\nNaval gunfire and artillery fire;\nHowitzers, artillery pieces, mortars, and rocket artillery (e.g. MLRS systems);\nMinor surface-to-surface strikes, including short range loitering munitions, FPV drones, and ATGM strikes;\nAny threat, authorization, or announcement of force that has not been executed.\n\nMilitary action that consists primarily or exclusively of munitions that are intercepted before impact will still qualify if they constitute a qualifying military action during the specified timeframe; whether the munitions were intercepted, where the munitions landed, and whether damage resulted will not be considered.\n\nA military action will be considered directed at the United Arab Emirates if it is directed at the terrestrial territory of the United Arab Emirates, including any internal waters.\n\nOnly military actions by Iranian forces explicitly claimed by the Islamic Republic of Iran, or confirmed to have originated from Iranian territory will count toward the resolution of this market. Attacks by proxy forces (i.e. Hezbollah, Houthis, etc.) will not count toward the resolution of this market.\n\nThe occurrence, attribution, and timing of a qualifying military action will be primarily determined based on a consensus of information available from the resolution sources. Where multiple sources conflict regarding the occurrence, attribution, or timing of a relevant military action, this market will remain open until the earlier of: i) the confirmation of the occurrence, attribution, and timing of the action based on a consensus of information available from the resolution sources or ii) 3 full calendar days (GST) from the date of the first credibly reported evidence of the action. If this period would extend past the end date, this market will remain open to allow for 3 full calendar days to pass. At the end of the third calendar day, if conflicting reports remain, the incident will be adjudicated based on the totality of information available from the resolution sources at that time. No single statement, denial, or presentation of evidence will govern where it is contradicted by the totality of information.\n\nThe resolution sources for this market will be official information from the governments and militaries of Iran and the United Arab Emirates and a consensus of credible reporting.",
+      "topic": "Politics",
+      "end_date": "2026-12-01T04:59:00Z",
+      "url": "https://polymarket.com/event/will-iran-target-united-arab-emirates-byptptpt-20260907",
+      "snapshot": {
+        "time": "2026-11-15T02:32:57Z",
+        "crowd": 0.345,
+        "best_bid": 0.33,
+        "best_ask": 0.36,
+        "volume": 13189,
+        "liquidity": 3012,
+        "fee_rate": 0.0
+      },
+      "news": [
+        {
+          "title": "Gulf states brace for war with Iran—again",
+          "source": "The Economist",
+          "published": "2026-11-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNQ2I0Y0VRNU82dHV3WVZxZnN2Zmt3dHZFWXFJRjVJbHBickRIcFFqdEROQTdnMDk3SnRBMFo2TEFESWx0YVBLaHVHUVlPcmRGS3dSTkJDRU4tc0ZuV3diVUpsVE8xdVFCVmVTbFFqWldVWEU1bFVXLWowZ1lfS09ySFBESlE0VTBsWTlib2xlVjJCc2x1Z2FtYWhJeDM4cGFtZXlB?oc=5"
+        },
+        {
+          "title": "Trump Says 'Very Unlikely' To Launch Fresh Iran Strikes If Talks Progress",
+          "source": "Radio Free Europe/Radio Liberty",
+          "published": "2026-11-09",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9OeTc1VE5lcEx0QzNhVlh6TnBVZUhfdi1MR0xZQnJOLWo2U3dHb09ucVhPNXctSTFXNTF6R3EwZEJXSl96SF9zS2FPUWFwcHpHeFVMaGtUckZiaGIydHc1SFMwT3U1R1h5WnMtY2RGUkdtYm1jV2VUMWFB?oc=5"
+        },
+        {
+          "title": "Russia to UAE, Iran steps up diplomacy amid Trump threats: What we know",
+          "source": "Al Jazeera",
+          "published": "2026-11-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbGpDdXFxU0JuY1VWRTZudTNoY2NFeGNqVE1UOUMzTkRBR0kwQU5taFgyclAtdFBnMHMyQUcyNzVVY0ZaX0xXb1N6eFN0NjFLVENzVG5YODNPenJUQVlXSWVuR1JXTVdMV2Y4dUM1eVc4Y0NsWkVQYmZNV1hRYm9UOVlvZm9mV1FiQjJIb2xVYXVDWmRQaUNPbTI0RTNldmpxQlNGN2VLS295Y3NINWxr0gG0AUFVX3lxTE1jLTJmLXJ2d0hSLUZMTzhRdnRaSWFoRmNybWtjWHEzdjFWNE0zb1F2NlE3dmY1WTZVZGlBYUZkNmdFSVZBU1FwdG9lNEpfRExJR0ZBYUY4bjNKQm43VGdRTlI3UGt5c1U1NURpdUZoUjRGT0ZnUEFoZWZCbXBtZmxTSkVYUFBQX0s1LXB1LUpaRGtac1NSR3A3MVpBTkpXMExsOG92cGowdWJVcjhIT1dfMzVJTA?oc=5"
+        },
+        {
+          "title": "Trump's Iran threat renews Gulf fears of a war it didn't choose",
+          "source": "Reuters",
+          "published": "2026-11-02",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNVTJwa2lIdnVGZzJIX3NYSDNzLU9mUTU5MjVBeGFmbmNOR1NiQ1I0a0J6OGdnd2VhbHd5ZWZMakp3NzlwcFJ6OVZDcmc4T0FSQ2lORnltSk5md0psZ19nd3ZtRmE2Vlg3bHdBY3JQV3hMbko5NlFJY2dRVVRsTkJ3ajZVOFQ3clU1eHFBQnFUZUg1SV9takV2bVllN2ZVNHRuanMzLWh5REkzaU9vYWw4?oc=5"
+        },
+        {
+          "title": "Trump says war in Iran will be put away very soon \"one way or the other\"",
+          "source": "CBS News",
+          "published": "2026-11-01",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQOU84MUlJV2w4ZEtpaS1ndkJieWpObTZJUzloRl8yUV9DSE54RFkyTklLUm1RSzVwUVNzMWQtNWRMc0RpLTZJQVRieS1qbVNLRGpRbnpYa3NxLUczeDdYdzBQUEtJTVg0NUlEbHZOaGJfQ2plTHFvTmZ0d2ZkMFo2aXNGWXY4SzNVRncxYUMwWVk?oc=5"
+        },
+        {
+          "title": "Collection: The Iran War",
+          "source": "Just Security",
+          "published": "2026-11-03",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBoSVdUeXVkem5oeFB6SzlYa0xrbmpSVXdlWDdrX3dhbG5vWFNvZ1ZLXzR6U0N1WVMyekQ0RzY2UXgwRWdwU0E2ZXRIbXZwaWN2eTZRbkU4M1N2X25xMjY0RjQ4WFdvdEc2VHhkbXpONWJYWEo2TzBB?oc=5"
+        }
+      ],
+      "news_query": "Iran target United Arab Emirates",
+      "forecast": {
+        "probability": 0.13,
+        "reasoning": "Iran would most likely strike the UAE only in retaliation for a new round of US or Israeli strikes. Trump says fresh strikes are 'very unlikely' if talks progress, and diplomacy is active. Gulf states are bracing for renewed war, but only about 15 days remain. I put roughly a 20% chance on a new escalation in that window and a good chance Iran would hit the UAE if one occurs."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-15T02:35:04Z",
+        "crowd": 0.345,
+        "best_bid": 0.33,
+        "best_ask": 0.36,
+        "volume": 13189,
+        "liquidity": 3010,
+        "fee_rate": 0.0
+      },
+      "bet_note": "Gap vs. the price we'd pay is 20.0 points; counting only part of it (cautious sizing) leaves 9.2, under the 10-point minimum."
+    },
+    {
+      "market_id": "6919842",
+      "event_id": "1353338",
+      "event_title": "How long will Xi and Takaichi shake hands?",
+      "option": "2–6s",
+      "question": "Will the Xi and Takaichi handshake last 2–6 seconds during the summit?",
+      "rules": "Sanae Takaichi is scheduled to attend the APEC Economic Leaders' Meeting in Shenzhen, China, on November 18–19, 2026, which will be hosted by Xi Jinping.\n\nThis market will resolve according to the length of the longest filmed handshake between Xi Jinping and Sanae Takaichi during this summit. Any handshake recorded during the summit will qualify.\n\nFor the purposes of this market, the summit begins when Sanae Takaichi enters the terrestrial or maritime territory of China and ends once Sanae Takaichi physically departs from Chinese territory.\n\nIf no handshake occurs during the summit, or if Sanae Takaichi does not physically enter the terrestrial or maritime territory of China by November 30, 2026, 11:59 PM Shenzhen time, this market will resolve to “No Handshake”.\n\nIf a handshake is photographed but not captured on video, this market will resolve to \"Photographed only\".\n\nDuration will be measured from the exact moment their hands make initial physical contact until the exact moment either breaks contact.\n\nIf the measured duration falls exactly on the boundary between two duration brackets, this market will resolve to the higher bracket.\n\nQualifying Requirements:\nThe handshake must be voluntary, intentional, and in person.\nDirect hand-to-hand contact is required (gloves or mittens are permitted).\nThe handshake must be clearly visible on video from start to finish.\n\nNon-qualifying examples:\nFist bumps, hugs, waves, or other non-handshake greetings.\nAny handshake that is too unclear to measure.\nOnly photographic evidence exists without a way to measure duration.\n\nVideo or photographic evidence of the handshake must be released during the calendar days (Shenzhen time) of the summit to qualify.\n\nThis market may resolve at the end of the calendar day (Shenzhen time) that Sanae Takaichi physically departs from Chinese territory at the end of the summit. If Sanae Takaichi does not physically enter the terrestrial or maritime territory of China by November 30, 2026, 11:59 PM Shenzhen time, this market will resolve to “No Handshake”.\n\nThe resolution source will be video footage.",
+      "topic": "Politics",
+      "end_date": "2026-12-01T04:59:00Z",
+      "url": "https://polymarket.com/event/how-long-will-xi-and-takaichi-shake-hands-20261118",
+      "snapshot": {
+        "time": "2026-11-15T02:32:57Z",
+        "crowd": 0.47,
+        "best_bid": 0.46,
+        "best_ask": 0.48,
+        "volume": 12393,
+        "liquidity": 3612,
+        "fee_rate": 0.0
+      },
+      "news": [
+        {
+          "title": "Japan Works to Shield Takaichi From Any Xi Snub at China Summit",
+          "source": "Livemint",
+          "published": "2026-11-08",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdjRnN1kwMkxlODFVYU9xWTNwNkM0aHN1LUdNOVhwQUF0UWZBLU5RY3BaSW5ZbFRaSzlWeGZpOEZhcExNVHdRZU5BeE5lbzAyeHlnSGRXNXJUREYtS0FNc3pNR3h0S3V5d1ZnanVTMlloanRkQzZ6andvbHhQcGFTZGUyckU4NF9PNG1iZlY3cUQzcmpMYVZQaXR1OGZSM2pDWTRqeEhZb3FJWWVGODVQYkJTVmtvb2st0gG-AUFVX3lxTE1pbzNWbjJibWpBX2ItbFI5dl9NLWJ2ejBFeHhfVFJnM3Y1cDAwM3J0RXVnVnRLbnVIbk5MOGgwNDhtY1VlczU0SUVVQjZOckZuam1Kb2xqS3h5UDVHQXY1dXlBVXkyME1jWnQ2US1yY19aUkg0WVF4MlRUTnJWMWpIVU1sczJ2ZGY0SUh4LW5SUHZMc2taRExqdFFqRERVcVAzRGRWeWc4RjdaZGRlWW9uQlF5Q1RaVVhKVzNIQ1E?oc=5"
+        },
+        {
+          "title": "Japan Seeks Handshake for Takaichi at APEC",
+          "source": "Briefs Finance",
+          "published": "2026-11-08",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOZUZLdW9yaTRDcUZYbG8zNHZDcEFWUV8weVZjTTVsX21JOV9PNU1RUUFkUnlYZlB6RlRodDNRRzk1LTN3SjFGR2VDTGJHOFptWWd3dkc5SXdONVFrUkNTbDNQU1pTUGp2ejZJZG9ING5ra3lCcG9nN0lHZFd4UE56SWxROUpvb2hFaUVPdkt0T2V2dw?oc=5"
+        },
+        {
+          "title": "Few signs of thaw in Japan-China relations one year after Takaichi’s Taiwan remarks",
+          "source": "The Japan Times",
+          "published": "2026-11-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQeGtCc3dOVVZ1clRESFZrYm9XRTEwN0lVR0ozVnV6NzNkdHVic21nN25mV2NnczlPaEZXalBvVF8yTVNtRFoyMkI1aGtmSko2LWExQm4zTk92SDJWM2VILXNCTHVBdW5Obk9jeS11OVdWV292Y3c3cHhUelJJbjhqTmxxdFFWTHg0MDJ4YkhyZnJGOHJpQ3B3bTdhdUg?oc=5"
+        }
+      ],
+      "news_query": "Xi Takaichi handshake last seconds during summit | long Xi Takaichi shake hands",
+      "forecast": {
+        "probability": 0.5,
+        "reasoning": "As APEC host, Xi normally greets every leader with a posed handshake, and Japan is working to secure one for Takaichi. With relations frosty, a brief formal handshake of a few seconds is the most likely outcome. Posed photo handshakes sometimes run past 6 seconds, though, and there is some risk of no qualifying video."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-15T02:35:04Z",
+        "crowd": 0.47,
+        "best_bid": 0.46,
+        "best_ask": 0.48,
+        "volume": 12393,
+        "liquidity": 3292,
+        "fee_rate": 0.0
+      },
+      "bet_note": "Gap vs. the price we'd pay is 2.0 points; counting only part of it (cautious sizing) leaves 0.5, under the 10-point minimum."
+    },
+    {
+      "market_id": "4664908",
+      "event_id": "1040646",
+      "event_title": "Which company has the best Text-to-Image AI end of November?",
+      "option": "OpenAI",
+      "question": "Will OpenAI have the best Text-to-Image AI at the end of November 2026?",
+      "rules": "This market will resolve according to the company that owns the model that has the highest rank based on the arena.ai Text-to-Image Leaderboard when the table under \"Text-to-Image Arena\" filtered for \"Models\" is checked on November 30, 2026, 12:00 PM ET.\n\nResults from the \"Rank\" column under the \"Text-to-Image Arena\" Leaderboard tab at https://arena.ai/leaderboard/text-to-image (Overall) filtered for \"Models\" will be used to resolve this market.\n\nNote: Models marked “AutoEval” at the applicable check time will not be considered, regardless of whether they display a rank or score.\n\nModels will be ordered primarily by their leaderboard rank at the market’s check time. If two or more models are tied on rank, they will be ordered by which model is listed higher on the leaderboard. If a tie still remains, alphabetical order of company names as listed in this market group will be used as a final tiebreaker (e.g., “Google” would be ranked ahead of “SpaceXAI”). This market will resolve based on the company that occupies first place under this ranking.\n\nThe resolution source for this market is the arena.ai Text-to-Image Arena Leaderboard. If this resolution source is unavailable at check time, this market will remain open until the leaderboard comes back online and will resolve based on the first check after it becomes available. If it becomes permanently unavailable, this market will resolve to \"Other\".",
+      "topic": "Tech",
+      "end_date": "2026-12-01T04:59:00Z",
+      "url": "https://polymarket.com/event/which-company-has-the-best-text-to-image-ai-end-of-november",
+      "snapshot": {
+        "time": "2026-11-15T02:32:57Z",
+        "crowd": 0.8935,
+        "best_bid": 0.888,
+        "best_ask": 0.899,
+        "volume": 26186,
+        "liquidity": 7739,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "AI Text Watermarking May Not Be Able to Meet the E.U.’s New Rules",
+          "source": "IEEE Spectrum",
+          "published": "2026-11-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBZbUdVcFBXQy1Zbm5RLWNqRi1nckFIMTEtMWtsekh3Q0xZZHNrNkYzOHVkU3dUbWM3TmJSRk1WVWRGWmp3cHBzVUp5Yzc0NVZqN21ZSFVYVmtremNPWmhmWm9RT3hzRGdaa195cUVzTQ?oc=5"
+        },
+        {
+          "title": "OpenAI and Anthropic Drop New AI Tools for Cybersecurity, Images and Finance",
+          "source": "CNET",
+          "published": "2026-11-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNQURicUhYclN6VEZ0VEtFVW5uSVpzZEY2VktKRS11RXhaVTdFbWF3MnBZMTVvOWVtMzlnNW5OLTh4em9waGMxSTF0anNUWnBNSmVBaDlXQTBmQnJsNGZTYUR2UXJJX1NrZVBCaDg2YWtHY0h3b2ZqNlF1UXV2U1ktWGxsanEyNnVXcF9YY0x6d0h6X2tiZGU3Sl8xOGF6RnNMbnc2aWdwc3BNR05Iclc1dw?oc=5"
+        },
+        {
+          "title": "Best Practices For Smart Business Owners Wanting To Make Optimal Use Of OpenAI’s New ‘Businesses In ChatGPT’",
+          "source": "Forbes",
+          "published": "2026-11-14",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNbFJ2OGFTYzZWV1R0VmlfSENFQndfN1ZucnNkaWVDVU1uSkx1b0h3N0Q3QVVhVHJSNFpUV1M1NHo1WVdUd1ZzaGZjSzNFR0pJRWFPTzNrdDhyX3RKbWU0QWtGX2VQZTFZRHZrc2RUbllsU0RnZHpxQ0F0YzdfQlBTdEx4bHlORUxXWTVxMFlfVmh5Qmk1eFpGRnV2X3FHdE5fbVRnaFdJd004RW5IQ2Y5NXZsYno0SmJvT1FlWUZjcDN2N0x5MVFrenBmaFpzYW9Db1NlQXRYMktQeHhkdHlBU2VmZHh1T2JQb2dIVlpB?oc=5"
+        },
+        {
+          "title": "Exclusive: OpenAI disbands its stand-alone robotics team as its general models start running robots",
+          "source": "Fortune",
+          "published": "2026-11-13",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQdUpabzdVdVRFd0RUN0pnVTJuQUtkYThSdzlhc3FHSmxmTnZETWNyajZGcGEtVHFvYmxMTGJMa0VHaGxEMVh5bmY1MXlVTDlWTHVBWlotdkJ0ZmRSdk9GRzh0ZTNrZElwYzlLWmp0ZkZqRFZKOEI5RkdDdkVHYzVUWFpOU2NqTnJGTmF3R0dTQTRGaDFXZl9jQ2s5bEd4dHJFZFRyQ3hrcw?oc=5"
+        },
+        {
+          "title": "OpenAI | ChatGPT, Sam Altman, & Microsoft",
+          "source": "Britannica",
+          "published": "2026-11-14",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9Ba1QyTkx0cjRqbWxxX2ZPbmpGSmpBU2lkNEdpcXRWa09JNjRkZEswMk8zcFFDbFA1dGJ3LV9KUU96RkRJUjZ1WU1GWnNRVGw0?oc=5"
+        },
+        {
+          "title": "7 real-world ChatGPT uses and prompts I learned directly from OpenAI that blew my mind",
+          "source": "Tom's Guide",
+          "published": "2026-11-03",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOT25WM29zcVVsYXFIWXdmbmFZRHpJS2laT3duZ1ZYdnV6dF9IZnV5YmtaYzZOalA5NUo3dXdRNWFsRGF6Y1B2dE1tN0xqZVR5alVsYzlyTXFvODBCenc3VDFZUE9vZ1YzMlMwWHFYX1RxLWViMmp1cThRTlFyeUpZd0RFZjYzT2NkMnV0T2ZGckF2eGxoRTMzOFZDd01aOUNnT0pNbmV4aS1wQUgxcG8tdDA2OFhKUQ?oc=5"
+        }
+      ],
+      "news_query": "OpenAI best Text-to-Image AI",
+      "forecast": {
+        "probability": 0.45,
+        "reasoning": "OpenAI reportedly launched new image tools in early November, and new flagship image models have often debuted at the top of the arena. Google and other labs compete closely and swap first place often, so this is near a coin flip."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-15T02:35:04Z",
+        "crowd": 0.8935,
+        "best_bid": 0.888,
+        "best_ask": 0.899,
+        "volume": 26186,
+        "liquidity": 7810,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Gap vs. the price we'd pay is 43.8 points, over the 35-point limit: disagreements this big have usually meant the AI missed something, so no bet."
+    },
+    {
+      "market_id": "5622719",
+      "event_id": "1178460",
+      "event_title": "Spain General Election: Turnout",
+      "option": "70%+",
+      "question": "Will voter turnout be 70% or higher in the 2026 Spanish general election?",
+      "rules": "A general election is scheduled to be held in Spain on November 29, 2026.\n\nThis market will resolve according to the official voter turnout rate for the 2026 Spanish general election to the Congress of Deputies, defined as the total number of votes cast (votantes) divided by the total number of registered voters (electores). (see 2023 example: https://www.boe.es/boe/dias/2023/09/01/pdfs/BOE-A-2023-18907.pdf)\n\nIf the reported value falls exactly between two brackets, this market will resolve to the higher bracket.\n\nIf the results of this election are not definitively known by November 30, 2027, 11:59 PM ET, this market will resolve to the lowest bracket.\n\nThe primary resolution source for this market will be official election results reported by the Spanish government, including the Spanish Ministry of the Interior (https://infoelectoral.interior.gob.es/); however, a consensus of credible reporting may also be used if official results are not available.",
+      "topic": "Politics",
+      "end_date": "2026-11-30T04:59:00Z",
+      "url": "https://polymarket.com/event/spain-general-election-turnout",
+      "snapshot": {
+        "time": "2026-11-15T02:32:57Z",
+        "crowd": 0.425,
+        "best_bid": 0.41,
+        "best_ask": 0.44,
+        "volume": 16834,
+        "liquidity": 8514,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "NEWS RELEASE: Multnomah County voter turnout surges on Election Day, casting ballots in first-ever ranked choice contests",
+          "source": "Multnomah County",
+          "published": "2026-11-04",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTjQ0dDVXbkViVWVNX2VWUG5EOGNzbEUzcXBtczUzbVEwWkVNRDdyRTZnZlRjSFRWVXpxTHFjeGtZdkI1cnpydkd6Vk96TENneF9fU2g4aTlkNHE4THg0SndOcVVoa0dscU9CLVpuSXYwbzZxb2N2UHdtX2hPemY5ZjNkcnVtTUVqbjc2WGd2cFhWenZQaFF5dDlVUEwtTEdzQWtzUXAtR1QzQkR2QnF5a3B4SQ?oc=5"
+        },
+        {
+          "title": "Spain's workers hold a general strike over housing costs before national election",
+          "source": "NPR",
+          "published": "2026-11-11",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB1Z21wV2xfeFlXQ2Q1VGNxY3ptanpySmdSdVFxMDJLR2ZkSlJlWXlXVVBfRWVYQkN2YlhYQWh5c0VPeXMyMV9FVFJURjBTMkQ3c0ZTUlAxeVowaTJTWkpGLVBqU0g5MEpTMmltbHVjeHVKTjQ?oc=5"
+        },
+        {
+          "title": "Parliamentary 2026 Spain",
+          "source": "Fondation Robert Schuman",
+          "published": "2026-11-10",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPbU0wQ3BiZk1lV09TSzZiSTdBa1N0eEgwY1lNZmVQaUl3cTdyaDc4bERLY1UyQW9FVnltS0M4OThyUHYyRWg0a3ZJR1lMNVE4dy1DbExWSVg4TGIxSFVqR3JhMk5ZT3RERDc4aFRBZDN4ZG5YZW0wejkxMDYzb3hkLVl1UVAyRTY4bk1UWFozS0hheWM4U2lsUnV6d1BFaG5EVVZlRGMyLWhtWHlJLXhJM2NhV3BiZjQ?oc=5"
+        },
+        {
+          "title": "General strikes to paralyze Spain as protestors clash with police ahead of election campaign",
+          "source": "CNBC",
+          "published": "2026-11-11",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxON3RvSUxLc1FkLUZhT3lnaWp4OWxGY2xmd3llRDVYV0xUZVZkRGNpTVBIWGU5TjFrTkM4WldMR0o3dVdpRHhUNmZ1VzNNbTI1SDlJSUxCeW5ITjV0dGdpbi1QM1pEc2ZaOEpPTXRzUTNCNVpWc2d2ZkliWXAzYkVieHF30gGHAUFVX3lxTFAtRDFnX181eG45WHgwNnBFOUl5OXdDUDk2MklvMlhOckVoX3BYWTFma3duRjlDNHlzeDBuMUItSTNvcENISTlYR3BJR2MxUFlqWDZUR2hadlNzNkQ2SC1Oc0tJY1Q0N0hVS3NiUjVTdEJ0ZDBnS3BSTkJjUGpKY1pjTUF2Q0hLUQ?oc=5"
+        },
+        {
+          "title": "Spain’s workers hold a general strike over housing costs ahead of a national election",
+          "source": "ABC News - Breaking News, Latest News and Videos",
+          "published": "2026-11-11",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSk81MWRKWUh1clJTcTFaRnNQR2tWNnFnNjE3WkQ1V3NXRzZmaEszSC1MbGFmSkFZR0pUSjhfVjgyRWFidTZYYTZUbHFNcjc2TEtSd1VWWlRIUzFyT0NGUjRDR1ZpcmF5c1kwUEs3c2pxVnFZSUFBUndJQl9uSGRnS21sdnRPSzBKTE9ESElYZVpXVWU3dzRHb05XMUg0dFNTMWVmVtIBqgFBVV95cUxOWFc2dTd1ckhpLXBGLTNlU0s1dnZCY09GRldsVms3a3JONFpNbWN6VjN5WFhobnQzUFd6Q2s2X21tdUlDY3J4d2piTTR1TFNTRWtHYkFxcExHREw5RzFXbGxCMEpHSTlNRzdzVGViSW1qb1gxZEd3aWJlYzJKNHdGNmI5SWdocldfQUtaQTVKNGVma2dfQXhFajUxNVpuSkNqYUVwUnhDLWd6Zw?oc=5"
+        },
+        {
+          "title": "Spain’s workers hold a general strike over housing costs before a national election",
+          "source": "WTOP News",
+          "published": "2026-11-11",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZm5QenpVQXVDdkhnYVgtRXRNemg3RUpJWUhpREVabE5VeXB1QUU2WjhWSGpHVEQzSzJoTlR3U21lVkpPRDI5UnBLcGllY2M0WmFiZmM4WWxVanVnLXVEVjB5eUNMQ0MwUmg0YXhpUUtTSHFITWVZMkFBcVNRUVpHM3pJQTRRVmowMFloWWwtaGZuUVlCSnZUSUx5YzlkdnBISkJ0YVA5dXFQbzhwdkJ2U3F5VVdrSzRBeEEyYmR2eXhUc1hUQ05J?oc=5"
+        }
+      ],
+      "news_query": "voter turnout higher Spanish general election",
+      "forecast": {
+        "probability": 0.25,
+        "reasoning": "Official turnout including voters abroad was about 66% in 2016, November 2019 and 2023. It topped 70% only in high-mobilization contests like April 2019. A polarized, strike-heavy campaign could lift turnout, but a late-November date and the abroad-voter drag make 70% a stretch."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-15T02:35:05Z",
+        "crowd": 0.42,
+        "best_bid": 0.41,
+        "best_ask": 0.43,
+        "volume": 16834,
+        "liquidity": 8559,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Gap vs. the price we'd pay is 16.0 points; counting only part of it (cautious sizing) leaves 7.5, under the 10-point minimum."
+    },
+    {
+      "market_id": "5166841",
+      "event_id": "1111185",
+      "event_title": "GPU rental prices (H100) end of November?",
+      "option": "$3.25+",
+      "question": "Will the Ornn H100 Index be at least $3.25 on November 30, 2026?",
+      "rules": "This market will resolve according to the finalized Ornn H100 Index price for November 30, 2026.\n\nIf the recorded data falls exactly between two brackets, this market will resolve to the higher bracket.\n\nThe resolution source for this market is Ornnai.com (ornnai.com), specifically, the H100 Index chart data available at https://dashboard.ornnai.com. The specified finalized daily value shown on the chart will be used for resolution. Daily data will be considered finalized once the following day’s data point is published.\n\nResolution will occur once the specified data point is finalized. If the relevant data is not finalized by the end of the 7th calendar day after the specified date (ET), this market will resolve according to the latest data available at that time. Revisions made after the relevant figure has been finalized will not be considered.",
+      "topic": "Tech",
+      "end_date": "2026-12-01T04:59:00Z",
+      "url": "https://polymarket.com/event/gpu-rental-prices-h100-end-of-november",
+      "snapshot": {
+        "time": "2026-11-15T02:32:57Z",
+        "crowd": 0.44,
+        "best_bid": 0.43,
+        "best_ask": 0.45,
+        "volume": 10839,
+        "liquidity": 4053,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "Ornn Exchange data shows GPU rental prices climbing month-on-month across chip generations",
+          "source": "Crypto Briefing",
+          "published": "2026-11-12",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE8zWGR0Qmo1ZHpUdnpwaWpXdmpXZzh5YktGV1JBZ3BSVC05elQyamJfd3pWQ05PdlN5NDFBeUZKeE5Sc3c4ZUZiaUNZMlJIUUF3WVl0eDZUX3U1eGFRMjlkLUk3WkI4VFV2V0VMYTdTaElCOXBT?oc=5"
+        },
+        {
+          "title": "Nvidia GPU Rental Rates Rise, With H200 Up Nearly 49% in a Month",
+          "source": "TOKENPOST",
+          "published": "2026-11-13",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4wZ0h1X1gwd25RclZmV1FLdHlDTEVOUDl5ZlRUci1vNTJIRUNyalR6aXYxS192UW5wQURVZEZfYXlZOUI4Ql9BVXNJZGdHRkNneEFpZjdQWDl4TjQ?oc=5"
+        },
+        {
+          "title": "Nvidia's competitors pounce, and what GPU rental prices say about the AI race",
+          "source": "Yahoo Finance",
+          "published": "2026-11-13",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNYjV4RXlrMW1JMXFPUWhsbXJtT2F6dFYzeFpOVHdjNExTaFlXSFZSaGYzVGxXNnYtd2ZpN2VhV0VsUEVzVlhpUVpKRzBWWW5yS1NsZDhEZ2gzSEhNN0FoSDU5SktyMkR3X0N5WGlLUTJYYVVhaWJqNHRielpNMUtpbmxMUy1KZTBrRTNPU0d2anVraml5TmR0MW9mY0U5SjRWRjZ6dy1hQjNSelJoZDdFYlY5dnpJNGdCajFCUkYzMA?oc=5"
+        },
+        {
+          "title": "CME's Nvidia GPU rental futures delayed again as CFTC extends review to January",
+          "source": "Startup Fortune",
+          "published": "2026-11-10",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNakVUZHRfTDM0bkQ2ekszRUlHdHdJOXFrWjdCNVFvN0ZzdnNsTDNTMVZpS09aMC1Kemw3aDJ0R3d6MHVEaXlCeV9mTjlNdk56a1FRYnB4R2N6cmlZTWhpbndockNIenJ4QTZuSUNiMmlIRmVTYzFwS2o5ak5tLUx5bHExSmVfN3BJVm1yc1BsXzZYeWlnaXJVcHNSV1ZON1dZMkNZUnBkZVZsQQ?oc=5"
+        },
+        {
+          "title": "US Midterm Elections Spark \"Anti-Data Center\" Backlash as AI Trade's Lifeblood Hinges on GPU Rental Prices",
+          "source": "BigGo Finance",
+          "published": "2026-11-11",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE51amdSQzFEM0hlNEoyUHR0SHBOUDc4ekM4NVBYTDZJOUppeldRREJPN0pyZDBubjBFUGdkNEc4Z3NrRGpTVE1BYlRkVzh5UG4zVlRkVFBHQk5CTTdyYmRPMHotcnJ1NU1VUmh4WUFMR2g3eE8tSnc?oc=5"
+        },
+        {
+          "title": "CFTC extends review of Nvidia GPU rental futures by 60 days",
+          "source": "Cryptonews.net",
+          "published": "2026-11-11",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB4N0NSdGtwbWc5RVByN1B1dXZ1MjdsUV9SYnplTUdIYW8tZFBCMHF2dVNnM2hJc1lfOFBrdFdPTDRXeVZSd05RbC1lWjBlZkJ3WHdMQWUxNzE?oc=5"
+        }
+      ],
+      "news_query": "Ornn Index | GPU rental prices",
+      "forecast": {
+        "probability": 0.35,
+        "reasoning": "Ornn data shows GPU rental prices rising month on month, with H200 rates up sharply, which supports upward momentum. I don't know the current H100 index level, and $3.25 is likely above recent H100 levels. That keeps this below even odds."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-15T02:35:05Z",
+        "crowd": 0.44,
+        "best_bid": 0.43,
+        "best_ask": 0.45,
+        "volume": 10839,
+        "liquidity": 4053,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Gap vs. the price we'd pay is 8.0 points; counting only part of it (cautious sizing) leaves 3.5, under the 10-point minimum."
+    },
+    {
+      "market_id": "4852059",
+      "event_id": "1065589",
+      "event_title": "Lowest Mississippi level at Baton Rouge by November 30?",
+      "option": "6.00 ft or more",
+      "question": "Will the lowest Baton Rouge river level be 6.00 ft or more by November 30?",
+      "rules": "This market will resolve according to the lowest daily mean gage height (river level), in feet, recorded at the Mississippi River at Baton Rouge, LA streamgage (USGS site 07374000) between market creation and November 30, 2026, as published by the United States Geological Survey (USGS) for parameter code 00065 under statistic code 00003 (daily mean).\n\nThe lowest daily reading in the window decides this market; the level does not need to be sustained. If USGS does not publish a reading for one or more days, this market will resolve according to the lowest reading among the days that are published.\n\nUSGS reports gage height to 2 decimal places, and this is the precision used to resolve this market. Each range includes both of its stated bounds and consecutive ranges are contiguous, so every reading falls in exactly one range: a lowest reading of exactly 4.00 ft resolves the range beginning at 4.00 ft to \"Yes\" and every other range to \"No\".\n\nThe resolution source is the USGS Daily Values service for site 07374000, available here: https://waterservices.usgs.gov/nwis/dv/?sites=07374000&parameterCd=00065&statCd=00003&startDT=2026-09-21&endDT=2026-11-30&format=rdb\n\nThis market will resolve on the values published at the time of resolution, whether flagged provisional (\"P\") or approved (\"A\"); revisions published afterward will not be considered. If the source is unavailable, this market may be extended to December 15, 2026, 11:59 PM ET. If no data for the window is available by then, this market will resolve to \"Below 3.00 ft\".",
+      "topic": "Science",
+      "end_date": "2026-12-02T04:59:00Z",
+      "url": "https://polymarket.com/event/lowest-mississippi-level-at-baton-rouge-by-november-30",
+      "snapshot": {
+        "time": "2026-11-15T02:32:57Z",
+        "crowd": 0.834,
+        "best_bid": 0.824,
+        "best_ask": 0.844,
+        "volume": 35502,
+        "liquidity": 2373,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "A 566-foot concrete dam that keeps the Mississippi from changing course lost its 67-foot wing wall to a flood that dug up to 55 feet under it, was cut from a 35-foot drop to 22, and Army engineers have now pumped its bays dry to weigh the ground below for void",
+          "source": "Autonocion",
+          "published": "2026-11-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOM0EzSmdmZmpxZVZtRTUxeWt4N0tIUEhRRVFhSlZzdUV4OW00T3pnU1ZqNVRTMUVCV3BFczk2bllxZmFCSXB5dGxIanItdlpFNXFneTRSWXZXOEZfcGNqdTVlM3JUcGUwT3V2Q3N5dlRVRE5oQ0ZPcGdMa0ZGRkhmWkMyNjduREVDdW92enFyazgxcmZ1VERScDE0a3NMUFRQYjZwc3FTUEtmODZ6eV9wVg?oc=5"
+        }
+      ],
+      "news_query": "lowest Baton Rouge river level ft | Lowest Mississippi level Baton Rouge ft",
+      "forecast": {
+        "probability": 0.22,
+        "reasoning": "The window runs from September 21 through November 30, which covers the usual autumn low-water season at Baton Rouge. Recent falls have seen the stage drop to roughly 0–5 ft. A minimum staying at 6 ft or higher would require an unusually wet autumn, and I see no news suggesting one."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-15T02:35:05Z",
+        "crowd": 0.834,
+        "best_bid": 0.824,
+        "best_ask": 0.844,
+        "volume": 35502,
+        "liquidity": 2373,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Gap vs. the price we'd pay is 60.4 points, over the 35-point limit: disagreements this big have usually meant the AI missed something, so no bet."
+    },
+    {
+      "market_id": "4393683",
+      "event_id": "991304",
+      "event_title": "Reserve Bank of New Zealand decision in December?",
+      "option": "25 bps increase",
+      "question": "Reserve Bank of New Zealand increases interest rates by 25 bps at the December 2026 meeting?",
+      "rules": "This market will resolve according to the change in basis points in the official cash rate (OCR) resulting from the December 2026 meeting of the Reserve Bank of New Zealand, relative to the level it was prior to this meeting.\n\nThe resolution source will be official information from the Reserve Bank of New Zealand, including the statement or release from its December 2026 meeting, scheduled for December 9, 2026, as listed on the official RBNZ calendar (https://www.rbnz.govt.nz/news-and-events/events). This market may resolve as soon as the statement or release of the Reserve Bank of New Zealand resulting from its December 2026 meeting with relevant data is issued.\n\nIf the specified rate is defined by an upper and lower bound, the relevant change will be the change to the upper bound.\n\nIf the specified rate is changed to a level not expressed in the displayed options, the change will be rounded according to the following guidelines. Increases or decreases of less than 25 bps will be rounded to 25 bps (e.g. an increase or decrease of 10 bps would be considered to be an increase or decrease of 25 bps). Increases or decreases of greater than 25 bps will be rounded to the nearest 25 bps and will be rounded away from 0 in cases of equidistance (e.g., an increase or decrease of 37.5 bps would be considered to be an increase or decrease of 50 bps). Displayed options of “Increase” or “Decrease” will include policy rate increases or decreases of any size.\n\nIf the specified meeting is postponed to a date and time before the start of the next scheduled meeting, this market will resolve based on the outcome of that postponed meeting. If the specified meeting is cancelled, or postponed such that no decision is announced by the start of the next scheduled meeting, this market will resolve to the “No Change” bracket. Emergency changes to the specified rate not resulting from the specified meeting will not be considered.",
+      "topic": "Economy",
+      "end_date": "2026-12-09T00:00:00Z",
+      "url": "https://polymarket.com/event/reserve-bank-of-new-zealand-decision-in-december-20260908230600001",
+      "snapshot": {
+        "time": "2026-11-15T02:32:57Z",
+        "crowd": 0.85,
+        "best_bid": 0.84,
+        "best_ask": 0.86,
+        "volume": 33708,
+        "liquidity": 2870,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "New Zealand Dollar gathers strength above 0.5800, all eyes on US CPI inflation data",
+          "source": "FXStreet",
+          "published": "2026-11-09",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOQ2FGQ3lHSGhrbkw5QU1mQ0xNcDJUTUp4MEVxUTdmQmdQaEZJSkkwaGJpR1BvbnFvbDhDa09rT2NONU9kT1BRSjdPaGhDSkZpcjIya3JPQnAxekEyY192YUR1ZVljQWxKOEtrT0w3d05IM1NldnBYMTlyUXMzRTNqVHdEY3IyNlBmeUwwVmQ2bnV5RFhvRDR0akNOMURIU21IbUlMSmdWWnVLSEZVakdUUlp1LWIyTlBrdER2QWMzNjZjUQ?oc=5"
+        },
+        {
+          "title": "USD weakness lifts New Zealand Dollar, but domestic headwinds constrain gains",
+          "source": "www.tmgm.com",
+          "published": "2026-11-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNanJUUy12NzJ5cFd5OGhSWGNNSWl0TmpMTzJDZS1ZWEtXbnA1VDNJclpFOFFkV2V0Znd5R0ZMQ3NsemhUTE9oQzc1QkFHODNfa2plUEJFRE9jSWZRMUZpZVpRVzNZbHlJZFlwbnROX1psdGpZZThIOXZOdk1vYnBkVWxWSVRhNWpHRTFXVFNkMTN0OWo3eDRlTE9OcFI4bmczUTc4ODhzQkI4ejZtSi1DR21fV3VjQUFRN056MGdxSDBtX05IZUtQYkgwNGxGMVF1Y1ZqVC1OQmNpOGs?oc=5"
+        },
+        {
+          "title": "Why is the New Zealand Dollar gaining despite fading RBNZ rate hike expectations?",
+          "source": "FXStreet",
+          "published": "2026-11-11",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPYTNjQkFDYzZVNzRUMVFMbVpnaFVtMHR5WWo0bm9ZQ0tKaEJsRnk3T0pvQV8zNk5xZEZMTlE1M1lkYi1lRTJoUWcwUTR6T3VGUWJJOU9CZ0YzeHFOMUQ2THpyTF8yLV9rcng0QlpOYUNWNlNSbm9MRHBsckhLY0tvbS16eHZ5NUgwYjZMTUpMSEZxLTZYNzVCYzNGbG1RenNiLU9uUTNITDFOeXJ6X1RJQ0V3?oc=5"
+        },
+        {
+          "title": "4th ODI: India collapse for 89 as Matt Henry takes six wickets in New Zealand's 244-run victory",
+          "source": "Public TV English",
+          "published": "2026-11-13",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPeWdCSUFlWk1nNThvVnpJOWVBUEdSMGtCUU5SUGdjN3FkNUVkbG5RWVMtQm1iRWZ4QVlfeUlxUDBVSWVCd29XMnVleTU4bm9PNVlOWXhCUHBwWlFmSElEWEpWalBES1NtR1U3YmJ1R0tGcHczWGE2ZFBpMTR2R0xtSmxDUndlck93aTRfSFZ0NFZlMDl5QldYT3JlTkUtTnk2d3dkcUs2UkJ1SG1aYkRma1FzNmFhRmpmeEZiYkZ2WQ?oc=5"
+        },
+        {
+          "title": "The Federal Reserve isn't the only central bank to hike rates in 2026: What global tightening means for investors",
+          "source": "Chase Bank",
+          "published": "2026-11-04",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQalh0cEd5MHRBbnVnMm9NSURrbGZWVUJ5OGlTTjlTOHpBSW1zaFdyYjFKSXJ0T1E3WnMzUEJDMkxaWWp3bDIyRk5fcTZQaVBQY2RZNm9mV2xOdHo5RnBWMl9hZFJBZDA2Ni1tcUdHNUpQRmNjZUZBTko3djhENVZJXy1sd3dOZW8wUlVYOFJRREFEcHlndHlnc0lrOXBxQWl1M3NuR05tcy1kc19QLWw2YXJwNGJpR1NiQmJmaGwxUHlQTzFpWW5PUkNrbURvdlM1SW4tVmphTFZObURN?oc=5"
+        },
+        {
+          "title": "New Zealand jobless rate hits 11-year high in run-up to polls",
+          "source": "Reuters",
+          "published": "2026-11-03",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTUhRS0hzQ1ZIN1pHNFMyLXh5czFmME1GRzJLek4xWG1kWFFVR25LeXgzR09SeU84cWpuMDhlUzNaSGxQOGhOcjU4WjZlT3JrMlU1aV9VYXNwcjVqSWdfRk1rZkc0Qm1ZNDRLdGRZUzZfeERvLUEwc2xNMTlPUmFBMXVkQUlHeDNRczlFOFhkZDdJV3ZLTHZV?oc=5"
+        }
+      ],
+      "news_query": "Reserve Bank Zealand increases interest rates bps | Reserve Bank Zealand increases interest rates economists forecast",
+      "forecast": {
+        "probability": 0.15,
+        "reasoning": "Headlines describe fading expectations of an RBNZ hike, and unemployment just hit an 11-year high, which argues against tightening. A 25bp hike in December is possible if inflation surprises but looks unlikely."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-15T02:35:05Z",
+        "crowd": 0.85,
+        "best_bid": 0.84,
+        "best_ask": 0.86,
+        "volume": 33708,
+        "liquidity": 2863,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Gap vs. the price we'd pay is 69.0 points, over the 35-point limit: disagreements this big have usually meant the AI missed something, so no bet."
+    },
+    {
+      "market_id": "4852058",
+      "event_id": "1065589",
+      "event_title": "Lowest Mississippi level at Baton Rouge by November 30?",
+      "option": "5.00 to 5.99 ft",
+      "question": "Will the lowest Baton Rouge river level be 5.00 to 5.99 ft by November 30?",
+      "rules": "This market will resolve according to the lowest daily mean gage height (river level), in feet, recorded at the Mississippi River at Baton Rouge, LA streamgage (USGS site 07374000) between market creation and November 30, 2026, as published by the United States Geological Survey (USGS) for parameter code 00065 under statistic code 00003 (daily mean).\n\nThe lowest daily reading in the window decides this market; the level does not need to be sustained. If USGS does not publish a reading for one or more days, this market will resolve according to the lowest reading among the days that are published.\n\nUSGS reports gage height to 2 decimal places, and this is the precision used to resolve this market. Each range includes both of its stated bounds and consecutive ranges are contiguous, so every reading falls in exactly one range: a lowest reading of exactly 4.00 ft resolves the range beginning at 4.00 ft to \"Yes\" and every other range to \"No\".\n\nThe resolution source is the USGS Daily Values service for site 07374000, available here: https://waterservices.usgs.gov/nwis/dv/?sites=07374000&parameterCd=00065&statCd=00003&startDT=2026-09-21&endDT=2026-11-30&format=rdb\n\nThis market will resolve on the values published at the time of resolution, whether flagged provisional (\"P\") or approved (\"A\"); revisions published afterward will not be considered. If the source is unavailable, this market may be extended to December 15, 2026, 11:59 PM ET. If no data for the window is available by then, this market will resolve to \"Below 3.00 ft\".",
+      "topic": "Science",
+      "end_date": "2026-12-02T04:59:00Z",
+      "url": "https://polymarket.com/event/lowest-mississippi-level-at-baton-rouge-by-november-30",
+      "snapshot": {
+        "time": "2026-11-15T02:32:57Z",
+        "crowd": 0.15,
+        "best_bid": 0.13,
+        "best_ask": 0.17,
+        "volume": 21557,
+        "liquidity": 4434,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "A 566-foot concrete dam that keeps the Mississippi from changing course lost its 67-foot wing wall to a flood that dug up to 55 feet under it, was cut from a 35-foot drop to 22, and Army engineers have now pumped its bays dry to weigh the ground below for void",
+          "source": "Autonocion",
+          "published": "2026-11-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOM0EzSmdmZmpxZVZtRTUxeWt4N0tIUEhRRVFhSlZzdUV4OW00T3pnU1ZqNVRTMUVCV3BFczk2bllxZmFCSXB5dGxIanItdlpFNXFneTRSWXZXOEZfcGNqdTVlM3JUcGUwT3V2Q3N5dlRVRE5oQ0ZPcGdMa0ZGRkhmWkMyNjduREVDdW92enFyazgxcmZ1VERScDE0a3NMUFRQYjZwc3FTUEtmODZ6eV9wVg?oc=5"
+        }
+      ],
+      "news_query": "lowest Baton Rouge river level ft | Lowest Mississippi level Baton Rouge ft",
+      "forecast": {
+        "probability": 0.2,
+        "reasoning": "This is one of several brackets for the autumn low at Baton Rouge. Recent low-water seasons have often bottomed below 5 ft, but a minimum in the 5–6 ft range is plausible in a moderate year."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-15T02:35:05Z",
+        "crowd": 0.15,
+        "best_bid": 0.13,
+        "best_ask": 0.17,
+        "volume": 21557,
+        "liquidity": 4434,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Gap vs. the price we'd pay is 3.0 points; counting only part of it (cautious sizing) leaves 0.5, under the 10-point minimum."
+    },
+    {
+      "market_id": "4391803",
+      "event_id": "991270",
+      "event_title": "Brazil GDP Growth in Q3 2026 (QoQ)?",
+      "option": "0.0% to 0.2%",
+      "question": "Will Brazil's Q3 2026 GDP growth rate (QoQ) be between 0.0% and 0.2%?",
+      "rules": "This market will resolve according to Brazil’s gross domestic product growth rate compared to the prior quarter (GDP at market prices, %) in the 3rd quarter of 2026, as reported by the Instituto Brasileiro de Geografia e Estatística’s (IBGE) System of Quarterly National Accounts release for Q3 of 2026, scheduled for release on December 2, 2026.\n\nThe GDP release and relevant statistics will be made available here: https://www.ibge.gov.br/en/statistics/economic/national-accounts/17262-quarterly-national-accounts.html\n\nIf the specified release is not published, this market will resolve based on the first published figure for the specified quarter’s GDP growth rate compared to the prior quarter. If no data for the specified quarter is released by the date the next quarter's data is scheduled to be released, this market will resolve based on data from the last available quarter.\n\nNote: the resolution source for this market reports GDP growth rates compared to the prior quarter to only one decimal point (e.g. 0.8%). Thus, this is the level of precision that will be used when resolving the market.\n\nNote: data from the initial release of the referenced GDP report is what will be used to resolve this market. Data may be revised during the following quarter or as a part of the next estimate's publication, however any revisions to GDP report data made after the initial release will not be considered for this market's resolution. For the full release schedule, see: https://www.ibge.gov.br/en/calendar.html",
+      "topic": "Economy",
+      "end_date": "2026-12-02T00:00:00Z",
+      "url": "https://polymarket.com/event/brazil-gdp-growth-in-q3-2026-qoq",
+      "snapshot": {
+        "time": "2026-11-15T02:32:57Z",
+        "crowd": 0.109,
+        "best_bid": 0.091,
+        "best_ask": 0.127,
+        "volume": 18737,
+        "liquidity": 4105,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "Brazil election: Lula beats Bolsonaro in upset",
+          "source": "NHKニュース",
+          "published": "2026-11-04",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5pREVNeHZaQmJWbnVtZlVueHJkSXNoRENlTVMzcnJ5b2JON1hfLVR2NUFRMlZEN1gxeHZGM3R0SjB4VlA0SWtRbHRjcUhaMmNfZWppTndNdlItZGdadTlyMk1uRkZfZkVKU1FXUGZn?oc=5"
+        }
+      ],
+      "news_query": "Brazil GDP growth rate QoQ | Brazil GDP growth rate QoQ economists forecast | Brazil GDP Growth QoQ",
+      "forecast": {
+        "probability": 0.25,
+        "reasoning": "Brazil's economy has been slowing under very high interest rates, and recent quarters have printed near 0–0.4% quarter on quarter. Growth of 0.0–0.2% is a plausible central outcome but competes with slightly higher or negative prints."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-15T02:35:05Z",
+        "crowd": 0.109,
+        "best_bid": 0.091,
+        "best_ask": 0.127,
+        "volume": 18737,
+        "liquidity": 4105,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Gap vs. the price we'd pay is 12.3 points; counting only part of it (cautious sizing) leaves 5.2, under the 10-point minimum."
+    },
+    {
+      "market_id": "6657876",
+      "event_id": "1310284",
+      "event_title": "Canada GDP: September 2026 (MoM)",
+      "option": "-0.2 to -0.1%",
+      "question": "Will Canada's GDP growth rate MoM in September 2026 be between -0.2% and -0.1%?",
+      "rules": "This market will resolve according to Canada’s gross domestic product growth rate over the one-month period ending September 2026 (Real GDP monthly change, %), as reported by Statistics Canada’s (StatCan) “Gross domestic product by industry” release for September 2026, scheduled for release on November 30, 2026.\n\nThe GDP release and relevant statistics are expected to be made available here: https://www150.statcan.gc.ca/n1/dai-quo/ind1-eng.htm\n\nIf the specified release is not published, this market will resolve based on the first published figure for the specified month’s GDP growth rate compared to the prior month. If no data for the specified month is released by the date the next month's data is scheduled to be released, this market will resolve based on data from the last available month.\n\nNote: the resolution source for this market reports GDP growth rates compared to the prior month to only one decimal point (e.g. 0.8%). Thus, this is the level of precision that will be used when resolving the market.\n\nNote: data from the initial release of the referenced GDP report is what will be used to resolve this market. Data may be revised during the following month or as a part of the next estimate's publication, however any revisions to GDP report data made after the initial release will not be considered for this market's resolution. For the full release schedule, see: https://www150.statcan.gc.ca/n1/dai-quo/cal1-eng.htm?sk=3569.",
+      "topic": "Economy",
+      "end_date": "2026-11-30T12:30:00Z",
+      "url": "https://polymarket.com/event/canada-gdp-september-2026-mom",
+      "snapshot": {
+        "time": "2026-11-15T02:32:57Z",
+        "crowd": 0.52,
+        "best_bid": 0.51,
+        "best_ask": 0.53,
+        "volume": 12972,
+        "liquidity": 2236,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "Four grizzly bears linked by DNA to deadly attack on mother and daughter in Canada",
+          "source": "The Boston Globe",
+          "published": "2026-11-10",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQVzZ5N281RXJKRGRtbVNQSW1Id195NmN3TFZaRGJiSG5QaXlDd1RremNoTVotRW9HbkU2RDNKRUwxOUkzdUpKcVdlVktTQVZ1YkU3Q09SYThjUXZ2QWx0emU0WXdoRGRBOEhJcnVIc1E1dndqZ1BLbVg2T1oydW9BRTlLWS1YNXJrdWtMOFhUUHQwaWc?oc=5"
+        },
+        {
+          "title": "DNA links 4 grizzly bears to deadly attack on mother and daughter in Canada, officials say",
+          "source": "Fox News",
+          "published": "2026-11-11",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMEhYOGMwWGQ0ZVYzNHRnazNDbWVXSzdMeXY5azFnajFWLWYtVlBfYm9BS2Y3SzhfbFRBQUd5QXcxa1JFd0I5ejdEYlJ6NHdFUUo4Z2FaMGNRM3k3bjhxVFdSYW5JN0dhMkhWSDZQQlFEUnoxckVkcmpNTnBKRGFRQmxEQVYxWFBHV1k3TElhWGFOVTlKTkotdVlDSU1vMU8wbjNhMmJQMk5zdw?oc=5"
+        },
+        {
+          "title": "MOM plans to increase worker support ahead of job market shifts: Jasmin Lau",
+          "source": "Yahoo News Singapore",
+          "published": "2026-11-13",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE94X0ZUaVZNX2dqVUs1dTdRR1Nqa2FLdEN6dXZNVklzVUxJM042dHNUalFzSVBoVWxZZDEzek9zanM0UEdfRkU1NTlhdVM0Y1FBVUxGV1E2OUxtQ0lrWmFYNkoyT19xQ0NuVUVxN0N2TVNZd2VVNVZpeUJkcmQ5VTQ?oc=5"
+        },
+        {
+          "title": "Canada kills four grizzly bears linked to mother, daughter deaths",
+          "source": "Punch Newspapers",
+          "published": "2026-11-11",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOUEdQaFp4aW5JWkQxZjNoU2k5Rk1ZUEhmLXlOdENVNkQ2aHNCUEloSG1Ub1hycXJ4YjFUQWpQUl9vY0cwbU55ZUJ0UFFORzRta1k4M0I3cVQ3ei1rSzhCSE5SU0FneUNzbGMySG5xdTVIazU2TWZuMmpMM1B6SXdHRzNsZi1Xd1poMTZUU3d3?oc=5"
+        },
+        {
+          "title": "Our economic outlook for Canada",
+          "source": "Vanguard Corporate",
+          "published": "2026-11-10",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQT3N1NFkwY05oRExtMkxMSkV5UTZuSkpWX2Q0YmhUQXEwSnVHTTNrMnluYUE2S2xBRmNJSzdMR1pVWlBRTURSYVlJLTZGeGx4c184dUM1Vk9Mbjdqa1lCLU16b3RiSU16V1gxUi1KZ2JBVDVWT1YxY0RadGxYZUdDb2hkYzlCQnFud0d4S0tB?oc=5"
+        },
+        {
+          "title": "Germany's Industrial Production outpaces 0% forecast with 0.7% MoM growth in September",
+          "source": "www.tmgm.com",
+          "published": "2026-11-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNYTJzcENkMlRyejVmVXVCZTM0MU9oLUo3Y2NYVWF6ZmlWNGhISDI5UEgyeEkzVFB5WHhFaXZkSXpqTHRnRHRJSUxtbnAxNW8xb0c1ejhodHQ2aUk1VEQ0VWI3Rm1nX1BZWndQWFpEbzEwQVJ0UVVmZkxsS1NURGU1ZTRWbmlfRF9sSTVKdTZQOTZsX2dacW5COS0wV0Via2lfdlozN0lnUmVPMWUwd2dKSUtJbVZlMUVocnk0QzZTeG0wMktsMFJqT2Qza2g1cEVNekZuaXEyeWl1Y2c?oc=5"
+        }
+      ],
+      "news_query": "Canada GDP growth rate MoM | Canada GDP growth rate MoM September economists forecast",
+      "forecast": {
+        "probability": 0.17,
+        "reasoning": "Canada's monthly GDP changes usually fall between -0.3% and +0.3%. Any single 0.2-point bracket like -0.2 to -0.1 typically has about a 15–20% chance. I lack the StatCan flash estimate to narrow it further."
+      },
+      "bet": {
+        "side": "NO",
+        "price": 0.49,
+        "top_price": 0.49,
+        "shares": 89.71,
+        "stake": 43.96,
+        "fee": 1.12,
+        "cost": 45.08,
+        "gap_pts": 34.0,
+        "edge_pts": 16.5,
+        "sized_on": 0.345,
+        "kelly_full": 0.3065,
+        "fill": "order book",
+        "levels": 1,
+        "scaled": 0.9842
+      },
+      "trade_snapshot": {
+        "time": "2026-11-15T02:35:05Z",
+        "crowd": 0.52,
+        "best_bid": 0.51,
+        "best_ask": 0.53,
+        "volume": 12972,
+        "liquidity": 2236,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Bought NO (AI's gap 34.0 points; 16.5 after cautious sizing). Scaled to 98% to fit the daily budget of $45.09."
+    }
+  ],
+  "batch_id": "msgbatch_01XT2cetaxYAyp6aLgwRqMaF",
+  "forecast_at": "2026-11-15T02:35:04Z",
+  "usage": {
+    "input_tokens": 9599,
+    "output_tokens": 3250
+  },
+  "cost_usd": 0.0517,
+  "budget": 45.09,
+  "account": "phase-1.2"
+}
