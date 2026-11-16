@@ -1078,5 +1078,15 @@
     "outcome": 0,
     "resolved_at": "2026-11-16T01:51:58Z",
     "question": "Will Japan Q3 GDP growth (annualized) be between 0.0% and 0.8%?"
+  },
+  "6279780": {
+    "outcome": 0,
+    "resolved_at": "2026-11-16T07:01:14Z",
+    "question": "Trump declassifies new UFO files by November 15?"
+  },
+  "6919811": {
+    "outcome": 1,
+    "resolved_at": "2026-11-16T22:08:54Z",
+    "question": "Will \"How to Rob a Bank\" Opening Weekend Box Office be less than 7m?"
   }
 }
