@@ -1088,5 +1088,10 @@
     "outcome": 1,
     "resolved_at": "2026-11-16T22:08:54Z",
     "question": "Will \"How to Rob a Bank\" Opening Weekend Box Office be less than 7m?"
+  },
+  "6625225": {
+    "outcome": 0,
+    "resolved_at": "2026-11-17T19:53:37Z",
+    "question": "Will there be no GPT Astra 6.1+ release by November 30, 2026?"
   }
 }
