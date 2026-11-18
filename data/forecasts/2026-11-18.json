@@ -1,0 +1,512 @@
+{
+  "run_id": "2026-11-18",
+  "date": "2026-11-18",
+  "created_at": "2026-11-18T02:19:04Z",
+  "model": "claude-opus-5-5",
+  "effort": "high",
+  "phase": "1.3",
+  "pick_stats": {
+    "eligible": {
+      "Economy": 4,
+      "Entertainment": 2,
+      "Politics": 20,
+      "Tech": 1
+    },
+    "picked": 7
+  },
+  "track_record": "=== Your track record so far ===\nThese are your own earlier forecasts in this experiment that have settled (209 questions). They show only what you said and what happened (no market information).\n- On average you said 38%, and 43% of these events happened. Overall, your average is close to how often things happened.\n- Your average Brier score is 0.252 (0 is perfect; always saying 50% scores 0.250).\n- When you said...\n    under 10%: it happened 6 times out of 23.\n    10-30%: it happened 21 times out of 63.\n    30-70%: it happened 42 times out of 89.\n    70-90%: it happened 17 times out of 31.\n    over 90%: it happened 3 times out of 3.\n- Your biggest misses:\n    \"Will SpaceXAI officially rename itself to SpaceXSI by October 15?\" You said 3%; it happened.\n    \"Will the Tesla Roadster fly for 1s+?\" You said 4%; it happened.\n    \"Will Xiaomi have the best Chinese AI model at the end of October 2026?\" You said 6%; it happened.\n    \"Will monthly inflation increase by 0.6% in September?\" You said 7%; it happened.\n    \"Will there be between 0 and 5 average daily transits of the Strait of Hormuz on October 31?\" You said 7%; it happened.",
+  "questions": [
+    {
+      "market_id": "5727013",
+      "event_id": "1193553",
+      "event_title": "Bank of England decision in December?",
+      "option": "No change",
+      "question": "No change in Bank of England’s interest rates after December 2026 meeting?",
+      "rules": "This market will resolve according to the change in basis points in the Bank Rate resulting from the December 2026 meeting of the Bank of England’s Monetary Policy Committee, relative to the level it was prior to this meeting.\n\nThe resolution source will be official information from the Bank of England, including the statement or release from its December 2026 Monetary Policy Committee meeting, scheduled for December 17, 2026, as listed on the official Bank of England calendar (https://www.bankofengland.co.uk/monetary-policy/upcoming-mpc-dates). This market may resolve as soon as the statement or release of the Bank of England's December 2026 Monetary Policy Committee meeting with relevant data is issued.\n\nIf the specified rate is defined by an upper and lower bound, the relevant change will be the change to the upper bound.\n\nIf the specified rate is changed to a level not expressed in the displayed options, the change will be rounded according to the following guidelines. Increases or decreases of less than 25 bps will be rounded to 25 bps (e.g. an increase or decrease of 10 bps would be considered to be an increase or decrease of 25 bps). Increases or decreases of greater than 25 bps will be rounded to the nearest 25 bps and will be rounded away from 0 in cases of equidistance (e.g., an increase or decrease of 37.5 bps would be considered to be an increase or decrease of 50 bps). Displayed options of “Increase” or “Decrease” will include policy rate increases or decreases of any size.\n\nIf the specified meeting is postponed to a date and time before the start of the next scheduled meeting, this market will resolve based on the outcome of that postponed meeting. If the specified meeting is cancelled, or postponed such that no decision is announced by the start of the next scheduled meeting, this market will resolve to the “No Change” bracket. Emergency changes to the specified rate not resulting from the specified meeting will not be considered.",
+      "topic": "Economy",
+      "end_date": "2026-12-17T23:59:00Z",
+      "url": "https://polymarket.com/event/bank-of-england-decision-in-december-2026",
+      "snapshot": {
+        "time": "2026-11-18T02:19:00Z",
+        "crowd": 0.25,
+        "best_bid": 0.24,
+        "best_ask": 0.26,
+        "volume": 53446,
+        "liquidity": 5879,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "Bank of England raises rates for first time since 2023, warns more likely",
+          "source": "Reuters",
+          "published": "2026-11-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNcEhfdUpzSlRCb2JiYmFYMjdxaEZySFE1cEJFcVlEWG1qajB4V2VGTXNmcGhRNHdBSF9Wa3FKcFpwMUpVVEc5NnQtaEhnQy0xUHpBc1lpZWp3TlZoUEhMQ1NHcFplMndKcmJJNEJrYlg2VnhoZlVJSkxnUDZzRzh2N0FuSlRHcl9JQTZ0LUhVMmxOaS1NWV9uWE15X19TN3pDMHFUeWNIdkRVQlYtemNsTQ?oc=5"
+        },
+        {
+          "title": "No Surprise As Bank Of England Takes Action To Keep Rising Prices At Bay",
+          "source": "Forbes",
+          "published": "2026-11-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNYUxKZXVmNlBSemZaZXVTbnFOeUFaRmN4Ujh4aXJDNTVUV3lSQl8tUjBwbm1zU1g0NlFTWnoyRXctNTE2TzRKeXp3OTF5dTkwc2otdlBXcXdHYWoyS2ZOczBjMVpqQnFiRC1LNjBMcUtiYUVWeU5HQ3JodmtLWEE0c2lab1RPRGVsLURKSA?oc=5"
+        },
+        {
+          "title": "When will the next Bank of England base rate decision be announced?",
+          "source": "Yahoo Finance",
+          "published": "2026-11-09",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQRVVRbzItbGN1OGp5NVpuR2ZialdjUTFxMWU5bmZxZF9odHA4NTNmMnNsQnFfYXc2RHJ1NDAySHIxZG9ucV9pSXkwdFk0ekVNYlE1Wm1tWkFZYk9qVTZpcVBrczhWTklQU0JxZ1BpdG9HTTN5dFJNeTBFTVBoM2EtQXg4c0tXcDc0RkRRbDFoV216aG5iTTdLVEROYw?oc=5"
+        },
+        {
+          "title": "Bank of England Raises Interest Rates to 4% in First Hike Since 2023",
+          "source": "Morningstar",
+          "published": "2026-11-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQM004UTBkVExrNHE0TVBfMU12Qm9vaU9LZUpFNGdzWHF5Yzc2MFZtZjJ2V0RZcUdha0ZhS2tzMTdVWTcwMFlaV2tfUDVid2JUYzhvSzZ0ZkoxdGJMNWZQa2diWUFUOVRJd0huaXBkM2tXcmU0ZktpdDRDdmM2Tms1dFY5Ym5fRDdJeEJsMzZtRW9uX3JuR1R6XzlrNFNRQ2h1UmpmdmZR?oc=5"
+        },
+        {
+          "title": "Bank of England to wait until February to next raise rates, say economists: Reuters poll",
+          "source": "Reuters",
+          "published": "2026-11-13",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQaW5aY2t6NF94dUN1YWR2cURLb3d0bGhrRVhBVHZld2NMWEp1SEZPVDZqZEVabC1YYW15ZXR5WWhxS3hpUk81YVctdFctMjNPOW95UmhjVzNabElQSjZVWW5wM2ZNRGpjdmZfeUJ0d0VwT2d0aDNyODRKbVZ3V3RhVThKNmVfTDhHOVN3QjgwdERIUE5aUDJ3R0JWQUFvazRDOHNaRFowWUJTNklwWlE?oc=5"
+        },
+        {
+          "title": "Will the Bank of England raise UK interest rates again in 2026?",
+          "source": "Yahoo Finance",
+          "published": "2026-11-10",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPeHJBRTRzc2daaDRpZXF1UHplbllBazFacm5IS291Q3c4V1UzNWd6S2NheG1Dd2lMVThscTRnYld0eXItR0RWRE9xVEk2cjRpWUc0bTFPMHRGYjhlbVlHOXF4aTVqb2lzZmo1RU53bC1mck5XUy02OEMzb1VKWE0xdVdQN3d6QVBVREpzd3FRMzVMZ2d5TzJn?oc=5"
+        }
+      ],
+      "news_query": "change Bank England interest rates meeting | change Bank England interest rates December economists forecast",
+      "forecast": {
+        "probability": 0.8,
+        "reasoning": "The Bank of England raised Bank Rate to 4% on November 5, its first hike since 2023, and warned more increases were likely. A Reuters poll on November 13 found economists expect the next hike in February, not December. Central banks rarely move at back-to-back meetings early in a cycle without new forecasts, so a hold in December is the most likely outcome."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-18T02:21:06Z",
+        "crowd": 0.25,
+        "best_bid": 0.24,
+        "best_ask": 0.26,
+        "volume": 53446,
+        "liquidity": 5903,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Gap vs. the price we'd pay is 54.0 points, over the 35-point limit: disagreements this big have usually meant the AI missed something, so no bet."
+    },
+    {
+      "market_id": "5622715",
+      "event_id": "1178460",
+      "event_title": "Spain General Election: Turnout",
+      "option": "68-70%",
+      "question": "Will voter turnout be between 68% and 70% in the 2026 Spanish general election?",
+      "rules": "A general election is scheduled to be held in Spain on November 29, 2026.\n\nThis market will resolve according to the official voter turnout rate for the 2026 Spanish general election to the Congress of Deputies, defined as the total number of votes cast (votantes) divided by the total number of registered voters (electores). (see 2023 example: https://www.boe.es/boe/dias/2023/09/01/pdfs/BOE-A-2023-18907.pdf)\n\nIf the reported value falls exactly between two brackets, this market will resolve to the higher bracket.\n\nIf the results of this election are not definitively known by November 30, 2027, 11:59 PM ET, this market will resolve to the lowest bracket.\n\nThe primary resolution source for this market will be official election results reported by the Spanish government, including the Spanish Ministry of the Interior (https://infoelectoral.interior.gob.es/); however, a consensus of credible reporting may also be used if official results are not available.",
+      "topic": "Politics",
+      "end_date": "2026-11-30T04:59:00Z",
+      "url": "https://polymarket.com/event/spain-general-election-turnout",
+      "snapshot": {
+        "time": "2026-11-18T02:19:00Z",
+        "crowd": 0.33,
+        "best_bid": 0.32,
+        "best_ask": 0.34,
+        "volume": 10755,
+        "liquidity": 47916,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "Spain's right well ahead in polls for November 29 election",
+          "source": "Reuters",
+          "published": "2026-11-09",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNWExNMHQzTjJNZWN1dmtSYjlkTDl0dUNJdWlwbmhQQkFNX3BKRTdtWEMwWmdJcVQyN0tYZ0Fpb05lWHRnS3NLOGpnSkZVSmRtRUNWbXM3ME9BRmFCWUVhM2hjUHRGc1gxa1lpZ19vaFBiN2doQ1BQUk1TU2JNOGFIRVRQUjhFN2lSeElPaGVSREliV0tST09j?oc=5"
+        },
+        {
+          "title": "Parliamentary 2026 Spain",
+          "source": "Fondation Robert Schuman",
+          "published": "2026-11-10",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPbU0wQ3BiZk1lV09TSzZiSTdBa1N0eEgwY1lNZmVQaUl3cTdyaDc4bERLY1UyQW9FVnltS0M4OThyUHYyRWg0a3ZJR1lMNVE4dy1DbExWSVg4TGIxSFVqR3JhMk5ZT3RERDc4aFRBZDN4ZG5YZW0wejkxMDYzb3hkLVl1UVAyRTY4bk1UWFozS0hheWM4U2lsUnV6d1BFaG5EVVZlRGMyLWhtWHlJLXhJM2NhV3BiZjQ?oc=5"
+        },
+        {
+          "title": "NEWS RELEASE: Multnomah County voter turnout surges on Election Day, casting ballots in first-ever ranked choice contests",
+          "source": "Multnomah County",
+          "published": "2026-11-04",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTjQ0dDVXbkViVWVNX2VWUG5EOGNzbEUzcXBtczUzbVEwWkVNRDdyRTZnZlRjSFRWVXpxTHFjeGtZdkI1cnpydkd6Vk96TENneF9fU2g4aTlkNHE4THg0SndOcVVoa0dscU9CLVpuSXYwbzZxb2N2UHdtX2hPemY5ZjNkcnVtTUVqbjc2WGd2cFhWenZQaFF5dDlVUEwtTEdzQWtzUXAtR1QzQkR2QnF5a3B4SQ?oc=5"
+        },
+        {
+          "title": "Spain's workers hold a general strike over housing costs before national election",
+          "source": "NPR",
+          "published": "2026-11-11",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB1Z21wV2xfeFlXQ2Q1VGNxY3ptanpySmdSdVFxMDJLR2ZkSlJlWXlXVVBfRWVYQkN2YlhYQWh5c0VPeXMyMV9FVFJURjBTMkQ3c0ZTUlAxeVowaTJTWkpGLVBqU0g5MEpTMmltbHVjeHVKTjQ?oc=5"
+        },
+        {
+          "title": "General strikes to paralyze Spain as protestors clash with police ahead of election campaign",
+          "source": "CNBC",
+          "published": "2026-11-11",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxON3RvSUxLc1FkLUZhT3lnaWp4OWxGY2xmd3llRDVYV0xUZVZkRGNpTVBIWGU5TjFrTkM4WldMR0o3dVdpRHhUNmZ1VzNNbTI1SDlJSUxCeW5ITjV0dGdpbi1QM1pEc2ZaOEpPTXRzUTNCNVpWc2d2ZkliWXAzYkVieHF30gGHAUFVX3lxTFAtRDFnX181eG45WHgwNnBFOUl5OXdDUDk2MklvMlhOckVoX3BYWTFma3duRjlDNHlzeDBuMUItSTNvcENISTlYR3BJR2MxUFlqWDZUR2hadlNzNkQ2SC1Oc0tJY1Q0N0hVS3NiUjVTdEJ0ZDBnS3BSTkJjUGpKY1pjTUF2Q0hLUQ?oc=5"
+        },
+        {
+          "title": "Spain's November snap election — what you need to know",
+          "source": "Reuters",
+          "published": "2026-11-11",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQQkxFcVJoYUdNZVFwQUNuNjI4b25Hc1FuOEN3bUNUTlhjU20tZDNWU2xRVzNBNlE5ejNRNjNzRkdHZ29Wa3ZMd2pnMXdWLXlrN09ESnhrUlhkS0g1OVU5dzFPRXozOEkzQ251U1IwY0tBU2JxTzVGdFE3VmNEeXJvc1ZnRXhxb1FKQmlqUHo5Z3lDQjJ5MDhVUU5R?oc=5"
+        }
+      ],
+      "news_query": "voter turnout Spanish general election",
+      "forecast": {
+        "probability": 0.25,
+        "reasoning": "Official Spanish turnout counts overseas voters, who rarely vote, which pulls the figure down. Recent official numbers were 66.2% in November 2019, 66.6% in July 2023 and 71.8% in April 2019. A polarized snap election held amid general strikes could raise turnout somewhat, but a 2-point bracket centered near 69% gets only a modest share of the likely range."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-18T02:21:06Z",
+        "crowd": 0.33,
+        "best_bid": 0.32,
+        "best_ask": 0.34,
+        "volume": 10755,
+        "liquidity": 47843,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Gap vs. the price we'd pay is 7.0 points; counting only part of it (cautious sizing) leaves 3.0, under the 10-point minimum."
+    },
+    {
+      "market_id": "3581573",
+      "event_id": "848418",
+      "event_title": "Hsinchu County Magistrate Election Winner",
+      "option": "Cheng Chao-fang",
+      "question": "Will Cheng Chao-fang win the next Hsinchu County Magistrate election?",
+      "rules": "Taiwanese local elections are scheduled to be held on November 28, 2026.\n\nThis market will resolve according to the candidate who becomes the next Magistrate of Hsinchu County as a result of this election.\n\nTemporary, interim, or placeholder Magistrates appointed before the election will not be considered.\n\nIf the result of this election isn't known, or no candidate has been elected, by June 30, 2027, 11:59 PM ET, the market will resolve to \"Other\".\n\nThis market will resolve based on the results of the elections as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the Taiwanese government, specifically the Central Election Commission (https://db.cec.gov.tw/).",
+      "topic": "Politics",
+      "end_date": "2026-11-29T04:59:00Z",
+      "url": "https://polymarket.com/event/hsinchu-county-magistrate-election-winner-20260813135716300",
+      "snapshot": {
+        "time": "2026-11-18T02:19:00Z",
+        "crowd": 0.665,
+        "best_bid": 0.66,
+        "best_ask": 0.67,
+        "volume": 26570,
+        "liquidity": 25988,
+        "fee_rate": 0.04
+      },
+      "news": [],
+      "news_query": "Cheng Chao-fang win Hsinchu County Magistrate election | Hsinchu County Magistrate Election Winner Cheng Chao-fang",
+      "forecast": {
+        "probability": 0.55,
+        "reasoning": "Hsinchu County strongly favors the KMT, and Cheng Chao-fang, the Zhubei mayor, was a leading KMT contender. I am unsure whether he holds the KMT nomination or faces a split from another blue-camp candidate. With no news found, I lean slightly toward him winning."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-18T02:21:07Z",
+        "crowd": 0.665,
+        "best_bid": 0.66,
+        "best_ask": 0.67,
+        "volume": 26570,
+        "liquidity": 25965,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Gap vs. the price we'd pay is 11.0 points; counting only part of it (cautious sizing) leaves 5.2, under the 10-point minimum."
+    },
+    {
+      "market_id": "6029656",
+      "event_id": "1232355",
+      "event_title": "Spain General Election: Cáceres Winner",
+      "option": "PSOE",
+      "question": "Will PSOE win the most seats in Cáceres in the 2026 Spanish general election?",
+      "rules": "Legislative elections to elect the 350 members of the Congress of Deputies of Spain are scheduled to take place on November 29, 2026.\n\nThis market will resolve according to the political party that wins the greatest number of seats in the Congress of Deputies of Spain in the constituency of Cáceres as a result of this election.\n\nIf the results of the specified election are not definitively known by November 30, 2027, 11:59 PM ET, this market will resolve to \"Other\".\n\nParties will be ranked by the number of seats won by their electoral lists (candidaturas) in the constituency of Cáceres, attributed as set out below. If two or more parties are tied on seats, ties will be broken by the total number of valid votes received by their lists in the constituency of Cáceres, with higher vote totals ranking higher. If parties remain tied, ties will be broken by alphabetical order of the listed party names. This market will resolve to the party that occupies the highest finishing position after applying this ranking.\n\nSeats and votes will be attributed according to the electoral list on which they were obtained, as reported in the official results, regardless of the party membership of individual candidates. Lists will be attributed as follows:\n\nPSOE: lists of the Spanish Socialist Workers' Party, including the Partit dels Socialistes de Catalunya (PSC) lists in Catalonia.\n\nPP: lists of the People's Party, including the joint UPN–PP list in Navarre.\n\nBroad Front (FA): all Broad Front lists, including Catalunya en Comú in Catalonia, Compromís–Valencian Front in the Valencian Community, and Canarian People’s Unity (UPC) in the Canary Islands.\n\nERC: Republican Left of Catalonia lists, including the joint ERC–Podem lists in Catalonia.\n\nPodemos: only lists presented by Podemos on its own.\n\nCCa: Canarian Coalition lists, including the joint CCa–1º CAN lists in the Canary Islands.\n\nAny other list will be attributed to the party or coalition that presents it, as named in the official proclamation of candidacies.\n\nElectoral cooperation, endorsements, coalition agreements, or subsequent changes in party affiliation or parliamentary-group membership will not be considered.\n\nThis market will resolve based on the results of the elections, as indicated by a consensus of credible reporting. In the case of ambiguity, this market will resolve solely based on the results as reported by the Spanish Ministry of the Interior (https://infoelectoral.interior.gob.es/).",
+      "topic": "Politics",
+      "end_date": "2026-11-30T04:59:00Z",
+      "url": "https://polymarket.com/event/spain-general-election-caceres-winner",
+      "snapshot": {
+        "time": "2026-11-18T02:19:00Z",
+        "crowd": 0.29,
+        "best_bid": 0.28,
+        "best_ask": 0.3,
+        "volume": 10296,
+        "liquidity": 50026,
+        "fee_rate": 0.04
+      },
+      "news": [],
+      "news_query": "PSOE win seats Cáceres Spanish general election | Spain General Election Cáceres Winner PSOE",
+      "forecast": {
+        "probability": 0.1,
+        "reasoning": "Cáceres elects 4 deputies and usually splits 2-2 between the PP and PSOE, so ties are broken by votes. The PP narrowly led in 2023, and the PSOE has since collapsed in the December 2025 Extremadura regional election. With national polls showing the right well ahead, the PP is very likely to rank first."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-18T02:21:07Z",
+        "crowd": 0.29,
+        "best_bid": 0.28,
+        "best_ask": 0.3,
+        "volume": 10296,
+        "liquidity": 50058,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Gap vs. the price we'd pay is 18.0 points; counting only part of it (cautious sizing) leaves 8.5, under the 10-point minimum."
+    },
+    {
+      "market_id": "7023983",
+      "event_id": "1382473",
+      "event_title": "What technical failure caused the FAA's nationwide ground stop?",
+      "option": "Software or configuration error",
+      "question": "Will it be confirmed that a software or configuration error caused the FAA's nationwide ground stop on November 13?",
+      "rules": "This market will resolve according to the cause or causes to which the U.S. government officially attributes the FAA's nationwide ground stop on November 13, 2026, between market creation and November 30, 2026, 11:59 PM ET.\n\nEach market will resolve to \"Yes\" if the U.S. government officially attributes the ground stop to the listed cause within this timeframe. Otherwise, this market will resolve to \"No\". More than one market may resolve to \"Yes\".\n\nThe ground stop refers to the nationwide departure ground stop the Federal Aviation Administration (FAA) issued on November 13, 2026. A cause qualifies if it is attributed as a cause of the ground stop or of the radio, radar, communications, or other system outage behind it.\n\nThe listed causes are defined as follows:\nEquipment or system failure: a malfunction of hardware, software, power, or telecommunications equipment used by the FAA or its contractors, including one set off by maintenance work or accidental damage. A cyberattack, jamming, or sabotage is not a failure.\nMaintenance or upgrade work: planned maintenance, an upgrade, a configuration change, or a cutover on an FAA or contractor system.\nCable cut or physical damage: accidental damage to a cable, line, antenna, or other physical equipment, including by construction work or weather.\nSoftware or configuration error: a fault in software, or a wrong setting or configuration, in an FAA or contractor system, including one introduced by an update or upgrade.\nTelecom carrier or contractor fault: the failure, damage, error, or work behind the outage was in equipment, a network, or a system run by a company other than the FAA, such as a telecommunications carrier or an FAA contractor.\nSMART AI system: a malfunction or error in, or the deployment or rollout of, the FAA's SMART air traffic management system, including its interaction with other FAA systems.\nEMP: an electromagnetic pulse (EMP), including one produced by a nuclear or non-nuclear weapon or device, that disrupted or damaged electrical or electronic equipment used by the FAA or its contractors. Solar storms and other natural geomagnetic disturbances will not count.\n\nA qualifying attribution is a public statement by an authorized representative of the U.S. federal government acting in an official capacity stating that the listed cause caused the ground stop or the outage behind it. Criminal charges filed by U.S. federal prosecutors alleging that the outage was caused by a cyberattack, jamming, or sabotage will also qualify for the relevant market.\n\nStatements describing a cause as suspected, likely, probable, under investigation, or not ruled out, or stating only that the outage bears the hallmarks of or is consistent with a cause, will not qualify. A statement that the ground stop followed a communication, radio, or radar outage or issue, without saying what caused that outage, will not qualify. A cause of a different outage or ground stop will not qualify. Statements by anonymous or unnamed officials or by governments of other countries will not qualify on their own.\n\nOnce a qualifying attribution is made, the relevant market will resolve to \"Yes\" regardless of any later retraction or the outcome of legal proceedings.\n\nThe primary resolution source for this market will be official statements and publications from the U.S. government; however, a consensus of credible reporting may also be used.",
+      "topic": "Tech",
+      "end_date": "2026-12-01T04:59:00Z",
+      "url": "https://polymarket.com/event/what-technical-failure-caused-the-faas-nationwide-ground-stop",
+      "snapshot": {
+        "time": "2026-11-18T02:19:00Z",
+        "crowd": 0.65,
+        "best_bid": 0.64,
+        "best_ask": 0.66,
+        "volume": 10323,
+        "liquidity": 2224,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "What caused the FAA's nationwide ground stop?",
+          "source": "Coinbase",
+          "published": "2026-11-14",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE8wQzZoT044b2dIYUpyazhNME5rU2RvYVNSbXg0aHpEeC1RYUdMNGRjZ0p3MTdHRk1qRkt2a095SUh3aVNlblh2SnA3SHpfc1IyWTVGanc3MTVMU3hhYU10aHh4VFphVENlWWV0Qjdja3pxU3JpeERV?oc=5"
+        },
+        {
+          "title": "Microsoft, FAA, Chase: 3 Outages, 0 Confirmed Links",
+          "source": "shattered.io",
+          "published": "2026-11-15",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPVDlvb3NBdzVLSDN4VlVpMmlqMDFTdll4NHVXcVA1dV9YS21telpGVEdwS3h2dWlDWGI4dl9uUXBIc002Q2cxeW96YXhqUGdFakhHTjE0RUV6UG9ramM1NGdDU09KUm54MlVqUXRmYmZnR0llYXVna3A5MTBWQUpKa0N3?oc=5"
+        },
+        {
+          "title": "FAA Grounds US Flights Nationwide, Citing ‘Extraordinary’ Safety Concerns",
+          "source": "TechRepublic",
+          "published": "2026-11-13",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOQ1dYUjFvMzkzMEJfOG0tcXBnRGFnZ0xVaE53VlV6aDFfR2dqZllmMTZSTUdaTUpGRlNFUXVqYkhfb08tTGJFaUtWOEd6XzdCQXJES2p0WWE3Z0t5VFlSb1VlWUZkdW4xdWx4Z3cydDFXb0xhakthTnIzRTZSbW9VOWhRTURPZUlyWDB3V1lOYVlYdw?oc=5"
+        },
+        {
+          "title": "How “Software Updates” Caused a Week of Preventable Tech Outages",
+          "source": "Emerald Book",
+          "published": "2026-11-18",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB5NzRHSkFXYzZEQ2Fqd3FMa0RZVXRSUDdvTnRNc3gyWnNXQlBZbDZKcnI3WFVZa1QxWlUtVHFOUHdzS1h1UTFYSEsxSVRTTWZoS2c?oc=5"
+        },
+        {
+          "title": "FAA Ground Stop: 0 Proof of AI Link to SMART",
+          "source": "shattered.io",
+          "published": "2026-11-13",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPT0NtLWVCS0FRUWNLdW1hYXA1ckoxdWlyN3poMlJINEdsRkhzZWYtZUI3VU9HSGVfTkRLd2Y2VWxydnBuZjRtZzJfalBscGpOT2RYVEU5Tnk2dS1Nbzg1bndZbjV5OENibEVqSDBLV0s3N1lGY2dIVldLR0ZSVTlZMkVKWHJyTkE?oc=5"
+        }
+      ],
+      "news_query": "it confirmed software configuration error caused FAA",
+      "forecast": {
+        "probability": 0.3,
+        "reasoning": "The FAA sometimes names a cause quickly; in January 2023 it blamed a damaged database file for the NOTAM outage within days. Here, coverage so far shows speculation but no confirmed cause, and the rules exclude hedged words like 'likely'. An explicit official software or configuration attribution by November 30 is possible but less likely than not."
+      },
+      "bet": {
+        "side": "NO",
+        "price": 0.3661,
+        "top_price": 0.36,
+        "shares": 89.39,
+        "stake": 32.73,
+        "fee": 0.83,
+        "cost": 33.56,
+        "gap_pts": 34.0,
+        "edge_pts": 16.5,
+        "sized_on": 0.475,
+        "kelly_full": 0.247,
+        "fill": "order book",
+        "levels": 3,
+        "scaled": 0.7777
+      },
+      "trade_snapshot": {
+        "time": "2026-11-18T02:21:07Z",
+        "crowd": 0.65,
+        "best_bid": 0.64,
+        "best_ask": 0.66,
+        "volume": 10323,
+        "liquidity": 2224,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Bought NO (AI's gap 34.0 points; 16.5 after cautious sizing). Scaled to 78% to fit the daily budget of $36.52."
+    },
+    {
+      "market_id": "6594188",
+      "event_id": "1302855",
+      "event_title": "3rd Largest Company end of November 2026?",
+      "option": "Microsoft",
+      "question": "Will Microsoft be the third-largest company in the world by market cap on November 30, 2026?",
+      "rules": "This market will resolve to the third-largest company in the world by market cap on November 30, 2026, as of market close.\n\nThe resolution source for this market will be a consensus of credible reporting.",
+      "topic": "Economy",
+      "end_date": "2026-12-01T04:59:00Z",
+      "url": "https://polymarket.com/event/3rd-largest-company-end-of-november-2026",
+      "snapshot": {
+        "time": "2026-11-18T02:19:00Z",
+        "crowd": 0.59,
+        "best_bid": 0.57,
+        "best_ask": 0.61,
+        "volume": 15002,
+        "liquidity": 2698,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "Microsoft tops Nvidia's market cap for first time since June 2025",
+          "source": "Reuters",
+          "published": "2026-11-10",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNGpwLVRZNGJRQ3diMmx2QnhNaERXa3RCdzR1MThDdk04TGprcXF5Z3djdXFrUnlPN25udC1qNU5BNVRhN2ZnWWd1dk5sR0lUN0FhdDR5dWFIeWZqQ2UwMGFFdmpvbkxFazJfNy1HTjR4aHZJN3ZRTnFmMFhvcm43YjRhYXB0a29LbllQYUFxNkY5WUZ1MlJ4U0tELVNTa3c3Vkl1YlJyOA?oc=5"
+        },
+        {
+          "title": "Microsoft Corporation (MSFT) Surged 38% as Azure Accelerated, but One Investor Remains Skeptical: Here’s Why",
+          "source": "Yahoo Finance",
+          "published": "2026-11-10",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVUUtLU8zLUxkd3AtdURVaDZLYWJwSHN0bnZwU1pZclp5dXpGQWJqZ0U5cnNtdzVad3l3RGwyejYwYVRxLU5MemF1ZjJIOHdlMnh5NUY2c0k2RUFDMzRQZU1Dbng4OUJ6VWd2bTlnZXhNaThrYWY3NnNzZWlGRkpGdTFQa0hPbVZPelc2SnZ4YWs3M3gtZy1Na3JpMGkxc1ZOX1g0?oc=5"
+        },
+        {
+          "title": "NVIDIA continued its sharp decline, with its market capitalization shrinking by $430 billion over two days, while Microsoft briefly reclaimed its position as the world's second-most valuable company.",
+          "source": "富途资讯",
+          "published": "2026-11-10",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOY2MyRkZmWWhTTE1jaDJ6RFFwV1JCdmVqaHNpQXJsYjZNeUhoUGZxbldkb3V2Z0FiZjEzZFhpZ2ItcjhNdmRHUkhMMDFfcU1RSnh1ZEVwRWI2NlRoRGpUQUZMMk9kUlEzWEg1M1VrVUxPSTRrM0hTX0dpZDMzNlVNN0VMWmtvWW15blUwa3V2TnpCWXR1VWV5U0ItOTVuYWVLNERQdVY2bi1vUHVFUE15aXlYRjZQX21YNGc?oc=5"
+        },
+        {
+          "title": "Microsoft 3-Month-Old Patch Caused Widespread System Crashes in 74 Countries and Regions",
+          "source": "eu.36kr.com",
+          "published": "2026-11-17",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5QMDl4UnoxU3U2amVpYXZXMEEyS3pQdTVhQkQtdUNkay1saGlvZUt5NEpOSV9HMFpoY1J2SXAyX21ydGR5NHIwRG9ldVk3TEVZR0NZ?oc=5"
+        }
+      ],
+      "news_query": "Microsoft third-largest company world market cap | Microsoft third-largest company world market cap economists forecast",
+      "forecast": {
+        "probability": 0.35,
+        "reasoning": "Microsoft overtook Nvidia on November 10 and briefly became the second most valuable company. The top spots among Nvidia, Apple, Alphabet and Microsoft are close and shifting. A patch-related crash story adds risk for Microsoft, so landing exactly third on November 30 is plausible but uncertain."
+      },
+      "bet": {
+        "side": "NO",
+        "price": 0.43,
+        "top_price": 0.43,
+        "shares": 6.74,
+        "stake": 2.9,
+        "fee": 0.07,
+        "cost": 2.96,
+        "gap_pts": 22.0,
+        "edge_pts": 10.0,
+        "sized_on": 0.47,
+        "kelly_full": 0.161,
+        "fill": "order book",
+        "levels": 1,
+        "scaled": 0.7777
+      },
+      "trade_snapshot": {
+        "time": "2026-11-18T02:21:07Z",
+        "crowd": 0.59,
+        "best_bid": 0.57,
+        "best_ask": 0.61,
+        "volume": 15002,
+        "liquidity": 2698,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Bought NO (AI's gap 22.0 points; 10.0 after cautious sizing). Scaled to 78% to fit the daily budget of $36.52."
+    },
+    {
+      "market_id": "4911210",
+      "event_id": "1075157",
+      "event_title": "Swiss National Bank decision in December?",
+      "option": "No Change",
+      "question": "Will the Swiss National Bank make no change to the SNB policy rate at the December meeting?",
+      "rules": "This market will resolve according to the change in basis points in the SNB policy rate resulting from the December 2026 meeting of the Swiss National Bank, relative to the level it was prior to this meeting.\n\nThe resolution source will be official information from the Swiss National Bank, including the statement or release from its December 2026 monetary policy assessment, scheduled for December 10, 2026, as listed on the official Swiss National Bank calendar (https://www.snb.ch/en/services-events/digital-services/event-schedule). This market may resolve as soon as the statement or release of the Swiss National Bank resulting from its December 2026 meeting with relevant data is issued.\n\nIf the specified rate is defined by an upper and lower bound, the relevant change will be the change to the upper bound.\n\nIf the specified rate is changed to a level not expressed in the displayed options, the change will be rounded according to the following guidelines. Increases or decreases of less than 25 bps will be rounded to 25 bps (e.g. an increase or decrease of 10 bps would be considered to be an increase or decrease of 25 bps). Increases or decreases of greater than 25 bps will be rounded to the nearest 25 bps and will be rounded away from 0 in cases of equidistance (e.g., an increase or decrease of 37.5 bps would be considered to be an increase or decrease of 50 bps). Displayed options of “Increase” or “Decrease” will include policy rate increases or decreases of any size.\n\nIf the specified meeting is postponed to a date and time before the start of the next scheduled meeting, this market will resolve based on the outcome of that postponed meeting. If the specified meeting is cancelled, or postponed such that no decision is announced by the start of the next scheduled meeting, this market will resolve to the “No Change” bracket. Emergency changes to the specified rate not resulting from the specified meeting will not be considered.",
+      "topic": "Economy",
+      "end_date": "2026-12-10T00:00:00Z",
+      "url": "https://polymarket.com/event/swiss-national-bank-decision-in-december-2026",
+      "snapshot": {
+        "time": "2026-11-18T02:19:00Z",
+        "crowd": 0.8435,
+        "best_bid": 0.827,
+        "best_ask": 0.86,
+        "volume": 23570,
+        "liquidity": 3613,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "Swiss National Bank chairman says bank's policy has been effective",
+          "source": "Reuters",
+          "published": "2026-11-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNTzhHVWlQdlowZFpWMkpMN0NYUlhnc1Jpb0c3aDZQSUg3ajlBMXBEdjlTdm5qdDA2cEJFc3dUc3dZNVpjM1o4bVJZQUFSRUxnLWh3bGlOVXZsa0xRaFVEWE9JTjlraWVfbUNXNE9qZDBFdmctekl3aWUwSmQxV1ZESkdhZVpHTkhVUmVlSjh0UFBxaDJ4VDBfRlNCUEttS1I2dFJCRFNudS1UZG1hOXVvNzhxZTF4cW5qVVE?oc=5"
+        },
+        {
+          "title": "Why is the Swiss Franc the weakest major currency this week?",
+          "source": "FXStreet",
+          "published": "2026-11-13",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUDd5R2d3Unk2SDVwVG50Qm5TM1JCX25UQ1hFVUVjZmNJTEI0NUpYMC1xa3FXNTY2M1hhTTMyRUlJMFVHU0RhMjVQb0JKcmljZHZNN1owdVczT1M2WUVDWkdGeW1vRWZyb0RseUlqaUxiOTBNU1pPSExBY2wyT0NrSU5NelREME5SRG5wM0p4LUpmd08wbS1ndW83enRFZ3hUeG5WdGFSUDEweExiTEtNUQ?oc=5"
+        },
+        {
+          "title": "Swiss Franc weakens across the board under pressure from low interest rates",
+          "source": "www.tmgm.com",
+          "published": "2026-11-13",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPX0tYWldyTnVJbXR3VDFKc3pvdkFicl94R3h6NGZRbDJERlBJdlpiVzdQTjZ1QWY3MGxsaEZDeWU3VWlaTEFDaWlKRGVVSkVQNFBrZjExWG51c09Hd2JhQl9vVzM4Y3loSEloY1ZnMm1lNzNPYnZualNXOTFtLU9BY05RVU03UXhUU1IwendGZzd2WHBhdGU5YS1mUTFlb2FGTzNqN1Eyb0VadnRCYVVUVEtxZFZpYk10elV0dDdPTGs2Qi1jYm1XRUFycVNnSWJkTUc4?oc=5"
+        },
+        {
+          "title": "SNB’s Schlegel: Our principal tool remains the policy rate",
+          "source": "www.tmgm.com",
+          "published": "2026-11-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOb2xNZHVha3EyQklOSm9IRU92cE9ZMDhFdVhVbUZrQklBQktEemh4WEFaT0tQLWx2RmVuQXZQSTZvR0F5a095RURILS1OYVZoaC1OUThjejBna2dSRllTamxEUmRPenFFTmo3N2hvaGppSmxGb1JqdVExX0VZWGdsaUNSdDlnTHFMZHlDbkJ3NTY2dEZjQ3E2QzQ1LUV2N2pwbThpVDBaMDBpQ1R6Tzd3TlpMZXc4alE?oc=5"
+        },
+        {
+          "title": "Swiss National Bank Policy Deemed Effective Amid Global Crises",
+          "source": "Global Banking & Finance Review",
+          "published": "2026-11-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPQW9abU1UX0t2ZERZQzQ2S3VweHpHVUdGYUgwbjlWSXdGWjVvYnRjQkRyRFlWdE5MYjBKRVlBU0JFaDRCQl8xVkhaS0plVmpEcUVDZkM4djFhZHpRNUZSS0xNdS0yX21FOUxBYkdiZTd2cjVCY2JHdk9IUlM0S0JMbDZfOTBUQzFWZzFaT3p3RFRyZkh6X0Rn?oc=5"
+        },
+        {
+          "title": "SNB sees no signs of a credit crunch",
+          "source": "finews.com",
+          "published": "2026-11-11",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMingJBVV95cUxONFg3V0FoTnFUcGU1b25EX3hiU0pYTHBoM2FoeUt0RXBTbXpFZ1RYNkJjMXo5c1lNOGNLQVlfSjFTejJJRk5KSjlHS3M2OTdkZ3BQa2g2b2tkQTBxSWVVQnBNei1fRTBJYU9tS0dVSFJ1cno4TmNtc21kTUpZTHdneTVjeEdnZDB6S3psSEhBeVJ4WHY4NXVwdjRsa3YtbG5sMl9XSXlEazZIUWNkSjMzMXlxVHUxa0c2eE1kQk1zUEZkeXlobzM1bmpwY09MazJSUTVXclRUd1VGTUpIUl9GSHFqVXIwRFNQaXZabkpVOXh2UVZTaWJ6UGhMeUNzWU54Q3JVaWIxenRfRzY3VmNaYWZNTloxdThyWWs2bV9R?oc=5"
+        }
+      ],
+      "news_query": "Swiss National Bank change SNB policy rate | Swiss National Bank change SNB policy economists forecast",
+      "forecast": {
+        "probability": 0.88,
+        "reasoning": "The SNB rate sits at 0%, and the chairman says current policy has been effective. The franc is weakening, which reduces any pressure to cut further into negative territory. Raising rates also seems unlikely, so a hold in December is the strong base case."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-18T02:21:07Z",
+        "crowd": 0.8435,
+        "best_bid": 0.827,
+        "best_ask": 0.86,
+        "volume": 23570,
+        "liquidity": 3406,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Gap vs. the price we'd pay is 2.0 points; counting only part of it (cautious sizing) leaves 0.2, under the 10-point minimum."
+    }
+  ],
+  "batch_id": "msgbatch_01NccAySpKM5fmTHU1LKZdg8",
+  "forecast_at": "2026-11-18T02:21:06Z",
+  "usage": {
+    "input_tokens": 6959,
+    "output_tokens": 2574
+  },
+  "cost_usd": 0.0397,
+  "budget": 36.52,
+  "account": "phase-1.2"
+}
