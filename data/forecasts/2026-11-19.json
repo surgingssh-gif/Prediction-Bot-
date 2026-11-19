@@ -1,0 +1,467 @@
+{
+  "run_id": "2026-11-19",
+  "date": "2026-11-19",
+  "created_at": "2026-11-19T01:50:20Z",
+  "model": "claude-opus-5-5",
+  "effort": "high",
+  "phase": "1.3",
+  "pick_stats": {
+    "eligible": {
+      "Business": 1,
+      "Economy": 8,
+      "Politics": 20
+    },
+    "picked": 7
+  },
+  "track_record": "=== Your track record so far ===\nThese are your own earlier forecasts in this experiment that have settled (211 questions). They show only what you said and what happened (no market information).\n- On average you said 38%, and 43% of these events happened. Overall, your average is close to how often things happened.\n- Your average Brier score is 0.253 (0 is perfect; always saying 50% scores 0.250).\n- When you said...\n    under 10%: it happened 6 times out of 23.\n    10-30%: it happened 21 times out of 63.\n    30-70%: it happened 43 times out of 91.\n    70-90%: it happened 17 times out of 31.\n    over 90%: it happened 3 times out of 3.\n- Your biggest misses:\n    \"Will SpaceXAI officially rename itself to SpaceXSI by October 15?\" You said 3%; it happened.\n    \"Will the Tesla Roadster fly for 1s+?\" You said 4%; it happened.\n    \"Will Xiaomi have the best Chinese AI model at the end of October 2026?\" You said 6%; it happened.\n    \"Will monthly inflation increase by 0.6% in September?\" You said 7%; it happened.\n    \"Will there be between 0 and 5 average daily transits of the Strait of Hormuz on October 31?\" You said 7%; it happened.",
+  "questions": [
+    {
+      "market_id": "6017072",
+      "event_id": "1230492",
+      "event_title": "France accuses foreign country of provoking unrest by November 30?",
+      "option": "",
+      "question": "France accuses foreign country of provoking unrest by November 30?",
+      "rules": "This market will resolve to \"Yes\" if the French government explicitly claims that the authorities of a foreign country deliberately caused or facilitated the unrest that began in France on October 17, 2026, by November 30, 2026, 11:59 PM ET. Otherwise, this market will resolve to \"No\".\n\nSuch a claim requires an on-the-record public statement issued by an authorized person or entity representing the French government, speaking in an official capacity, which expressly states that the authorities of a foreign country deliberately caused or facilitated the unrest. A statement from a lawmaker speaking in their own capacity or on behalf of a party not in government will not alone qualify. \n\nAmbiguous statements which imply responsibility but which do not directly claim it will not qualify. Statements that do not attribute deliberate intent to the authorities of a foreign country (e.g., \"foreign actors exploited the unrest to spread disinformation\") will not qualify. \n\nThe primary resolution source for this market will be official information from the French government; however, a consensus of credible reporting may also be used.",
+      "topic": "Politics",
+      "end_date": "2026-12-01T04:59:00Z",
+      "url": "https://polymarket.com/event/france-accuses-foreign-country-of-provoking-unrest-by-november-30-20261021154154939",
+      "snapshot": {
+        "time": "2026-11-19T01:50:17Z",
+        "crowd": 0.0825,
+        "best_bid": 0.067,
+        "best_ask": 0.098,
+        "volume": 54654,
+        "liquidity": 28872,
+        "fee_rate": 0.0
+      },
+      "news": [],
+      "news_query": "France accuses foreign country provoking unrest",
+      "forecast": {
+        "probability": 0.1,
+        "reasoning": "Governments rarely make explicit, on-the-record claims that a foreign state deliberately caused domestic unrest. They usually blame vague 'foreign interference' or disinformation, which the rules exclude. France has made pointed accusations before, such as against Azerbaijan over New Caledonia, so it is possible. But the search found no headlines suggesting such a claim is building, and less than two weeks remain."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-19T01:52:22Z",
+        "crowd": 0.0825,
+        "best_bid": 0.067,
+        "best_ask": 0.098,
+        "volume": 54654,
+        "liquidity": 28872,
+        "fee_rate": 0.0
+      },
+      "bet_note": "Gap vs. the price we'd pay is 0.2 points; counting only part of it (cautious sizing) leaves -0.7, under the 10-point minimum."
+    },
+    {
+      "market_id": "4713375",
+      "event_id": "1045438",
+      "event_title": "Bank of Japan Decision in December?",
+      "option": "25 bps increase",
+      "question": "Bank of Japan increases interest rates by 25 bps after the December 2026 meeting?",
+      "rules": "This market will resolve according to the change in basis points in the uncollateralized overnight call rate resulting from the December 2026 meeting of the Bank of Japan’s Policy Board, relative to the level it was prior to this meeting.\n\nThe resolution source will be official information from the Bank of Japan, including the statement or release from its December 2026 Monetary Policy Meeting, scheduled for December 17-18, 2026, as listed on the official Bank of Japan calendar (https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm). This market may resolve as soon as the statement or release of the Bank of Japan’s Policy Board resulting from its December 2026 meeting with relevant data is issued.\n\nIf the specified rate is defined by an upper and lower bound, the relevant change will be the change to the upper bound.\n\nIf the specified rate is changed to a level not expressed in the displayed options, the change will be rounded according to the following guidelines. Increases or decreases of less than 25 bps will be rounded to 25 bps (e.g. an increase or decrease of 10 bps would be considered to be an increase or decrease of 25 bps). Increases or decreases of greater than 25 bps will be rounded to the nearest 25 bps and will be rounded away from 0 in cases of equidistance (e.g., an increase or decrease of 37.5 bps would be considered to be an increase or decrease of 50 bps). Displayed options of “Increase” or “Decrease” will include policy rate increases or decreases of any size.\n\nIf the specified meeting is postponed to a date and time before the start of the next scheduled meeting, this market will resolve based on the outcome of that postponed meeting. If the specified meeting is cancelled, or postponed such that no decision is announced by the start of the next scheduled meeting, this market will resolve to the “No Change” bracket. Emergency changes to the specified rate not resulting from the specified meeting will not be considered.",
+      "topic": "Economy",
+      "end_date": "2026-12-18T00:00:00Z",
+      "url": "https://polymarket.com/event/bank-of-japan-decision-in-december-20260918",
+      "snapshot": {
+        "time": "2026-11-19T01:50:17Z",
+        "crowd": 0.865,
+        "best_bid": 0.86,
+        "best_ask": 0.87,
+        "volume": 35638,
+        "liquidity": 3340,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "Japan's Q3 GDP Shrinks 0.1%: A Blip or Warning for ETF Investors?",
+          "source": "TradingView",
+          "published": "2026-11-16",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNekVFbjRQNGk1ZUVVdjJ3RXdzSm1YYi1RRUJpODFaY01ZQm5GQ2YwTVBMa2ttenZhX2k0dk9DR2xBX3JkYm5sLTZlVVI1bHRlS0FxTXdvNEZDREtFa2RDbDdkbWR3MmduYkVrLVdGSVZ6MUhQdkdyNllWWWxQeDRrelVlRjBmUGhxUDRBWVpPOWs1cWViOTk4MElSYXVMcEFrTFdZakxwY05lanlyOTlyM21PbEs5NXd2?oc=5"
+        },
+        {
+          "title": "Japanese Yen continues to weaken despite Bank of Japan being set to raise rates in December",
+          "source": "www.tmgm.com",
+          "published": "2026-11-13",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQeGQwOGtJSWdFX2FQV0UxTzdBQ0w0VkJMZG5yTzhULWdsZTFNeEQwUmFOeFBSWTBoWjdyTFVKeG9xQ1VtcENZeGZVbU81eEFkdGhiNmdiZTBYaUR1cWV0azA3LTZhM0djWU9iQlJLb0dPcENTaXozOHU3cWNfZ2VmQng2MkktbEF5ZGxDelZvMzZWZnROUDZQcmU1ZjJhSWJlcmVwX2hoSVFtMW53Yy1MenhUcEpuQmdPQzVyNnFIMFhBMVUwZEZjZDVZU3hGeFpENmdBT3BKOTJyWUtlNU1xXzZ4aUcwSEtN?oc=5"
+        },
+        {
+          "title": "Bank of Japan governor says central bank should keep raising rates",
+          "source": "Zawya",
+          "published": "2026-11-18",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQSnI4Um1fV2N2N1BuS3JqV1h5ZDlwU1Z2MEQtSTJpWDJEZlUwUGZrTXFQaW44YjJNb2hzVWlCbUw5cjY2dDRKaUdhNWw5ZENPcWZzQnlwbnVKUGxzS0dxRC1rVkVRQVpWMFAybjB4TUlQbWJwQ3RUQm5RVTg0eUtPYnpjQjlZenc5emdqN1VnSzBDaEpTNGFSWGVwczhIUF9hZzVqZG90QzU?oc=5"
+        },
+        {
+          "title": "Bank of Japan set to hike in December: Why the Japanese Yen is still weakening anyway",
+          "source": "FXStreet",
+          "published": "2026-11-13",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNTGozWXYxU1drQkN1T0JfV3RQSjFCY2NtUE5pUDFySm00aFptb1ZiS1MweEp3Q09TdDUtQzBpRDNjZjlIRWJLWkhGTEFKdjg3SnlZUUtLT2lzdUkyTzMxQ0xRSlJ5SkZaUTJ0WHVDeDZHQTY0OUNFTFNvYWJfQ0pmYmZ6UmM4LXdIVlUwRVFzTUhmTnJLNkhEQmFvZ1c5Xy1mbUxOVXVEX2JyWE1RTEdfNWxXWmRYUlI3OWtsaDc3dGZCdzZDUVE?oc=5"
+        },
+        {
+          "title": "Japanese Yen retreats on above-forecast US CPI and Fed officials’ support for further rate hikes",
+          "source": "www.tmgm.com",
+          "published": "2026-11-10",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOenJRa2hmdzltT08wbEotbjQ5NnQxa1lYRVEtMzFqZ2gtNzNSdGFSbmlHQ1FVZ3RUUUU1ekZSNldYSkJKdFRmTGtzWThaYXRfUV9rV0ZlSzBCVnBBa1BuZW5kMkpaVGRhanFBWDlRSVFHdmlwRnFpaUw0QnNTbUV4VjBVVkJoVjZoS0dOYWhaaWJsTndoS09zdDZMczRESGFRSmRjV05QY1A4cm1TaVEtY1hjQXFjU1phOUcwMmZPZGJGVTFyMDAtQTNIaVRHSlN4NlYzcVRybmJhaDlWSnVaWFFnREs0SHRQQ01v?oc=5"
+        },
+        {
+          "title": "Why is the Japanese Yen falling as US CPI exceeds forecasts and Fed officials favour further rate hikes?",
+          "source": "tmgm.com",
+          "published": "2026-11-10",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQb2w2UEd1QjhtREpCZEsyOExXZi1iSm9tZVp5akdUNG9JNGFFb1B3RzBhLUZrcDYtUEhrSnFmdHBKTk9NaDc2bk96Y2JVN1hiUmpsaXJ5NE1JaHdLcE12QmJxNmdBRmZVQ1VoYUtWeExFa0Q4TlNGMkRaLWtIT1BuRkJBNC1FUGtJVHd1Y1Q1RjVBeFp0YlN0eFV3VEJZRU1sQjF4N2dDbjVRa1oxUlpJWTRHR1VxRF83bEZzSFVUakVXaGJYMXZaMl9JdDhIdTc4NjJtbmQ2UzNlUzg5YkZ6azBTOHRrWnVpTmZJ?oc=5"
+        }
+      ],
+      "news_query": "Bank Japan increases interest rates bps meeting | Bank Japan increases interest rates bps economists forecast",
+      "forecast": {
+        "probability": 0.72,
+        "reasoning": "Multiple mid-November reports describe the BoJ as 'set to hike in December', and the governor said on Nov 18 that the bank should keep raising rates. A weak yen adds pressure to act. The main risk is the slight Q3 GDP contraction, which could prompt a delay to January, as the BoJ has done before."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-19T01:52:22Z",
+        "crowd": 0.865,
+        "best_bid": 0.86,
+        "best_ask": 0.87,
+        "volume": 35638,
+        "liquidity": 3340,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Gap vs. the price we'd pay is 14.0 points; counting only part of it (cautious sizing) leaves 6.8, under the 10-point minimum."
+    },
+    {
+      "market_id": "6947954",
+      "event_id": "1360134",
+      "event_title": "Who will join Trump at APEC in China?",
+      "option": "Elon Musk",
+      "question": "Will Elon Musk join Trump at APEC in China?",
+      "rules": "Donald Trump is scheduled to visit China to attend the APEC Economic Leaders' Meeting in Shenzhen on November 18-19, 2026.\n\nThis market will resolve to \"Yes\" if the listed individual attends any portion of this visit. Otherwise, this market will resolve to “No”.\n\nAttendance refers to the listed individual being physically present at any meeting or event in China which Donald Trump attends during this visit and for which officials from both the government of the United States and the government of China are present.\n\nIf Donald Trump does not visit China by November 30, 2026, 11:59 PM China Standard Time, this market will resolve to \"No\".\n\nThe visit will be considered to have ended once Donald Trump physically departs from Chinese territory. No meetings or events which start after this time will be considered.\n\nThe primary resolution source for this market will be official information from the listed individual and the governments of the United States and China; however, a consensus of credible reporting will also be used.",
+      "topic": "Politics",
+      "end_date": "2026-12-01T04:59:00Z",
+      "url": "https://polymarket.com/event/who-will-join-trump-at-apec-in-china",
+      "snapshot": {
+        "time": "2026-11-19T01:50:17Z",
+        "crowd": 0.9105,
+        "best_bid": 0.893,
+        "best_ask": 0.928,
+        "volume": 15087,
+        "liquidity": 3287,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "Exclusive | Elon Musk, Michael Miebach are joining Trump at Apec. What about Jensen Huang?",
+          "source": "South China Morning Post",
+          "published": "2026-11-10",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNMkF1WTZmZjE1c01weFFRcDNnQ3J0Wng0Y24yMkVsaFdYR2ZORm9XeGx4cnFDLUhjMG5INE5MSTFSOXhZVTZJQXBVdnBYSk01QWlKUVVsUEYxWUJHOEExN2V6MlZVWFdjUGU4amZiRDdfcndpejVfRVdJQ3lpcVdzdjVCeTZBcy1IS1FGWVl0REtNNVpyVUR6b2VmSUJ3a2VWTXNEeHNwaFRIdkVKeFhKZzlrajNEd1BLaVpQMVhVRVV0NVFyYnVSOXNScVVZdU3SAc8BQVVfeXFMUHlTZUUwenNLUGpTdjU0XzJHLVdMdlBfYm42NUVnTXoxVHZnV2s5d2JQMG1uNDZJTmJQZWhsYlk4aGxoZ2I0MzVhN2dCVUR3ZGtWX1UtUUMyajduUWtkR1JDVU1pLW03LTl4cF9yOHdSSHZlSmRrV25VNUJuWU8ySnZ5a25lbDd1NWdMRXNnaG5ZaXZieTV6Z0RvOGllUE9jWGc2WEttRzRndkV1b3doUkdtWGppc1BnWDRVd2JBZ3hvcVd3R0xVaklmbzlSNGY4?oc=5"
+        },
+        {
+          "title": "Musk expected to join Trump at APEC; Huang's participation in doubt, SCMP reports",
+          "source": "Reuters",
+          "published": "2026-11-10",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPUFZYeFlDenFpNk9MMWhjNGF1TXVTZkZWaU5oWUdQemhEZ2ZfT1B0b29WcU14WTZFeW9rQnM4eWZjMGtIRlJWRm10NEFJaDBpTVZRSjNZMjJjcFo0MUdZZTdTTFVhR2dQeFNNZFQxcW5oRzNIVFJtbmJwRlh2dWxHNk1fWDYwTWtTX3p3LXZRNU1PVVJYZno2WGtKV0w5d2NMQ0dwZGFxQk5HN1pXTDBaa3RfSFpyX2NjZklUeWU3V2MzbU1YcGxJ?oc=5"
+        },
+        {
+          "title": "Trump is headed to China this week. Jensen Huang won't be on the trip, but Elon Musk will.",
+          "source": "Yahoo Finance",
+          "published": "2026-11-16",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOS0VseVMxY285Q0tGR0N6ZlI2dzM4b2lKTnU5dlZPanUydHVMNHc0alJhb3pvT2dFOWc2T2REM0R1UWdEa2VTVGRaUXplc0JGMURnd1lkajVWdzZMVWJWNk5xbUZfeHFnd1lING1TQ0tyRlJId0o0Q3Q0TWJ5cl91eWpTTlNLWlRBSEFzZkpDMjkwOW00dWRMT2VSR0p2d0tlNy16cGp2RzVDNGxaWXpsd2VDNXVsWUt3bUs4ZER6VVMxa2MtdlVHd0xtVUE1VkRCcGwtNXFmQ0Q3M2c?oc=5"
+        },
+        {
+          "title": "Trump says he may meet with North Korea's Kim Jong Un during China trip",
+          "source": "ABC News - Breaking News, Latest News and Videos",
+          "published": "2026-11-16",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQUtHYnVlaWdlcExUdkJCSGNHMXgyd3cxQUNmNlQ2eXBMNnFfczVPZ0loYldxc2MycjFpU09OQl9YWkpQQV9SWjYxWHE1X0tRalJFX0c1TEZEZklDXzZSamxNUkJMQjJ1OTd0NjEtNFptT0xmSE9iMWxISV9NdklSOTdwNWY0MUtENUozQVFTSDJQNWZBQmRYMlF5UHTSAaIBQVVfeXFMT1kxeEZOcnFfSVFpd1ZRVzNQOThoUlBHcmxQd1VzUGVsaFZ2NHkxYkdIYmRqNmdVb1NtXzNXS2tObmg1aFNYWGEtS2VkWmt2UkJxQy1tRDBhVHNGMHR6aWFJWkJ2UUFFS09nWi1MNnZMOXFnVkV0aGpzNzdyMTJTcU1KWkl0aHBxOUdERnpzdHFOS1djVWMyYjU3bUNETUFwWjRB?oc=5"
+        },
+        {
+          "title": "Trump and Xi Share Main Table at APEC Dinner, Putin Reportedly Sits Elsewhere",
+          "source": "UNITED24 Media",
+          "published": "2026-11-18",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbUFod20tNXQwNV9JbGljZnF4Mi1tOU5OMV9fbWkxYnBwdXhjeDRsZWV2c01IUlMtYVpwcFdDQnFUMktLQjFKc1Q2cHNUSFo5S1RZMUNPdllEc3BIbkE2cUxPTUFFb1Q3eDRuRWxEbGZRdWcyZV9GZ2FfYnhOZFg3a0pZWl9sUTZJMWlYd3VZQ1AxQU5Ld0VWa2RDQy1BXzJpOUhQMU9ZV2RYTE5IdkFjSWZQODM?oc=5"
+        },
+        {
+          "title": "Trump to meet with Putin and Xi in China next week, US officials say",
+          "source": "ABC News - Breaking News, Latest News and Videos",
+          "published": "2026-11-17",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNm15SWM2empiOXZGQ3B2dzhqclI5dHNFNU1iSnpKa2dwRkJnLTlTMHZmWHlWQnJCeWtBYnYxLU9pNmNRSzhHR0hSMFZfYzUzOS1oQ0V5eXdUQWUwRFBFMkoxeUY4VnJxSlJNN2tKc2VRbDVsMEJ1UEYxWFhmbnQwUVpqVXlVcGM1a1Qzc1dobUM5SWdNeHfSAZsBQVVfeXFMUG9rMFdQa0lNWHV2MkVISlBWbktMZURzRjZfRl90MXBNTHduS0ZHemtvWl9qdjFUYWhEeXpoSlJpZGlMZXRJbTZxdmdUd0h4YlZnTy1jOFpJeU1LTmNHNmdBMUFJSEJrakhVTTNyNERfdVF5S0NzU3NxQkhqUVZ6WjFSR1ByZmxtY2Zvdkh1dFNUNzJTb3BnemxHUWM?oc=5"
+        }
+      ],
+      "news_query": "Elon Musk join Trump APEC China",
+      "forecast": {
+        "probability": 0.85,
+        "reasoning": "SCMP, Reuters and Yahoo Finance all reported that Musk is joining Trump's APEC trip to Shenzhen. The trip is underway, with Trump at the APEC dinner on Nov 18. Business leaders announced this close to a trip usually do attend joint US-China events. The remaining risk is a last-minute change or attendance only at events without both governments' officials present."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-19T01:52:22Z",
+        "crowd": 0.911,
+        "best_bid": 0.894,
+        "best_ask": 0.928,
+        "volume": 15202,
+        "liquidity": 18319,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Gap vs. the price we'd pay is 4.4 points; counting only part of it (cautious sizing) leaves 1.4, under the 10-point minimum."
+    },
+    {
+      "market_id": "5727014",
+      "event_id": "1193553",
+      "event_title": "Bank of England decision in December?",
+      "option": "25 bps increase",
+      "question": "Bank of England increases interest rates by 25 bps after December 2026 meeting?",
+      "rules": "This market will resolve according to the change in basis points in the Bank Rate resulting from the December 2026 meeting of the Bank of England’s Monetary Policy Committee, relative to the level it was prior to this meeting.\n\nThe resolution source will be official information from the Bank of England, including the statement or release from its December 2026 Monetary Policy Committee meeting, scheduled for December 17, 2026, as listed on the official Bank of England calendar (https://www.bankofengland.co.uk/monetary-policy/upcoming-mpc-dates). This market may resolve as soon as the statement or release of the Bank of England's December 2026 Monetary Policy Committee meeting with relevant data is issued.\n\nIf the specified rate is defined by an upper and lower bound, the relevant change will be the change to the upper bound.\n\nIf the specified rate is changed to a level not expressed in the displayed options, the change will be rounded according to the following guidelines. Increases or decreases of less than 25 bps will be rounded to 25 bps (e.g. an increase or decrease of 10 bps would be considered to be an increase or decrease of 25 bps). Increases or decreases of greater than 25 bps will be rounded to the nearest 25 bps and will be rounded away from 0 in cases of equidistance (e.g., an increase or decrease of 37.5 bps would be considered to be an increase or decrease of 50 bps). Displayed options of “Increase” or “Decrease” will include policy rate increases or decreases of any size.\n\nIf the specified meeting is postponed to a date and time before the start of the next scheduled meeting, this market will resolve based on the outcome of that postponed meeting. If the specified meeting is cancelled, or postponed such that no decision is announced by the start of the next scheduled meeting, this market will resolve to the “No Change” bracket. Emergency changes to the specified rate not resulting from the specified meeting will not be considered.",
+      "topic": "Economy",
+      "end_date": "2026-12-17T23:59:00Z",
+      "url": "https://polymarket.com/event/bank-of-england-decision-in-december-2026",
+      "snapshot": {
+        "time": "2026-11-19T01:50:17Z",
+        "crowd": 0.73,
+        "best_bid": 0.72,
+        "best_ask": 0.74,
+        "volume": 44060,
+        "liquidity": 3731,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "Instant view: Bank of England delivers first rate hike in three years, gilt yields rise",
+          "source": "Reuters",
+          "published": "2026-11-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNX1NmeDl4ZndpQkllbEZoTmVYQzFUSXpCeFNTRnByV05HcVlaYXl0RkY4b0htT1dYTkhQZG9DNldqcmtna1gyNVhkdTZwWmR3NTBZb0gtUm9kWnlfQzVhMWJCTzVYSGhpLXkxS085ZGpwVUVEbWlTWmItbElUTzFqTEwydEJTSUVheFJsTGNjdnlfRW1RaURzWm5KOGs5Rmx1bUV4SUxpTWNaMlNhWGxPU2lnNkt0cXc?oc=5"
+        },
+        {
+          "title": "RECAP: How the Bank of England voted to raise rates",
+          "source": "Mortgage Professional America",
+          "published": "2026-11-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOTWlHRzBEVmE1VG1qUTZGYkJkb2J0RnhCMmc1T2pUa0lNN3NZQ1lnb3FPNkVuTEh0TERPeTJXQ3BqdTJrbUFnQU5OWm5lbXdDZ2JNd3Z4SUplTko0QlFCU0h5WVJpVGFhRnhOWWRBU2NoRTAtTkFUZXhiVnpYZDM2YjBJOUg2Q3h3d1pvZVE5Ums0VG82SU1najNQY1NTM0dTOW5NOVFBVFRXQkU2LTF3SWJoV0hvUQ?oc=5"
+        },
+        {
+          "title": "Bank of England hikes rates by 25 bps as inflation may peak at 4.9 percent next year, Mohamed A. El-Erian notes",
+          "source": "Traders Union",
+          "published": "2026-11-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNSWR2Y1lBMnVMdGlaeGFtUkJiMm00LTROUXNiWm9jMk41TTBYWTVJV0FVZFFvUnNSSllOQWFuS201X1dRbGpzQjBvQ1VnLVJYRlc2LTA0OWVkSXRsTGxGNlFGUmdHekRPbXpDbGRVbmY4bXRxYmNTSHdRWjFmN0cwX3Z2ejQzUVdOa0E?oc=5"
+        },
+        {
+          "title": "Projected UK Interest Rates in 5 Years: Bank of England Raises Rates in November",
+          "source": "CCN.com",
+          "published": "2026-11-06",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWVZoNENwcEYzdjROV0thU1ltVEF3blREbGdLSjNua24yVnpyV2kza3QtS2pmUDNnR1A0MW1DSHdmZGdkWFliamluRUdlOXU0TnRBdlFiQllQY3libmpaQTZHem5TZTlYN1d0X0twenBqSU51TWJiM0dLOU5fZkFpUUppUQ?oc=5"
+        }
+      ],
+      "news_query": "Bank England increases interest rates bps meeting | Bank England increases interest rates bps economists forecast",
+      "forecast": {
+        "probability": 0.27,
+        "reasoning": "The BoE delivered its first hike in three years on Nov 5, with inflation projected to peak near 4.9%. The BoE historically tends to move gradually and often pauses at non-forecast meetings like December. Back-to-back hikes are uncommon at the start of a tightening cycle, though elevated inflation keeps the chance meaningful."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-19T01:52:22Z",
+        "crowd": 0.73,
+        "best_bid": 0.72,
+        "best_ask": 0.74,
+        "volume": 44060,
+        "liquidity": 3731,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Gap vs. the price we'd pay is 45.0 points, over the 35-point limit: disagreements this big have usually meant the AI missed something, so no bet."
+    },
+    {
+      "market_id": "6403127",
+      "event_id": "1280264",
+      "event_title": "Bank of Israel Decision in November?",
+      "option": "25 bps decrease",
+      "question": "Will the Bank of Israel decrease the Bank of Israel Interest Rate by 25 bps at the November meeting?",
+      "rules": "This market will resolve according to the change in basis points in the Bank of Israel Interest Rate resulting from the November 2026 meeting of the Bank of Israel Monetary Committee, relative to the level it was prior to this meeting.\n\nThe resolution source will be official information from the Bank of Israel, including the statement or release from its November 2026 meeting, scheduled for November 23, 2026, as listed on the official Bank of Israel calendar (https://www.boi.org.il/en/economic-roles/monetary-policy/). This market may resolve as soon as the statement or release of the Bank of Israel Monetary Committee resulting from its November 2026 meeting with relevant data is issued.\n\nIf the specified rate is defined by an upper and lower bound, the relevant change will be the change to the upper bound.\n\nIf the specified rate is changed to a level not expressed in the displayed options, the change will be rounded according to the following guidelines. Increases or decreases of less than 25 bps will be rounded to 25 bps (e.g. an increase or decrease of 10 bps would be considered to be an increase or decrease of 25 bps). Increases or decreases of greater than 25 bps will be rounded to the nearest 25 bps and will be rounded away from 0 in cases of equidistance (e.g., an increase or decrease of 37.5 bps would be considered to be an increase or decrease of 50 bps). Displayed options of “Increase” or “Decrease” will include policy rate increases or decreases of any size.\n\nIf the specified meeting is postponed to a date and time before the start of the next scheduled meeting, this market will resolve based on the outcome of that postponed meeting. If the specified meeting is cancelled, or postponed such that no decision is announced by the start of the next scheduled meeting, this market will resolve to the “No Change” bracket. Emergency changes to the specified rate not resulting from the specified meeting will not be considered.",
+      "topic": "Economy",
+      "end_date": "2026-11-23T23:59:00Z",
+      "url": "https://polymarket.com/event/bank-of-israel-decision-in-november-2026",
+      "snapshot": {
+        "time": "2026-11-19T01:50:17Z",
+        "crowd": 0.145,
+        "best_bid": 0.142,
+        "best_ask": 0.148,
+        "volume": 10362,
+        "liquidity": 2210,
+        "fee_rate": 0.05
+      },
+      "news": [],
+      "news_query": "Bank Israel decrease Interest Rate bps meeting | Bank Israel decrease Interest Rate bps economists forecast | Bank Israel Decision bps decrease",
+      "forecast": {
+        "probability": 0.15,
+        "reasoning": "The global backdrop appears inflationary: the BoE and BoJ are hiking, Fed officials favour hikes, and there are signs of an oil-supply shock. Under those conditions the Bank of Israel would more likely hold than cut. No news points to an imminent cut, and holding is the usual default at any given meeting."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-19T01:52:22Z",
+        "crowd": 0.145,
+        "best_bid": 0.142,
+        "best_ask": 0.148,
+        "volume": 10384,
+        "liquidity": 2049,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Gap vs. the price we'd pay is 0.2 points; counting only part of it (cautious sizing) leaves -0.1, under the 10-point minimum."
+    },
+    {
+      "market_id": "6027297",
+      "event_id": "1231990",
+      "event_title": "Spain General Election: Podemos # of seats?",
+      "option": "0",
+      "question": "Will Podemos win exactly 0 seats in the 2026 Spanish general election?",
+      "rules": "Legislative elections to elect the 350 members of the Congress of Deputies of Spain are scheduled to take place on November 29, 2026.\n\nThis market will resolve according to the number of seats won by Podemos in the Congress of Deputies of Spain as a result of this election.\n\nIf the results of this election are not definitively known by November 30, 2027, 11:59 PM ET, this market will resolve to the lowest range bracket.\n\nSeats and votes will be attributed according to the electoral list on which they were obtained, as reported in the official results, regardless of the party membership of individual candidates. Lists will be attributed as follows:\n\nPSOE: lists of the Spanish Socialist Workers' Party, including the Partit dels Socialistes de Catalunya (PSC) lists in Catalonia.\n\nPP: lists of the People's Party, including the joint UPN–PP list in Navarre.\n\nBroad Front (FA): all Broad Front lists, including Catalunya en Comú in Catalonia, Compromís–Valencian Front in the Valencian Community, and Canarian People’s Unity (UPC) in the Canary Islands.\n\nERC: Republican Left of Catalonia lists, including the joint ERC–Podem lists in Catalonia.\n\nPodemos: only lists presented by Podemos on its own.\n\nCCa: Canarian Coalition lists, including the joint CCa–1º CAN lists in the Canary Islands.\n\nAny other list will be attributed to the party or coalition that presents it, as named in the official proclamation of candidacies.\n\nElectoral cooperation, endorsements, coalition agreements, or subsequent changes in party affiliation or parliamentary-group membership will not be considered.\n\nThis market will resolve based on the results of the elections, as indicated by a consensus of credible reporting. In the case of ambiguity, this market will resolve solely based on the results as reported by the Spanish Ministry of the Interior (https://infoelectoral.interior.gob.es/).",
+      "topic": "Politics",
+      "end_date": "2026-11-30T04:59:00Z",
+      "url": "https://polymarket.com/event/spain-general-election-podemos-of-seats",
+      "snapshot": {
+        "time": "2026-11-19T01:50:17Z",
+        "crowd": 0.65,
+        "best_bid": 0.64,
+        "best_ask": 0.66,
+        "volume": 19729,
+        "liquidity": 32921,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "Spain's right well ahead in polls for November 29 election",
+          "source": "Reuters",
+          "published": "2026-11-09",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNWExNMHQzTjJNZWN1dmtSYjlkTDl0dUNJdWlwbmhQQkFNX3BKRTdtWEMwWmdJcVQyN0tYZ0Fpb05lWHRnS3NLOGpnSkZVSmRtRUNWbXM3ME9BRmFCWUVhM2hjUHRGc1gxa1lpZ19vaFBiN2doQ1BQUk1TU2JNOGFIRVRQUjhFN2lSeElPaGVSREliV0tST09j?oc=5"
+        },
+        {
+          "title": "Will Spain’s snap election in November bring a far-right party into government?",
+          "source": "The Guardian",
+          "published": "2026-11-16",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQS0xzb3YxVWdRaUUwUjlhRkhrTWNsTmJ0T3ZuV04zWW9xZGVjQURBYXpxZERfZmU5Mm1jdWY2d3NGSzZRM3VXd1hVN3RXVXNKYm9JaXdXaGxNNkh0WVI4Y0Q5elc3WmNROGVJdC0zcXAzUWRwWk9Jb09yYXd4ZDJLWkdCRTN5UjFOamRFWHUyX3pRQmtHRzQwSmhOM1U2T3RQNmtmcWRQTWRQV2hSRV8tMXNCcmZmT1MzRTd0NURJVWc?oc=5"
+        },
+        {
+          "title": "Spain's right holds poll lead over Sanchez's Socialists ahead of November 29 snap election",
+          "source": "France 24",
+          "published": "2026-11-09",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPTVh4UFNzU1BXTzJhS2p0TFNOU0dfQzhNT2hkSWdSSEtwV09DeU1tVTBhZ0hBcWluaThvV1g2RHhqUVNteVkwMV9YYzZWQnFVQnlhcldlcDdnTFZ1RlNDWTEzX3Z4YXhMbFVvelFLdGkyYVRZaVpMZDZZRkhxWURkMHhXcG5qZHlKeC1pdzhjTk4yNUwtVzBJZGluR2R5N1hSSFNsTTZOU3c4VDVBcUdkWmdhMm12RlpkWFM0?oc=5"
+        },
+        {
+          "title": "Spain election poll tracker: Who will be the next prime minister?",
+          "source": "The Economist",
+          "published": "2026-11-15",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9aTy1leVltUDQ1SlNWWXVtSXR0b3lKLUthM2hTd3dBZ0dxVFR2c0pJam9IX0pfRFdOSjVKcGNhWEI4MTVMbFRiM0JISzVDNEpTRXBZX25nb2lvdTVvUlNKQkEzNlJ0a2VfRTFPbkhtU2Yzb0U?oc=5"
+        },
+        {
+          "title": "Spain's November snap election — what you need to know",
+          "source": "Reuters",
+          "published": "2026-11-11",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQQkxFcVJoYUdNZVFwQUNuNjI4b25Hc1FuOEN3bUNUTlhjU20tZDNWU2xRVzNBNlE5ejNRNjNzRkdHZ29Wa3ZMd2pnMXdWLXlrN09ESnhrUlhkS0g1OVU5dzFPRXozOEkzQ251U1IwY0tBU2JxTzVGdFE3VmNEeXJvc1ZnRXhxb1FKQmlqUHo5Z3lDQjJ5MDhVUU5R?oc=5"
+        },
+        {
+          "title": "Who to watch in race to run Spain after 29 November elections",
+          "source": "BBC",
+          "published": "2026-11-17",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBUVFRxSy1Uc1FPUVJIQUdJblJQenZqeThZYmJqcDgtV2VrcVByRjQ4LURZcjc5WXRRVWU3cGhFZDEyUWcxcVdPMWItMW5vWVdIUHgyQU5BWFpBTkp0MFE?oc=5"
+        }
+      ],
+      "news_query": "Podemos win exactly seats Spanish general election",
+      "forecast": {
+        "probability": 0.15,
+        "reasoning": "Podemos has generally polled around 3-5% nationally. When running alone, that usually translates into a few seats in large districts like Madrid, Valencia, or Barcelona-area lists not counted as ERC. Falling to zero would require a collapse below roughly 3% in its strongest districts. That is possible in a polarized snap election, but it is not the likely outcome."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-19T01:52:22Z",
+        "crowd": 0.65,
+        "best_bid": 0.64,
+        "best_ask": 0.66,
+        "volume": 19729,
+        "liquidity": 32859,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Gap vs. the price we'd pay is 49.0 points, over the 35-point limit: disagreements this big have usually meant the AI missed something, so no bet."
+    },
+    {
+      "market_id": "6601259",
+      "event_id": "1303980",
+      "event_title": "Will Epic Games' valuation hit __ by November 30?",
+      "option": "↑$8.2B",
+      "question": "Will Epic Games' valuation hit (HIGH) $8.2B by November 30?",
+      "rules": "This market will resolve to \"Yes\" if Epic Games' private market valuation, as measured by the NPM Price reported by Nasdaq Private Market, LLC (NPM) for any date between market creation and November 30, 2026, is equal to or beyond (equal to or above for ↑ HIGH valuations, equal to or below for ↓ LOW valuations) the listed amount. Otherwise, this market will resolve to \"No\".\n\nNPM Prices are published for trading days only and are updated once daily at 1:00 PM ET on the following calendar day.\n\nIf NPM has not published relevant data for all business dates in the specified period by 1:00 PM ET on the calendar date following the specified date, this market will remain open until 11:59 PM ET on the third business day following the specified date. If no further data is released by that time, the market will resolve according to the data available.\n\nIf NPM ceases publishing relevant data prior to the end of the specified period, this market will resolve based on the NPM data published for the period prior to the cessation of coverage, as well as any applicable public market capitalization data following an IPO or direct listing.\n\nIf the company completes an IPO or direct listing before the end of the specified period, this market will consider, in addition to the relevant NPM valuations published between market creation and the IPO or direct listing date, the valuation implied by the official IPO or direct listing price, and the company’s public market capitalization between the IPO or direct listing date and the end of the specified period.\n\nPublic market capitalization will be determined through appropriate calculation using official regular-hours trading prices published for the company’s listed equities on its primary exchange for any trading day during the specified period, multiplied by the company's total number of shares outstanding at the relevant time. If necessary, to accurately capture the company’s total market capitalization, rather than a stock-class-specific market capitalization, the calculation will include all outstanding share classes and apply any stated conversion ratios to the publicly traded class. Where no conversion right exists, such shares will be counted at their stated outstanding amount without discount, unless official filings explicitly specify differently. The number of outstanding shares will be determined from official company filings or disclosures (e.g., SEC filings).\n\nIf the listed company merges with or acquires another entity and remains the parent company, no change to resolution methodology applies.\n\nIf the listed company is acquired, merges into another entity and is no longer the surviving parent company, or otherwise ceases to exist as an independent entity prior to the end of the period, only NPM valuations and applicable public market capitalizations achieved prior to completion of the transaction will be considered for resolution. No transaction, acquisition, or merger consideration will be considered for resolution.\n\nThe resolution source for this market is NPM data published here: (https://fe.secondmarket.com/companies/data?start_date=2025-12-31&view=valuation&companies=company-625e5f47-7ff7-45c4-be95-0305665164bd). The resolution source for any period following an IPO, direct listing, or relevant corporate action, will be the relevant Market Cap figure displayed on https://www.nasdaq.com/ as well as official exchange trading data and publicly reported share counts.\n\nRevisions to previously published NPM data made after their initial release will not be considered, unless made to correct clearly erroneous data.",
+      "topic": "Business",
+      "end_date": "2026-12-01T04:59:00Z",
+      "url": "https://polymarket.com/event/will-epic-games-valuation-hit-by-november-30-2026",
+      "snapshot": {
+        "time": "2026-11-19T01:50:17Z",
+        "crowd": 0.182,
+        "best_bid": 0.173,
+        "best_ask": 0.191,
+        "volume": 23788,
+        "liquidity": 3954,
+        "fee_rate": 0.04
+      },
+      "news": [
+        {
+          "title": "25 old video games that sell for huge sums today",
+          "source": "Yahoo Finance UK",
+          "published": "2026-11-05",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE50MXJZU2E1X2dnMGxpdHJMUXN5VFNfODhSb2lGUTJRMmdFNG9uaFViRjhCVE9fZmF6T21pcmJSaVlETUZUOGRvZm51NVpPRWRlWWFhZS13Und3V0tkV0dSSjJDWnpvelFyRXdQcUotWnJXZWdCcmpmZ1JaYWpxdw?oc=5"
+        },
+        {
+          "title": "The 8 Best Card Games of 2026 | Reviews by Wirecutter",
+          "source": "The New York Times",
+          "published": "2026-11-16",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5XdzRKLXFwVG54TXRLVWVoT2xRbVFCbzhBRG11SW9saTktTmZrNWl6RHctcFpuQkc0Q2FlcWFRLTFveGpnYXRITldzdmpBeFdjUUJFemdjQl9Qa1BfSFpOd3M0bmJwUV80eE5j?oc=5"
+        },
+        {
+          "title": "Best Web3 Games 2026 Ranked for Play-to-Earn",
+          "source": "Bitcoin Foundation",
+          "published": "2026-11-08",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9kaWNDdTJURHl0MGdwS0tJSnVreWFNU1BoMGFsZ01QbVZxR0hqdzAtSWZVeHFnWW9QUTMzR3poZ0szeXlPWHRvOHlVRlFaeURHNEF6eG5VX05YQmhKMWpCTXo0RndEUQ?oc=5"
+        }
+      ],
+      "news_query": "Epic Games' valuation HIGH",
+      "forecast": {
+        "probability": 0.15,
+        "reasoning": "The 'HIGH' $8.2B strike implies Epic's current NPM price sits somewhat below that level. Secondary-market private valuations typically move slowly over a two-week window. There is no news of a funding round, deal, or other catalyst for Epic, so the status quo of staying below the threshold is favoured."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-19T01:52:22Z",
+        "crowd": 0.182,
+        "best_bid": 0.173,
+        "best_ask": 0.191,
+        "volume": 23788,
+        "liquidity": 4096,
+        "fee_rate": 0.04
+      },
+      "bet_note": "Gap vs. the price we'd pay is 2.3 points; counting only part of it (cautious sizing) leaves 0.7, under the 10-point minimum."
+    }
+  ],
+  "batch_id": "msgbatch_01Roi2CZCh8vw2gXVJYekcAF",
+  "forecast_at": "2026-11-19T01:52:22Z",
+  "usage": {
+    "input_tokens": 7400,
+    "output_tokens": 1947
+  },
+  "cost_usd": 0.0343,
+  "budget": 32.87,
+  "account": "phase-1.2"
+}
