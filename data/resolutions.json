@@ -1148,5 +1148,25 @@
     "outcome": 0,
     "resolved_at": "2026-11-19T22:11:13Z",
     "question": "Will Jared Kushner join Trump at APEC in China?"
+  },
+  "4662683": {
+    "outcome": 1,
+    "resolved_at": "2026-11-20T08:25:21Z",
+    "question": "Will Don Toliver be featured on GTA VI: The Album?"
+  },
+  "6279781": {
+    "outcome": 1,
+    "resolved_at": "2026-11-20T15:27:23Z",
+    "question": "Trump declassifies new UFO files by November 30?"
+  },
+  "6096679": {
+    "outcome": 0,
+    "resolved_at": "2026-11-20T17:03:08Z",
+    "question": "Will UMich Consumer Sentiment be between 46.0 and 48.9 in November?"
+  },
+  "4662682": {
+    "outcome": 0,
+    "resolved_at": "2026-11-20T08:25:21Z",
+    "question": "Will Drake be featured on GTA VI: The Album?"
   }
 }
