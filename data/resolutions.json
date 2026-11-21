@@ -1178,5 +1178,20 @@
     "outcome": 1,
     "resolved_at": "2026-11-21T01:16:37Z",
     "question": "Will Core CPI YoY be 2.6% in October?"
+  },
+  "6934594": {
+    "outcome": 0,
+    "resolved_at": "2026-11-21T19:02:26Z",
+    "question": "Will MrBeast's next video get between 80 and 90 million views on week 1?"
+  },
+  "6934596": {
+    "outcome": 0,
+    "resolved_at": "2026-11-21T19:02:26Z",
+    "question": "Will MrBeast's next video get between 100 and 110 million views on week 1?"
+  },
+  "6947954": {
+    "outcome": 0,
+    "resolved_at": "2026-11-21T16:42:59Z",
+    "question": "Will Elon Musk join Trump at APEC in China?"
   }
 }
