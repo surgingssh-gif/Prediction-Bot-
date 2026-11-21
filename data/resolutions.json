@@ -1173,5 +1173,10 @@
     "outcome": 1,
     "resolved_at": "2026-11-20T22:41:37Z",
     "question": "Will annual inflation be 3.7% in October?"
+  },
+  "5699280": {
+    "outcome": 1,
+    "resolved_at": "2026-11-21T01:16:37Z",
+    "question": "Will Core CPI YoY be 2.6% in October?"
   }
 }

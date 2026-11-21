@@ -1,0 +1,758 @@
+{
+  "run_id": "2026-11-21",
+  "date": "2026-11-21",
+  "created_at": "2026-11-21T01:21:06Z",
+  "model": "claude-opus-5-5",
+  "effort": "high",
+  "phase": "1.3",
+  "pick_stats": {
+    "eligible": {
+      "Economy": 7,
+      "Entertainment": 4,
+      "Politics": 20,
+      "Tech": 1
+    },
+    "picked": 10
+  },
+  "track_record": "=== Your track record so far ===\nThese are your own earlier forecasts in this experiment that have settled (217 questions). They show only what you said and what happened (no market information).\n- On average you said 38%, and 43% of these events happened. So far you have been too low: events happened more often than you said.\n- Your average Brier score is 0.254 (0 is perfect; always saying 50% scores 0.250).\n- When you said...\n    under 10%: it happened 6 times out of 25.\n    10-30%: it happened 23 times out of 65.\n    30-70%: it happened 45 times out of 93.\n    70-90%: it happened 17 times out of 31.\n    over 90%: it happened 3 times out of 3.\n- Your biggest misses:\n    \"Will SpaceXAI officially rename itself to SpaceXSI by October 15?\" You said 3%; it happened.\n    \"Will the Tesla Roadster fly for 1s+?\" You said 4%; it happened.\n    \"Will Xiaomi have the best Chinese AI model at the end of October 2026?\" You said 6%; it happened.\n    \"Will monthly inflation increase by 0.6% in September?\" You said 7%; it happened.\n    \"Will there be between 0 and 5 average daily transits of the Strait of Hormuz on October 31?\" You said 7%; it happened.",
+  "questions": [
+    {
+      "market_id": "4620900",
+      "event_id": "1034268",
+      "event_title": "Another Fed rate hike in 2026?",
+      "option": "",
+      "question": "Another Fed rate hike in 2026?",
+      "rules": "This market will resolve to “Yes” if the upper bound of the target federal funds rate is increased at any point between September 17, 2026 and the completion of the Fed's December 2026 meeting, currently scheduled for December 8 to 9, 2026, inclusive of any rate hike announced as a result of the December meeting. Otherwise, this market will resolve to “No”.\n\nAny change to the target federal funds rate announced at the conclusion of the September 15 to 16, 2026 FOMC meeting will not count toward this market. Emergency rate hikes announced on or after September 17, 2026 will qualify.\n\nThis market may not resolve to \"No\" until the Fed has released its rate change decision following its December meeting.\n\nThe primary resolution source for this market will be the official website of the Federal Reserve (https://www.federalreserve.gov/monetarypolicy/openmarket.htm), however a consensus of credible reporting may also be used.",
+      "topic": "Economy",
+      "end_date": "2026-12-10T04:59:00Z",
+      "url": "https://polymarket.com/event/another-fed-rate-hike-in-2026",
+      "snapshot": {
+        "time": "2026-11-21T01:21:02Z",
+        "crowd": 0.916,
+        "best_bid": 0.914,
+        "best_ask": 0.918,
+        "volume": 2309029,
+        "liquidity": 114331,
+        "fee_rate": 0.01
+      },
+      "news": [
+        {
+          "title": "Fed’s Waller says central bank may need to ‘shock people’ with half-point rate hike",
+          "source": "CNBC",
+          "published": "2026-11-18",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQQ0FXYWthQmJLZi05SXhQR1o2akNmbUo4WFAyUWVjbjdkNmdwWi05clFGakpLMEFkSi1oS2ljalM2N2NyclZWTE9temNQMTJjZk9EQTYwZUJiMVlPcE1zQzA4eE5OU0tNQTg5QU5fU3k4bGIxM2NIVVFGZUZzRlR6VXEwVjBLNmvSAYwBQVVfeXFMUDZSczNSbHAxcjNFa1FMNWU3STJRUVBRV0x6SjhFVFRBdGNqSFhqMGl5bGtMSkN0YzQyWUpWLVppMmxpQWNFbFF4VmY0eE5feTJ5UVotZnNPYVdEdXhzWWVmaTk3YmdXNGdtRHlRN1RqeElDMXBEbkw4Z1hyWWxnM3hBWm9MME5Xbm5MNU0?oc=5"
+        },
+        {
+          "title": "Goldman adds another rate hike to Fed outlook after hot inflation data",
+          "source": "Reuters",
+          "published": "2026-11-11",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPaGZrcC11RmpmMVp3a09iZl9aR2N6TDVFV2d1eE50MzBMT0hkZFMtbXFteWFvcDBnSEM0MXdhWFJmM0d4eXZNVFMtNDA2VHozS0UyeEdWcGtQanctN3pxdVVVeWRacnFxS2d3N1I1MktUbUVISWhwZ0VibFgtTWVUX0ZtelYwSmJMQXdUbDJqZmxPMklpS2c?oc=5"
+        },
+        {
+          "title": "Wall Street thinks the Fed made a 'mistake' — and now more hikes are coming",
+          "source": "Yahoo Finance",
+          "published": "2026-11-11",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNdGY2RnBVRFBmcnVBQWw3TG1jSV94WHcyTTFtV3ZPZE1PYU13QlhhbFlDZHpweDhKTGc5TzcyVDZJcEJYbmNFMGdLYjdVQlhxRUxiQTUwX3p2RVZXMUs0ZjkwQU8yQVdsQ2ZuNEtOWHpfSWdFREVNRXFZeEE0bTJtZUQ5SVJUX1k5ZDA0TUFqSzJVRks3N3AwbTVMVHNoUThKUk91MjRFZHFqUDNnb1pseHB3SUxuc1FzMFpLZjNfMElrc2xtWTBXUw?oc=5"
+        },
+        {
+          "title": "Markets Are Bracing For Another Fed Rate Hike In December – But Could It Be Twice As Big As Expected?",
+          "source": "TradingView",
+          "published": "2026-11-11",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQeDk3SHdhaDVZZEhjVjdjdHJMNjNfT1lkdGg5Y09nbTVpODJoN09PeDFsT3NiMWZjRHBjVE5iMU5fbWJFWXdDRGNWX3oyWmNvSkpRdVR3OG1Ud0dQWkh3Snp0WXp1S18wOUp5bi0xMXBudUcyX1ZMbEdpdkFKYzk5S3l1MHVfM1lDOHZWdk9TTmh1aDhjNEY2Uzc5ZXo1cUhDc0tRM3ZhTnZqd0psU184R216TTg0WmhVWXNrS0V6bUVMRzBTbGpFYmdYM3ZEMnhYbmRLeXNwcU5rRHlvQThfb0tRNWs4YkxfY292RTNjVQ?oc=5"
+        },
+        {
+          "title": "Fed minutes: Higher interest rates needed in December as inflation worries mount",
+          "source": "ABC News - Breaking News, Latest News and Videos",
+          "published": "2026-11-18",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNdUR5MEc2YWZ1RlhNY2R6S0tQRzVYd1pocVNEN3NERWF2d2ZjbHNlc0p5LUVYTVo2Rm9jV1RSMnpaRGgxOG5FNVc4eWJ1M3Y4cWxmNDNSWVhCUU1taVRwOG1TQmZ5QTUtZVdEQXduLU53S1I0S2J5VlM1X1ZTWWVoSDhpYXV0NDhteXUzY3ZRTld0OGVwYXp1V2VtcW1ZYkFERkQxRtIBqgFBVV95cUxOanNuUmdXUVY2R2ZJeHY5SFhuVDZOX2tuSU9xQl9EUFdmZnZCTk51bHlZaEN5U1czYUJaQXlndGYwaDhCa3hCT1IxdTgtMzhVT2ljb1daTnFLQWxiTHdRYXRpaW80RXdFdW9YNmNUVzEwbHJsVDlTaGg5MkRTdFhzbmJJTjg3STVLMEt3Yjd4NkJqRDZvQ2pVOGVqYUxKMkppRFZBX0QxYUlUZw?oc=5"
+        },
+        {
+          "title": "Fed to raise rates once more in December as inflation risks stay high: Reuters poll",
+          "source": "Yahoo Finance",
+          "published": "2026-11-10",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNdGZfQTVJNU1QOHBKdnllM0JDSW5kaXdGX2pMLXVjdUpNa05qU2l6cmdHQ1B1TUV6UjhhejRZUWc0Mm1OTkxhLUUwdUlTcW9ieERyU1RUS3ROZ2NjaXEyaGFtM3pZT1JYUm9PdkhjYmNUdWxlSE80UW5WX1RsSUprdHk4NDVvZXJ1V0R3MzdjeFJtZ21W?oc=5"
+        }
+      ],
+      "news_query": "Another Fed rate hike | Another Fed rate hike economists forecast",
+      "forecast": {
+        "probability": 0.86,
+        "reasoning": "Rate hikes outside an active tightening cycle are rare, but this cycle is clearly underway. The October FOMC minutes say higher rates are needed in December, a Reuters poll of economists expects a December hike, and Goldman, JPMorgan and Deutsche Bank all now forecast more hikes. Waller is even floating a half-point move. The main risk is a soft data surprise before December 9."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-21T01:23:38Z",
+        "crowd": 0.9155,
+        "best_bid": 0.914,
+        "best_ask": 0.917,
+        "volume": 2309029,
+        "liquidity": 115370,
+        "fee_rate": 0.01
+      },
+      "bet_note": "Gap vs. the price we'd pay is 5.4 points; counting only part of it (cautious sizing) leaves 2.6, under the 10-point minimum."
+    },
+    {
+      "market_id": "4170753",
+      "event_id": "955999",
+      "event_title": "Fed decisions (Sep–Dec)",
+      "option": "Hike–Pause–Pause",
+      "question": "Will the Fed Hike–Pause–Pause in the next three decisions (Sep–Oct–Dec)?",
+      "rules": "The FED interest rates are defined in this market by the upper bound of the target federal funds rate. The decisions on the target federal funds rate are made by the Federal Open Market Committee (FOMC) meetings.\n\nThis market will resolve according to the decisions made by the next three Federal Open Market Committee (FOMC) meetings: September 15-16; October 27-28; and December 8-9.\n\nA qualifying cut occurs when the new upper bound of the target federal funds rate is lower compared to the level it was prior to the respective meeting.\n\nA qualifying hike occurs when the new upper bound of the target federal funds rate is higher compared to the level it was prior to the respective meeting.\n\nA qualifying pause occurs when the new upper bound of the target federal funds rate is equal to the level it was prior to the respective meeting.\n\nIf the Fed publishes a different combination than any listed, this market will resolve to \"Other\". Any rate cut will be encompassed by \"Other\".\n\nEmergency rate changes outside the regularly scheduled meetings will not be considered.\n\nThe resolution source for this market is the FOMC’s statement after its meetings:\nhttps://www.federalreserve.gov/monetarypolicy/fomccalendars.htm\n\nThe level and change of the target federal funds rate is also published at the official website of the Federal Reserve:\nhttps://www.federalreserve.gov/monetarypolicy/openmarket.htm",
+      "topic": "Economy",
+      "end_date": "2026-12-09T23:59:00Z",
+      "url": "https://polymarket.com/event/fed-decisions-sepdec",
+      "snapshot": {
+        "time": "2026-11-21T01:21:02Z",
+        "crowd": 0.0675,
+        "best_bid": 0.065,
+        "best_ask": 0.07,
+        "volume": 293580,
+        "liquidity": 99511,
+        "fee_rate": 0.01
+      },
+      "news": [
+        {
+          "title": "Fed’s Waller says central bank may need to ‘shock people’ with half-point rate hike",
+          "source": "CNBC",
+          "published": "2026-11-18",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQQ0FXYWthQmJLZi05SXhQR1o2akNmbUo4WFAyUWVjbjdkNmdwWi05clFGakpLMEFkSi1oS2ljalM2N2NyclZWTE9temNQMTJjZk9EQTYwZUJiMVlPcE1zQzA4eE5OU0tNQTg5QU5fU3k4bGIxM2NIVVFGZUZzRlR6VXEwVjBLNmvSAYwBQVVfeXFMUDZSczNSbHAxcjNFa1FMNWU3STJRUVBRV0x6SjhFVFRBdGNqSFhqMGl5bGtMSkN0YzQyWUpWLVppMmxpQWNFbFF4VmY0eE5feTJ5UVotZnNPYVdEdXhzWWVmaTk3YmdXNGdtRHlRN1RqeElDMXBEbkw4Z1hyWWxnM3hBWm9MME5Xbm5MNU0?oc=5"
+        },
+        {
+          "title": "Fed policymakers focused on inflation risks in October, with some seeing need for bigger rate hike",
+          "source": "Kitco",
+          "published": "2026-11-18",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdnphdnhkMEZNbmNOUzZ2YnpfamtFYlBRaUhkNklXUEFzMHd2RTNKWlNvTkw3TlhSZFJEbk1aWmt1SHl0VUxsckdKVUFBM0psWEtaaE1IYjRjeGJqMlg0ZUdOZzZ4N3BpWVZaVGN0UGpPRE9sNkNpSUxjQ1lSRnZWci14OG9rQXpLZDhmZDlwTmRWMEVpVjFJWlVEZlFHajlwUFFKSEFXaVZpVFZiMk80Y3VBSFdNWWc?oc=5"
+        },
+        {
+          "title": "J.P. Morgan now sees three straight Fed hikes, dropping its ‘December and done’ call",
+          "source": "investingLive",
+          "published": "2026-11-19",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQMm9IR3NkTFZud25OWk5QY3l0SVhfX2ZNY0ozS0xNc0d5NGk1bDlDdkxYQ0Q3czRmT3JJWUJPVVBydnZDdnNCU3EzVUtQc1NUaUZZV1NicEpIWjlJVGhqemFHU2NYOC03aDNkc1R1ZEw4Yk9zMFR3dkNaTTItdDZRU0liLUx4dG5qcExnOVpSTlJnNGNPbVFaNERaVko3WUV3YjQ3WEk0ZHp1cmxKdzB4OHp1TjhkUHJCQnlzU0dn?oc=5"
+        },
+        {
+          "title": "FOMC minutes reveal Fed officials expect more rate hikes despite October pause",
+          "source": "Crypto Briefing",
+          "published": "2026-11-19",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOT2xTZmxlcW9YOV9GNFlSMTJtSWlMSWY0WkpBc2tYeGNvM2htY3JvWmtnY2Y4UkFOM3BGZHhLdnJObUZJeVdWQ0k3UEtHc3pPMHBpU016LWZuZmh1c3ZiQi15X05HRHA0NUxVUFIxSTU5c0hCZWNCanAyMVVjMTltQnNlNUV4dXM4SlBzdW85WUV1dS1SaGRVeTNac2hLc2FNMmZDTHo1Z0VCZw?oc=5"
+        },
+        {
+          "title": "Fed minutes: Higher interest rates needed in December as inflation worries mount",
+          "source": "ABC News - Breaking News, Latest News and Videos",
+          "published": "2026-11-18",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNdUR5MEc2YWZ1RlhNY2R6S0tQRzVYd1pocVNEN3NERWF2d2ZjbHNlc0p5LUVYTVo2Rm9jV1RSMnpaRGgxOG5FNVc4eWJ1M3Y4cWxmNDNSWVhCUU1taVRwOG1TQmZ5QTUtZVdEQXduLU53S1I0S2J5VlM1X1ZTWWVoSDhpYXV0NDhteXUzY3ZRTld0OGVwYXp1V2VtcW1ZYkFERkQxRtIBqgFBVV95cUxOanNuUmdXUVY2R2ZJeHY5SFhuVDZOX2tuSU9xQl9EUFdmZnZCTk51bHlZaEN5U1czYUJaQXlndGYwaDhCa3hCT1IxdTgtMzhVT2ljb1daTnFLQWxiTHdRYXRpaW80RXdFdW9YNmNUVzEwbHJsVDlTaGg5MkRTdFhzbmJJTjg3STVLMEt3Yjd4NkJqRDZvQ2pVOGVqYUxKMkppRFZBX0QxYUlUZw?oc=5"
+        },
+        {
+          "title": "Deutsche Bank forecasts 3 straight Fed hikes through March",
+          "source": "Crypto News",
+          "published": "2026-11-10",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5DdmhYVjZ1WG1Zb2d1bmpVSWgxTlNCbGVoWmx6WFdwVUZPS0I1VlRBWnRIZUg0TWJWbmt2SC1Pa0VaSC1jYjVqZ0hTWW1uMHNfdVpUVjhnUkxfeHZMMk9ham9tLUhwLWl1Vnc?oc=5"
+        }
+      ],
+      "news_query": "Fed Hike Pause three decisions | Fed Hike Pause three decisions economists forecast",
+      "forecast": {
+        "probability": 0.12,
+        "reasoning": "This needs the Fed to pause in December, which goes against the clear guidance in the minutes, the Reuters poll and major bank forecasts. All of them point to a December hike after the October pause, so a pause would be a notable surprise."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-21T01:23:38Z",
+        "crowd": 0.0675,
+        "best_bid": 0.065,
+        "best_ask": 0.07,
+        "volume": 293580,
+        "liquidity": 99511,
+        "fee_rate": 0.01
+      },
+      "bet_note": "Gap vs. the price we'd pay is 5.0 points; counting only part of it (cautious sizing) leaves 2.4, under the 10-point minimum."
+    },
+    {
+      "market_id": "6652730",
+      "event_id": "1309465",
+      "event_title": "Spain General Election: Madrid 2nd Place",
+      "option": "Vox",
+      "question": "Will Vox win the second-most seats in Madrid in the 2026 Spanish general election?",
+      "rules": "Legislative elections to elect the 350 members of the Congress of Deputies of Spain are scheduled to take place on November 29, 2026.\n\nThis market will resolve according to the political party that wins the second-greatest number of seats in the Congress of Deputies of Spain in the constituency of Madrid as a result of this election.\n\nIf the results of the specified election are not definitively known by November 30, 2027, 11:59 PM ET, this market will resolve to \"Other\".\n\nParties will be ranked by the number of seats won by their electoral lists (candidaturas) in the constituency of Madrid, attributed as set out below. If two or more parties are tied on seats, ties will be broken by the total number of valid votes received by their lists in the constituency of Madrid, with higher vote totals ranking higher. If parties remain tied, ties will be broken by alphabetical order of the listed party names. This market will resolve to the party that occupies the second finishing position after applying this ranking.\n\nSeats and votes will be attributed according to the electoral list on which they were obtained, as reported in the official results, regardless of the party membership of individual candidates. Lists will be attributed as follows:\n\nPSOE: lists of the Spanish Socialist Workers' Party, including the Partit dels Socialistes de Catalunya (PSC) lists in Catalonia.\n\nPP: lists of the People's Party, including the joint UPN–PP list in Navarre.\n\nBroad Front (FA): all Broad Front lists, including Catalunya en Comú in Catalonia, Compromís–Valencian Front in the Valencian Community, and Canarian People’s Unity (UPC) in the Canary Islands.\n\nERC: Republican Left of Catalonia lists, including the joint ERC–Podem lists in Catalonia.\n\nPodemos: only lists presented by Podemos on its own.\n\nCCa: Canarian Coalition lists, including the joint CCa–1º CAN lists in the Canary Islands.\n\nAny other list will be attributed to the party or coalition that presents it, as named in the official proclamation of candidacies.\n\nElectoral cooperation, endorsements, coalition agreements, or subsequent changes in party affiliation or parliamentary-group membership will not be considered.\n\nThis market will resolve based on the results of the elections, as indicated by a consensus of credible reporting. In the case of ambiguity, this market will resolve solely based on the results as reported by the Spanish Ministry of the Interior (https://infoelectoral.interior.gob.es/).",
+      "topic": "Politics",
+      "end_date": "2026-11-30T04:59:00Z",
+      "url": "https://polymarket.com/event/spain-general-election-madrid-2nd-place",
+      "snapshot": {
+        "time": "2026-11-21T01:21:02Z",
+        "crowd": 0.075,
+        "best_bid": 0.07,
+        "best_ask": 0.08,
+        "volume": 23703,
+        "liquidity": 101462,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "Spain's November snap election — what you need to know",
+          "source": "Reuters",
+          "published": "2026-11-11",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQQkxFcVJoYUdNZVFwQUNuNjI4b25Hc1FuOEN3bUNUTlhjU20tZDNWU2xRVzNBNlE5ejNRNjNzRkdHZ29Wa3ZMd2pnMXdWLXlrN09ESnhrUlhkS0g1OVU5dzFPRXozOEkzQ251U1IwY0tBU2JxTzVGdFE3VmNEeXJvc1ZnRXhxb1FKQmlqUHo5Z3lDQjJ5MDhVUU5R?oc=5"
+        },
+        {
+          "title": "Will Spain’s snap election in November bring a far-right party into government?",
+          "source": "The Guardian",
+          "published": "2026-11-16",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQS0xzb3YxVWdRaUUwUjlhRkhrTWNsTmJ0T3ZuV04zWW9xZGVjQURBYXpxZERfZmU5Mm1jdWY2d3NGSzZRM3VXd1hVN3RXVXNKYm9JaXdXaGxNNkh0WVI4Y0Q5elc3WmNROGVJdC0zcXAzUWRwWk9Jb09yYXd4ZDJLWkdCRTN5UjFOamRFWHUyX3pRQmtHRzQwSmhOM1U2T3RQNmtmcWRQTWRQV2hSRV8tMXNCcmZmT1MzRTd0NURJVWc?oc=5"
+        },
+        {
+          "title": "Spain's right holds poll lead over Sanchez's Socialists ahead of November 29 snap election",
+          "source": "France 24",
+          "published": "2026-11-09",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPTVh4UFNzU1BXTzJhS2p0TFNOU0dfQzhNT2hkSWdSSEtwV09DeU1tVTBhZ0hBcWluaThvV1g2RHhqUVNteVkwMV9YYzZWQnFVQnlhcldlcDdnTFZ1RlNDWTEzX3Z4YXhMbFVvelFLdGkyYVRZaVpMZDZZRkhxWURkMHhXcG5qZHlKeC1pdzhjTk4yNUwtVzBJZGluR2R5N1hSSFNsTTZOU3c4VDVBcUdkWmdhMm12RlpkWFM0?oc=5"
+        },
+        {
+          "title": "‘Expel invaders’: The dangerous promises of Spain’s far-right Vox party",
+          "source": "Al Jazeera",
+          "published": "2026-11-20",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNenY3VkxoTWkyV3hfTFBzaEhmQlVUUktZZ1NjRzVvY3M2V0g0YlYyaHluVVBSc0xrMTNvRXFoMlZmSHk1dkhzOXFKcV92QnR0clJ5VmJYTVJPdi1hOURZdkxuaUNmeUV2MVUtUElLU29zc1pKVHN6QmxNZTVUd010UE1oZjNYZzVDUFI0OElBWjg1YnVnU1UxQWdnamFiRzFzR1M2VnAxTEF4amPSAbABQVVfeXFMTmpkOE5TdFZDZUl6S2ltZ09tZDh0NXp4bVNyMXFrZzNOSnlfeThlZWI2MDNrRkRxT2dUYTRhMmhkV1F0MGpNZXFZdjZnQXdkMnJfMHBaYWNQWlZQdFNBOFZSRV91NjV6VmtPVWFCdllUTGZoVENWUkZ5djV1SUd0Snlkbzg4U0Y3Y0w1QkJXQUxDYmhScDNZV3VlOXpxamRoZk9GcEliY2dXblhHeE05M1o?oc=5"
+        },
+        {
+          "title": "5 key places that signal where Spain’s election is heading",
+          "source": "POLITICO.eu",
+          "published": "2026-11-19",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOMlFWOWdJYWo3UmZkMHpFd2FscE1HUzhJVzdMeEVZRGJnUlVKZUY1RDh0S2xyU21UVV9iN2ZjOWFNOV9HdS11Qm5DcVFyVU9EcW9EaS15TnJ2dEhwU1ViS2dVLXlCQU9oVHc5dldsN0k4RjJ2SVVyekRjUlE1NG1EN3F0eExqTnlFYmZIejZZTjYxVnNy?oc=5"
+        },
+        {
+          "title": "Parliamentary 2026 Spain",
+          "source": "Fondation Robert Schuman",
+          "published": "2026-11-10",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPbU0wQ3BiZk1lV09TSzZiSTdBa1N0eEgwY1lNZmVQaUl3cTdyaDc4bERLY1UyQW9FVnltS0M4OThyUHYyRWg0a3ZJR1lMNVE4dy1DbExWSVg4TGIxSFVqR3JhMk5ZT3RERDc4aFRBZDN4ZG5YZW0wejkxMDYzb3hkLVl1UVAyRTY4bk1UWFozS0hheWM4U2lsUnV6d1BFaG5EVVZlRGMyLWhtWHlJLXhJM2NhV3BiZjQ?oc=5"
+        }
+      ],
+      "news_query": "Vox win second-most seats Madrid Spanish general",
+      "forecast": {
+        "probability": 0.16,
+        "reasoning": "In 2023 Madrid gave PSOE 10 seats and Vox 5, a wide gap. Vox has risen nationally, but Madrid is relatively weak ground for it compared with PSOE's urban base. Vox finishing second would need a major PSOE collapse in the capital."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-21T01:23:38Z",
+        "crowd": 0.075,
+        "best_bid": 0.07,
+        "best_ask": 0.08,
+        "volume": 23703,
+        "liquidity": 101605,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Gap vs. the price we'd pay is 8.0 points; counting only part of it (cautious sizing) leaves 3.8, under the 10-point minimum."
+    },
+    {
+      "market_id": "6652728",
+      "event_id": "1309465",
+      "event_title": "Spain General Election: Madrid 2nd Place",
+      "option": "PSOE",
+      "question": "Will PSOE win the second-most seats in Madrid in the 2026 Spanish general election?",
+      "rules": "Legislative elections to elect the 350 members of the Congress of Deputies of Spain are scheduled to take place on November 29, 2026.\n\nThis market will resolve according to the political party that wins the second-greatest number of seats in the Congress of Deputies of Spain in the constituency of Madrid as a result of this election.\n\nIf the results of the specified election are not definitively known by November 30, 2027, 11:59 PM ET, this market will resolve to \"Other\".\n\nParties will be ranked by the number of seats won by their electoral lists (candidaturas) in the constituency of Madrid, attributed as set out below. If two or more parties are tied on seats, ties will be broken by the total number of valid votes received by their lists in the constituency of Madrid, with higher vote totals ranking higher. If parties remain tied, ties will be broken by alphabetical order of the listed party names. This market will resolve to the party that occupies the second finishing position after applying this ranking.\n\nSeats and votes will be attributed according to the electoral list on which they were obtained, as reported in the official results, regardless of the party membership of individual candidates. Lists will be attributed as follows:\n\nPSOE: lists of the Spanish Socialist Workers' Party, including the Partit dels Socialistes de Catalunya (PSC) lists in Catalonia.\n\nPP: lists of the People's Party, including the joint UPN–PP list in Navarre.\n\nBroad Front (FA): all Broad Front lists, including Catalunya en Comú in Catalonia, Compromís–Valencian Front in the Valencian Community, and Canarian People’s Unity (UPC) in the Canary Islands.\n\nERC: Republican Left of Catalonia lists, including the joint ERC–Podem lists in Catalonia.\n\nPodemos: only lists presented by Podemos on its own.\n\nCCa: Canarian Coalition lists, including the joint CCa–1º CAN lists in the Canary Islands.\n\nAny other list will be attributed to the party or coalition that presents it, as named in the official proclamation of candidacies.\n\nElectoral cooperation, endorsements, coalition agreements, or subsequent changes in party affiliation or parliamentary-group membership will not be considered.\n\nThis market will resolve based on the results of the elections, as indicated by a consensus of credible reporting. In the case of ambiguity, this market will resolve solely based on the results as reported by the Spanish Ministry of the Interior (https://infoelectoral.interior.gob.es/).",
+      "topic": "Politics",
+      "end_date": "2026-11-30T04:59:00Z",
+      "url": "https://polymarket.com/event/spain-general-election-madrid-2nd-place",
+      "snapshot": {
+        "time": "2026-11-21T01:21:02Z",
+        "crowd": 0.925,
+        "best_bid": 0.92,
+        "best_ask": 0.93,
+        "volume": 14338,
+        "liquidity": 46100,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "Spain's November snap election — what you need to know",
+          "source": "Reuters",
+          "published": "2026-11-11",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQQkxFcVJoYUdNZVFwQUNuNjI4b25Hc1FuOEN3bUNUTlhjU20tZDNWU2xRVzNBNlE5ejNRNjNzRkdHZ29Wa3ZMd2pnMXdWLXlrN09ESnhrUlhkS0g1OVU5dzFPRXozOEkzQ251U1IwY0tBU2JxTzVGdFE3VmNEeXJvc1ZnRXhxb1FKQmlqUHo5Z3lDQjJ5MDhVUU5R?oc=5"
+        },
+        {
+          "title": "Will Spain’s snap election in November bring a far-right party into government?",
+          "source": "The Guardian",
+          "published": "2026-11-16",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQS0xzb3YxVWdRaUUwUjlhRkhrTWNsTmJ0T3ZuV04zWW9xZGVjQURBYXpxZERfZmU5Mm1jdWY2d3NGSzZRM3VXd1hVN3RXVXNKYm9JaXdXaGxNNkh0WVI4Y0Q5elc3WmNROGVJdC0zcXAzUWRwWk9Jb09yYXd4ZDJLWkdCRTN5UjFOamRFWHUyX3pRQmtHRzQwSmhOM1U2T3RQNmtmcWRQTWRQV2hSRV8tMXNCcmZmT1MzRTd0NURJVWc?oc=5"
+        },
+        {
+          "title": "Parliamentary 2026 Spain",
+          "source": "Fondation Robert Schuman",
+          "published": "2026-11-10",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPbU0wQ3BiZk1lV09TSzZiSTdBa1N0eEgwY1lNZmVQaUl3cTdyaDc4bERLY1UyQW9FVnltS0M4OThyUHYyRWg0a3ZJR1lMNVE4dy1DbExWSVg4TGIxSFVqR3JhMk5ZT3RERDc4aFRBZDN4ZG5YZW0wejkxMDYzb3hkLVl1UVAyRTY4bk1UWFozS0hheWM4U2lsUnV6d1BFaG5EVVZlRGMyLWhtWHlJLXhJM2NhV3BiZjQ?oc=5"
+        },
+        {
+          "title": "Spanish election race tightens ahead of campaign’s final week, new poll shows",
+          "source": "POLITICO.eu",
+          "published": "2026-11-19",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPR1F2Q2ZHYzctWEkyQmNwX1VWSklhMTUwejZkQmF4OFVhWVBfaHJDWjVTbXk3eUZsNHFlSDBvRktLRGZ1dlEyNzEyd2I1TzBrOWo3OUpRRDhiNDFIb1kzN2Fua1loenE2X3NxUDBTaWkzekxQVzVKS05vTDRJQ3k2X1ZIbDhiQQ?oc=5"
+        },
+        {
+          "title": "Spain braces for nationwide strike as anger over housing, costs boils over",
+          "source": "Al Jazeera",
+          "published": "2026-11-10",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQMk4xMlBLajhLQUlNZlpGRjFzSTZsS245TUg2bnJTYV91RGROM0lBVTM1SGdfUW54MDM5UU1QcThqMFZmLXROODB3M1ZvbjRnTnFJbWNUalA1Wkt2OHlodWpxNUZ2dHhRZ2k5RmxLakRIc0xMdEY3bnh0bjNGUXVuQmdLUE5sbUNXbmEtandzLTA2UVRUU2UwX0tSa3d6SkN5UGR3NFVnR3lMYWFWT0N2X0VsLTFBRFHSAbwBQVVfeXFMTU9maG5ZM1NDZklWd2ZIWGR4cmVmTkE1eTFUM1p4NEVJSHZWaG5zcmpuUHl2cVhLTnp4RDVWemhIX1pvbG1ONU1qcE85N1lKNUhmc1Jpa0pybm5va0xTR3RpYjFfZ1RMdFdrMG4xWjYwenF1RHk0bXQ4dG82Nlk5YjVRelc5WkpxQmd1bXBaXzN6LW5kS3VNVkd0OFFMMmYzX3ZsQlBqelpWYnhtMzVoNko0WHphb0dXZGxZZTE?oc=5"
+        },
+        {
+          "title": "Spain heads to a snap election after Sánchez's government loses crucial housing decrees",
+          "source": "Latin Times",
+          "published": "2026-11-07",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE40R250dkJFM18tSjBjZERMLWFsZ1NYRzBXNTFQcmlnOXhPRHRDTFRBZTFKVFJKd2NhMkJJSGtHOGpudC1fUk9XUVlwWlNIS1RSY2xYbVNCZUxSNU1TWC15Nlk2YkVpekxpUHdHUXc5VlhGeDJlYWZ2UEFvaHktcFk?oc=5"
+        }
+      ],
+      "news_query": "PSOE win second-most seats Madrid Spanish general",
+      "forecast": {
+        "probability": 0.82,
+        "reasoning": "PP is very likely first in Madrid, and PSOE has held a clear second there. Even with PSOE weaker nationally and Vox gaining, the 2023 gap (27% vs about 14%) is large. Reports that the race is tightening suggest PSOE is not collapsing."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-21T01:23:38Z",
+        "crowd": 0.925,
+        "best_bid": 0.92,
+        "best_ask": 0.93,
+        "volume": 14338,
+        "liquidity": 46036,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Gap vs. the price we'd pay is 10.0 points; counting only part of it (cautious sizing) leaves 4.8, under the 10-point minimum."
+    },
+    {
+      "market_id": "4570987",
+      "event_id": "1025328",
+      "event_title": "Bank of Russia decision in December?",
+      "option": "25 bps decrease",
+      "question": "Will the Bank of Russia announce a 25 bps decrease at the December 2026 meeting?",
+      "rules": "This market will resolve according to the change in basis points in the key rate resulting from the December 2026 meeting of the Bank of Russia, relative to the level it was prior to this meeting.\n\nThe resolution source will be official information from the Bank of Russia, including the statement or release from its December 2026 meeting, scheduled for December 18, 2026, as listed on the official Bank of Russia calendar (https://www.cbr.ru/eng/dkp/cal_mp/#t13). This market may resolve as soon as the statement or release of the Bank of Russia resulting from its December 2026 meeting with relevant data is issued.\n\nIf the specified rate is defined by an upper and lower bound, the relevant change will be the change to the upper bound.\n\nIf the specified rate is changed to a level not expressed in the displayed options, the change will be rounded according to the following guidelines. Increases or decreases of less than 25 bps will be rounded to 25 bps (e.g. an increase or decrease of 10 bps would be considered to be an increase or decrease of 25 bps). Increases or decreases of greater than 25 bps will be rounded to the nearest 25 bps and will be rounded away from 0 in cases of equidistance (e.g., an increase or decrease of 37.5 bps would be considered to be an increase or decrease of 50 bps). Displayed options of “Increase” or “Decrease” will include policy rate increases or decreases of any size.\n\nIf the specified meeting is postponed to a date and time before the start of the next scheduled meeting, this market will resolve based on the outcome of that postponed meeting. If the specified meeting is cancelled, or postponed such that no decision is announced by the start of the next scheduled meeting, this market will resolve to the “No Change” bracket. Emergency changes to the specified rate not resulting from the specified meeting will not be considered.",
+      "topic": "Economy",
+      "end_date": "2026-12-18T23:59:00Z",
+      "url": "https://polymarket.com/event/bank-of-russia-decision-in-december",
+      "snapshot": {
+        "time": "2026-11-21T01:21:02Z",
+        "crowd": 0.155,
+        "best_bid": 0.14,
+        "best_ask": 0.17,
+        "volume": 19340,
+        "liquidity": 12209,
+        "fee_rate": 0.01
+      },
+      "news": [],
+      "news_query": "Bank Russia announce bps decrease meeting | Bank Russia announce bps decrease December economists forecast | Bank Russia decision bps decrease",
+      "forecast": {
+        "probability": 0.12,
+        "reasoning": "The Bank of Russia has tended to move in 50bp or larger steps, and recent easing came in 50bp increments; 25bp moves are uncommon for it. The realistic options are a hold, a 50bp cut or a larger cut, so 25bp is a minority outcome."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-21T01:23:38Z",
+        "crowd": 0.155,
+        "best_bid": 0.14,
+        "best_ask": 0.17,
+        "volume": 19340,
+        "liquidity": 12193,
+        "fee_rate": 0.01
+      },
+      "bet_note": "Gap vs. the price we'd pay is 2.0 points; counting only part of it (cautious sizing) leaves 0.2, under the 10-point minimum."
+    },
+    {
+      "market_id": "5998043",
+      "event_id": "1226701",
+      "event_title": "\"You Can See Everything\" total domestic gross by November 30?",
+      "option": "75-100M",
+      "question": "Will the total domestic gross for \"You Can See Everything\" be between $75M and $100M by November 30?",
+      "rules": "This market will resolve according to how much \"You Can See Everything\" box office will gross domestically from its opening (October 16, 2026) through November 30, 2026.\n\nThis market will resolve as soon as a final (i.e., not studio estimates) cumulative figure through November 30, 2026 is available, and no later than December 30, 2026, 11:59 PM ET. The primary resolution source is the \"Total Gross\" figure for November 30, 2026 in the \"Daily Box Office Performance\" table on the \"Box Office\" tab of this movie's The Numbers (https://www.the-numbers.com/) page. If The Numbers does not have a final figure by December 30, 2026, 11:59 PM ET, this market will resolve according to the \"To Date\" figure for November 30, 2026 on the \"Domestic Daily\" tab of this movie's Box Office Mojo (https://www.boxofficemojo.com/) release page. If a source lists no figure for November 30, 2026, its figure for the most recent listed date before November 30, 2026 will be used.\n\nIf neither source has a final figure by December 30, 2026, 11:59 PM ET, this market will resolve according to the figure The Numbers reports at that time, or, if The Numbers reports none, the figure Box Office Mojo reports at that time. If neither source reports any figure by December 30, 2026, 11:59 PM ET, this market will resolve to the lowest bracket.\n\nIf the reported value falls exactly between two brackets, then this market will resolve to the higher range bracket.\n\nThis market will resolve according to the cumulative domestic gross until and including November 30, 2026, regardless of whether domestic refers to only the USA, or to USA and Canada, etc.",
+      "topic": "Entertainment",
+      "end_date": "2026-12-01T04:59:00Z",
+      "url": "https://polymarket.com/event/you-can-see-everything-total-domestic-gross-by-november-30",
+      "snapshot": {
+        "time": "2026-11-21T01:21:02Z",
+        "crowd": 0.7635,
+        "best_bid": 0.739,
+        "best_ask": 0.788,
+        "volume": 55635,
+        "liquidity": 2108,
+        "fee_rate": 0.01
+      },
+      "news": [
+        {
+          "title": "Box Office: ‘You Can See Everything’ Becomes Second-Biggest Doc Ever in North America With $80 Million",
+          "source": "Variety",
+          "published": "2026-11-08",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNN3N0NV9oOHVRTGRicUs5bzRMcmJMQ29zZk51V1lhVFJkQloyc0lIVGUwUjlXSmRxVVVuWEZxTzdKTUtWWXludVA0ejdEaVlsR1JUcEdnVjdVQ3BIQ1RpOG5xMXJGcE1IRTliZHZpX09NaGZXWWtEN0Q4YldadEVDM1hSMFNsSjBrWkVBVjluUm1HZFpOSkJ1bzdsRUFtQW0zWTVPcjdZVi1yNDg2MnFHVjQwZnRmZlRpTFA2Q2pQZENLWUVlZWh3UndCeDhSNHhlQWc?oc=5"
+        },
+        {
+          "title": "Australian Box Office: ‘You Can See Everything’ Dominates With Impressive Opening Weekend",
+          "source": "Rolling Stone Australia",
+          "published": "2026-11-16",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPU09LckVTMy1yQVdQU2diSGJGc2tsS2hiYTAtTVZNODBuNlpjYnd6NE5hQ0lvX2hmOU56dU1mc2VsNlFYSzdrTjJBcVZtbDYyME50LXhha0ZGY2tWYm9qVU15WGVUNWptanVJSnVKbVdrR0w0UEVpZVpHQkJaWXVxZWZSRzhMTXVNVzZmaG9DYVBUTEJ2M2NXbmp3ZnRqajIxU1UzM215ckxoSFM2UkR6NTJIWGhha2p3Q0E?oc=5"
+        },
+        {
+          "title": "‘You Can See Everything’: Elizabeth Holmes Documentary Crossing $100M Worldwide Tonight",
+          "source": "Deadline",
+          "published": "2026-11-20",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNb0RJdnIyU3JQblNBdVdIRnNGMEx2cGVmUDRwNFBkMGRRakFCenIzYWUyWE5ONGpBM2F6TzNUdktEY3FIZG51V2E5R3lHMW5PbkpUY0tCSzNmNVFhcnRONlRFZWNWMGVpUkQxbUJtNFpyTXlaYnQ4NGJabU9fV2tBbk5xOHlKQ1NJ?oc=5"
+        },
+        {
+          "title": "Box Office: ‘You Can See Everything’ Hits $80 Million, Becoming A24’s Third-Biggest Domestic Release",
+          "source": "IndieWire",
+          "published": "2026-11-08",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPX0dKX3owOURKOGxJSmFZM3R1VWxWVWdjQndtZTdRdjNHeWRsaGx2Z0xTQVFMM3lRQW9UYnNBemZ0aTU3X2RmMkowaXZlcXFDZzk2U1I2blhvMFRUbGRBWkRxOEZBaEpESVpFRmdMNkVsS0VVM2VpMEJnYmVLVlc4aUpOazh3aTNsOTFJSElIVGJHd25HVFg4TEhxSXF4cnJpLUVKSVBPUWIzYU5xVmF4bA?oc=5"
+        },
+        {
+          "title": "‘Sit with the discomfort’: Examining the fact and fiction of ‘You Can See Everything’",
+          "source": "YaleNews",
+          "published": "2026-11-10",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNbmJqZEtmaUk2ajZ6V2FKY0IwRUV6eDdsWm9sWHIyZ2pDSks4Y3hYYmJlazJ3aWdMcFFsblZQLVdIUWtYRTFHTDlKWUZzaUdGenRnMktmSUFVYTEwNU5aUTlvblVobHBvdTdocXh3d1YwTGxaeFB4SFVCUFlIWElOeUowZm9helVPYmhrbHBYcEtsSHp5ZWFfVkp1Tm5ydw?oc=5"
+        },
+        {
+          "title": "Box Office: Godzilla Stomps To #1, You Can See Everything Sole Survivor Of New Release Onslaught",
+          "source": "ScreenRant",
+          "published": "2026-11-08",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNQnNZQWFtSUdWdlN4azJ5WjJXR3NLRHZSbzJKUjJEZG9fLVhRUEFLUmVJY19zRkVDYlRBTVZWZ2hCNXI5Q2duT1JhNDctSGd4Zk1zVU1wOFEwMWNJZ2pRZEZGVU9pVFdyellFZXlrbVlhRHZUOV96R2dGZk9INFh3YTF1bm5tS2txTml0SHNITmxBWk1Wb2VKMU5RMk9UY00?oc=5"
+        }
+      ],
+      "news_query": "total domestic gross You Can See Everything",
+      "forecast": {
+        "probability": 0.77,
+        "reasoning": "The documentary passed $80M domestic on Nov 8 and crossed $100M worldwide around Nov 20, which implies roughly $87-90M domestic by then. The added gross through Nov 30, including Thanksgiving, likely leaves it in the low-to-mid $90Ms. The main risk is that late legs push it past $100M."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-21T01:23:39Z",
+        "crowd": 0.7635,
+        "best_bid": 0.739,
+        "best_ask": 0.788,
+        "volume": 55635,
+        "liquidity": 2108,
+        "fee_rate": 0.01
+      },
+      "bet_note": "Gap vs. the price we'd pay is -1.8 points; counting only part of it (cautious sizing) leaves -2.1, under the 10-point minimum."
+    },
+    {
+      "market_id": "6439064",
+      "event_id": "1285841",
+      "event_title": "\"Avengers: Doomsday\" Opening Weekend Box Office",
+      "option": "400m+",
+      "question": "Will \"Avengers: Doomsday\" Opening Weekend Box Office be at least 400m?",
+      "rules": "This market will resolve according to how much \"Avengers: Doomsday\" will gross domestically on its 3-day opening weekend (December 18 - 20).\n\nThis market will resolve as soon as a final (i.e., not studio estimates) opening weekend figure is available, and no later than January 20, 2027, 11:59 PM ET. The primary resolution source is the opening weekend figure in the \"Weekend Box Office Performance\" table on the \"Box Office\" tab of this movie's The Numbers (https://www.the-numbers.com/) page. If The Numbers does not have a final figure by January 20, 2027, 11:59 PM ET, this market will resolve according to the \"Weekend\" figure for the movie's first weekend on the \"Domestic Weekend\" tab of this movie's Box Office Mojo (https://www.boxofficemojo.com/) release page.\n\nIf neither source has a final figure by January 20, 2027, 11:59 PM ET, this market will resolve according to the figure The Numbers reports at that time, or, if The Numbers reports none, the figure Box Office Mojo reports at that time. If neither source reports any figure by January 20, 2027, 11:59 PM ET, this market will resolve to the lowest bracket. If \"Avengers: Doomsday\" is not released by January 20, 2027, 11:59 PM ET, this market will resolve to the lowest bracket.\n\nIf the reported value falls exactly between two brackets, then this market will resolve to the higher range bracket.\n\nThis market will resolve according to the figure for the 3-day weekend (which typically includes Thursday's previews), regardless of whether domestic refers to only the USA, or to USA and Canada, etc.",
+      "topic": "Entertainment",
+      "end_date": "2026-12-20T12:00:00Z",
+      "url": "https://polymarket.com/event/avengers-doomsday-opening-weekend-box-office",
+      "snapshot": {
+        "time": "2026-11-21T01:21:02Z",
+        "crowd": 0.71,
+        "best_bid": 0.7,
+        "best_ask": 0.72,
+        "volume": 103888,
+        "liquidity": 11188,
+        "fee_rate": 0.01
+      },
+      "news": [
+        {
+          "title": "Avengers: Doomsday & Dune 3 Box Office Battle On Track For Historic Opening Weekend",
+          "source": "ScreenRant",
+          "published": "2026-11-13",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOb2sxMjh2UTd1VmxFcFJqQjNHdGVwbm1tQ284cXdzNkRDYnZUZ1htdjBZMzVFZE5KSllTaUdtSzVvY1hySTdIc1R0TmVfQ0phYjNJWTBqRGhLMmN4Y1Bob21XeG1wbTZWV1RlUkphT0V4eTR5VmxyUl8wWV96NDhnTXN1WWR1eWI2RmNrMndCSTJDUXJ3U0FCWkFUQQ?oc=5"
+        },
+        {
+          "title": "‘Avengers: Doomsday’ Reportedly Crosses $150 Million in Global Pre-sales, Eyeing Historic $1B+ Opening",
+          "source": "Murphy's Multiverse",
+          "published": "2026-11-16",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPUmZvbV9HVzA5N2JmdTd5dWZEdksyeTF0OXZ6QVpjTHNKbWJ2OFhZVW9DSElJUFJ4ZGlRSWliX0tiU09kNmhtNFM0eW1mc3pkUUtTUTlvZEl2MzNEY1UzaWw4LVluNHdnOWxqd0M5azNGc2lXQ1FZTk9rcG0wdEFjdkROMG41MWhQOFJHYkwxWnIxbEFpR0V4YUYxTzJTZnFWMmhWbA?oc=5"
+        },
+        {
+          "title": "Domestic Ticket Sales Up 20% From 2025 Before Hunger Games, Dune, Avengers",
+          "source": "Variety",
+          "published": "2026-11-15",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOSnQ0WFVNS3NFOFlTOFN2ZlBJNVJkNXVuUXBPbVdMclphZjlJZHZwQWhHQWhyTHd2RmVCVDAyMFNvd3VDeXZkQlFvWWRXZ1JFOTd1NGJEd29JSlVPMWViVEZ4Y0dSa0kwZFd0RTQ5SWJNS0NEREQwWUpEU3V0Uk5vR3N2aVRqbjd4bEFVQ1hlR2RDV3hIR1hZQmZTSDRyV2FIbUhiUTQ5U25vWDdTc1ZsUUp2ZWFnYk1KeGFCUDRia1BVaE1Bdk04N0s2Ymk?oc=5"
+        },
+        {
+          "title": "‘Dunesday’ Scenarios: AVENGERS: DOOMSDAY ($340-369M+) and DUNE: PART THREE ($91-100M+) Tracking for Potential Record $440M+ Box Office Weekend",
+          "source": "Box Office Theory",
+          "published": "2026-11-13",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNc3Y4blVXWVhaeTM5NjA3QVBNYzRJeUhvNk1lcV81MFUwaEJSMUxmRThSVEZWd2Z4VmpYZ2w5NFMtM0dzRS12a0lRNXg4OXk4SjV0LVRHZXhrTjV3b3NqNWVUOGF1aURuakZuMTFNTG1zTk92bHNnY2JRZjQ3V1BwQUNsc2ZmMzlYSkdqVmpkLVp2aDlMTVJ0ZDRCOWxBUG1OOXAwYW5PNTRMTjZyWFphUlNjSFY5TFN4eTlIN2FwRUVVR2dpd1Rz?oc=5"
+        },
+        {
+          "title": "Long Range Forecast: DUNE: PART 3 Aims for a Series-High Debut as it Opens Against AVENGERS: DOOMSDAY",
+          "source": "Boxoffice Pro",
+          "published": "2026-11-20",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQY19kdkZXalk4RE9GQnE2ODJnU1laYVVUTkY0dlVFYzZjOVQ5QWdQb2h4VGtoWk9hU1pWbXFCcTdLTW9pblNMbHlaNTUtYkMwRU5aRk5semRjM2hXOWZwdUMxY044cTZ3WldmR3hkUG5ZVDAtY0dxMk45eFlFSnRCbmJQM2dhTFZiTnYxMTU2YkVrbUxCcTcyMS1iTE5qcXYxQzFTR3BrSFpTTk0zRERKZGl1TzFvbVluSUFMeHNYSDhmSHMxSk1j?oc=5"
+        },
+        {
+          "title": "‘Avengers: Doomsday’ box office collections Day 1: Advance booking for Robert Downey Jr and Chris Evans s",
+          "source": "The Times of India",
+          "published": "2026-11-19",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMihgNBVV95cUxOb2pzdUVSRGd3dllMYVppeFYtazktVWo5azljWGlOUVpqWXRBekJTMllJYlE0ODJXakk3VnR4ZjJwcUR4UmNlcjAxRkNkd2ZOVG9tQnpYbXZQdWE4Wks4YmNzc1RaX2xobnRmNkZtNjZIN1dHQ0N3WEFHeHBnSWVNMy0yVWk4d3N5VnBPZ3c3NllWYUxmQmZiRlBaNFFnRzlEUHN2NHpubklPT1EtcmxNODc4Q1RzOVFZRUpKdGVuNGlzQWJ6c3lNeTNKd0l5ZFRBVTk1NHlURkhscmtjM1NrNnYyMy1KTGFQNkVfa2ZMM0R1cHJjN2w3TTA3aW5aMUV4VDQ0aEtKSjlXcFUzb1J5STRPTndueEZVOTR3MEF0X1RCbFB6T2UzV1dDSXlpek1Ta1ZfRlNVbGc4cEtXczBBb010cV94S0RFZk1XYlp0TFN1d0pxUFBqaG1hZkFaQlRxVHlPVEQ4cS0wSm8wZ0FSam4zTFo1SnB6cE5MSm1zU0doRjhVLUHSAYsDQVVfeXFMT0JabUFjU01VRzBDaDdpTnJkeVY2Rlo4NkVFT2tZTVphM21HYkk0UEE5LWlVbGpvdkN6MGhQamMtVHJTeEVxeUZFbms1MGFTZlVXMnhFVFlpWjdJZXhwb1NMbncyRk5sM2Zmc0hDV2tIZTVyZGxyUzB6RWNiMnhBYWtZV0ttWWpyV25TU1gzb0pYUFEzam5rQW5ZcGd6TjIxb1FGV2dGSmpfazZTOXA3c2RodXBpX3U2WXo5b1pLYzNhSUoteExlSlh0MDRIcjZHempnbnR3N21uMWNYS1NJcEVuZm9NcDk1Z3FObjUxR1VzcVlqZFlkN3BlQWg1VEEwdjZCSDhRNDVCN283eTlLTlpEUExmYW1CQ185VW13ekxCdmxIa3NtRk5sdGc4V1psNFJWT2sxNGpLQ2VxTWM3X2NlWHRaLVRfMVY0N25CS2pYa1NxUVJaVlFabVFUZjE2dTVoR212Y3ZKWE5yY2VxeC1lck5MekpSc0dCUzRxOWZYN2I4QjRCM056Z2c?oc=5"
+        }
+      ],
+      "news_query": "Avengers Doomsday Opening Weekend Box Office",
+      "forecast": {
+        "probability": 0.15,
+        "reasoning": "Tracking points to roughly $340-369M+, and the record is Endgame's $357M. Clearing $400M would need a big overperformance while facing Dune: Part Three on the same weekend. Strong presales and a stronger overall market keep it possible but unlikely."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-21T01:23:39Z",
+        "crowd": 0.71,
+        "best_bid": 0.7,
+        "best_ask": 0.72,
+        "volume": 103888,
+        "liquidity": 11188,
+        "fee_rate": 0.01
+      },
+      "bet_note": "Gap vs. the price we'd pay is 55.0 points, over the 35-point limit: disagreements this big have usually meant the AI missed something, so no bet."
+    },
+    {
+      "market_id": "6029653",
+      "event_id": "1232355",
+      "event_title": "Spain General Election: Cáceres Winner",
+      "option": "PP",
+      "question": "Will PP win the most seats in Cáceres in the 2026 Spanish general election?",
+      "rules": "Legislative elections to elect the 350 members of the Congress of Deputies of Spain are scheduled to take place on November 29, 2026.\n\nThis market will resolve according to the political party that wins the greatest number of seats in the Congress of Deputies of Spain in the constituency of Cáceres as a result of this election.\n\nIf the results of the specified election are not definitively known by November 30, 2027, 11:59 PM ET, this market will resolve to \"Other\".\n\nParties will be ranked by the number of seats won by their electoral lists (candidaturas) in the constituency of Cáceres, attributed as set out below. If two or more parties are tied on seats, ties will be broken by the total number of valid votes received by their lists in the constituency of Cáceres, with higher vote totals ranking higher. If parties remain tied, ties will be broken by alphabetical order of the listed party names. This market will resolve to the party that occupies the highest finishing position after applying this ranking.\n\nSeats and votes will be attributed according to the electoral list on which they were obtained, as reported in the official results, regardless of the party membership of individual candidates. Lists will be attributed as follows:\n\nPSOE: lists of the Spanish Socialist Workers' Party, including the Partit dels Socialistes de Catalunya (PSC) lists in Catalonia.\n\nPP: lists of the People's Party, including the joint UPN–PP list in Navarre.\n\nBroad Front (FA): all Broad Front lists, including Catalunya en Comú in Catalonia, Compromís–Valencian Front in the Valencian Community, and Canarian People’s Unity (UPC) in the Canary Islands.\n\nERC: Republican Left of Catalonia lists, including the joint ERC–Podem lists in Catalonia.\n\nPodemos: only lists presented by Podemos on its own.\n\nCCa: Canarian Coalition lists, including the joint CCa–1º CAN lists in the Canary Islands.\n\nAny other list will be attributed to the party or coalition that presents it, as named in the official proclamation of candidacies.\n\nElectoral cooperation, endorsements, coalition agreements, or subsequent changes in party affiliation or parliamentary-group membership will not be considered.\n\nThis market will resolve based on the results of the elections, as indicated by a consensus of credible reporting. In the case of ambiguity, this market will resolve solely based on the results as reported by the Spanish Ministry of the Interior (https://infoelectoral.interior.gob.es/).",
+      "topic": "Politics",
+      "end_date": "2026-11-30T04:59:00Z",
+      "url": "https://polymarket.com/event/spain-general-election-caceres-winner",
+      "snapshot": {
+        "time": "2026-11-21T01:21:02Z",
+        "crowd": 0.65,
+        "best_bid": 0.64,
+        "best_ask": 0.66,
+        "volume": 15021,
+        "liquidity": 53819,
+        "fee_rate": 0.05
+      },
+      "news": [],
+      "news_query": "PP win seats Cáceres Spanish general election | Spain General Election Cáceres Winner PP",
+      "forecast": {
+        "probability": 0.87,
+        "reasoning": "In 2023 Cáceres split 2-2 between PP and PSOE, with PP ahead on votes, which wins the tiebreaker. PP has since surged in Extremadura while PSOE has weakened regionally. PP should top the province on seats or on the vote tiebreak."
+      },
+      "bet": {
+        "side": "YES",
+        "price": 0.66,
+        "top_price": 0.66,
+        "shares": 54.08,
+        "stake": 35.69,
+        "fee": 0.61,
+        "cost": 36.3,
+        "gap_pts": 21.0,
+        "edge_pts": 10.0,
+        "sized_on": 0.76,
+        "kelly_full": 0.27,
+        "fill": "order book",
+        "levels": 1,
+        "scaled": 0.9253
+      },
+      "trade_snapshot": {
+        "time": "2026-11-21T01:23:39Z",
+        "crowd": 0.65,
+        "best_bid": 0.64,
+        "best_ask": 0.66,
+        "volume": 15021,
+        "liquidity": 53812,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Bought YES (AI's gap 21.0 points; 10.0 after cautious sizing). Scaled to 93% to fit the daily budget of $36.30."
+    },
+    {
+      "market_id": "6439063",
+      "event_id": "1285841",
+      "event_title": "\"Avengers: Doomsday\" Opening Weekend Box Office",
+      "option": "360m-400m",
+      "question": "Will \"Avengers: Doomsday\" Opening Weekend Box Office be between 360m and 400m?",
+      "rules": "This market will resolve according to how much \"Avengers: Doomsday\" will gross domestically on its 3-day opening weekend (December 18 - 20).\n\nThis market will resolve as soon as a final (i.e., not studio estimates) opening weekend figure is available, and no later than January 20, 2027, 11:59 PM ET. The primary resolution source is the opening weekend figure in the \"Weekend Box Office Performance\" table on the \"Box Office\" tab of this movie's The Numbers (https://www.the-numbers.com/) page. If The Numbers does not have a final figure by January 20, 2027, 11:59 PM ET, this market will resolve according to the \"Weekend\" figure for the movie's first weekend on the \"Domestic Weekend\" tab of this movie's Box Office Mojo (https://www.boxofficemojo.com/) release page.\n\nIf neither source has a final figure by January 20, 2027, 11:59 PM ET, this market will resolve according to the figure The Numbers reports at that time, or, if The Numbers reports none, the figure Box Office Mojo reports at that time. If neither source reports any figure by January 20, 2027, 11:59 PM ET, this market will resolve to the lowest bracket. If \"Avengers: Doomsday\" is not released by January 20, 2027, 11:59 PM ET, this market will resolve to the lowest bracket.\n\nIf the reported value falls exactly between two brackets, then this market will resolve to the higher range bracket.\n\nThis market will resolve according to the figure for the 3-day weekend (which typically includes Thursday's previews), regardless of whether domestic refers to only the USA, or to USA and Canada, etc.",
+      "topic": "Entertainment",
+      "end_date": "2026-12-20T12:00:00Z",
+      "url": "https://polymarket.com/event/avengers-doomsday-opening-weekend-box-office",
+      "snapshot": {
+        "time": "2026-11-21T01:21:02Z",
+        "crowd": 0.21,
+        "best_bid": 0.2,
+        "best_ask": 0.22,
+        "volume": 39386,
+        "liquidity": 10113,
+        "fee_rate": 0.01
+      },
+      "news": [
+        {
+          "title": "Avengers: Doomsday & Dune 3 Box Office Battle On Track For Historic Opening Weekend",
+          "source": "ScreenRant",
+          "published": "2026-11-13",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOb2sxMjh2UTd1VmxFcFJqQjNHdGVwbm1tQ284cXdzNkRDYnZUZ1htdjBZMzVFZE5KSllTaUdtSzVvY1hySTdIc1R0TmVfQ0phYjNJWTBqRGhLMmN4Y1Bob21XeG1wbTZWV1RlUkphT0V4eTR5VmxyUl8wWV96NDhnTXN1WWR1eWI2RmNrMndCSTJDUXJ3U0FCWkFUQQ?oc=5"
+        },
+        {
+          "title": "‘Avengers: Doomsday’ Reportedly Crosses $150 Million in Global Pre-sales, Eyeing Historic $1B+ Opening",
+          "source": "Murphy's Multiverse",
+          "published": "2026-11-16",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPUmZvbV9HVzA5N2JmdTd5dWZEdksyeTF0OXZ6QVpjTHNKbWJ2OFhZVW9DSElJUFJ4ZGlRSWliX0tiU09kNmhtNFM0eW1mc3pkUUtTUTlvZEl2MzNEY1UzaWw4LVluNHdnOWxqd0M5azNGc2lXQ1FZTk9rcG0wdEFjdkROMG41MWhQOFJHYkwxWnIxbEFpR0V4YUYxTzJTZnFWMmhWbA?oc=5"
+        },
+        {
+          "title": "Domestic Ticket Sales Up 20% From 2025 Before Hunger Games, Dune, Avengers",
+          "source": "Variety",
+          "published": "2026-11-15",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOSnQ0WFVNS3NFOFlTOFN2ZlBJNVJkNXVuUXBPbVdMclphZjlJZHZwQWhHQWhyTHd2RmVCVDAyMFNvd3VDeXZkQlFvWWRXZ1JFOTd1NGJEd29JSlVPMWViVEZ4Y0dSa0kwZFd0RTQ5SWJNS0NEREQwWUpEU3V0Uk5vR3N2aVRqbjd4bEFVQ1hlR2RDV3hIR1hZQmZTSDRyV2FIbUhiUTQ5U25vWDdTc1ZsUUp2ZWFnYk1KeGFCUDRia1BVaE1Bdk04N0s2Ymk?oc=5"
+        },
+        {
+          "title": "‘Dunesday’ Scenarios: AVENGERS: DOOMSDAY ($340-369M+) and DUNE: PART THREE ($91-100M+) Tracking for Potential Record $440M+ Box Office Weekend",
+          "source": "Box Office Theory",
+          "published": "2026-11-13",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNc3Y4blVXWVhaeTM5NjA3QVBNYzRJeUhvNk1lcV81MFUwaEJSMUxmRThSVEZWd2Z4VmpYZ2w5NFMtM0dzRS12a0lRNXg4OXk4SjV0LVRHZXhrTjV3b3NqNWVUOGF1aURuakZuMTFNTG1zTk92bHNnY2JRZjQ3V1BwQUNsc2ZmMzlYSkdqVmpkLVp2aDlMTVJ0ZDRCOWxBUG1OOXAwYW5PNTRMTjZyWFphUlNjSFY5TFN4eTlIN2FwRUVVR2dpd1Rz?oc=5"
+        },
+        {
+          "title": "Long Range Forecast: DUNE: PART 3 Aims for a Series-High Debut as it Opens Against AVENGERS: DOOMSDAY",
+          "source": "Boxoffice Pro",
+          "published": "2026-11-20",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQY19kdkZXalk4RE9GQnE2ODJnU1laYVVUTkY0dlVFYzZjOVQ5QWdQb2h4VGtoWk9hU1pWbXFCcTdLTW9pblNMbHlaNTUtYkMwRU5aRk5semRjM2hXOWZwdUMxY044cTZ3WldmR3hkUG5ZVDAtY0dxMk45eFlFSnRCbmJQM2dhTFZiTnYxMTU2YkVrbUxCcTcyMS1iTE5qcXYxQzFTR3BrSFpTTk0zRERKZGl1TzFvbVluSUFMeHNYSDhmSHMxSk1j?oc=5"
+        },
+        {
+          "title": "‘Avengers: Doomsday’ box office collections Day 1: Advance booking for Robert Downey Jr and Chris Evans s",
+          "source": "The Times of India",
+          "published": "2026-11-19",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMihgNBVV95cUxOb2pzdUVSRGd3dllMYVppeFYtazktVWo5azljWGlOUVpqWXRBekJTMllJYlE0ODJXakk3VnR4ZjJwcUR4UmNlcjAxRkNkd2ZOVG9tQnpYbXZQdWE4Wks4YmNzc1RaX2xobnRmNkZtNjZIN1dHQ0N3WEFHeHBnSWVNMy0yVWk4d3N5VnBPZ3c3NllWYUxmQmZiRlBaNFFnRzlEUHN2NHpubklPT1EtcmxNODc4Q1RzOVFZRUpKdGVuNGlzQWJ6c3lNeTNKd0l5ZFRBVTk1NHlURkhscmtjM1NrNnYyMy1KTGFQNkVfa2ZMM0R1cHJjN2w3TTA3aW5aMUV4VDQ0aEtKSjlXcFUzb1J5STRPTndueEZVOTR3MEF0X1RCbFB6T2UzV1dDSXlpek1Ta1ZfRlNVbGc4cEtXczBBb010cV94S0RFZk1XYlp0TFN1d0pxUFBqaG1hZkFaQlRxVHlPVEQ4cS0wSm8wZ0FSam4zTFo1SnB6cE5MSm1zU0doRjhVLUHSAYsDQVVfeXFMT0JabUFjU01VRzBDaDdpTnJkeVY2Rlo4NkVFT2tZTVphM21HYkk0UEE5LWlVbGpvdkN6MGhQamMtVHJTeEVxeUZFbms1MGFTZlVXMnhFVFlpWjdJZXhwb1NMbncyRk5sM2Zmc0hDV2tIZTVyZGxyUzB6RWNiMnhBYWtZV0ttWWpyV25TU1gzb0pYUFEzam5rQW5ZcGd6TjIxb1FGV2dGSmpfazZTOXA3c2RodXBpX3U2WXo5b1pLYzNhSUoteExlSlh0MDRIcjZHempnbnR3N21uMWNYS1NJcEVuZm9NcDk1Z3FObjUxR1VzcVlqZFlkN3BlQWg1VEEwdjZCSDhRNDVCN283eTlLTlpEUExmYW1CQ185VW13ekxCdmxIa3NtRk5sdGc4V1psNFJWT2sxNGpLQ2VxTWM3X2NlWHRaLVRfMVY0N25CS2pYa1NxUVJaVlFabVFUZjE2dTVoR212Y3ZKWE5yY2VxeC1lck5MekpSc0dCUzRxOWZYN2I4QjRCM056Z2c?oc=5"
+        }
+      ],
+      "news_query": "Avengers Doomsday Opening Weekend Box Office",
+      "forecast": {
+        "probability": 0.31,
+        "reasoning": "Tracking of $340-369M+ puts the $360-400M range within reach, especially given strong presales and a 20% rise in domestic ticket sales. However, the Dune: Part Three competition and a December release make the sub-$360M outcome somewhat more likely."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-21T01:23:39Z",
+        "crowd": 0.215,
+        "best_bid": 0.2,
+        "best_ask": 0.23,
+        "volume": 39386,
+        "liquidity": 10013,
+        "fee_rate": 0.01
+      },
+      "bet_note": "Gap vs. the price we'd pay is 8.0 points; counting only part of it (cautious sizing) leaves 3.2, under the 10-point minimum."
+    },
+    {
+      "market_id": "4664520",
+      "event_id": "1040603",
+      "event_title": "Second-Best Chinese AI Company end of November?",
+      "option": "Alibaba",
+      "question": "Will Alibaba be the second-best Chinese AI company at the end of November 2026?",
+      "rules": "This market will resolve according to the second-highest ranked primarily Chinese company based on the arena.ai Text Arena (Overall) when the table under the \"Leaderboard\" tab filtered for \"Labs\" is checked on November 30, 2026, 12:00 PM ET.\n\nChinese Companies include but are not limited to Alibaba, Moonshot, Baidu, Z.ai, Xiaomi, DeepSeek, ByteDance, MiniMax, Meituan, Tencent, and StepFun. Companies not headquartered in China or not primarily owned or operating within the Chinese technology ecosystem are not considered primarily Chinese.\n\nResults from the \"Lab Rank\" column under the \"Text Arena | Overall\" Leaderboard tab at https://arena.ai/leaderboard/text/overall-no-style-control?rankBy=labs with style control off (Adjustments: None) and filtered for \"Labs\" will be used to resolve this market.\n\nNote: Models marked “AutoEval” at the applicable check time will not be considered, regardless of whether they display a rank or score.\n\nQualifying Chinese AI companies will be ordered primarily by their Lab Rank at the market’s check time. If the results based on the lab ranking are ambiguous or unavailable, the relevant qualifying Chinese AI companies will be ordered according to their highest-ranking AI model in the leaderboard’s “Models” view. If two or more models are tied on rank, they will be ordered by their Arena score, including any underlying, unrounded, granular values reflected in the data below the leaderboard. If a tie still remains, alphabetical order of AI company names as listed in this market group will be used as a final tiebreaker (e.g., if the two models are tied by exact arena score, “Meituan” would be ranked ahead of “Xiaomi”). This market will resolve based on the company that occupies second place under this ranking.\n\nThe resolution source for this market is the arena.ai Text Arena (Overall). If this resolution source is unavailable at check time, this market will remain open until the leaderboard comes back online and will resolve based on the first check after it becomes available. If it becomes permanently unavailable, this market will resolve to \"Other\".",
+      "topic": "Tech",
+      "end_date": "2026-12-01T04:59:00Z",
+      "url": "https://polymarket.com/event/second-best-chinese-ai-company-end-of-november",
+      "snapshot": {
+        "time": "2026-11-21T01:21:02Z",
+        "crowd": 0.525,
+        "best_bid": 0.51,
+        "best_ask": 0.54,
+        "volume": 11851,
+        "liquidity": 2534,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "Alibaba Earnings Show AI Is the Stock’s Best Hope, and Biggest Danger",
+          "source": "Barron's",
+          "published": "2026-11-19",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE05SmswZmhQTHpsS2diLXVVVV9MdF9iWlJxdEtEU0p0TlpwRXl6WDhvQnlyU0FHMV9vVmpBWnZvTUhsdGYwcENDZEpDNU14R2ZXcm8tNF9BaVZ1dzhLb09YWXdIQ3lmV3J4UzllUjY0aDlTTUVxcmJSRjF3?oc=5"
+        },
+        {
+          "title": "Alibaba says next-gen Qwen trained on in-house chips amid intensive roll-out of Chinese AI models",
+          "source": "Global Times",
+          "published": "2026-11-19",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE80SWctaUM2YXVqb2o3aUg3VzRvTUJiOVZoTVdNWWctaXh0UWNlaVBHcUVnSnlhT0lkOXloT05QZURIZjBPOUJKSFRUTi1vSzYxTFFPNGxKVUpPcmpNNXFGcTB3?oc=5"
+        },
+        {
+          "title": "Alibaba Earnings Rebound Sharply as AI Profitability Improves",
+          "source": "WSJ",
+          "published": "2026-11-19",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNS2QxUkJfZUlUNEh3Y3g3RTlubVJ3aVRjQjJxekxScUVvMUJwMDRoTHdzb25GLXpyUmpVRVRCTFg4WXlubzF3cnpjeXB4UWEybzBNRDZVdEdmbFJNVWpDc0lLODBycWFRQlJYQWkzRHJ6UWVxZnVNTFpIdXB6M0I2dmthTjZ2bFltMWJSbzMycUJjcjRCSjhERzFqUXlCa3l5UTVvVXVsNEMxMU5h?oc=5"
+        },
+        {
+          "title": "Alibaba Sees Cloud Rebound as In-House Chips Offset US Curbs",
+          "source": "Bloomberg.com",
+          "published": "2026-11-20",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPOTlXNU1PR0JxQm5kaW9KUGN6ZXRhbHhsYllTVlFDMzFlNjkyNXFaRXRzZ2NkdFBNM2ZOTlE4Ni1UVDNVeDFWYXhleDdHVnM3OGJZU1RJbWhxSXMxLWM4TGxRSEJFcEZkV1gyc1pXMlBQSW1KejN1U0FseDQ2eEJneTBRRmdpbk1SVnFRYkg4ZHgzUG9LdnRRYUUtUkhQQVVKWG1qWXZBNVlieG8?oc=5"
+        },
+        {
+          "title": "US AI chip curbs squeeze Tencent and Alibaba as China leans on homegrown silicon",
+          "source": "Crypto Briefing",
+          "published": "2026-11-20",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBPOXhXRzBFQjAzR1gxNWxiLWRtWlU2NVhzeVVJT0RrcHhSMDNLSVpOOTR6S3EwbEQwVEItejIwZkJXWEVQNUlUaWx3bGVzTFMtVDhicnVwU2lSRUpFaDBSN2N2enpvNmd6cWJ3TQ?oc=5"
+        },
+        {
+          "title": "Alibaba Posts Strong AI Cloud Growth But Stock Falls On Mixed Earnings Report",
+          "source": "Investor's Business Daily",
+          "published": "2026-11-19",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPdHpYdjlHSWQyNUVCY3ZIRkhxbUU2YWhxY0JXa2wtajRNajdzeVRpS2NYYTVzZDFyTERCNjZWc3dzX0lhLUtscHpMaERaY0VxX3JEUjVwUlVBdWlWcURKem9yMG5OOGo5QmsyejJVV0JQbmxYSjQ2VXdxTkFtVzFhQXVvNkpTYlotcnQxbGFlaHN2Y2Zj?oc=5"
+        }
+      ],
+      "news_query": "Alibaba second-best Chinese AI company",
+      "forecast": {
+        "probability": 0.3,
+        "reasoning": "Several Chinese labs (Xiaomi, DeepSeek, Moonshot, Z.ai and Alibaba) are competing near the top of Arena. Xiaomi led at the end of October, and Alibaba is rolling out a next-gen Qwen. Alibaba is a strong contender for first or second, but the field is crowded."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-21T01:23:39Z",
+        "crowd": 0.525,
+        "best_bid": 0.51,
+        "best_ask": 0.54,
+        "volume": 11851,
+        "liquidity": 2534,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Gap vs. the price we'd pay is 21.0 points; counting only part of it (cautious sizing) leaves 9.8, under the 10-point minimum."
+    }
+  ],
+  "batch_id": "msgbatch_01Uq6kH76kd1SPwZsNs4ncCs",
+  "forecast_at": "2026-11-21T01:23:38Z",
+  "usage": {
+    "input_tokens": 10964,
+    "output_tokens": 3431
+  },
+  "cost_usd": 0.0562,
+  "budget": 36.3,
+  "account": "phase-1.2"
+}
