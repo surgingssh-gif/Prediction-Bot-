@@ -1,0 +1,511 @@
+{
+  "run_id": "2026-11-22",
+  "date": "2026-11-22",
+  "created_at": "2026-11-22T00:15:11Z",
+  "model": "claude-opus-5-5",
+  "effort": "high",
+  "phase": "1.3",
+  "pick_stats": {
+    "eligible": {
+      "Economy": 5,
+      "Entertainment": 3,
+      "Politics": 26
+    },
+    "picked": 7
+  },
+  "track_record": "=== Your track record so far ===\nThese are your own earlier forecasts in this experiment that have settled (217 questions). They show only what you said and what happened (no market information).\n- On average you said 38%, and 43% of these events happened. So far you have been too low: events happened more often than you said.\n- Your average Brier score is 0.254 (0 is perfect; always saying 50% scores 0.250).\n- When you said...\n    under 10%: it happened 6 times out of 25.\n    10-30%: it happened 23 times out of 65.\n    30-70%: it happened 45 times out of 93.\n    70-90%: it happened 17 times out of 31.\n    over 90%: it happened 3 times out of 3.\n- Your biggest misses:\n    \"Will SpaceXAI officially rename itself to SpaceXSI by October 15?\" You said 3%; it happened.\n    \"Will the Tesla Roadster fly for 1s+?\" You said 4%; it happened.\n    \"Will Xiaomi have the best Chinese AI model at the end of October 2026?\" You said 6%; it happened.\n    \"Will monthly inflation increase by 0.6% in September?\" You said 7%; it happened.\n    \"Will there be between 0 and 5 average daily transits of the Strait of Hormuz on October 31?\" You said 7%; it happened.",
+  "questions": [
+    {
+      "market_id": "6031068",
+      "event_id": "1232497",
+      "event_title": "Spain General Election: Santa Cruz de Tenerife Winner",
+      "option": "PSOE",
+      "question": "Will PSOE win the most seats in Santa Cruz de Tenerife in the 2026 Spanish general election?",
+      "rules": "Legislative elections to elect the 350 members of the Congress of Deputies of Spain are scheduled to take place on November 29, 2026.\n\nThis market will resolve according to the political party that wins the greatest number of seats in the Congress of Deputies of Spain in the constituency of Santa Cruz de Tenerife as a result of this election.\n\nIf the results of the specified election are not definitively known by November 30, 2027, 11:59 PM ET, this market will resolve to \"Other\".\n\nParties will be ranked by the number of seats won by their electoral lists (candidaturas) in the constituency of Santa Cruz de Tenerife, attributed as set out below. If two or more parties are tied on seats, ties will be broken by the total number of valid votes received by their lists in the constituency of Santa Cruz de Tenerife, with higher vote totals ranking higher. If parties remain tied, ties will be broken by alphabetical order of the listed party names. This market will resolve to the party that occupies the highest finishing position after applying this ranking.\n\nSeats and votes will be attributed according to the electoral list on which they were obtained, as reported in the official results, regardless of the party membership of individual candidates. Lists will be attributed as follows:\n\nPSOE: lists of the Spanish Socialist Workers' Party, including the Partit dels Socialistes de Catalunya (PSC) lists in Catalonia.\n\nPP: lists of the People's Party, including the joint UPN–PP list in Navarre.\n\nBroad Front (FA): all Broad Front lists, including Catalunya en Comú in Catalonia, Compromís–Valencian Front in the Valencian Community, and Canarian People’s Unity (UPC) in the Canary Islands.\n\nERC: Republican Left of Catalonia lists, including the joint ERC–Podem lists in Catalonia.\n\nPodemos: only lists presented by Podemos on its own.\n\nCCa: Canarian Coalition lists, including the joint CCa–1º CAN lists in the Canary Islands.\n\nAny other list will be attributed to the party or coalition that presents it, as named in the official proclamation of candidacies.\n\nElectoral cooperation, endorsements, coalition agreements, or subsequent changes in party affiliation or parliamentary-group membership will not be considered.\n\nThis market will resolve based on the results of the elections, as indicated by a consensus of credible reporting. In the case of ambiguity, this market will resolve solely based on the results as reported by the Spanish Ministry of the Interior (https://infoelectoral.interior.gob.es/).",
+      "topic": "Politics",
+      "end_date": "2026-11-30T04:59:00Z",
+      "url": "https://polymarket.com/event/spain-general-election-santa-cruz-de-tenerife-winner",
+      "snapshot": {
+        "time": "2026-11-22T00:15:07Z",
+        "crowd": 0.6,
+        "best_bid": 0.59,
+        "best_ask": 0.61,
+        "volume": 26204,
+        "liquidity": 42690,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "CIS poll: PSOE dominates, Coalición Canaria loses a seat",
+          "source": "Teneriffa News",
+          "published": "2026-11-12",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNX2hPY0dJeVJMMTkwcWNEQUpkLTFSdEh5aTZsR3ZJaGtvalp2M3NLemhybHM3RUJDMHZzUDNraVBOV0J0RW44aGtxY1Uzdlp0Qm1FLVdOdDMwbE1IUzFHWFdTb3FLNzZuV0c1dEpRTE1PNWRyQjR2TVlqcVZkd1dPRllWTjVJOW9kb2JCT0xocXlaWVdoNm5LWVUxbTk3ZnYxc3RNT1hCVFBvNzFRSnEyd0hNR195eE1uSzZ1UG1CRUs3dzFUekQtR25qaklJM21kWEJKeEc4dTRXVEk?oc=5"
+        },
+        {
+          "title": "Frente Amplio disputes the \"useful vote\" of 29N with PSOE and points out 17 provinces to take seats from PP and Vox: the keys to the fight for the last deputy",
+          "source": "El Constitucional",
+          "published": "2026-11-18",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMixgJBVV95cUxNQVo2ZjhrSFU0cGZMcGE2eExLZlU3bG1wdndiMmpnLVF1aEpDd3NjM3NhRERqakNUOFpJVlNNZWdsTWdSWU9xYWoyN2lrSWFCbnVZbmZNaTkzZ1pVRHZSZHFLeTFkWUdNaW5QLWJVX3ozNVF0aUFjY0FHb20wNWwzZUpCREIxMnVPMm9QOE5PYW45a1hDdURqSlNMcHg2emljM2ZTN1JiYkNkSmZkQ0VXSTFkODVUeDlLR2F1cFVFdG5pcmMzRm1JdHZWb1JNbk5fX1QycEFXTnE3UFpJU0ZxRGg5VGlmMlVJOW1KTWgtQUlER2xJTXJUZjZfOWpvcWZvd0FLTm5zYTU4UlNPVkNBM3h4TktwX201VXZNcEFCdmpTa0F0T0JZUUplSVZJbjlYeUNBMUVWVnctU2Q5cFVHT2ZEQ21MQQ?oc=5"
+        },
+        {
+          "title": "Frente Amplio consolidates itself as the decisive vote in 17 provinces by reducing seats for the right without affecting the PSOE",
+          "source": "Demócrata",
+          "published": "2026-11-18",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPSnBJN0dzT0QtekNBaDhhWUFPeTRmcVRYaF9NT1cyR3A2VzZXbmUxRURGS29SVWlVRV84SlZVaVdLMmlTNldUNFl3QjkxZGl5U2I1QTBRNFRRUllUZDNud19OWmFsazZ5bW9UR0cydHZodFJ2VmFLQ0E2bW1yYUFkYUtFTGRacGdBYjNGSmR4eVRTWTVLUGs2elRzUmVCdUU3SERmOVdRQ3hmYV9BdWtzVnFXQ3U3dmcwNXRPd0JlcWoyVncwR3RON2lxOFpkRmVjdHZKcll1NzBTcXRmWTBseEphanNaeHVvMkh0Y01DZXYtNlc4dnpSMFQ2QdIBgAJBVV95cUxPZTFrbWk1SWgyQTdxbWNVWUZxUlk0cmhzN2tqSXdyNWVEb0NvVGxrcWJJUzZncUQzX1JCZ19zUW1ieHRkSGJ0YVBlaFdtN0JxRzJfWXFtM3Bmc2Vlem1uYVRkRkhDQnRKYU5jNVBHRmdUbi1EWGM2UkpnZ2IwbEJBMWdES3pRNTBKYjJGRVRMSGVXd25FR3FxUWRLd1B4a2dZR3B6Q3d4bVdIeTBQbUJuRENpa0NPQUpkVlFFbzY2Sl9kXzRLRHJLdkhUUWhjWjlvU2Fwb2pyX0tqOW5TMFdwVFhwRDRMX2J0aWRoOUxvMVhxM0pZNXFkV1NrcmZwY2Ey?oc=5"
+        },
+        {
+          "title": "General election survey: the PP would be the leading force in all the communities except five, according to GAD3",
+          "source": "Demócrata",
+          "published": "2026-11-10",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiogJBVV95cUxQb1NlVjZ3QmtORVI3d1dWaW9YODhtRzZHY3ZuRzYtWWxkT25nQXZqRjhVcmsybFpZcVRlYWliUE1YQTlwWmRRSmEwRm5EdlhGWlNTQVdUeHFwNkVMMlBUZnZZSWVabmZzbFAtVDNaZHh6aG5jMHJ3X3FsWXJiRXFlQ1BrWFNyc3kydnpGLXJodUlRYmdZTVA1SEplRS11cHdibFVfcUQ5RDlPakphRFlTdUMxZWNHaGFlSmltbmpyNG81T21ET1QxTUlpVHBKM0lVc19tMU9BQUF5by1hX2dGZ1Z2SDVwSmNaMG1NRnBYRmkwX2g4SDdmVmMtZVR2TlhhUTJObjExOTBpMFhqUUlSX1B5UlBKRDlTUmYxT2dnTng1QdIBpwJBVV95cUxQT2tMU0taeFMtLWxnbGI0ZF9lMGw5VmE5T3JBRDkteWVBV29nYTh3UVF4SWNzWDBtY0xGUi1IUVVIbnBRWG1PNWlBcWx1bmljZkF2eTVzU0l0RHhkTy0yRVR4TEI5ZnE1M3JJZzdzMWVoRXpxc3BLTkFkUWhxUDJCVHFHYllKYmxwVjNCZWoxN2hySzZ1ZFR3SzZDUEZKRmlJb3ExNktUV21wVXpuVXpYcV9mRFZDRUZiSkNRbmVvLVh3azJRM1VOWDdTZ1lvLWpuTUg4bm1Fcy16TDVETjY3RWFUTXJvVlpTejNGRF9EQ3hQLWV4RHZCaVpxOUZVWkdWNVVYUGJMUzFuTkFDYXA4SURkTHdqQUZjcDVMZU55d3NxLVM0VDhF?oc=5"
+        }
+      ],
+      "news_query": "PSOE win seats Santa Cruz de Tenerife",
+      "forecast": {
+        "probability": 0.58,
+        "reasoning": "Santa Cruz de Tenerife has 7 seats, and PSOE usually tops the vote there. In 2023 it won about 3 seats to PP's 2. A CIS poll of the Canaries says PSOE dominates, but the GAD3 poll shows PP surging nationally, and a 2-2 tie would come down to votes. PSOE is a modest favourite."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-22T00:16:44Z",
+        "crowd": 0.6,
+        "best_bid": 0.59,
+        "best_ask": 0.61,
+        "volume": 26204,
+        "liquidity": 43546,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Gap vs. the price we'd pay is 1.0 points; counting only part of it (cautious sizing) leaves 0.0, under the 10-point minimum."
+    },
+    {
+      "market_id": "5998044",
+      "event_id": "1226701",
+      "event_title": "\"You Can See Everything\" total domestic gross by November 30?",
+      "option": "100-125M",
+      "question": "Will the total domestic gross for \"You Can See Everything\" be between $100M and $125M by November 30?",
+      "rules": "This market will resolve according to how much \"You Can See Everything\" box office will gross domestically from its opening (October 16, 2026) through November 30, 2026.\n\nThis market will resolve as soon as a final (i.e., not studio estimates) cumulative figure through November 30, 2026 is available, and no later than December 30, 2026, 11:59 PM ET. The primary resolution source is the \"Total Gross\" figure for November 30, 2026 in the \"Daily Box Office Performance\" table on the \"Box Office\" tab of this movie's The Numbers (https://www.the-numbers.com/) page. If The Numbers does not have a final figure by December 30, 2026, 11:59 PM ET, this market will resolve according to the \"To Date\" figure for November 30, 2026 on the \"Domestic Daily\" tab of this movie's Box Office Mojo (https://www.boxofficemojo.com/) release page. If a source lists no figure for November 30, 2026, its figure for the most recent listed date before November 30, 2026 will be used.\n\nIf neither source has a final figure by December 30, 2026, 11:59 PM ET, this market will resolve according to the figure The Numbers reports at that time, or, if The Numbers reports none, the figure Box Office Mojo reports at that time. If neither source reports any figure by December 30, 2026, 11:59 PM ET, this market will resolve to the lowest bracket.\n\nIf the reported value falls exactly between two brackets, then this market will resolve to the higher range bracket.\n\nThis market will resolve according to the cumulative domestic gross until and including November 30, 2026, regardless of whether domestic refers to only the USA, or to USA and Canada, etc.",
+      "topic": "Entertainment",
+      "end_date": "2026-12-01T04:59:00Z",
+      "url": "https://polymarket.com/event/you-can-see-everything-total-domestic-gross-by-november-30",
+      "snapshot": {
+        "time": "2026-11-22T00:15:07Z",
+        "crowd": 0.086,
+        "best_bid": 0.08,
+        "best_ask": 0.092,
+        "volume": 59721,
+        "liquidity": 6624,
+        "fee_rate": 0.01
+      },
+      "news": [
+        {
+          "title": "Box Office: ‘You Can See Everything’ Becomes Second-Biggest Doc Ever in North America With $80 Million",
+          "source": "Variety",
+          "published": "2026-11-08",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNN3N0NV9oOHVRTGRicUs5bzRMcmJMQ29zZk51V1lhVFJkQloyc0lIVGUwUjlXSmRxVVVuWEZxTzdKTUtWWXludVA0ejdEaVlsR1JUcEdnVjdVQ3BIQ1RpOG5xMXJGcE1IRTliZHZpX09NaGZXWWtEN0Q4YldadEVDM1hSMFNsSjBrWkVBVjluUm1HZFpOSkJ1bzdsRUFtQW0zWTVPcjdZVi1yNDg2MnFHVjQwZnRmZlRpTFA2Q2pQZENLWUVlZWh3UndCeDhSNHhlQWc?oc=5"
+        },
+        {
+          "title": "‘Sit with the discomfort’: Examining the fact and fiction of ‘You Can See Everything’",
+          "source": "YaleNews",
+          "published": "2026-11-10",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNbmJqZEtmaUk2ajZ6V2FKY0IwRUV6eDdsWm9sWHIyZ2pDSks4Y3hYYmJlazJ3aWdMcFFsblZQLVdIUWtYRTFHTDlKWUZzaUdGenRnMktmSUFVYTEwNU5aUTlvblVobHBvdTdocXh3d1YwTGxaeFB4SFVCUFlIWElOeUowZm9helVPYmhrbHBYcEtsSHp5ZWFfVkp1Tm5ydw?oc=5"
+        },
+        {
+          "title": "‘You Can See Everything’: Elizabeth Holmes Documentary Crossing $100M Worldwide Tonight",
+          "source": "Deadline",
+          "published": "2026-11-20",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNb0RJdnIyU3JQblNBdVdIRnNGMEx2cGVmUDRwNFBkMGRRakFCenIzYWUyWE5ONGpBM2F6TzNUdktEY3FIZG51V2E5R3lHMW5PbkpUY0tCSzNmNVFhcnRONlRFZWNWMGVpUkQxbUJtNFpyTXlaYnQ4NGJabU9fV2tBbk5xOHlKQ1NJ?oc=5"
+        },
+        {
+          "title": "Box Office: ‘You Can See Everything’ Hits $80 Million, Becoming A24’s Third-Biggest Domestic Release",
+          "source": "IndieWire",
+          "published": "2026-11-08",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPX0dKX3owOURKOGxJSmFZM3R1VWxWVWdjQndtZTdRdjNHeWRsaGx2Z0xTQVFMM3lRQW9UYnNBemZ0aTU3X2RmMkowaXZlcXFDZzk2U1I2blhvMFRUbGRBWkRxOEZBaEpESVpFRmdMNkVsS0VVM2VpMEJnYmVLVlc4aUpOazh3aTNsOTFJSElIVGJHd25HVFg4TEhxSXF4cnJpLUVKSVBPUWIzYU5xVmF4bA?oc=5"
+        },
+        {
+          "title": "Billy Evans Secured a Cut of ‘You Can See Everything’ Profits After All — and Gave It to Charity (Exclusive)",
+          "source": "The Hollywood Reporter",
+          "published": "2026-11-20",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQdThJNEcwNzFEdE5ncW1PSURWblROR1RXbFBnenRDdVBDRk80Y2J1bHU0NGhfdGZKMWFjV1BmVVozMWoxcnh0Rnd2TUM3SjNwV0Q3TV9sVlY1MzlzSUlNWEk2eVhhLTMxSy05bmFmVXhnN28wbzRCdWo3ZEFQWTN6c19kWjRlMnhDTkdad1M4SFlZODBKam9sX25fdnFlRGV3NFdzTklFaFM2QnJKSURNenVPWUVHVFlkVEhR?oc=5"
+        },
+        {
+          "title": "Australian Box Office: ‘You Can See Everything’ Claims Crown After Record-Breaking US Run",
+          "source": "Variety Australia",
+          "published": "2026-11-16",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQbjM0TVk3S0p1NmJLb0hDMmYtMV9ZcFVPNnozMThJOEo1YzdkMGpKVGFLZWowT0stR3NhYXRtb2piUU94NkxOeHZHNVk5UmFGRHF1MlliR2RZOFpSLXhlZjJhQ3BPNFc4UkM1TWpENnI0TElRM2d4UFZXTHF0Z1BtMGt0bG9hX0JobjBUX3RsMzNJYkJKbUw4ejltc0dFMkVJamx1Nzdn?oc=5"
+        }
+      ],
+      "news_query": "total domestic gross You Can See Everything",
+      "forecast": {
+        "probability": 0.27,
+        "reasoning": "The film was at $80M domestic on Nov 8 and crossed $100M worldwide around Nov 20. That implies domestic was roughly $85-92M by then, given a meaningful international run led by a record Australian opening. With falling weekly grosses plus a Thanksgiving bump, it should finish near $92-100M by Nov 30, so reaching $100M is possible but less likely than not."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-22T00:16:44Z",
+        "crowd": 0.086,
+        "best_bid": 0.08,
+        "best_ask": 0.092,
+        "volume": 59721,
+        "liquidity": 6767,
+        "fee_rate": 0.01
+      },
+      "bet_note": "Gap vs. the price we'd pay is 17.8 points; counting only part of it (cautious sizing) leaves 8.6, under the 10-point minimum."
+    },
+    {
+      "market_id": "6031067",
+      "event_id": "1232497",
+      "event_title": "Spain General Election: Santa Cruz de Tenerife Winner",
+      "option": "PP",
+      "question": "Will PP win the most seats in Santa Cruz de Tenerife in the 2026 Spanish general election?",
+      "rules": "Legislative elections to elect the 350 members of the Congress of Deputies of Spain are scheduled to take place on November 29, 2026.\n\nThis market will resolve according to the political party that wins the greatest number of seats in the Congress of Deputies of Spain in the constituency of Santa Cruz de Tenerife as a result of this election.\n\nIf the results of the specified election are not definitively known by November 30, 2027, 11:59 PM ET, this market will resolve to \"Other\".\n\nParties will be ranked by the number of seats won by their electoral lists (candidaturas) in the constituency of Santa Cruz de Tenerife, attributed as set out below. If two or more parties are tied on seats, ties will be broken by the total number of valid votes received by their lists in the constituency of Santa Cruz de Tenerife, with higher vote totals ranking higher. If parties remain tied, ties will be broken by alphabetical order of the listed party names. This market will resolve to the party that occupies the highest finishing position after applying this ranking.\n\nSeats and votes will be attributed according to the electoral list on which they were obtained, as reported in the official results, regardless of the party membership of individual candidates. Lists will be attributed as follows:\n\nPSOE: lists of the Spanish Socialist Workers' Party, including the Partit dels Socialistes de Catalunya (PSC) lists in Catalonia.\n\nPP: lists of the People's Party, including the joint UPN–PP list in Navarre.\n\nBroad Front (FA): all Broad Front lists, including Catalunya en Comú in Catalonia, Compromís–Valencian Front in the Valencian Community, and Canarian People’s Unity (UPC) in the Canary Islands.\n\nERC: Republican Left of Catalonia lists, including the joint ERC–Podem lists in Catalonia.\n\nPodemos: only lists presented by Podemos on its own.\n\nCCa: Canarian Coalition lists, including the joint CCa–1º CAN lists in the Canary Islands.\n\nAny other list will be attributed to the party or coalition that presents it, as named in the official proclamation of candidacies.\n\nElectoral cooperation, endorsements, coalition agreements, or subsequent changes in party affiliation or parliamentary-group membership will not be considered.\n\nThis market will resolve based on the results of the elections, as indicated by a consensus of credible reporting. In the case of ambiguity, this market will resolve solely based on the results as reported by the Spanish Ministry of the Interior (https://infoelectoral.interior.gob.es/).",
+      "topic": "Politics",
+      "end_date": "2026-11-30T04:59:00Z",
+      "url": "https://polymarket.com/event/spain-general-election-santa-cruz-de-tenerife-winner",
+      "snapshot": {
+        "time": "2026-11-22T00:15:07Z",
+        "crowd": 0.405,
+        "best_bid": 0.4,
+        "best_ask": 0.41,
+        "volume": 22669,
+        "liquidity": 49820,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "5 key places that signal where Spain’s election is heading",
+          "source": "POLITICO.eu",
+          "published": "2026-11-19",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOMlFWOWdJYWo3UmZkMHpFd2FscE1HUzhJVzdMeEVZRGJnUlVKZUY1RDh0S2xyU21UVV9iN2ZjOWFNOV9HdS11Qm5DcVFyVU9EcW9EaS15TnJ2dEhwU1ViS2dVLXlCQU9oVHc5dldsN0k4RjJ2SVVyekRjUlE1NG1EN3F0eExqTnlFYmZIejZZTjYxVnNy?oc=5"
+        },
+        {
+          "title": "Spain's rental shortage: 12 cities have fewer than 30 homes available",
+          "source": "Idealista",
+          "published": "2026-11-20",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNeVJXVXVZRVd6Q01yTHVYRzlmMVo2X3ZwS1F1RHF6a0QzWDI2RW04YS0xU1AtNFpKM1FpVlc5cUEyejBoQzVJYU1MMXo5dGhnUnBOcDMyLTBSbDNQdXB0SEF3NVNibzRza0pNZnJhZjJXeWhEeUhsazBPZUVfRkItNWY5TklPWWRyV1FseWZUd3FaRmpBZVNnVDNnOENQLV80TldWSllnb19RZ21EclVkdlo0aUdMZTV0NzJUNmxxV0JQbmY5QTh6TUpKR2RDbUNjSWROMk9wd3hMaXVyd2NYYtIB5gFBVV95cUxOQkI0Y21lRzJIZjJFemNFU1NyVkZ0cGxBUFdDWmpPZnhKSkpvekFRbG02V0FLdHNqeG1hT2JPTFJiTU4wWHZwTjdXX1BVbUJ2T3lONWJYbk9ha1gtMVNHT3BIMzA4dVoxdE1ad1o3d21CandYMVpRd2RCM2NTOGxsLVZLcFBTVHBFQ2duTnI1eUNTd0ZnSF80ZlhCeFVELVhSblU1eU1JRC0zYjIyUDQtRy1UMGpzX2l6cFZoR2N2VjdCRE5iOGJ3ZzFKR2pydG1wU18tLXIyYWRINVVhWFNGYk5LYnc4QQ?oc=5"
+        },
+        {
+          "title": "UPC demands removing the Francoist victory monument in Santa Cruz de Tenerife",
+          "source": "Demócrata",
+          "published": "2026-11-20",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPSjdoZ1FvTmJPRktQRWVGd293Y2V1OWcxRkVTdEJfV0M1eTVaRFpRQnB2YTdjLTJGT2J2MnR5VjFWRkhDNkJ5SVNSOG9MYWxpc3Myclh6OFdNRFRlbXhrZTgxQi1hSzFlZVk4UldXX3RfQnQtMmJINWdhcVZ2X09GZkp3TjVkVjFZUDBMUm1GTlN0VndHWjB6cWdwV3ZCM2FkanpOUlFQNS0wOHFmT0dtOEJJcDJ2QdIBuwFBVV95cUxPMk04ZjM4VzVIS2VMQjhrN3Z6dTNrUGpBUkE1UjgyM1JWQkRlckloX2NtQjdkTE5ZcFFqZXF6eV8zSXBERUZ1LVBPZXBCS2p2ejg2TEZzWXVQRk93TG1xUGZTNTFIdW1Bem45dk54V3BrS05aUThrUU5wdUlQT0ZFSXBkclJrZzhvZDhlS0tNc2xYZXlCVlN4TmdUbmVwZFNHdGtLcDA2a1U3RzQxZi1XOUlBMkNPUUR5Z0Jj?oc=5"
+        }
+      ],
+      "news_query": "PP win seats Santa Cruz de Tenerife | Spain General Election Santa Cruz de Tenerife",
+      "forecast": {
+        "probability": 0.35,
+        "reasoning": "PP is surging nationally and could tie PSOE on seats or edge ahead in Tenerife. However, PSOE historically leads the vote there, and Canarian polling still favours PSOE. That makes PP the second most likely winner."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-22T00:16:44Z",
+        "crowd": 0.405,
+        "best_bid": 0.4,
+        "best_ask": 0.41,
+        "volume": 22669,
+        "liquidity": 48734,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Gap vs. the price we'd pay is 5.0 points; counting only part of it (cautious sizing) leaves 2.2, under the 10-point minimum."
+    },
+    {
+      "market_id": "3581418",
+      "event_id": "848408",
+      "event_title": "Tainan Mayor Election Winner",
+      "option": "Hsieh Lung-chieh",
+      "question": "Will Hsieh Lung-chieh win the next Tainan Mayor election?",
+      "rules": "Taiwanese local elections are scheduled to be held on November 28, 2026.\n\nThis market will resolve according to the candidate who becomes the next Mayor of Tainan as a result of this election.\n\nTemporary, interim, or placeholder Mayors appointed before the election will not be considered.\n\nIf the result of this election isn't known, or no candidate has been elected, by June 30, 2027, 11:59 PM ET, the market will resolve to \"Other\".\n\nThis market will resolve based on the results of the elections as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the Taiwanese government, specifically the Central Election Commission (https://db.cec.gov.tw/).",
+      "topic": "Politics",
+      "end_date": "2026-11-29T04:59:00Z",
+      "url": "https://polymarket.com/event/tainan-mayor-election-winner-20260813125857500",
+      "snapshot": {
+        "time": "2026-11-22T00:15:07Z",
+        "crowd": 0.057,
+        "best_bid": 0.045,
+        "best_ask": 0.069,
+        "volume": 24180,
+        "liquidity": 112622,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "Chen Ting-fei accuses KMT rival of misleading voters over Tainan solar panels",
+          "source": "Taiwan News",
+          "published": "2026-11-18",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1HZHVTY2YwMXZOWFdWWVZUWTYydjBZTURqZVF3VjNfbXJfY20wQTlvRmF4dnBjaUJZNDRZZDV0cnFWMV83Q2VMTV9HSHFsamdXcmFnaQ?oc=5"
+        },
+        {
+          "title": "Tainan mayoral candidates to outline policies in 2 televised debates",
+          "source": "Taiwan News",
+          "published": "2026-11-13",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5JZWFrN1FkN2FtTHlqUUU4NmVsLTM1Y3BlZWFlOVpfeWhkc3JqT2JDYTB3bXpkaTFUMGFUdVlyM0xKTFd1dkwyb0xxMER2c3NuMlhKdw?oc=5"
+        }
+      ],
+      "news_query": "Hsieh Lung-chieh win Tainan Mayor election | Tainan Mayor Election Winner Hsieh Lung-chieh",
+      "forecast": {
+        "probability": 0.18,
+        "reasoning": "Tainan has been a DPP stronghold for decades. Hsieh Lung-chieh lost clearly in 2022. Some polls showed him competitive against DPP candidate Chen Ting-fei, but the structural lean strongly favours the DPP."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-22T00:16:44Z",
+        "crowd": 0.057,
+        "best_bid": 0.045,
+        "best_ask": 0.069,
+        "volume": 24180,
+        "liquidity": 112622,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Gap vs. the price we'd pay is 11.1 points; counting only part of it (cautious sizing) leaves 5.0, under the 10-point minimum."
+    },
+    {
+      "market_id": "6920150",
+      "event_id": "1353411",
+      "event_title": "\"The Cat in the Hat\" total domestic gross by November 30?",
+      "option": "45-55M",
+      "question": "Will the total domestic gross for \"The Cat in the Hat\" be between $45M and $55M by November 30?",
+      "rules": "This market will resolve according to how much \"The Cat in the Hat\" box office will gross domestically from its opening (November 5, 2026) through November 30, 2026.\n\nThis market will resolve as soon as a final (i.e., not studio estimates) cumulative figure through November 30, 2026 is available, and no later than December 30, 2026, 11:59 PM ET. The primary resolution source is the \"Total Gross\" figure for November 30, 2026 in the \"Daily Box Office Performance\" table on the \"Box Office\" tab of this movie's The Numbers (https://www.the-numbers.com/) page. If The Numbers does not have a final figure by December 30, 2026, 11:59 PM ET, this market will resolve according to the \"To Date\" figure for November 30, 2026 on the \"Domestic Daily\" tab of this movie's Box Office Mojo (https://www.boxofficemojo.com/) release page. If a source lists no figure for November 30, 2026, its figure for the most recent listed date before November 30, 2026 will be used.\n\nIf neither source has a final figure by December 30, 2026, 11:59 PM ET, this market will resolve according to the figure The Numbers reports at that time, or, if The Numbers reports none, the figure Box Office Mojo reports at that time. If neither source reports any figure by December 30, 2026, 11:59 PM ET, this market will resolve to the lowest bracket.\n\nIf the reported value falls exactly between two brackets, then this market will resolve to the higher range bracket.\n\nThis market will resolve according to the cumulative domestic gross until and including November 30, 2026, regardless of whether domestic refers to only the USA, or to USA and Canada, etc.",
+      "topic": "Entertainment",
+      "end_date": "2026-12-01T04:59:00Z",
+      "url": "https://polymarket.com/event/the-cat-in-the-hat-total-domestic-gross-by-november-30-20261108",
+      "snapshot": {
+        "time": "2026-11-22T00:15:07Z",
+        "crowd": 0.28,
+        "best_bid": 0.26,
+        "best_ask": 0.3,
+        "volume": 14755,
+        "liquidity": 2537,
+        "fee_rate": 0.01
+      },
+      "news": [
+        {
+          "title": "‘The Cat In The Hat’ Holds At No. 2 As ‘Wildwood’ Passes ‘Kubo’",
+          "source": "Cartoon Brew",
+          "published": "2026-11-16",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPYzRQQXRYaWtqZm40Z0UyYUlDeENrS3lUUkJINDNpMHF0V0JQZmNCZnVZU29XMngwcjRLdHNDeXU5R1AyRHdPRGgzVW91VHhSMndMa3loRTlhZlA2WTI4cDFCUHNWWHlYcGc3Q1NyQ09NU2xZM29DbnZSWmZxVnRCRGl6cVp1WDczbDhyVGM0LXphaGtmdzdR?oc=5"
+        },
+        {
+          "title": "Warner Bros.’ ‘The Cat in the Hat’ Lands at No. 2, Scratches Up $20 Mil at the Box Office",
+          "source": "Animation Magazine",
+          "published": "2026-11-08",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVW5GX20zMmpsX09YQ1dJbFhuTWY0SUh5ZDlyYldqUE1uam1NVG5LQm9iOVUxN20wVjdGb1BOWjM1TGRfaFpBVXVkWF9hVDRSZ0l1MGdteXJxV0JReG03MG91Y0cycGJjWFd1akxvNkRpckhNTlFNSW5XTklmZlRtYlVOcFl0UFY2M196ZEFpclk5MEtaM0NHTFRMSmstclV6UjY1UzlKckZnbnF2QkRBVkNpM1Y5U2hESERCbm42LVY3NDg?oc=5"
+        },
+        {
+          "title": "Box Office: ‘Godzilla Minus Zero’ Roars With $30 Million Debut, ‘Cat in the Hat’ Fizzles With $20 Million",
+          "source": "Variety",
+          "published": "2026-11-08",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPZ2RmckJiX0tYT1hmeTdrcDI3ZFhmR2VicmJqNGlpSDQwTVhJakZxYlRiMGQzVFBlTzlRbldKclNfbTduUHloT2lyN0tvMndFSXdYakItVy1MbnZMbjBKX053c053eDI5enRvRXJsbWl3cTByUXZxTTlxcVcyY0VNOUlYazNCOU1SOWJoSlZVcTcwR2htWm9wbVFjZUxvVHg5a1FJcjZfWjJ0OVVNWG40eTF5TlF1eFNHV2FHQ1d6RQ?oc=5"
+        },
+        {
+          "title": "The Cat In The Hat North America Box Office: Positive Word Of Mouth Provides A Cushion, But $20M+ Opening Falls Miles Behind The Lorax & The Grinch!",
+          "source": "IMDb",
+          "published": "2026-11-17",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1ZZTZ3a2VIVDVuSlctY0FGN3FEMVc5V0QxWjlSeHppdUNCdE5sakJNTnY1ZVJpWlFDTFVlUk1EVEItQ0h3MnVzVGZKY3FIUQ?oc=5"
+        },
+        {
+          "title": "'Godzilla Minus Zero' stomps to a record-setting $31.6 debut, clobbering 'The Cat in the Hat'",
+          "source": "Audacy",
+          "published": "2026-11-08",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQVUxyTFh2RUEzc2RNQUVjM0l1U1hRT29ELXNTM2hEY29JOHVCUFZlcDhoSU9FQ3NveWU5NmNxb09ycHFMVzRQWXAzM1NadnY1WV9Bd2Z6YlhUOXQ1TTBCT1lIUHd1elc5T3FFYjZwSnM2by1wUEJWUGoza1pPOHgyc2diYnJVM3RpVlZydU5NcUFGYklSZWptSjE2aExSZmNjelNZVnJOUU1CdDQ?oc=5"
+        },
+        {
+          "title": "Weekly Box Office: 'Godzilla Minus Zero' Roars to the Top as 'The Cat in the Hat' Disappoints",
+          "source": "Film Focus Online",
+          "published": "2026-11-10",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNU25WYU5GTkJFY1NmWmF3THNQREJKZlRLN3hmMlNZT1F3TUJneTRqTG82dEF3UktpejBfNnp0aHJMVzlTcnVkeFZtUkFpbTV0REdwRXlqbno4OGtLb3VZSmZVOWx5NW5NMExPQlFlYkppSDNuS1JmelRUYkJoUE5iVlZBMFRZNlRPTjlKWkhMSHhmYXFkY2RYMg?oc=5"
+        }
+      ],
+      "news_query": "total domestic gross Cat Hat",
+      "forecast": {
+        "probability": 0.35,
+        "reasoning": "It opened to about $20M and held at No. 2 in week two with good word of mouth. Typical family-film decay plus the Thanksgiving holiday projects roughly $52-62M by Nov 30. The $45-55M bracket is plausible if holds are weaker against new competition."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-22T00:16:44Z",
+        "crowd": 0.28,
+        "best_bid": 0.26,
+        "best_ask": 0.3,
+        "volume": 14755,
+        "liquidity": 2424,
+        "fee_rate": 0.01
+      },
+      "bet_note": "Gap vs. the price we'd pay is 5.0 points; counting only part of it (cautious sizing) leaves 1.5, under the 10-point minimum."
+    },
+    {
+      "market_id": "5785092",
+      "event_id": "1201178",
+      "event_title": "Central Bank of Colombia decision in December",
+      "option": "25 bps increase",
+      "question": "Will the Central Bank of Colombia increase the monetary policy interest rate by 25 bps at the December meeting?",
+      "rules": "This market will resolve according to the change in basis points in the monetary policy interest rate resulting from the December 2026 meeting of the Central Bank of Colombia (Banco de la Republica), relative to the level it was prior to this meeting.\n\nThe resolution source will be official information from the Central Bank of Colombia, including the statement or release from its December 2026 meeting, scheduled for December 18, 2026, as listed on the official Central Bank of Colombia calendar (https://www.banrep.gov.co/es/calendario-eventos). This market may resolve as soon as the statement or release of the Central Bank of Colombia's December 2026 meeting with relevant data is issued.\n\nIf the specified rate is defined by an upper and lower bound, the relevant change will be the change to the upper bound.\n\nIf the specified rate is changed to a level not expressed in the displayed options, the change will be rounded according to the following guidelines. Increases or decreases of less than 25 bps will be rounded to 25 bps (e.g. an increase or decrease of 10 bps would be considered to be an increase or decrease of 25 bps). Increases or decreases of greater than 25 bps will be rounded to the nearest 25 bps and will be rounded away from 0 in cases of equidistance (e.g., an increase or decrease of 37.5 bps would be considered to be an increase or decrease of 50 bps). Displayed options of “Increase” or “Decrease” will include policy rate increases or decreases of any size.\n\nIf the specified meeting is postponed to a date and time before the start of the next scheduled meeting, this market will resolve based on the outcome of that postponed meeting. If the specified meeting is cancelled, or postponed such that no decision is announced by the start of the next scheduled meeting, this market will resolve to the “No Change” bracket. Emergency changes to the specified rate not resulting from the specified meeting will not be considered.",
+      "topic": "Economy",
+      "end_date": "2026-12-18T00:00:00Z",
+      "url": "https://polymarket.com/event/central-bank-of-colombia-decision-in-december-2026",
+      "snapshot": {
+        "time": "2026-11-22T00:15:07Z",
+        "crowd": 0.2765,
+        "best_bid": 0.263,
+        "best_ask": 0.29,
+        "volume": 13047,
+        "liquidity": 3259,
+        "fee_rate": 0.01
+      },
+      "news": [
+        {
+          "title": "Colombia’s Inflation Edges Up to 6.30% as Services Account for Two-Thirds of the Monthly Rise",
+          "source": "Finance Colombia",
+          "published": "2026-11-17",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOeXF3ckdwR05YQ0NVYzNYRHZPaGxENEpFSnFLd29LUGxMS3VnWUp3eFhxVGwwSHlmVklEOFAxc1ZxcmNTMlNCalRQcFhocHBSdTdnbDN5VG0tODZtbGpiSHJJSFIwUEpUTVNxdGg4ekFuNmtsMHpabU1YYkZpMk03S25lXzBaUzJIVDhKNGVha0JNTXJjalUxOG9GZGRfV25uQVZGdW9oLXRuaXMxOVFNWkRRSERoWmZlNlhuNTJ6NWl2Zw?oc=5"
+        },
+        {
+          "title": "Dollar Surges Past $3,300 as Colombia’s Inflation Rises",
+          "source": "ColombiaOne.com",
+          "published": "2026-11-11",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOcFdXNU5MZHpvRHJqcVZoOUVSal9wemF1ZEVybllCZmstUWJ2WGs3M21Kd05pdlRxZWVLRVhhOW5zcGFRQ2M5cHhOWjhTcW5GakNZbUJJZnI2RkNDZ2tUdW5LZjRGY185VGJRaGFDVGdKOVE3emxyNFQ1Ml9OaFlyc1M4UHA?oc=5"
+        },
+        {
+          "title": "Colombia’s Economy Slowed More Than Expected in Third Quarter",
+          "source": "Bloomberg.com",
+          "published": "2026-11-17",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNNC1yMTN1MFA4aDJ2OHZKS25hODUxNlRQSWdqMFdKelZ1RHNGS0lTb0t6d1Z0RmpkcjhSSDdwWlN2TGlGR2Vhb2VMcDJvTHQ4NkduY2llTXA1R1VQYnN5WU9zazJmMGRrWmVqUnNOanJFb2hXZ1J3YUphUWJ4RTBtSHpIazg4ZFRIR003SFVhcW0zTE9ydEl3OHdvN0p0X2JjalY4b1FJSmlmaGswMzVzOG9n?oc=5"
+        },
+        {
+          "title": "Colombia’s Rescue Bill Reaches Congress With a $51 Trillion COP Adjustment for 2027",
+          "source": "Finance Colombia",
+          "published": "2026-11-17",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPQmtKS2c5SzBwN2s1UWhucHBVT28tY0trUW1DLVpEQ0ZLZXMyeHUyTV9TeVpiTVBlckFkTm9JdGVieXd6bXc4WTB2Ui1QdFlsU2g3OFplTm9IUnZHQW1nQUVQd0tpMUNIMW1DbUxaR0RCeE1RUG15ZG0tVGpUcF9yTUJTNjI5YjcxSmU4RkpOckNiVEJYM1pMRjZ4Q2daM0V6U3pVSGdzVko?oc=5"
+        },
+        {
+          "title": "Galipolo: Brazil Central Bank to Keep Tight Policy Despite Economic Pressure - News and Statistics",
+          "source": "IndexBox",
+          "published": "2026-11-10",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNLUhzR0Q2cW1KSG13OUI0a1hFTkg3N2F3bE1rS1FHeTlZdHJ1Zzg0WFptSkgwOVFtaE0xMDJ5MkVNU0NxdWY4dWttZDlpYTlxSFVJTjQ0VGdaU3pDZVN3X19SZW11V0tUaS1YMHZlRTlDTTZ4bWlqQldZdXhvbEt6bUR1ZEh6N0JCbEEzU1dCNE9URHl5a3VQakQ0dWRjZ3kzcVFmWG82RC1lS2pqMmc?oc=5"
+        },
+        {
+          "title": "IMF Backs Adjustment to Colombia’s Economic Rescue Law, but Issues a Warning",
+          "source": "ColombiaOne.com",
+          "published": "2026-11-18",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbmV2RmxvRXpCbTNGRjZoOEprVkZVQUJvWGlOYVdWNjJHempLUXNwRndMeDZHc2RvRWhzenloQ0U1X0tGTXRwVXdEU21YcHdmOTh5RjFyNC0wc3R1YVFXMmlXVnQ3aVRJSmM5V1ZHbTltRXNXTHVfYWU4VF91TGl2MGpuWVcwa09qTmdHQ0FCVzhKRFFVWXNVYnZjTHRfSnJfRF81WE1pRnM0R2k1WVNR?oc=5"
+        }
+      ],
+      "news_query": "Central Bank Colombia increase monetary policy interest | Central Bank Colombia increase monetary policy economists forecast",
+      "forecast": {
+        "probability": 0.25,
+        "reasoning": "Inflation is rising again (6.30%) and well above the 3% target, and the peso is weakening, which argues for tightening. But growth slowed more than expected and there is political pressure against hikes. A hold or a larger move are both live alternatives, so a 25bp hike specifically is a minority outcome."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-22T00:16:45Z",
+        "crowd": 0.2715,
+        "best_bid": 0.253,
+        "best_ask": 0.29,
+        "volume": 13047,
+        "liquidity": 3219,
+        "fee_rate": 0.01
+      },
+      "bet_note": "Gap vs. the price we'd pay is 0.3 points; counting only part of it (cautious sizing) leaves -0.8, under the 10-point minimum."
+    },
+    {
+      "market_id": "4570988",
+      "event_id": "1025328",
+      "event_title": "Bank of Russia decision in December?",
+      "option": "No change",
+      "question": "Will the Bank of Russia announce no change at the December 2026 meeting?",
+      "rules": "This market will resolve according to the change in basis points in the key rate resulting from the December 2026 meeting of the Bank of Russia, relative to the level it was prior to this meeting.\n\nThe resolution source will be official information from the Bank of Russia, including the statement or release from its December 2026 meeting, scheduled for December 18, 2026, as listed on the official Bank of Russia calendar (https://www.cbr.ru/eng/dkp/cal_mp/#t13). This market may resolve as soon as the statement or release of the Bank of Russia resulting from its December 2026 meeting with relevant data is issued.\n\nIf the specified rate is defined by an upper and lower bound, the relevant change will be the change to the upper bound.\n\nIf the specified rate is changed to a level not expressed in the displayed options, the change will be rounded according to the following guidelines. Increases or decreases of less than 25 bps will be rounded to 25 bps (e.g. an increase or decrease of 10 bps would be considered to be an increase or decrease of 25 bps). Increases or decreases of greater than 25 bps will be rounded to the nearest 25 bps and will be rounded away from 0 in cases of equidistance (e.g., an increase or decrease of 37.5 bps would be considered to be an increase or decrease of 50 bps). Displayed options of “Increase” or “Decrease” will include policy rate increases or decreases of any size.\n\nIf the specified meeting is postponed to a date and time before the start of the next scheduled meeting, this market will resolve based on the outcome of that postponed meeting. If the specified meeting is cancelled, or postponed such that no decision is announced by the start of the next scheduled meeting, this market will resolve to the “No Change” bracket. Emergency changes to the specified rate not resulting from the specified meeting will not be considered.",
+      "topic": "Economy",
+      "end_date": "2026-12-18T23:59:00Z",
+      "url": "https://polymarket.com/event/bank-of-russia-decision-in-december",
+      "snapshot": {
+        "time": "2026-11-22T00:15:07Z",
+        "crowd": 0.8,
+        "best_bid": 0.79,
+        "best_ask": 0.81,
+        "volume": 27736,
+        "liquidity": 10136,
+        "fee_rate": 0.01
+      },
+      "news": [
+        {
+          "title": "'Inside Deutsche Bank': Despite scandals and war in Ukraine, bank maintained business ties with Russians",
+          "source": "Le Monde.fr",
+          "published": "2026-11-17",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNdlhLVWVJSldTeVBWZDVmVjBRX0NYMmlCRDgzMFdiZ0s4UnR6dHktNzd1bXJWc29tWG9ENjJHVnZEdko5d2lHUnRJMFFEY0cxV0pZTHNNSWdGSXktREMyMUZlZTV5OVdZc2JSdnpPRkdkZzdRM2E5MWlkbmJSU3YzN0ZpOE8zMXAtZDU4NkVrOFJrNkstQk52bDJ4MkxiYnl5RmNJZ2RZWDY1T2NxNHpQVjl2OHNETDdxb0FkT1dDalNQaTIyS0JOWngzTTRzZW1hZmJVdTM2TjdFRGtXMTJlcFNLUmRzN05EcmxoaU5ENVRCTmE2RjY5dm9DZHViaUpqRnlvcg?oc=5"
+        },
+        {
+          "title": "Here's Why Russia Keeps Outplaying the U.S. and Europe in Ukraine War Peace Talks",
+          "source": "The Moscow Times",
+          "published": "2026-11-13",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNM0lxLVd0VXZLOTVIZ01lQjVuZHM1LTk1NHUtaV9LTXN4ZFB1MFhwV0tfUnVmWjF3V3V3MzV2dDlYWXUzR1Jfa2NEa0hDUVRlTTFCZDJKVnpwbFNBcGtIWGxQeVBZQUdTSy1Ba2J2LW5VOHVFeE5XRjJoTzRHZE9LamVtUTQ3SG5sazRhYzF1bzV6dzc5Q2REUW8tUjNoMTRvV1BGeEVEWVk5YV9TekRFemlkQmhlelFBd1owcnhyUzRQZ1BNQ0E?oc=5"
+        },
+        {
+          "title": "Leaked files show Deutsche Bank protected Russian profits despite warnings",
+          "source": "Deccan Herald",
+          "published": "2026-11-19",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQakN5Y1BIZkZCS1AteW84N0V1RXVWQXJTVnl0NU85ZmFlWkJqRlNhclBrcHk5NzUyY0J6czlRb0pIZHRRUGRPYW9aYmNDZlBUdjFBU3NDVU92bmtVSk9iVlBxSmwxeWxISjlDcmNtNktHd0U3LWJXUk9wWDFINERRTVlxd19SQlEyanFxUGk1M19qTWFHR3pJeXJKbGNZSGs3bzlGQnJxZHdfeUh0dG9EYkZIWHRRWF9MMkp3N1JhVU1HdmFFUUI5dEJTclNtSmx6ZDNxSEZKNVFFQlXSAdsBQVVfeXFMUGpDeWNQSGZGQktQLXlvODdFdUV1VkFyU1Z5dDVPOWZhZVpCakZTYXJQa3B5OTc1MmNCenM5UW9KSGR0UVBkT2FvWmJjQ2ZQVHYxQVNzQ1VPdm5rVUpPYlZQcUpsMXlsSEo5Q3JjbTZLR3dFNy1iV1JPcFgxSDREUU1ZcXdfUkJRMmpxcVBpNTNfak1hR0d6SXlySmxjWUhrN285RkJycWR3X3lIdHRvRGJGSFh0UVhfTDJKdzdSYVVNR3ZhRVFCOXRCU3JTbUpsemQzcUhGSjVRRUJV?oc=5"
+        },
+        {
+          "title": "Russia’s Interior Ministry to charge banks, telecom providers a fee for each database query",
+          "source": "Meduza",
+          "published": "2026-11-19",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNZDM4VGp3ZlBlR19EaHIxUHE2YllSeTF2cU5wbVJPQ05vMVZwN0h3NlVqZTRua0JJRW13RDdhb0lLRThZcE00WlcxUThGR2tTTjJ5QWh4X1pVMnowSkJVOXZ1a3RobS1jVi1IWHgwRnl4RjZZaFZLYzBGY01HYTJNWmh3YXQtdUhmSEpPTmFpUDQ1SU1hTEd3V2VkUlRtVVRoVFl4Mmk4VDZ0MUtUcUtlbXlvUlczd3pnUDE5bFc3b2V5R1JHNVBwNXRja9IBywFBVV95cUxNZDM4VGp3ZlBlR19EaHIxUHE2YllSeTF2cU5wbVJPQ05vMVZwN0h3NlVqZTRua0JJRW13RDdhb0lLRThZcE00WlcxUThGR2tTTjJ5QWh4X1pVMnowSkJVOXZ1a3RobS1jVi1IWHgwRnl4RjZZaFZLYzBGY01HYTJNWmh3YXQtdUhmSEpPTmFpUDQ1SU1hTEd3V2VkUlRtVVRoVFl4Mmk4VDZ0MUtUcUtlbXlvUlczd3pnUDE5bFc3b2V5R1JHNVBwNXRjaw?oc=5"
+        }
+      ],
+      "news_query": "Bank Russia announce change meeting | Bank Russia announce change December meeting economists forecast",
+      "forecast": {
+        "probability": 0.22,
+        "reasoning": "The Bank of Russia has been in an easing cycle since mid-2025, cutting at most meetings as inflation cooled. A December cut of 50-100bp is more likely than a pause, though pauses do happen when inflation or ruble risks flare."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-22T00:16:45Z",
+        "crowd": 0.8,
+        "best_bid": 0.79,
+        "best_ask": 0.81,
+        "volume": 27736,
+        "liquidity": 10429,
+        "fee_rate": 0.01
+      },
+      "bet_note": "Gap vs. the price we'd pay is 57.0 points, over the 35-point limit: disagreements this big have usually meant the AI missed something, so no bet."
+    }
+  ],
+  "batch_id": "msgbatch_01SF9sbuQ9iVmyNvCzkxnWp5",
+  "forecast_at": "2026-11-22T00:16:43Z",
+  "usage": {
+    "input_tokens": 8009,
+    "output_tokens": 3824
+  },
+  "cost_usd": 0.0543,
+  "budget": 32.67,
+  "account": "phase-1.2"
+}
