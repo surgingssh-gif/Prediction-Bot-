@@ -1,0 +1,350 @@
+{
+  "run_id": "2026-11-23",
+  "date": "2026-11-23",
+  "created_at": "2026-11-23T00:44:42Z",
+  "model": "claude-opus-5-5",
+  "effort": "high",
+  "phase": "1.3",
+  "pick_stats": {
+    "eligible": {
+      "Economy": 2,
+      "Politics": 23,
+      "Science": 1
+    },
+    "picked": 5
+  },
+  "track_record": "=== Your track record so far ===\nThese are your own earlier forecasts in this experiment that have settled (219 questions). They show only what you said and what happened (no market information).\n- On average you said 38%, and 43% of these events happened. So far you have been too low: events happened more often than you said.\n- Your average Brier score is 0.252 (0 is perfect; always saying 50% scores 0.250).\n- When you said...\n    under 10%: it happened 6 times out of 25.\n    10-30%: it happened 23 times out of 67.\n    30-70%: it happened 45 times out of 93.\n    70-90%: it happened 17 times out of 31.\n    over 90%: it happened 3 times out of 3.\n- Your biggest misses:\n    \"Will SpaceXAI officially rename itself to SpaceXSI by October 15?\" You said 3%; it happened.\n    \"Will the Tesla Roadster fly for 1s+?\" You said 4%; it happened.\n    \"Will Xiaomi have the best Chinese AI model at the end of October 2026?\" You said 6%; it happened.\n    \"Will monthly inflation increase by 0.6% in September?\" You said 7%; it happened.\n    \"Will there be between 0 and 5 average daily transits of the Strait of Hormuz on October 31?\" You said 7%; it happened.",
+  "questions": [
+    {
+      "market_id": "6029642",
+      "event_id": "1232354",
+      "event_title": "Spain General Election: Cádiz Winner",
+      "option": "Adelante Andalucía",
+      "question": "Will Adelante Andalucía win the most seats in Cádiz in the 2026 Spanish general election?",
+      "rules": "Legislative elections to elect the 350 members of the Congress of Deputies of Spain are scheduled to take place on November 29, 2026.\n\nThis market will resolve according to the political party that wins the greatest number of seats in the Congress of Deputies of Spain in the constituency of Cádiz as a result of this election.\n\nIf the results of the specified election are not definitively known by November 30, 2027, 11:59 PM ET, this market will resolve to \"Other\".\n\nParties will be ranked by the number of seats won by their electoral lists (candidaturas) in the constituency of Cádiz, attributed as set out below. If two or more parties are tied on seats, ties will be broken by the total number of valid votes received by their lists in the constituency of Cádiz, with higher vote totals ranking higher. If parties remain tied, ties will be broken by alphabetical order of the listed party names. This market will resolve to the party that occupies the highest finishing position after applying this ranking.\n\nSeats and votes will be attributed according to the electoral list on which they were obtained, as reported in the official results, regardless of the party membership of individual candidates. Lists will be attributed as follows:\n\nPSOE: lists of the Spanish Socialist Workers' Party, including the Partit dels Socialistes de Catalunya (PSC) lists in Catalonia.\n\nPP: lists of the People's Party, including the joint UPN–PP list in Navarre.\n\nBroad Front (FA): all Broad Front lists, including Catalunya en Comú in Catalonia, Compromís–Valencian Front in the Valencian Community, and Canarian People’s Unity (UPC) in the Canary Islands.\n\nERC: Republican Left of Catalonia lists, including the joint ERC–Podem lists in Catalonia.\n\nPodemos: only lists presented by Podemos on its own.\n\nCCa: Canarian Coalition lists, including the joint CCa–1º CAN lists in the Canary Islands.\n\nAny other list will be attributed to the party or coalition that presents it, as named in the official proclamation of candidacies.\n\nElectoral cooperation, endorsements, coalition agreements, or subsequent changes in party affiliation or parliamentary-group membership will not be considered.\n\nThis market will resolve based on the results of the elections, as indicated by a consensus of credible reporting. In the case of ambiguity, this market will resolve solely based on the results as reported by the Spanish Ministry of the Interior (https://infoelectoral.interior.gob.es/).",
+      "topic": "Politics",
+      "end_date": "2026-11-30T04:59:00Z",
+      "url": "https://polymarket.com/event/spain-general-election-cadiz-winner",
+      "snapshot": {
+        "time": "2026-11-23T00:44:39Z",
+        "crowd": 0.052,
+        "best_bid": 0.042,
+        "best_ask": 0.062,
+        "volume": 12112,
+        "liquidity": 44947,
+        "fee_rate": 0.0
+      },
+      "news": [
+        {
+          "title": "The keys to Adelante Andalucía's electoral program for 29N: rent cap of 20% of average income, 32-hour work week, and public train",
+          "source": "El Constitucional",
+          "published": "2026-11-16",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxNcEpWMV9ycU1CMjRybkhmVEdBZGNOU3NhcWNFSXVfTlExbjdGcURINi1SQm1WbllOR1A4SWFOd2Ntb2JhV04xYm5wZFRQUjlIbUdVTUUyQW83ZWkzaGlaSFgybl9iYUdaQ0NFRVpQWWRWUk1PTGppZ2YtcElCNm4tYlNwRWNOTWY5VHZ6RWtwcnVVODZKRDNIMExPcU9Md2NLU3dqZnNyMGFtaENZak14cGstT2Z4Z1ltTFhYaTRaTmpNRkxabmpQQXV2ZWNvUXBOT1drNldPdVZCc2V4cDFVTmtZSm9oUS1LSmRyVVRGcHBXcDl4clZmdGluN0RRR2FCN1VVcVFWOHhTckJaZGRNQkpBWHJqSFFIeDZZZQ?oc=5"
+        },
+        {
+          "title": "Andalucian left-wing party wants rents capped by law at a fifth of local family income",
+          "source": "Olive Press News Spain",
+          "published": "2026-11-12",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQSjJvOWlIdExRN2xnR3JTdmUzRjJhTl83T0NMQmhiSVV4cElnd0l5dFI4WW81U0Y2b3RQMlFwN3o1bjZMQlBxNm95ZkZReTZOSnB0ZGt6WnlsZ0pBempGY3RNQnhIWTBjT3JwcUowT1lVRGcxUGwxSGl1Z1JOaFNqTXI2VmNVb1ZtNnpkbWFwSUdJQQ?oc=5"
+        }
+      ],
+      "news_query": "Adelante Andalucía win seats Cádiz Spanish general | Spain General Election Cádiz Winner Adelante Andalucía",
+      "forecast": {
+        "probability": 0.02,
+        "reasoning": "Cádiz elects about nine deputies, and PP and PSOE have always dominated them. Adelante Andalucía is a small regional party that would be lucky to win even one seat. Topping the constituency would take an unprecedented upset, and no news suggests one."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-23T00:46:44Z",
+        "crowd": 0.052,
+        "best_bid": 0.042,
+        "best_ask": 0.062,
+        "volume": 12112,
+        "liquidity": 44913,
+        "fee_rate": 0.0
+      },
+      "bet_note": "Gap vs. the price we'd pay is 2.2 points; counting only part of it (cautious sizing) leaves 0.6, under the 10-point minimum."
+    },
+    {
+      "market_id": "3740649",
+      "event_id": "879908",
+      "event_title": "Victoria Parliamentary Election: 2nd Place",
+      "option": "Labor",
+      "question": "Will Labor win the second-most seats in the next Victorian state election?",
+      "rules": "The 2026 Victorian state election is currently scheduled to be held on 28 November 2026 to elect members of the 61st Parliament of Victoria.\n\nThis market will resolve to \"Yes\" according to which party or coalition wins the second-most seats in the Legislative Assembly (Victoria's lower house) as a result of the next Victorian state election.\n\nIf the results of this election are not known definitively by March 31, 2027, 11:59 PM ET, this market will resolve to \"Other\".\n\nLiberal–National refers to the Liberal–National Coalition. Liberal–National will include all seats won by both the Liberal Party and the Nationals, regardless of their parliamentary coalition behaviour, and its first-preference vote total will include the votes received by both parties.\n\nParties and coalitions will be primarily ranked by the number of seats won in the specified election. If two or more are tied on seats, ties will be broken by the total number of valid first-preference votes received, with higher vote totals ranking higher. If they remain tied, ties will be broken by alphabetical order of the listed names. This market will resolve to the party or coalition that occupies the second-highest finishing position after applying this ranking.\n\nThis market will resolve based on the result of the election as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the Victorian government, specifically the Victorian Electoral Commission (VEC) (https://www.vec.vic.gov.au/).",
+      "topic": "Politics",
+      "end_date": "2026-11-29T04:59:00Z",
+      "url": "https://polymarket.com/event/victoria-parliamentary-election-2nd-place",
+      "snapshot": {
+        "time": "2026-11-23T00:44:39Z",
+        "crowd": 0.835,
+        "best_bid": 0.83,
+        "best_ask": 0.84,
+        "volume": 17646,
+        "liquidity": 8711,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "Victorian election 2026: Concern and scepticism among Labor MPs as new poll shows party trailing One Nation",
+          "source": "The Guardian",
+          "published": "2026-11-09",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOb3NNTmtENDl0TDBVcElVRHFENGRTZUY2U0hzdi1VMGkyRWh4RFBxelk4NGxJYmc4T1h0akZGYVlHSmpfY0NGMG1waTlxQVZXV0lLWTZxQnpxeW9zWWg2a1NzR0RoZlNBLWQxU2RqdTRxbEFfYzhLdXRILUpLUkUyWlM1RE5lbWRFNFFVYWRmLWVoejVxTzM5UDNMSzBaazZma1lwdnJlejFMck9WTEZpYXctQ1dVVkpoczJEcEZHWQ?oc=5"
+        },
+        {
+          "title": "US Democrats win final two Senate seats; Coalition likely to easily win Victorian election",
+          "source": "The Conversation",
+          "published": "2026-11-15",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNc3F3TXRhTENWQU5qVFZMd2pZbEJLckJfV05ZTlplQmV4dXFCdzhWdlhMMl9VMWhQbXpJaFR1WllzeWxaSzY1V05xOFRsakNwLUZCUE1jaG91Zzl3aUZSWF81TmlQT0FNNDlJaExZRVpMZTJqRzlpal9ZVG1faVZYRFhmQWozRkFHczVXTVZZYjJfOVJnNTI2OWtuRlNzcG1pQnphMTdwbWVPUEoxdXJBVmRKY2NJeG9Ld3kzM2xHYnkyZw?oc=5"
+        },
+        {
+          "title": "Polling turns from bad to diabolical for Victorian Labor",
+          "source": "ABC News & Headlines – Australian Broadcasting Corporation",
+          "published": "2026-11-18",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQY3JVSlhqbUo2MW1zY0xEZk5EZi1JSUE4RFV3SEZ3aUdsa2t2emJneVQzTlRYX1RKVXZUT0VXU0Z2WU1XVC0xdC13dGpwblVsV3JtaEI4c3g1eXNvOFlCR1IyWWFMQzJUQk14Q1I5YmZTbGVCYmJudXdYTVVlNEd6blpRdnYtcFd2Y2VZYUMySTdoYllLS2RXaVA1NFBGZkdIdVNHbWp3?oc=5"
+        },
+        {
+          "title": "Victoria’s major parties are sinking to record lows",
+          "source": "https://thepoint.com.au/",
+          "published": "2026-11-18",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNWGY0bUlxWVBHZzFTSUs3Ujk5QTFRTEU2X3pKVlg0cmdOZnRkM2YzWHhURmJzbFZpcDVDZ1h6TUx2ekg4SzR0dFN2cGViY0wzaENMZnlHNHlKeDNaWkJSckczV2N5bk1oUnlJdG50U1EyLWRJNnJlcnRBZ0RySjgzR1dfWk42QTcwblV1Vmd4Y1g2cHpkS1FvQkt4OFA?oc=5"
+        },
+        {
+          "title": "Victorian Labor and Greens trade accusations of ‘dodgy deals’ as preference fight puts key seats at risk",
+          "source": "The Guardian",
+          "published": "2026-11-13",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPb0VqajR2Yy1CdnpCTWdJamY1TU44NkhrVHowSGh1TkFmMUVsU0k0bjc3ZFBuN3R3NXVhblVmMnlXRm1vbkl0SWdEZ0hKTXBwMDJIaVdCTVVuN2JlRVdZRDhhNkZjVENwUUpOcFB6cWxQU0ExYmR5NTMxZW5tVzFhTW1aOV81d2ZrVGtFa0pwaFcxUFRWSEpXTzdTSlZmQWxzeV9vZV9rc0g4WGp2NGFsbmRyLWQ3WXhIaDM0?oc=5"
+        },
+        {
+          "title": "Victorian Coalition position strengthens, Labor reduced to rump in new poll",
+          "source": "AFR",
+          "published": "2026-11-11",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPaXZacnhRUmg5MmJPcUpRYUJrZTdKeWxzSEU2Qy1rZ05XUzZDdnpEbmlpaUtCMkFNOTZ0VmptRU1nTXJpbWtGV0lJWVF6djctWFdQU0gtT0JzeTJBTHBJSzhsQVNYVjBmVVNlN2NqQkROMGNWcmpPcGF6UmtVRkNVZEhLUWJtSngzOXRqc2RUc1Q1dXRBOFBfdHlFeF9XTTJwNE9ENnhucHNweWNyTDk2Zlc0aGhJejVDVnI0?oc=5"
+        }
+      ],
+      "news_query": "Labor win second-most seats Victorian state election",
+      "forecast": {
+        "probability": 0.58,
+        "reasoning": "Polls show the Coalition likely winning easily and Labor's vote collapsing, with one poll putting Labor behind One Nation. Even so, Labor's vote is concentrated in its western and northern suburban heartland and it has incumbency advantages, so it probably converts votes to seats better than One Nation. A diffuse One Nation surge could still take many outer-suburban and regional seats, so second place is far from certain."
+      },
+      "bet": {
+        "side": "NO",
+        "price": 0.17,
+        "top_price": 0.17,
+        "shares": 48.52,
+        "stake": 8.25,
+        "fee": 0.34,
+        "cost": 8.59,
+        "gap_pts": 25.0,
+        "edge_pts": 12.2,
+        "sized_on": 0.7075,
+        "kelly_full": 0.1403,
+        "fill": "order book",
+        "levels": 1
+      },
+      "trade_snapshot": {
+        "time": "2026-11-23T00:46:44Z",
+        "crowd": 0.835,
+        "best_bid": 0.83,
+        "best_ask": 0.84,
+        "volume": 17646,
+        "liquidity": 8713,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Bought NO (AI's gap 25.0 points; 12.2 after cautious sizing)."
+    },
+    {
+      "market_id": "6030248",
+      "event_id": "1232431",
+      "event_title": "Spain General Election: Guadalajara Winner",
+      "option": "Vox",
+      "question": "Will Vox win the most seats in Guadalajara in the 2026 Spanish general election?",
+      "rules": "Legislative elections to elect the 350 members of the Congress of Deputies of Spain are scheduled to take place on November 29, 2026.\n\nThis market will resolve according to the political party that wins the greatest number of seats in the Congress of Deputies of Spain in the constituency of Guadalajara as a result of this election.\n\nIf the results of the specified election are not definitively known by November 30, 2027, 11:59 PM ET, this market will resolve to \"Other\".\n\nParties will be ranked by the number of seats won by their electoral lists (candidaturas) in the constituency of Guadalajara, attributed as set out below. If two or more parties are tied on seats, ties will be broken by the total number of valid votes received by their lists in the constituency of Guadalajara, with higher vote totals ranking higher. If parties remain tied, ties will be broken by alphabetical order of the listed party names. This market will resolve to the party that occupies the highest finishing position after applying this ranking.\n\nSeats and votes will be attributed according to the electoral list on which they were obtained, as reported in the official results, regardless of the party membership of individual candidates. Lists will be attributed as follows:\n\nPSOE: lists of the Spanish Socialist Workers' Party, including the Partit dels Socialistes de Catalunya (PSC) lists in Catalonia.\n\nPP: lists of the People's Party, including the joint UPN–PP list in Navarre.\n\nBroad Front (FA): all Broad Front lists, including Catalunya en Comú in Catalonia, Compromís–Valencian Front in the Valencian Community, and Canarian People’s Unity (UPC) in the Canary Islands.\n\nERC: Republican Left of Catalonia lists, including the joint ERC–Podem lists in Catalonia.\n\nPodemos: only lists presented by Podemos on its own.\n\nCCa: Canarian Coalition lists, including the joint CCa–1º CAN lists in the Canary Islands.\n\nAny other list will be attributed to the party or coalition that presents it, as named in the official proclamation of candidacies.\n\nElectoral cooperation, endorsements, coalition agreements, or subsequent changes in party affiliation or parliamentary-group membership will not be considered.\n\nThis market will resolve based on the results of the elections, as indicated by a consensus of credible reporting. In the case of ambiguity, this market will resolve solely based on the results as reported by the Spanish Ministry of the Interior (https://infoelectoral.interior.gob.es/).",
+      "topic": "Politics",
+      "end_date": "2026-11-30T04:59:00Z",
+      "url": "https://polymarket.com/event/spain-general-election-guadalajara-winner",
+      "snapshot": {
+        "time": "2026-11-23T00:44:39Z",
+        "crowd": 0.099,
+        "best_bid": 0.083,
+        "best_ask": 0.115,
+        "volume": 12463,
+        "liquidity": 47660,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "Spanish PM admits ‘mistakes’ in tense election debate",
+          "source": "Inquirer.net",
+          "published": "2026-11-19",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPUmRZaERDRkJQRG9STklaVVg5SFUzX28yS0hXb3lCN0cxeWpDZGlRcTZ6S0FPcXZ4MjV5N25odGY5N0g5T0VjbXhkbHQySjN4ajNobkxtQ1ZUTHh0Z1I0ZG4yZERETXRpSWl5NHdhOTJqZmh6WkpYR2E1VVpuVkZaZjJnT1V3NWpKdFV4RkRPZjl3bDJCempz0gGcAUFVX3lxTE5XV1RlNUt6Q0l4QlhVT0tObHdVbDV2NTVObXZSbXhVLVpJd2U4SmwwMi1CWnNybHhWRFNFZTN2OHRuMV9UTVdNZVJtLS1LOFItRHh4UDFNTEs2RlcxTzRRY0x1Q2cxbTV1WjZnZW9iSEhCODNTcXlDeGFyald1M2x1NkJEY09Ec0pra0pGT18zUzZLRlRiZkZrNHpTaQ?oc=5"
+        },
+        {
+          "title": "Survey of the general elections in Galicia: the PP rises to 14 seats and Vox stays out, according to Sondaxe",
+          "source": "Demócrata",
+          "published": "2026-11-21",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxOZXd6blRCRHdPbU03X3lJdXEwVkdlN25rbVVDMjNwVi1EX003aXVPUnhkN1VjNHZQT2swOWZ3b25FUjBUYmN2cUV3ZXpQTHRxX1E4bTVWcWNNZXBkSG01WGwzZl90bmhCNEh4Y05fb0NVUzZCdG5MaGdHTjFCUkRHMTE1eFFrZ0lodEdHZzdhVFdubVByc0RLMjNuXzd0bFZWTVgySTJ3Ul9QZ2xwZ19tdndKa0VIVW9jU1NuVUU0bkN5Z2NtN0wyQ1VTUXktRU5kbTFfXzF0WHFmY1RTQ1oyVUpsMjVlQ2UxSGplSGJSS00tdDVualVpNURpQ2J4QzRuU2VhS1BWSE1XZG5KWUdjY1ZYSjZmZHRoRGc40gGgAkFVX3lxTE9FRXg1d1pQYzE0UHhKM1BUR0pmZWdKZWJiQXVudHdzcm9kMi1rdGo0VUtJZjlLc0tmblg0NTR2RGd2MkE0Y0hacXR6VkQ5c1M5ZkZKUEs5VGItelFWMDY2d2Zic3QwT210V0ZKSF9EeTlBel92RERHSTQ5dlpyY1YtSjdudndsVGZWZHFldHRCSEtINUh1WmkyVEZzT1R4VVVpZWgtRFRjRW9NWHFna1YyWnY3blQ0N0RKcW92Y05GbVpySlpPQ1JheC1ESlFXRzZ1NUZ0bmJ4RmlBLUNVclFKbm9USDNYaElwU1pGUmN3TUdMSHZVUkMxOEFyT21IdUk1dThQZFhDbUpPZGZoT1dCQW9wVFBoWG9sWmVnNFVZdA?oc=5"
+        },
+        {
+          "title": "Guide to the last seat of 29N: the five provinces where half a point can move the majority of PP and Vox",
+          "source": "Demócrata",
+          "published": "2026-11-21",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxPU3hqUE00OC1FUEo4aDFsZkZFUWtSZE5oWmhabmZ4M3RVT3RoUDhjeHl4WHdyUFdCeDFnNklYYVJRY1NCMFUwbzUwRnd1V0dkLWlESHp3RTJjTDBhTmFudWkyYXlrWlY4RmhlNWZXeUc1YnRJd05BRFR6elBsRTNJazJNS0JFeGozdlZMX2NBMUJkV0J1UlFuMkh4TnNJYkFwc0JDSmlNbWNJS3F4dXBHcHJBd2ZHb1p0cWNXVkdIMlA3Qy1URHdhSEhDYW1KbDlBMUp1eXdkcW5HMXkza1NZUEVUdlc0eWU0bnJTeFliNTVTNEFjZjluREZ4M3JwbjBXc25sVmVYd0xiVTl0eGp4aWVaTjhXbzTSAZwCQVVfeXFMT0tHUnU2bnd1aDZJUk9Jc0YtRVBhTEpZLVhSeHJWNm9UQUZENnBYMWV0Y1d6SFhRNVRPczNlb3NWZ2V6bGVsaXpOVEI5amQ2aFFGaEluRDIzVTV0SG1QOFpzSUU2UXl5QUNUWnZKSWgyelNBTkhKblR5U0NoWWVneDRtbktpc3Q1cXp5b182Wmt4eUdaYWl3ZFo3NGh2bzNpWk1tZk1IWWZfbGgzU3VBMW5SUzdDSFVUazY0M2FaWWN1VkprUlhKU3UyXzA4Zlk0d3QyMHM5Z2tzNEhxM3k4V0c0R3FoQjhPdWg0WjRPdWRiUG5Yd0xlZkVIX01wS2tIbGhvd2NiMldrNGxLMTZFRUkyZnprc0gybkUxUkU?oc=5"
+        },
+        {
+          "title": "Spain's young first-time voters weigh turnout before 29 November",
+          "source": "RUSSPAIN.com",
+          "published": "2026-11-21",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZ3N3TG5LY2F0QVlKNll3QWdhN0l2RjJaazBjRVlmdWxPODAwa0Q3N0RlNndTMGszTUFlbjBnRW8xSE5VUXJQMVJNeEFDR2ZsNG9SWjl4VTVTb0xVd0ZvblNKdGhxdEtWR1F0ekFEamVQeG45SWJkdUI1T3RNcmg1N0RvOEYzM1U4YzZOejA1azhJZ2hKT1Vtc2lLdlFLVTQ?oc=5"
+        }
+      ],
+      "news_query": "Vox win seats Guadalajara Spanish general election",
+      "forecast": {
+        "probability": 0.04,
+        "reasoning": "Guadalajara has only three seats, which typically split one each to PP, PSOE and Vox. On a tie, votes decide, and PP has usually won roughly double Vox's vote there. Vox would need to outpoll PP or win two of the three seats, both very unlikely."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-23T00:46:45Z",
+        "crowd": 0.099,
+        "best_bid": 0.083,
+        "best_ask": 0.115,
+        "volume": 12463,
+        "liquidity": 47547,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Gap vs. the price we'd pay is 4.3 points; counting only part of it (cautious sizing) leaves 1.4, under the 10-point minimum."
+    },
+    {
+      "market_id": "6594197",
+      "event_id": "1302856",
+      "event_title": "2nd Largest Company end of November 2026?",
+      "option": "Microsoft",
+      "question": "Will Microsoft be the second-largest company in the world by market cap on November 30, 2026?",
+      "rules": "This market will resolve to the second-largest company in the world by market cap on November 30, 2026, as of market close.\n\nThe resolution source for this market will be a consensus of credible reporting.",
+      "topic": "Economy",
+      "end_date": "2026-12-01T04:59:00Z",
+      "url": "https://polymarket.com/event/2nd-largest-company-end-of-november-2026",
+      "snapshot": {
+        "time": "2026-11-23T00:44:39Z",
+        "crowd": 0.8515,
+        "best_bid": 0.837,
+        "best_ask": 0.866,
+        "volume": 11276,
+        "liquidity": 2466,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "Microsoft tops Nvidia's market cap for first time since June 2025",
+          "source": "Reuters",
+          "published": "2026-11-10",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNGpwLVRZNGJRQ3diMmx2QnhNaERXa3RCdzR1MThDdk04TGprcXF5Z3djdXFrUnlPN25udC1qNU5BNVRhN2ZnWWd1dk5sR0lUN0FhdDR5dWFIeWZqQ2UwMGFFdmpvbkxFazJfNy1HTjR4aHZJN3ZRTnFmMFhvcm43YjRhYXB0a29LbllQYUFxNkY5WUZ1MlJ4U0tELVNTa3c3Vkl1YlJyOA?oc=5"
+        },
+        {
+          "title": "Microsoft Tops Nvidia’s Market Cap, as Nvidia Drops More Than 6%",
+          "source": "Yahoo Finance",
+          "published": "2026-11-10",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQM2J4OFUxZmZsMVJhV1JUSUs5bjFoSWhGaTFnSkxibUprWlNhUFBEM0tLd0VTRHNKWE5zc0szc3lCcWpWUzdtb1dlTmpTRTZmQXVMeHI0azlDb3hYS0I0Y005Q0ZUOXYxa2ZCa25RV2UyR2V5aDh4dkVJdHFtTUt3UkhXcm9ad0lQOElfZGhzRG1wRS1kUHl1aVVGdE5SUQ?oc=5"
+        },
+        {
+          "title": "Microsoft Tops Nvidia at $4.03T Market Cap [2026]",
+          "source": "shattered.io",
+          "published": "2026-11-10",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPY0VxZ1lad2E4V2JXQzFDZ0dmbjRVUWRzaXBNLWk5MlFlbDZKdkZ1R2RRQ0NLanpLYmhxa2xrZk9CTkhRNXJnbkFMNlpOR3p4UmNHeVpJcWhVbUpneno3UnhGWDBCM0Jaa1puaW8yUWhiMThTUXhUYXVRZ3FWWWw1QzhvRVpPWGk0eXhFTjhjaU5ySnRrekFYbHRlQQ?oc=5"
+        },
+        {
+          "title": "RMB 2.85 Trillion Wiped Out in Two Days! NVIDIA's Market Cap Briefly Overtaken by Microsoft",
+          "source": "Moomoo",
+          "published": "2026-11-11",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQM21ka3JjYlBvU2pROS1TdUpVS1c2ODdzaGlJUnNYQ2RzbVhMbVZxMGFQVTRQT2FBMHBpUHB1SlNmTlhhT01LUlJvNUZIQ25xXzRvSC14ckdqdkE3eE96aWYycVp6MDZUSzRMVXg3RFlmdGV0LW5TZW1Bck9nS2RkR3hJYzZpZHJFdXBNTHZrc1duSFZ6?oc=5"
+        },
+        {
+          "title": "Microsoft continues to restore Outlook email after outage, rules out ‘cyber or AI’ agents",
+          "source": "Yahoo Finance",
+          "published": "2026-11-13",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQVW1TSGtQZ1h4RV92RXpiUTFLbjFhem5OYjZHa2RRd1JnUWtLb0lCS296aGxRVV9CYVNQaVNmZ0QwVGpRYVQ3elpKVlVPWWF2N0NHXzdCTE9YOHl2dXd3VldzaGNfb0ZIMTZLalVwR3lGMG5wZW16YU5NdEczMVN0eUM5c0xLUkVrQTBUU1ktbk1GQkVsX1BPbTI0UldXQWdMTGE3REpfMThId0xFcW9yODNReVNZS2ktLVFhOEdXcEFFUDlBa2RrUlFqcjZyQjBXZV92RGc0dUNhWGc?oc=5"
+        }
+      ],
+      "news_query": "Microsoft second-largest company world market cap | Microsoft second-largest company world market cap economists forecast",
+      "forecast": {
+        "probability": 0.3,
+        "reasoning": "Microsoft briefly passed Nvidia around $4T on November 10 after Nvidia fell. Apple, Nvidia and possibly Alphabet are all in a similar range, so the ordering at the top could shift within a week. Microsoft landing exactly second on November 30 is plausible but only one of several close outcomes."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-23T00:46:45Z",
+        "crowd": 0.85,
+        "best_bid": 0.837,
+        "best_ask": 0.863,
+        "volume": 11276,
+        "liquidity": 2545,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Gap vs. the price we'd pay is 53.7 points, over the 35-point limit: disagreements this big have usually meant the AI missed something, so no bet."
+    },
+    {
+      "market_id": "4852048",
+      "event_id": "1065587",
+      "event_title": "Lowest Mississippi level at St. Louis by November 30?",
+      "option": "-1.00 to 0.99 ft",
+      "question": "Will the lowest St. Louis river level be -1.00 to 0.99 ft by November 30?",
+      "rules": "This market will resolve according to the lowest gage height (river level), in feet, recorded at the Mississippi River at St. Louis, MO streamgage (USGS site 07010000) between market creation and November 30, 2026, as published by the United States Geological Survey (USGS) for parameter code 00065 under statistic code 30800. Exactly one outcome in this market will resolve to \"Yes\".\n\nThe lowest daily reading in the window decides this market; the level does not need to be sustained. If USGS does not publish a reading for one or more days, this market will resolve according to the lowest reading among the days that are published.\n\nValues will be used exactly as published by USGS, without rounding. USGS reports gage height at this gage to 2 decimal places. Each range includes both of its stated bounds and consecutive ranges are contiguous, so every reading falls in exactly one range: a lowest reading of exactly -1.00 ft resolves the range beginning at -1.00 ft to \"Yes\" and every other range to \"No\".\n\nThis market will resolve on the values published at the time of resolution, whether flagged provisional (\"P\") or approved (\"A\"); revisions published afterward will not be considered, except where the correction provision below applies.\n\nIf any data remains unpublished or unfinalized, this market will remain open for up to 2 calendar days (ET) after November 30, 2026; it will then resolve based on the finalized data published up to that point.\n\nIn case of obvious data integrity issues (i.e., erroneous data), the market may remain open until the end of the third calendar day (ET) after such data is first released to allow for corrections; this applies only to clerical or similar errors, not to USGS differing from other sources.\n\nIf the source is unavailable, this market may be extended to December 15, 2026, 11:59 PM ET. If no data for the window is available by then, this market will resolve to \"Below -3.00 ft\".\n\nThe primary resolution source for this market will be the USGS Daily Values service for site 07010000; however, a consensus of credible reporting may also be used. The service is available here: https://waterservices.usgs.gov/nwis/dv/?sites=07010000&parameterCd=00065&statCd=30800&startDT=2026-09-21&endDT=2026-11-30&format=rdb",
+      "topic": "Science",
+      "end_date": "2026-12-02T04:59:00Z",
+      "url": "https://polymarket.com/event/lowest-mississippi-level-at-st-louis-by-november-30",
+      "snapshot": {
+        "time": "2026-11-23T00:44:39Z",
+        "crowd": 0.055,
+        "best_bid": 0.04,
+        "best_ask": 0.07,
+        "volume": 32495,
+        "liquidity": 2619,
+        "fee_rate": 0.01
+      },
+      "news": [],
+      "news_query": "lowest St Louis river level ft | Lowest Mississippi level St Louis ft",
+      "forecast": {
+        "probability": 0.25,
+        "reasoning": "The window runs from September 21 to November 30, covering the usual autumn low-water season at St. Louis. Recent autumns (2022–2024) bottomed out well below zero, often between -2 and -5 ft. I have no current data for 2026, so the -1 to 0.99 ft range is plausible but less likely than a lower bucket."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-23T00:46:45Z",
+        "crowd": 0.055,
+        "best_bid": 0.04,
+        "best_ask": 0.07,
+        "volume": 32495,
+        "liquidity": 2619,
+        "fee_rate": 0.01
+      },
+      "bet_note": "Gap vs. the price we'd pay is 18.0 points; counting only part of it (cautious sizing) leaves 8.2, under the 10-point minimum."
+    }
+  ],
+  "batch_id": "msgbatch_01SXmEeoKCFBbsCi7PokiPuW",
+  "forecast_at": "2026-11-23T00:46:44Z",
+  "usage": {
+    "input_tokens": 5617,
+    "output_tokens": 1957
+  },
+  "cost_usd": 0.0308,
+  "budget": 32.67,
+  "account": "phase-1.2"
+}
