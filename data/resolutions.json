@@ -1193,5 +1193,25 @@
     "outcome": 0,
     "resolved_at": "2026-11-21T16:42:59Z",
     "question": "Will Elon Musk join Trump at APEC in China?"
+  },
+  "5713557": {
+    "outcome": 1,
+    "resolved_at": "2026-11-23T22:40:41Z",
+    "question": "Will \"The Hunger Games: Sunrise on the Reaping\" Opening Weekend Box Office be at least 105m?"
+  },
+  "5713556": {
+    "outcome": 0,
+    "resolved_at": "2026-11-23T22:40:41Z",
+    "question": "Will \"The Hunger Games: Sunrise on the Reaping\" Opening Weekend Box Office be between 95m and 105m?"
+  },
+  "6403128": {
+    "outcome": 1,
+    "resolved_at": "2026-11-23T16:02:07Z",
+    "question": "Will the Bank of Israel make no change to the Bank of Israel Interest Rate at the November meeting?"
+  },
+  "6403127": {
+    "outcome": 0,
+    "resolved_at": "2026-11-23T16:02:07Z",
+    "question": "Will the Bank of Israel decrease the Bank of Israel Interest Rate by 25 bps at the November meeting?"
   }
 }

@@ -1,0 +1,488 @@
+{
+  "run_id": "2026-11-24",
+  "date": "2026-11-24",
+  "created_at": "2026-11-24T00:44:25Z",
+  "model": "claude-opus-5-5",
+  "effort": "high",
+  "phase": "1.3",
+  "pick_stats": {
+    "eligible": {
+      "Economy": 1,
+      "Entertainment": 2,
+      "Politics": 21
+    },
+    "picked": 6
+  },
+  "track_record": "=== Your track record so far ===\nThese are your own earlier forecasts in this experiment that have settled (223 questions). They show only what you said and what happened (no market information).\n- On average you said 38%, and 43% of these events happened. So far you have been too low: events happened more often than you said.\n- Your average Brier score is 0.252 (0 is perfect; always saying 50% scores 0.250).\n- When you said...\n    under 10%: it happened 6 times out of 25.\n    10-30%: it happened 24 times out of 70.\n    30-70%: it happened 46 times out of 94.\n    70-90%: it happened 17 times out of 31.\n    over 90%: it happened 3 times out of 3.\n- Your biggest misses:\n    \"Will SpaceXAI officially rename itself to SpaceXSI by October 15?\" You said 3%; it happened.\n    \"Will the Tesla Roadster fly for 1s+?\" You said 4%; it happened.\n    \"Will Xiaomi have the best Chinese AI model at the end of October 2026?\" You said 6%; it happened.\n    \"Will monthly inflation increase by 0.6% in September?\" You said 7%; it happened.\n    \"Will there be between 0 and 5 average daily transits of the Strait of Hormuz on October 31?\" You said 7%; it happened.",
+  "questions": [
+    {
+      "market_id": "6618279",
+      "event_id": "1305123",
+      "event_title": "Miss Universe 2026 Winner?",
+      "option": "Venezuela",
+      "question": "Will Venezuela win Miss Universe 2026?",
+      "rules": "The Miss Universe 2026 competition is scheduled to be held in Puerto Rico on November 24, 2026. You can find more information about that here: https://www.missuniverse.com/\n\nThis market will resolve to the country represented by the contestant ranked first in the Miss Universe 2026 competition, according to the ranking below.\n\nContestants will be ranked according to their official competition ranking. If two or more contestants share the same ranking, ties will be broken alphabetically by the English name of the country they represent. This market will resolve according to the country ranked first under this ranking.\n\nIf the result of this competition isn't known by December 31, 2026, 11:59 PM ET, the market will resolve to \"Other\".\n\nThis market will resolve based on official results as reported by the Miss Universe Organization.",
+      "topic": "Entertainment",
+      "end_date": "2026-11-25T04:59:00Z",
+      "url": "https://polymarket.com/event/miss-universe-2026-winner",
+      "snapshot": {
+        "time": "2026-11-24T00:44:22Z",
+        "crowd": 0.339,
+        "best_bid": 0.336,
+        "best_ask": 0.342,
+        "volume": 18266,
+        "liquidity": 6233,
+        "fee_rate": 0.01
+      },
+      "news": [
+        {
+          "title": "Miss Venezuela’s mom, Andreína Goetz, steals the show celebrating with the Dominican team",
+          "source": "HOLA",
+          "published": "2026-11-23",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOX1I3OEIza2xwU1ZiZ2pmQnJ1VXlpZGNRdWcydU15WFVtTmhfb1h2bTdhSFdlUDg5MWk1dUdIbjU2NXBJSGRoRm1wejZ1ZkVwME1jOVVVMkRzaGhsbW8td0ZJZTR4QWlXbm9hdnRIVE93RlZocUlITDVSRDVXMjBycXNSSEZrLTJ4MnNMRGwwOGNGZkJ3c1JJdUg3NW5iY0NXWU1Gd2JGVEJ5dXJwUzlUVW5n?oc=5"
+        },
+        {
+          "title": "Noelia Voigt was the first Miss USA to give up her crown. Here's what to know about the pageant queen.",
+          "source": "Business Insider",
+          "published": "2026-11-13",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNVm1iYUhNT29TczEyLW1qV0Y1RW1xdFZiemFJdUdXVEZpU1NuV1ZyNzFzV1RoSlNjVDAtZUNnNjJEYy1rOW1YdlRFNlVuSlMwQmRYdjUwZlI0RXV5al9HOXdYTm5pUjAtbEg0UmJoYnpFLTRDRG1qcXppWC1ydGNvVm1CVnlGYWpFTkRndUYwdHlkekplTnc?oc=5"
+        },
+        {
+          "title": "8 celebrities who competed at the Miss Universe pageant before they became famous",
+          "source": "Yahoo",
+          "published": "2026-11-23",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRFRwY0xsZUxEcW95Z0ROVXpkaHhRRmp3TndpWjVkODJVMU1oMWNDYzFaVTJzT3hpeDRnaWpjNk5DODB2ZGxqUW9SbUloNWludTd6dS11aHdYVnEyZk5reklvakJXTWpvMHJUSHNiMWRiRWd4RTI1ZW82ZHloT2h5OExYMVlGR3FMbXg1bkFWSThLNnJHWU9jVzY1anNrTUpYNkVFNDZHNVd1dw?oc=5"
+        },
+        {
+          "title": "5 of the Biggest Bombshells from TLC’s Crown of Deceit Docuseries Featuring Miss Universe’s Many Scandals",
+          "source": "People.com",
+          "published": "2026-11-17",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNQzAxemdMcjZUaXA3Y0FCRDVRVFliMGxhdkhXZmxxQVJucWpoRlNlSm9OaktfZ2x5X2MtS3E3VS1SRGhvb1NDczV4RGpCS0xhTUhLUjVpdEozSUp1RndnY3Backo1RVI0X2RqV0tMYnRhdU1DcGQ5Z1V0TFFmdEI5bjVGWlljSEE?oc=5"
+        },
+        {
+          "title": "Miss Universe 2026: HOLA! USA and ¡HOLA! Américas’ top picks to win the crown",
+          "source": "HOLA",
+          "published": "2026-11-21",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQQ1V0cnRnamJ5U3YzZl9FTk1Yblhqc1d0UjFEWlV4VXpsVGV3MXd6R1ZRdlV0VG1aV1loZTl6cmh5NXdtSW45NTBMUzZRMEZ6Y0RaZnhGcG9Kd094M2c4ek41Yi03ZzhQbkxvREdaTFA4c1JDRXFfeVpUb180aTNFUHIteUZsVXJJcHFHUVJTX3BlM0Y2SE5GMTk1QjVxQQ?oc=5"
+        },
+        {
+          "title": "Pageant Watch: 10 Frontrunners at Miss Universe 2026",
+          "source": "Metro.Style",
+          "published": "2026-11-19",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOd0gtYkE1aThpYjliVlhDUDd3cWktSEtGaGdsQ3lNOEhFejBUME1jaUdQcG5DalZLVDQwQ0hwX0JYVGRqNVVZT2E2c0F4enVYM0hfZUN4Q0dwU3NiWlI0dXpZblJFT04zWHl1QV9UVnNTMG9NMkxWaEFJaXd6QUxDakV6YmNQUVhjU29Rd3RZZlF3RW8?oc=5"
+        }
+      ],
+      "news_query": "Venezuela win Miss Universe",
+      "forecast": {
+        "probability": 0.09,
+        "reasoning": "Venezuela is a historic pageant powerhouse, but with about 120 contestants any single country rarely has more than a 5-12% chance. The headlines give no clear sign that Miss Venezuela is the top favorite, so I stay near a strong-country base rate."
+      },
+      "bet": {
+        "side": "NO",
+        "price": 0.6639,
+        "top_price": 0.664,
+        "shares": 47.75,
+        "stake": 31.7,
+        "fee": 0.11,
+        "cost": 31.81,
+        "gap_pts": 24.6,
+        "edge_pts": 12.2,
+        "sized_on": 0.2145,
+        "kelly_full": 0.3573,
+        "fill": "order book",
+        "levels": 1,
+        "scaled": 0.8938
+      },
+      "trade_snapshot": {
+        "time": "2026-11-24T00:46:57Z",
+        "crowd": 0.339,
+        "best_bid": 0.336,
+        "best_ask": 0.342,
+        "volume": 18266,
+        "liquidity": 6047,
+        "fee_rate": 0.01
+      },
+      "bet_note": "Bought NO (AI's gap 24.6 points; 12.2 after cautious sizing). Scaled to 89% to fit the daily budget of $31.81."
+    },
+    {
+      "market_id": "5684938",
+      "event_id": "1188098",
+      "event_title": "Spain General Election: PP + Vox get 50%+ of Vote?",
+      "option": "",
+      "question": "Spain General Election: PP + Vox get 50%+ of Vote?",
+      "rules": "Legislative elections to elect the 350 members of the Congress of Deputies of Spain are scheduled to take place on November 29, 2026.\n\nThis market will resolve to “Yes” if the People’s Party (PP) and Vox receive a combined total of 50% or more of the valid votes cast in the election to the Congress of Deputies of Spain. Otherwise, this market will resolve to “No”.\n\nIf the results of the specified election are not definitively known by November 30, 2027, 11:59 PM ET, this market will resolve to \"No\".\n\nVotes will be counted only where the official results attribute them to PP or Vox, including under any regional designation of either party. Votes attributed to another party or electoral designation will not count, regardless of electoral cooperation, endorsements, or coalition agreements. The combined vote share will be calculated as the total number of valid votes received by PP and Vox divided by the total number of valid votes cast, as reported in the official results.\n\nThis market will resolve based on the results of the elections, as indicated by a consensus of credible reporting. In the case of ambiguity, this market will resolve solely based on the results as reported by the Spanish Ministry of the Interior (https://infoelectoral.interior.gob.es/).",
+      "topic": "Politics",
+      "end_date": "2026-11-30T04:59:00Z",
+      "url": "https://polymarket.com/event/spain-general-election-pp-vox-get-50-of-vote",
+      "snapshot": {
+        "time": "2026-11-24T00:44:22Z",
+        "crowd": 0.295,
+        "best_bid": 0.28,
+        "best_ask": 0.31,
+        "volume": 46861,
+        "liquidity": 31072,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "Spain's November snap election — what you need to know",
+          "source": "Reuters",
+          "published": "2026-11-11",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQQkxFcVJoYUdNZVFwQUNuNjI4b25Hc1FuOEN3bUNUTlhjU20tZDNWU2xRVzNBNlE5ejNRNjNzRkdHZ29Wa3ZMd2pnMXdWLXlrN09ESnhrUlhkS0g1OVU5dzFPRXozOEkzQ251U1IwY0tBU2JxTzVGdFE3VmNEeXJvc1ZnRXhxb1FKQmlqUHo5Z3lDQjJ5MDhVUU5R?oc=5"
+        },
+        {
+          "title": "Spain’s election could see Europe’s far-right ‘firewall’ begin to fall apart",
+          "source": "Chatham House",
+          "published": "2026-11-23",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNT2dlX0FzV3phZWVRclQyRE53UG5wUmwzOWVIYUVDZHNPTUNTdVZKc2pnNmhFWFNtWExrZXpyV2JjWlhFTlM0N0pBTXJNMG45Um1pQXN5WEpGTzJZbW52VHhWazJaNHZ5dGllUjFQcmFXZU10SFFNNk9yU2xYNzVOM3FyYl9pbDdPNE1oQUlubmIxRFdPNzNqN00xU09POG5IMjM3cGxIb3VBQQ?oc=5"
+        },
+        {
+          "title": "Will Spain’s snap election in November bring a far-right party into government?",
+          "source": "The Guardian",
+          "published": "2026-11-16",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQS0xzb3YxVWdRaUUwUjlhRkhrTWNsTmJ0T3ZuV04zWW9xZGVjQURBYXpxZERfZmU5Mm1jdWY2d3NGSzZRM3VXd1hVN3RXVXNKYm9JaXdXaGxNNkh0WVI4Y0Q5elc3WmNROGVJdC0zcXAzUWRwWk9Jb09yYXd4ZDJLWkdCRTN5UjFOamRFWHUyX3pRQmtHRzQwSmhOM1U2T3RQNmtmcWRQTWRQV2hSRV8tMXNCcmZmT1MzRTd0NURJVWc?oc=5"
+        },
+        {
+          "title": "‘Expel invaders’: The dangerous promises of Spain’s far-right Vox party",
+          "source": "Al Jazeera",
+          "published": "2026-11-20",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNenY3VkxoTWkyV3hfTFBzaEhmQlVUUktZZ1NjRzVvY3M2V0g0YlYyaHluVVBSc0xrMTNvRXFoMlZmSHk1dkhzOXFKcV92QnR0clJ5VmJYTVJPdi1hOURZdkxuaUNmeUV2MVUtUElLU29zc1pKVHN6QmxNZTVUd010UE1oZjNYZzVDUFI0OElBWjg1YnVnU1UxQWdnamFiRzFzR1M2VnAxTEF4amPSAbABQVVfeXFMTmpkOE5TdFZDZUl6S2ltZ09tZDh0NXp4bVNyMXFrZzNOSnlfeThlZWI2MDNrRkRxT2dUYTRhMmhkV1F0MGpNZXFZdjZnQXdkMnJfMHBaYWNQWlZQdFNBOFZSRV91NjV6VmtPVWFCdllUTGZoVENWUkZ5djV1SUd0Snlkbzg4U0Y3Y0w1QkJXQUxDYmhScDNZV3VlOXpxamRoZk9GcEliY2dXblhHeE05M1o?oc=5"
+        },
+        {
+          "title": "Parliamentary 2026 Spain",
+          "source": "Fondation Robert Schuman",
+          "published": "2026-11-10",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPbU0wQ3BiZk1lV09TSzZiSTdBa1N0eEgwY1lNZmVQaUl3cTdyaDc4bERLY1UyQW9FVnltS0M4OThyUHYyRWg0a3ZJR1lMNVE4dy1DbExWSVg4TGIxSFVqR3JhMk5ZT3RERDc4aFRBZDN4ZG5YZW0wejkxMDYzb3hkLVl1UVAyRTY4bk1UWFozS0hheWM4U2lsUnV6d1BFaG5EVVZlRGMyLWhtWHlJLXhJM2NhV3BiZjQ?oc=5"
+        },
+        {
+          "title": "Polls favour Spain's Popular Party over socialists ahead of election",
+          "source": "Euronews.com",
+          "published": "2026-11-22",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRXloTVBpYnBBV1lPQ0l6dWZiYzZDS1JXTmJfa3Zzb3NLdDJOT25xY1Y4Qk5BWGptNnFvbkM1VlVkM3hHTC1Wd2lZdGw4V0o1ZzBtWk1XSGpXT3l1Rjh3M0pPN3VjX21MQ1hGZTd0RktxdHBEQ2NrOS1uRy1aQjNSRV9vSnUwT2pVZHZ1ajF3dEVZZmZXUUtDdzliaDQxOF9zWWROOXVJaw?oc=5"
+        }
+      ],
+      "news_query": "Spain General Election PP Vox Vote",
+      "forecast": {
+        "probability": 0.48,
+        "reasoning": "Recent polls put PP around 32-34% and Vox around 17-19%, a combined share hovering right around 50%. Polls overestimated the right in 2023, and blank votes count toward the valid-vote total, which slightly lowers both shares. That makes this close to a coin flip."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-24T00:46:58Z",
+        "crowd": 0.295,
+        "best_bid": 0.28,
+        "best_ask": 0.31,
+        "volume": 46861,
+        "liquidity": 31317,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Gap vs. the price we'd pay is 17.0 points; counting only part of it (cautious sizing) leaves 7.8, under the 10-point minimum."
+    },
+    {
+      "market_id": "6067012",
+      "event_id": "1237577",
+      "event_title": "Spain General Election: Ceuta Winner",
+      "option": "PP",
+      "question": "Will PP win the Ceuta seat in the 2026 Spanish general election?",
+      "rules": "Legislative elections to elect the 350 members of the Congress of Deputies of Spain are scheduled to take place on November 29, 2026.\n\nThis market will resolve according to the political party that wins the seat in the Congress of Deputies of Spain allocated to the constituency of Ceuta as a result of this election.\n\nIf the results of the specified election are not definitively known by November 30, 2027, 11:59 PM ET, this market will resolve to \"Other\".\n\nSeats and votes will be attributed according to the electoral list on which they were obtained, as reported in the official results, regardless of the party membership of individual candidates. Lists will be attributed as follows:\n\nPSOE: lists of the Spanish Socialist Workers' Party, including the Partit dels Socialistes de Catalunya (PSC) lists in Catalonia.\n\nPP: lists of the People's Party, including the joint UPN–PP list in Navarre.\n\nBroad Front (FA): all Broad Front lists, including Catalunya en Comú in Catalonia, Compromís–Valencian Front in the Valencian Community, and Canarian People’s Unity (UPC) in the Canary Islands.\n\nERC: Republican Left of Catalonia lists, including the joint ERC–Podem lists in Catalonia.\n\nPodemos: only lists presented by Podemos on its own.\n\nCCa: Canarian Coalition lists, including the joint CCa–1º CAN lists in the Canary Islands.\n\nAny other list will be attributed to the party or coalition that presents it, as named in the official proclamation of candidacies.\n\nElectoral cooperation, endorsements, coalition agreements, or subsequent changes in party affiliation or parliamentary-group membership will not be considered.\n\nThis market will resolve based on the results of the elections, as indicated by a consensus of credible reporting. In the case of ambiguity, this market will resolve solely based on the results as reported by the Spanish Ministry of the Interior (https://infoelectoral.interior.gob.es/).",
+      "topic": "Politics",
+      "end_date": "2026-11-30T04:59:00Z",
+      "url": "https://polymarket.com/event/spain-general-election-ceuta-winner",
+      "snapshot": {
+        "time": "2026-11-24T00:44:22Z",
+        "crowd": 0.655,
+        "best_bid": 0.65,
+        "best_ask": 0.66,
+        "volume": 10333,
+        "liquidity": 30394,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "Spain’s election could see Europe’s far-right ‘firewall’ begin to fall apart",
+          "source": "Chatham House",
+          "published": "2026-11-23",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNT2dlX0FzV3phZWVRclQyRE53UG5wUmwzOWVIYUVDZHNPTUNTdVZKc2pnNmhFWFNtWExrZXpyV2JjWlhFTlM0N0pBTXJNMG45Um1pQXN5WEpGTzJZbW52VHhWazJaNHZ5dGllUjFQcmFXZU10SFFNNk9yU2xYNzVOM3FyYl9pbDdPNE1oQUlubmIxRFdPNzNqN00xU09POG5IMjM3cGxIb3VBQQ?oc=5"
+        },
+        {
+          "title": "Spain's November snap election — what you need to know",
+          "source": "Reuters",
+          "published": "2026-11-11",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQQkxFcVJoYUdNZVFwQUNuNjI4b25Hc1FuOEN3bUNUTlhjU20tZDNWU2xRVzNBNlE5ejNRNjNzRkdHZ29Wa3ZMd2pnMXdWLXlrN09ESnhrUlhkS0g1OVU5dzFPRXozOEkzQ251U1IwY0tBU2JxTzVGdFE3VmNEeXJvc1ZnRXhxb1FKQmlqUHo5Z3lDQjJ5MDhVUU5R?oc=5"
+        },
+        {
+          "title": "Will Spain’s snap election in November bring a far-right party into government?",
+          "source": "The Guardian",
+          "published": "2026-11-16",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQS0xzb3YxVWdRaUUwUjlhRkhrTWNsTmJ0T3ZuV04zWW9xZGVjQURBYXpxZERfZmU5Mm1jdWY2d3NGSzZRM3VXd1hVN3RXVXNKYm9JaXdXaGxNNkh0WVI4Y0Q5elc3WmNROGVJdC0zcXAzUWRwWk9Jb09yYXd4ZDJLWkdCRTN5UjFOamRFWHUyX3pRQmtHRzQwSmhOM1U2T3RQNmtmcWRQTWRQV2hSRV8tMXNCcmZmT1MzRTd0NURJVWc?oc=5"
+        },
+        {
+          "title": "Parliamentary 2026 Spain",
+          "source": "Fondation Robert Schuman",
+          "published": "2026-11-10",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPbU0wQ3BiZk1lV09TSzZiSTdBa1N0eEgwY1lNZmVQaUl3cTdyaDc4bERLY1UyQW9FVnltS0M4OThyUHYyRWg0a3ZJR1lMNVE4dy1DbExWSVg4TGIxSFVqR3JhMk5ZT3RERDc4aFRBZDN4ZG5YZW0wejkxMDYzb3hkLVl1UVAyRTY4bk1UWFozS0hheWM4U2lsUnV6d1BFaG5EVVZlRGMyLWhtWHlJLXhJM2NhV3BiZjQ?oc=5"
+        },
+        {
+          "title": "Spain election poll tracker: Who will be the next prime minister?",
+          "source": "The Economist",
+          "published": "2026-11-23",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9aTy1leVltUDQ1SlNWWXVtSXR0b3lKLUthM2hTd3dBZ0dxVFR2c0pJam9IX0pfRFdOSjVKcGNhWEI4MTVMbFRiM0JISzVDNEpTRXBZX25nb2lvdTVvUlNKQkEzNlJ0a2VfRTFPbkhtU2Yzb0U?oc=5"
+        },
+        {
+          "title": "PM Sanchez admits 'mistakes' in key debate ahead of Spain's election",
+          "source": "France 24",
+          "published": "2026-11-20",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPWkF3R2dYTmxkQURQVy16aG1vVE54cmVlRWcxNFNXbFd3UldKNUNIQnFMWTNHNmZORkpCS2k3c25ZdjN4OEw0R2ZoeW5pR2Uyb1ROWUhCQ3B3YTdHNjRoX2RyQm1qRFltN0VkREhLYjVweHZna1FDOHNhN3BRS3JFS0pUTl85cWxoeFdpc0xBV3hqTmxTa2wwM1NTcnRmVkVob2dLcFduTURsdmJGZEFXSDRNQQ?oc=5"
+        }
+      ],
+      "news_query": "PP win Ceuta seat Spanish general election",
+      "forecast": {
+        "probability": 0.68,
+        "reasoning": "PP won Ceuta in 2023 and has a strong local machine there. However, Vox won this seat in November 2019, and with Vox polling much higher now it could take enough of the right-wing vote to win. PSOE is a smaller threat. PP remains the favorite but not a lock."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-24T00:46:58Z",
+        "crowd": 0.655,
+        "best_bid": 0.65,
+        "best_ask": 0.66,
+        "volume": 10333,
+        "liquidity": 30386,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Gap vs. the price we'd pay is 2.0 points; counting only part of it (cautious sizing) leaves 0.8, under the 10-point minimum."
+    },
+    {
+      "market_id": "3581419",
+      "event_id": "848408",
+      "event_title": "Tainan Mayor Election Winner",
+      "option": "Chen Ting-fei",
+      "question": "Will Chen Ting-fei win the next Tainan Mayor election?",
+      "rules": "Taiwanese local elections are scheduled to be held on November 28, 2026.\n\nThis market will resolve according to the candidate who becomes the next Mayor of Tainan as a result of this election.\n\nTemporary, interim, or placeholder Mayors appointed before the election will not be considered.\n\nIf the result of this election isn't known, or no candidate has been elected, by June 30, 2027, 11:59 PM ET, the market will resolve to \"Other\".\n\nThis market will resolve based on the results of the elections as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the Taiwanese government, specifically the Central Election Commission (https://db.cec.gov.tw/).",
+      "topic": "Politics",
+      "end_date": "2026-11-29T04:59:00Z",
+      "url": "https://polymarket.com/event/tainan-mayor-election-winner-20260813125857500",
+      "snapshot": {
+        "time": "2026-11-24T00:44:22Z",
+        "crowd": 0.943,
+        "best_bid": 0.941,
+        "best_ask": 0.945,
+        "volume": 28580,
+        "liquidity": 79205,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "Tainan mayoral candidates to outline policies in 2 televised debates",
+          "source": "Taiwan News",
+          "published": "2026-11-13",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5JZWFrN1FkN2FtTHlqUUU4NmVsLTM1Y3BlZWFlOVpfeWhkc3JqT2JDYTB3bXpkaTFUMGFUdVlyM0xKTFd1dkwyb0xxMER2c3NuMlhKdw?oc=5"
+        }
+      ],
+      "news_query": "Chen Ting-fei win Tainan Mayor election | Tainan Mayor Election Winner Chen Ting-fei",
+      "forecast": {
+        "probability": 0.8,
+        "reasoning": "Tainan is one of the DPP's safest strongholds, and Chen Ting-fei is the DPP nominee. KMT legislator Hsieh Lung-chieh is a comparatively strong challenger, so this is not certain, but the DPP has held the mayoralty for decades."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-24T00:46:58Z",
+        "crowd": 0.943,
+        "best_bid": 0.941,
+        "best_ask": 0.945,
+        "volume": 28580,
+        "liquidity": 79205,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Gap vs. the price we'd pay is 14.1 points; counting only part of it (cautious sizing) leaves 7.0, under the 10-point minimum."
+    },
+    {
+      "market_id": "6439049",
+      "event_id": "1285837",
+      "event_title": "\"Dune: Part Three\" Opening Weekend Box Office",
+      "option": "130m+",
+      "question": "Will \"Dune: Part Three\" Opening Weekend Box Office be at least 130m?",
+      "rules": "This market will resolve according to how much \"Dune: Part Three\" will gross domestically on its 3-day opening weekend (December 18 - 20).\n\nThis market will resolve as soon as a final (i.e., not studio estimates) opening weekend figure is available, and no later than January 20, 2027, 11:59 PM ET. The primary resolution source is the opening weekend figure in the \"Weekend Box Office Performance\" table on the \"Box Office\" tab of this movie's The Numbers (https://www.the-numbers.com/) page. If The Numbers does not have a final figure by January 20, 2027, 11:59 PM ET, this market will resolve according to the \"Weekend\" figure for the movie's first weekend on the \"Domestic Weekend\" tab of this movie's Box Office Mojo (https://www.boxofficemojo.com/) release page.\n\nIf neither source has a final figure by January 20, 2027, 11:59 PM ET, this market will resolve according to the figure The Numbers reports at that time, or, if The Numbers reports none, the figure Box Office Mojo reports at that time. If neither source reports any figure by January 20, 2027, 11:59 PM ET, this market will resolve to the lowest bracket. If \"Dune: Part Three\" is not released by January 20, 2027, 11:59 PM ET, this market will resolve to the lowest bracket.\n\nIf the reported value falls exactly between two brackets, then this market will resolve to the higher range bracket.\n\nThis market will resolve according to the figure for the 3-day weekend (which typically includes Thursday's previews), regardless of whether domestic refers to only the USA, or to USA and Canada, etc.",
+      "topic": "Entertainment",
+      "end_date": "2026-12-20T12:00:00Z",
+      "url": "https://polymarket.com/event/dune-part-three-opening-weekend-box-office",
+      "snapshot": {
+        "time": "2026-11-24T00:44:22Z",
+        "crowd": 0.215,
+        "best_bid": 0.19,
+        "best_ask": 0.24,
+        "volume": 11356,
+        "liquidity": 4269,
+        "fee_rate": 0.01
+      },
+      "news": [
+        {
+          "title": "Long Range Forecast: DUNE: PART 3 Aims for a Series-High Debut as it Opens Against AVENGERS: DOOMSDAY",
+          "source": "Boxoffice Pro",
+          "published": "2026-11-20",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQY19kdkZXalk4RE9GQnE2ODJnU1laYVVUTkY0dlVFYzZjOVQ5QWdQb2h4VGtoWk9hU1pWbXFCcTdLTW9pblNMbHlaNTUtYkMwRU5aRk5semRjM2hXOWZwdUMxY044cTZ3WldmR3hkUG5ZVDAtY0dxMk45eFlFSnRCbmJQM2dhTFZiTnYxMTU2YkVrbUxCcTcyMS1iTE5qcXYxQzFTR3BrSFpTTk0zRERKZGl1TzFvbVluSUFMeHNYSDhmSHMxSk1j?oc=5"
+        },
+        {
+          "title": "Avengers: Doomsday & Dune 3 Box Office Battle On Track For Historic Opening Weekend",
+          "source": "ScreenRant",
+          "published": "2026-11-13",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOb2sxMjh2UTd1VmxFcFJqQjNHdGVwbm1tQ284cXdzNkRDYnZUZ1htdjBZMzVFZE5KSllTaUdtSzVvY1hySTdIc1R0TmVfQ0phYjNJWTBqRGhLMmN4Y1Bob21XeG1wbTZWV1RlUkphT0V4eTR5VmxyUl8wWV96NDhnTXN1WWR1eWI2RmNrMndCSTJDUXJ3U0FCWkFUQQ?oc=5"
+        },
+        {
+          "title": "Domestic Ticket Sales Up 20% From 2025 Before Hunger Games, Dune, Avengers",
+          "source": "Variety",
+          "published": "2026-11-15",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOSnQ0WFVNS3NFOFlTOFN2ZlBJNVJkNXVuUXBPbVdMclphZjlJZHZwQWhHQWhyTHd2RmVCVDAyMFNvd3VDeXZkQlFvWWRXZ1JFOTd1NGJEd29JSlVPMWViVEZ4Y0dSa0kwZFd0RTQ5SWJNS0NEREQwWUpEU3V0Uk5vR3N2aVRqbjd4bEFVQ1hlR2RDV3hIR1hZQmZTSDRyV2FIbUhiUTQ5U25vWDdTc1ZsUUp2ZWFnYk1KeGFCUDRia1BVaE1Bdk04N0s2Ymk?oc=5"
+        },
+        {
+          "title": "‘Dunesday’ Scenarios: AVENGERS: DOOMSDAY ($340-369M+) and DUNE: PART THREE ($91-100M+) Tracking for Potential Record $440M+ Box Office Weekend",
+          "source": "Box Office Theory",
+          "published": "2026-11-13",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNc3Y4blVXWVhaeTM5NjA3QVBNYzRJeUhvNk1lcV81MFUwaEJSMUxmRThSVEZWd2Z4VmpYZ2w5NFMtM0dzRS12a0lRNXg4OXk4SjV0LVRHZXhrTjV3b3NqNWVUOGF1aURuakZuMTFNTG1zTk92bHNnY2JRZjQ3V1BwQUNsc2ZmMzlYSkdqVmpkLVp2aDlMTVJ0ZDRCOWxBUG1OOXAwYW5PNTRMTjZyWFphUlNjSFY5TFN4eTlIN2FwRUVVR2dpd1Rz?oc=5"
+        },
+        {
+          "title": "Will Dunesday become the new Barbenheimer?",
+          "source": "Numéro Magazine",
+          "published": "2026-11-10",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1wQmFlblhBOC1OdlQzUF93RUhSc21TS2lpVi13VnRlTlVIMVhDTllRTHBscUw0em9BcTZaNE9IeVF4dlVSdkZNVVdZUjVBVE9wNzh4VkptY1F4Ymo1YUhaNllsZkJpN3VDVHVLM25oOXhPSTlIOW5aNEwxckh4Nzg?oc=5"
+        },
+        {
+          "title": "Holiday movies: ‘Dunesday’ could push 2026 box office past $10 billion",
+          "source": "San Francisco Chronicle",
+          "published": "2026-11-13",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNQUVFaGliVjJKNzhLVkFDWDdEalY5bHZYZ3VZSHE1NVBzYWRtRlBQeFY1Zmg1ZURUNHpRWFQzR05sUFZZdDNlYkpEdWNManRXc0gxVzdkellwVzloOGQ4N3RNNEppa0M0Rkw4NFZlMlB3TjVWMDhxVW9wOHFaOGIxaVh4VUVPakx5VHZtLVUtRWtQUDQySzZyeXo0b0lDZy1NQlFKcQ?oc=5"
+        }
+      ],
+      "news_query": "Dune Part Three Opening Weekend Box Office",
+      "forecast": {
+        "probability": 0.07,
+        "reasoning": "Tracking puts the opening at roughly $91-100M+, already a series high (Part Two opened at about $82M). It also opens head-to-head against Avengers: Doomsday. Reaching $130M would require a large beat of the tracking."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-24T00:46:58Z",
+        "crowd": 0.215,
+        "best_bid": 0.19,
+        "best_ask": 0.24,
+        "volume": 11356,
+        "liquidity": 4228,
+        "fee_rate": 0.01
+      },
+      "bet_note": "Gap vs. the price we'd pay is 12.0 points; counting only part of it (cautious sizing) leaves 4.8, under the 10-point minimum."
+    },
+    {
+      "market_id": "5197570",
+      "event_id": "1117417",
+      "event_title": "Reserve Bank of India decision in December",
+      "option": "25 bps increase",
+      "question": "Will the Reserve Bank of India increase the policy repo rate by 25 bps at the December meeting?",
+      "rules": "This market will resolve according to the change in basis points in the policy repo rate resulting from the December 2026 meeting of the Reserve Bank of India Monetary Policy Committee, relative to the level it was prior to this meeting.\n\nThe resolution source will be official information from the Reserve Bank of India Monetary Policy Committee, including the statement or release from its December 2026 meeting, with the decision to be announced on December 4, 2026, as listed on the official Reserve Bank of India calendar (https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=62422). This market may resolve as soon as the statement or release of the Reserve Bank of India Monetary Policy Committee resulting from its December 2026 meeting with relevant data is issued.\n\nIf the specified rate is defined by an upper and lower bound, the relevant change will be the change to the upper bound.\n\nIf the specified rate is changed to a level not expressed in the displayed options, the change will be rounded according to the following guidelines. Increases or decreases of less than 25 bps will be rounded to 25 bps (e.g. an increase or decrease of 10 bps would be considered to be an increase or decrease of 25 bps). Increases or decreases of greater than 25 bps will be rounded to the nearest 25 bps and will be rounded away from 0 in cases of equidistance (e.g., an increase or decrease of 37.5 bps would be considered to be an increase or decrease of 50 bps). Displayed options of “Increase” or “Decrease” will include policy rate increases or decreases of any size.\n\nIf the specified meeting is postponed to a date and time before the start of the next scheduled meeting, this market will resolve based on the outcome of that postponed meeting. If the specified meeting is cancelled, or postponed such that no decision is announced by the start of the next scheduled meeting, this market will resolve to the “No Change” bracket. Emergency changes to the specified rate not resulting from the specified meeting will not be considered.",
+      "topic": "Economy",
+      "end_date": "2026-12-04T00:00:00Z",
+      "url": "https://polymarket.com/event/reserve-bank-of-india-decision-in-december-2026",
+      "snapshot": {
+        "time": "2026-11-24T00:44:22Z",
+        "crowd": 0.86,
+        "best_bid": 0.85,
+        "best_ask": 0.87,
+        "volume": 13699,
+        "liquidity": 4405,
+        "fee_rate": 0.01
+      },
+      "news": [
+        {
+          "title": "India’s inflation breaches central bank’s upper tolerance limit",
+          "source": "The Real Economy Blog",
+          "published": "2026-11-12",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNNHlJazQ2Y05GbmpERVlQeDVnSjNoQ2taeWJ0R3FXaHh2MTcyY3lLUkhFMFV5cVFhb21YSnF5OW1LazJXRHJPcy12UTBfVHYtWU9BMjAtcWVGNGE1N1RsdC15VmI5aUk5YVduTHY1N0Z0bTlJTXRxSWI0UDdsT0s1bDBrZDJhU1FoTW1idU9xSUdiSTJLWndV?oc=5"
+        },
+        {
+          "title": "India's inflation breach: Why the RBI can't afford a timid December",
+          "source": "The Federal",
+          "published": "2026-11-23",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTUQtdV9yaUFzaFBzMXNYODF4eHQ5REh3UjZVTlpTbzJKcXVVUTRQX3BqNFZnQ3JXNEFtbVlDSTM3MEkyXy1LM0MtejRPdFc3ZUJLT0tWcmpBd05sRFg5dGQxc0I0TVNNSXBXRXpPc2FtYzl0VFdWbUxyRlJ4elRVQkhxd21TdU9hR0FJaDN4U0hFTU5qbUJDSk9sZ3hvdlhRdE52amM3ZGYxNXRHeWFoWg?oc=5"
+        },
+        {
+          "title": "'Look at India': Trump cites 7% growth to criticise US Fed's rate policy",
+          "source": "Business Standard",
+          "published": "2026-11-21",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOdnBiS2NEM1czV1J6NW9KTHVqcjZUNjNDOUw2RmlWM1hZMWNTWlk2ZExDdTVSSG9KMUZWZTU4bFZQbU9md2xwcWtnOEljV3pCbklyc3JwdXBHdE5IYS1PSF9uTDRZTkszOWFCb0k4b3ZiNzh3OVF2RzBwY2diZ3RTUlhPSUpzOXZaMkRCdGlRMVpFTXJGVDJJX3pRZHZZUDJ3MDY1UlZPTnhXZEpJYkQwaHc0dXBsZ21OV3g2M2JHbmNNRWZwcWx6S3NYQ1ZYUdIB0wFBVV95cUxOZHFTa1RZQU9MWE1pOVNOaHpNMUlJOG1vaF9lZ1F0Y3hvcVpKUXAtX1VsXzdNdG5ncWhRVXRxZkZuY3lPV3dudnpmUXhGZVBEX1YtZmVRcGlMZXNadWlnbzFVd0J3Rk9ka2otMUZETHpNSVNWMjhxMm9CV2hYQlNVNWFNbm00X2FmV0w4NG81dVRBTzltNEFFNTlTSjBkQzU1dmY0LXVrRlFKQVJ3cVdZanFqdldPOXd3ZGRVdG4xaWtOeUhPVGY2MjVpU0tvWTdIYWU4?oc=5"
+        },
+        {
+          "title": "India GDP Growth Projected at 7% for FY27: Brickwork Ratings",
+          "source": "INDToday",
+          "published": "2026-11-21",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPUTNLN1FWZHJfd2tMOTlMX1BsdFlEek1UdzEyekZPWFBDS003blJGbHJGaXRWUC1Nbzduc3hmaVMwQjdDbFJmNDJpU0NsTl9CYXNMVldLcTVzVUFDam1LQXRwRWVydG9VRnRJZ1JLM2oyQjJzMU1jcGNtZUxDbjlMU1JYMVNJSTQ?oc=5"
+        },
+        {
+          "title": "India's RBI expected to raise rates in December, deliver final hike in February: Reuters poll",
+          "source": "Fresno Bee",
+          "published": "2026-11-20",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5CbUY1ZzgyQUs5NjZtcWJneHg4SGZXTjViUVVUT2tYVkc1WFNxak5xU0psMDBlMUNET1Npa3JFTndzMFVJVC03ZWU1SWZfaUt6ZDhLTmtBZzZKOGVjYkYta09DVWVOb2JUVk1UWWlJMVU5ZkhLR2pNTWVwN2l1WGM?oc=5"
+        },
+        {
+          "title": "India’s New Data Series to Aid RBI Policy, Gupta Says",
+          "source": "Bloomberg.com",
+          "published": "2026-11-23",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNcEEyRHQ2bXNKZk40OGQ5N3ZhUVRqWU5UTTN4SlpYVmJDQV9BZ0dtRF96amFrZDBkemlsZzlvMXVZQ3V1ZGFILWF4ODNrTDdJN1k3Nk8taV9LZlY1ODVyemNreURzTERVUncyM1U0WFVZMFdfRHVHYXViSlNSb251OUZwZ0hSZ1VKSnByd0JzUzM3OUFaYTc5Wk9KSEdPaGoxdS03N3RudGxBamwxb1JR?oc=5"
+        }
+      ],
+      "news_query": "Reserve Bank India increase policy repo rate | Reserve Bank India increase policy repo economists forecast",
+      "forecast": {
+        "probability": 0.7,
+        "reasoning": "Inflation has breached the RBI's upper tolerance limit, and a Reuters poll shows economists expect a December hike followed by a final one in February, which implies 25 bp steps. The main risks are a hold, or a larger 50 bp move given the 'can't afford timid' commentary."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-24T00:46:58Z",
+        "crowd": 0.86,
+        "best_bid": 0.85,
+        "best_ask": 0.87,
+        "volume": 13699,
+        "liquidity": 4398,
+        "fee_rate": 0.01
+      },
+      "bet_note": "Gap vs. the price we'd pay is 15.0 points; counting only part of it (cautious sizing) leaves 7.0, under the 10-point minimum."
+    }
+  ],
+  "batch_id": "msgbatch_01UvgF2JsvyGS3tAqjcUKnxj",
+  "forecast_at": "2026-11-24T00:46:57Z",
+  "usage": {
+    "input_tokens": 6091,
+    "output_tokens": 1463
+  },
+  "cost_usd": 0.0268,
+  "budget": 31.81,
+  "account": "phase-1.2"
+}
