@@ -1213,5 +1213,15 @@
     "outcome": 0,
     "resolved_at": "2026-11-23T16:02:07Z",
     "question": "Will the Bank of Israel decrease the Bank of Israel Interest Rate by 25 bps at the November meeting?"
+  },
+  "6390067": {
+    "outcome": 0,
+    "resolved_at": "2026-11-25T15:34:01Z",
+    "question": "Will Core PCE YoY be 3.2% in October?"
+  },
+  "6618279": {
+    "outcome": 0,
+    "resolved_at": "2026-11-25T06:02:59Z",
+    "question": "Will Venezuela win Miss Universe 2026?"
   }
 }
