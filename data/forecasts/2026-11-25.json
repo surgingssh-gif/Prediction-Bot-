@@ -1,0 +1,760 @@
+{
+  "run_id": "2026-11-25",
+  "date": "2026-11-25",
+  "created_at": "2026-11-25T01:21:24Z",
+  "model": "claude-opus-5-5",
+  "effort": "high",
+  "phase": "1.3",
+  "pick_stats": {
+    "eligible": {
+      "Economy": 5,
+      "Entertainment": 3,
+      "Politics": 20,
+      "Tech": 1
+    },
+    "picked": 10
+  },
+  "track_record": "=== Your track record so far ===\nThese are your own earlier forecasts in this experiment that have settled (223 questions). They show only what you said and what happened (no market information).\n- On average you said 38%, and 43% of these events happened. So far you have been too low: events happened more often than you said.\n- Your average Brier score is 0.252 (0 is perfect; always saying 50% scores 0.250).\n- When you said...\n    under 10%: it happened 6 times out of 25.\n    10-30%: it happened 24 times out of 70.\n    30-70%: it happened 46 times out of 94.\n    70-90%: it happened 17 times out of 31.\n    over 90%: it happened 3 times out of 3.\n- Your biggest misses:\n    \"Will SpaceXAI officially rename itself to SpaceXSI by October 15?\" You said 3%; it happened.\n    \"Will the Tesla Roadster fly for 1s+?\" You said 4%; it happened.\n    \"Will Xiaomi have the best Chinese AI model at the end of October 2026?\" You said 6%; it happened.\n    \"Will monthly inflation increase by 0.6% in September?\" You said 7%; it happened.\n    \"Will there be between 0 and 5 average daily transits of the Strait of Hormuz on October 31?\" You said 7%; it happened.",
+  "questions": [
+    {
+      "market_id": "6920151",
+      "event_id": "1353411",
+      "event_title": "\"The Cat in the Hat\" total domestic gross by November 30?",
+      "option": "55-65M",
+      "question": "Will the total domestic gross for \"The Cat in the Hat\" be between $55M and $65M by November 30?",
+      "rules": "This market will resolve according to how much \"The Cat in the Hat\" box office will gross domestically from its opening (November 5, 2026) through November 30, 2026.\n\nThis market will resolve as soon as a final (i.e., not studio estimates) cumulative figure through November 30, 2026 is available, and no later than December 30, 2026, 11:59 PM ET. The primary resolution source is the \"Total Gross\" figure for November 30, 2026 in the \"Daily Box Office Performance\" table on the \"Box Office\" tab of this movie's The Numbers (https://www.the-numbers.com/) page. If The Numbers does not have a final figure by December 30, 2026, 11:59 PM ET, this market will resolve according to the \"To Date\" figure for November 30, 2026 on the \"Domestic Daily\" tab of this movie's Box Office Mojo (https://www.boxofficemojo.com/) release page. If a source lists no figure for November 30, 2026, its figure for the most recent listed date before November 30, 2026 will be used.\n\nIf neither source has a final figure by December 30, 2026, 11:59 PM ET, this market will resolve according to the figure The Numbers reports at that time, or, if The Numbers reports none, the figure Box Office Mojo reports at that time. If neither source reports any figure by December 30, 2026, 11:59 PM ET, this market will resolve to the lowest bracket.\n\nIf the reported value falls exactly between two brackets, then this market will resolve to the higher range bracket.\n\nThis market will resolve according to the cumulative domestic gross until and including November 30, 2026, regardless of whether domestic refers to only the USA, or to USA and Canada, etc.",
+      "topic": "Entertainment",
+      "end_date": "2026-12-01T04:59:00Z",
+      "url": "https://polymarket.com/event/the-cat-in-the-hat-total-domestic-gross-by-november-30-20261108",
+      "snapshot": {
+        "time": "2026-11-25T01:21:19Z",
+        "crowd": 0.915,
+        "best_bid": 0.905,
+        "best_ask": 0.925,
+        "volume": 29523,
+        "liquidity": 2093,
+        "fee_rate": 0.01
+      },
+      "news": [
+        {
+          "title": "‘The Cat In The Hat’ Holds At No. 2 As ‘Wildwood’ Passes ‘Kubo’",
+          "source": "Cartoon Brew",
+          "published": "2026-11-16",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPYzRQQXRYaWtqZm40Z0UyYUlDeENrS3lUUkJINDNpMHF0V0JQZmNCZnVZU29XMngwcjRLdHNDeXU5R1AyRHdPRGgzVW91VHhSMndMa3loRTlhZlA2WTI4cDFCUHNWWHlYcGc3Q1NyQ09NU2xZM29DbnZSWmZxVnRCRGl6cVp1WDczbDhyVGM0LXphaGtmdzdR?oc=5"
+        },
+        {
+          "title": "The Cat In The Hat North America Box Office: Positive Word Of Mouth Provides A Cushion, But $20M+ Opening Falls Miles Behind The Lorax & The Grinch!",
+          "source": "IMDb",
+          "published": "2026-11-17",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1ZZTZ3a2VIVDVuSlctY0FGN3FEMVc5V0QxWjlSeHppdUNCdE5sakJNTnY1ZVJpWlFDTFVlUk1EVEItQ0h3MnVzVGZKY3FIUQ?oc=5"
+        },
+        {
+          "title": "BOX OFFICE: What, Humbug AGAIN? “Ebenezer” drops to $19, “Cat/Hat” spent, “Godzilla” Plummets",
+          "source": "Movie Nation",
+          "published": "2026-11-14",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdGpSXzk1X3BMNTh2cTFMT3h2X3lSa1RqeTVKQTVLaExScEJxUkR5OUJ3elJ2dnNnS2Mya1dNNHNKMkRUVmJONVR4M1J1M0JNNTlfTmFJRkF5QlpkM1pPRVFTNlVhT0IwbWJfSTktbEdYN2xnWmQtMkotaGFHbzFXWEVzbFJwX3pmRDZHWlI4ZlVwQllxQTlYeWlPRS13QTlDb1VKV2lvX3RRWV9ZclQ2V09MNDJCTzFa?oc=5"
+        },
+        {
+          "title": "The Cat in the Hat Box Office: $20.5M Seuss-Low Opening",
+          "source": "25YearsLaterSite.com",
+          "published": "2026-11-11",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQVHF4VW1kRC13NUJHdTY4alhDYURyUWJ0LVpENVpqX1ozSmJrbzQyZGt5R2l3Y3NsZjE3VUlaaDFvYVVwZ1NBSFc1VmE2YXdYTVBJSnJ0S2JrSEszYXprbEVXQjd5MkhxWVg1aDFPN1FpSTQycEJfeFVJY29kR0dnd1BFblBkaTBRS0ZONHp5dGxTYVQxbmF4VS1n?oc=5"
+        },
+        {
+          "title": "The Cat in the Hat’s latest trick is a reported $70 million worldwide",
+          "source": "Digg",
+          "published": "2026-11-22",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE16OHQ5bmhXYlNKV3Z6cjJ2OHlYcFk5QzIzbVdyM3VlZDJ6SW5zOHc1MGszeGtNQXJXcDNPVENWcC1mdUdabjhHNU5YN25tclB5?oc=5"
+        },
+        {
+          "title": "‘The Cat In The Hat’ Hits $70M Worldwide As ‘Wildwood’ Passes ‘The Boxtrolls’s’ Domestic Total",
+          "source": "Cartoon Brew",
+          "published": "2026-11-23",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTlN6Q3RQMmRESlpteElBb3dMQ04zSkZ3SW1rajNQckp0UzNVTTBRWWQtdmtuRm51ZzR5Q0tGR2loV2FERzFiRkhfR2xfVkJVSkVLcWRvV1JQeFVFSVRxSU4tTkJHMUl5WFlNbnZ5bUtIZ2RsVzZtSjdRcWFRdzdnTExkZFBlQlZaZl9pdmtmY1B4T28zbVdIMldxaHFNSTA?oc=5"
+        }
+      ],
+      "news_query": "total domestic gross Cat Hat",
+      "forecast": {
+        "probability": 0.48,
+        "reasoning": "The film opened to $20.5M and held at No. 2 in its second weekend, with word of mouth described as positive. It reached $70M worldwide by Nov 22, which implies roughly $45-50M domestic at that point. Thanksgiving week should add about $10-15M, putting the Nov 30 total near $58-65M. That sits squarely in this bracket but close to its upper edge."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-25T01:22:55Z",
+        "crowd": 0.915,
+        "best_bid": 0.905,
+        "best_ask": 0.925,
+        "volume": 29523,
+        "liquidity": 2093,
+        "fee_rate": 0.01
+      },
+      "bet_note": "Gap vs. the price we'd pay is 42.5 points, over the 35-point limit: disagreements this big have usually meant the AI missed something, so no bet."
+    },
+    {
+      "market_id": "5673504",
+      "event_id": "1185010",
+      "event_title": "Central Bank of Chile decision in December",
+      "option": "25 bps increase",
+      "question": "Will the Central Bank of Chile increase the monetary policy rate by 25 bps at the December meeting?",
+      "rules": "This market will resolve according to the change in basis points in the monetary policy rate resulting from the December 2026 meeting of the Central Bank of Chile (Banco Central de Chile), relative to the level it was prior to this meeting.\n\nThe resolution source will be official information from the Central Bank of Chile, including the statement or release from its December 2026 meeting, scheduled for December 15, 2026, as listed on the official Central Bank of Chile calendar (https://www.bcentral.cl/es/web/banco-central/noticias-y-publicaciones/prensa/calendario-de-politica-monetaria-y-financiera). This market may resolve as soon as the statement or release of the Central Bank of Chile resulting from its December 2026 meeting with relevant data is issued.\n\nIf the specified rate is defined by an upper and lower bound, the relevant change will be the change to the upper bound.\n\nIf the specified rate is changed to a level not expressed in the displayed options, the change will be rounded according to the following guidelines. Increases or decreases of less than 25 bps will be rounded to 25 bps (e.g. an increase or decrease of 10 bps would be considered to be an increase or decrease of 25 bps). Increases or decreases of greater than 25 bps will be rounded to the nearest 25 bps and will be rounded away from 0 in cases of equidistance (e.g., an increase or decrease of 37.5 bps would be considered to be an increase or decrease of 50 bps). Displayed options of “Increase” or “Decrease” will include policy rate increases or decreases of any size.\n\nIf the specified meeting is postponed to a date and time before the start of the next scheduled meeting, this market will resolve based on the outcome of that postponed meeting. If the specified meeting is cancelled, or postponed such that no decision is announced by the start of the next scheduled meeting, this market will resolve to the “No Change” bracket. Emergency changes to the specified rate not resulting from the specified meeting will not be considered.",
+      "topic": "Economy",
+      "end_date": "2026-12-15T00:00:00Z",
+      "url": "https://polymarket.com/event/central-bank-of-chile-decision-in-december-2026",
+      "snapshot": {
+        "time": "2026-11-25T01:21:19Z",
+        "crowd": 0.36,
+        "best_bid": 0.35,
+        "best_ask": 0.37,
+        "volume": 13779,
+        "liquidity": 14780,
+        "fee_rate": 0.01
+      },
+      "news": [
+        {
+          "title": "Chile central bank holds bank capital requirement at 1%",
+          "source": "Reuters",
+          "published": "2026-11-16",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOb0t4Z3NsbklEMEV6UWVEcnVHMnpIamliQ2FoRzlMdE5faFNfVHJZZVR6b2hCdWNkUm03c1JoaS1uTUdQN2dQbkFkMW80SHpDS2VMMF9Gdm5Cd0JFbDhFa0h6ZHRZcnRKdUdQNHYwaDVCWHdhLU90WU5MNE5YZjRYZGpHbi1KQW1TbmdHNHphV19PV2ZrWTRYV3R3X240T3BRS0tXSA?oc=5"
+        },
+        {
+          "title": "Chile Central Bank Says New Rules Eased Fallout From Swap Losses",
+          "source": "Bloomberg.com",
+          "published": "2026-11-17",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNQWZBSGl5U3RnUWRDNVBYTTBlVk1zUEk1U0NNTUZ3VTctS1h4blBIWW5lcnJfZ09aR0Z2eGlYNVNGQ0pSSU9STjFuTW9SZXJaV3pXTDZXcGpOQ2RUZ0JiWnduOXB3c0huTTZPZV9MdlAxbkNlWU1XazBpNFFSM29BRS13MGg4Tk5IX0ZxQ1NRR3hSUXRqVkZ4VDZqcnZRQm1rQ0dhdktuUTEyRFY2SmxWbDRmb0VqQQ?oc=5"
+        },
+        {
+          "title": "Chile’s exit from economic doldrums hinges on projects materializing, think tank says",
+          "source": "BNamericas",
+          "published": "2026-11-12",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQdXBGZmRsUXJQRXROSXM1RThCNk1LTGxQdnhxUjYwX1Nya1IyU29ITDhpMmZqMEMtbVplNVVYNEZrTTdOUWY4dldSeVBpUlRIU2NRdjJSdDM2X2UzSVRGUUpxdmdFM25pbEJzUC15QjFMajZHWkhsTllyZk8yNThqOEd3ZUJpdVp2Ql8xdEJKenZHT0JPcXBpWXQxWlJyVzdqY3NuSHBPdzV0V3FaQlpDOGMwdHlnNUdBV2t0UHBqaw?oc=5"
+        },
+        {
+          "title": "Chile Holds Bank Capital Requirements at 1%, Flags Global Market Risks - News and Statistics",
+          "source": "IndexBox",
+          "published": "2026-11-16",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNa2VvZVRWbmV2Y0M0SWQ0Tm94aWtHNVI0S3g5a01hT3g2TjM0bm5VRFBlaTNGeFB4QW1Iam5vNU5CbnNRMlFRQ2M1N1hFU0tHc3ZKS0FzcC1uN296OUR5VFJUN2RaSE4yMHhPb3d0SjBKcDNPcnlQZXhXYlRiOEkyS2xCWDAyRGl3aUd2S0VnSW5vNkExY3ludThjZlg0T3BBN1B4NE1QWUZmVWJhT2c?oc=5"
+        },
+        {
+          "title": "Why Chile Remains So Competitive",
+          "source": "Global Finance Magazine",
+          "published": "2026-11-16",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQMXZORXUzS2c4V1RYdFNOZ0xPT1dwRnVjZi1kWnlIZDFYS1Q2QS1OSldkZjZueHZNbkFFMlBBMjJQdVJtUXB0M055Q3FEYm9OUGhnSmk4cGZaTUVzUGxwVXAwN3JxZm8xQVNvSlBEY2xueTdzSU8tUWhQS2dnZjROTTNLWGI2dw?oc=5"
+        },
+        {
+          "title": "Chile’s Economic Recovery May Take Longer, Central Bank Chief Tells Newspaper",
+          "source": "Bloomberg.com",
+          "published": "2026-11-22",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONEl1RDMta3FDb3VIeWczMlZkWG9ucE9zbEU1enpwWXplTzNNb0RBM1hTN1EzX0VnYXV4MzdvZkhiWmJGR09CTy11Yi1tOVpodTlGVXVUZTVuSUJ5Uld3RlVSX3VhelV1N0RTNzByQU1tcDBmRDFab0VHcDRaTDMxNEpCU3ZjOEF5NExBcmRjZHRqODhwV2paZUZkR0tuRUdnN1Q3UndEbDQzYUI4TE96UG4yLVZ6QQ?oc=5"
+        }
+      ],
+      "news_query": "Central Bank Chile increase monetary policy rate | Central Bank Chile increase monetary policy economists forecast",
+      "forecast": {
+        "probability": 0.05,
+        "reasoning": "The central bank chief says the economic recovery may take longer, and other reports describe the economy as being in the doldrums. Both point toward holding or easing rather than tightening. Emerging-market central banks rarely hike with growth this weak unless there is a currency or inflation shock, and nothing like that shows up in the news."
+      },
+      "bet": {
+        "side": "NO",
+        "price": 0.65,
+        "top_price": 0.65,
+        "shares": 43.89,
+        "stake": 28.53,
+        "fee": 0.1,
+        "cost": 28.62,
+        "gap_pts": 30.0,
+        "edge_pts": 14.5,
+        "sized_on": 0.205,
+        "kelly_full": 0.4105,
+        "fill": "order book",
+        "levels": 1,
+        "scaled": 0.8044
+      },
+      "trade_snapshot": {
+        "time": "2026-11-25T01:22:55Z",
+        "crowd": 0.36,
+        "best_bid": 0.35,
+        "best_ask": 0.37,
+        "volume": 13779,
+        "liquidity": 14780,
+        "fee_rate": 0.01
+      },
+      "bet_note": "Bought NO (AI's gap 30.0 points; 14.5 after cautious sizing). Scaled to 80% to fit the daily budget of $28.63."
+    },
+    {
+      "market_id": "3581482",
+      "event_id": "848410",
+      "event_title": "Keelung Mayor Election Winner",
+      "option": "Hsieh Kuo-liang",
+      "question": "Will Hsieh Kuo-liang win the next Keelung Mayor election?",
+      "rules": "Taiwanese local elections are scheduled to be held on November 28, 2026.\n\nThis market will resolve according to the candidate who becomes the next Mayor of Keelung as a result of this election.\n\nTemporary, interim, or placeholder Mayors appointed before the election will not be considered.\n\nIf the result of this election isn't known, or no candidate has been elected, by June 30, 2027, 11:59 PM ET, the market will resolve to \"Other\".\n\nThis market will resolve based on the results of the elections as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the Taiwanese government, specifically the Central Election Commission (https://db.cec.gov.tw/).",
+      "topic": "Politics",
+      "end_date": "2026-11-29T04:59:00Z",
+      "url": "https://polymarket.com/event/keelung-mayor-election-winner-20260813135716100",
+      "snapshot": {
+        "time": "2026-11-25T01:21:19Z",
+        "crowd": 0.635,
+        "best_bid": 0.62,
+        "best_ask": 0.65,
+        "volume": 22770,
+        "liquidity": 34200,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "James Soong crosses party lines to back DPP’s Tung Tzu-wei for Keelung mayor",
+          "source": "联合早报",
+          "published": "2026-11-22",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQNDB0cTE1Y3ZMaUJKcUVFSVF6VzU1ZnFGamZhZkduczAwVWdYeXlYSzNUWlNmMlJqVWtvWGVDa2tfaGhySGUtZzJVbDRieXBYRkFqUG9hSWdaaVR4eVJJUmxjd28ySHZnVHY1M3djcWtNMnNxWlo1MC1YUWhQWVJlUUdyRXVnZE9JVkNsSmV5WHU0dWNqT0d3enFPaXVqZnAtTnp1LWd0ZFVHYnZO?oc=5"
+        }
+      ],
+      "news_query": "Hsieh Kuo-liang win Keelung Mayor election | Keelung Mayor Election Winner Hsieh Kuo-liang",
+      "forecast": {
+        "probability": 0.62,
+        "reasoning": "Hsieh is the KMT incumbent, survived a recall comfortably in 2025, and Keelung has leaned KMT recently. Incumbent mayors usually win re-election. James Soong backing the DPP's Tung Tzu-wei suggests the race is competitive, so Hsieh is favored but far from certain."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-25T01:22:56Z",
+        "crowd": 0.635,
+        "best_bid": 0.62,
+        "best_ask": 0.65,
+        "volume": 22770,
+        "liquidity": 34112,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Gap vs. the price we'd pay is 0.0 points; counting only part of it (cautious sizing) leaves -0.8, under the 10-point minimum."
+    },
+    {
+      "market_id": "6618795",
+      "event_id": "1305327",
+      "event_title": "Brantford—Brant South By-Election Winner",
+      "option": "Joy O'Donnell",
+      "question": "Will Joy O'Donnell win the 2026 Brantford—Brant South by-election?",
+      "rules": "A by-election for the Canadian federal electoral district of Brantford—Brant South is currently scheduled to be held on December 7, 2026.\n\nThis market will resolve according to the candidate who wins the 2026 Brantford—Brant South by-election.\n\nIf the election results are not known definitively by December 31, 2026, 11:59 PM ET, this market will resolve to \"Other\".\n\nThe resolution source for this market will be a consensus of credible reporting. In case of ambiguity, this market will resolve solely based on official election results as published by Elections Canada (https://www.elections.ca/).",
+      "topic": "Politics",
+      "end_date": "2026-12-07T23:59:00Z",
+      "url": "https://polymarket.com/event/brantfordbrant-south-by-election-winner-1793634149133",
+      "snapshot": {
+        "time": "2026-11-25T01:21:19Z",
+        "crowd": 0.775,
+        "best_bid": 0.77,
+        "best_ask": 0.78,
+        "volume": 12021,
+        "liquidity": 9883,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "And they’re off. Candidates hitting high gear in race for Brantford Brant South",
+          "source": "Brantford Expositor",
+          "published": "2026-11-18",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcTlkaVpKYjR2TllZdmp4ZEVZVHNiaUppdlA5MUl3ZC11cnh2bEU3TE1QVWlDaDN3WFpSdGhJMXpWZ3VnU2tHSlVQVU8xdWw0Uk44cnM2YUtpUXI5VThqX2pyRElWa3RwbDlaUVhlOGJXSEpTSWdydDNVUHltNkJnZ0gzaVUwOVFnWllIZWN0dFJzempsMHNFZTZWREstSHpvX3JtUVQwV0laRWhJOFZWZ0hobHJ6LUFr?oc=5"
+        },
+        {
+          "title": "There's a byelection coming for Brantford—Brant South, here who's running",
+          "source": "Yahoo News Canada",
+          "published": "2026-11-19",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdFJNNnlRS2MwUnBnRWR4NEQ2d281dDJwQ08yWXVHRDduUXA0SHpoaTVyYmlIOWMxMm5UUzZnUDNMa3ZMeUdvODlvNkJQQXdxRFBYcVNjVTVyOUVVVHBRb0JjczdmX24teXdLLUM4NGtyQ013THlzM2VvVHRINzhtNmhad2xTX21r?oc=5"
+        }
+      ],
+      "news_query": "Joy O'Donnell win Brantford Brant South by-election | Brantford Brant South By-Election Winner Joy O'Donnell",
+      "forecast": {
+        "probability": 0.38,
+        "reasoning": "I don't have clear information on Joy O'Donnell's party affiliation or standing in the race. The riding was held by Conservative Larry Brock in a fairly close 2025 contest, and by-elections in Canada usually favor the party that held the seat. Given that uncertainty, I put her somewhat below even odds."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-25T01:22:56Z",
+        "crowd": 0.775,
+        "best_bid": 0.77,
+        "best_ask": 0.78,
+        "volume": 12031,
+        "liquidity": 9662,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Gap vs. the price we'd pay is 39.0 points, over the 35-point limit: disagreements this big have usually meant the AI missed something, so no bet."
+    },
+    {
+      "market_id": "3740667",
+      "event_id": "879909",
+      "event_title": "Victoria Parliamentary Election: 3rd Place",
+      "option": "One Nation",
+      "question": "Will One Nation win the third-most seats in the next Victorian state election?",
+      "rules": "The 2026 Victorian state election is currently scheduled to be held on 28 November 2026 to elect members of the 61st Parliament of Victoria.\n\nThis market will resolve to \"Yes\" according to which party or coalition wins the third-most seats in the Legislative Assembly (Victoria's lower house) as a result of the next Victorian state election.\n\nIf the results of this election are not known definitively by March 31, 2027, 11:59 PM ET, this market will resolve to \"Other\".\n\nLiberal–National refers to the Liberal–National Coalition. Liberal–National will include all seats won by both the Liberal Party and the Nationals, regardless of their parliamentary coalition behaviour, and its first-preference vote total will include the votes received by both parties.\n\nParties and coalitions will be primarily ranked by the number of seats won in the specified election. If two or more are tied on seats, ties will be broken by the total number of valid first-preference votes received, with higher vote totals ranking higher. If they remain tied, ties will be broken by alphabetical order of the listed names. This market will resolve to the party or coalition that occupies the third-highest finishing position after applying this ranking.\n\nThis market will resolve based on the result of the election as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the Victorian government, specifically the Victorian Electoral Commission (VEC) (https://www.vec.vic.gov.au/).",
+      "topic": "Politics",
+      "end_date": "2026-11-29T04:59:00Z",
+      "url": "https://polymarket.com/event/victoria-parliamentary-election-3rd-place",
+      "snapshot": {
+        "time": "2026-11-25T01:21:19Z",
+        "crowd": 0.43,
+        "best_bid": 0.41,
+        "best_ask": 0.45,
+        "volume": 19094,
+        "liquidity": 17893,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "Labor slumps to third as Coalition opens up 56–44% lead in Victoria",
+          "source": "DemosAU",
+          "published": "2026-11-13",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOOHJPcU8yMFJhM3FjNGo5NzNkQXZJblh4RDlQUFBzb0g2Z0hSYlRhR2RSdGVPRnVYMjVvc1h1ZmNIQ3RyZW1pdGttanNhXzNwd2pkRkxGMkRGS3FhSHhQNWZNSWo0aHY0NmJ2V19kTXZqYXV5MTJjWFdHcmlOSzlmVGIyOEMzSk83U01jS1Y0VXNfR1l4bDdz?oc=5"
+        },
+        {
+          "title": "Australians shouldn’t prop up ‘bankrupt’ Victoria, says One Nation's local leader",
+          "source": "Politico",
+          "published": "2026-11-11",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOYUlHSm85NWVXamRNcDlWdDRWNnpiZGdfaEw5NTFhcVlib3lDUUtKR1RXbTFaZHBzcWhGSTFmbVMzaDN4NFRlOEN4Vk5jeW41aGhjVnd4OUxzdmZTdHNLMUtDOFo5bEd3ZlFJaWNKMFBFN0xLY0ZTY2xNNTYxNW1vWEpaZWxZOVpCRzE3VnQzc1hZR0dzV1dQQm1Qdl85VVYwNDVreS1SSzUzQWhGOXNQNFBfVl9VbndHdnFTbmxaMV9hdG9HMWc?oc=5"
+        },
+        {
+          "title": "With two weeks to go, the Victorian election is the Coalition’s to lose",
+          "source": "The Conversation",
+          "published": "2026-11-15",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNeHBwVTd4azQ2VlQzc3lrcXVseklLX2pFSU9TTjByNVNsdFlIdnJ0dzN0Ym9WZmp1ZGdhSGt2aWs1M2JsOG5OelRxYjd4U3o4ZlJNUFlpcUVEZzRTd19jcGF1V1FPRzcxV3pRRGJ3WVoxdVVoQkFReHNtY25Ic1J6ZlgtX3lnT3phN3VILXJTb1NzbmxFRTRyMUN1U2xBTHdhQUJsWGVGSQ?oc=5"
+        },
+        {
+          "title": "The Political Geography of the 2026 Victorian Election",
+          "source": "Antony Green's Election Blog",
+          "published": "2026-11-20",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNMVczSlFPS2pQcFMxR2syMzJqcHVjSkllMTM4eWNNYWNzTXlIOGJVbWNtZ2dqNTlXblRKUXoxOGpKUXl4Q1pGYU5Pbmc3NjZtOENFZ1RIc1BhNlN4U1hJejRtMXlEMVRXVzY1eVA2ZE94ZXhfbmwwRUhBd0o4NnFBa1FjeU41bmptUkE?oc=5"
+        },
+        {
+          "title": "Polling turns from bad to diabolical for Victorian Labor",
+          "source": "ABC News & Headlines – Australian Broadcasting Corporation",
+          "published": "2026-11-18",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQY3JVSlhqbUo2MW1zY0xEZk5EZi1JSUE4RFV3SEZ3aUdsa2t2emJneVQzTlRYX1RKVXZUT0VXU0Z2WU1XVC0xdC13dGpwblVsV3JtaEI4c3g1eXNvOFlCR1IyWWFMQzJUQk14Q1I5YmZTbGVCYmJudXdYTVVlNEd6blpRdnYtcFd2Y2VZYUMySTdoYllLS2RXaVA1NFBGZkdIdVNHbWp3?oc=5"
+        },
+        {
+          "title": "Confused about who to vote for in the Victoria election? A guide to key promises made by Labor, the Coalition, Greens and One Nation",
+          "source": "The Guardian",
+          "published": "2026-11-24",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOSDA5NFc1YVRGclpWVzExbFBQaGtBTU84WFBIRFRNeThRS1lPMlQ0TEsxVU4wXzR6VkZRdU1MYXZyR2RLOWtFbnYyQVdQT21PanJ3V2xURVZoUGdwanZXNXVtZUhpVk1FdzVZUUt1bTJxZDFMYmZqTURkWFZqd0lTQXdURFRGWTlHTWs4dkZ3eFZuN1BKWVc5N1Jtdjh5dzNnaXphQTRFU01zeGJDaEJ0aTFBLTNnQlBTZ1llMS1MXzczYWo5QW40aFk1aXhWa3FuTk82X1hINkRLbjFXcmVpUm10VlVIWDh4QXFydlpZcDFPYmdmQndkQnJGMGNCMmVoMXo1bkl2OA?oc=5"
+        }
+      ],
+      "news_query": "One Nation win third-most seats Victorian state",
+      "forecast": {
+        "probability": 0.53,
+        "reasoning": "A poll has Labor slumping to third, presumably behind the Coalition and One Nation on first preferences. That implies One Nation polling high enough to win several seats in outer-suburban and regional areas on Liberal preferences. The Greens hold about 4 seats, and One Nation would likely win a seat tie on its higher vote total. Labor's efficiently distributed Melbourne vote likely still keeps it second in seats, which leaves One Nation as a modest favorite for third."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-25T01:22:56Z",
+        "crowd": 0.43,
+        "best_bid": 0.41,
+        "best_ask": 0.45,
+        "volume": 19094,
+        "liquidity": 17893,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Gap vs. the price we'd pay is 8.0 points; counting only part of it (cautious sizing) leaves 3.0, under the 10-point minimum."
+    },
+    {
+      "market_id": "7004032",
+      "event_id": "1376034",
+      "event_title": "November Inflation US - Annual",
+      "option": "3.6%",
+      "question": "Will annual inflation be 3.6% in November?",
+      "rules": "This is a market about inflation over the 12-month period ending November 2026, before seasonal adjustment, as reported by the Bureau of Labor Statistics.\n\nThis market will resolve to the percentage change in the Consumer Price Index (CPI) over the 12-month period ending in November 2026 according to the monthly Bureau of Labor Statistics (BLS) report.\n\nThe resolution source for this market will be the BLS Consumer Price Index report released for November 2026 (https://www.bls.gov/bls/news-release/cpi.htm), currently scheduled to be released on December 10, 2026, at 8:30 AM ET. Resolution of this market will take place upon release of the aforementioned data.\n\nNote: the resolution source for this market will be the official monthly BLS CPI news release, which reports inflation over 12-month periods to only one decimal point (e.g., 2.9%). Thus, this is the level of precision that will be used when resolving the market.\n\nIf the BLS does not release the relevant figures on the scheduled date, this market may remain open up until the scheduled release time of the next CPI report (https://www.bls.gov/schedule). If the information is not released by that time, this market will resolve according to the figures of the most recent previous month with available data.",
+      "topic": "Economy",
+      "end_date": "2026-12-10T13:30:00Z",
+      "url": "https://polymarket.com/event/november-inflation-us-annual",
+      "snapshot": {
+        "time": "2026-11-25T01:21:19Z",
+        "crowd": 0.295,
+        "best_bid": 0.29,
+        "best_ask": 0.3,
+        "volume": 10594,
+        "liquidity": 6837,
+        "fee_rate": 0.01
+      },
+      "news": [
+        {
+          "title": "Canada's annual inflation rate held steady at 3.1% in October",
+          "source": "Reuters",
+          "published": "2026-11-17",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOLVY4ZGtuZ09kdEFJUHJfTXhxTC1lY3pqNjdqQnVXUEcxdHNDRUxtXzJqbk5BWE9LSDB0OElZdGJReWtfYjdCRGFKSkU3TkktX0hDTVNhWUt0dFIzWDhkdGJLbUxZeE1hOC1QVllSZy1pZl9FajJuWjVBRlBZZFBDd3FIQ09DdF8weHBXZGFkMU1PbDVfZHA2M2pZbTBzYkpNdlE0ZDhB?oc=5"
+        },
+        {
+          "title": "U.S. inflation report highlights strain of rising food, energy and housing costs",
+          "source": "PBS",
+          "published": "2026-11-16",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOVEI0ajRDVk9UaDlyeXZSYVhqSDlXcDlzZGtJcURDM0plUHhkMklBX3E0VXA2bTNpZ0FYaV8wRkRoZW5OQ1VrQUkzSTJZYU1mMUJVV2E0Tjk5NzBzVk9pQlZxMWVqQnkxT002X3c0WXo0SFlUemdOUEVXbXZ2WG1jaUJaY2l2MVFINjBjV2RBQVFTRVVSQ3dCVG5GN1F3V0pjVFlCa3pvZzZTZ3JMdDVYcGZJNTdDVVY4RFpEMGV1U2VMZ1R3VUowSDBWT2hCVGdZR3JYdERwNlRscEk?oc=5"
+        },
+        {
+          "title": "IRS raises 2027 standard deduction, child tax credit in annual inflation adjustments",
+          "source": "| Florida Realtors",
+          "published": "2026-11-13",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQOWZRNGVYU2ZLX090S19MLVdENmJocVR2TENfeFEtenN6TUJPdnRhVF90VUVCWXByYmhQVWRnb1JTbzlPaE83UXcwMENYYTJ4c3hnUS0yZmFWUkIwbm9nMTJrYlhyQjljWGZscTg1Vno1UUNEQzhpU2FvdWRsRjI1QnQwQWIwZFIwZlFTcUJqVnJlTXVzWWNZSVNCNFVBM2VpaTVyZm04Z0R4cnNGOHo1Tk5hc2pxOEFxVnVEZlRESk4?oc=5"
+        },
+        {
+          "title": "U.S. Inflation Rate Is 3.7%: Why It Matters",
+          "source": "NerdWallet",
+          "published": "2026-11-13",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5Za3phOE0tNW9aSnJBY1BuMVVxTW43ZzhnUWVqUlE0cWxLNnktQjRiZC1nR0VwVnVHaDdxRUIwRGNjMDZuVW5CVFZPV1BtUjJhSlZYV3FnTUU0V2doMzRB?oc=5"
+        },
+        {
+          "title": "Autumn Economic Forecast: continued growth amid higher inflation",
+          "source": "European Commission",
+          "published": "2026-11-17",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPa0VMWG53TXRKR2pNeVZEWnhMeVUwNkdCTTE1SFF5bDJGU3o1VFdvUHpMdDNTd1lLeTF0UnVwZEhzcWhPYTJHLUZMVTVEUjV1YWd4WlhKWndidWNVQk9YWV83bTlHNEpmeV9xUm1SRnB5TmRCNENQNXlMQ0pYWjR0Q0Z6SEZBMFhPZ1hucEhWM3JlRGFpQjFxQXpZRzV4T19JMzZTSnNvNU9Pd2NTZGFjUUlsZHlGcVllelF6RlhRSFI3NHBl?oc=5"
+        },
+        {
+          "title": "Inflation rises to nearly 4% in first half of November",
+          "source": "Mexico News Daily",
+          "published": "2026-11-24",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQVl9CNUdXTTRaMGc0RFhWMmp4ZVhQZmlVcDlrbmRXLWZKcUxwekw3eFVGZXFHMkJUYjdzUjZJSDdXSzVzUTQ0cTM0QjMzeWM1b19DbUM1NE9PTXRTTzQ1cEpwdjNTWW5LWlI4SDFpYlRud2J5ZmpZWUEtWGxUM3hjNHhjWFNCRXJCZ1RIM0txLU0?oc=5"
+        }
+      ],
+      "news_query": "annual inflation | annual inflation November economists forecast",
+      "forecast": {
+        "probability": 0.25,
+        "reasoning": "October's annual inflation was reported at 3.7%, and food, energy and housing pressures persist. The November 2025 base index was somewhat depressed by shutdown distortions, which tends to hold the yearly rate up. An exact 3.6% reading is plausible but is one of several neighboring outcomes, roughly 3.5-3.9%."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-25T01:22:56Z",
+        "crowd": 0.295,
+        "best_bid": 0.29,
+        "best_ask": 0.3,
+        "volume": 10594,
+        "liquidity": 6837,
+        "fee_rate": 0.01
+      },
+      "bet_note": "Gap vs. the price we'd pay is 4.0 points; counting only part of it (cautious sizing) leaves 1.8, under the 10-point minimum."
+    },
+    {
+      "market_id": "5178321",
+      "event_id": "1114162",
+      "event_title": "\"Avengers: Doomsday\" Rotten Tomatoes Score?",
+      "option": "70+",
+      "question": "Will \"Avengers: Doomsday\" score at least 70 on the Rotten Tomatoes Tomatometer?",
+      "rules": "This market will resolve to \"Yes\" if the displayed Rotten Tomatoes \"All Critics\" Tomatometer score for Avengers: Doomsday is at least equal to the specified number at 10:00 AM ET on the Monday following the movie's wide theatrical release. Otherwise, this market will resolve to \"No\".\n\nIf, for any reason, the resolution data is unavailable at this market's specified check time, the resolution source will be checked until the relevant data is available. This market will resolve to \"No\" if no data is available by the Friday of that same week, 11:59 PM ET, or the movie does not release by December 31, 2027.",
+      "topic": "Entertainment",
+      "end_date": "2026-12-21T23:59:00Z",
+      "url": "https://polymarket.com/event/avengers-doomsday-rotten-tomatoes-score-20261221",
+      "snapshot": {
+        "time": "2026-11-25T01:21:19Z",
+        "crowd": 0.7815,
+        "best_bid": 0.759,
+        "best_ask": 0.804,
+        "volume": 19652,
+        "liquidity": 2519,
+        "fee_rate": 0.01
+      },
+      "news": [
+        {
+          "title": "Avengers: Doomsday: Final Trailer",
+          "source": "Rotten Tomatoes",
+          "published": "2026-11-23",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5hN2NrZnRvQXVVZEFLWnpFcm9wLXhlcmtRSldibXkyYUgySG9YRlNzVmVaSTVXaVRiOXh5cl9pbEJWaF83M05LeTc4TlZFZmRUX3JQbFdkYzFmaldLTllzWVZXZlFCLTh6YmlTZHZ3MXg0eXJfRlBNcjlR?oc=5"
+        },
+        {
+          "title": "Johnny Depp's New Christmas Horror Movie Is Already Bigger Than Avengers: Doomsday & Dune 3",
+          "source": "Comic Book Resources",
+          "published": "2026-11-14",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNVkYzQXJCeG9STnhicldXSXRwZWFrZk1kc01MdjRaNGdZeDRHZUtQLWIzcmYxdkJSeU54R2J4OUMwYUNjOVM3T3pHYVBUMGVvRGtOZThjNjVFR0NoY0s1SW50NTNFN3ZVU21aVlJyQzhIVVoxMXQ0UmdsUzBueGktOUJMSXIxZw?oc=5"
+        },
+        {
+          "title": "Scarlet Witch’s Avengers: Doomsday Return Sets Up A Game-Changing Hulk Connection",
+          "source": "ScreenRant",
+          "published": "2026-11-11",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNTjRNYWU5MmF6V3V1ZV96Y1BnX2tEeno3SXYxNzBwMlJ4UW9pYzBidTI2QlF5NWRtaUJMWnFKQ3I3cGdNTmFnUmItTk12WTJUdWdSbEZFT2lHNk9MMm5KM3RaYXFtVHNsckp4WWpxRmthOExZLXdtdzBsNmIyR1FTc0tTYU10RkdIZWNqZA?oc=5"
+        },
+        {
+          "title": "Why Rotten Tomatoes Now Counts Tobey Maguire’s ‘Spider-Man’ as a Thanksgiving Movie",
+          "source": "AOL.com",
+          "published": "2026-11-12",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE85V05Ta2I1MlZrZFkwVEJVQ1E5alFZLTBKZGF5SWtSd3drVHcyUm5GX3dseFBpU3pNN1Z0Y0xoa3JTX3VwckV1T2NqUVEwTHhSd2xoVnFLRkh2d0NwQnBLSEh0cnJDcGRUb1QybEp0RktPYnh0YkVVSEFwVzdYTTg?oc=5"
+        },
+        {
+          "title": "All 6 MCU Characters Most Likely To Be Doctor Doom’s Witches in 'Avengers: Doomsday'",
+          "source": "MovieWeb",
+          "published": "2026-11-13",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5jeW9yOXBNUmFtYXotLVlrUlk0cFVyazdNdWhqN0RqYWxrNWFhcXJjX0R1b1l4U2h1SjVMTWMxT3JSV3JfVFg0OFFRS0lSWWd4cHM3Wm5HdmdubEk?oc=5"
+        },
+        {
+          "title": "Marvel Finally Confirms a New Villain for Avengers: Doomsday",
+          "source": "Comic Book Resources",
+          "published": "2026-11-11",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPREpaM2FTRTNZWUR6YlNHdVl0ZFhDZV92d19uSzVlVmYwZUwzZEJGYUdDMFV2T0JTT1RSSlZIdGxrTldyRzJqUnVlN1dQMzhxcHUyTGV6TUtzVnhUT2JZTWdROEYzOGs4ZUo3UHVaQkdIRzkyREtDYkJfVDBIX3RkYjN2NkVVUHVrSFFz?oc=5"
+        }
+      ],
+      "news_query": "Avengers Doomsday score Rotten Tomatoes Tomatometer",
+      "forecast": {
+        "probability": 0.75,
+        "reasoning": "The Russo brothers' previous Avengers films scored 85% and 94%, and recent MCU films have mostly scored well (Thunderbolts* 88%, Fantastic Four 86%), with outliers like Captain America: Brave New World at 48%. A big event crossover from proven directors is likely to clear 70%, though franchise fatigue is a risk."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-25T01:22:56Z",
+        "crowd": 0.7795,
+        "best_bid": 0.755,
+        "best_ask": 0.804,
+        "volume": 19652,
+        "liquidity": 3102,
+        "fee_rate": 0.01
+      },
+      "bet_note": "Gap vs. the price we'd pay is 0.5 points; counting only part of it (cautious sizing) leaves -1.0, under the 10-point minimum."
+    },
+    {
+      "market_id": "5178322",
+      "event_id": "1114162",
+      "event_title": "\"Avengers: Doomsday\" Rotten Tomatoes Score?",
+      "option": "80+",
+      "question": "Will \"Avengers: Doomsday\" score at least 80 on the Rotten Tomatoes Tomatometer?",
+      "rules": "This market will resolve to \"Yes\" if the displayed Rotten Tomatoes \"All Critics\" Tomatometer score for Avengers: Doomsday is at least equal to the specified number at 10:00 AM ET on the Monday following the movie's wide theatrical release. Otherwise, this market will resolve to \"No\".\n\nIf, for any reason, the resolution data is unavailable at this market's specified check time, the resolution source will be checked until the relevant data is available. This market will resolve to \"No\" if no data is available by the Friday of that same week, 11:59 PM ET, or the movie does not release by December 31, 2027.",
+      "topic": "Entertainment",
+      "end_date": "2026-12-21T23:59:00Z",
+      "url": "https://polymarket.com/event/avengers-doomsday-rotten-tomatoes-score-20261221",
+      "snapshot": {
+        "time": "2026-11-25T01:21:19Z",
+        "crowd": 0.54,
+        "best_bid": 0.53,
+        "best_ask": 0.55,
+        "volume": 13085,
+        "liquidity": 2162,
+        "fee_rate": 0.01
+      },
+      "news": [
+        {
+          "title": "Avengers: Doomsday: Final Trailer",
+          "source": "Rotten Tomatoes",
+          "published": "2026-11-23",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5hN2NrZnRvQXVVZEFLWnpFcm9wLXhlcmtRSldibXkyYUgySG9YRlNzVmVaSTVXaVRiOXh5cl9pbEJWaF83M05LeTc4TlZFZmRUX3JQbFdkYzFmaldLTllzWVZXZlFCLTh6YmlTZHZ3MXg0eXJfRlBNcjlR?oc=5"
+        },
+        {
+          "title": "Johnny Depp's New Christmas Horror Movie Is Already Bigger Than Avengers: Doomsday & Dune 3",
+          "source": "Comic Book Resources",
+          "published": "2026-11-14",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNVkYzQXJCeG9STnhicldXSXRwZWFrZk1kc01MdjRaNGdZeDRHZUtQLWIzcmYxdkJSeU54R2J4OUMwYUNjOVM3T3pHYVBUMGVvRGtOZThjNjVFR0NoY0s1SW50NTNFN3ZVU21aVlJyQzhIVVoxMXQ0UmdsUzBueGktOUJMSXIxZw?oc=5"
+        },
+        {
+          "title": "Scarlet Witch’s Avengers: Doomsday Return Sets Up A Game-Changing Hulk Connection",
+          "source": "ScreenRant",
+          "published": "2026-11-11",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNTjRNYWU5MmF6V3V1ZV96Y1BnX2tEeno3SXYxNzBwMlJ4UW9pYzBidTI2QlF5NWRtaUJMWnFKQ3I3cGdNTmFnUmItTk12WTJUdWdSbEZFT2lHNk9MMm5KM3RaYXFtVHNsckp4WWpxRmthOExZLXdtdzBsNmIyR1FTc0tTYU10RkdIZWNqZA?oc=5"
+        },
+        {
+          "title": "Why Rotten Tomatoes Now Counts Tobey Maguire’s ‘Spider-Man’ as a Thanksgiving Movie",
+          "source": "AOL.com",
+          "published": "2026-11-12",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE85V05Ta2I1MlZrZFkwVEJVQ1E5alFZLTBKZGF5SWtSd3drVHcyUm5GX3dseFBpU3pNN1Z0Y0xoa3JTX3VwckV1T2NqUVEwTHhSd2xoVnFLRkh2d0NwQnBLSEh0cnJDcGRUb1QybEp0RktPYnh0YkVVSEFwVzdYTTg?oc=5"
+        },
+        {
+          "title": "All 6 MCU Characters Most Likely To Be Doctor Doom’s Witches in 'Avengers: Doomsday'",
+          "source": "MovieWeb",
+          "published": "2026-11-13",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5jeW9yOXBNUmFtYXotLVlrUlk0cFVyazdNdWhqN0RqYWxrNWFhcXJjX0R1b1l4U2h1SjVMTWMxT3JSV3JfVFg0OFFRS0lSWWd4cHM3Wm5HdmdubEk?oc=5"
+        },
+        {
+          "title": "Marvel Finally Confirms a New Villain for Avengers: Doomsday",
+          "source": "Comic Book Resources",
+          "published": "2026-11-11",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPREpaM2FTRTNZWUR6YlNHdVl0ZFhDZV92d19uSzVlVmYwZUwzZEJGYUdDMFV2T0JTT1RSSlZIdGxrTldyRzJqUnVlN1dQMzhxcHUyTGV6TUtzVnhUT2JZTWdROEYzOGs4ZUo3UHVaQkdIRzkyREtDYkJfVDBIX3RkYjN2NkVVUHVrSFFz?oc=5"
+        }
+      ],
+      "news_query": "Avengers Doomsday score Rotten Tomatoes Tomatometer",
+      "forecast": {
+        "probability": 0.55,
+        "reasoning": "Clearing 80% is a tougher bar. Several recent Marvel films landed in the high 70s to high 80s, and the Russos' track record is strong. Overstuffed crossover films can draw mixed reviews, so this is close to a coin flip with a slight lean to Yes."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-25T01:22:56Z",
+        "crowd": 0.54,
+        "best_bid": 0.53,
+        "best_ask": 0.55,
+        "volume": 13085,
+        "liquidity": 2180,
+        "fee_rate": 0.01
+      },
+      "bet_note": "Gap vs. the price we'd pay is 0.0 points; counting only part of it (cautious sizing) leaves -0.5, under the 10-point minimum."
+    },
+    {
+      "market_id": "5785091",
+      "event_id": "1201178",
+      "event_title": "Central Bank of Colombia decision in December",
+      "option": "No change",
+      "question": "Will the Central Bank of Colombia make no change to the monetary policy interest rate at the December meeting?",
+      "rules": "This market will resolve according to the change in basis points in the monetary policy interest rate resulting from the December 2026 meeting of the Central Bank of Colombia (Banco de la Republica), relative to the level it was prior to this meeting.\n\nThe resolution source will be official information from the Central Bank of Colombia, including the statement or release from its December 2026 meeting, scheduled for December 18, 2026, as listed on the official Central Bank of Colombia calendar (https://www.banrep.gov.co/es/calendario-eventos). This market may resolve as soon as the statement or release of the Central Bank of Colombia's December 2026 meeting with relevant data is issued.\n\nIf the specified rate is defined by an upper and lower bound, the relevant change will be the change to the upper bound.\n\nIf the specified rate is changed to a level not expressed in the displayed options, the change will be rounded according to the following guidelines. Increases or decreases of less than 25 bps will be rounded to 25 bps (e.g. an increase or decrease of 10 bps would be considered to be an increase or decrease of 25 bps). Increases or decreases of greater than 25 bps will be rounded to the nearest 25 bps and will be rounded away from 0 in cases of equidistance (e.g., an increase or decrease of 37.5 bps would be considered to be an increase or decrease of 50 bps). Displayed options of “Increase” or “Decrease” will include policy rate increases or decreases of any size.\n\nIf the specified meeting is postponed to a date and time before the start of the next scheduled meeting, this market will resolve based on the outcome of that postponed meeting. If the specified meeting is cancelled, or postponed such that no decision is announced by the start of the next scheduled meeting, this market will resolve to the “No Change” bracket. Emergency changes to the specified rate not resulting from the specified meeting will not be considered.",
+      "topic": "Economy",
+      "end_date": "2026-12-18T00:00:00Z",
+      "url": "https://polymarket.com/event/central-bank-of-colombia-decision-in-december-2026",
+      "snapshot": {
+        "time": "2026-11-25T01:21:19Z",
+        "crowd": 0.695,
+        "best_bid": 0.69,
+        "best_ask": 0.7,
+        "volume": 21721,
+        "liquidity": 2844,
+        "fee_rate": 0.01
+      },
+      "news": [
+        {
+          "title": "OECD warns Colombia faces slower growth, stubborn inflation and rising fiscal risk in 2027",
+          "source": "Latin Times",
+          "published": "2026-11-23",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbzIxWHd3Tnd5a3l5ckg5b2FwODdaVTRTY0JlSXM5OW5wQUZUemZlNVg5Y2ZOSlpxMzhJcDZvYkY0VzBBek9PYUh2SWJpbk1pM3BGSUY5ektPTVlHTkJPZUljSnJZUV9veEJCd1l1Y1l4Ri01LUtPVEhaRXpNRm1qZnZyNGVnSndMS1B2U2VSZE5PYkpJQnVGdlFzaGRlQy1pLXo4TGJTZTMtdmNQUWNMR05iOUV5Q0Ri?oc=5"
+        },
+        {
+          "title": "Colombia’s Dollar Surges on Friday",
+          "source": "ColombiaOne.com",
+          "published": "2026-11-20",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5ydERTdUNUU2dtMnlWSmw5dGpLU05kZGE0WlVubjJaSEVfbXBXandia1BGUTlmc2J4R1o0N21ackhrbXNoTEFrUVFwNUJsbG5vbHN6d280SEo0NFdvVUFqMTQ3VEVITzRQd3JOZGJsSURaMTg?oc=5"
+        },
+        {
+          "title": "USD to COP Forecast: Dollar to Colombian Peso Prediction for 2026, 2027, 2028–2030, 2040 and Beyond",
+          "source": "LiteFinance",
+          "published": "2026-11-23",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQTkRQQThSNzRtV0dtd1lHVFNyLTQwY1pKT0VvNXFSQzJxMWU1eDduREVyQ09OTHVkUExhRGNka3RBY0NjMGFzSHBKRU16VWlHUm1yM045MWhnQzJwZl9EREk1QmxnbnI3dURKdnpUZERGTmVaaFk0b3ZBbmgtNGYwR0Z0Y1RSb1A5VXlELXRDZ2dkVkE?oc=5"
+        }
+      ],
+      "news_query": "Central Bank Colombia change monetary policy interest | Central Bank Colombia change monetary policy economists forecast",
+      "forecast": {
+        "probability": 0.6,
+        "reasoning": "Colombia's central bank has been tight, with inflation stubborn and the OECD flagging fiscal risk. December meetings often bring a pause, which favors holding. However, peso weakness and sticky inflation leave a real chance of a hike, and a cut remains possible if the board's composition and political pressure shift."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-25T01:22:56Z",
+        "crowd": 0.695,
+        "best_bid": 0.69,
+        "best_ask": 0.7,
+        "volume": 21721,
+        "liquidity": 2681,
+        "fee_rate": 0.01
+      },
+      "bet_note": "Gap vs. the price we'd pay is 9.0 points; counting only part of it (cautious sizing) leaves 4.2, under the 10-point minimum."
+    },
+    {
+      "market_id": "5154695",
+      "event_id": "1108628",
+      "event_title": "OpenAI’s valuation end of November 2026?",
+      "option": "$1.20-$1.30T",
+      "question": "Will OpenAI’s valuation be between $1.20T and $1.30T at the end of November 2026?",
+      "rules": "This market will resolve according to OpenAI's private market valuation, as measured by the NPM Price reported by Nasdaq Private Market, LLC (NPM) for the last trading day of the specified month.\n\nIf the determined value falls exactly on the boundary between two brackets, this market will resolve to the higher bracket.\n\nNPM Prices are published for trading days only and are updated once daily at 1:00 PM ET on the following calendar day.\n\nIf NPM has not published relevant data for the last trading day of the specified month by 1:00 PM ET on the day following the last trading day of the specified month, this market may remain open until 11:59 PM ET on the third business day following the last trading day of the specified month. If no further data is released by that time, the market will resolve according to the data available.\n\nIf NPM ceases publishing relevant data prior to the end of the specified period, this market will resolve based on the NPM data published for the period prior to the cessation of coverage, as well as any applicable public market capitalization data following an IPO or direct listing.\n\nIf the company completes an IPO or direct listing before the end of the specified period, this market will consider the company’s public market capitalization on the last trading day of the specified month.\n\nPublic market capitalization will be determined through appropriate calculation using the final official regular-hours closing prices published for the company's listed equities on its primary exchange for the last trading day of the specified month, multiplied by the company's total number of shares outstanding at the relevant time. If necessary, to accurately capture the company’s total market capitalization, rather than a stock-class-specific market capitalization, the calculation will include all outstanding share classes and apply any stated conversion ratios to the publicly traded class. Where no conversion right exists, such shares will be counted at their stated outstanding amount without discount, unless official filings explicitly specify differently. The number of outstanding shares will be determined from official company filings or disclosures (e.g., SEC filings).\n\nIf the listed company merges with or acquires another entity and remains the parent company, no change to resolution methodology applies.\n\nIf the listed company is acquired, merges into another entity and is no longer the surviving parent company, or otherwise ceases to exist as an independent entity prior to the end of the period, only NPM valuations and applicable public market capitalizations achieved prior to completion of the transaction will be considered for resolution. No transaction, acquisition, or merger consideration will be considered for resolution.\n\nThe resolution source for this market is NPM data published here: https://fe.secondmarket.com/companies/company-30839e0b-2730-4495-839f-1bf638fa9cca/data. The resolution source for any period following an IPO, direct listing, or relevant corporate action, will be official exchange trading data and publicly reported share counts.\n\nRevisions to previously published NPM data made after their initial release will not be considered, unless made to correct clearly erroneous data.",
+      "topic": "Tech",
+      "end_date": "2026-11-30T17:00:00Z",
+      "url": "https://polymarket.com/event/openais-valuation-end-of-november-2026",
+      "snapshot": {
+        "time": "2026-11-25T01:21:19Z",
+        "crowd": 0.29,
+        "best_bid": 0.28,
+        "best_ask": 0.3,
+        "volume": 11000,
+        "liquidity": 2879,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "OpenAI Reportedly Raises $15B At $1.25 Trillion Valuation",
+          "source": "Yahoo Finance",
+          "published": "2026-11-12",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPQjJCXzFPZDhMNE1EUFlsUFROeFQ2MWZ5aHdCekd1dGtiNlhPaGN4X1I2VUxmYmZ6eXJBbF9Ddldzc2I3ZkwyQ1pVTEVkX1VZcFVxWXFXbi0zWmVVSTF1ZVp0NlZKSURhYkVrR2w3NnNXQXNvVUZxOFVxSkJQQTFnbTk5cWhtRXdQeFZmZkpvTkhDZGo2bzFOVk5pNA?oc=5"
+        },
+        {
+          "title": "OpenAI Stock IPO: Expected Valuation, Timeline and Investment Options",
+          "source": "SmartAsset.com",
+          "published": "2026-11-17",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE15OEdhUlNaM0Z5cjB2VFdVbU5kYlU1VXNKcGF6YXpBbVZvTEhSTnFNbWo1LUZPdkxmbG1FcGJSRTI0bkgwTWxLNERtVFQ2S1lvaXpqaC03RWVoa1FJN1E?oc=5"
+        },
+        {
+          "title": "OpenAI raises $15B at a $1.25T valuation, sources say. What it means for the IPO",
+          "source": "CNBC",
+          "published": "2026-11-12",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQ0FjRnJvRWlLTW1qLW8tTHVCak1pa0pWb1kwR3h4MzRzRVBjM3ZyMHFPaWNEX0hYbEVxNFFqV3RFc3c3UkJsQXFVNEs5VDJPMWg4RHR4TzU3dE5UVlNJM3BDT1Rxa2JiNms5SW91bm1ybzRLNzNHT1pxVlZNM1FDU3pxZF9NaVg5cUw0Rk43VG12QUdWTkNzbWozZkRRRUJBakZRZEhiZjNhdUQzR3luMjR5cw?oc=5"
+        },
+        {
+          "title": "OpenAI, Anthropic Valuations Fuel VC Fears of Startup Correction",
+          "source": "Bloomberg.com",
+          "published": "2026-11-11",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVzBRbmVLSUFUYS1uMjVUUVZVaTFQQmZhTmRGNklQRjhLc1B3MnJPWW1fNkNua014V3NzS2hWREJ2d3YtVElhTXc5VHBId1N2aTJ3M2MwdE5nWmtTT2ZSdDhXSzlyTzdta0RMOFVUTTJqV0ZPWndsc2ZBVHgzTFA0aWFPMnRrcVJHZ1Jmd0FNZHNzU0p5cTZDV050MzJPajlTdWVyMXIwQ2UybFdmNnVYMW5IVVE?oc=5"
+        },
+        {
+          "title": "OpenAI raises $15B at a $1.25T valuation, half its original target, as it bridges to a 2027 IPO",
+          "source": "Dealroom",
+          "published": "2026-11-13",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOd0lwdmRqZ3hQMldUOEZGSHluWE9hUFdhaFBnbDR0Z3pfLXNwMDlQdFQ2YmFtbzd2c04zOEZUQXlZM0hEVWJ6ekVucW96cTJOY3lPRTIwT09rNFU1ZEgxRmk1dkNKN1c1OFhyVGZ3c19iYXdPbi1POUh6cVdJQkJNRDJfb3RVdDlSSTVUZERCMVhrWTdNbm0wTlpGZGJzOHdSaTJTemJVT19pdXp0MFRndXd6YlBVREFsd0hIUVZlUHk3Rzg?oc=5"
+        },
+        {
+          "title": "OpenAI reportedly raises $15B at $1.25T valuation as Anthropic IPO approaches",
+          "source": "Tech Funding News",
+          "published": "2026-11-13",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQWW4tU3ZoSGh3YkdkLVZFQTZ0NEQxdFg1d1BhQlFNUUdJQXQxeTZmXzFuMm1LMnpmNzRsZjdZNUQyd0YwdUFQZmRHX2hRR0N2MWxHYnAyOW1oSmt4YVNLTWQ0U3RYQTlQSFVka3RQNEh6ZmE2NTR5V3h5cG9LNU1tbHhFOWRjcFJVeFdzNFByeFdxYkFwdVlWMXdVS0RnWFJqemxHSjhhMA?oc=5"
+        }
+      ],
+      "news_query": "OpenAI valuation",
+      "forecast": {
+        "probability": 0.45,
+        "reasoning": "OpenAI reportedly raised $15B at a $1.25T valuation this month, which lies in the middle of this bracket. However, the Nasdaq Private Market price comes from secondary trades, which can sit above or below the primary round price. Venture capitalists' fears of a correction add downside risk."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-25T01:22:56Z",
+        "crowd": 0.29,
+        "best_bid": 0.28,
+        "best_ask": 0.3,
+        "volume": 11000,
+        "liquidity": 1758,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Gap vs. the price we'd pay is 15.0 points; counting only part of it (cautious sizing) leaves 7.0, under the 10-point minimum."
+    }
+  ],
+  "batch_id": "msgbatch_01RBpXwzpWbBouTeawqFhA9c",
+  "forecast_at": "2026-11-25T01:22:55Z",
+  "usage": {
+    "input_tokens": 9140,
+    "output_tokens": 4706
+  },
+  "cost_usd": 0.0653,
+  "budget": 28.63,
+  "account": "phase-1.2"
+}
