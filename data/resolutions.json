@@ -1228,5 +1228,15 @@
     "outcome": 1,
     "resolved_at": "2026-11-26T02:54:27Z",
     "question": "Will the Bank of Korea hike by 25 bps at the November 2026 meeting?"
+  },
+  "2116493": {
+    "outcome": 1,
+    "resolved_at": "2026-11-27T03:05:38Z",
+    "question": "Will National Party win the most seats in the New Zealand House of Representatives in the 2026 New Zealand legislative election?"
+  },
+  "2116494": {
+    "outcome": 0,
+    "resolved_at": "2026-11-27T03:05:35Z",
+    "question": "Will Labour Party win the most seats in the New Zealand House of Representatives in the 2026 New Zealand legislative election?"
   }
 }
