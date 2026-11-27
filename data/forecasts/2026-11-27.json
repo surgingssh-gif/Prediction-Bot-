@@ -1,0 +1,347 @@
+{
+  "run_id": "2026-11-27",
+  "date": "2026-11-27",
+  "created_at": "2026-11-27T00:59:33Z",
+  "model": "claude-opus-5-5",
+  "effort": "high",
+  "phase": "1.3",
+  "pick_stats": {
+    "eligible": {
+      "Economy": 2,
+      "Politics": 31
+    },
+    "picked": 4
+  },
+  "track_record": "=== Your track record so far ===\nThese are your own earlier forecasts in this experiment that have settled (228 questions). They show only what you said and what happened (no market information).\n- On average you said 37%, and 43% of these events happened. So far you have been too low: events happened more often than you said.\n- Your average Brier score is 0.251 (0 is perfect; always saying 50% scores 0.250).\n- When you said...\n    under 10%: it happened 6 times out of 26.\n    10-30%: it happened 25 times out of 73.\n    30-70%: it happened 47 times out of 95.\n    70-90%: it happened 17 times out of 31.\n    over 90%: it happened 3 times out of 3.\n- Your biggest misses:\n    \"Will SpaceXAI officially rename itself to SpaceXSI by October 15?\" You said 3%; it happened.\n    \"Will the Tesla Roadster fly for 1s+?\" You said 4%; it happened.\n    \"Will Xiaomi have the best Chinese AI model at the end of October 2026?\" You said 6%; it happened.\n    \"Will monthly inflation increase by 0.6% in September?\" You said 7%; it happened.\n    \"Will there be between 0 and 5 average daily transits of the Strait of Hormuz on October 31?\" You said 7%; it happened.",
+  "questions": [
+    {
+      "market_id": "6617895",
+      "event_id": "1305076",
+      "event_title": "Mayor Combo: Taipei and New Taipei",
+      "option": "DPP sweep",
+      "question": "Will the DPP win the Taipei and New Taipei mayoral elections?",
+      "rules": "This market will resolve according to the outcome of the Taipei and New Taipei mayoral elections that are currently scheduled for November 28, 2026.\n\nA candidate will be considered to represent a party by their ballot-listed affiliation or if they are the nominee of that party. Candidates who run as independents will not be encompassed by the “KMT” or “DPP” options regardless of any affiliation they may have with the party.\n\nIf the results of one of these elections are not conclusively known by March 31, 2027, 11:59 PM ET, or if an independent or third-party candidate wins one of these elections, this market will resolve to \"Other\".\n\nFor purposes of this market, a \"sweep\" is when a party wins all races.\n\nThis market will resolve based on the results of the elections as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the Taiwanese government, specifically the Central Election Commission (https://db.cec.gov.tw/).",
+      "topic": "Politics",
+      "end_date": "2026-11-29T04:59:00Z",
+      "url": "https://polymarket.com/event/mayor-combo-taipei-and-new-taipei",
+      "snapshot": {
+        "time": "2026-11-27T00:59:30Z",
+        "crowd": 0.33,
+        "best_bid": 0.32,
+        "best_ask": 0.34,
+        "volume": 23882,
+        "liquidity": 73386,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "Battle for the Capital: Inside the 2026 Taipei Mayoral Race, Part 2",
+          "source": "Global Taiwan Institute",
+          "published": "2026-11-24",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE82aExuNmxreExLRERXYTFWQTBqY3JqN2s4RXpFd2dxU3E5Zmc4Z0ZrcTZMbnllWjhmeUZLNDJBc05ZUEtGMmRqNF82SWRHVjBTblh4NzFkM2Yxa2xhZXZRQ1lIb0ZiU1IxcGlDdERUVkQySUVP?oc=5"
+        },
+        {
+          "title": "2026 Elections: KMT’s Lee Shu-chuan narrowly leads in New Taipei City mayoral race: poll",
+          "source": "Taipei Times",
+          "published": "2026-11-17",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE83c2lrNU95c253MWYzUDI2ZXRFcjFINEdFbVVIams2RmxGN3gtRmpzRm15ZTFtWmE1N1dLUTNqdS1YOVo5MzVNY2ZhYkJFZ2ExbW9zdUZTME41NjZaTFZGOVg5U1RieHU0ZEFLUnAxc09URThkMDV1aW5R?oc=5"
+        },
+        {
+          "title": "[Big read] Taiwan local elections: What a DPP surge means for the 2028 presidency and cross-strait relations",
+          "source": "ThinkChina",
+          "published": "2026-11-25",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNnA2c3B3ZnZYdHpNbzMxMjk5YlgtQWltTWw1dU1Yc1BUVDVoNXlTbjJQeGRnRVlvb2ZucVp6RnNvYkI1Q2E2VXpRQ3hXamdlNm1NVkVDdlJsZTFaR2IxLVljZWdSQmlMREowVlVZdlFSZTNSRFNaLWNET1pYMEoyaDNySnNVZ0hwMG5VR2NkNGZaRHRFOGtoWWhpMWRSUHBvZ2Y2aW1ZWnlXZnNHNUtOeWtrSEFMbGtzN3ZiaXIzYnBQdGp1WlctYnVB?oc=5"
+        },
+        {
+          "title": "2026 ELECTIONS KMT, DPP candidates for Kaohsiung mayor court voters at TV forum",
+          "source": "Focus Taiwan",
+          "published": "2026-11-14",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9yWFJJdVFtdTNQYmxmN0h1YXAtbWFKMVVUc0QyWDYtYW5NdWo4Zi0zMjdPNjd4SzVWd05oQUhWb0VFbF9uek1kdkNrSGtaenpJUTBLQTE3dw?oc=5"
+        },
+        {
+          "title": "Taipei mayoral election: Can Puma Shen win his first electoral contest?",
+          "source": "联合早报",
+          "published": "2026-11-25",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZTI5NGxOajVrNW9nSzEtVU1tNm42cFNnY2hDQnlJS0plbFlNYnFBaWttTldWaFA3dzhSbm1Kb18taVdCdHBMc2x6dXEzVWc1QkdTRkFCS1ZTb2ZTZTBuVzY3SlhicWg4R243MEhsNFlkTktZSk5KTElGQXU3T1dGdnhaYllMVlFOSjBfX1c1b0UyV2k1RU4tekFqSlJpdzhwYVFyMUtKdzVHamR3U0E?oc=5"
+        },
+        {
+          "title": "2026 Elections: DPP, KMT detail final election push",
+          "source": "Taipei Times",
+          "published": "2026-11-23",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9TMFdUUy1xbUJxQktFbkhqel9hWmlRb25ram0zV2c0TDhTT0dEZmJRNW80Vl80TjNZSVZXX2FzeG94bTNUUWYtQmQ2aFkyeUJ6Vlgwak83Y3JsQkt3MzJPQTJjN20xVlVySHpHT0dyNkN6SmF1VmtUMWpR?oc=5"
+        }
+      ],
+      "news_query": "DPP win Taipei mayoral elections",
+      "forecast": {
+        "probability": 0.06,
+        "reasoning": "Taipei is a long-standing KMT stronghold, and the incumbent Chiang Wan-an is seeking re-election against first-time candidate Puma Shen. A November 17 poll also had the KMT's Lee Shu-chuan narrowly ahead in New Taipei. Reports of a DPP surge help a little, but the DPP needs to win both races, and Taipei is the hard one."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-27T01:01:04Z",
+        "crowd": 0.33,
+        "best_bid": 0.32,
+        "best_ask": 0.34,
+        "volume": 23882,
+        "liquidity": 72737,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Skipped: already 2 open bets on the same story (limit 2)."
+    },
+    {
+      "market_id": "7330418",
+      "event_id": "1455773",
+      "event_title": "Fear & Greed Index on November 27?",
+      "option": "0–24",
+      "question": "Will the Fear & Greed Index be 24 or below on November 27?",
+      "rules": "This market will resolve according to the CNN Fear & Greed Index closing value for November 27, 2026.\n\nThe closing value is the value shown for November 27, 2026 in the \"Timeline\" tab (the historical chart) of the Fear & Greed Index at https://www.cnn.com/markets/fear-and-greed at the time CNN first shows a value for the next trading day after November 27, 2026. Changes CNN makes to the value for November 27, 2026 after that time are not considered, unless the value shown at that time was clearly erroneous, in which case the correction paragraph below applies. Values shown for November 27, 2026 before then, while the index is still updating, and the separate previous-close and other summary figures CNN displays, are not used. If the value is shown with decimals, the decimals are dropped (e.g., 24.9 counts as 24).\n\nThe brackets are whole-number ranges that include both numbers shown (e.g., \"25–34\" includes 25 and 34). They follow CNN's own rating zones: 0–24 Extreme Fear; 25–44 Fear; 45–55 Neutral; 56–75 Greed; 76–100 Extreme Greed.\n\nIf CNN has not shown a value for the next trading day within seven (7) calendar days after November 27, 2026, the value shown for November 27, 2026 at the end of that period will be used. If CNN shows no value for November 27, 2026 within that period, this market will resolve according to the value for November 27, 2026 published by a successor index from CNN under the same or a substantially similar name, if one exists. Otherwise, this market will resolve to the \"45–55\" bracket.\n\nThe resolution source for this market is CNN's Fear & Greed Index, available at https://www.cnn.com/markets/fear-and-greed.\n\nIn the case that the Resolution Source publishes data, sufficient to settle a Market, that is clearly erroneous and the result of technical or operational error, or of unauthorized interference with the Resolution Source or its data, the Market may remain open for a period of up to seven (7) calendar days (ET) from the time of the original release, in anticipation of a correction by the Resolution Source. If the Resolution Source publishes a corrected value within that period, that value will be eligible for resolution. If no corrected value is published within that period, Polymarket will issue a Clarification to determine whether the originally published value may be eligible for resolution, or whether other action is required to preserve the orderly functioning of the Market.",
+      "topic": "Economy",
+      "end_date": "2026-11-28T04:59:00Z",
+      "url": "https://polymarket.com/event/fear-greed-index-on-november-27-2026",
+      "snapshot": {
+        "time": "2026-11-27T00:59:30Z",
+        "crowd": 0.91,
+        "best_bid": 0.9,
+        "best_ask": 0.92,
+        "volume": 14525,
+        "liquidity": 2461,
+        "fee_rate": 0.01
+      },
+      "news": [
+        {
+          "title": "Wall Street’s Fear Index Just Hit 9.7. History Says the S&P 500 Could Rally 10.5% in 3 Weeks",
+          "source": "Yahoo Finance",
+          "published": "2026-11-21",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQeGcwWU5zUDZCMUNPeUcxdGVVWW9IUnE4T3BIbl80OVJMUXVRTXFZcEphQVE1QmRlMTdwZENsSVJwY05mM0doQ1YzOVB0ZDgwRXdpS0M0ZHliX2kwbnhOTXRfQ2RGSGg4VzlraHdTVXh3ai0wLXdzc3VZdTh4SVY4UVFRczFSLUNRX3U3d1NfSjByRGdmTUNN?oc=5"
+        },
+        {
+          "title": "Dow Crashes 1,100 Points as Investor Sentiment Sours, Fear and Greed Index Falls Into 'Extreme Fear'",
+          "source": "Benzinga",
+          "published": "2026-11-20",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOdEZNN0t0TXRyaDdNS0tyNzBwN2Fack5LOTNGTGE2S3VINmtxd2llaENVT3Bka2VTeUhhNmp0SHNtNXFOTDNpWEw2YkRQakZsNHpFMTloQWFXTzFnWTNMSmVwaHVhcG1HUklwTTRNbFBFSlFQMUJoX0xYMWxEcXRuWkpVdW4zbW5wNkpGLTdzVjRGcHFqWHJ2dWpMZFJvVlU1OWJLTzVSYWpCRnB2YTdlakFzTUhOcEdSNnZSVk1NVmRFbHFJZXVteTNzQ3VkZlpMZ2RGV25sTl9TUlVoUmUyQ3VnZVZ4SWRaR1RRMFlCUmw?oc=5"
+        },
+        {
+          "title": "The Crypto Fear & Greed Index Is in \"Extreme Fear\" Territory. History Says This Happens Next.",
+          "source": "The Motley Fool",
+          "published": "2026-11-17",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNaXJHeUIzZ0w5QlBRNkFhSGk4N1lqd1d4OXFudnRzcjdhTFZoS2hFYXhnU2k4a1FOZ0k3UE5rVzJPejNUclp0VlRPWXhYTDVrbFEwTGNNNmJEUVdCYk14ZGN2RGZhWFl1T0ZSZGV6Z3p5M2gwTTNEel9Da2tscWxudWxvQTJpZlVVQVZuZHhZbkttVUlfbjFic3VDZ2RQZUxISkZBYTJRMG1NczJ4M3NhSUp5Z2tNanE2b2ZiRlpPdVl4WE01djdWNnR3?oc=5"
+        },
+        {
+          "title": "Media Needs A Fear And Greed Index. TV Already Has One",
+          "source": "TVREV",
+          "published": "2026-11-24",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQZloyUHhBclZIQW5neE8yVWh3a1N3MFltdFlIaGVkQUtoSXIwdWRuaUhsRGNHRkwyeXlMek1zbVlCS1pRXzF1TW5ZRlRldkl4c3ZpTjZoWTNWd0lCNWNLWTAxdGZTbi1XaVFPZWlFTzRZSEdBaElkazRKRGdsR09qT0ZSQzZ4RUE?oc=5"
+        },
+        {
+          "title": "Dow Drops 1,100 Points as Fear and Greed Index Hits 'Extreme Fear'",
+          "source": "KuCoin",
+          "published": "2026-11-20",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxONGhDTE5hMGpCLXdqRC1oRVBqTnJocVNiYTB2YXZuLUFuMXN6UlhVOElVWWkzWFN6QjM4SUdRU3UtYnZGc1AxSHdJOXhSblhCUl80azBXWDV4MWxKUEo0VTE0eUJmdVFpZmkxZmxZeFdCckdveG9DOTdjZHIzbmt3WUEyX2xqQWdBSEhYNnVLQjFhMW9hX0RfWUU5bHQ2Z0k?oc=5"
+        },
+        {
+          "title": "Bitcoin, Ethereum extend losses as crypto market sentiment hits extreme fear; BTC nears $60,000 support",
+          "source": "The Economic Times",
+          "published": "2026-11-20",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMimAJBVV95cUxQOGNsMWh5ODN4c0JlTXpSSW91WjN0cXkwQ3Q2OFBrRkI5MFNwYkx0eWdfTUctaVMzcE5SUTAzRTBFUDFoVGdpRllTWGtFa2JwbHJYZGVoQm13MkV6RDlhT1lyV3I4cldvTGN0dFpuQW43ZjhoRDMwOGhjYU55RzJhTW5OWjZVVFZXNGtlTTNFcUxoUGw5STdGUzlUTnhGaG1GYVAtVGZkd20tNlF2cmJnakhqTEk3MExjZFZsLTl2M1lpblV3aHZDTjFkMkNLWU9WVkJxQXA2TGw1SUdsdW5QV1lhV0c4SW40TEYxLWV5dnFsSXFZR3VVYlMyYXBXT2RTREZsYWVzMU14VzBETjc4NUs2X0phV0tz0gGeAkFVX3lxTE0wX3FFZFh4MHFmd1k4YnRSLThMX0p2al9jMWVKU0ExTHNfNEg1bkpsdm41a1FpVkJJdFVMbVdHcmJOY3NqNHQzVHJQcXRUaVU5QlBlaDFTTmxxeHA3THRNanNxWmJ5U2xiRGkzX19JMlYwZUJJdGEyWm95dHBYU1VqMG5jMF85dTFTcFdxN1ZqNG9YSWtGVEdjcjlrU0dCQ2pnc1E1VExDZU8wMVExVl9ua3RMRVRVek9vM2RqSGNqem9uVnB3YmhsTU1QX1dycTMwYkxoR0hUa2prQi1HTkkwUWpTZkVZV0twNE9pRzBCZ1Q5LUJEcDlUWjBPdWJ6MHpURkJ4OVAyYTR2dERSSHR4bUlBdExvclo1WVJJbVE?oc=5"
+        }
+      ],
+      "news_query": "Fear Greed Index | Fear Greed Index November economists forecast",
+      "forecast": {
+        "probability": 0.58,
+        "reasoning": "Around November 20–21 the index fell to about 10 after a 1,100-point Dow drop. Readings that deep usually take more than a week to climb back above 25. A relief rally into the shortened Black Friday session could lift it into the 'Fear' zone, but slow-moving parts of the index, like momentum and the 125-day average, keep it low."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-27T01:01:05Z",
+        "crowd": 0.91,
+        "best_bid": 0.9,
+        "best_ask": 0.92,
+        "volume": 14525,
+        "liquidity": 2461,
+        "fee_rate": 0.01
+      },
+      "bet_note": "Skipped: already 2 open bets on the same story (limit 2)."
+    },
+    {
+      "market_id": "3740666",
+      "event_id": "879909",
+      "event_title": "Victoria Parliamentary Election: 3rd Place",
+      "option": "Greens",
+      "question": "Will Greens win the third-most seats in the next Victorian state election?",
+      "rules": "The 2026 Victorian state election is currently scheduled to be held on 28 November 2026 to elect members of the 61st Parliament of Victoria.\n\nThis market will resolve to \"Yes\" according to which party or coalition wins the third-most seats in the Legislative Assembly (Victoria's lower house) as a result of the next Victorian state election.\n\nIf the results of this election are not known definitively by March 31, 2027, 11:59 PM ET, this market will resolve to \"Other\".\n\nLiberal–National refers to the Liberal–National Coalition. Liberal–National will include all seats won by both the Liberal Party and the Nationals, regardless of their parliamentary coalition behaviour, and its first-preference vote total will include the votes received by both parties.\n\nParties and coalitions will be primarily ranked by the number of seats won in the specified election. If two or more are tied on seats, ties will be broken by the total number of valid first-preference votes received, with higher vote totals ranking higher. If they remain tied, ties will be broken by alphabetical order of the listed names. This market will resolve to the party or coalition that occupies the third-highest finishing position after applying this ranking.\n\nThis market will resolve based on the result of the election as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the Victorian government, specifically the Victorian Electoral Commission (VEC) (https://www.vec.vic.gov.au/).",
+      "topic": "Politics",
+      "end_date": "2026-11-29T04:59:00Z",
+      "url": "https://polymarket.com/event/victoria-parliamentary-election-3rd-place",
+      "snapshot": {
+        "time": "2026-11-27T00:59:30Z",
+        "crowd": 0.412,
+        "best_bid": 0.397,
+        "best_ask": 0.427,
+        "volume": 16725,
+        "liquidity": 69462,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "Coalition in election-winning lead in final DemosAU/PremierNational Victorian poll",
+          "source": "DemosAU",
+          "published": "2026-11-26",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUVJZUHNOMV9fNVBzSEh3UnMzQ3pLUFZYMzIzSkJ0NHEwYlR1eWYzd0YxWW9XdF9sSzFfM1ZydUx6SW54NGpVVEZmd3pLMGFUUGZGZkV2UlFrQkVzbmw1c3pnc2FXYzlzQnhLYXI3QjhuNm5rZllfUGQ1d1ZRdzNNOTREQzZDd1Q3aFZoaXNtR2owS2JDVE0xbEM3OGNSdklaXzlqQlAzbDRUSGJ2?oc=5"
+        },
+        {
+          "title": "Labor pains could be Greens' gains in Victoria",
+          "source": "Politico",
+          "published": "2026-11-16",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPNWdCRWlGaGhvUE55a1BmZGVQbFRVNWdnYVFLLTIxLXZrdjRUOXo5dDJrQk9VWlhyWFlyQnQ0VTZyRHg4UXUxcUNxNEI2WGlGRi1hTThsV21tUTBrZUxxZm81X3M0WWhRcTNfTG1vYmItMTZRV3c1MGlxSkZzQlc3a0tLTVZpT1dkdmtTLUtBSHNyMmZrd0tZdGNWM3BGZF8tbmdR?oc=5"
+        },
+        {
+          "title": "US Democrats win final two Senate seats; Coalition likely to easily win Victorian election",
+          "source": "The Conversation",
+          "published": "2026-11-15",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNc3F3TXRhTENWQU5qVFZMd2pZbEJLckJfV05ZTlplQmV4dXFCdzhWdlhMMl9VMWhQbXpJaFR1WllzeWxaSzY1V05xOFRsakNwLUZCUE1jaG91Zzl3aUZSWF81TmlQT0FNNDlJaExZRVpMZTJqRzlpal9ZVG1faVZYRFhmQWozRkFHczVXTVZZYjJfOVJnNTI2OWtuRlNzcG1pQnphMTdwbWVPUEoxdXJBVmRKY2NJeG9Ld3kzM2xHYnkyZw?oc=5"
+        },
+        {
+          "title": "Australia’s most progressive state is poised to turn blue. How would Victoria change under a Coalition government?",
+          "source": "The Guardian",
+          "published": "2026-11-26",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQM3Y2b2NaMzM5UnR4QURKRXRjYWNOR1g2U0RzUWc0ejNEZzY5ME1hQk12SDk3cmwtUHR6ZWR2dW5OOWZOeUR3MjdOZFR3RTNmVkF4czBOZHczam54c21NTk1zX2s3SjJrQ1N5TFYya1ltVXJBODJiLUtiYmJibnU0T25veGRJOFNDX2w4YkkwUXJNRmdPcUhTR2JhblBPVU5RR3lqYWhFV01WdjB4UFZpWQ?oc=5"
+        },
+        {
+          "title": "The Political Geography of the 2026 Victorian Election",
+          "source": "Antony Green's Election Blog",
+          "published": "2026-11-20",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNMVczSlFPS2pQcFMxR2syMzJqcHVjSkllMTM4eWNNYWNzTXlIOGJVbWNtZ2dqNTlXblRKUXoxOGpKUXl4Q1pGYU5Pbmc3NjZtOENFZ1RIc1BhNlN4U1hJejRtMXlEMVRXVzY1eVA2ZE94ZXhfbmwwRUhBd0o4NnFBa1FjeU41bmptUkE?oc=5"
+        },
+        {
+          "title": "Victorian State Voting Intention: Liberal-National Coalition set for victory at this week’s Victorian State Election",
+          "source": "Roy Morgan Research",
+          "published": "2026-11-23",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNWWhpUEI4elpUZUxNaG44OUlqdlFaSnpQaEJ5WW9DX2poYzZVNGE2bGU5MDh5MkpmVlMyWGl3aDRDa2xDX0NyT1p0a2ppMmhqaVF5YmFJZmVBeWVoclZIdkhJNDQ5clQ5bGUwdWhoejQ2NC1FWHhyZnI0MGRZalVqeFBfbENCc2ZWbm93c2tzUzk?oc=5"
+        }
+      ],
+      "news_query": "Greens win third-most seats Victorian state election",
+      "forecast": {
+        "probability": 0.89,
+        "reasoning": "The Coalition and Labor will almost certainly take first and second place. The Greens held 4 seats after 2022 and are expected to hold or gain inner-Melbourne seats. Independents, including teals, don't count as a party, and no other party is likely to win several seats, so the Greens are very likely third."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-27T01:01:05Z",
+        "crowd": 0.412,
+        "best_bid": 0.397,
+        "best_ask": 0.427,
+        "volume": 16725,
+        "liquidity": 69462,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Gap vs. the price we'd pay is 46.3 points, over the 35-point limit: disagreements this big have usually meant the AI missed something, so no bet."
+    },
+    {
+      "market_id": "6027363",
+      "event_id": "1231998",
+      "event_title": "Spain General Election: PSOE % of vote?",
+      "option": "30%+",
+      "question": "Will PSOE receive 30% or more of the vote in the 2026 Spanish general election?",
+      "rules": "Legislative elections to elect the 350 members of the Congress of Deputies of Spain are scheduled to take place on November 29, 2026.\n\nThis market will resolve according to the percentage of the valid votes cast in the election to the Congress of Deputies of Spain received by the Spanish Socialist Workers' Party (PSOE).\n\nIf the reported value falls exactly between two brackets, this market will resolve to the higher bracket.\n\nIf the results of this election are not definitively known by November 30, 2027, 11:59 PM ET, this market will resolve to the lowest bracket.\n\nThe vote share will be calculated as the total number of valid votes received by the lists attributed to PSOE divided by the total number of valid votes cast, as reported in the official results.\n\nSeats and votes will be attributed according to the electoral list on which they were obtained, as reported in the official results, regardless of the party membership of individual candidates. Lists will be attributed as follows:\n\nPSOE: lists of the Spanish Socialist Workers' Party, including the Partit dels Socialistes de Catalunya (PSC) lists in Catalonia.\n\nPP: lists of the People's Party, including the joint UPN–PP list in Navarre.\n\nBroad Front (FA): all Broad Front lists, including Catalunya en Comú in Catalonia, Compromís–Valencian Front in the Valencian Community, and Canarian People’s Unity (UPC) in the Canary Islands.\n\nERC: Republican Left of Catalonia lists, including the joint ERC–Podem lists in Catalonia.\n\nPodemos: only lists presented by Podemos on its own.\n\nCCa: Canarian Coalition lists, including the joint CCa–1º CAN lists in the Canary Islands.\n\nAny other list will be attributed to the party or coalition that presents it, as named in the official proclamation of candidacies.\n\nElectoral cooperation, endorsements, coalition agreements, or subsequent changes in party affiliation or parliamentary-group membership will not be considered.\n\nThis market will resolve based on the results of the elections, as indicated by a consensus of credible reporting. In the case of ambiguity, this market will resolve solely based on the results as reported by the Spanish Ministry of the Interior (https://infoelectoral.interior.gob.es/).",
+      "topic": "Politics",
+      "end_date": "2026-11-30T04:59:00Z",
+      "url": "https://polymarket.com/event/spain-general-election-psoe-of-vote",
+      "snapshot": {
+        "time": "2026-11-27T00:59:30Z",
+        "crowd": 0.45,
+        "best_bid": 0.44,
+        "best_ask": 0.46,
+        "volume": 14561,
+        "liquidity": 51611,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "Spain’s Election Could Spark Europe’s Next Right-Wing Wave",
+          "source": "Council on Foreign Relations",
+          "published": "2026-11-24",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPb3EyWmxhdUVwdWQ4UDBqbGNINVJrUVdRbmttVkJ1LWh4UGFMMHlvQzlTOFUtNlVoVG1OTWFlWVlKaVdUbm1VNndaUjg3YWlpeWUybWNHWE1oTUt3VFcwS0pia19STGFHUUVleFUyOWNVN0ZWOUNYYkp3a19Tdmx4ME1Rd2RNb014czd1Q2tB?oc=5"
+        },
+        {
+          "title": "Will Spain’s snap election in November bring a far-right party into government?",
+          "source": "The Guardian",
+          "published": "2026-11-16",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQS0xzb3YxVWdRaUUwUjlhRkhrTWNsTmJ0T3ZuV04zWW9xZGVjQURBYXpxZERfZmU5Mm1jdWY2d3NGSzZRM3VXd1hVN3RXVXNKYm9JaXdXaGxNNkh0WVI4Y0Q5elc3WmNROGVJdC0zcXAzUWRwWk9Jb09yYXd4ZDJLWkdCRTN5UjFOamRFWHUyX3pRQmtHRzQwSmhOM1U2T3RQNmtmcWRQTWRQV2hSRV8tMXNCcmZmT1MzRTd0NURJVWc?oc=5"
+        },
+        {
+          "title": "What do the latest polls show ahead of Spain’s general election?",
+          "source": "EL PAÍS English",
+          "published": "2026-11-24",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNM1lSTnU4bkJqelplbGpzLXBUeU5mOXY0ZnI1QWt5d2RVRlRqenZ6OWdIZEFNMXZBTTZxUEtCVlo0TVRJVGVfU1Q5SzVOTkh3aWxzeUEzTXFUTUFmT0xRa2NXMk0tX1k4eEdOLWFTaWlNNzhrNkNVMDh1S0RHNTV6UVd5VXdDeU8wYXEycVNQY0FhbzJha09jR21xc1dYNDRsZkRhbjctS1pFSGpyaDVIcQ?oc=5"
+        },
+        {
+          "title": "Spanish election race tightens ahead of campaign’s final week, new poll shows",
+          "source": "POLITICO.eu",
+          "published": "2026-11-19",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPR1F2Q2ZHYzctWEkyQmNwX1VWSklhMTUwejZkQmF4OFVhWVBfaHJDWjVTbXk3eUZsNHFlSDBvRktLRGZ1dlEyNzEyd2I1TzBrOWo3OUpRRDhiNDFIb1kzN2Fua1loenE2X3NxUDBTaWkzekxQVzVKS05vTDRJQ3k2X1ZIbDhiQQ?oc=5"
+        },
+        {
+          "title": "Polls favour Spain's Popular Party over socialists ahead of election",
+          "source": "Euronews.com",
+          "published": "2026-11-22",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRXloTVBpYnBBV1lPQ0l6dWZiYzZDS1JXTmJfa3Zzb3NLdDJOT25xY1Y4Qk5BWGptNnFvbkM1VlVkM3hHTC1Wd2lZdGw4V0o1ZzBtWk1XSGpXT3l1Rjh3M0pPN3VjX21MQ1hGZTd0RktxdHBEQ2NrOS1uRy1aQjNSRV9vSnUwT2pVZHZ1ajF3dEVZZmZXUUtDdzliaDQxOF9zWWROOXVJaw?oc=5"
+        },
+        {
+          "title": "Spain to Hold Snap Elections After Cost of Living Protests",
+          "source": "IR Insider",
+          "published": "2026-11-24",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVXlFcEdQNjJPcEVQdFlHYlNIbEtSRFRQWnk3Y3BZYU1YTVRCQTBLRjU2NXpEeXBmcjJUQW5IWHR5dkxCY1MzRWtjcy0xRXVCTk94a2FzSFRNWXVjd1JqdVRzellqU3RHT2RtUEM1UG54bFNwcGJvOE1NR0RtZ1QteVlQSWd3c0lPNEtKV0xJeFBSUVBoY2lka1dQVEQ3UXpCdVE?oc=5"
+        }
+      ],
+      "news_query": "PSOE receive vote Spanish general election",
+      "forecast": {
+        "probability": 0.27,
+        "reasoning": "PSOE won 31.7% in 2023, but recent polls mostly put it in the mid-to-high 20s, with the PP leading after cost-of-living protests. Polls underestimated PSOE in 2023, and the race is reported to be tightening. Even so, reaching 30% would need a meaningful beat on the polls."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-27T01:01:05Z",
+        "crowd": 0.45,
+        "best_bid": 0.44,
+        "best_ask": 0.46,
+        "volume": 14561,
+        "liquidity": 51611,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Gap vs. the price we'd pay is 17.0 points; counting only part of it (cautious sizing) leaves 8.0, under the 10-point minimum."
+    }
+  ],
+  "batch_id": "msgbatch_01Pdjk2CLp2W2sFUDvjWKS9z",
+  "forecast_at": "2026-11-27T01:01:04Z",
+  "usage": {
+    "input_tokens": 5286,
+    "output_tokens": 1305
+  },
+  "cost_usd": 0.0236,
+  "budget": 30.54,
+  "account": "phase-1.2"
+}
