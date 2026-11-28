@@ -1,0 +1,528 @@
+{
+  "run_id": "2026-11-28",
+  "date": "2026-11-28",
+  "created_at": "2026-11-28T00:28:43Z",
+  "model": "claude-opus-5-5",
+  "effort": "high",
+  "phase": "1.3",
+  "pick_stats": {
+    "eligible": {
+      "Economy": 4,
+      "Entertainment": 2,
+      "Politics": 34,
+      "Tech": 2
+    },
+    "picked": 7
+  },
+  "track_record": "=== Your track record so far ===\nThese are your own earlier forecasts in this experiment that have settled (230 questions). They show only what you said and what happened (no market information).\n- On average you said 37%, and 43% of these events happened. So far you have been too low: events happened more often than you said.\n- Your average Brier score is 0.251 (0 is perfect; always saying 50% scores 0.250).\n- When you said...\n    under 10%: it happened 6 times out of 26.\n    10-30%: it happened 25 times out of 73.\n    30-70%: it happened 48 times out of 97.\n    70-90%: it happened 17 times out of 31.\n    over 90%: it happened 3 times out of 3.\n- Your biggest misses:\n    \"Will SpaceXAI officially rename itself to SpaceXSI by October 15?\" You said 3%; it happened.\n    \"Will the Tesla Roadster fly for 1s+?\" You said 4%; it happened.\n    \"Will Xiaomi have the best Chinese AI model at the end of October 2026?\" You said 6%; it happened.\n    \"Will monthly inflation increase by 0.6% in September?\" You said 7%; it happened.\n    \"Will there be between 0 and 5 average daily transits of the Strait of Hormuz on October 31?\" You said 7%; it happened.",
+  "questions": [
+    {
+      "market_id": "3581984",
+      "event_id": "848481",
+      "event_title": "Taitung County Magistrate Election Winner",
+      "option": "Wu Hsiu-hua",
+      "question": "Will Wu Hsiu-hua win the next Taitung County Magistrate election?",
+      "rules": "Taiwanese local elections are scheduled to be held on November 28, 2026.\n\nThis market will resolve according to the candidate who becomes the next Magistrate of Taitung County as a result of this election.\n\nTemporary, interim, or placeholder Magistrates appointed before the election will not be considered.\n\nIf the result of this election isn't known, or no candidate has been elected, by June 30, 2027, 11:59 PM ET, the market will resolve to \"Other\".\n\nThis market will resolve based on the results of the elections as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the Taiwanese government, specifically the Central Election Commission (https://db.cec.gov.tw/).",
+      "topic": "Politics",
+      "end_date": "2026-11-29T04:59:00Z",
+      "url": "https://polymarket.com/event/taitung-county-magistrate-election-winner-202608131357161300",
+      "snapshot": {
+        "time": "2026-11-28T00:28:39Z",
+        "crowd": 0.895,
+        "best_bid": 0.89,
+        "best_ask": 0.9,
+        "volume": 30932,
+        "liquidity": 56236,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "KMT Taitung magistrate candidate vows to protect atemoya exports to China",
+          "source": "Taiwan News",
+          "published": "2026-11-25",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBVb1hrTGQ4cnBmNWtmNHdydTJsVl9HUFBMRzdXY0VDc2owYmVyWnRSZGlLdWYwOXF6Wm51YnBMSWo3cENOcWZSdGd0WUNjY1BoN0xKMw?oc=5"
+        }
+      ],
+      "news_query": "Wu Hsiu-hua win Taitung County Magistrate election | Taitung County Magistrate Election Winner Wu Hsiu-hua",
+      "forecast": {
+        "probability": 0.66,
+        "reasoning": "Taitung is a long-time KMT stronghold, and Wu Hsiu-hua appears to be the KMT nominee (the county council speaker). Ruling-party-aligned favourites in safe counties usually win, so I start from roughly 75%. I trim that for uncertainty about vote-splitting and for my imperfect knowledge of the final candidate field."
+      },
+      "bet": {
+        "side": "NO",
+        "price": 0.1128,
+        "top_price": 0.11,
+        "shares": 107.88,
+        "stake": 12.17,
+        "fee": 0.54,
+        "cost": 12.71,
+        "gap_pts": 23.0,
+        "edge_pts": 11.2,
+        "sized_on": 0.7775,
+        "kelly_full": 0.1216,
+        "fill": "order book",
+        "levels": 2,
+        "scaled": 0.5746
+      },
+      "trade_snapshot": {
+        "time": "2026-11-28T00:30:45Z",
+        "crowd": 0.895,
+        "best_bid": 0.89,
+        "best_ask": 0.9,
+        "volume": 30932,
+        "liquidity": 56318,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Bought NO (AI's gap 23.0 points; 11.2 after cautious sizing). Scaled to 57% to fit the daily budget of $30.54."
+    },
+    {
+      "market_id": "7359699",
+      "event_id": "1460877",
+      "event_title": "Will a balloon be removed from the 2026 Macy’s Thanksgiving Day Parade?",
+      "option": "",
+      "question": "Will a balloon be removed from the 2026 Macy’s Thanksgiving Day Parade?",
+      "rules": "This market will resolve to “Yes” if any qualifying balloon is removed from the route during the 2026 Macy’s Thanksgiving Day Parade, scheduled for November 28, 2026. Otherwise, this market will resolve to “No”.\n\nA balloon is removed if it begins the parade flown aloft but does not complete the full route of the parade, for any reason (for example, damage, deflation, wind conditions, or a directive of the NYPD or another New York City authority). A balloon that is brought down and then carried, towed or walked for the rest of the parade without being airborne will also count as removed. Changes to the parade route, whether made before or during the parade, will not by themselves count.\n\nThe following will not count: a balloon that never begins the parade (for example, one grounded beforehand or damaged during inflation); a balloon that flies at a lowered altitude but stays airborne until it finishes the parade; the planned deflation of balloons after they finish the parade; and balloons still in the parade when the entire parade is stopped and not resumed.\n\nA qualifying balloon is any balloon listed under \"Balloons\" in Macy's official lineup for the 2026 parade (https://www.macys.com/s/parade/lineup/) as of this market's creation: Acorn; Billie Brightpaw; Blue Hippopotamus; Bluey; Buckaroo Bob The Minion; Buzz Lightyear; Diary Of A Wimpy Kid; Dora; Earl the Squirrel; Felix the Cat; Gabby & Pandy Paws; Goku; Goldbear; Hello Kitty; Ice Crystals; Joe Cool & Woodstock; KPop Demon Hunters: Derpy Tiger; Macy's Blue Stars; Macy's Blueprint Stars; Macy's Gold Stars; Macy's Green Stars; Macy's Red Stars; Macy's Red \"Believe\" Stars; Macy's Silver Star; Macy's Yellow Stars; Mario; Marshall from PAW Patrol; Noorah; PAC-MAN; Pikachu & Eevee; Poinsettia Ornaments; Pumpkins; Shrek's Onion Carriage; Smokey Bear; Sorcerer's Apprentice Mickey; Spider-Man; SpongeBob SquarePants & Gary; The Pillsbury Doughboy; and Underdog. Where a listing covers more than one balloon (for example, Macy's Red Stars or Pumpkins), the removal of any one of those balloons will count. Balloonicles, floats, inflatable elements of floats, and entries in any other section of the lineup do not qualify.\n\nIf the parade is cancelled, or does not begin by December 15, 2026, 11:59 PM ET, this market will resolve to “No”.\n\nThe resolution source for this market will be a consensus of credible reporting.",
+      "topic": "Entertainment",
+      "end_date": "2026-11-29T04:59:00Z",
+      "url": "https://polymarket.com/event/will-a-balloon-be-removed-from-the-2026-macys-thanksgiving-day-parade-02",
+      "snapshot": {
+        "time": "2026-11-28T00:28:39Z",
+        "crowd": 0.185,
+        "best_bid": 0.18,
+        "best_ask": 0.19,
+        "volume": 11856,
+        "liquidity": 7570,
+        "fee_rate": 0.01
+      },
+      "news": [
+        {
+          "title": "Live Updates: Macy’s Thanksgiving Day Parade Postponed as NYC Faces Storm",
+          "source": "The New York Times",
+          "published": "2026-11-26",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNaVZHYnZSbkwwSnZWekxkalE1algzbkVPTlY1bWF2dkd6dzcwRDdwUDNSZGtsa3hLQ2t3STV1RHVKdXgyNEFhckthRDkzdnl2amZZZk93NmVfVXhVSTJXN2xLYkQzZWRYYnEyM1psQ2pzSC1mWm9LZml1dENlZlVibW8wUHloVlloTEctcQ?oc=5"
+        },
+        {
+          "title": "Will wind ground your favorite balloon in the Macy’s Thanksgiving Parade?",
+          "source": "AP News",
+          "published": "2026-11-24",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNUnJfZmdvYWRSU2xzdW53c2U1cjFLdVhnUy1XdWFvZUZ0ZTFtQ2xMbUk3UnoxSy1vSmdqeXlBZFgwU05VMndDQnVJUG53SFRUSkVveVJEb1BTVFlmTXRjaFJJQ2FaWXcta19uR3hEMG93LW9PWlVFUW1kOVpESEVMX21mTEVENlN3Z09YRFRSMEd5eGxrWnB2S2tkenEzWkxKeExJVUxtbktJb09J?oc=5"
+        },
+        {
+          "title": "Macy's Thanksgiving Day Parade postponed due to weather for first time in 100 years",
+          "source": "Reuters",
+          "published": "2026-11-25",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxObWhPYmVCWGllQUlkVVlDc2xCb1puNVJmRzRxb0M0TkxUXzJhUF96ZW9HalhkbHdCODVNcW40ZXZrTEhWR0ZpUHZZU1JmZ29TbXdZR2ZLMlNnMzJ2eUhaUXp4VkJOV2RvVnNweTdWbkFuUWptYmRCblc5aXBtOXlQSy1TSHpHQjRrUUpuYXIweEZtbldKSTltWG9US2p3eGZ6UTlBSjE5YW1qdGNsdVI3Y0wxeURLdF9IS1d3c3NuNVpxdTJfQmN5UmpjZ1ZZbFlW?oc=5"
+        },
+        {
+          "title": "History of the Macy’s Thanksgiving Day Parade",
+          "source": "Visit New York State",
+          "published": "2026-11-20",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPTnBXTlRhZlpWZGdZTEdIQkFEZDkySE9OaG9JUWVFNU5RMnJtVGduNjY0M2FQSENmTUYwbTJRRV9kYk1adWtkM2lwM1I1bFhXdjBFcUFYZDFyUGszanBlTllwUGRFUjllZDFJN25ET1RsNGxBRjYtVjNCY1VvVnplM2tJemFzQQ?oc=5"
+        },
+        {
+          "title": "NBC Tracking Storm Due To Hit 100th Annual Macy’s Thanksgiving Day Parade: Will Balloons Be Grounded?",
+          "source": "Deadline",
+          "published": "2026-11-24",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMUhLUm5tZURHdUZSanNTSkV6WlNFeUJJT0J0VlpkQVZqT2YzdUUyYnZqYUo5WEdYUXpERVRIbkZjZllGUWc5RGpkOGYtTWhNM05FX0Z3RmJIaU1NLS1FQmxDZnpxWmMxQXdFWDhoVnE3SE9CTHRoTjhGOG40RjZRZnVNTlFzS1hDWVpaYmpn?oc=5"
+        },
+        {
+          "title": "Macy's Thanksgiving Day Parade is postponed. Past weather incidents have disrupted it before.",
+          "source": "Business Insider",
+          "published": "2026-11-26",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQbUsxSFc3b0hMM1lzUkZ1YWo0aEdxZkJoOE13blpVMWg3Rzlram1IZzFQLXRjWXhBN1VhZ3VxWXFWd1Z2UkJyR0llMGhIcEUyRHo2aTlUekNRUmpKdzBjSHJaVzlPTGdxb3oybnBuWFltSVREUkRJWlhUWl9FX2JMVHhhMWVCZlhvaVZlRjlsTFRqbk1xNVBWU2lyRHVqdWlscWtMVHpn?oc=5"
+        }
+      ],
+      "news_query": "balloon removed Macy Thanksgiving Parade",
+      "forecast": {
+        "probability": 0.1,
+        "reasoning": "Balloons are removed mid-route only occasionally, perhaps once every decade or so; most bad-weather years see balloons flown lower or grounded before the start instead. The parade was postponed for the storm to November 28, so the weather on the day is probably calmer. Gusty conditions after the storm still raise the risk slightly above the base rate."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-28T00:30:45Z",
+        "crowd": 0.185,
+        "best_bid": 0.18,
+        "best_ask": 0.19,
+        "volume": 11856,
+        "liquidity": 7570,
+        "fee_rate": 0.01
+      },
+      "bet_note": "Gap vs. the price we'd pay is 8.0 points; counting only part of it (cautious sizing) leaves 3.8, under the 10-point minimum."
+    },
+    {
+      "market_id": "3581572",
+      "event_id": "848418",
+      "event_title": "Hsinchu County Magistrate Election Winner",
+      "option": "Hsu Hsin-ying",
+      "question": "Will Hsu Hsin-ying win the next Hsinchu County Magistrate election?",
+      "rules": "Taiwanese local elections are scheduled to be held on November 28, 2026.\n\nThis market will resolve according to the candidate who becomes the next Magistrate of Hsinchu County as a result of this election.\n\nTemporary, interim, or placeholder Magistrates appointed before the election will not be considered.\n\nIf the result of this election isn't known, or no candidate has been elected, by June 30, 2027, 11:59 PM ET, the market will resolve to \"Other\".\n\nThis market will resolve based on the results of the elections as indicated by a consensus of credible reporting. If there is ambiguity, this market will resolve based solely on the official results as reported by the Taiwanese government, specifically the Central Election Commission (https://db.cec.gov.tw/).",
+      "topic": "Politics",
+      "end_date": "2026-11-29T04:59:00Z",
+      "url": "https://polymarket.com/event/hsinchu-county-magistrate-election-winner-20260813135716300",
+      "snapshot": {
+        "time": "2026-11-28T00:28:39Z",
+        "crowd": 0.31,
+        "best_bid": 0.3,
+        "best_ask": 0.32,
+        "volume": 39703,
+        "liquidity": 58717,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "Hsinchu magistrate candidate hospitalized amid hunger strike",
+          "source": "Focus Taiwan",
+          "published": "2026-11-23",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB1djRiZ2JXdDJub1ZDcU04RGZrSjNFY1laQktlbUNiWFJPQWx4UVRqLUY3VW1BRGtva2VqR0NpbEttR1Rib0hFRGlScnV3NGxTTjlkWjJ6VQ?oc=5"
+        },
+        {
+          "title": "Failed KMT-TPP pact and tangled factional rivalries put Hsinchu County in play",
+          "source": "联合早报",
+          "published": "2026-11-23",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQSW1fTjVScm5rS1g5aERrV1IySHRFMWhaeUZPcTczQnlEbjBzbUhnancybEZGYTdNWUMwa1VGTEFBZGs3NUZYb2xKN3Y2TXVJcm1KTFhlZGt6WkN0Q2FzbkZibVAzOFdCc2Ftb0ZBWlMtOTloV0pfWVM1ZFdXRENaaEtIOVM0Qm9iQXA1X3dHbkVndGh6NE5pb0dTdmh2ZGh1NWFmY2hmUERVUGpPaVNZY0tkQ09UUQ?oc=5"
+        },
+        {
+          "title": "Aide accused of sexual smear campaign; KMT’s Hsinchu candidate Hsu Hsin-ying suspects political plot",
+          "source": "联合早报",
+          "published": "2026-11-21",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQV05wa0V5c1JKNnlvM19TX3F6bG1PbFFCSjVvTERUWXlyQ08xVk16M09uV1Raa1lTZHR4R3ZQOFU3M283R1pNbHpLbkNaZUR2b3ltS0NhSU9XQ2x3Ym5lWm8wZjlrOWoxRlM0ZjhqU0Rxb1Mtc19TUHBWakVaZ0Q5VzhLMnFpODdYV1JpRWZQdDBTMVAwM0pJZ3RNYVhkU3dPbEVJRzg3T2o5UmVQWjhLUzJpQjlqcURlSVFsOUxSX0NEbnl2dkVWTWd4MDRjbFp5?oc=5"
+        }
+      ],
+      "news_query": "Hsu Hsin-ying win Hsinchu County Magistrate election | Hsinchu County Magistrate Election Winner Hsu Hsin-ying",
+      "forecast": {
+        "probability": 0.58,
+        "reasoning": "Hsinchu County leans strongly toward the KMT, which makes its nominee Hsu Hsin-ying the natural favourite. However, reports say the KMT-TPP cooperation pact failed and factional rivalries have put the county in play. A late smear controversy around her campaign adds further uncertainty."
+      },
+      "bet": {
+        "side": "YES",
+        "price": 0.3168,
+        "top_price": 0.32,
+        "shares": 54.42,
+        "stake": 17.24,
+        "fee": 0.59,
+        "cost": 17.83,
+        "gap_pts": 26.0,
+        "edge_pts": 12.5,
+        "sized_on": 0.445,
+        "kelly_full": 0.1706,
+        "fill": "order book",
+        "levels": 2,
+        "scaled": 0.5746
+      },
+      "trade_snapshot": {
+        "time": "2026-11-28T00:30:45Z",
+        "crowd": 0.31,
+        "best_bid": 0.3,
+        "best_ask": 0.32,
+        "volume": 39703,
+        "liquidity": 57946,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Bought YES (AI's gap 26.0 points; 12.5 after cautious sizing). Scaled to 57% to fit the daily budget of $30.54."
+    },
+    {
+      "market_id": "6029246",
+      "event_id": "1232335",
+      "event_title": "Spain General Election: Badajoz Winner",
+      "option": "PP",
+      "question": "Will PP win the most seats in Badajoz in the 2026 Spanish general election?",
+      "rules": "Legislative elections to elect the 350 members of the Congress of Deputies of Spain are scheduled to take place on November 29, 2026.\n\nThis market will resolve according to the political party that wins the greatest number of seats in the Congress of Deputies of Spain in the constituency of Badajoz as a result of this election.\n\nIf the results of the specified election are not definitively known by November 30, 2027, 11:59 PM ET, this market will resolve to \"Other\".\n\nParties will be ranked by the number of seats won by their electoral lists (candidaturas) in the constituency of Badajoz, attributed as set out below. If two or more parties are tied on seats, ties will be broken by the total number of valid votes received by their lists in the constituency of Badajoz, with higher vote totals ranking higher. If parties remain tied, ties will be broken by alphabetical order of the listed party names. This market will resolve to the party that occupies the highest finishing position after applying this ranking.\n\nSeats and votes will be attributed according to the electoral list on which they were obtained, as reported in the official results, regardless of the party membership of individual candidates. Lists will be attributed as follows:\n\nPSOE: lists of the Spanish Socialist Workers' Party, including the Partit dels Socialistes de Catalunya (PSC) lists in Catalonia.\n\nPP: lists of the People's Party, including the joint UPN–PP list in Navarre.\n\nBroad Front (FA): all Broad Front lists, including Catalunya en Comú in Catalonia, Compromís–Valencian Front in the Valencian Community, and Canarian People’s Unity (UPC) in the Canary Islands.\n\nERC: Republican Left of Catalonia lists, including the joint ERC–Podem lists in Catalonia.\n\nPodemos: only lists presented by Podemos on its own.\n\nCCa: Canarian Coalition lists, including the joint CCa–1º CAN lists in the Canary Islands.\n\nAny other list will be attributed to the party or coalition that presents it, as named in the official proclamation of candidacies.\n\nElectoral cooperation, endorsements, coalition agreements, or subsequent changes in party affiliation or parliamentary-group membership will not be considered.\n\nThis market will resolve based on the results of the elections, as indicated by a consensus of credible reporting. In the case of ambiguity, this market will resolve solely based on the results as reported by the Spanish Ministry of the Interior (https://infoelectoral.interior.gob.es/).",
+      "topic": "Politics",
+      "end_date": "2026-11-30T04:59:00Z",
+      "url": "https://polymarket.com/event/spain-general-election-badajoz-winner",
+      "snapshot": {
+        "time": "2026-11-28T00:28:39Z",
+        "crowd": 0.62,
+        "best_bid": 0.61,
+        "best_ask": 0.63,
+        "volume": 10093,
+        "liquidity": 58895,
+        "fee_rate": 0.05
+      },
+      "news": [
+        {
+          "title": "General elections survey: Vox reaches 72 seats and maintains a majority of 192 deputies with the PP, according to YouGov",
+          "source": "Demócrata",
+          "published": "2026-11-14",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxORUhfYm9TSTRnVGV3SkRSZ1pURzdTM2F4bzZJMjZZU0pfaFhCbjRPUnFHaXJaS2FGSG1DbnRVUjVRQlR4b0ZmS0RMeVJGZTJYMVQzOWluZ2JSekZfb3JKVzdPUGxVUERKc0VfMEpzM1hzTjZvSjR3SG44cV9kZW9yMk5WV051TlJoTC1HTkRicFZVNzV2c1hocW9zRk14ZTZkTnJ0UFJmeVowRG9salg4NWVvY2NwSGpYc0hLN3R1VzdYSzZLdkNtb2M1ODdoMEEydEhzckxDNEJSYWM5QjVjOEppQWxyY3pjMkpDaW9nQnpzVDF1ekdqa2p5cjB3cEhy0gGGAkFVX3lxTE5HbUt6OUZqU2lWcGxTNVgycExzOGxvZm9ySzdZTXFRUW5SNEZGem9rWUZTQk5hU081LU5tVEJXUWRrMjYxY19KT3NOQVI3Q2RFdThCZDVVSzBuR1ZpUlpabjd5ZkNPRGF4LWVZSDVYSEVFeHpPZS1vYlFES1U3MHdEb2F1U1JCR3VMd1ptWE5XZFRDWlBrcm5qUktmSUNENV9IaEpZUHpPTDEybHJfSVd2T0RRMmc2UmpMZlRFNlktWF9fbHNwdzllOHYtYjdVYjFIUks2M3l4MVptbng3YkZHUlplVEhxcGU3cEJ1Yy0tYkpCNzhMMzYta2lpckFwSDRnajhSdXc?oc=5"
+        },
+        {
+          "title": "General elections poll: the PP wins the eight seats it loses Vox since October, and the right adds 195",
+          "source": "Demócrata",
+          "published": "2026-11-23",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxPNTZsLWxhSDFvUXBic0U0V2NCdllZaE83OWlmMEMzZ2NzY2lQSFJhMEdDb1plLWNHeDd2YXhPbUt6Q0lrdnZkREdWd1lwRzd3bVRnMGVBM2poaDYwUVg1MHVFVzE0djV4RVNzeHFpX2cxRE5nN1ZROS1fRmZWcnJOOXRSMnk5bmJZSlY5TmpoOXNTZm1IZ1RNaWNNQlJHWXN0dlJUZlhGNFlNeGtzLXhJX1NJYTBxWXRHYzRxb2trajZJQm1ob3A4b1dWUFZrU09zaGJnX0J5blp4YzJNaDM2dGFEWTM5VFNzcE54NEs4MU14Y2tzNVVseGdoelFOcnoyQjhoUGRGWWVHaldiSTJVWXZfQdIBmAJBVV95cUxONVlES0hQXzMtWEFLbWM4UktxTm1VM3k2RjU0MUs1RllBVkktUTlfS2VjWDRmYnU0V3I1NUw2RjJfdExTUTR3YUhFektEVDh0anBxSlFRYmM5TE9fTkQ5TXRybWlBRG9MS3c0aXJadTVTMlhOV1dRTHJEeDhseGNpX1R6QWZ1ZnRtZzNUUTVjRmh6aWNqNXJEZ0pqTTJJYW9qOHMtMkl3TkhuTGVYUWZkaVhiWnNac3habWkzX09FVHRoVlRUbjZKSTJTTTBZUVlaa1FHQ3FUVV9UamRfa1RFb2xBYUxHVE44VXd3SUV2a1lpa2lRZ3VpZHN1dHVrZDJrbUFsWW9hLTFRdXhCMlE5ZG5uZWhDWVdV?oc=5"
+        }
+      ],
+      "news_query": "PP win seats Badajoz Spanish general election | Spain General Election Badajoz Winner PP",
+      "forecast": {
+        "probability": 0.72,
+        "reasoning": "Badajoz elects only about five deputies, so a 2-2-1 seat split is likely, with ties broken by vote totals. National polls show the PP well ahead of the PSOE, and the PP won Extremadura decisively in the 2025 regional election. That makes the PP likely to out-poll the PSOE even in this historically Socialist province."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-28T00:30:46Z",
+        "crowd": 0.62,
+        "best_bid": 0.61,
+        "best_ask": 0.63,
+        "volume": 10093,
+        "liquidity": 58707,
+        "fee_rate": 0.05
+      },
+      "bet_note": "Gap vs. the price we'd pay is 9.0 points; counting only part of it (cautious sizing) leaves 4.0, under the 10-point minimum."
+    },
+    {
+      "market_id": "7004034",
+      "event_id": "1376034",
+      "event_title": "November Inflation US - Annual",
+      "option": "3.8%",
+      "question": "Will annual inflation be 3.8% in November?",
+      "rules": "This is a market about inflation over the 12-month period ending November 2026, before seasonal adjustment, as reported by the Bureau of Labor Statistics.\n\nThis market will resolve to the percentage change in the Consumer Price Index (CPI) over the 12-month period ending in November 2026 according to the monthly Bureau of Labor Statistics (BLS) report.\n\nThe resolution source for this market will be the BLS Consumer Price Index report released for November 2026 (https://www.bls.gov/bls/news-release/cpi.htm), currently scheduled to be released on December 10, 2026, at 8:30 AM ET. Resolution of this market will take place upon release of the aforementioned data.\n\nNote: the resolution source for this market will be the official monthly BLS CPI news release, which reports inflation over 12-month periods to only one decimal point (e.g., 2.9%). Thus, this is the level of precision that will be used when resolving the market.\n\nIf the BLS does not release the relevant figures on the scheduled date, this market may remain open up until the scheduled release time of the next CPI report (https://www.bls.gov/schedule). If the information is not released by that time, this market will resolve according to the figures of the most recent previous month with available data.",
+      "topic": "Economy",
+      "end_date": "2026-12-10T13:30:00Z",
+      "url": "https://polymarket.com/event/november-inflation-us-annual",
+      "snapshot": {
+        "time": "2026-11-28T00:28:39Z",
+        "crowd": 0.235,
+        "best_bid": 0.23,
+        "best_ask": 0.24,
+        "volume": 11207,
+        "liquidity": 9367,
+        "fee_rate": 0.01
+      },
+      "news": [
+        {
+          "title": "Canada's annual inflation rate held steady at 3.1% in October",
+          "source": "Reuters",
+          "published": "2026-11-17",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOLVY4ZGtuZ09kdEFJUHJfTXhxTC1lY3pqNjdqQnVXUEcxdHNDRUxtXzJqbk5BWE9LSDB0OElZdGJReWtfYjdCRGFKSkU3TkktX0hDTVNhWUt0dFIzWDhkdGJLbUxZeE1hOC1QVllSZy1pZl9FajJuWjVBRlBZZFBDd3FIQ09DdF8weHBXZGFkMU1PbDVfZHA2M2pZbTBzYkpNdlE0ZDhB?oc=5"
+        },
+        {
+          "title": "U.S. Inflation Rate Is 3.7%: Why It Matters",
+          "source": "NerdWallet",
+          "published": "2026-11-25",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5Za3phOE0tNW9aSnJBY1BuMVVxTW43ZzhnUWVqUlE0cWxLNnktQjRiZC1nR0VwVnVHaDdxRUIwRGNjMDZuVW5CVFZPV1BtUjJhSlZYV3FnTUU0V2doMzRB?oc=5"
+        },
+        {
+          "title": "Fed’s preferred inflation gauge accelerated to 3.8% in October, raising the 2027 stakes for the central bank",
+          "source": "CNBC",
+          "published": "2026-11-25",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1SREI2WkZTZTJWN0daalVYUlBFRVAtcUNzY3BybGN3dnJCUU1OR2dVRkNXMDRMWmtISWZSSkdNeFNGdm4xc2ZveGtVMmtnUFFqanhXbmhhcktZUWRrM1BpVUE0OU5ZNnNTOENfVDhoTmdWQWxNZGlFbXFR0gF_QVVfeXFMTmFSS3ViODJ4VUhoUF9pUHJwRldEZTlzTHoxRWt3djJQZGJLZ2R4dG9MSk9KaEZtbUp1a1ZwZjNMS0VJbDIyTldzcTlTblFKaWZ5LXJ0UXRMZERRbHNUZDdNYzV5UzVSV0pJYUhoVFh2T1psRElLZFlNUEVnUnBMaw?oc=5"
+        },
+        {
+          "title": "Turkey’s annual food inflation reaches 31 percent, think tank says",
+          "source": "Turkish Minute",
+          "published": "2026-11-25",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdVVLNUVkaXFGWlhsd21GMEQ3M0RfZ1pYU2gzZmEyck5LOUN0U3VvVkhyM2xfMkJMaThCcHppWms4MVdMc1VXUjVaZUNkUGVZWHh4SDBXSmRHTkZCOXZnYzJfX2tYRUdaeDc2SFIwM1dpNFRSTzF3RlJHaTAteGNqbGNVeGJQZGZiVTU4eFJid3NFQnNiaTlrN0piM3cwbGpkRVMyYkpWWFctQdIBrwFBVV95cUxNQVZkNl9Gd0hFWXhQZUFwR1YtUmtGTWdHVGczTWg1VlBiX3FDMjl6UDZfbXpZNWhNR2xCaC1CbnlPa0VZTXdDRGVGSW1Ob19Jc1pCd2F3ODY0TThxUVZteFpfbEMtM2dFLVMzSDhXYktyZmJOTHlETkNGYURfOC0zSkVLaFFOM0QtQi1WMElHaVRTNjF5a09DN0djQWtLWHRhMnhsY0hvcDJ3cS1rN3dn?oc=5"
+        },
+        {
+          "title": "What to Expect From November’s Eurozone Inflation Data",
+          "source": "Morningstar",
+          "published": "2026-11-26",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNZEh0Zi1nNTJBUmNpSkpQdkdnMGRLVEZvRXFNaXp2WTZKNWxHRDd4MHpxd2ZpeGhBVUJydUg2bXY5eEFDblV5WlB5ZzY4QnQ5R21ZZERDOFlNUlRoMnJlLTBuQlZfRVk3eVFWVldEYjVWTHhxUXM1TGF2OFlBTWVqd281Mms0YWVrR3c1bk1KY1VWU1kx?oc=5"
+        },
+        {
+          "title": "Autumn Economic Forecast: continued growth amid higher inflation",
+          "source": "European Commission",
+          "published": "2026-11-17",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPa0VMWG53TXRKR2pNeVZEWnhMeVUwNkdCTTE1SFF5bDJGU3o1VFdvUHpMdDNTd1lLeTF0UnVwZEhzcWhPYTJHLUZMVTVEUjV1YWd4WlhKWndidWNVQk9YWV83bTlHNEpmeV9xUm1SRnB5TmRCNENQNXlMQ0pYWjR0Q0Z6SEZBMFhPZ1hucEhWM3JlRGFpQjFxQXpZRzV4T19JMzZTSnNvNU9Pd2NTZGFjUUlsZHlGcVllelF6RlhRSFI3NHBl?oc=5"
+        }
+      ],
+      "news_query": "annual inflation | annual inflation November economists forecast",
+      "forecast": {
+        "probability": 0.3,
+        "reasoning": "October's annual CPI inflation was 3.7%. November 2025's price level was artificially depressed by data gaps from the government shutdown, which should push the November 2026 annual rate up. That makes 3.8% or 3.9% the most likely outcomes, and 3.8% is a single 0.1-point bucket with meaningful probability either side."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-28T00:30:46Z",
+        "crowd": 0.235,
+        "best_bid": 0.23,
+        "best_ask": 0.24,
+        "volume": 11207,
+        "liquidity": 9383,
+        "fee_rate": 0.01
+      },
+      "bet_note": "Gap vs. the price we'd pay is 6.0 points; counting only part of it (cautious sizing) leaves 2.8, under the 10-point minimum."
+    },
+    {
+      "market_id": "5166834",
+      "event_id": "1111184",
+      "event_title": "GPU rental prices (B200) end of November?",
+      "option": "$8.50-$9.00",
+      "question": "Will the Ornn B200 Index be between $8.50 and $9.00 on November 30, 2026?",
+      "rules": "This market will resolve according to the finalized Ornn B200 Index price for November 30, 2026.\n\nIf the recorded data falls exactly between two brackets, this market will resolve to the higher bracket.\n\nThe resolution source for this market is Ornnai.com (ornnai.com), specifically, the B200 Index chart data available at https://dashboard.ornnai.com. The specified finalized daily value shown on the chart will be used for resolution. Daily data will be considered finalized once the following day’s data point is published.\n\nResolution will occur once the specified data point is finalized. If the relevant data is not finalized by the end of the 7th calendar day after the specified date (ET), this market will resolve according to the latest data available at that time. Revisions made after the relevant figure has been finalized will not be considered.",
+      "topic": "Tech",
+      "end_date": "2026-12-01T04:59:00Z",
+      "url": "https://polymarket.com/event/gpu-rental-prices-b200-end-of-november",
+      "snapshot": {
+        "time": "2026-11-28T00:28:39Z",
+        "crowd": 0.0675,
+        "best_bid": 0.065,
+        "best_ask": 0.07,
+        "volume": 12669,
+        "liquidity": 4453,
+        "fee_rate": 0.0
+      },
+      "news": [
+        {
+          "title": "CoinShares Says GPU Financing Needs A Compute Price Benchmark Before Debt Can Scale",
+          "source": "OneBullEx",
+          "published": "2026-11-26",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPRm1oX3kwbHMwVkdmd3ZpMlF6US1MZ3UxdzdJZFhINFFKT2RGZlFVUFdtX2d6MEFfM2lRSmgtX0xaTTFOUXRRODRpX0ZlOVBpY0pMYVRmT05uNDVXU3dzcktvUUctNW0tZFNpMG4wZjJ4UnA0NUxobGc5RDBSaVFKUUVpTXpId3NCbkp4ZGZNSmZxRlJva3hXbUZsTVU2QnZ0NUlTSTY0eHYxVjVpM0d2d2FvLWdLb0pTY05ZZzc4aDY?oc=5"
+        },
+        {
+          "title": "Nvidia GPU Rental Prices Lose Upward Momentum; Neocloud Stocks Plunge on Oversupply Fears",
+          "source": "BigGo Finance",
+          "published": "2026-11-25",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBzREc3UUZlXzRGQUFtRzR0SC05YWpLQ204N0hwZnJ5Sy15V2dtUzV5TU03NnBLVFJwU3JhTHdqUm5vdElVRmR0N1NSSDFWSVZZRXpqcXpaY3FUU0R4VDJ5dklqYXFkWE9GNE5MNTAtTmJjbnhFamc?oc=5"
+        },
+        {
+          "title": "GPU prices are rising for Nvidia's older chips even as the stock keeps going down: Chart of the Day",
+          "source": "Yahoo Finance",
+          "published": "2026-11-22",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPbmNXRjNhZUdxb2NzZG03T1VJOFdieU1vTWwwNllJRGV3N0h5ei1ZRldwTk5TNmFFSzNFblhCdnVhcFowOXlNZm54a29aeTJEOFJhUU03Z0ZTUU5Hc0doOF8xOE0tcDhlQjBIQ0o5R3p6dFo3eEdwQVFJQUU3bktTSUFDUzl6R2N6a096SGdOejhGdmhFQkRFZS1YMnpNUHpiSDdYU3VNdWloR3g0WFNtM2h0RmxjMUFwU0JUX0ZLa01IdEJZelBUMWdmbEpYVWJLR3ZzdWYwcExNWjJWVjZqNjdNeG9iTjBMcUE?oc=5"
+        },
+        {
+          "title": "SpaceX Reportedly Slashes Blackwell GPU Spot Rental Prices To $10–12/Hour, As Anthropic Dithers On Renewing Its Compute Contract For ~50,000 H200s",
+          "source": "Wccftech",
+          "published": "2026-11-25",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNdC11SzhlUWgwM2t4UWhyNGpaMUtTV0JrRElhcTRac2Vxd3BqTmJtaTlWQkVKOC1XRFBIcjVvZU4yRlRCeWFRTzZrWDBBREg1d3RPdVlmY3ZPWXNmUjR5aWduZWxkdkJjTW1QMzZfZk9lWlN5dVo0ZGpMOTh1NTZ3VDVMVXJNZnFhMXpfb003WWhtTWxkUVBlRDM2YkdPM3ZCZURKT1N3T1RLMnlKcHVYSW1sazBrWUtxbV9WdVJqSk5PZ2MwSjllMmhrZ3F3dHV1bTA5M295WlhIYzE4WDNsVExZTDItN0lyY3NtU1ZCSnkwOGNFM1k00gH8AUFVX3lxTE43MWtLSVRDTkZhUVJ2R1B4N1lMbkUwZmdQY25FTnB2NFBFazRyYjAtbkNZYjhUYWNaRTg5eW1lUEJ5elhUVXU3T1VCVV92UkRkcU1fWGxpNHY4cnVCdWlOaG5NUHVFQjIxVWN0cjFWd0FPYjVMeENxOWVCSDM1ODFTSW11ZHRGYVB5ZGVRVXREbzJ6bzdra2JHWWwxYVFjaWJKVUZoT2RmMnpCMjRuR0hQcEJXdVBONG9SMVlfZ3Z2aW83NThxM3o1SHlnMk9mYjdJM3BQYXE2X0h3aUtLeTJYUllqa1JWRTRsNTFQSzRHVUUxUXhKNnhvTEdkbA?oc=5"
+        },
+        {
+          "title": "SpaceX reportedly slashes Blackwell GPU rents as Anthropic hands back 50,000 H200s",
+          "source": "Crypto Briefing",
+          "published": "2026-11-25",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWFpUVWJYRjdsSnpDS0xSVTBzVFdZYWpaMGtMY0pzbmdaN2dqOUdZSENjU0xubTFJVWhRMlBqaThYVElmcnB0SXRlNVJ4NW0yN0FhSmhDZmF6MEQzQWM5bF8zcTU2aU1jNzhGV1NJeDI3Y0VwN0d0amxhSHdZbGdLSnJYT1MwQ0JjcUhJZTVYbUhSdUlWaVNJNlprdTZEelZnVEFaa1Zn?oc=5"
+        },
+        {
+          "title": "Elon Musk's SpaceX Slashes Nvidia Blackwell GPU Rental Rates by Up to 35%, While Anthropic May Not Renew",
+          "source": "Benzinga",
+          "published": "2026-11-27",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNUnRjV1lYTVBCWnRfSXB3VnVId1l4N0I1TGs5NWFQVWVJdnZxVEZNaURyeHNDUWducE1ZTVdvMk5hdnp4RkpNZWI4RXNDcXdTeThnc21Qd0RhS1FCdnl0Tk9tdC1WUDkyUkFvcktsX2dXajNGazlsZ3J6eVdSVjM5Y0ZDbGNiNFI4dHo2YV9nVkJFaDFtTHpIUUlQSjlMZmhNYjhGTzJGOHJKUkxYbEFMSlJTOUpIVjJCbXpPaWdkanFNRXhTQkRYc015cFN6OVJuc3ZNZ1RabzdpXzc4QW5pZmczUjUxdGdLNlpZVGJ3WTdqUHNFa0NwdlJWOVdETnYt?oc=5"
+        }
+      ],
+      "news_query": "Ornn Index | GPU rental prices",
+      "forecast": {
+        "probability": 0.25,
+        "reasoning": "This is a narrow 50-cent bracket for an index whose current level I can't see directly. The bracket choice suggests prices are near this range. Recent news points to softening Blackwell rental prices, including SpaceX cutting rates and reports of oversupply, which adds downside drift risk."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-28T00:30:46Z",
+        "crowd": 0.0675,
+        "best_bid": 0.065,
+        "best_ask": 0.07,
+        "volume": 12669,
+        "liquidity": 4453,
+        "fee_rate": 0.0
+      },
+      "bet_note": "Gap vs. the price we'd pay is 18.0 points; counting only part of it (cautious sizing) leaves 8.9, under the 10-point minimum."
+    },
+    {
+      "market_id": "6937481",
+      "event_id": "1357780",
+      "event_title": "November Unemployment Rate",
+      "option": "4.1%",
+      "question": "Will the November 2026 unemployment rate be 4.1%?",
+      "rules": "This market will resolve according to the seasonally adjusted unemployment rate (total unemployed, as a percent of the civilian labor force, official unemployment rate denoted as U-3) reported by the Bureau of Labor Statistics in the Employment Situation Report for November 2026.\n\nThe resolution source for this market is the Monthly Employment Situation Report, published by the BLS every month at https://www.bls.gov/bls/news-release/empsit.htm, specifically the U-3 measure in Table A-15 for the month in question.\n\nThe relevant data release is scheduled for December 4, 2026, at 8:30 AM ET. This market will resolve as soon as the relevant data is issued. Any revisions to the data after the first release will not count toward this market's resolution.\n\nIf no data for the specified month is released by the date the next month's data is scheduled to be released, this market will resolve based on data from the last available month.\n\nNote: the resolution source for this market reports unemployment to one decimal point. Thus, this is the level of precision that will be used when resolving the market.",
+      "topic": "Economy",
+      "end_date": "2026-12-04T13:30:00Z",
+      "url": "https://polymarket.com/event/november-unemployment-rate-2026",
+      "snapshot": {
+        "time": "2026-11-28T00:28:39Z",
+        "crowd": 0.395,
+        "best_bid": 0.38,
+        "best_ask": 0.41,
+        "volume": 10093,
+        "liquidity": 5862,
+        "fee_rate": 0.01
+      },
+      "news": [
+        {
+          "title": "Iowa’s Unemployment Rate Increases to 3.3 Percent in October",
+          "source": "Iowa Workforce Development (.gov)",
+          "published": "2026-11-19",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPSzFIOS1BUVhQSVJxWXlZMktlaXZaN04zUEhIVW9kdXhlcGU0TmNGME16WXozSElld2llb1R3YVJrVDMyQU40Uk02VFE5eGs2S3VZUHZrZ0ZXVGtmUlRWazRUcXM2dDlDQnFSbHBla1Z5dmdKU08yTDlabzJmWDY3R1FGUVdmaWZlZml0OENVSWRvbl90QkZtZVcwYmJ4cE1IMzRJWFF5Zw?oc=5"
+        },
+        {
+          "title": "Tennessee Maintains Low 3.4% Unemployment Rate",
+          "source": "TN.gov",
+          "published": "2026-11-19",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZFA3NDRBNFNweFVmTUZGUUhhMG14RnVyWG8yVHBSZTZvemRiYkY2YXhnTm45OUg2YVh1bDNsOUNVVHRPYmx0ZTd3S1E5SkhmSkhja0w2anFsOERCUWFOdXBaNFBlMk9KUGoteDF0em1UdmlUcTAxeHNGQ3Fhcm9OWkpLTzUyQlJ2bWFVbDQ3NUlTWXpfTWppeGkxd2hJZTFmSWtHdjh3eU4yVm5LRDI2cGQ3cw?oc=5"
+        },
+        {
+          "title": "Massachusetts Gains Jobs, Unemployment Rate Drops, and Labor Force Continues to Grow in October",
+          "source": "Mass.gov",
+          "published": "2026-11-20",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPQlptelRZSmgzaFlrcWtkWW1XU2JsT2NKVVg4MG1KM3loVFJGV3NJRzNNTk5TUVpPaEl3V0V5UjdOdUVPMExoVEpvUHhjNVdaOEEwV0k2RW05Z3ZLclUtVnEwMk1ET1Y3YzlMVjdhdE5DWUNHaDBzY0RQaGpHMUJsS0VEa1Zuc01RaVFIdmdiVi1aU1dPNUVjaEw5ZFJJVV9YSzhOdWZNWS1KSTU3VmhFTW5LZF9hYXBFRWg0?oc=5"
+        },
+        {
+          "title": "Is the Real Unemployment Rate 10%?-2015-11-14",
+          "source": "Committee for a Responsible Federal Budget",
+          "published": "2026-11-14",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5PWHloRmh3VW94d1ZILU9jUFB6djVCaVN5MHVEVHYtTnlTcms2LUZSOWphNHRnaVU5MFlSblYtZ3VGb3JXZ2o5OTBUTDZzZ2o3TDBJQXluZ01sWkJpTGRNZVVR?oc=5"
+        },
+        {
+          "title": "Current Unemployment Rate and Other Jobs Report Findings",
+          "source": "NerdWallet",
+          "published": "2026-11-19",
+          "summary": "",
+          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9JdEdTUzhPeGpkMkFPVzhRSHpscFpOQUxiSHRPb1FYdkxwVlB6X3l5eDlNaG05RHVyRHJyOW9FaE1kRVdkOEhsLUQzYUFRYlFRN05JSUIyUXVaT2JWR1VTTS02RUZzZ3VSSDZoNVNPbDRwMlJuNW5zc2l3?oc=5"
+        }
+      ],
+      "news_query": "unemployment rate | November unemployment rate economists forecast",
+      "forecast": {
+        "probability": 0.27,
+        "reasoning": "This is a single 0.1-point bucket for the unemployment rate, which typically moves by 0.0 to 0.1 points a month. The rate was around 4.4–4.6% in late 2025 and has likely drifted lower since, but I lack October's exact figure. I give 4.1% a moderate share of the probability, as one of several plausible nearby values."
+      },
+      "bet": null,
+      "trade_snapshot": {
+        "time": "2026-11-28T00:30:46Z",
+        "crowd": 0.395,
+        "best_bid": 0.38,
+        "best_ask": 0.41,
+        "volume": 10093,
+        "liquidity": 6072,
+        "fee_rate": 0.01
+      },
+      "bet_note": "Gap vs. the price we'd pay is 11.0 points; counting only part of it (cautious sizing) leaves 4.8, under the 10-point minimum."
+    }
+  ],
+  "batch_id": "msgbatch_01Qr3NbwiYJuQt5wwsViz7EW",
+  "forecast_at": "2026-11-28T00:30:45Z",
+  "usage": {
+    "input_tokens": 6713,
+    "output_tokens": 3212
+  },
+  "cost_usd": 0.0455,
+  "budget": 30.54,
+  "account": "phase-1.2"
+}
